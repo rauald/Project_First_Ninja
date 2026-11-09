@@ -33,14 +33,14 @@
 - public 변수는 파스칼 표기법을 사용한다.
     - 전역변수 public → ThisIsCollectJellies
 
-- 매개변수는 파스칼 표기법을 사용한다.
+- 매개변수는 카멜 표기법을 사용한다.
     - 매개변수 public void ThisCollectJellies(int index)
 
 - 메서드의 이름은 파스칼 표기법을 사용하며, 동사(명령형) + 명사(목적어)의 형태로 짓는다.
     - 명사 부분에 여러개가 들어간다면, 누가 - 무엇을 - 왜 순서로 작성한다.
         - ex) GetJelliesSkinCost → Get 젤리 스킨 가격
 
-- Bool 값은 앞에 is, has, can 의 접두사를 붙인 카멜 표기법을 사용한다.
+- bool 이름에는 의미에 맞게 is, has, can을 사용한다. 대소문자와 밑줄은 선언 위치의 명명 규칙을 따른다.
     - is 사용법
         - 어떤 상태인지를 구별한다.
             - ex) isDead → 죽은 상태인가?
@@ -54,20 +54,19 @@
         - 조건을 만족했는지 구별한다.
             - ex) canJump →  점프할 수 있는가?
 
-- 상수 이름은 모두 스크림  스네이크 표기법을 사용한다.
-    - ex) const string THIS_IS_COLLECT_JELLIES = “젤리 수집”
+- 상수 이름은 모두 스크림 스네이크 표기법을 사용한다.
+    - ex) private const string ITEM_NAME = "젤리 수집";
 
-- 참조 타입은 클래스는 readonly 를 사용한다.
-    - ex) public static readonly JelliesData {}
+- 초기화 후 재할당할 필요가 없는 필드에는 readonly를 사용한다.
+    - ex) private readonly List<int> _collectedIds = new List<int>();
 
-- switch 문에는 언제나 default: 케이스를 넣는다. 
-    - ex) switch 문에서 default: 케이스가 절대 실행될 일이 없는 경우, Debug.LogError(“**이 실행되지 않았습니다.) 를 추가한다.
+- 지원하지 않는 입력을 별도로 처리해야 할 때 default 분기를 작성한다.
 
 - Enum 문은 모든 곳에 Type 을 뒤에 붙이고, 첫 부분에 None = -1, 마지막에 Max 를 넣는다.
     - Max 를 넣는 이유는 enum 의 최대 길이를 알기 위함이다.
-        - ex) public enum JelliesSkinType {}
+        - ex) public enum JelliesSkinType { None = -1, Basic = 0, Max }
 
-- 모든 캐싱은 Awake 에서 처리한다.
+- Awake에서 접근 가능한 자체 컴포넌트는 Awake에서 참조를 설정할 수 있다. 나중에 생성되거나 주입되는 참조는 해당 초기화 흐름에서 설정한다.
 
 -  if 문 만족시 바로 return 할 경우 같은 줄이 아닌 다음 줄에 return; 을 적는다.
     - 유니티 c# 코드 읽기 오류로 가끔 같은 줄에 있는 return 을 못 읽고 넘어가는 오류가 있다.
