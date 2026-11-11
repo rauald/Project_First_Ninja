@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 9c424c26c1789114e8d8bbd383379599
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8274657855214188444
+    second: Monster_Deer_Attack_0
+  - first:
+      213: -8326237159498560652
+    second: Monster_Deer_Attack_1
+  - first:
+      213: -9004791474342936662
+    second: Monster_Deer_Attack_2
+  - first:
+      213: -9086099684168299094
+    second: Monster_Deer_Attack_3
+  - first:
+      213: -1006809965765540521
+    second: Monster_Deer_Attack_4
+  - first:
+      213: 169038697555730787
+    second: Monster_Deer_Attack_5
+  - first:
+      213: 7567124596120641302
+    second: Monster_Deer_Attack_6
+  - first:
+      213: 4337537194986576607
+    second: Monster_Deer_Attack_7
+  - first:
+      213: -6338070473723465258
+    second: Monster_Deer_Attack_8
+  - first:
+      213: 6326351300085951330
+    second: Monster_Deer_Attack_9
+  - first:
+      213: 3633073493505532677
+    second: Monster_Deer_Attack_10
+  - first:
+      213: 6623107355796330801
+    second: Monster_Deer_Attack_11
+  - first:
+      213: 3522557596542380883
+    second: Monster_Deer_Attack_12
+  - first:
+      213: -3714239434483300020
+    second: Monster_Deer_Attack_13
+  - first:
+      213: -2248459637202320984
+    second: Monster_Deer_Attack_14
+  - first:
+      213: -6662977654577560184
+    second: Monster_Deer_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 767
+        width: 135
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468001e85828a2d80800000000000000
+      internalID: -8274657855214188444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 767
+        width: 147
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b4e60fa63437c80800000000000000
+      internalID: -8326237159498560652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 767
+        width: 157
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafb25f0ddd880380800000000000000
+      internalID: -9004791474342936662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 767
+        width: 165
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad0c5b3a70b7e180800000000000000
+      internalID: -9086099684168299094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 511
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755c832aba71702f0800000000000000
+      internalID: -1006809965765540521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 511
+        width: 172
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361aa11cccb885200800000000000000
+      internalID: 169038697555730787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 511
+        width: 174
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f54e25ab3d30960800000000000000
+      internalID: 7567124596120641302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 511
+        width: 181
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda183bf817023c30800000000000000
+      internalID: 4337537194986576607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 255
+        width: 173
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d132541c76aa08a0800000000000000
+      internalID: -6338070473723465258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 255
+        width: 150
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b24fd2df6bbc750800000000000000
+      internalID: 6326351300085951330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 255
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e84fe7154b6230800000000000000
+      internalID: 3633073493505532677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 255
+        width: 136
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1395483ac010aeb50800000000000000
+      internalID: 6623107355796330801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 144
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b23c28873a2e030800000000000000
+      internalID: 3522557596542380883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 147
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4900e8c9ee547cc0800000000000000
+      internalID: -3714239434483300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 147
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a180c07fdddbc0e0800000000000000
+      internalID: -2248459637202320984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 0
+        width: 148
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8850a8800295883a0800000000000000
+      internalID: -6662977654577560184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Deer_Attack_0: -8274657855214188444
+      Monster_Deer_Attack_1: -8326237159498560652
+      Monster_Deer_Attack_10: 3633073493505532677
+      Monster_Deer_Attack_11: 6623107355796330801
+      Monster_Deer_Attack_12: 3522557596542380883
+      Monster_Deer_Attack_13: -3714239434483300020
+      Monster_Deer_Attack_14: -2248459637202320984
+      Monster_Deer_Attack_15: -6662977654577560184
+      Monster_Deer_Attack_2: -9004791474342936662
+      Monster_Deer_Attack_3: -9086099684168299094
+      Monster_Deer_Attack_4: -1006809965765540521
+      Monster_Deer_Attack_5: 169038697555730787
+      Monster_Deer_Attack_6: 7567124596120641302
+      Monster_Deer_Attack_7: 4337537194986576607
+      Monster_Deer_Attack_8: -6338070473723465258
+      Monster_Deer_Attack_9: 6326351300085951330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

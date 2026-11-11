@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: acfd54f859b91cc4b945c8dab8109bbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2312245892770402851
+    second: Monster_ElderGoblin_Death_0
+  - first:
+      213: -2039719338126687052
+    second: Monster_ElderGoblin_Death_1
+  - first:
+      213: -5326919298650547792
+    second: Monster_ElderGoblin_Death_2
+  - first:
+      213: 8031284776862479823
+    second: Monster_ElderGoblin_Death_3
+  - first:
+      213: 1626883941988556718
+    second: Monster_ElderGoblin_Death_4
+  - first:
+      213: -1647904555960861206
+    second: Monster_ElderGoblin_Death_5
+  - first:
+      213: -8019026995650302838
+    second: Monster_ElderGoblin_Death_6
+  - first:
+      213: 2312460262188317736
+    second: Monster_ElderGoblin_Death_7
+  - first:
+      213: -6001831962241620076
+    second: Monster_ElderGoblin_Death_8
+  - first:
+      213: 8161644567563521402
+    second: Monster_ElderGoblin_Death_9
+  - first:
+      213: -6690160544900831416
+    second: Monster_ElderGoblin_Death_10
+  - first:
+      213: 4174708579628890446
+    second: Monster_ElderGoblin_Death_11
+  - first:
+      213: -4241308324040471590
+    second: Monster_ElderGoblin_Death_12
+  - first:
+      213: -2838095296431587941
+    second: Monster_ElderGoblin_Death_13
+  - first:
+      213: 5344235903137231373
+    second: Monster_ElderGoblin_Death_14
+  - first:
+      213: 6782278903516866373
+    second: Monster_ElderGoblin_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 767
+        width: 172
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd60108c9049efd0800000000000000
+      internalID: -2312245892770402851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 767
+        width: 174
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4c671a11671b3e0800000000000000
+      internalID: -2039719338126687052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_2
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 767
+        width: 174
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9d2c00f1bf216b0800000000000000
+      internalID: -5326919298650547792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 767
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5f3e6f3fad47f60800000000000000
+      internalID: 8031284776862479823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 511
+        width: 176
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafd30d535ad39610800000000000000
+      internalID: 1626883941988556718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 511
+        width: 174
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed743e89877129e0800000000000000
+      internalID: -1647904555960861206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 511
+        width: 174
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ceeff1f61b6b090800000000000000
+      internalID: -8019026995650302838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 511
+        width: 185
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf0f44b52871020800000000000000
+      internalID: 2312460262188317736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 184
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497a00121a535bca0800000000000000
+      internalID: -6001831962241620076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 255
+        width: 192
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dce90fd7cf34170800000000000000
+      internalID: 8161644567563521402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_10
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 255
+        width: 201
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472ade2e66c723a0800000000000000
+      internalID: -6690160544900831416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 255
+        width: 215
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e493e89a55b8fe930800000000000000
+      internalID: 4174708579628890446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 214
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb09aafc88d325c0800000000000000
+      internalID: -4241308324040471590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 213
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dfc716d5f0d98d0800000000000000
+      internalID: -2838095296431587941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 214
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02326a2d3a8a2a40800000000000000
+      internalID: 5344235903137231373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Death_15
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 0
+        width: 214
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547afbb8abe7f1e50800000000000000
+      internalID: 6782278903516866373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_ElderGoblin_Death_0: -2312245892770402851
+      Monster_ElderGoblin_Death_1: -2039719338126687052
+      Monster_ElderGoblin_Death_10: -6690160544900831416
+      Monster_ElderGoblin_Death_11: 4174708579628890446
+      Monster_ElderGoblin_Death_12: -4241308324040471590
+      Monster_ElderGoblin_Death_13: -2838095296431587941
+      Monster_ElderGoblin_Death_14: 5344235903137231373
+      Monster_ElderGoblin_Death_15: 6782278903516866373
+      Monster_ElderGoblin_Death_2: -5326919298650547792
+      Monster_ElderGoblin_Death_3: 8031284776862479823
+      Monster_ElderGoblin_Death_4: 1626883941988556718
+      Monster_ElderGoblin_Death_5: -1647904555960861206
+      Monster_ElderGoblin_Death_6: -8019026995650302838
+      Monster_ElderGoblin_Death_7: 2312460262188317736
+      Monster_ElderGoblin_Death_8: -6001831962241620076
+      Monster_ElderGoblin_Death_9: 8161644567563521402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

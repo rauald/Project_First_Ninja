@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 8f3abd502298cd948928f54c369f0e10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4586703923550771827
+    second: Ninja_Battle_Idle_Right_16f_v1_0
+  - first:
+      213: 4286724656985797049
+    second: Ninja_Battle_Idle_Right_16f_v1_1
+  - first:
+      213: 3025899667874873810
+    second: Ninja_Battle_Idle_Right_16f_v1_2
+  - first:
+      213: -7387593546477856925
+    second: Ninja_Battle_Idle_Right_16f_v1_3
+  - first:
+      213: -4778571196473093091
+    second: Ninja_Battle_Idle_Right_16f_v1_4
+  - first:
+      213: -4934645799530942889
+    second: Ninja_Battle_Idle_Right_16f_v1_5
+  - first:
+      213: -100361462331122514
+    second: Ninja_Battle_Idle_Right_16f_v1_6
+  - first:
+      213: 403970096315310510
+    second: Ninja_Battle_Idle_Right_16f_v1_7
+  - first:
+      213: -4401392684802742242
+    second: Ninja_Battle_Idle_Right_16f_v1_8
+  - first:
+      213: 8019957840467764943
+    second: Ninja_Battle_Idle_Right_16f_v1_9
+  - first:
+      213: 8642726975766940909
+    second: Ninja_Battle_Idle_Right_16f_v1_10
+  - first:
+      213: -3266199819000473664
+    second: Ninja_Battle_Idle_Right_16f_v1_11
+  - first:
+      213: 4344456216552818114
+    second: Ninja_Battle_Idle_Right_16f_v1_12
+  - first:
+      213: 8037865301228403329
+    second: Ninja_Battle_Idle_Right_16f_v1_13
+  - first:
+      213: -4633722015787268134
+    second: Ninja_Battle_Idle_Right_16f_v1_14
+  - first:
+      213: 613589229056606299
+    second: Ninja_Battle_Idle_Right_16f_v1_15
+  - first:
+      213: -7455945924849382578
+    second: Ninja_Battle_Idle_Right_16f_v1_16
+  - first:
+      213: -5231990658674801053
+    second: Ninja_Battle_Idle_Right_16f_v1_17
+  - first:
+      213: 6869936557061244965
+    second: Ninja_Battle_Idle_Right_16f_v1_18
+  - first:
+      213: -1190194618028959383
+    second: Ninja_Battle_Idle_Right_16f_v1_19
+  - first:
+      213: -5421647374833861627
+    second: Ninja_Battle_Idle_Right_16f_v1_20
+  - first:
+      213: 6612327336133270914
+    second: Ninja_Battle_Idle_Right_16f_v1_21
+  - first:
+      213: 1835850499015974884
+    second: Ninja_Battle_Idle_Right_16f_v1_22
+  - first:
+      213: -3331829668813256370
+    second: Ninja_Battle_Idle_Right_16f_v1_23
+  - first:
+      213: 6049432584385731961
+    second: Ninja_Battle_Idle_Right_16f_v1_24
+  - first:
+      213: 7820109812222579515
+    second: Ninja_Battle_Idle_Right_16f_v1_25
+  - first:
+      213: -1203917071938162718
+    second: Ninja_Battle_Idle_Right_16f_v1_26
+  - first:
+      213: -7583465371726009880
+    second: Ninja_Battle_Idle_Right_16f_v1_27
+  - first:
+      213: -8339651432283217822
+    second: Ninja_Battle_Idle_Right_16f_v1_28
+  - first:
+      213: 4642737307043537993
+    second: Ninja_Battle_Idle_Right_16f_v1_29
+  - first:
+      213: -5529784861217620378
+    second: Ninja_Battle_Idle_Right_16f_v1_30
+  - first:
+      213: -8329917777491659476
+    second: Ninja_Battle_Idle_Right_16f_v1_31
+  - first:
+      213: 2859586615470263158
+    second: Ninja_Battle_Idle_Right_16f_v1_32
+  - first:
+      213: 1031854838223564372
+    second: Ninja_Battle_Idle_Right_16f_v1_33
+  - first:
+      213: 2302883465093049601
+    second: Ninja_Battle_Idle_Right_16f_v1_34
+  - first:
+      213: -3900183699467753818
+    second: Ninja_Battle_Idle_Right_16f_v1_35
+  - first:
+      213: -7337338005368053343
+    second: Ninja_Battle_Idle_Right_16f_v1_36
+  - first:
+      213: 853208661013716915
+    second: Ninja_Battle_Idle_Right_16f_v1_37
+  - first:
+      213: 6339969744007658677
+    second: Ninja_Battle_Idle_Right_16f_v1_38
+  - first:
+      213: 4499833284259438959
+    second: Ninja_Battle_Idle_Right_16f_v1_39
+  - first:
+      213: -8156530804701427619
+    second: Ninja_Battle_Idle_Right_16f_v1_40
+  - first:
+      213: -6979875615717971201
+    second: Ninja_Battle_Idle_Right_16f_v1_41
+  - first:
+      213: -3969277021898688920
+    second: Ninja_Battle_Idle_Right_16f_v1_42
+  - first:
+      213: 2528571958903063623
+    second: Ninja_Battle_Idle_Right_16f_v1_43
+  - first:
+      213: -1930393733294480042
+    second: Ninja_Battle_Idle_Right_16f_v1_44
+  - first:
+      213: 8505381788874616590
+    second: Ninja_Battle_Idle_Right_16f_v1_45
+  - first:
+      213: 6384857568722205541
+    second: Ninja_Battle_Idle_Right_16f_v1_46
+  - first:
+      213: -6244531963364981351
+    second: Ninja_Battle_Idle_Right_16f_v1_47
+  - first:
+      213: -8907378608363917479
+    second: Ninja_Battle_Idle_Right_16f_v1_48
+  - first:
+      213: -4766215587336373576
+    second: Ninja_Battle_Idle_Right_16f_v1_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 740
+        width: 209
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85adda3511c850c0800000000000000
+      internalID: -4586703923550771827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 754
+        width: 256
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1fb8d0d518d7b30800000000000000
+      internalID: 4286724656985797049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 768
+        width: 241
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d187ad47b72ef920800000000000000
+      internalID: 3025899667874873810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 883
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36718358fcef97990800000000000000
+      internalID: -7387593546477856925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 878
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14de4490da1fadb0800000000000000
+      internalID: -4778571196473093091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 763
+        width: 269
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ea59a4acd948bb0800000000000000
+      internalID: -4934645799530942889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 884
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac5d9028c17b9ef0800000000000000
+      internalID: -100361462331122514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 818
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea121ca89a03b9500800000000000000
+      internalID: 403970096315310510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 813
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1864593cac1be2c0800000000000000
+      internalID: -4401392684802742242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 802
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6a0b21a2d9c4f60800000000000000
+      internalID: 8019957840467764943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 767
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec4641b46221f770800000000000000
+      internalID: 8642726975766940909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 771
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c71807d1902ca2d0800000000000000
+      internalID: -3266199819000473664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 511
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c54ed939eb9a4c30800000000000000
+      internalID: 4344456216552818114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 491
+        width: 230
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3820b7eb3c8f60800000000000000
+      internalID: 8037865301228403329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 491
+        width: 236
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7c71d8066b1bfb0800000000000000
+      internalID: -4633722015787268134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 695
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50cce32728e38800800000000000000
+      internalID: 613589229056606299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 706
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bc4d44fa8278890800000000000000
+      internalID: -7455945924849382578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 506
+        width: 236
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366c689573c3467b0800000000000000
+      internalID: -5231990658674801053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 636
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5280b1176eae65f50800000000000000
+      internalID: 6869936557061244965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 604
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9695dc20d449b7fe0800000000000000
+      internalID: -1190194618028959383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 596
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c399d007072c4b0800000000000000
+      internalID: -5421647374833861627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 602
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d14d8bda4b3cb50800000000000000
+      internalID: 6612327336133270914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 575
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef12965d404a7910800000000000000
+      internalID: 1835850499015974884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 588
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49474aa196f2c1d0800000000000000
+      internalID: -3331829668813256370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 568
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d1cfc52e6e3f350800000000000000
+      internalID: 6049432584385731961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 555
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33d216017c968c60800000000000000
+      internalID: 7820109812222579515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 557
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efe81c3dc3da4fe0800000000000000
+      internalID: -1203917071938162718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 537
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9abcf5c6e12c690800000000000000
+      internalID: -7583465371726009880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 256
+        width: 225
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2606e2c253b934c80800000000000000
+      internalID: -8339651432283217822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 258
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944a8c38bf05e6040800000000000000
+      internalID: 4642737307043537993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 248
+        width: 295
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e7ace77f14243b0800000000000000
+      internalID: -5529784861217620378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 378
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25f5684aef266c80800000000000000
+      internalID: -8329917777491659476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 253
+        width: 232
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b019340ea4fa720800000000000000
+      internalID: 2859586615470263158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 355
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e65142282e15e00800000000000000
+      internalID: 1031854838223564372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 242
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dedff6f4c75ff10800000000000000
+      internalID: 2302883465093049601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 248
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a472e693cfd9c0800000000000000
+      internalID: -3900183699467753818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 196
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1601185f98c2a90800000000000000
+      internalID: -7337338005368053343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 239
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf5207b1c437db00800000000000000
+      internalID: 853208661013716915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 236
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcfc4e34e81cf750800000000000000
+      internalID: 6339969744007658677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 202
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6163c8e78e927e30800000000000000
+      internalID: 4499833284259438959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 201
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d588d32c27e2ece80800000000000000
+      internalID: -8156530804701427619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 149
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa28b4cb10822f90800000000000000
+      internalID: -6979875615717971201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866bb96249b4ae8c0800000000000000
+      internalID: -3969277021898688920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 121
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7444e67bcca471320800000000000000
+      internalID: 2528571958903063623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 93
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a752902dd535e0800000000000000
+      internalID: -1930393733294480042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 87
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fa2fc6caf290670800000000000000
+      internalID: 8505381788874616590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb62d51229b9850800000000000000
+      internalID: 6384857568722205541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 84
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995ce07a347f659a0800000000000000
+      internalID: -6244531963364981351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f2e885952a26480800000000000000
+      internalID: -8907378608363917479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Idle_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 56
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bab2e10d200bddb0800000000000000
+      internalID: -4766215587336373576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Battle_Idle_Right_16f_v1_0: -4586703923550771827
+      Ninja_Battle_Idle_Right_16f_v1_1: 4286724656985797049
+      Ninja_Battle_Idle_Right_16f_v1_10: 8642726975766940909
+      Ninja_Battle_Idle_Right_16f_v1_11: -3266199819000473664
+      Ninja_Battle_Idle_Right_16f_v1_12: 4344456216552818114
+      Ninja_Battle_Idle_Right_16f_v1_13: 8037865301228403329
+      Ninja_Battle_Idle_Right_16f_v1_14: -4633722015787268134
+      Ninja_Battle_Idle_Right_16f_v1_15: 613589229056606299
+      Ninja_Battle_Idle_Right_16f_v1_16: -7455945924849382578
+      Ninja_Battle_Idle_Right_16f_v1_17: -5231990658674801053
+      Ninja_Battle_Idle_Right_16f_v1_18: 6869936557061244965
+      Ninja_Battle_Idle_Right_16f_v1_19: -1190194618028959383
+      Ninja_Battle_Idle_Right_16f_v1_2: 3025899667874873810
+      Ninja_Battle_Idle_Right_16f_v1_20: -5421647374833861627
+      Ninja_Battle_Idle_Right_16f_v1_21: 6612327336133270914
+      Ninja_Battle_Idle_Right_16f_v1_22: 1835850499015974884
+      Ninja_Battle_Idle_Right_16f_v1_23: -3331829668813256370
+      Ninja_Battle_Idle_Right_16f_v1_24: 6049432584385731961
+      Ninja_Battle_Idle_Right_16f_v1_25: 7820109812222579515
+      Ninja_Battle_Idle_Right_16f_v1_26: -1203917071938162718
+      Ninja_Battle_Idle_Right_16f_v1_27: -7583465371726009880
+      Ninja_Battle_Idle_Right_16f_v1_28: -8339651432283217822
+      Ninja_Battle_Idle_Right_16f_v1_29: 4642737307043537993
+      Ninja_Battle_Idle_Right_16f_v1_3: -7387593546477856925
+      Ninja_Battle_Idle_Right_16f_v1_30: -5529784861217620378
+      Ninja_Battle_Idle_Right_16f_v1_31: -8329917777491659476
+      Ninja_Battle_Idle_Right_16f_v1_32: 2859586615470263158
+      Ninja_Battle_Idle_Right_16f_v1_33: 1031854838223564372
+      Ninja_Battle_Idle_Right_16f_v1_34: 2302883465093049601
+      Ninja_Battle_Idle_Right_16f_v1_35: -3900183699467753818
+      Ninja_Battle_Idle_Right_16f_v1_36: -7337338005368053343
+      Ninja_Battle_Idle_Right_16f_v1_37: 853208661013716915
+      Ninja_Battle_Idle_Right_16f_v1_38: 6339969744007658677
+      Ninja_Battle_Idle_Right_16f_v1_39: 4499833284259438959
+      Ninja_Battle_Idle_Right_16f_v1_4: -4778571196473093091
+      Ninja_Battle_Idle_Right_16f_v1_40: -8156530804701427619
+      Ninja_Battle_Idle_Right_16f_v1_41: -6979875615717971201
+      Ninja_Battle_Idle_Right_16f_v1_42: -3969277021898688920
+      Ninja_Battle_Idle_Right_16f_v1_43: 2528571958903063623
+      Ninja_Battle_Idle_Right_16f_v1_44: -1930393733294480042
+      Ninja_Battle_Idle_Right_16f_v1_45: 8505381788874616590
+      Ninja_Battle_Idle_Right_16f_v1_46: 6384857568722205541
+      Ninja_Battle_Idle_Right_16f_v1_47: -6244531963364981351
+      Ninja_Battle_Idle_Right_16f_v1_48: -8907378608363917479
+      Ninja_Battle_Idle_Right_16f_v1_49: -4766215587336373576
+      Ninja_Battle_Idle_Right_16f_v1_5: -4934645799530942889
+      Ninja_Battle_Idle_Right_16f_v1_6: -100361462331122514
+      Ninja_Battle_Idle_Right_16f_v1_7: 403970096315310510
+      Ninja_Battle_Idle_Right_16f_v1_8: -4401392684802742242
+      Ninja_Battle_Idle_Right_16f_v1_9: 8019957840467764943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

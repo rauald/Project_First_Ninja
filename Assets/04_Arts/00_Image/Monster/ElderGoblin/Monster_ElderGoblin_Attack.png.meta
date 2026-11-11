@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 2aeccec436576994594c630e993532e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4920843007724610661
+    second: Monster_ElderGoblin_Attack_0
+  - first:
+      213: 8478761221636487859
+    second: Monster_ElderGoblin_Attack_1
+  - first:
+      213: 6316261529521906186
+    second: Monster_ElderGoblin_Attack_2
+  - first:
+      213: 5370326549130241886
+    second: Monster_ElderGoblin_Attack_3
+  - first:
+      213: 8185904208393157003
+    second: Monster_ElderGoblin_Attack_4
+  - first:
+      213: 524650853959484706
+    second: Monster_ElderGoblin_Attack_5
+  - first:
+      213: -4379279358299101242
+    second: Monster_ElderGoblin_Attack_6
+  - first:
+      213: 1253922182309074805
+    second: Monster_ElderGoblin_Attack_7
+  - first:
+      213: -4481020121901914815
+    second: Monster_ElderGoblin_Attack_8
+  - first:
+      213: -1411064583659136360
+    second: Monster_ElderGoblin_Attack_9
+  - first:
+      213: 3232841646831623388
+    second: Monster_ElderGoblin_Attack_10
+  - first:
+      213: 6050885571453307288
+    second: Monster_ElderGoblin_Attack_11
+  - first:
+      213: 5244583189598693926
+    second: Monster_ElderGoblin_Attack_12
+  - first:
+      213: -7997777024777525612
+    second: Monster_ElderGoblin_Attack_13
+  - first:
+      213: 3789516286131109793
+    second: Monster_ElderGoblin_Attack_14
+  - first:
+      213: 3909481853849047609
+    second: Monster_ElderGoblin_Attack_15
+  - first:
+      213: 4536120117744710
+    second: Monster_ElderGoblin_Attack_16
+  - first:
+      213: -9173478646094443826
+    second: Monster_ElderGoblin_Attack_17
+  - first:
+      213: -497149227245583281
+    second: Monster_ElderGoblin_Attack_18
+  - first:
+      213: 8841680662755713527
+    second: Monster_ElderGoblin_Attack_19
+  - first:
+      213: -7043864870652243774
+    second: Monster_ElderGoblin_Attack_20
+  - first:
+      213: -2584999927354274271
+    second: Monster_ElderGoblin_Attack_21
+  - first:
+      213: 6875027691851663298
+    second: Monster_ElderGoblin_Attack_22
+  - first:
+      213: 5231193310955782288
+    second: Monster_ElderGoblin_Attack_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 767
+        width: 157
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564e3eec4a85a4440800000000000000
+      internalID: 4920843007724610661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 767
+        width: 159
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bafffe986c9aa570800000000000000
+      internalID: 8478761221636487859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 767
+        width: 159
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a026e97656ed7a750800000000000000
+      internalID: 6316261529521906186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 767
+        width: 165
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57e1c01b8b378a40800000000000000
+      internalID: 5370326549130241886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 511
+        width: 167
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8936aab18c2a9170800000000000000
+      internalID: 8185904208393157003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 511
+        width: 160
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2254c550c2fe74700800000000000000
+      internalID: 524650853959484706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 511
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7a16440aca933c0800000000000000
+      internalID: -4379279358299101242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 511
+        width: 165
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d38cc493d66110800000000000000
+      internalID: 1253922182309074805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 255
+        width: 180
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145a8aac0f730d1c0800000000000000
+      internalID: -4481020121901914815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 255
+        width: 173
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89adcdfbc34ea6ce0800000000000000
+      internalID: -1411064583659136360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 405
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcdc76795c5ddc20800000000000000
+      internalID: 3232841646831623388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 255
+        width: 179
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899c2074e5019f350800000000000000
+      internalID: 6050885571453307288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 403
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ae30bbf9088c840800000000000000
+      internalID: 5244583189598693926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 255
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496ea558b20320190800000000000000
+      internalID: -7997777024777525612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 397
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aff6690cf0179430800000000000000
+      internalID: 3789516286131109793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 397
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93212826805414630800000000000000
+      internalID: 3909481853849047609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 391
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644d644c39d101000800000000000000
+      internalID: 4536120117744710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 385
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecac8e846c141b080800000000000000
+      internalID: -9173478646094443826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 376
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44caad6965c919f0800000000000000
+      internalID: -497149227245583281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 386
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1aef0b7b5f3ba70800000000000000
+      internalID: 8841680662755713527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 176
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c09bea583a2f3e90800000000000000
+      internalID: -7043864870652243774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 167
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e43a1134c302cd0800000000000000
+      internalID: -2584999927354274271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 159
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7cac1a241096f50800000000000000
+      internalID: 6875027691851663298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_ElderGoblin_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 0
+        width: 158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0904beaa99ee89840800000000000000
+      internalID: 5231193310955782288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_ElderGoblin_Attack_0: 4920843007724610661
+      Monster_ElderGoblin_Attack_1: 8478761221636487859
+      Monster_ElderGoblin_Attack_10: 3232841646831623388
+      Monster_ElderGoblin_Attack_11: 6050885571453307288
+      Monster_ElderGoblin_Attack_12: 5244583189598693926
+      Monster_ElderGoblin_Attack_13: -7997777024777525612
+      Monster_ElderGoblin_Attack_14: 3789516286131109793
+      Monster_ElderGoblin_Attack_15: 3909481853849047609
+      Monster_ElderGoblin_Attack_16: 4536120117744710
+      Monster_ElderGoblin_Attack_17: -9173478646094443826
+      Monster_ElderGoblin_Attack_18: -497149227245583281
+      Monster_ElderGoblin_Attack_19: 8841680662755713527
+      Monster_ElderGoblin_Attack_2: 6316261529521906186
+      Monster_ElderGoblin_Attack_20: -7043864870652243774
+      Monster_ElderGoblin_Attack_21: -2584999927354274271
+      Monster_ElderGoblin_Attack_22: 6875027691851663298
+      Monster_ElderGoblin_Attack_23: 5231193310955782288
+      Monster_ElderGoblin_Attack_3: 5370326549130241886
+      Monster_ElderGoblin_Attack_4: 8185904208393157003
+      Monster_ElderGoblin_Attack_5: 524650853959484706
+      Monster_ElderGoblin_Attack_6: -4379279358299101242
+      Monster_ElderGoblin_Attack_7: 1253922182309074805
+      Monster_ElderGoblin_Attack_8: -4481020121901914815
+      Monster_ElderGoblin_Attack_9: -1411064583659136360
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

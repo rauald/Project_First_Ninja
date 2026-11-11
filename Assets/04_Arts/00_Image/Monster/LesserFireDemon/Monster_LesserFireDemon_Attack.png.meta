@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 61c8b2065804a774d914d9081bdbb26f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5029692033060771237
+    second: Monster_LesserFireDemon_Attack_0
+  - first:
+      213: -8714798195649699612
+    second: Monster_LesserFireDemon_Attack_1
+  - first:
+      213: 6496297840861861617
+    second: Monster_LesserFireDemon_Attack_2
+  - first:
+      213: -389791296630150725
+    second: Monster_LesserFireDemon_Attack_3
+  - first:
+      213: -4389990224735394322
+    second: Monster_LesserFireDemon_Attack_4
+  - first:
+      213: 6114377612594299008
+    second: Monster_LesserFireDemon_Attack_5
+  - first:
+      213: 1955066434399661667
+    second: Monster_LesserFireDemon_Attack_6
+  - first:
+      213: -5038835089195023028
+    second: Monster_LesserFireDemon_Attack_7
+  - first:
+      213: -6764206277151713034
+    second: Monster_LesserFireDemon_Attack_8
+  - first:
+      213: 1818181016184899952
+    second: Monster_LesserFireDemon_Attack_9
+  - first:
+      213: -1191493497179187652
+    second: Monster_LesserFireDemon_Attack_10
+  - first:
+      213: -2074084828387348654
+    second: Monster_LesserFireDemon_Attack_11
+  - first:
+      213: 6983745418145687025
+    second: Monster_LesserFireDemon_Attack_12
+  - first:
+      213: -696334044653174302
+    second: Monster_LesserFireDemon_Attack_13
+  - first:
+      213: -272557513630339995
+    second: Monster_LesserFireDemon_Attack_14
+  - first:
+      213: 5228879024385943433
+    second: Monster_LesserFireDemon_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 767
+        width: 159
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a51330714e0dc540800000000000000
+      internalID: 5029692033060771237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 767
+        width: 159
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0a51bc631de0780800000000000000
+      internalID: -8714798195649699612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 767
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f655b7a77c772a50800000000000000
+      internalID: 6496297840861861617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 767
+        width: 163
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb922d381ee279af0800000000000000
+      internalID: -389791296630150725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 511
+        width: 172
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a537562f9313c0800000000000000
+      internalID: -4389990224735394322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 511
+        width: 184
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080c8451b02aad450800000000000000
+      internalID: 6114377612594299008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 511
+        width: 181
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e6eae409ac12b10800000000000000
+      internalID: 1955066434399661667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 511
+        width: 193
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45c1caee26721ab0800000000000000
+      internalID: -5038835089195023028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 194
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f897eeaa36b022a0800000000000000
+      internalID: -6764206277151713034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 255
+        width: 195
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0794f07400a7b3910800000000000000
+      internalID: 1818181016184899952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 255
+        width: 195
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3652742af6f67fe0800000000000000
+      internalID: -1191493497179187652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 255
+        width: 194
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fe1f966de5733e0800000000000000
+      internalID: -2074084828387348654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 182
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5e552d47f3be060800000000000000
+      internalID: 6983745418145687025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 168
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1cf6f20ef1656f0800000000000000
+      internalID: -696334044653174302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 162
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c233ba26ea73cf0800000000000000
+      internalID: -272557513630339995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 160
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987e306d4c5b09840800000000000000
+      internalID: 5228879024385943433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_LesserFireDemon_Attack_0: 5029692033060771237
+      Monster_LesserFireDemon_Attack_1: -8714798195649699612
+      Monster_LesserFireDemon_Attack_10: -1191493497179187652
+      Monster_LesserFireDemon_Attack_11: -2074084828387348654
+      Monster_LesserFireDemon_Attack_12: 6983745418145687025
+      Monster_LesserFireDemon_Attack_13: -696334044653174302
+      Monster_LesserFireDemon_Attack_14: -272557513630339995
+      Monster_LesserFireDemon_Attack_15: 5228879024385943433
+      Monster_LesserFireDemon_Attack_2: 6496297840861861617
+      Monster_LesserFireDemon_Attack_3: -389791296630150725
+      Monster_LesserFireDemon_Attack_4: -4389990224735394322
+      Monster_LesserFireDemon_Attack_5: 6114377612594299008
+      Monster_LesserFireDemon_Attack_6: 1955066434399661667
+      Monster_LesserFireDemon_Attack_7: -5038835089195023028
+      Monster_LesserFireDemon_Attack_8: -6764206277151713034
+      Monster_LesserFireDemon_Attack_9: 1818181016184899952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

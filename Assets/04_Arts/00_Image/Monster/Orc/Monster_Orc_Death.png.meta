@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 407d50d2e950ef743bbb3c23b8c89f6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5227226382193220138
+    second: Monster_Orc_Death_0
+  - first:
+      213: -2145699217954601698
+    second: Monster_Orc_Death_1
+  - first:
+      213: 4648585027127811150
+    second: Monster_Orc_Death_2
+  - first:
+      213: -1468342425143851502
+    second: Monster_Orc_Death_3
+  - first:
+      213: -5377847705160462456
+    second: Monster_Orc_Death_4
+  - first:
+      213: 1801862926426900833
+    second: Monster_Orc_Death_5
+  - first:
+      213: -4970398248927883858
+    second: Monster_Orc_Death_6
+  - first:
+      213: -6940308742781030647
+    second: Monster_Orc_Death_7
+  - first:
+      213: 3079169332157680135
+    second: Monster_Orc_Death_8
+  - first:
+      213: 4751667390467945563
+    second: Monster_Orc_Death_9
+  - first:
+      213: -2443997210314946612
+    second: Monster_Orc_Death_10
+  - first:
+      213: 8085526477437155828
+    second: Monster_Orc_Death_11
+  - first:
+      213: -3208705103792861667
+    second: Monster_Orc_Death_12
+  - first:
+      213: 7683169513920614616
+    second: Monster_Orc_Death_13
+  - first:
+      213: 401538642894650120
+    second: Monster_Orc_Death_14
+  - first:
+      213: -8446655978245263264
+    second: Monster_Orc_Death_15
+  - first:
+      213: -942405423375944975
+    second: Monster_Orc_Death_16
+  - first:
+      213: -4783209128610052952
+    second: Monster_Orc_Death_17
+  - first:
+      213: -4375177094961057429
+    second: Monster_Orc_Death_18
+  - first:
+      213: -1176257813085787613
+    second: Monster_Orc_Death_19
+  - first:
+      213: -126365219965055121
+    second: Monster_Orc_Death_20
+  - first:
+      213: -7012957019000012122
+    second: Monster_Orc_Death_21
+  - first:
+      213: 7828248550123291572
+    second: Monster_Orc_Death_22
+  - first:
+      213: -2315618119929100710
+    second: Monster_Orc_Death_23
+  - first:
+      213: 4784215179350620308
+    second: Monster_Orc_Death_24
+  - first:
+      213: 2297752128335505806
+    second: Monster_Orc_Death_25
+  - first:
+      213: 1993788571559853882
+    second: Monster_Orc_Death_26
+  - first:
+      213: -1280388209653388846
+    second: Monster_Orc_Death_27
+  - first:
+      213: 1585951953275433123
+    second: Monster_Orc_Death_28
+  - first:
+      213: 7027949847069653187
+    second: Monster_Orc_Death_29
+  - first:
+      213: 355702763900780077
+    second: Monster_Orc_Death_30
+  - first:
+      213: 5566384366685192843
+    second: Monster_Orc_Death_31
+  - first:
+      213: -7674970625846292903
+    second: Monster_Orc_Death_32
+  - first:
+      213: -2416395435141772550
+    second: Monster_Orc_Death_33
+  - first:
+      213: -141113866224688701
+    second: Monster_Orc_Death_34
+  - first:
+      213: 4879131546732100778
+    second: Monster_Orc_Death_35
+  - first:
+      213: -2599450183627448161
+    second: Monster_Orc_Death_36
+  - first:
+      213: 2236155597886196202
+    second: Monster_Orc_Death_37
+  - first:
+      213: -3166419180175204923
+    second: Monster_Orc_Death_38
+  - first:
+      213: -9183061703329510057
+    second: Monster_Orc_Death_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Orc_Death_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 767
+        width: 173
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a5d2713b6da8840800000000000000
+      internalID: 5227226382193220138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 767
+        width: 179
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e158bfefde1f832e0800000000000000
+      internalID: -2145699217954601698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 767
+        width: 167
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c1722f377138040800000000000000
+      internalID: 4648585027127811150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_3
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 767
+        width: 161
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2164aac08566f9be0800000000000000
+      internalID: -1468342425143851502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 678
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc2c5510c0e55b0800000000000000
+      internalID: -5377847705160462456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 679
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1690f9fe8c0810910800000000000000
+      internalID: 1801862926426900833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 677
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0e6c7029950bb0800000000000000
+      internalID: -4970398248927883858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 679
+        width: 53
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90faff248f11faf90800000000000000
+      internalID: -6940308742781030647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_8
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 674
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a098681386bba20800000000000000
+      internalID: 3079169332157680135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_9
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 677
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5436a3f05051f140800000000000000
+      internalID: 4751667390467945563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 671
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7c12f6c7d251ed0800000000000000
+      internalID: -2443997210314946612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_11
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 678
+        width: 56
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f938a50e7f853070800000000000000
+      internalID: 8085526477437155828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 511
+        width: 175
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e817365b36873d0800000000000000
+      internalID: -3208705103792861667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 511
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0595a37f910aa60800000000000000
+      internalID: 7683169513920614616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 511
+        width: 180
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bf35da44d829500800000000000000
+      internalID: 401538642894650120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 511
+        width: 155
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060f2ccd32377ca80800000000000000
+      internalID: -8446655978245263264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 408
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f27641b247ebe2f0800000000000000
+      internalID: -942405423375944975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 409
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4cacad3a0ae9db0800000000000000
+      internalID: -4783209128610052952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 424
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61bb61ec9f3843c0800000000000000
+      internalID: -4375177094961057429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 403
+        width: 150
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a6eb640c71dafe0800000000000000
+      internalID: -1176257813085787613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_20
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 398
+        width: 146
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fc400808f0f3ef0800000000000000
+      internalID: -126365219965055121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 398
+        width: 160
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a20c695fb8fcae90800000000000000
+      internalID: -7012957019000012122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 255
+        width: 176
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3c09b949683ac60800000000000000
+      internalID: 7828248550123291572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_23
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 255
+        width: 185
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a560b2ea6954ddfd0800000000000000
+      internalID: -2315618119929100710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_24
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 288
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498b9369b52f46240800000000000000
+      internalID: 4784215179350620308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_25
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 178
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e55ff26143ef10800000000000000
+      internalID: 2297752128335505806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_26
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 255
+        width: 175
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ffe0d642c5bab10800000000000000
+      internalID: 1993788571559853882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_27
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 135
+        width: 124
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9e20505b52b3ee0800000000000000
+      internalID: -1280388209653388846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_28
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 141
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0b1d516ee620610800000000000000
+      internalID: 1585951953275433123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 142
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f8d5762b488160800000000000000
+      internalID: 7027949847069653187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_30
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 153
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e3ee777c5bfe400800000000000000
+      internalID: 355702763900780077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 133
+        width: 126
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b820f8be615cf3d40800000000000000
+      internalID: 5566384366685192843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_32
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 152
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ecfd821e60d7590800000000000000
+      internalID: -7674970625846292903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_33
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 152
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afacf73872d377ed0800000000000000
+      internalID: -2416395435141772550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 134
+        width: 124
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1abc2bfa9aa0ef0800000000000000
+      internalID: -141113866224688701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_35
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 136
+        width: 173
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac7e5f7a4826b340800000000000000
+      internalID: 4879131546732100778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 179
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90ef8994d5ecebd0800000000000000
+      internalID: -2599450183627448161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_37
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 180
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9028a2bab680f10800000000000000
+      internalID: 2236155597886196202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_38
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 179
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd5ca3388e9e04d0800000000000000
+      internalID: -3166419180175204923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Orc_Death_39
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 179
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d0d86e8063f8080800000000000000
+      internalID: -9183061703329510057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Orc_Death_0: 5227226382193220138
+      Monster_Orc_Death_1: -2145699217954601698
+      Monster_Orc_Death_10: -2443997210314946612
+      Monster_Orc_Death_11: 8085526477437155828
+      Monster_Orc_Death_12: -3208705103792861667
+      Monster_Orc_Death_13: 7683169513920614616
+      Monster_Orc_Death_14: 401538642894650120
+      Monster_Orc_Death_15: -8446655978245263264
+      Monster_Orc_Death_16: -942405423375944975
+      Monster_Orc_Death_17: -4783209128610052952
+      Monster_Orc_Death_18: -4375177094961057429
+      Monster_Orc_Death_19: -1176257813085787613
+      Monster_Orc_Death_2: 4648585027127811150
+      Monster_Orc_Death_20: -126365219965055121
+      Monster_Orc_Death_21: -7012957019000012122
+      Monster_Orc_Death_22: 7828248550123291572
+      Monster_Orc_Death_23: -2315618119929100710
+      Monster_Orc_Death_24: 4784215179350620308
+      Monster_Orc_Death_25: 2297752128335505806
+      Monster_Orc_Death_26: 1993788571559853882
+      Monster_Orc_Death_27: -1280388209653388846
+      Monster_Orc_Death_28: 1585951953275433123
+      Monster_Orc_Death_29: 7027949847069653187
+      Monster_Orc_Death_3: -1468342425143851502
+      Monster_Orc_Death_30: 355702763900780077
+      Monster_Orc_Death_31: 5566384366685192843
+      Monster_Orc_Death_32: -7674970625846292903
+      Monster_Orc_Death_33: -2416395435141772550
+      Monster_Orc_Death_34: -141113866224688701
+      Monster_Orc_Death_35: 4879131546732100778
+      Monster_Orc_Death_36: -2599450183627448161
+      Monster_Orc_Death_37: 2236155597886196202
+      Monster_Orc_Death_38: -3166419180175204923
+      Monster_Orc_Death_39: -9183061703329510057
+      Monster_Orc_Death_4: -5377847705160462456
+      Monster_Orc_Death_5: 1801862926426900833
+      Monster_Orc_Death_6: -4970398248927883858
+      Monster_Orc_Death_7: -6940308742781030647
+      Monster_Orc_Death_8: 3079169332157680135
+      Monster_Orc_Death_9: 4751667390467945563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

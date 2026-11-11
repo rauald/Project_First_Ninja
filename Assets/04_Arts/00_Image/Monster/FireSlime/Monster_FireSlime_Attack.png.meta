@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 021d2a69b0010e34691b784b207096ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5500356354635722141
+    second: Monster_FireSlime_Attack_0
+  - first:
+      213: 8782445845097477882
+    second: Monster_FireSlime_Attack_1
+  - first:
+      213: -1084331220558276961
+    second: Monster_FireSlime_Attack_2
+  - first:
+      213: 7995646664526703817
+    second: Monster_FireSlime_Attack_3
+  - first:
+      213: 5246867374016328042
+    second: Monster_FireSlime_Attack_4
+  - first:
+      213: 2156609851842797144
+    second: Monster_FireSlime_Attack_5
+  - first:
+      213: -4136832649258384670
+    second: Monster_FireSlime_Attack_6
+  - first:
+      213: 2521948598304293574
+    second: Monster_FireSlime_Attack_7
+  - first:
+      213: -6265336309966754547
+    second: Monster_FireSlime_Attack_8
+  - first:
+      213: -7502422774740029812
+    second: Monster_FireSlime_Attack_9
+  - first:
+      213: -4480558235824911080
+    second: Monster_FireSlime_Attack_10
+  - first:
+      213: -1083323323379892075
+    second: Monster_FireSlime_Attack_11
+  - first:
+      213: 1325184644841455371
+    second: Monster_FireSlime_Attack_12
+  - first:
+      213: 3460699293246204016
+    second: Monster_FireSlime_Attack_13
+  - first:
+      213: -8901465622631366376
+    second: Monster_FireSlime_Attack_14
+  - first:
+      213: -9080647397741407809
+    second: Monster_FireSlime_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 767
+        width: 168
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9def1066f0355c40800000000000000
+      internalID: 5500356354635722141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 767
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f328f6f381e970800000000000000
+      internalID: 8782445845097477882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 767
+        width: 167
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9612cbff7ea3f0f0800000000000000
+      internalID: -1084331220558276961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 767
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cca6a4574e36fe60800000000000000
+      internalID: 7995646664526703817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 511
+        width: 174
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6174dbd31e90d840800000000000000
+      internalID: 5246867374016328042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 511
+        width: 170
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e923aeb31dded10800000000000000
+      internalID: 2156609851842797144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 511
+        width: 170
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e247b59f940796c0800000000000000
+      internalID: -4136832649258384670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 511
+        width: 183
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2c8b763e2cff220800000000000000
+      internalID: 2521948598304293574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 255
+        width: 188
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d231e32dd0d09a0800000000000000
+      internalID: -6265336309966754547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 255
+        width: 194
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ee1d46c3a02e790800000000000000
+      internalID: -7502422774740029812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 255
+        width: 197
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d8436060cd1d1c0800000000000000
+      internalID: -4480558235824911080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 255
+        width: 186
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590cb055d2347f0f0800000000000000
+      internalID: -1083323323379892075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 179
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fb391d960046210800000000000000
+      internalID: 1325184644841455371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 171
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078a260fbafd60030800000000000000
+      internalID: 3460699293246204016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 168
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811c4be9d24a77480800000000000000
+      internalID: -8901465622631366376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireSlime_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 168
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb15c079d4f0bf180800000000000000
+      internalID: -9080647397741407809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_FireSlime_Attack_0: 5500356354635722141
+      Monster_FireSlime_Attack_1: 8782445845097477882
+      Monster_FireSlime_Attack_10: -4480558235824911080
+      Monster_FireSlime_Attack_11: -1083323323379892075
+      Monster_FireSlime_Attack_12: 1325184644841455371
+      Monster_FireSlime_Attack_13: 3460699293246204016
+      Monster_FireSlime_Attack_14: -8901465622631366376
+      Monster_FireSlime_Attack_15: -9080647397741407809
+      Monster_FireSlime_Attack_2: -1084331220558276961
+      Monster_FireSlime_Attack_3: 7995646664526703817
+      Monster_FireSlime_Attack_4: 5246867374016328042
+      Monster_FireSlime_Attack_5: 2156609851842797144
+      Monster_FireSlime_Attack_6: -4136832649258384670
+      Monster_FireSlime_Attack_7: 2521948598304293574
+      Monster_FireSlime_Attack_8: -6265336309966754547
+      Monster_FireSlime_Attack_9: -7502422774740029812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

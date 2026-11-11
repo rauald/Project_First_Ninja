@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 647281d9aa8cae04f9af02d90cd7a923
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5293818870343904332
+    second: Monster_Deer_Death_0
+  - first:
+      213: 8483403050221172605
+    second: Monster_Deer_Death_1
+  - first:
+      213: -7955663182405785499
+    second: Monster_Deer_Death_2
+  - first:
+      213: 658468675800833907
+    second: Monster_Deer_Death_3
+  - first:
+      213: -6203325669549916967
+    second: Monster_Deer_Death_4
+  - first:
+      213: -9217193656393495463
+    second: Monster_Deer_Death_5
+  - first:
+      213: 8543322261840181264
+    second: Monster_Deer_Death_6
+  - first:
+      213: -6303972622889703823
+    second: Monster_Deer_Death_7
+  - first:
+      213: -3558943065424912551
+    second: Monster_Deer_Death_8
+  - first:
+      213: 8996492425628672433
+    second: Monster_Deer_Death_9
+  - first:
+      213: 262303300893501359
+    second: Monster_Deer_Death_10
+  - first:
+      213: 4147003169207979294
+    second: Monster_Deer_Death_11
+  - first:
+      213: -2096589713734770679
+    second: Monster_Deer_Death_12
+  - first:
+      213: 7400997751348809700
+    second: Monster_Deer_Death_13
+  - first:
+      213: -8853840722849928303
+    second: Monster_Deer_Death_14
+  - first:
+      213: 6843550597437336278
+    second: Monster_Deer_Death_15
+  - first:
+      213: 576552552688167207
+    second: Monster_Deer_Death_16
+  - first:
+      213: 3824167288060983400
+    second: Monster_Deer_Death_17
+  - first:
+      213: 445343416819908425
+    second: Monster_Deer_Death_18
+  - first:
+      213: 8102484829160587800
+    second: Monster_Deer_Death_19
+  - first:
+      213: -3380881604050838077
+    second: Monster_Deer_Death_20
+  - first:
+      213: -7790422822997549576
+    second: Monster_Deer_Death_21
+  - first:
+      213: 7378914467762801252
+    second: Monster_Deer_Death_22
+  - first:
+      213: 7966158705755110800
+    second: Monster_Deer_Death_23
+  - first:
+      213: 5070273938737916608
+    second: Monster_Deer_Death_24
+  - first:
+      213: 8319422059731462956
+    second: Monster_Deer_Death_25
+  - first:
+      213: 6795382123374177955
+    second: Monster_Deer_Death_26
+  - first:
+      213: -8213525337249276888
+    second: Monster_Deer_Death_27
+  - first:
+      213: 2101815768903485584
+    second: Monster_Deer_Death_28
+  - first:
+      213: 9043141901178270368
+    second: Monster_Deer_Death_29
+  - first:
+      213: 7799471189127487903
+    second: Monster_Deer_Death_30
+  - first:
+      213: 8269581574778983897
+    second: Monster_Deer_Death_31
+  - first:
+      213: 1220791334442304546
+    second: Monster_Deer_Death_32
+  - first:
+      213: 8147626697001834545
+    second: Monster_Deer_Death_33
+  - first:
+      213: -2880511114130495488
+    second: Monster_Deer_Death_34
+  - first:
+      213: 1002364417035919681
+    second: Monster_Deer_Death_35
+  - first:
+      213: 3822624739888366694
+    second: Monster_Deer_Death_36
+  - first:
+      213: 8392953438782299691
+    second: Monster_Deer_Death_37
+  - first:
+      213: -8025700578922932695
+    second: Monster_Deer_Death_38
+  - first:
+      213: 6657941593932204470
+    second: Monster_Deer_Death_39
+  - first:
+      213: -9223085533143579409
+    second: Monster_Deer_Death_40
+  - first:
+      213: -6562618452782917418
+    second: Monster_Deer_Death_41
+  - first:
+      213: -8439385580871562416
+    second: Monster_Deer_Death_42
+  - first:
+      213: 4036214062528498402
+    second: Monster_Deer_Death_43
+  - first:
+      213: 9040348610711430200
+    second: Monster_Deer_Death_44
+  - first:
+      213: -7870604005275460720
+    second: Monster_Deer_Death_45
+  - first:
+      213: 1190647767358082378
+    second: Monster_Deer_Death_46
+  - first:
+      213: 3097036799413854733
+    second: Monster_Deer_Death_47
+  - first:
+      213: -1636065510451687905
+    second: Monster_Deer_Death_48
+  - first:
+      213: -4387328328259741067
+    second: Monster_Deer_Death_49
+  - first:
+      213: -4949408745114257501
+    second: Monster_Deer_Death_50
+  - first:
+      213: -737446781605965632
+    second: Monster_Deer_Death_51
+  - first:
+      213: 6201516010367341491
+    second: Monster_Deer_Death_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Deer_Death_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 767
+        width: 140
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cab18f63c677940800000000000000
+      internalID: 5293818870343904332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 767
+        width: 141
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77f5ee802a1bb570800000000000000
+      internalID: 8483403050221172605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 767
+        width: 140
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ac0c8c7ec79190800000000000000
+      internalID: -7955663182405785499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 767
+        width: 141
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f94dc95c9532900800000000000000
+      internalID: 658468675800833907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 616
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc3a609b2c59e9a0800000000000000
+      internalID: -6203325669549916967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c8eac4433f51080800000000000000
+      internalID: -9217193656393495463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 632
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018bbaa255aff8670800000000000000
+      internalID: 8543322261840181264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 634
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1762fd2ac4ac388a0800000000000000
+      internalID: -6303972622889703823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 609
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f128953281c9ec0800000000000000
+      internalID: -3558943065424912551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 511
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1e6161236f9dc70800000000000000
+      internalID: 8996492425628672433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 580
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa76b216673e3a300800000000000000
+      internalID: 262303300893501359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 568
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d8f0f196d1d8930800000000000000
+      internalID: 4147003169207979294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 511
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900e91973ca67e2e0800000000000000
+      internalID: -2096589713734770679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_13
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 511
+        width: 117
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef4c902e30a5b660800000000000000
+      internalID: 7400997751348809700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_14
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 511
+        width: 118
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b64a0b5c6d02580800000000000000
+      internalID: -8853840722849928303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_15
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 520
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da2aaa720d29fe50800000000000000
+      internalID: 6843550597437336278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_16
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 558
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729a251fd73500800800000000000000
+      internalID: 576552552688167207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 519
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8683b8e13eb221530800000000000000
+      internalID: 3824167288060983400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_18
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 515
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ffb926a7d2e2600800000000000000
+      internalID: 445343416819908425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 514
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812cb18f50fc17070800000000000000
+      internalID: 8102484829160587800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_20
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 515
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd95e20812b411d0800000000000000
+      internalID: -3380881604050838077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 513
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd9229c7bbd2e390800000000000000
+      internalID: -7790422822997549576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_22
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a0efefc9b276660800000000000000
+      internalID: 7378914467762801252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 513
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d3be8e22b7d8e60800000000000000
+      internalID: 7966158705755110800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_24
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 512
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cae468a84b3d5640800000000000000
+      internalID: 5070273938737916608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_25
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 515
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba7def846847370800000000000000
+      internalID: 8319422059731462956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 258
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee1c8a90c0e4e50800000000000000
+      internalID: 6795382123374177955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_27
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 255
+        width: 121
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c169f0932b30e80800000000000000
+      internalID: -8213525337249276888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 259
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988ec05e462b2d10800000000000000
+      internalID: 2101815768903485584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 256
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a27e2185a1bf7d70800000000000000
+      internalID: 9043141901178270368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 260
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9166df19b94d3c60800000000000000
+      internalID: 7799471189127487903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_31
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 258
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d511ddc0a473c270800000000000000
+      internalID: 8269581574778983897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_32
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 255
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2240f4a204f11f010800000000000000
+      internalID: 1220791334442304546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 258
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138984d105f221170800000000000000
+      internalID: 8147626697001834545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_34
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 256
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008efae376e5608d0800000000000000
+      internalID: -2880511114130495488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 260
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141eae4602d19ed00800000000000000
+      internalID: 1002364417035919681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_36
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 255
+        width: 143
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6648aa2a2f0bc0530800000000000000
+      internalID: 3822624739888366694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_37
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 256
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e130f4fa2c97470800000000000000
+      internalID: 8392953438782299691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_38
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 260
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926d6af68dbfe9090800000000000000
+      internalID: -8025700578922932695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_39
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 255
+        width: 143
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b980a9ba92c56c50800000000000000
+      internalID: 6657941593932204470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_40
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 258
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4cee7d294010080800000000000000
+      internalID: -9223085533143579409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_41
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 255
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d853759945ece4a0800000000000000
+      internalID: -6562618452782917418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_42
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 259
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bc899278741ea80800000000000000
+      internalID: -8439385580871562416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 145
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea827a1e43830830800000000000000
+      internalID: 4036214062528498402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_44
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834a623e925c57d70800000000000000
+      internalID: 9040348610711430200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b1ac18b5ff5c290800000000000000
+      internalID: -7870604005275460720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_46
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 145
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8df906d7068010800000000000000
+      internalID: 1190647767358082378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02206d6f82eafa20800000000000000
+      internalID: 3097036799413854733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_48
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e424426178b49e0800000000000000
+      internalID: -1636065510451687905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_49
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 162
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ad11961241d13c0800000000000000
+      internalID: -4387328328259741067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_50
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7b04b28fa205bb0800000000000000
+      internalID: -4949408745114257501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_51
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c01f9d2f0014c5f0800000000000000
+      internalID: -737446781605965632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Deer_Death_52
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d7d254f5301650800000000000000
+      internalID: 6201516010367341491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Deer_Death_0: 5293818870343904332
+      Monster_Deer_Death_1: 8483403050221172605
+      Monster_Deer_Death_10: 262303300893501359
+      Monster_Deer_Death_11: 4147003169207979294
+      Monster_Deer_Death_12: -2096589713734770679
+      Monster_Deer_Death_13: 7400997751348809700
+      Monster_Deer_Death_14: -8853840722849928303
+      Monster_Deer_Death_15: 6843550597437336278
+      Monster_Deer_Death_16: 576552552688167207
+      Monster_Deer_Death_17: 3824167288060983400
+      Monster_Deer_Death_18: 445343416819908425
+      Monster_Deer_Death_19: 8102484829160587800
+      Monster_Deer_Death_2: -7955663182405785499
+      Monster_Deer_Death_20: -3380881604050838077
+      Monster_Deer_Death_21: -7790422822997549576
+      Monster_Deer_Death_22: 7378914467762801252
+      Monster_Deer_Death_23: 7966158705755110800
+      Monster_Deer_Death_24: 5070273938737916608
+      Monster_Deer_Death_25: 8319422059731462956
+      Monster_Deer_Death_26: 6795382123374177955
+      Monster_Deer_Death_27: -8213525337249276888
+      Monster_Deer_Death_28: 2101815768903485584
+      Monster_Deer_Death_29: 9043141901178270368
+      Monster_Deer_Death_3: 658468675800833907
+      Monster_Deer_Death_30: 7799471189127487903
+      Monster_Deer_Death_31: 8269581574778983897
+      Monster_Deer_Death_32: 1220791334442304546
+      Monster_Deer_Death_33: 8147626697001834545
+      Monster_Deer_Death_34: -2880511114130495488
+      Monster_Deer_Death_35: 1002364417035919681
+      Monster_Deer_Death_36: 3822624739888366694
+      Monster_Deer_Death_37: 8392953438782299691
+      Monster_Deer_Death_38: -8025700578922932695
+      Monster_Deer_Death_39: 6657941593932204470
+      Monster_Deer_Death_4: -6203325669549916967
+      Monster_Deer_Death_40: -9223085533143579409
+      Monster_Deer_Death_41: -6562618452782917418
+      Monster_Deer_Death_42: -8439385580871562416
+      Monster_Deer_Death_43: 4036214062528498402
+      Monster_Deer_Death_44: 9040348610711430200
+      Monster_Deer_Death_45: -7870604005275460720
+      Monster_Deer_Death_46: 1190647767358082378
+      Monster_Deer_Death_47: 3097036799413854733
+      Monster_Deer_Death_48: -1636065510451687905
+      Monster_Deer_Death_49: -4387328328259741067
+      Monster_Deer_Death_5: -9217193656393495463
+      Monster_Deer_Death_50: -4949408745114257501
+      Monster_Deer_Death_51: -737446781605965632
+      Monster_Deer_Death_52: 6201516010367341491
+      Monster_Deer_Death_6: 8543322261840181264
+      Monster_Deer_Death_7: -6303972622889703823
+      Monster_Deer_Death_8: -3558943065424912551
+      Monster_Deer_Death_9: 8996492425628672433
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

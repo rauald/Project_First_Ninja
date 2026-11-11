@@ -1,0 +1,3913 @@
+fileFormatVersion: 2
+guid: d1b283af66349ce499fda31d08ed550c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8292858769703848284
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_0
+  - first:
+      213: 309208568878387717
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_1
+  - first:
+      213: 2625336157285444870
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_2
+  - first:
+      213: -4618397569897835704
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_3
+  - first:
+      213: -4989695951337493215
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_4
+  - first:
+      213: -1684684145858847615
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_5
+  - first:
+      213: 4984758801469158479
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_6
+  - first:
+      213: 2934426186703075526
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_7
+  - first:
+      213: 7699019291228483941
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_8
+  - first:
+      213: -863065485427180585
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_9
+  - first:
+      213: 8748296482256340938
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_10
+  - first:
+      213: -7687902288934756852
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_11
+  - first:
+      213: -5610642532242668367
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_12
+  - first:
+      213: -6865998776543109326
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_13
+  - first:
+      213: -3760358249744439640
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_14
+  - first:
+      213: -373595308531298662
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_15
+  - first:
+      213: -1665254487824472214
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_16
+  - first:
+      213: 5040131084588990862
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_17
+  - first:
+      213: 7730783779041840823
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_18
+  - first:
+      213: -5437225643216331982
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_19
+  - first:
+      213: 7147464670082934160
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_20
+  - first:
+      213: -4530550578273841747
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_21
+  - first:
+      213: 6994068862572836250
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_22
+  - first:
+      213: -3192718104916143526
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_23
+  - first:
+      213: -2756712875130689942
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_24
+  - first:
+      213: -5058568222321816852
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_25
+  - first:
+      213: -7961924337108343967
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_26
+  - first:
+      213: 3984101244161177728
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_27
+  - first:
+      213: 3572270092255309001
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_28
+  - first:
+      213: -1957244041891116720
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_29
+  - first:
+      213: 7728620014802632030
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_30
+  - first:
+      213: -1500672291040818545
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_31
+  - first:
+      213: -1852574538447632956
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_32
+  - first:
+      213: 6999082637776131418
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_33
+  - first:
+      213: -554229963727756685
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_34
+  - first:
+      213: -693282182801670319
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_35
+  - first:
+      213: -753387092252680619
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_36
+  - first:
+      213: 3993022848321124260
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_37
+  - first:
+      213: -6676015445908050682
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_38
+  - first:
+      213: -7235045164144577854
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_39
+  - first:
+      213: -1611104827136896307
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_40
+  - first:
+      213: 1558543328957434148
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_41
+  - first:
+      213: 8467950863568350061
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_42
+  - first:
+      213: -1498042207586547234
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_43
+  - first:
+      213: 1997266364773851513
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_44
+  - first:
+      213: -3414768831133239593
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_45
+  - first:
+      213: -2359306802118881149
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_46
+  - first:
+      213: 8040690610906493153
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_47
+  - first:
+      213: -1813646835776194839
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_48
+  - first:
+      213: 5558506601932962782
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_49
+  - first:
+      213: 8676515789004782388
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_50
+  - first:
+      213: -4204916839593821925
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_51
+  - first:
+      213: -2108485763129336574
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_52
+  - first:
+      213: -8727485342775941380
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_53
+  - first:
+      213: 6210469135517486009
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_54
+  - first:
+      213: 4460974234067460752
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_55
+  - first:
+      213: -1424004094710518543
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_56
+  - first:
+      213: -3268873303946335796
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_57
+  - first:
+      213: 6862564420468345437
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_58
+  - first:
+      213: 8485778732608265168
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_59
+  - first:
+      213: 9099234539495328997
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_60
+  - first:
+      213: 1242136063321800624
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_61
+  - first:
+      213: -5329497542999162166
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_62
+  - first:
+      213: 2539403639179274142
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_63
+  - first:
+      213: -1129656585359716313
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_64
+  - first:
+      213: -384702205852875224
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_65
+  - first:
+      213: 6982700916428916596
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_66
+  - first:
+      213: -2907118780853011006
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_67
+  - first:
+      213: 5882658056455745111
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_68
+  - first:
+      213: 7680368984906743416
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_69
+  - first:
+      213: -5220969252665743377
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_70
+  - first:
+      213: -3603294418713195221
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_71
+  - first:
+      213: -1686451653193549266
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_72
+  - first:
+      213: -7846559588713817202
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_73
+  - first:
+      213: -7318302861628461835
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_74
+  - first:
+      213: 1964150058741457274
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_75
+  - first:
+      213: -5815164241810578178
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_76
+  - first:
+      213: -9205529000316382670
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_77
+  - first:
+      213: -8949395876257588276
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_78
+  - first:
+      213: -7990225657530801024
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_79
+  - first:
+      213: -4334810458876558525
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_80
+  - first:
+      213: 894113519431918863
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_81
+  - first:
+      213: 4801540738652430260
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_82
+  - first:
+      213: 8489240342245676905
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_83
+  - first:
+      213: 5937104982980573633
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_84
+  - first:
+      213: 4021661393943132759
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_85
+  - first:
+      213: -3259297986732891187
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_86
+  - first:
+      213: -3844036168149214767
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_87
+  - first:
+      213: 5232713463741096667
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_88
+  - first:
+      213: -5735476026660367316
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_89
+  - first:
+      213: 8371331035333163587
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_90
+  - first:
+      213: 1589142214367371194
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_91
+  - first:
+      213: -2969690401733477513
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_92
+  - first:
+      213: -2787650129124683489
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_93
+  - first:
+      213: -2237078349272139349
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_94
+  - first:
+      213: 5584763915464219592
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_95
+  - first:
+      213: 4699792802578818281
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_96
+  - first:
+      213: 4761373773139824698
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_97
+  - first:
+      213: 474261581854307640
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_98
+  - first:
+      213: -2161516537108047595
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_99
+  - first:
+      213: -8056990055017695558
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_100
+  - first:
+      213: -2581030063178700098
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_101
+  - first:
+      213: -1675981790997761056
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_102
+  - first:
+      213: -4642424732634149484
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_103
+  - first:
+      213: -3962896468495225605
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_104
+  - first:
+      213: 8629757373298860140
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_105
+  - first:
+      213: 1703984774313542018
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_106
+  - first:
+      213: -1270403123467952710
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_107
+  - first:
+      213: -4953572955847091578
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_108
+  - first:
+      213: 2205440857955665323
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_109
+  - first:
+      213: 3619230300019497052
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_110
+  - first:
+      213: 4980555731593327615
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_111
+  - first:
+      213: -938147923448978777
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_112
+  - first:
+      213: 1102877476052951038
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_113
+  - first:
+      213: -4192028172772575340
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_114
+  - first:
+      213: 8991830854216083215
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_115
+  - first:
+      213: -4315596707057747879
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_116
+  - first:
+      213: -6529916683470485383
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_117
+  - first:
+      213: -5251295854347096477
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_118
+  - first:
+      213: 209211614560544735
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_119
+  - first:
+      213: 2412625271799502736
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_120
+  - first:
+      213: -562275117262307352
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_121
+  - first:
+      213: 6207588265150238944
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_122
+  - first:
+      213: -8231152155354854659
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_123
+  - first:
+      213: 8698499535834156607
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_124
+  - first:
+      213: 5157982882432427178
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_125
+  - first:
+      213: 5387685401567215055
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_126
+  - first:
+      213: -6857303097548387386
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_127
+  - first:
+      213: 2292497289602636052
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_128
+  - first:
+      213: -740154453413901031
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_129
+  - first:
+      213: -920691056026211078
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_130
+  - first:
+      213: -2514133446900103977
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_131
+  - first:
+      213: -6698622494477110792
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_132
+  - first:
+      213: -4422184310905468431
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_133
+  - first:
+      213: 5409675778646765044
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_134
+  - first:
+      213: 2764249841959197947
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_135
+  - first:
+      213: -4410533135900452970
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_136
+  - first:
+      213: 374615893345351518
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_137
+  - first:
+      213: 8813271897418109522
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_138
+  - first:
+      213: -2658446598381427763
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_139
+  - first:
+      213: -2568930215731453899
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_140
+  - first:
+      213: -7883772352194201124
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_141
+  - first:
+      213: -7279086102586123630
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_142
+  - first:
+      213: -3075476302824027177
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_143
+  - first:
+      213: 629065419695880026
+    second: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_144
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 737
+        width: 244
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6b15be2e8d9ec80800000000000000
+      internalID: -8292858769703848284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 942
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502d08d1e878a4400800000000000000
+      internalID: 309208568878387717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 949
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60decfe43511f6420800000000000000
+      internalID: 2625336157285444870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 734
+        width: 238
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84356b621e728efb0800000000000000
+      internalID: -4618397569897835704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 944
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12de25308f901cab0800000000000000
+      internalID: -4989695951337493215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 739
+        width: 258
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cd957f1bcce98e0800000000000000
+      internalID: -1684684145858847615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 932
+        width: 45
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44329438bb6d2540800000000000000
+      internalID: 4984758801469158479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 937
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c87a0ec11d29b820800000000000000
+      internalID: 2934426186703075526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 910
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561bd84114968da60800000000000000
+      internalID: 7699019291228483941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 683
+        width: 243
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db76338386c504f0800000000000000
+      internalID: -863065485427180585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 997
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac740b6dc41386970800000000000000
+      internalID: 8748296482256340938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 924
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e9128b9951f4590800000000000000
+      internalID: -7687902288934756852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 924
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b44af7e75ef222b0800000000000000
+      internalID: -5610642532242668367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 897
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f91e78d7217b0a0800000000000000
+      internalID: -6865998776543109326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 887
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6e5c7581680dbc0800000000000000
+      internalID: -3760358249744439640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 882
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e4d39db09b0daf0800000000000000
+      internalID: -373595308531298662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 880
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67e890cdd3d3e8e0800000000000000
+      internalID: -1665254487824472214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 870
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81c456848422f540800000000000000
+      internalID: 5040131084588990862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 859
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be042933e2494b60800000000000000
+      internalID: 7730783779041840823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 833
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b127cc5181b84b0800000000000000
+      internalID: -5437225643216331982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 800
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a2f0af35e03360800000000000000
+      internalID: 7147464670082934160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 754
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad0c01c0404021c0800000000000000
+      internalID: -4530550578273841747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 747
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a953648039cef0160800000000000000
+      internalID: 6994068862572836250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 750
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52d380accf21b3d0800000000000000
+      internalID: -3192718104916143526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 740
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66e61aee303eb9d0800000000000000
+      internalID: -2756712875130689942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 747
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceacd64d00b5cc9b0800000000000000
+      internalID: -5058568222321816852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 749
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163ae1edfff818190800000000000000
+      internalID: -7961924337108343967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 264
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0883b6f09fe5a4730800000000000000
+      internalID: 3984101244161177728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 740
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc21a2e8b0439130800000000000000
+      internalID: 3572270092255309001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 449
+        width: 237
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0598450f9e876d4e0800000000000000
+      internalID: -1957244041891116720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 436
+        width: 256
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5df84a94f2914b60800000000000000
+      internalID: 7728620014802632030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 713
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a8d30908a8c2be0800000000000000
+      internalID: -1500672291040818545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 682
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c545ebc5455a46e0800000000000000
+      internalID: -1852574538447632956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 422
+        width: 241
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55104a839cb12160800000000000000
+      internalID: 6999082637776131418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 670
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3722120d8cafe48f0800000000000000
+      internalID: -554229963727756685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 616
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fbff42787f066f0800000000000000
+      internalID: -693282182801670319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 629
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e1ae36e6e6b85f0800000000000000
+      internalID: -753387092252680619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 636
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7f236ef111a6730800000000000000
+      internalID: 3993022848321124260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 602
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d21afa2570a53a0800000000000000
+      internalID: -6676015445908050682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 603
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2314191c4f79b90800000000000000
+      internalID: -7235045164144577854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 596
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2969a12b434a9e0800000000000000
+      internalID: -1611104827136896307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 596
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429009176ee01a510800000000000000
+      internalID: 1558543328957434148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 541
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b247ef174348570800000000000000
+      internalID: 8467950863568350061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 477
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed903469c82e53be0800000000000000
+      internalID: -1498042207586547234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 464
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9716e224d27b7bb10800000000000000
+      internalID: 1997266364773851513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 477
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63a3e17dd4c90d0800000000000000
+      internalID: -3414768831133239593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 483
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3809a8fa6fe024fd0800000000000000
+      internalID: -2359306802118881149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 465
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e076eb5285469f60800000000000000
+      internalID: 8040690610906493153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 460
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e67c8ddfc1a4d6e0800000000000000
+      internalID: -1813646835776194839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 464
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbb0e1ed48c32d40800000000000000
+      internalID: 5558506601932962782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb2b3d32d296870800000000000000
+      internalID: 8676515789004782388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 462
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19b3f9b96225a5c0800000000000000
+      internalID: -4204916839593821925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 444
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d15b2ae572db2e0800000000000000
+      internalID: -2108485763129336574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_53
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 176
+        width: 229
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf66969225eb1e680800000000000000
+      internalID: -8727485342775941380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_54
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 447
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb0c0736c4003650800000000000000
+      internalID: 6210469135517486009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_55
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 451
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e2cd3e6098ed30800000000000000
+      internalID: 4460974234067460752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_56
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 445
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fce31012dbec3ce0800000000000000
+      internalID: -1424004094710518543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_57
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 449
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9658e9c01a2a2d0800000000000000
+      internalID: -3268873303946335796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_58
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 447
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a00422bf9bc3f50800000000000000
+      internalID: 6862564420468345437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_59
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 447
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db1ea73cca83c570800000000000000
+      internalID: 8485778732608265168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_60
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 449
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec85969a99f64e70800000000000000
+      internalID: 9099234539495328997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_61
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 457
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf7ff02b24fc3110800000000000000
+      internalID: 1242136063321800624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_62
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 456
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2c736b832d906b0800000000000000
+      internalID: -5329497542999162166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_63
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 162
+        width: 258
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e976d9ec726cd3320800000000000000
+      internalID: 2539403639179274142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_64
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 437
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720147f1257a250f0800000000000000
+      internalID: -1129656585359716313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_65
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 434
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82684dbc16349aaf0800000000000000
+      internalID: -384702205852875224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_66
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 438
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4774a80dc7987e060800000000000000
+      internalID: 6982700916428916596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_67
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 446
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdb3631fd6d7a7d0800000000000000
+      internalID: -2907118780853011006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_68
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 437
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e622ea55663a150800000000000000
+      internalID: 5882658056455745111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 441
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e3b4146e6269a60800000000000000
+      internalID: 7680368984906743416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_70
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 417
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe72f9760246b87b0800000000000000
+      internalID: -5220969252665743377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_71
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 163
+        width: 264
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dc37731d68efdc0800000000000000
+      internalID: -3603294418713195221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_72
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 433
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a378818258898e0800000000000000
+      internalID: -1686451653193549266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_73
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 428
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b17cd70ab6b1390800000000000000
+      internalID: -7846559588713817202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_74
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 409
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc29e5425a207a90800000000000000
+      internalID: -7318302861628461835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_75
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 407
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71e8d86210124b10800000000000000
+      internalID: 1964150058741457274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_76
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 414
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4a350aee26c4fa0800000000000000
+      internalID: -5815164241810578178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_77
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 412
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232d59ea5246f3080800000000000000
+      internalID: -9205529000316382670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_78
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 181
+        width: 260
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb1251dddb5dc380800000000000000
+      internalID: -8949395876257588276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_79
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 411
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0842aa739140d1190800000000000000
+      internalID: -7990225657530801024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_80
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 418
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343c30ebad8a7d3c0800000000000000
+      internalID: -4334810458876558525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_81
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 368
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f052d9a3287886c00800000000000000
+      internalID: 894113519431918863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_82
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 391
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfd1f5bcdf72a240800000000000000
+      internalID: 4801540738652430260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_83
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 321
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96718740d17dfc570800000000000000
+      internalID: 8489240342245676905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_84
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 308
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c932c0a685d46250800000000000000
+      internalID: 5937104982980573633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_85
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 248
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75af1e8eabfcfc730800000000000000
+      internalID: 4021661393943132759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_86
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 238
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3e3a3efb5a4c2d0800000000000000
+      internalID: -3259297986732891187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_87
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 227
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d956bdb87d37aac0800000000000000
+      internalID: -3844036168149214767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_88
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 228
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd221b1db255e9840800000000000000
+      internalID: 5232713463741096667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_89
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 222
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24d32d01fe7760b0800000000000000
+      internalID: -5735476026660367316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_90
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 222
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a7c323931fc2470800000000000000
+      internalID: 8371331035333163587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_91
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 220
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfd1f0ac64cd0610800000000000000
+      internalID: 1589142214367371194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_92
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 222
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bf9cf405a89c6d0800000000000000
+      internalID: -2969690401733477513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_93
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 209
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1193772af64059d0800000000000000
+      internalID: -2787650129124683489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_94
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 209
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9bae8081d44f0e0800000000000000
+      internalID: -2237078349272139349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_95
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 209
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb1aa71131118d40800000000000000
+      internalID: 5584763915464219592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_96
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 209
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4e5a347a4093140800000000000000
+      internalID: 4699792802578818281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_97
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 198
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a305cd6483cc31240800000000000000
+      internalID: 4761373773139824698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_98
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 193
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8357a0d556ae49600800000000000000
+      internalID: 474261581854307640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_99
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 183
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519da856920c002e0800000000000000
+      internalID: -2161516537108047595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_100
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 207
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b0d39b32df2090800000000000000
+      internalID: -8056990055017695558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_101
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba21a915d65e2cd0800000000000000
+      internalID: -2581030063178700098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_102
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 215
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e33e89d077bdb8e0800000000000000
+      internalID: -1675981790997761056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_103
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 217
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d8ad26d4bc29fb0800000000000000
+      internalID: -4642424732634149484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_104
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 212
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc21b188a6f009c0800000000000000
+      internalID: -3962896468495225605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_105
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 214
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60694dcb9e03c770800000000000000
+      internalID: 8629757373298860140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_106
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 214
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28102a7cf15c5a710800000000000000
+      internalID: 1703984774313542018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_107
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 178
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd5520171f9e5ee0800000000000000
+      internalID: -1270403123467952710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_108
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 194
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a90cd44af514bb0800000000000000
+      internalID: -4953572955847091578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 199
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5849f76cc4b9e10800000000000000
+      internalID: 2205440857955665323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_110
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 183
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581ef848c61a3230800000000000000
+      internalID: 3619230300019497052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_111
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 202
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3f7adbc0d7e1540800000000000000
+      internalID: 4980555731593327615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_112
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 191
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2ad042f670bf2f0800000000000000
+      internalID: -938147923448978777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_113
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 204
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff5aee98353e4f00800000000000000
+      internalID: 1102877476052951038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_114
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 185
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497f571569ce2d5c0800000000000000
+      internalID: -4192028172772575340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_115
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 191
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0762f9658669cc70800000000000000
+      internalID: 8991830854216083215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_116
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 194
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9583af1f8abeb14c0800000000000000
+      internalID: -4315596707057747879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_117
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 169
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97848d49f531165a0800000000000000
+      internalID: -6529916683470485383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_118
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 181
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ee8273e36af17b0800000000000000
+      internalID: -5251295854347096477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 183
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd764c0ead447e200800000000000000
+      internalID: 209211614560544735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_120
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 181
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0975dbde6ed5b7120800000000000000
+      internalID: 2412625271799502736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_121
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 183
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff98982c56238f0800000000000000
+      internalID: -562275117262307352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_122
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 165
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0d92053a8c52650800000000000000
+      internalID: 6207588265150238944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_123
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa02e7a9b215cd80800000000000000
+      internalID: -8231152155354854659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_124
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 184
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e8b40cd3747b870800000000000000
+      internalID: 8698499535834156607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_125
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa42ee87a16d49740800000000000000
+      internalID: 5157982882432427178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_126
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 171
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdb8f9d357e4ca40800000000000000
+      internalID: 5387685401567215055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_127
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 173
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb41711a27f5d0a0800000000000000
+      internalID: -6857303097548387386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_128
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 252
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4199f43832690df10800000000000000
+      internalID: 2292497289602636052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d475532717ab5f0800000000000000
+      internalID: -740154453413901031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_130
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 160
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcada1dc5c0933f0800000000000000
+      internalID: -920691056026211078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_131
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 152
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4479353f00c1dd0800000000000000
+      internalID: -2514133446900103977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_132
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f130440556b903a0800000000000000
+      internalID: -6698622494477110792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_133
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 158
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f98c298cce31a2c0800000000000000
+      internalID: -4422184310905468431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_134
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 144
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd66408577031b40800000000000000
+      internalID: 5409675778646765044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_135
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc586ce5969c5620800000000000000
+      internalID: 2764249841959197947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_136
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 162
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697509c1b73aac2c0800000000000000
+      internalID: -4410533135900452970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_137
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 147
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57b0129b27e23500800000000000000
+      internalID: 374615893345351518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_138
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 257
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2521a8298180f4a70800000000000000
+      internalID: 8813271897418109522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_139
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 259
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3212167ec4b1bd0800000000000000
+      internalID: -2658446598381427763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_140
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 144
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5302f8e5493595cd0800000000000000
+      internalID: -2568930215731453899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_141
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 150
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd93b61d0d6379290800000000000000
+      internalID: -7883772352194201124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_142
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a1fd581cd7bfa90800000000000000
+      internalID: -7279086102586123630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_143
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbca0fd896b155d0800000000000000
+      internalID: -3075476302824027177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_144
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 134
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5774719aa3eab800800000000000000
+      internalID: 629065419695880026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_0: -8292858769703848284
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_1: 309208568878387717
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_10: 8748296482256340938
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_100: -8056990055017695558
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_101: -2581030063178700098
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_102: -1675981790997761056
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_103: -4642424732634149484
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_104: -3962896468495225605
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_105: 8629757373298860140
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_106: 1703984774313542018
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_107: -1270403123467952710
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_108: -4953572955847091578
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_109: 2205440857955665323
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_11: -7687902288934756852
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_110: 3619230300019497052
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_111: 4980555731593327615
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_112: -938147923448978777
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_113: 1102877476052951038
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_114: -4192028172772575340
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_115: 8991830854216083215
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_116: -4315596707057747879
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_117: -6529916683470485383
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_118: -5251295854347096477
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_119: 209211614560544735
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_12: -5610642532242668367
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_120: 2412625271799502736
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_121: -562275117262307352
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_122: 6207588265150238944
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_123: -8231152155354854659
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_124: 8698499535834156607
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_125: 5157982882432427178
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_126: 5387685401567215055
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_127: -6857303097548387386
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_128: 2292497289602636052
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_129: -740154453413901031
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_13: -6865998776543109326
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_130: -920691056026211078
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_131: -2514133446900103977
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_132: -6698622494477110792
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_133: -4422184310905468431
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_134: 5409675778646765044
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_135: 2764249841959197947
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_136: -4410533135900452970
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_137: 374615893345351518
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_138: 8813271897418109522
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_139: -2658446598381427763
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_14: -3760358249744439640
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_140: -2568930215731453899
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_141: -7883772352194201124
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_142: -7279086102586123630
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_143: -3075476302824027177
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_144: 629065419695880026
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_15: -373595308531298662
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_16: -1665254487824472214
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_17: 5040131084588990862
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_18: 7730783779041840823
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_19: -5437225643216331982
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_2: 2625336157285444870
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_20: 7147464670082934160
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_21: -4530550578273841747
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_22: 6994068862572836250
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_23: -3192718104916143526
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_24: -2756712875130689942
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_25: -5058568222321816852
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_26: -7961924337108343967
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_27: 3984101244161177728
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_28: 3572270092255309001
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_29: -1957244041891116720
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_3: -4618397569897835704
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_30: 7728620014802632030
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_31: -1500672291040818545
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_32: -1852574538447632956
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_33: 6999082637776131418
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_34: -554229963727756685
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_35: -693282182801670319
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_36: -753387092252680619
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_37: 3993022848321124260
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_38: -6676015445908050682
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_39: -7235045164144577854
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_4: -4989695951337493215
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_40: -1611104827136896307
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_41: 1558543328957434148
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_42: 8467950863568350061
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_43: -1498042207586547234
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_44: 1997266364773851513
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_45: -3414768831133239593
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_46: -2359306802118881149
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_47: 8040690610906493153
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_48: -1813646835776194839
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_49: 5558506601932962782
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_5: -1684684145858847615
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_50: 8676515789004782388
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_51: -4204916839593821925
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_52: -2108485763129336574
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_53: -8727485342775941380
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_54: 6210469135517486009
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_55: 4460974234067460752
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_56: -1424004094710518543
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_57: -3268873303946335796
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_58: 6862564420468345437
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_59: 8485778732608265168
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_6: 4984758801469158479
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_60: 9099234539495328997
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_61: 1242136063321800624
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_62: -5329497542999162166
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_63: 2539403639179274142
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_64: -1129656585359716313
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_65: -384702205852875224
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_66: 6982700916428916596
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_67: -2907118780853011006
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_68: 5882658056455745111
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_69: 7680368984906743416
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_7: 2934426186703075526
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_70: -5220969252665743377
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_71: -3603294418713195221
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_72: -1686451653193549266
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_73: -7846559588713817202
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_74: -7318302861628461835
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_75: 1964150058741457274
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_76: -5815164241810578178
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_77: -9205529000316382670
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_78: -8949395876257588276
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_79: -7990225657530801024
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_8: 7699019291228483941
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_80: -4334810458876558525
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_81: 894113519431918863
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_82: 4801540738652430260
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_83: 8489240342245676905
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_84: 5937104982980573633
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_85: 4021661393943132759
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_86: -3259297986732891187
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_87: -3844036168149214767
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_88: 5232713463741096667
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_89: -5735476026660367316
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_9: -863065485427180585
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_90: 8371331035333163587
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_91: 1589142214367371194
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_92: -2969690401733477513
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_93: -2787650129124683489
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_94: -2237078349272139349
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_95: 5584763915464219592
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_96: 4699792802578818281
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_97: 4761373773139824698
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_98: 474261581854307640
+      Ninja_Water_Elf_Male_Battle_Death_Right_16f_v1_99: -2161516537108047595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

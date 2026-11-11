@@ -1,0 +1,2041 @@
+fileFormatVersion: 2
+guid: 41d977715b6073c4ca8734c9ca3e7f0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2260138956987158029
+    second: Monster_IceElemental_Death_0
+  - first:
+      213: -3072528596634093114
+    second: Monster_IceElemental_Death_1
+  - first:
+      213: -3797660629876804200
+    second: Monster_IceElemental_Death_2
+  - first:
+      213: 8582111750150707705
+    second: Monster_IceElemental_Death_3
+  - first:
+      213: 8736224623133193340
+    second: Monster_IceElemental_Death_4
+  - first:
+      213: -1783215062588524832
+    second: Monster_IceElemental_Death_5
+  - first:
+      213: -2083406179225876471
+    second: Monster_IceElemental_Death_6
+  - first:
+      213: 5592011942879565277
+    second: Monster_IceElemental_Death_7
+  - first:
+      213: -1981786277328716565
+    second: Monster_IceElemental_Death_8
+  - first:
+      213: 6216932275357966348
+    second: Monster_IceElemental_Death_9
+  - first:
+      213: -2036563622025850198
+    second: Monster_IceElemental_Death_10
+  - first:
+      213: -5788065001189711525
+    second: Monster_IceElemental_Death_11
+  - first:
+      213: 6678152187323257520
+    second: Monster_IceElemental_Death_12
+  - first:
+      213: -8218757105073121429
+    second: Monster_IceElemental_Death_13
+  - first:
+      213: 5670944281638719419
+    second: Monster_IceElemental_Death_14
+  - first:
+      213: -2935997654067787655
+    second: Monster_IceElemental_Death_15
+  - first:
+      213: -5156402253015799804
+    second: Monster_IceElemental_Death_16
+  - first:
+      213: -2320245693979050264
+    second: Monster_IceElemental_Death_17
+  - first:
+      213: -788076379811112168
+    second: Monster_IceElemental_Death_18
+  - first:
+      213: 6884170182568205375
+    second: Monster_IceElemental_Death_19
+  - first:
+      213: -4191279769096010697
+    second: Monster_IceElemental_Death_20
+  - first:
+      213: -5246461261652679071
+    second: Monster_IceElemental_Death_21
+  - first:
+      213: 8068424177968052537
+    second: Monster_IceElemental_Death_22
+  - first:
+      213: 1759068846883133592
+    second: Monster_IceElemental_Death_23
+  - first:
+      213: -2295552502935819504
+    second: Monster_IceElemental_Death_24
+  - first:
+      213: 4976342075349671738
+    second: Monster_IceElemental_Death_25
+  - first:
+      213: 4516624046350026744
+    second: Monster_IceElemental_Death_26
+  - first:
+      213: -8975743197235722598
+    second: Monster_IceElemental_Death_27
+  - first:
+      213: 4687705444430561968
+    second: Monster_IceElemental_Death_28
+  - first:
+      213: -6790169685997325365
+    second: Monster_IceElemental_Death_29
+  - first:
+      213: -5979459452359004970
+    second: Monster_IceElemental_Death_30
+  - first:
+      213: 6140190716188020925
+    second: Monster_IceElemental_Death_31
+  - first:
+      213: 7645835351794471245
+    second: Monster_IceElemental_Death_32
+  - first:
+      213: 4012594912176432824
+    second: Monster_IceElemental_Death_33
+  - first:
+      213: 4387273636021136381
+    second: Monster_IceElemental_Death_34
+  - first:
+      213: 6604574127831558883
+    second: Monster_IceElemental_Death_35
+  - first:
+      213: -7093246881381114243
+    second: Monster_IceElemental_Death_36
+  - first:
+      213: 6606229919079257947
+    second: Monster_IceElemental_Death_37
+  - first:
+      213: -2639325941812015622
+    second: Monster_IceElemental_Death_38
+  - first:
+      213: 8971142219383644438
+    second: Monster_IceElemental_Death_39
+  - first:
+      213: 1742692832521415847
+    second: Monster_IceElemental_Death_40
+  - first:
+      213: -2141962669864235396
+    second: Monster_IceElemental_Death_41
+  - first:
+      213: -8526844889214996411
+    second: Monster_IceElemental_Death_42
+  - first:
+      213: 2864502481829209785
+    second: Monster_IceElemental_Death_43
+  - first:
+      213: -6257565459260853160
+    second: Monster_IceElemental_Death_44
+  - first:
+      213: -519508472109926523
+    second: Monster_IceElemental_Death_45
+  - first:
+      213: 1631962700746342330
+    second: Monster_IceElemental_Death_46
+  - first:
+      213: 3662193410807512003
+    second: Monster_IceElemental_Death_47
+  - first:
+      213: 5754660723760803276
+    second: Monster_IceElemental_Death_48
+  - first:
+      213: 415418883204606467
+    second: Monster_IceElemental_Death_49
+  - first:
+      213: -2971065264224429826
+    second: Monster_IceElemental_Death_50
+  - first:
+      213: -8320522901885856415
+    second: Monster_IceElemental_Death_51
+  - first:
+      213: -6874965135628988952
+    second: Monster_IceElemental_Death_52
+  - first:
+      213: -8968507065287393712
+    second: Monster_IceElemental_Death_53
+  - first:
+      213: 6161037846076061539
+    second: Monster_IceElemental_Death_54
+  - first:
+      213: -37262109733099311
+    second: Monster_IceElemental_Death_55
+  - first:
+      213: 5067283233018691552
+    second: Monster_IceElemental_Death_56
+  - first:
+      213: -4235413624745275789
+    second: Monster_IceElemental_Death_57
+  - first:
+      213: 7829272211785211317
+    second: Monster_IceElemental_Death_58
+  - first:
+      213: 5374498313948521116
+    second: Monster_IceElemental_Death_59
+  - first:
+      213: 8763527610099594824
+    second: Monster_IceElemental_Death_60
+  - first:
+      213: 3705091363074358968
+    second: Monster_IceElemental_Death_61
+  - first:
+      213: 5052766839450630986
+    second: Monster_IceElemental_Death_62
+  - first:
+      213: 1414821272764454889
+    second: Monster_IceElemental_Death_63
+  - first:
+      213: -7131413102312785189
+    second: Monster_IceElemental_Death_64
+  - first:
+      213: 8771939936849827820
+    second: Monster_IceElemental_Death_65
+  - first:
+      213: -3539935676645637152
+    second: Monster_IceElemental_Death_66
+  - first:
+      213: -3363131608866616438
+    second: Monster_IceElemental_Death_67
+  - first:
+      213: -1269449737748710657
+    second: Monster_IceElemental_Death_68
+  - first:
+      213: -1384484651256967471
+    second: Monster_IceElemental_Death_69
+  - first:
+      213: -227742873027981061
+    second: Monster_IceElemental_Death_70
+  - first:
+      213: -3885205044722141333
+    second: Monster_IceElemental_Death_71
+  - first:
+      213: 7599648040819743870
+    second: Monster_IceElemental_Death_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 767
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f132c5e79f52a0e0800000000000000
+      internalID: -2260138956987158029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 767
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c93563358f2c55d0800000000000000
+      internalID: -3072528596634093114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 767
+        width: 136
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895f4ba27cffb4bc0800000000000000
+      internalID: -3797660629876804200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 767
+        width: 137
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f95072ba29c91770800000000000000
+      internalID: 8582111750150707705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 511
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74ffdb120e4d3970800000000000000
+      internalID: 8736224623133193340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 511
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6f844395fb047e0800000000000000
+      internalID: -1783215062588524832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 511
+        width: 135
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908436c4e114613e0800000000000000
+      internalID: -2083406179225876471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 511
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5141bfb31da9d40800000000000000
+      internalID: 5592011942879565277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_8
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 586
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becf31771e74f74e0800000000000000
+      internalID: -1981786277328716565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 132
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c006f5937faf64650800000000000000
+      internalID: 6216932275357966348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 327
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa29aaa0d2cacb3e0800000000000000
+      internalID: -2036563622025850198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_11
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 346
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5167334c89acafa0800000000000000
+      internalID: -5788065001189711525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 395
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2966138009dac50800000000000000
+      internalID: 6678152187323257520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_13
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 387
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6716e035fb11fd80800000000000000
+      internalID: -8218757105073121429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_14
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 369
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfcb1837cd33be40800000000000000
+      internalID: 5670944281638719419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_15
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 382
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c8ef60bd3147d0800000000000000
+      internalID: -2935997654067787655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_16
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 374
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40828fd7877c078b0800000000000000
+      internalID: -5156402253015799804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 357
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eebfb2a5d4dccfd0800000000000000
+      internalID: -2320245693979050264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_18
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 360
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b9b7d35b03015f0800000000000000
+      internalID: -788076379811112168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 313
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c5051ae4c798f50800000000000000
+      internalID: 6884170182568205375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_20
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 355
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73440c0a14595d5c0800000000000000
+      internalID: -4191279769096010697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_21
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 327
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166285b8743d037b0800000000000000
+      internalID: -5246461261652679071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_22
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 313
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93975f0aa0dc8ff60800000000000000
+      internalID: 8068424177968052537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 326
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898dce9dbc7796810800000000000000
+      internalID: 1759068846883133592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_24
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 319
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b6043392f8420e0800000000000000
+      internalID: -2295552502935819504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_25
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 326
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f1c0270c48f0540800000000000000
+      internalID: 4976342075349671738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 316
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f74eaad3a54eae30800000000000000
+      internalID: 4516624046350026744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 331
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96c2ad1e11cf6380800000000000000
+      internalID: -8975743197235722598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_28
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 316
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2c2f2e3431e0140800000000000000
+      internalID: 4687705444430561968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_29
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 308
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3f08d75a874c1a0800000000000000
+      internalID: -6790169685997325365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 297
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc2a410f41b40da0800000000000000
+      internalID: -5979459452359004970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 255
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0d98b9ce6563550800000000000000
+      internalID: 6140190716188020925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_32
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 282
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4155da3eb67b1a60800000000000000
+      internalID: 7645835351794471245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_33
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 292
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6e0df10d99fa730800000000000000
+      internalID: 4012594912176432824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_34
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 255
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbe97f802ab2ec30800000000000000
+      internalID: 4387273636021136381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_35
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 311
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa22e3d2928ab50800000000000000
+      internalID: 6604574127831558883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_36
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 303
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e91230b89bf8d90800000000000000
+      internalID: -7093246881381114243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_37
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 296
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57d64f2c1b0eab50800000000000000
+      internalID: 6606229919079257947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 267
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd42d72a0b3f5bd0800000000000000
+      internalID: -2639325941812015622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_39
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 284
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6112fdf3156ef7c70800000000000000
+      internalID: 8971142219383644438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_40
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 289
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acee03e5e94f2810800000000000000
+      internalID: 1742692832521415847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_41
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 274
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e4894ec483642e0800000000000000
+      internalID: -2141962669864235396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_42
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 275
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5403c7b10cf8aa980800000000000000
+      internalID: -8526844889214996411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 268
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6a7a794d1c0c720800000000000000
+      internalID: 2864502481829209785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854b00a6e59a829a0800000000000000
+      internalID: -6257565459260853160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_45
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587f41e0cc55ac8f0800000000000000
+      internalID: -519508472109926523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_46
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf3ca80e65e5a610800000000000000
+      internalID: 1631962700746342330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_47
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 261
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb35f50189b2d230800000000000000
+      internalID: 3662193410807512003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_48
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccda7a25079acdf40800000000000000
+      internalID: 5754660723760803276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_49
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 97
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a6666f54dd3c500800000000000000
+      internalID: 415418883204606467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 108
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8966132e7a4c6d0800000000000000
+      internalID: -2971065264224429826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_51
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 108
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16557973180978c80800000000000000
+      internalID: -8320522901885856415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_52
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 67
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed83af52a73790a0800000000000000
+      internalID: -6874965135628988952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_53
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 90
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eb6ff5756798380800000000000000
+      internalID: -8968507065287393712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_54
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 73
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367f9174747608550800000000000000
+      internalID: 6161037846076061539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8e6c10f4e9b7ff0800000000000000
+      internalID: -37262109733099311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_56
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 49
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef3f58b04b925640800000000000000
+      internalID: 5067283233018691552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 51
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e453c9fb9c835c0800000000000000
+      internalID: -4235413624745275789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 52
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd5b49689927ac60800000000000000
+      internalID: 7829272211785211317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_59
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 66
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9266d0cdbd069a40800000000000000
+      internalID: 5374498313948521116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_60
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 25
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84670532eed4e9970800000000000000
+      internalID: 8763527610099594824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_61
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 31
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be3a6cd6f02b6330800000000000000
+      internalID: 3705091363074358968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 22
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bf3567ba80f1640800000000000000
+      internalID: 5052766839450630986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_63
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 21
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e79ac7937472a310800000000000000
+      internalID: 1414821272764454889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_64
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 23
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda741a3191280d90800000000000000
+      internalID: -7131413102312785189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_65
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 14
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce71ff695e03cb970800000000000000
+      internalID: 8771939936849827820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_66
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e30ec9e14f9fdec0800000000000000
+      internalID: -3539935676645637152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_67
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b0e90de91c351d0800000000000000
+      internalID: -3363131608866616438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_68
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa76497032026ee0800000000000000
+      internalID: -1269449737748710657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_69
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de09d48b8259cce0800000000000000
+      internalID: -1384484651256967471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_70
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf05a094015e6dcf0800000000000000
+      internalID: -227742873027981061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_71
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 0
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67f7c5b89af41ac0800000000000000
+      internalID: -3885205044722141333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Death_72
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cdd03e0af577960800000000000000
+      internalID: 7599648040819743870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_IceElemental_Death_0: -2260138956987158029
+      Monster_IceElemental_Death_1: -3072528596634093114
+      Monster_IceElemental_Death_10: -2036563622025850198
+      Monster_IceElemental_Death_11: -5788065001189711525
+      Monster_IceElemental_Death_12: 6678152187323257520
+      Monster_IceElemental_Death_13: -8218757105073121429
+      Monster_IceElemental_Death_14: 5670944281638719419
+      Monster_IceElemental_Death_15: -2935997654067787655
+      Monster_IceElemental_Death_16: -5156402253015799804
+      Monster_IceElemental_Death_17: -2320245693979050264
+      Monster_IceElemental_Death_18: -788076379811112168
+      Monster_IceElemental_Death_19: 6884170182568205375
+      Monster_IceElemental_Death_2: -3797660629876804200
+      Monster_IceElemental_Death_20: -4191279769096010697
+      Monster_IceElemental_Death_21: -5246461261652679071
+      Monster_IceElemental_Death_22: 8068424177968052537
+      Monster_IceElemental_Death_23: 1759068846883133592
+      Monster_IceElemental_Death_24: -2295552502935819504
+      Monster_IceElemental_Death_25: 4976342075349671738
+      Monster_IceElemental_Death_26: 4516624046350026744
+      Monster_IceElemental_Death_27: -8975743197235722598
+      Monster_IceElemental_Death_28: 4687705444430561968
+      Monster_IceElemental_Death_29: -6790169685997325365
+      Monster_IceElemental_Death_3: 8582111750150707705
+      Monster_IceElemental_Death_30: -5979459452359004970
+      Monster_IceElemental_Death_31: 6140190716188020925
+      Monster_IceElemental_Death_32: 7645835351794471245
+      Monster_IceElemental_Death_33: 4012594912176432824
+      Monster_IceElemental_Death_34: 4387273636021136381
+      Monster_IceElemental_Death_35: 6604574127831558883
+      Monster_IceElemental_Death_36: -7093246881381114243
+      Monster_IceElemental_Death_37: 6606229919079257947
+      Monster_IceElemental_Death_38: -2639325941812015622
+      Monster_IceElemental_Death_39: 8971142219383644438
+      Monster_IceElemental_Death_4: 8736224623133193340
+      Monster_IceElemental_Death_40: 1742692832521415847
+      Monster_IceElemental_Death_41: -2141962669864235396
+      Monster_IceElemental_Death_42: -8526844889214996411
+      Monster_IceElemental_Death_43: 2864502481829209785
+      Monster_IceElemental_Death_44: -6257565459260853160
+      Monster_IceElemental_Death_45: -519508472109926523
+      Monster_IceElemental_Death_46: 1631962700746342330
+      Monster_IceElemental_Death_47: 3662193410807512003
+      Monster_IceElemental_Death_48: 5754660723760803276
+      Monster_IceElemental_Death_49: 415418883204606467
+      Monster_IceElemental_Death_5: -1783215062588524832
+      Monster_IceElemental_Death_50: -2971065264224429826
+      Monster_IceElemental_Death_51: -8320522901885856415
+      Monster_IceElemental_Death_52: -6874965135628988952
+      Monster_IceElemental_Death_53: -8968507065287393712
+      Monster_IceElemental_Death_54: 6161037846076061539
+      Monster_IceElemental_Death_55: -37262109733099311
+      Monster_IceElemental_Death_56: 5067283233018691552
+      Monster_IceElemental_Death_57: -4235413624745275789
+      Monster_IceElemental_Death_58: 7829272211785211317
+      Monster_IceElemental_Death_59: 5374498313948521116
+      Monster_IceElemental_Death_6: -2083406179225876471
+      Monster_IceElemental_Death_60: 8763527610099594824
+      Monster_IceElemental_Death_61: 3705091363074358968
+      Monster_IceElemental_Death_62: 5052766839450630986
+      Monster_IceElemental_Death_63: 1414821272764454889
+      Monster_IceElemental_Death_64: -7131413102312785189
+      Monster_IceElemental_Death_65: 8771939936849827820
+      Monster_IceElemental_Death_66: -3539935676645637152
+      Monster_IceElemental_Death_67: -3363131608866616438
+      Monster_IceElemental_Death_68: -1269449737748710657
+      Monster_IceElemental_Death_69: -1384484651256967471
+      Monster_IceElemental_Death_7: 5592011942879565277
+      Monster_IceElemental_Death_70: -227742873027981061
+      Monster_IceElemental_Death_71: -3885205044722141333
+      Monster_IceElemental_Death_72: 7599648040819743870
+      Monster_IceElemental_Death_8: -1981786277328716565
+      Monster_IceElemental_Death_9: 6216932275357966348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

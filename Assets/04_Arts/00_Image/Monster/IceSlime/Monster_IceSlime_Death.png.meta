@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: eedcb0de149da134cbc3c8bb06a0bd7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -222379593504136764
+    second: Monster_IceSlime_Death_0
+  - first:
+      213: -5048074096511551247
+    second: Monster_IceSlime_Death_1
+  - first:
+      213: -591687175813541303
+    second: Monster_IceSlime_Death_2
+  - first:
+      213: 6939684012107554727
+    second: Monster_IceSlime_Death_3
+  - first:
+      213: -6073691929750554865
+    second: Monster_IceSlime_Death_4
+  - first:
+      213: -8030519101565879611
+    second: Monster_IceSlime_Death_5
+  - first:
+      213: 7117220092102446675
+    second: Monster_IceSlime_Death_6
+  - first:
+      213: 488338679258972788
+    second: Monster_IceSlime_Death_7
+  - first:
+      213: 6524154166327439915
+    second: Monster_IceSlime_Death_8
+  - first:
+      213: 8728067628659358892
+    second: Monster_IceSlime_Death_9
+  - first:
+      213: 6092670075701228194
+    second: Monster_IceSlime_Death_10
+  - first:
+      213: -3292396485037382934
+    second: Monster_IceSlime_Death_11
+  - first:
+      213: -1827255875399984803
+    second: Monster_IceSlime_Death_12
+  - first:
+      213: 1728910590650419239
+    second: Monster_IceSlime_Death_13
+  - first:
+      213: -7124404294047153911
+    second: Monster_IceSlime_Death_14
+  - first:
+      213: 9028262929540593374
+    second: Monster_IceSlime_Death_15
+  - first:
+      213: 2203670926251271701
+    second: Monster_IceSlime_Death_16
+  - first:
+      213: 5929432305422982495
+    second: Monster_IceSlime_Death_17
+  - first:
+      213: 1048160839795840200
+    second: Monster_IceSlime_Death_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 767
+        width: 161
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1e3eb10f2f9ecf0800000000000000
+      internalID: -222379593504136764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 767
+        width: 163
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f395ea53a1f9b0800000000000000
+      internalID: -5048074096511551247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 767
+        width: 168
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942da7306a7e9c7f0800000000000000
+      internalID: -591687175813541303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_3
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 767
+        width: 174
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afd02b47d5be4060800000000000000
+      internalID: 6939684012107554727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 511
+        width: 180
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07bf04ae59e5bba0800000000000000
+      internalID: -6073691929750554865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 511
+        width: 182
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca3d25bc6ddd8090800000000000000
+      internalID: -8030519101565879611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 511
+        width: 183
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e0a0217f175c260800000000000000
+      internalID: 7117220092102446675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 511
+        width: 185
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4728053017de6c600800000000000000
+      internalID: 488338679258972788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 345
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f4d7d5a37a8a50800000000000000
+      internalID: 6524154166327439915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 315
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacb3d5d343502970800000000000000
+      internalID: 8728067628659358892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 255
+        width: 185
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2f2db47238d8450800000000000000
+      internalID: 6092670075701228194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 317
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae22a9937de0f42d0800000000000000
+      internalID: -3292396485037382934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 183
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59d909667844a6e0800000000000000
+      internalID: -1827255875399984803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_13
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 255
+        width: 182
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7280124a5035ef710800000000000000
+      internalID: 1728910590650419239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_14
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 255
+        width: 174
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9014d019a08012d90800000000000000
+      internalID: -7124404294047153911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 168
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63816fc45da4d70800000000000000
+      internalID: 9028262929540593374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 152
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51620192803059e10800000000000000
+      internalID: 2203670926251271701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d567c2443994250800000000000000
+      internalID: 5929432305422982495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceSlime_Death_18
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 0
+        width: 138
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4918bfab0db8e00800000000000000
+      internalID: 1048160839795840200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_IceSlime_Death_0: -222379593504136764
+      Monster_IceSlime_Death_1: -5048074096511551247
+      Monster_IceSlime_Death_10: 6092670075701228194
+      Monster_IceSlime_Death_11: -3292396485037382934
+      Monster_IceSlime_Death_12: -1827255875399984803
+      Monster_IceSlime_Death_13: 1728910590650419239
+      Monster_IceSlime_Death_14: -7124404294047153911
+      Monster_IceSlime_Death_15: 9028262929540593374
+      Monster_IceSlime_Death_16: 2203670926251271701
+      Monster_IceSlime_Death_17: 5929432305422982495
+      Monster_IceSlime_Death_18: 1048160839795840200
+      Monster_IceSlime_Death_2: -591687175813541303
+      Monster_IceSlime_Death_3: 6939684012107554727
+      Monster_IceSlime_Death_4: -6073691929750554865
+      Monster_IceSlime_Death_5: -8030519101565879611
+      Monster_IceSlime_Death_6: 7117220092102446675
+      Monster_IceSlime_Death_7: 488338679258972788
+      Monster_IceSlime_Death_8: 6524154166327439915
+      Monster_IceSlime_Death_9: 8728067628659358892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

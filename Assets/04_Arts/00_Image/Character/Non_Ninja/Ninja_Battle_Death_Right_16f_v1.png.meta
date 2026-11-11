@@ -1,0 +1,4875 @@
+fileFormatVersion: 2
+guid: 4f388c8ce37608e49b773a4488d680b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5347930559856176192
+    second: Ninja_Battle_Death_Right_16f_v1_0
+  - first:
+      213: -8259209173427216372
+    second: Ninja_Battle_Death_Right_16f_v1_1
+  - first:
+      213: 4129017973265687732
+    second: Ninja_Battle_Death_Right_16f_v1_2
+  - first:
+      213: -7165647995614794067
+    second: Ninja_Battle_Death_Right_16f_v1_3
+  - first:
+      213: 4708446473589818741
+    second: Ninja_Battle_Death_Right_16f_v1_4
+  - first:
+      213: -8121564250432441299
+    second: Ninja_Battle_Death_Right_16f_v1_5
+  - first:
+      213: -7252195710247483485
+    second: Ninja_Battle_Death_Right_16f_v1_6
+  - first:
+      213: 466893988265176168
+    second: Ninja_Battle_Death_Right_16f_v1_7
+  - first:
+      213: 3166437335683846967
+    second: Ninja_Battle_Death_Right_16f_v1_8
+  - first:
+      213: -5877478236378162686
+    second: Ninja_Battle_Death_Right_16f_v1_9
+  - first:
+      213: 6486824417042169937
+    second: Ninja_Battle_Death_Right_16f_v1_10
+  - first:
+      213: 4220180905561741827
+    second: Ninja_Battle_Death_Right_16f_v1_11
+  - first:
+      213: -7384859232914169890
+    second: Ninja_Battle_Death_Right_16f_v1_12
+  - first:
+      213: 6392331150731968990
+    second: Ninja_Battle_Death_Right_16f_v1_13
+  - first:
+      213: 1724109621127447436
+    second: Ninja_Battle_Death_Right_16f_v1_14
+  - first:
+      213: -341716777183571872
+    second: Ninja_Battle_Death_Right_16f_v1_15
+  - first:
+      213: 7639197987587995800
+    second: Ninja_Battle_Death_Right_16f_v1_16
+  - first:
+      213: 568841163466340115
+    second: Ninja_Battle_Death_Right_16f_v1_17
+  - first:
+      213: -4363376977732422111
+    second: Ninja_Battle_Death_Right_16f_v1_18
+  - first:
+      213: -7232716126063494653
+    second: Ninja_Battle_Death_Right_16f_v1_19
+  - first:
+      213: 751249874022406139
+    second: Ninja_Battle_Death_Right_16f_v1_20
+  - first:
+      213: 9182892047436502159
+    second: Ninja_Battle_Death_Right_16f_v1_21
+  - first:
+      213: -1727488674013419922
+    second: Ninja_Battle_Death_Right_16f_v1_22
+  - first:
+      213: -180737760870600283
+    second: Ninja_Battle_Death_Right_16f_v1_23
+  - first:
+      213: 826936946118383522
+    second: Ninja_Battle_Death_Right_16f_v1_24
+  - first:
+      213: -3364363639728091229
+    second: Ninja_Battle_Death_Right_16f_v1_25
+  - first:
+      213: -1127425537635715759
+    second: Ninja_Battle_Death_Right_16f_v1_26
+  - first:
+      213: 6687259341837537892
+    second: Ninja_Battle_Death_Right_16f_v1_27
+  - first:
+      213: -8358840056125021019
+    second: Ninja_Battle_Death_Right_16f_v1_28
+  - first:
+      213: -5090129770883887347
+    second: Ninja_Battle_Death_Right_16f_v1_29
+  - first:
+      213: -3086655870151187677
+    second: Ninja_Battle_Death_Right_16f_v1_30
+  - first:
+      213: -3398539901121024849
+    second: Ninja_Battle_Death_Right_16f_v1_31
+  - first:
+      213: -4691943104649017060
+    second: Ninja_Battle_Death_Right_16f_v1_32
+  - first:
+      213: -3890903811830245998
+    second: Ninja_Battle_Death_Right_16f_v1_33
+  - first:
+      213: 2467274312421016317
+    second: Ninja_Battle_Death_Right_16f_v1_34
+  - first:
+      213: -4799684797945119622
+    second: Ninja_Battle_Death_Right_16f_v1_35
+  - first:
+      213: 5407186565412331336
+    second: Ninja_Battle_Death_Right_16f_v1_36
+  - first:
+      213: -7434971319851262941
+    second: Ninja_Battle_Death_Right_16f_v1_37
+  - first:
+      213: 5912227245009565253
+    second: Ninja_Battle_Death_Right_16f_v1_38
+  - first:
+      213: 9094629976989842201
+    second: Ninja_Battle_Death_Right_16f_v1_39
+  - first:
+      213: 3787624538585265410
+    second: Ninja_Battle_Death_Right_16f_v1_40
+  - first:
+      213: -9006645955860392351
+    second: Ninja_Battle_Death_Right_16f_v1_41
+  - first:
+      213: -6474716746614469117
+    second: Ninja_Battle_Death_Right_16f_v1_42
+  - first:
+      213: 1919554289324957486
+    second: Ninja_Battle_Death_Right_16f_v1_43
+  - first:
+      213: -6638851489160325251
+    second: Ninja_Battle_Death_Right_16f_v1_44
+  - first:
+      213: 883568600512451311
+    second: Ninja_Battle_Death_Right_16f_v1_45
+  - first:
+      213: -7138305385492370334
+    second: Ninja_Battle_Death_Right_16f_v1_46
+  - first:
+      213: -1529762954119104009
+    second: Ninja_Battle_Death_Right_16f_v1_47
+  - first:
+      213: -1159630696440828856
+    second: Ninja_Battle_Death_Right_16f_v1_48
+  - first:
+      213: -1788472319954990816
+    second: Ninja_Battle_Death_Right_16f_v1_49
+  - first:
+      213: -2688214196913579639
+    second: Ninja_Battle_Death_Right_16f_v1_50
+  - first:
+      213: -328988888026089789
+    second: Ninja_Battle_Death_Right_16f_v1_51
+  - first:
+      213: -4285675227174159858
+    second: Ninja_Battle_Death_Right_16f_v1_52
+  - first:
+      213: 7473158226663657748
+    second: Ninja_Battle_Death_Right_16f_v1_53
+  - first:
+      213: -6032243405280638762
+    second: Ninja_Battle_Death_Right_16f_v1_54
+  - first:
+      213: -2945666799591156919
+    second: Ninja_Battle_Death_Right_16f_v1_55
+  - first:
+      213: 7547845466060670275
+    second: Ninja_Battle_Death_Right_16f_v1_56
+  - first:
+      213: 8219536931729497009
+    second: Ninja_Battle_Death_Right_16f_v1_57
+  - first:
+      213: -5750664392424257435
+    second: Ninja_Battle_Death_Right_16f_v1_58
+  - first:
+      213: 7580030701763749016
+    second: Ninja_Battle_Death_Right_16f_v1_59
+  - first:
+      213: -8043435198255570964
+    second: Ninja_Battle_Death_Right_16f_v1_60
+  - first:
+      213: -3593016477653732444
+    second: Ninja_Battle_Death_Right_16f_v1_61
+  - first:
+      213: 2089954243993236959
+    second: Ninja_Battle_Death_Right_16f_v1_62
+  - first:
+      213: 5625922706135201408
+    second: Ninja_Battle_Death_Right_16f_v1_63
+  - first:
+      213: 1009750470669304438
+    second: Ninja_Battle_Death_Right_16f_v1_64
+  - first:
+      213: -1000220392374470580
+    second: Ninja_Battle_Death_Right_16f_v1_65
+  - first:
+      213: -708535145258805793
+    second: Ninja_Battle_Death_Right_16f_v1_66
+  - first:
+      213: 1871036709886983394
+    second: Ninja_Battle_Death_Right_16f_v1_67
+  - first:
+      213: 1814694678826317775
+    second: Ninja_Battle_Death_Right_16f_v1_68
+  - first:
+      213: 5727682155503204661
+    second: Ninja_Battle_Death_Right_16f_v1_69
+  - first:
+      213: -4018986135355385953
+    second: Ninja_Battle_Death_Right_16f_v1_70
+  - first:
+      213: 9008434688661061998
+    second: Ninja_Battle_Death_Right_16f_v1_71
+  - first:
+      213: 1304098707400560699
+    second: Ninja_Battle_Death_Right_16f_v1_72
+  - first:
+      213: 914117853941447020
+    second: Ninja_Battle_Death_Right_16f_v1_73
+  - first:
+      213: -5660158942575830700
+    second: Ninja_Battle_Death_Right_16f_v1_74
+  - first:
+      213: 6774479447368469227
+    second: Ninja_Battle_Death_Right_16f_v1_75
+  - first:
+      213: -6009959786712345543
+    second: Ninja_Battle_Death_Right_16f_v1_76
+  - first:
+      213: 5854748750512112038
+    second: Ninja_Battle_Death_Right_16f_v1_77
+  - first:
+      213: 6068698531937723493
+    second: Ninja_Battle_Death_Right_16f_v1_78
+  - first:
+      213: -7113248828680964081
+    second: Ninja_Battle_Death_Right_16f_v1_79
+  - first:
+      213: 2929682291021027167
+    second: Ninja_Battle_Death_Right_16f_v1_80
+  - first:
+      213: 1949422409776539969
+    second: Ninja_Battle_Death_Right_16f_v1_81
+  - first:
+      213: 2388163773816193485
+    second: Ninja_Battle_Death_Right_16f_v1_82
+  - first:
+      213: 3394875159555784557
+    second: Ninja_Battle_Death_Right_16f_v1_83
+  - first:
+      213: 9145612298572237340
+    second: Ninja_Battle_Death_Right_16f_v1_84
+  - first:
+      213: 6623240070511122646
+    second: Ninja_Battle_Death_Right_16f_v1_85
+  - first:
+      213: 8686560427711875749
+    second: Ninja_Battle_Death_Right_16f_v1_86
+  - first:
+      213: 5825744847335630911
+    second: Ninja_Battle_Death_Right_16f_v1_87
+  - first:
+      213: 5930923530611327049
+    second: Ninja_Battle_Death_Right_16f_v1_88
+  - first:
+      213: 5202292353969145123
+    second: Ninja_Battle_Death_Right_16f_v1_89
+  - first:
+      213: 3114260781649506694
+    second: Ninja_Battle_Death_Right_16f_v1_90
+  - first:
+      213: -3098388545430196121
+    second: Ninja_Battle_Death_Right_16f_v1_91
+  - first:
+      213: 8833890430705475019
+    second: Ninja_Battle_Death_Right_16f_v1_92
+  - first:
+      213: 3696269556124908272
+    second: Ninja_Battle_Death_Right_16f_v1_93
+  - first:
+      213: 6336537437871889192
+    second: Ninja_Battle_Death_Right_16f_v1_94
+  - first:
+      213: -1271979062759713713
+    second: Ninja_Battle_Death_Right_16f_v1_95
+  - first:
+      213: 4127420585557311548
+    second: Ninja_Battle_Death_Right_16f_v1_96
+  - first:
+      213: 7344162538194913217
+    second: Ninja_Battle_Death_Right_16f_v1_97
+  - first:
+      213: -1025680963405118695
+    second: Ninja_Battle_Death_Right_16f_v1_98
+  - first:
+      213: 7319685121322795385
+    second: Ninja_Battle_Death_Right_16f_v1_99
+  - first:
+      213: -3842259622889503026
+    second: Ninja_Battle_Death_Right_16f_v1_100
+  - first:
+      213: -8582291588639605347
+    second: Ninja_Battle_Death_Right_16f_v1_101
+  - first:
+      213: -976643628922577187
+    second: Ninja_Battle_Death_Right_16f_v1_102
+  - first:
+      213: 3610297556923787071
+    second: Ninja_Battle_Death_Right_16f_v1_103
+  - first:
+      213: 6278698975319088022
+    second: Ninja_Battle_Death_Right_16f_v1_104
+  - first:
+      213: 8214450362125268612
+    second: Ninja_Battle_Death_Right_16f_v1_105
+  - first:
+      213: -4144485614322276077
+    second: Ninja_Battle_Death_Right_16f_v1_106
+  - first:
+      213: 2188992297541766191
+    second: Ninja_Battle_Death_Right_16f_v1_107
+  - first:
+      213: -4957789437303360241
+    second: Ninja_Battle_Death_Right_16f_v1_108
+  - first:
+      213: 3887376805619278629
+    second: Ninja_Battle_Death_Right_16f_v1_109
+  - first:
+      213: 944788480621935974
+    second: Ninja_Battle_Death_Right_16f_v1_110
+  - first:
+      213: -4201555326991729307
+    second: Ninja_Battle_Death_Right_16f_v1_111
+  - first:
+      213: 4938077748870712885
+    second: Ninja_Battle_Death_Right_16f_v1_112
+  - first:
+      213: 7577443612550302639
+    second: Ninja_Battle_Death_Right_16f_v1_113
+  - first:
+      213: -4897955878168214274
+    second: Ninja_Battle_Death_Right_16f_v1_114
+  - first:
+      213: -2486068387554517509
+    second: Ninja_Battle_Death_Right_16f_v1_115
+  - first:
+      213: -2702643241449678284
+    second: Ninja_Battle_Death_Right_16f_v1_116
+  - first:
+      213: -6344374279066998288
+    second: Ninja_Battle_Death_Right_16f_v1_117
+  - first:
+      213: -623359817625091647
+    second: Ninja_Battle_Death_Right_16f_v1_118
+  - first:
+      213: -8253223306272843869
+    second: Ninja_Battle_Death_Right_16f_v1_119
+  - first:
+      213: 76983581670582897
+    second: Ninja_Battle_Death_Right_16f_v1_120
+  - first:
+      213: 6090197861094887864
+    second: Ninja_Battle_Death_Right_16f_v1_121
+  - first:
+      213: 8227985879761508566
+    second: Ninja_Battle_Death_Right_16f_v1_122
+  - first:
+      213: 8689354424672517519
+    second: Ninja_Battle_Death_Right_16f_v1_123
+  - first:
+      213: 1939120117294285859
+    second: Ninja_Battle_Death_Right_16f_v1_124
+  - first:
+      213: -2818853560588913935
+    second: Ninja_Battle_Death_Right_16f_v1_125
+  - first:
+      213: 1997437453990025307
+    second: Ninja_Battle_Death_Right_16f_v1_126
+  - first:
+      213: 6175782815012211844
+    second: Ninja_Battle_Death_Right_16f_v1_127
+  - first:
+      213: -5570268811698650193
+    second: Ninja_Battle_Death_Right_16f_v1_128
+  - first:
+      213: 7762533491668653183
+    second: Ninja_Battle_Death_Right_16f_v1_129
+  - first:
+      213: 364973818882409754
+    second: Ninja_Battle_Death_Right_16f_v1_130
+  - first:
+      213: 125583579123829957
+    second: Ninja_Battle_Death_Right_16f_v1_131
+  - first:
+      213: 4526196293197230402
+    second: Ninja_Battle_Death_Right_16f_v1_132
+  - first:
+      213: 1752582640519468738
+    second: Ninja_Battle_Death_Right_16f_v1_133
+  - first:
+      213: -3538585996963176173
+    second: Ninja_Battle_Death_Right_16f_v1_134
+  - first:
+      213: -3125904790854122185
+    second: Ninja_Battle_Death_Right_16f_v1_135
+  - first:
+      213: -5084563872356957966
+    second: Ninja_Battle_Death_Right_16f_v1_136
+  - first:
+      213: 4833889131071154824
+    second: Ninja_Battle_Death_Right_16f_v1_137
+  - first:
+      213: 5688433322489782403
+    second: Ninja_Battle_Death_Right_16f_v1_138
+  - first:
+      213: 2866306721278203386
+    second: Ninja_Battle_Death_Right_16f_v1_139
+  - first:
+      213: 6212060412992138545
+    second: Ninja_Battle_Death_Right_16f_v1_140
+  - first:
+      213: 1951312087547371043
+    second: Ninja_Battle_Death_Right_16f_v1_141
+  - first:
+      213: 3035665601226803579
+    second: Ninja_Battle_Death_Right_16f_v1_142
+  - first:
+      213: 1868129850013744646
+    second: Ninja_Battle_Death_Right_16f_v1_143
+  - first:
+      213: -1824887764525979399
+    second: Ninja_Battle_Death_Right_16f_v1_144
+  - first:
+      213: 2125801130402189931
+    second: Ninja_Battle_Death_Right_16f_v1_145
+  - first:
+      213: 8529310844180922158
+    second: Ninja_Battle_Death_Right_16f_v1_146
+  - first:
+      213: -462549921099311835
+    second: Ninja_Battle_Death_Right_16f_v1_147
+  - first:
+      213: 1544883165809165708
+    second: Ninja_Battle_Death_Right_16f_v1_148
+  - first:
+      213: 4681458093334833108
+    second: Ninja_Battle_Death_Right_16f_v1_149
+  - first:
+      213: 739271789280800147
+    second: Ninja_Battle_Death_Right_16f_v1_150
+  - first:
+      213: 3845635380268341480
+    second: Ninja_Battle_Death_Right_16f_v1_151
+  - first:
+      213: 2399419793840792391
+    second: Ninja_Battle_Death_Right_16f_v1_152
+  - first:
+      213: -8734178389953634314
+    second: Ninja_Battle_Death_Right_16f_v1_153
+  - first:
+      213: -5815176411715494712
+    second: Ninja_Battle_Death_Right_16f_v1_154
+  - first:
+      213: -5334705338271386185
+    second: Ninja_Battle_Death_Right_16f_v1_155
+  - first:
+      213: 6139973495960884696
+    second: Ninja_Battle_Death_Right_16f_v1_156
+  - first:
+      213: 4227825096318491851
+    second: Ninja_Battle_Death_Right_16f_v1_157
+  - first:
+      213: -7610329205777204963
+    second: Ninja_Battle_Death_Right_16f_v1_158
+  - first:
+      213: 4149290427212365708
+    second: Ninja_Battle_Death_Right_16f_v1_159
+  - first:
+      213: 874307326555864673
+    second: Ninja_Battle_Death_Right_16f_v1_160
+  - first:
+      213: -8628455858015699030
+    second: Ninja_Battle_Death_Right_16f_v1_161
+  - first:
+      213: 8654230566145748234
+    second: Ninja_Battle_Death_Right_16f_v1_162
+  - first:
+      213: -8953806301698206251
+    second: Ninja_Battle_Death_Right_16f_v1_163
+  - first:
+      213: 8322940698213300376
+    second: Ninja_Battle_Death_Right_16f_v1_164
+  - first:
+      213: 2821193323119334744
+    second: Ninja_Battle_Death_Right_16f_v1_165
+  - first:
+      213: -4610692938930960214
+    second: Ninja_Battle_Death_Right_16f_v1_166
+  - first:
+      213: -5439012769440554534
+    second: Ninja_Battle_Death_Right_16f_v1_167
+  - first:
+      213: -761503311085496583
+    second: Ninja_Battle_Death_Right_16f_v1_168
+  - first:
+      213: 8000038166434970
+    second: Ninja_Battle_Death_Right_16f_v1_169
+  - first:
+      213: -4932832423754051542
+    second: Ninja_Battle_Death_Right_16f_v1_170
+  - first:
+      213: -6379417888343525952
+    second: Ninja_Battle_Death_Right_16f_v1_171
+  - first:
+      213: -2258942856491966489
+    second: Ninja_Battle_Death_Right_16f_v1_172
+  - first:
+      213: -7790459333869947070
+    second: Ninja_Battle_Death_Right_16f_v1_173
+  - first:
+      213: 2740301380483788892
+    second: Ninja_Battle_Death_Right_16f_v1_174
+  - first:
+      213: -1640374893426942897
+    second: Ninja_Battle_Death_Right_16f_v1_175
+  - first:
+      213: 8146235358068930026
+    second: Ninja_Battle_Death_Right_16f_v1_176
+  - first:
+      213: 3584963307112981593
+    second: Ninja_Battle_Death_Right_16f_v1_177
+  - first:
+      213: -1987251611294340436
+    second: Ninja_Battle_Death_Right_16f_v1_178
+  - first:
+      213: 2637243008424226242
+    second: Ninja_Battle_Death_Right_16f_v1_179
+  - first:
+      213: 3715696604910745200
+    second: Ninja_Battle_Death_Right_16f_v1_180
+  - first:
+      213: 3803191902756666973
+    second: Ninja_Battle_Death_Right_16f_v1_181
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 254
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ceea7728aa73a40800000000000000
+      internalID: 5347930559856176192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1012
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0029341405616d80800000000000000
+      internalID: -8259209173427216372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1015
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b464bf58f73d4930800000000000000
+      internalID: 4129017973265687732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 990
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daee3ebfc118e8c90800000000000000
+      internalID: -7165647995614794067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 736
+        width: 238
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575034e0f13c75140800000000000000
+      internalID: 4708446473589818741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 740
+        width: 263
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24767818586a4f80800000000000000
+      internalID: -8121564250432441299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 982
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a74611ec660b5b90800000000000000
+      internalID: -7252195710247483485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 727
+        width: 248
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86caf4ecb9dba7600800000000000000
+      internalID: 466893988265176168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1002
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73358f4faf171fb20800000000000000
+      internalID: 3166437335683846967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 937
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a17992fa00f6ea0800000000000000
+      internalID: -5877478236378162686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 944
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150012a4074d50a50800000000000000
+      internalID: 6486824417042169937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 870
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ad4e39c28119a30800000000000000
+      internalID: 4220180905561741827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 963
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf13e187a5b38990800000000000000
+      internalID: -7384859232914169890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 936
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed10b06405f16b850800000000000000
+      internalID: 6392331150731968990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 908
+        width: 35
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c838221d0944de710800000000000000
+      internalID: 1724109621127447436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 934
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0609e22d66af14bf0800000000000000
+      internalID: -341716777183571872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 931
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898bf037812e30a60800000000000000
+      internalID: 7639197987587995800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 882
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317f70a360ee4e700800000000000000
+      internalID: 568841163466340115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 846
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263425c1cb2273c0800000000000000
+      internalID: -4363376977732422111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 841
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30afeb0010b30ab90800000000000000
+      internalID: -7232716126063494653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 846
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf799a6b7c9fc6a00800000000000000
+      internalID: 751249874022406139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 808
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8456320aaf207f70800000000000000
+      internalID: 9182892047436502159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 826
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e666bef143ab608e0800000000000000
+      internalID: -1727488674013419922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 795
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1fecdc6f3ed7df0800000000000000
+      internalID: -180737760870600283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 816
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7580d65ced97b00800000000000000
+      internalID: 826936946118383522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 800
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af44c648116f41d0800000000000000
+      internalID: -3364363639728091229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 765
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155f48662749a50f0800000000000000
+      internalID: -1127425537635715759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 739
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4629327d0faedcc50800000000000000
+      internalID: 6687259341837537892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 773
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4ac58814f6ffb80800000000000000
+      internalID: -8358840056125021019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 754
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f43d921f93c59b0800000000000000
+      internalID: -5090129770883887347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 749
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323a3c307def925d0800000000000000
+      internalID: -3086655870151187677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 747
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faca0b657f5f5d0d0800000000000000
+      internalID: -3398539901121024849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 747
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c194d05fa9ed2eeb0800000000000000
+      internalID: -4691943104649017060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 747
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29515a8199bb00ac0800000000000000
+      internalID: -3890903811830245998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 431
+        width: 286
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20d4b3ae48d3220800000000000000
+      internalID: 2467274312421016317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 734
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c73a82b18146db0800000000000000
+      internalID: -4799684797945119622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 733
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f9aa1688f2a0b40800000000000000
+      internalID: 5407186565412331336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 727
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c5c0d0afca1d890800000000000000
+      internalID: -7434971319851262941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 733
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5467e22ea537c0250800000000000000
+      internalID: 5912227245009565253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 429
+        width: 235
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b391657cd963e70800000000000000
+      internalID: 9094629976989842201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 496
+        width: 245
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057dec3378509430800000000000000
+      internalID: 3787624538585265410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 722
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1669b3fe837f10380800000000000000
+      internalID: -9006645955860392351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 674
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e85c86c6f2526a0800000000000000
+      internalID: -6474716746614469117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 625
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f9a46b470a3aa10800000000000000
+      internalID: 1919554289324957486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 621
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d779608aebf0ed3a0800000000000000
+      internalID: -6638851489160325251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 604
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2db38f5f0134c00800000000000000
+      internalID: 883568600512451311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 609
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c287f7215afec90800000000000000
+      internalID: -7138305385492370334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 609
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9bd21c2b035cae0800000000000000
+      internalID: -1529762954119104009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 585
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c610c860a28efe0800000000000000
+      internalID: -1159630696440828856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 596
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029c67696e11e27e0800000000000000
+      internalID: -1788472319954990816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 591
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989ddc04e6b81bad0800000000000000
+      internalID: -2688214196913579639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 552
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6772279523f6bf0800000000000000
+      internalID: -328988888026089789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 552
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ab79d56193684c0800000000000000
+      internalID: -4285675227174159858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_53
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 550
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411539a00ddf5b760800000000000000
+      internalID: 7473158226663657748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_54
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 568
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d80e85459a294ca0800000000000000
+      internalID: -6032243405280638762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_55
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 553
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94315bf07a3ee17d0800000000000000
+      internalID: -2945666799591156919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_56
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 531
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345c61016755fb860800000000000000
+      internalID: 7547845466060670275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 490
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbd0f95a49a11270800000000000000
+      internalID: 8219536931729497009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_58
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 490
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568801314398130b0800000000000000
+      internalID: -5750664392424257435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894ee2533cda13960800000000000000
+      internalID: 7580030701763749016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_60
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 485
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef5a1a9d4aff5090800000000000000
+      internalID: -8043435198255570964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_61
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 412
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3f259dc8a032ec0800000000000000
+      internalID: -3593016477653732444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 491
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd57906df42010d10800000000000000
+      internalID: 2089954243993236959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_63
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 449
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0863ef0d4ea431e40800000000000000
+      internalID: 5625922706135201408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_64
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 488
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672070404ba530e00800000000000000
+      internalID: 1009750470669304438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_65
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 483
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48fa6f3ad08e12f0800000000000000
+      internalID: -1000220392374470580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_66
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 483
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd518f31a07ca26f0800000000000000
+      internalID: -708535145258805793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_67
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 473
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec778679f147f910800000000000000
+      internalID: 1871036709886983394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_68
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 487
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7fb3b12371f2910800000000000000
+      internalID: 1814694678826317775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_69
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 475
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539bc19e290dc7f40800000000000000
+      internalID: 5727682155503204661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_70
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 470
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f971ce44761b938c0800000000000000
+      internalID: -4018986135355385953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_71
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 469
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6103ffde93640d70800000000000000
+      internalID: 9008434688661061998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_72
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 452
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3018ae6dd6191210800000000000000
+      internalID: 1304098707400560699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_73
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 482
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69b50f48599fac00800000000000000
+      internalID: 914117853941447020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_74
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 469
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45954873e631371b0800000000000000
+      internalID: -5660158942575830700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_75
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 454
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea05962a29c30e50800000000000000
+      internalID: 6774479447368469227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_76
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 472
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934d0a68a65589ca0800000000000000
+      internalID: -6009959786712345543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 267
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1cf6308fe304150800000000000000
+      internalID: 5854748750512112038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_78
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 464
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56425155929583450800000000000000
+      internalID: 6068698531937723493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_79
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 469
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08f18fb0e9a84d90800000000000000
+      internalID: -7113248828680964081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_80
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 424
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579f05858258a820800000000000000
+      internalID: 2929682291021027167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 405
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149aaeb6a5dbd0b10800000000000000
+      internalID: 1949422409776539969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_82
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 424
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc145cb9c46742120800000000000000
+      internalID: 2388163773816193485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_83
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 475
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fbe1688f40d1f20800000000000000
+      internalID: 3394875159555784557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_84
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 465
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a87d51eedbbee70800000000000000
+      internalID: 9145612298572237340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_85
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 465
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8d2f0b0c97aeb50800000000000000
+      internalID: 6623240070511122646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_86
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 443
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa4bb58facdc8870800000000000000
+      internalID: 8686560427711875749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_87
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 447
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38a081921439d050800000000000000
+      internalID: 5825744847335630911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_88
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 461
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9400818178fde4250800000000000000
+      internalID: 5930923530611327049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_89
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 461
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325cf004551423840800000000000000
+      internalID: 5202292353969145123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_90
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 459
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681362c4ea3183b20800000000000000
+      internalID: 3114260781649506694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_91
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 404
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7607e7da8005005d0800000000000000
+      internalID: -3098388545430196121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_92
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 449
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd1ce2fa88489a70800000000000000
+      internalID: 8833890430705475019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_93
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 435
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa7aeed399cb4330800000000000000
+      internalID: 3696269556124908272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_94
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 447
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b51523a37efe750800000000000000
+      internalID: 6336537437871889192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_95
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 442
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44197a18c5095ee0800000000000000
+      internalID: -1271979062759713713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_96
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 444
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3047c0972b874930800000000000000
+      internalID: 4127420585557311548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_97
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 433
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c6dddae4bbe560800000000000000
+      internalID: 7344162538194913217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_98
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 147
+        width: 254
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9138b5b199c04c1f0800000000000000
+      internalID: -1025680963405118695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_99
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 419
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971482426deb49560800000000000000
+      internalID: 7319685121322795385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_100
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 147
+        width: 256
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec648daea3d8daac0800000000000000
+      internalID: -3842259622889503026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_101
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d3054654395e880800000000000000
+      internalID: -8582291588639605347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_102
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 419
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddedbe14bc34272f0800000000000000
+      internalID: -976643628922577187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_103
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 414
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3727e5ff7a5a1230800000000000000
+      internalID: 3610297556923787071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_104
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 408
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd08bb37b622750800000000000000
+      internalID: 6278698975319088022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_105
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 406
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4863e8315179ff170800000000000000
+      internalID: 8214450362125268612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_106
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 371
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319aa9dca44db76c0800000000000000
+      internalID: -4144485614322276077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_107
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 147
+        width: 250
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c0b0795ecd06e10800000000000000
+      internalID: 2188992297541766191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_108
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 368
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05795636c4623bb0800000000000000
+      internalID: -4957789437303360241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_109
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 329
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523a707cb9cb2f530800000000000000
+      internalID: 3887376805619278629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_110
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 221
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df95f0e109c1d00800000000000000
+      internalID: 944788480621935974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_111
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 232
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56df18ed0b311b5c0800000000000000
+      internalID: -4201555326991729307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_112
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e03beac83978440800000000000000
+      internalID: 4938077748870712885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 228
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab0d9f81dc782960800000000000000
+      internalID: 7577443612550302639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_114
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 201
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef44f3c4417f60cb0800000000000000
+      internalID: -4897955878168214274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_115
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 235
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd1c7829f5bf7dd0800000000000000
+      internalID: -2486068387554517509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_116
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 225
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a18c68a484e7ad0800000000000000
+      internalID: -2702643241449678284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_117
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 210
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f92616053144f7a0800000000000000
+      internalID: -6344374279066998288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_118
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 228
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1443f6c816957f0800000000000000
+      internalID: -623359817625091647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_119
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 202
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7d1a16129a67d80800000000000000
+      internalID: -8253223306272843869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_120
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 204
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a230fd820811100800000000000000
+      internalID: 76983581670582897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_121
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 155
+        width: 119
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1976affaab48450800000000000000
+      internalID: 6090197861094887864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_122
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 214
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d85d1c509daf2270800000000000000
+      internalID: 8227985879761508566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_123
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 193
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df212afc9c69870800000000000000
+      internalID: 8689354424672517519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_124
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 205
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324c328097329ea10800000000000000
+      internalID: 1939120117294285859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_125
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 187
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2b04f1f9b61e8d0800000000000000
+      internalID: -2818853560588913935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_126
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 209
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d22218c258bb10800000000000000
+      internalID: 1997437453990025307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_127
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 207
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cc3c2efb9c4b550800000000000000
+      internalID: 6175782815012211844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_128
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 214
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c34f370e62b2b0800000000000000
+      internalID: -5570268811698650193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 193
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f749bff351f0abb60800000000000000
+      internalID: 7762533491668653183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_130
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 145
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15cdca21c5a01500800000000000000
+      internalID: 364973818882409754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_131
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 217
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc4c4f89992eb100800000000000000
+      internalID: 125583579123829957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_132
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 215
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241f5bf3c8740de30800000000000000
+      internalID: 4526196293197230402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_133
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 201
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6ddaf30ac625810800000000000000
+      internalID: 1752582640519468738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_134
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 206
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311a6d3b8ca64eec0800000000000000
+      internalID: -3538585996963176173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 196
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735c27b872e8e94d0800000000000000
+      internalID: -3125904790854122185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_136
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 152
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f00166e8100079b0800000000000000
+      internalID: -5084563872356957966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_137
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a2e1dbd8c651340800000000000000
+      internalID: 4833889131071154824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_138
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 194
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380af7bd7ff51fe40800000000000000
+      internalID: 5688433322489782403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_139
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 147
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af51a13d6ca27c720800000000000000
+      internalID: 2866306721278203386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_140
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 194
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13da9af580ca53650800000000000000
+      internalID: 6212060412992138545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_141
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 188
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32edf205104741b10800000000000000
+      internalID: 1951312087547371043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_142
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 193
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b790ff9d7c9d02a20800000000000000
+      internalID: 3035665601226803579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_143
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 199
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e7f58633eece910800000000000000
+      internalID: 1868129850013744646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_144
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 186
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e8703f32bca6e0800000000000000
+      internalID: -1824887764525979399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_145
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 188
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621fb87ddc508d10800000000000000
+      internalID: 2125801130402189931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_146
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 196
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f7a46c5033e5670800000000000000
+      internalID: 8529310844180922158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_147
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 155
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5259df52c41b499f0800000000000000
+      internalID: -462549921099311835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_148
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 186
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85498ddd07807510800000000000000
+      internalID: 1544883165809165708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_149
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 168
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7a91c1551e7f040800000000000000
+      internalID: 4681458093334833108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_150
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 171
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dac8886cb624a00800000000000000
+      internalID: 739271789280800147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_151
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 199
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e89198d0017e5530800000000000000
+      internalID: 3845635380268341480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_152
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743ebeef6937c4120800000000000000
+      internalID: 2399419793840792391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_153
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 175
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff9beda707f9c680800000000000000
+      internalID: -8734178389953634314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_154
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 186
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc97791dd75c4fa0800000000000000
+      internalID: -5815176411715494712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_155
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b534f262c157f5b0800000000000000
+      internalID: -5334705338271386185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_156
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 175
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5df051d51953550800000000000000
+      internalID: 6139973495960884696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_157
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 184
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc9b8e66804caa30800000000000000
+      internalID: 4227825096318491851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_158
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 183
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d197ed998eda26690800000000000000
+      internalID: -7610329205777204963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_159
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 183
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ffbefd8ad359930800000000000000
+      internalID: 4149290427212365708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_160
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 175
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e32e791e9222c00800000000000000
+      internalID: 874307326555864673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_161
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 162
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaff5d6dc11914880800000000000000
+      internalID: -8628455858015699030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_162
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 169
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de17b09d00a1870800000000000000
+      internalID: 8654230566145748234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_163
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 174
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5df9f9b90bdb380800000000000000
+      internalID: -8953806301698206251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_164
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 170
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89835abd776018370800000000000000
+      internalID: 8322940698213300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_165
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 175
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8555b3b4164e62720800000000000000
+      internalID: 2821193323119334744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_166
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 153
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84e9653378300c0800000000000000
+      internalID: -4610692938930960214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_167
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 150
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1aeac04beb484b0800000000000000
+      internalID: -5439012769440554534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_168
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 143
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6177fe5c89e65f0800000000000000
+      internalID: -761503311085496583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_169
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9499190efb6c1000800000000000000
+      internalID: 8000038166434970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_170
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 158
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a205c9dbb0f0b8bb0800000000000000
+      internalID: -4932832423754051542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_171
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 132
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5f28bea31c777a0800000000000000
+      internalID: -6379417888343525952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_172
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 259
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efd3eeb07f96a0e0800000000000000
+      internalID: -2258942856491966489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_173
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 148
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2473e8fe28ab2e390800000000000000
+      internalID: -7790459333869947070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_174
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 117
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50bf393691870620800000000000000
+      internalID: 2740301380483788892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_175
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 251
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c51dab9b73c39e0800000000000000
+      internalID: -1640374893426942897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_176
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 147
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5fc66c5ed3d0170800000000000000
+      internalID: 8146235358068930026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_177
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 124
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9546745422950c130800000000000000
+      internalID: 3584963307112981593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa6a7d303ddb64e0800000000000000
+      internalID: -1987251611294340436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_179
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 116
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd228f1b8e599420800000000000000
+      internalID: 2637243008424226242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_180
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 247
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07674d4206ec09330800000000000000
+      internalID: 3715696604910745200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Battle_Death_Right_16f_v1_181
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 90
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ef378a2e6a7c430800000000000000
+      internalID: 3803191902756666973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Battle_Death_Right_16f_v1_0: 5347930559856176192
+      Ninja_Battle_Death_Right_16f_v1_1: -8259209173427216372
+      Ninja_Battle_Death_Right_16f_v1_10: 6486824417042169937
+      Ninja_Battle_Death_Right_16f_v1_100: -3842259622889503026
+      Ninja_Battle_Death_Right_16f_v1_101: -8582291588639605347
+      Ninja_Battle_Death_Right_16f_v1_102: -976643628922577187
+      Ninja_Battle_Death_Right_16f_v1_103: 3610297556923787071
+      Ninja_Battle_Death_Right_16f_v1_104: 6278698975319088022
+      Ninja_Battle_Death_Right_16f_v1_105: 8214450362125268612
+      Ninja_Battle_Death_Right_16f_v1_106: -4144485614322276077
+      Ninja_Battle_Death_Right_16f_v1_107: 2188992297541766191
+      Ninja_Battle_Death_Right_16f_v1_108: -4957789437303360241
+      Ninja_Battle_Death_Right_16f_v1_109: 3887376805619278629
+      Ninja_Battle_Death_Right_16f_v1_11: 4220180905561741827
+      Ninja_Battle_Death_Right_16f_v1_110: 944788480621935974
+      Ninja_Battle_Death_Right_16f_v1_111: -4201555326991729307
+      Ninja_Battle_Death_Right_16f_v1_112: 4938077748870712885
+      Ninja_Battle_Death_Right_16f_v1_113: 7577443612550302639
+      Ninja_Battle_Death_Right_16f_v1_114: -4897955878168214274
+      Ninja_Battle_Death_Right_16f_v1_115: -2486068387554517509
+      Ninja_Battle_Death_Right_16f_v1_116: -2702643241449678284
+      Ninja_Battle_Death_Right_16f_v1_117: -6344374279066998288
+      Ninja_Battle_Death_Right_16f_v1_118: -623359817625091647
+      Ninja_Battle_Death_Right_16f_v1_119: -8253223306272843869
+      Ninja_Battle_Death_Right_16f_v1_12: -7384859232914169890
+      Ninja_Battle_Death_Right_16f_v1_120: 76983581670582897
+      Ninja_Battle_Death_Right_16f_v1_121: 6090197861094887864
+      Ninja_Battle_Death_Right_16f_v1_122: 8227985879761508566
+      Ninja_Battle_Death_Right_16f_v1_123: 8689354424672517519
+      Ninja_Battle_Death_Right_16f_v1_124: 1939120117294285859
+      Ninja_Battle_Death_Right_16f_v1_125: -2818853560588913935
+      Ninja_Battle_Death_Right_16f_v1_126: 1997437453990025307
+      Ninja_Battle_Death_Right_16f_v1_127: 6175782815012211844
+      Ninja_Battle_Death_Right_16f_v1_128: -5570268811698650193
+      Ninja_Battle_Death_Right_16f_v1_129: 7762533491668653183
+      Ninja_Battle_Death_Right_16f_v1_13: 6392331150731968990
+      Ninja_Battle_Death_Right_16f_v1_130: 364973818882409754
+      Ninja_Battle_Death_Right_16f_v1_131: 125583579123829957
+      Ninja_Battle_Death_Right_16f_v1_132: 4526196293197230402
+      Ninja_Battle_Death_Right_16f_v1_133: 1752582640519468738
+      Ninja_Battle_Death_Right_16f_v1_134: -3538585996963176173
+      Ninja_Battle_Death_Right_16f_v1_135: -3125904790854122185
+      Ninja_Battle_Death_Right_16f_v1_136: -5084563872356957966
+      Ninja_Battle_Death_Right_16f_v1_137: 4833889131071154824
+      Ninja_Battle_Death_Right_16f_v1_138: 5688433322489782403
+      Ninja_Battle_Death_Right_16f_v1_139: 2866306721278203386
+      Ninja_Battle_Death_Right_16f_v1_14: 1724109621127447436
+      Ninja_Battle_Death_Right_16f_v1_140: 6212060412992138545
+      Ninja_Battle_Death_Right_16f_v1_141: 1951312087547371043
+      Ninja_Battle_Death_Right_16f_v1_142: 3035665601226803579
+      Ninja_Battle_Death_Right_16f_v1_143: 1868129850013744646
+      Ninja_Battle_Death_Right_16f_v1_144: -1824887764525979399
+      Ninja_Battle_Death_Right_16f_v1_145: 2125801130402189931
+      Ninja_Battle_Death_Right_16f_v1_146: 8529310844180922158
+      Ninja_Battle_Death_Right_16f_v1_147: -462549921099311835
+      Ninja_Battle_Death_Right_16f_v1_148: 1544883165809165708
+      Ninja_Battle_Death_Right_16f_v1_149: 4681458093334833108
+      Ninja_Battle_Death_Right_16f_v1_15: -341716777183571872
+      Ninja_Battle_Death_Right_16f_v1_150: 739271789280800147
+      Ninja_Battle_Death_Right_16f_v1_151: 3845635380268341480
+      Ninja_Battle_Death_Right_16f_v1_152: 2399419793840792391
+      Ninja_Battle_Death_Right_16f_v1_153: -8734178389953634314
+      Ninja_Battle_Death_Right_16f_v1_154: -5815176411715494712
+      Ninja_Battle_Death_Right_16f_v1_155: -5334705338271386185
+      Ninja_Battle_Death_Right_16f_v1_156: 6139973495960884696
+      Ninja_Battle_Death_Right_16f_v1_157: 4227825096318491851
+      Ninja_Battle_Death_Right_16f_v1_158: -7610329205777204963
+      Ninja_Battle_Death_Right_16f_v1_159: 4149290427212365708
+      Ninja_Battle_Death_Right_16f_v1_16: 7639197987587995800
+      Ninja_Battle_Death_Right_16f_v1_160: 874307326555864673
+      Ninja_Battle_Death_Right_16f_v1_161: -8628455858015699030
+      Ninja_Battle_Death_Right_16f_v1_162: 8654230566145748234
+      Ninja_Battle_Death_Right_16f_v1_163: -8953806301698206251
+      Ninja_Battle_Death_Right_16f_v1_164: 8322940698213300376
+      Ninja_Battle_Death_Right_16f_v1_165: 2821193323119334744
+      Ninja_Battle_Death_Right_16f_v1_166: -4610692938930960214
+      Ninja_Battle_Death_Right_16f_v1_167: -5439012769440554534
+      Ninja_Battle_Death_Right_16f_v1_168: -761503311085496583
+      Ninja_Battle_Death_Right_16f_v1_169: 8000038166434970
+      Ninja_Battle_Death_Right_16f_v1_17: 568841163466340115
+      Ninja_Battle_Death_Right_16f_v1_170: -4932832423754051542
+      Ninja_Battle_Death_Right_16f_v1_171: -6379417888343525952
+      Ninja_Battle_Death_Right_16f_v1_172: -2258942856491966489
+      Ninja_Battle_Death_Right_16f_v1_173: -7790459333869947070
+      Ninja_Battle_Death_Right_16f_v1_174: 2740301380483788892
+      Ninja_Battle_Death_Right_16f_v1_175: -1640374893426942897
+      Ninja_Battle_Death_Right_16f_v1_176: 8146235358068930026
+      Ninja_Battle_Death_Right_16f_v1_177: 3584963307112981593
+      Ninja_Battle_Death_Right_16f_v1_178: -1987251611294340436
+      Ninja_Battle_Death_Right_16f_v1_179: 2637243008424226242
+      Ninja_Battle_Death_Right_16f_v1_18: -4363376977732422111
+      Ninja_Battle_Death_Right_16f_v1_180: 3715696604910745200
+      Ninja_Battle_Death_Right_16f_v1_181: 3803191902756666973
+      Ninja_Battle_Death_Right_16f_v1_19: -7232716126063494653
+      Ninja_Battle_Death_Right_16f_v1_2: 4129017973265687732
+      Ninja_Battle_Death_Right_16f_v1_20: 751249874022406139
+      Ninja_Battle_Death_Right_16f_v1_21: 9182892047436502159
+      Ninja_Battle_Death_Right_16f_v1_22: -1727488674013419922
+      Ninja_Battle_Death_Right_16f_v1_23: -180737760870600283
+      Ninja_Battle_Death_Right_16f_v1_24: 826936946118383522
+      Ninja_Battle_Death_Right_16f_v1_25: -3364363639728091229
+      Ninja_Battle_Death_Right_16f_v1_26: -1127425537635715759
+      Ninja_Battle_Death_Right_16f_v1_27: 6687259341837537892
+      Ninja_Battle_Death_Right_16f_v1_28: -8358840056125021019
+      Ninja_Battle_Death_Right_16f_v1_29: -5090129770883887347
+      Ninja_Battle_Death_Right_16f_v1_3: -7165647995614794067
+      Ninja_Battle_Death_Right_16f_v1_30: -3086655870151187677
+      Ninja_Battle_Death_Right_16f_v1_31: -3398539901121024849
+      Ninja_Battle_Death_Right_16f_v1_32: -4691943104649017060
+      Ninja_Battle_Death_Right_16f_v1_33: -3890903811830245998
+      Ninja_Battle_Death_Right_16f_v1_34: 2467274312421016317
+      Ninja_Battle_Death_Right_16f_v1_35: -4799684797945119622
+      Ninja_Battle_Death_Right_16f_v1_36: 5407186565412331336
+      Ninja_Battle_Death_Right_16f_v1_37: -7434971319851262941
+      Ninja_Battle_Death_Right_16f_v1_38: 5912227245009565253
+      Ninja_Battle_Death_Right_16f_v1_39: 9094629976989842201
+      Ninja_Battle_Death_Right_16f_v1_4: 4708446473589818741
+      Ninja_Battle_Death_Right_16f_v1_40: 3787624538585265410
+      Ninja_Battle_Death_Right_16f_v1_41: -9006645955860392351
+      Ninja_Battle_Death_Right_16f_v1_42: -6474716746614469117
+      Ninja_Battle_Death_Right_16f_v1_43: 1919554289324957486
+      Ninja_Battle_Death_Right_16f_v1_44: -6638851489160325251
+      Ninja_Battle_Death_Right_16f_v1_45: 883568600512451311
+      Ninja_Battle_Death_Right_16f_v1_46: -7138305385492370334
+      Ninja_Battle_Death_Right_16f_v1_47: -1529762954119104009
+      Ninja_Battle_Death_Right_16f_v1_48: -1159630696440828856
+      Ninja_Battle_Death_Right_16f_v1_49: -1788472319954990816
+      Ninja_Battle_Death_Right_16f_v1_5: -8121564250432441299
+      Ninja_Battle_Death_Right_16f_v1_50: -2688214196913579639
+      Ninja_Battle_Death_Right_16f_v1_51: -328988888026089789
+      Ninja_Battle_Death_Right_16f_v1_52: -4285675227174159858
+      Ninja_Battle_Death_Right_16f_v1_53: 7473158226663657748
+      Ninja_Battle_Death_Right_16f_v1_54: -6032243405280638762
+      Ninja_Battle_Death_Right_16f_v1_55: -2945666799591156919
+      Ninja_Battle_Death_Right_16f_v1_56: 7547845466060670275
+      Ninja_Battle_Death_Right_16f_v1_57: 8219536931729497009
+      Ninja_Battle_Death_Right_16f_v1_58: -5750664392424257435
+      Ninja_Battle_Death_Right_16f_v1_59: 7580030701763749016
+      Ninja_Battle_Death_Right_16f_v1_6: -7252195710247483485
+      Ninja_Battle_Death_Right_16f_v1_60: -8043435198255570964
+      Ninja_Battle_Death_Right_16f_v1_61: -3593016477653732444
+      Ninja_Battle_Death_Right_16f_v1_62: 2089954243993236959
+      Ninja_Battle_Death_Right_16f_v1_63: 5625922706135201408
+      Ninja_Battle_Death_Right_16f_v1_64: 1009750470669304438
+      Ninja_Battle_Death_Right_16f_v1_65: -1000220392374470580
+      Ninja_Battle_Death_Right_16f_v1_66: -708535145258805793
+      Ninja_Battle_Death_Right_16f_v1_67: 1871036709886983394
+      Ninja_Battle_Death_Right_16f_v1_68: 1814694678826317775
+      Ninja_Battle_Death_Right_16f_v1_69: 5727682155503204661
+      Ninja_Battle_Death_Right_16f_v1_7: 466893988265176168
+      Ninja_Battle_Death_Right_16f_v1_70: -4018986135355385953
+      Ninja_Battle_Death_Right_16f_v1_71: 9008434688661061998
+      Ninja_Battle_Death_Right_16f_v1_72: 1304098707400560699
+      Ninja_Battle_Death_Right_16f_v1_73: 914117853941447020
+      Ninja_Battle_Death_Right_16f_v1_74: -5660158942575830700
+      Ninja_Battle_Death_Right_16f_v1_75: 6774479447368469227
+      Ninja_Battle_Death_Right_16f_v1_76: -6009959786712345543
+      Ninja_Battle_Death_Right_16f_v1_77: 5854748750512112038
+      Ninja_Battle_Death_Right_16f_v1_78: 6068698531937723493
+      Ninja_Battle_Death_Right_16f_v1_79: -7113248828680964081
+      Ninja_Battle_Death_Right_16f_v1_8: 3166437335683846967
+      Ninja_Battle_Death_Right_16f_v1_80: 2929682291021027167
+      Ninja_Battle_Death_Right_16f_v1_81: 1949422409776539969
+      Ninja_Battle_Death_Right_16f_v1_82: 2388163773816193485
+      Ninja_Battle_Death_Right_16f_v1_83: 3394875159555784557
+      Ninja_Battle_Death_Right_16f_v1_84: 9145612298572237340
+      Ninja_Battle_Death_Right_16f_v1_85: 6623240070511122646
+      Ninja_Battle_Death_Right_16f_v1_86: 8686560427711875749
+      Ninja_Battle_Death_Right_16f_v1_87: 5825744847335630911
+      Ninja_Battle_Death_Right_16f_v1_88: 5930923530611327049
+      Ninja_Battle_Death_Right_16f_v1_89: 5202292353969145123
+      Ninja_Battle_Death_Right_16f_v1_9: -5877478236378162686
+      Ninja_Battle_Death_Right_16f_v1_90: 3114260781649506694
+      Ninja_Battle_Death_Right_16f_v1_91: -3098388545430196121
+      Ninja_Battle_Death_Right_16f_v1_92: 8833890430705475019
+      Ninja_Battle_Death_Right_16f_v1_93: 3696269556124908272
+      Ninja_Battle_Death_Right_16f_v1_94: 6336537437871889192
+      Ninja_Battle_Death_Right_16f_v1_95: -1271979062759713713
+      Ninja_Battle_Death_Right_16f_v1_96: 4127420585557311548
+      Ninja_Battle_Death_Right_16f_v1_97: 7344162538194913217
+      Ninja_Battle_Death_Right_16f_v1_98: -1025680963405118695
+      Ninja_Battle_Death_Right_16f_v1_99: 7319685121322795385
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

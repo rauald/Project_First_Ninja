@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 03a18dfa05c23fc4d950287856db721e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5287876183326887631
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_0
+  - first:
+      213: 39723480012612965
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_1
+  - first:
+      213: 357709087385619033
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_2
+  - first:
+      213: -263281591602803485
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_3
+  - first:
+      213: 7675107720295509961
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_4
+  - first:
+      213: 234510083345164573
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_5
+  - first:
+      213: 5867540394624877368
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_6
+  - first:
+      213: -301533787813320922
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_7
+  - first:
+      213: -7025592411200679997
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_8
+  - first:
+      213: 8335307705143521818
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_9
+  - first:
+      213: -8153225865152433252
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_10
+  - first:
+      213: -2397193862540415951
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_11
+  - first:
+      213: -5451786333800490237
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_12
+  - first:
+      213: -7971998669082168522
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_13
+  - first:
+      213: -545898353716650886
+    second: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 767
+        width: 168
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1317d8ca0a0bd96b0800000000000000
+      internalID: -5287876183326887631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 511
+        width: 168
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565e46b6b402d8000800000000000000
+      internalID: 39723480012612965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 767
+        width: 169
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a8c8e0586d6f400800000000000000
+      internalID: 357709087385619033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 511
+        width: 169
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec8d9099c2a85cf0800000000000000
+      internalID: -263281591602803485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 767
+        width: 168
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf6211aec5738a60800000000000000
+      internalID: 7675107720295509961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_5
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 511
+        width: 168
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d192906ada5214300800000000000000
+      internalID: 234510083345164573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_6
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 767
+        width: 169
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8330fdeb6e0bd6150800000000000000
+      internalID: 5867540394624877368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 511
+        width: 169
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627eb991e9cb0dbf0800000000000000
+      internalID: -301533787813320922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 168
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf04b9dce4108e90800000000000000
+      internalID: -7025592411200679997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 169
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12f7aa0236fca370800000000000000
+      internalID: 8335307705143521818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 169
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93ff06f54ce9de80800000000000000
+      internalID: -8153225865152433252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 255
+        width: 168
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c288502e47bbed0800000000000000
+      internalID: -2397193862540415951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_12
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 168
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b1e76d63d5754b0800000000000000
+      internalID: -5451786333800490237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_13
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 169
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633787ba275cd5190800000000000000
+      internalID: -7971998669082168522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Idle_16f_v2_14
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 255
+        width: 168
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c9f3fe6549c68f0800000000000000
+      internalID: -545898353716650886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_0: -5287876183326887631
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_1: 39723480012612965
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_10: -8153225865152433252
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_11: -2397193862540415951
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_12: -5451786333800490237
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_13: -7971998669082168522
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_14: -545898353716650886
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_2: 357709087385619033
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_3: -263281591602803485
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_4: 7675107720295509961
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_5: 234510083345164573
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_6: 5867540394624877368
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_7: -301533787813320922
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_8: -7025592411200679997
+      Ninja_Wood_Elf_Female_Select_Idle_16f_v2_9: 8335307705143521818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

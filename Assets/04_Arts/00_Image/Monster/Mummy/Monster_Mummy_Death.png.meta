@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: a79ff1a855a630146945aacc5c64d91f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2250149083724453168
+    second: Monster_Mummy_Death_0
+  - first:
+      213: -7789053102172138733
+    second: Monster_Mummy_Death_1
+  - first:
+      213: -6521113130552536002
+    second: Monster_Mummy_Death_2
+  - first:
+      213: 3170197440555220928
+    second: Monster_Mummy_Death_3
+  - first:
+      213: -6392486973880789235
+    second: Monster_Mummy_Death_4
+  - first:
+      213: 6312678658267472285
+    second: Monster_Mummy_Death_5
+  - first:
+      213: 1595557031455379288
+    second: Monster_Mummy_Death_6
+  - first:
+      213: 4483134305973824848
+    second: Monster_Mummy_Death_7
+  - first:
+      213: -3743109153778228107
+    second: Monster_Mummy_Death_8
+  - first:
+      213: 4231600656340686401
+    second: Monster_Mummy_Death_9
+  - first:
+      213: 5587109417761662221
+    second: Monster_Mummy_Death_10
+  - first:
+      213: 2539592010731501853
+    second: Monster_Mummy_Death_11
+  - first:
+      213: 7746989055305295052
+    second: Monster_Mummy_Death_12
+  - first:
+      213: -7686988100117546423
+    second: Monster_Mummy_Death_13
+  - first:
+      213: 226741108430368692
+    second: Monster_Mummy_Death_14
+  - first:
+      213: 6486647549255749516
+    second: Monster_Mummy_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 767
+        width: 118
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daeee4845dd5c0e0800000000000000
+      internalID: -2250149083724453168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 767
+        width: 119
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131064c879b7e390800000000000000
+      internalID: -7789053102172138733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 767
+        width: 120
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34d749782a5085a0800000000000000
+      internalID: -6521113130552536002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 767
+        width: 124
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf752896cdcefb20800000000000000
+      internalID: 3170197440555220928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 511
+        width: 131
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07168257f25947a0800000000000000
+      internalID: -6392486973880789235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 511
+        width: 136
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91e83f2bc32b9750800000000000000
+      internalID: 6312678658267472285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 511
+        width: 150
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f46ce9aae842610800000000000000
+      internalID: 1595557031455379288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_7
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 511
+        width: 160
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05defeb06ea473e30800000000000000
+      internalID: 4483134305973824848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 162
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57429857e0ecd0cc0800000000000000
+      internalID: -3743109153778228107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 169
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1461f70806aa9ba30800000000000000
+      internalID: 4231600656340686401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 255
+        width: 178
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d056ce6e966698d40800000000000000
+      internalID: 5587109417761662221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_11
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 255
+        width: 179
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19321a7a717e3320800000000000000
+      internalID: 2539592010731501853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 176
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4af402085d28b60800000000000000
+      internalID: 7746989055305295052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 178
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ab6d3ec05525590800000000000000
+      internalID: -7686988100117546423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 183
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf68f736db852300800000000000000
+      internalID: 226741108430368692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Mummy_Death_15
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 186
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f0c8c0493350a50800000000000000
+      internalID: 6486647549255749516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Mummy_Death_0: -2250149083724453168
+      Monster_Mummy_Death_1: -7789053102172138733
+      Monster_Mummy_Death_10: 5587109417761662221
+      Monster_Mummy_Death_11: 2539592010731501853
+      Monster_Mummy_Death_12: 7746989055305295052
+      Monster_Mummy_Death_13: -7686988100117546423
+      Monster_Mummy_Death_14: 226741108430368692
+      Monster_Mummy_Death_15: 6486647549255749516
+      Monster_Mummy_Death_2: -6521113130552536002
+      Monster_Mummy_Death_3: 3170197440555220928
+      Monster_Mummy_Death_4: -6392486973880789235
+      Monster_Mummy_Death_5: 6312678658267472285
+      Monster_Mummy_Death_6: 1595557031455379288
+      Monster_Mummy_Death_7: 4483134305973824848
+      Monster_Mummy_Death_8: -3743109153778228107
+      Monster_Mummy_Death_9: 4231600656340686401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

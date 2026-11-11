@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: ddbfc82598ca64441a19dd918a5e73b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4604263400756422112
+    second: Monster_Sphinx_Attack_0
+  - first:
+      213: 3246766964919184859
+    second: Monster_Sphinx_Attack_1
+  - first:
+      213: 2493077179273364440
+    second: Monster_Sphinx_Attack_2
+  - first:
+      213: 4724326900978722638
+    second: Monster_Sphinx_Attack_3
+  - first:
+      213: -3731286328162326178
+    second: Monster_Sphinx_Attack_4
+  - first:
+      213: 2518307388312703082
+    second: Monster_Sphinx_Attack_5
+  - first:
+      213: -1897622271129177121
+    second: Monster_Sphinx_Attack_6
+  - first:
+      213: 3633238506096777660
+    second: Monster_Sphinx_Attack_7
+  - first:
+      213: 709038411560363386
+    second: Monster_Sphinx_Attack_8
+  - first:
+      213: 3502462350857680523
+    second: Monster_Sphinx_Attack_9
+  - first:
+      213: 5262593563729182643
+    second: Monster_Sphinx_Attack_10
+  - first:
+      213: 1593392843573593732
+    second: Monster_Sphinx_Attack_11
+  - first:
+      213: 8693841820056028654
+    second: Monster_Sphinx_Attack_12
+  - first:
+      213: -6067363746544611008
+    second: Monster_Sphinx_Attack_13
+  - first:
+      213: -2415690939102815123
+    second: Monster_Sphinx_Attack_14
+  - first:
+      213: -4000759096256664952
+    second: Monster_Sphinx_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 767
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ad499d4de5a10c0800000000000000
+      internalID: -4604263400756422112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 767
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd2b7c3a55de0d20800000000000000
+      internalID: 3246766964919184859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 767
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3c8345c70399220800000000000000
+      internalID: 2493077179273364440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 767
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47a8af294e209140800000000000000
+      internalID: 4724326900978722638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 511
+        width: 196
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59ec9e8adec73cc0800000000000000
+      internalID: -3731286328162326178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 511
+        width: 197
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60de932a33d2f220800000000000000
+      internalID: 2518307388312703082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 511
+        width: 196
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3b973399a4aa5e0800000000000000
+      internalID: -1897622271129177121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 511
+        width: 197
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb95b2ceb2bdb6230800000000000000
+      internalID: 3633238506096777660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 255
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75a92dbda207d900800000000000000
+      internalID: 709038411560363386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 255
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b863d0683fe3b9030800000000000000
+      internalID: 3502462350857680523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 255
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb55bb6fc780940800000000000000
+      internalID: 5262593563729182643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 255
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4868adc595edc1610800000000000000
+      internalID: 1593392843573593732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee500e9c21bb6a870800000000000000
+      internalID: 8693841820056028654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041102c91d46ccba0800000000000000
+      internalID: -6067363746544611008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c95a7c3edb97ed0800000000000000
+      internalID: -2415690939102815123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Sphinx_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 0
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a65b38cc27a78c0800000000000000
+      internalID: -4000759096256664952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Sphinx_Attack_0: -4604263400756422112
+      Monster_Sphinx_Attack_1: 3246766964919184859
+      Monster_Sphinx_Attack_10: 5262593563729182643
+      Monster_Sphinx_Attack_11: 1593392843573593732
+      Monster_Sphinx_Attack_12: 8693841820056028654
+      Monster_Sphinx_Attack_13: -6067363746544611008
+      Monster_Sphinx_Attack_14: -2415690939102815123
+      Monster_Sphinx_Attack_15: -4000759096256664952
+      Monster_Sphinx_Attack_2: 2493077179273364440
+      Monster_Sphinx_Attack_3: 4724326900978722638
+      Monster_Sphinx_Attack_4: -3731286328162326178
+      Monster_Sphinx_Attack_5: 2518307388312703082
+      Monster_Sphinx_Attack_6: -1897622271129177121
+      Monster_Sphinx_Attack_7: 3633238506096777660
+      Monster_Sphinx_Attack_8: 709038411560363386
+      Monster_Sphinx_Attack_9: 3502462350857680523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

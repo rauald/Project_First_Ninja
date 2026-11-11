@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 34d426daa2af449479ffafd114234d26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8958364313935159242
+    second: Monster_IceElemental_Attack_0
+  - first:
+      213: 6906114563586294062
+    second: Monster_IceElemental_Attack_1
+  - first:
+      213: 7521049090804169060
+    second: Monster_IceElemental_Attack_2
+  - first:
+      213: -1979529945422447150
+    second: Monster_IceElemental_Attack_3
+  - first:
+      213: 66074601448740709
+    second: Monster_IceElemental_Attack_4
+  - first:
+      213: -1348523356796596718
+    second: Monster_IceElemental_Attack_5
+  - first:
+      213: -2701760320914209309
+    second: Monster_IceElemental_Attack_6
+  - first:
+      213: 4836779717964210382
+    second: Monster_IceElemental_Attack_7
+  - first:
+      213: -928724046236846674
+    second: Monster_IceElemental_Attack_8
+  - first:
+      213: -749237573557866408
+    second: Monster_IceElemental_Attack_9
+  - first:
+      213: -2476542460799834821
+    second: Monster_IceElemental_Attack_10
+  - first:
+      213: -7293743032229142434
+    second: Monster_IceElemental_Attack_11
+  - first:
+      213: 418012289300465342
+    second: Monster_IceElemental_Attack_12
+  - first:
+      213: -4973195418060544268
+    second: Monster_IceElemental_Attack_13
+  - first:
+      213: -2724551503395757346
+    second: Monster_IceElemental_Attack_14
+  - first:
+      213: 6476332547832147579
+    second: Monster_IceElemental_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 767
+        width: 119
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf14ac41e0825c70800000000000000
+      internalID: 8958364313935159242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 767
+        width: 119
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2186bcfa9277df50800000000000000
+      internalID: 6906114563586294062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 767
+        width: 119
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46938a3cc42206860800000000000000
+      internalID: 7521049090804169060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 767
+        width: 119
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddb8dca00c4784e0800000000000000
+      internalID: -1979529945422447150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 511
+        width: 123
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567170cff7ebae000800000000000000
+      internalID: 66074601448740709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 511
+        width: 130
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e42dad625194de0800000000000000
+      internalID: -1348523356796596718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 511
+        width: 134
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5c9ab7d4b618ad0800000000000000
+      internalID: -2701760320914209309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 511
+        width: 140
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec02212f681bf1340800000000000000
+      internalID: 4836779717964210382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 255
+        width: 143
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea570b986628c13f0800000000000000
+      internalID: -928724046236846674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 255
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85035bf756c2a95f0800000000000000
+      internalID: -749237573557866408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 255
+        width: 151
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35aad0d0cd81add0800000000000000
+      internalID: -2476542460799834821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 255
+        width: 143
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5060092b5b67ca90800000000000000
+      internalID: -7293743032229142434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 134
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6808f56f31dc500800000000000000
+      internalID: 418012289300465342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 121
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6a6ebcd19abfab0800000000000000
+      internalID: -4973195418060544268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2e6dbc7d2703ad0800000000000000
+      internalID: -2724551503395757346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_IceElemental_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 121
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ee5d0a32e80e950800000000000000
+      internalID: 6476332547832147579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_IceElemental_Attack_0: 8958364313935159242
+      Monster_IceElemental_Attack_1: 6906114563586294062
+      Monster_IceElemental_Attack_10: -2476542460799834821
+      Monster_IceElemental_Attack_11: -7293743032229142434
+      Monster_IceElemental_Attack_12: 418012289300465342
+      Monster_IceElemental_Attack_13: -4973195418060544268
+      Monster_IceElemental_Attack_14: -2724551503395757346
+      Monster_IceElemental_Attack_15: 6476332547832147579
+      Monster_IceElemental_Attack_2: 7521049090804169060
+      Monster_IceElemental_Attack_3: -1979529945422447150
+      Monster_IceElemental_Attack_4: 66074601448740709
+      Monster_IceElemental_Attack_5: -1348523356796596718
+      Monster_IceElemental_Attack_6: -2701760320914209309
+      Monster_IceElemental_Attack_7: 4836779717964210382
+      Monster_IceElemental_Attack_8: -928724046236846674
+      Monster_IceElemental_Attack_9: -749237573557866408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

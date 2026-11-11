@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 9201f7d930a28e840ab1f84d692f6eed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1834021291881433641
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_0
+  - first:
+      213: -7204224399259127288
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_1
+  - first:
+      213: 6323137206497630295
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_2
+  - first:
+      213: -803250810268771964
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_3
+  - first:
+      213: -6024122276227925747
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_4
+  - first:
+      213: -2097487739333661548
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_5
+  - first:
+      213: 3539939204817307729
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_6
+  - first:
+      213: -2255969662876245078
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_7
+  - first:
+      213: 6166625946955596647
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_8
+  - first:
+      213: 7541345404649189854
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_9
+  - first:
+      213: -1173819125766338380
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_10
+  - first:
+      213: 2632912942793494239
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_11
+  - first:
+      213: -3966639875062620042
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_12
+  - first:
+      213: -1252000844827771665
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_13
+  - first:
+      213: -1408899091305024425
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_14
+  - first:
+      213: 8023413822095419017
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_15
+  - first:
+      213: 5659198949224692539
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_16
+  - first:
+      213: -459510616848810392
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_17
+  - first:
+      213: 3356361924421979519
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_18
+  - first:
+      213: 2748031667791985234
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_19
+  - first:
+      213: -8781871565312084175
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_20
+  - first:
+      213: -2657324432075211640
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_21
+  - first:
+      213: -2611356968972671042
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_22
+  - first:
+      213: -939270279160546961
+    second: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 216
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d577e22a5f3c86e0800000000000000
+      internalID: -1834021291881433641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 264
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80235f71414750c90800000000000000
+      internalID: -7204224399259127288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 750
+        width: 287
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758d853b9cb40c750800000000000000
+      internalID: 6323137206497630295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 974
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4899264d4a74ad4f0800000000000000
+      internalID: -803250810268771964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 250
+        width: 258
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09bae9f4b4066ca0800000000000000
+      internalID: -6024122276227925747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 959
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ca748930a34e2e0800000000000000
+      internalID: -2097487739333661548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 934
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1584d9d83f3602130800000000000000
+      internalID: 3539939204817307729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 908
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa324345b8f21b0e0800000000000000
+      internalID: -2255969662876245078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 890
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763cef660a1449550800000000000000
+      internalID: 6166625946955596647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 851
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1b3a490bd38a860800000000000000
+      internalID: 7541345404649189854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 846
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8432a69b1c5bfe0800000000000000
+      internalID: -1173819125766338380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 752
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde0cb72f5cf98420800000000000000
+      internalID: 2632912942793494239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 266
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6702efebc0aa3f8c0800000000000000
+      internalID: -3966639875062620042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 754
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec3d817ddfff9ee0800000000000000
+      internalID: -1252000844827771665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 576
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754b46abdb5927ce0800000000000000
+      internalID: -1408899091305024425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 417
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986e4ff7c54e85f60800000000000000
+      internalID: 8023413822095419017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 282
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b3dc9e573898e40800000000000000
+      internalID: 5659198949224692539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 264
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eb430578d7f99f0800000000000000
+      internalID: -459510616848810392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 222
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d81d23361349e20800000000000000
+      internalID: 3356361924421979519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 217
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25af34efd38f22620800000000000000
+      internalID: 2748031667791985234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 214
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1373876f656802680800000000000000
+      internalID: -8781871565312084175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 122
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cb03512894f1bd0800000000000000
+      internalID: -2657324432075211640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 114
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7a4aa1ca892cbd0800000000000000
+      internalID: -2611356968972671042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Idle_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69bd8658aa07f2f0800000000000000
+      internalID: -939270279160546961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_0: -1834021291881433641
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_1: -7204224399259127288
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_10: -1173819125766338380
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_11: 2632912942793494239
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_12: -3966639875062620042
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_13: -1252000844827771665
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_14: -1408899091305024425
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_15: 8023413822095419017
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_16: 5659198949224692539
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_17: -459510616848810392
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_18: 3356361924421979519
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_19: 2748031667791985234
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_2: 6323137206497630295
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_20: -8781871565312084175
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_21: -2657324432075211640
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_22: -2611356968972671042
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_23: -939270279160546961
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_3: -803250810268771964
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_4: -6024122276227925747
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_5: -2097487739333661548
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_6: 3539939204817307729
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_7: -2255969662876245078
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_8: 6166625946955596647
+      Ninja_Earth_Human_Battle_Idle_Right_16f_v1_9: 7541345404649189854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5161 @@
+fileFormatVersion: 2
+guid: 2dcb8a519be2eb04eaaba8e16f27af05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2851784069990414763
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_0
+  - first:
+      213: -866550731377151924
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_1
+  - first:
+      213: 18614775594734960
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_2
+  - first:
+      213: 3076398752669329593
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_3
+  - first:
+      213: 7517076360174500468
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_4
+  - first:
+      213: -7539197991275557149
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_5
+  - first:
+      213: 3408285586739536947
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_6
+  - first:
+      213: 995868213038806305
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_7
+  - first:
+      213: -4776767314111834314
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_8
+  - first:
+      213: 2451450677386714152
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_9
+  - first:
+      213: 1506330407569714781
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_10
+  - first:
+      213: 2288873537991243253
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_11
+  - first:
+      213: 2636122532683923400
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_12
+  - first:
+      213: 1421237489624344079
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_13
+  - first:
+      213: 3766651098852758371
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_14
+  - first:
+      213: 3412120879614514668
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_15
+  - first:
+      213: -5725525801682253086
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_16
+  - first:
+      213: -1001676872040281697
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_17
+  - first:
+      213: 3080332754089872545
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_18
+  - first:
+      213: 6649141234956045825
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_19
+  - first:
+      213: -6959740849193330245
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_20
+  - first:
+      213: -6880683808113633486
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_21
+  - first:
+      213: -7963509079014571064
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_22
+  - first:
+      213: -7871761808627732330
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_23
+  - first:
+      213: 917826659501533166
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_24
+  - first:
+      213: 2438170070187925641
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_25
+  - first:
+      213: 2859304041702459748
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_26
+  - first:
+      213: 5549145172367057672
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_27
+  - first:
+      213: -6263758198687788216
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_28
+  - first:
+      213: 8261710009286903305
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_29
+  - first:
+      213: 8156478072689326748
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_30
+  - first:
+      213: -4179570125131920740
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_31
+  - first:
+      213: 2284187769413026001
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_32
+  - first:
+      213: 4195837040408108907
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_33
+  - first:
+      213: -6100468967372377260
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_34
+  - first:
+      213: -4418298750385954426
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_35
+  - first:
+      213: 3889636792533274918
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_36
+  - first:
+      213: 6894133453256002435
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_37
+  - first:
+      213: 4025113371353411308
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_38
+  - first:
+      213: 7970744037244213117
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_39
+  - first:
+      213: -1171924560430791133
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_40
+  - first:
+      213: -2164604223717715919
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_41
+  - first:
+      213: -180462790028997852
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_42
+  - first:
+      213: 9213807499179383363
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_43
+  - first:
+      213: 7527704942788403167
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_44
+  - first:
+      213: 4041488756971519663
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_45
+  - first:
+      213: -4956583541886092794
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_46
+  - first:
+      213: 5907764595195662331
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_47
+  - first:
+      213: 3910392578274850395
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_48
+  - first:
+      213: 7892466297195807688
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_49
+  - first:
+      213: -184197454029609951
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_50
+  - first:
+      213: 4651033804158047334
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_51
+  - first:
+      213: -2877591790697935698
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_52
+  - first:
+      213: 5187622497345812161
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_53
+  - first:
+      213: -580148921264720534
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_54
+  - first:
+      213: 7895414041859896999
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_55
+  - first:
+      213: -7860195688550776467
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_56
+  - first:
+      213: 6973397451041105871
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_57
+  - first:
+      213: -4245526961590994075
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_58
+  - first:
+      213: -8205831326542334120
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_59
+  - first:
+      213: 8380551396061565506
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_60
+  - first:
+      213: -5059267029948891992
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_61
+  - first:
+      213: -2968347039010524574
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_62
+  - first:
+      213: 6089730943300779814
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_63
+  - first:
+      213: -3798698598904144078
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_64
+  - first:
+      213: 2093726273287441512
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_65
+  - first:
+      213: 7833958533011480691
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_66
+  - first:
+      213: -1313007814229301203
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_67
+  - first:
+      213: 8663828204832546320
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_68
+  - first:
+      213: -4274299322432207946
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_69
+  - first:
+      213: -5760261652090191687
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_70
+  - first:
+      213: -61621431255379277
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_71
+  - first:
+      213: 218383337261588729
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_72
+  - first:
+      213: -4105356015365242283
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_73
+  - first:
+      213: 284701640412253741
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_74
+  - first:
+      213: 4028414649584739062
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_75
+  - first:
+      213: -4450435820807833397
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_76
+  - first:
+      213: -2646177388233972674
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_77
+  - first:
+      213: 8385501664788637330
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_78
+  - first:
+      213: 6153264021978388345
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_79
+  - first:
+      213: 258304385682984807
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_80
+  - first:
+      213: -624046716827567976
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_81
+  - first:
+      213: -1025320266477750908
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_82
+  - first:
+      213: -2480235108259595350
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_83
+  - first:
+      213: -4813399054591089871
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_84
+  - first:
+      213: 6918797869278350017
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_85
+  - first:
+      213: -920561059289628337
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_86
+  - first:
+      213: 1577040781509296576
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_87
+  - first:
+      213: 823154861635961764
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_88
+  - first:
+      213: 2009274575436168321
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_89
+  - first:
+      213: -444643449142867245
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_90
+  - first:
+      213: 9008903355266148340
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_91
+  - first:
+      213: -4679410639021682388
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_92
+  - first:
+      213: 6835978294344682586
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_93
+  - first:
+      213: 6719641081490010479
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_94
+  - first:
+      213: -7158482375147287659
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_95
+  - first:
+      213: 7846247825964548277
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_96
+  - first:
+      213: 8595992617886186745
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_97
+  - first:
+      213: -6864569640849428513
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_98
+  - first:
+      213: 7546390909974996167
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_99
+  - first:
+      213: 5129324077135785096
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_100
+  - first:
+      213: -1872686128112661646
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_101
+  - first:
+      213: 1760153370177030878
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_102
+  - first:
+      213: 2788532081589207765
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_103
+  - first:
+      213: 6948455442697790789
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_104
+  - first:
+      213: -1739710428939387712
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_105
+  - first:
+      213: -7361499307505260598
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_106
+  - first:
+      213: -9216275126190763837
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_107
+  - first:
+      213: 4480473812950882374
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_108
+  - first:
+      213: 8047006163002784259
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_109
+  - first:
+      213: -6334774494156371083
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_110
+  - first:
+      213: 1056280096082832789
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_111
+  - first:
+      213: -8820865410107488376
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_112
+  - first:
+      213: 73480252030922162
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_113
+  - first:
+      213: -2264740785510214563
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_114
+  - first:
+      213: -7398192947518335382
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_115
+  - first:
+      213: -572326498655397491
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_116
+  - first:
+      213: 5649501051035760223
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_117
+  - first:
+      213: -8645055632920886733
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_118
+  - first:
+      213: 6905307656495103018
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_119
+  - first:
+      213: 7213615165885116212
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_120
+  - first:
+      213: -7844577882150855525
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_121
+  - first:
+      213: -8177482528982959364
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_122
+  - first:
+      213: 894351840975612527
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_123
+  - first:
+      213: -7409744335346502361
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_124
+  - first:
+      213: -933929219352377819
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_125
+  - first:
+      213: 3341280951288766423
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_126
+  - first:
+      213: 2869449977131059894
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_127
+  - first:
+      213: -9041731614094765339
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_128
+  - first:
+      213: 894858093051869082
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_129
+  - first:
+      213: -4848371508243699482
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_130
+  - first:
+      213: 2411843388904665005
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_131
+  - first:
+      213: 1288597074567541342
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_132
+  - first:
+      213: 401625974264870209
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_133
+  - first:
+      213: -1882927381574099373
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_134
+  - first:
+      213: -1689209659049827443
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_135
+  - first:
+      213: 4284906681591826037
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_136
+  - first:
+      213: 2940592489943457228
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_137
+  - first:
+      213: -7744890399524818776
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_138
+  - first:
+      213: -4352038601922415969
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_139
+  - first:
+      213: 1777506776988616270
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_140
+  - first:
+      213: 6110069093848504000
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_141
+  - first:
+      213: -3262635445677401618
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_142
+  - first:
+      213: -8270958263719048493
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_143
+  - first:
+      213: -6670078601657034085
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_144
+  - first:
+      213: -6084548379817322457
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_145
+  - first:
+      213: -2382516662213970127
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_146
+  - first:
+      213: 6201009872967496276
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_147
+  - first:
+      213: -2170386532007881627
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_148
+  - first:
+      213: 6574536078968055571
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_149
+  - first:
+      213: 839633470908969433
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_150
+  - first:
+      213: -7707809882300577136
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_151
+  - first:
+      213: 3855206337772725852
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_152
+  - first:
+      213: 2229403023030697099
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_153
+  - first:
+      213: 2322457748274367904
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_154
+  - first:
+      213: 7099185193807368535
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_155
+  - first:
+      213: 1007771924041924132
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_156
+  - first:
+      213: -8860287364889355720
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_157
+  - first:
+      213: -3363609298128519993
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_158
+  - first:
+      213: -8471936013213402049
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_159
+  - first:
+      213: -7258052367795715426
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_160
+  - first:
+      213: -5828812993890424358
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_161
+  - first:
+      213: 199018213575297839
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_162
+  - first:
+      213: 1933437210418398694
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_163
+  - first:
+      213: -196917474828168328
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_164
+  - first:
+      213: -7693728443001941280
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_165
+  - first:
+      213: -3002399746625493538
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_166
+  - first:
+      213: 4727736892730424626
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_167
+  - first:
+      213: -131273783095504742
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_168
+  - first:
+      213: -4013819494394390857
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_169
+  - first:
+      213: 1285892408698266569
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_170
+  - first:
+      213: 143911605580211074
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_171
+  - first:
+      213: 1010938111143825633
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_172
+  - first:
+      213: 6666253264453854842
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_173
+  - first:
+      213: 2712689684425457340
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_174
+  - first:
+      213: 2238750451831964326
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_175
+  - first:
+      213: -7000227229539911875
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_176
+  - first:
+      213: -1174428768655308199
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_177
+  - first:
+      213: -8303535309057500525
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_178
+  - first:
+      213: 5066595082944805398
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_179
+  - first:
+      213: -618347086926868813
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_180
+  - first:
+      213: 3031406829703254732
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_181
+  - first:
+      213: 2819883911674158845
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_182
+  - first:
+      213: 6481753122597548026
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_183
+  - first:
+      213: -8273697113941769524
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_184
+  - first:
+      213: -5977856215468207011
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_185
+  - first:
+      213: -6669689521797133109
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_186
+  - first:
+      213: -662980699145574531
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_187
+  - first:
+      213: -4522475013441513199
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_188
+  - first:
+      213: -746740173382552185
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_189
+  - first:
+      213: 1285831359349418681
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_190
+  - first:
+      213: 3323140655921133683
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_191
+  - first:
+      213: 5101202538489026703
+    second: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_192
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 227
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5568a1c6f7d6c68d0800000000000000
+      internalID: -2851784069990414763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 974
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f86473b469f3f0800000000000000
+      internalID: -866550731377151924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1000
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d5ee2a02224000800000000000000
+      internalID: 18614775594734960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 737
+        width: 266
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b86f48bd5091ba20800000000000000
+      internalID: 3076398752669329593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1016
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47affa55f15025860800000000000000
+      internalID: 7517076360174500468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 737
+        width: 253
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee8eae0f536f5790800000000000000
+      internalID: -7539197991275557149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 16
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334a1baeea9ac4f20800000000000000
+      internalID: 3408285586739536947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 987
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125f7490dd802dd00800000000000000
+      internalID: 995868213038806305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 987
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637daabaf6385bdb0800000000000000
+      internalID: -4776767314111834314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 966
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c960a176d450220800000000000000
+      internalID: 2451450677386714152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 990
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5eef89568f87e410800000000000000
+      internalID: 1506330407569714781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 990
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f572c71b56b3cf10800000000000000
+      internalID: 2288873537991243253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 995
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf37090a73659420800000000000000
+      internalID: 2636122532683923400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 708
+        width: 209
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06e68e77ff39b310800000000000000
+      internalID: 1421237489624344079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 958
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36314f3c735d54430800000000000000
+      internalID: 3766651098852758371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 936
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5dd10acd94a5f20800000000000000
+      internalID: 3412120879614514668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 893
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea45665e98da80b0800000000000000
+      internalID: -5725525801682253086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 906
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99805621345912f0800000000000000
+      internalID: -1001676872040281697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 877
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac078dc15a8fba20800000000000000
+      internalID: 3080332754089872545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 859
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e05fa79be764c50800000000000000
+      internalID: 6649141234956045825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 791
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb95e0b62980a6f90800000000000000
+      internalID: -6959740849193330245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 789
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237da9d2886e280a0800000000000000
+      internalID: -6880683808113633486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 752
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c30db36faeeb7190800000000000000
+      internalID: -7963509079014571064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 771
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f1486752e1c290800000000000000
+      internalID: -7871761808627732330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 757
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7e8f4eb76ccbc00800000000000000
+      internalID: 917826659501533166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 775
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9806a87c2ce16d120800000000000000
+      internalID: 2438170070187925641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 734
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469838e60e94ea720800000000000000
+      internalID: 2859304041702459748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 776
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80323063226820d40800000000000000
+      internalID: 5549145172367057672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 773
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8431648ea19a219a0800000000000000
+      internalID: -6263758198687788216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 766
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906c5d42b7d77a270800000000000000
+      internalID: 8261710009286903305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 768
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af8ec9791a13170800000000000000
+      internalID: 8156478072689326748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 760
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a4da19d1f2ff5c0800000000000000
+      internalID: -4179570125131920740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 766
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0c7249ca013bf10800000000000000
+      internalID: 2284187769413026001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 720
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f93f8ce8b9a3a30800000000000000
+      internalID: 4195837040408108907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 751
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b97cbbc7c65ba0800000000000000
+      internalID: -6100468967372377260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 759
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68161b712bc0fa2c0800000000000000
+      internalID: -4418298750385954426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 739
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6215c3cfd04caf530800000000000000
+      internalID: 3889636792533274918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 754
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b067b59d1ecaf50800000000000000
+      internalID: 6894133453256002435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 752
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee13809431cd730800000000000000
+      internalID: 4025113371353411308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 241
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7711879875cd9e60800000000000000
+      internalID: 7970744037244213117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 719
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32687f742dc7cbfe0800000000000000
+      internalID: -1171924560430791133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 749
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130def55de7c5f1e0800000000000000
+      internalID: -2164604223717715919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 745
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b45217c0ede7df0800000000000000
+      internalID: -180462790028997852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 739
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ada698a150edf70800000000000000
+      internalID: 9213807499179383363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 452
+        width: 261
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfdad013c7c77860800000000000000
+      internalID: 7527704942788403167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 725
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeb50b9c90461830800000000000000
+      internalID: 4041488756971519663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 739
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60af45e978da63bb0800000000000000
+      internalID: -4956583541886092794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 695
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff444149989cf150800000000000000
+      internalID: 5907764595195662331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 711
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b567560f451844630800000000000000
+      internalID: 3910392578274850395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 738
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3491ef74ca78d60800000000000000
+      internalID: 7892466297195807688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 721
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124a8083469917df0800000000000000
+      internalID: -184197454029609951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 727
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6649c274a9acb8040800000000000000
+      internalID: 4651033804158047334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 726
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac8ed2338db018d0800000000000000
+      internalID: -2877591790697935698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 695
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c63f171d232ef740800000000000000
+      internalID: 5187622497345812161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_54
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 678
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b03f31a5e2f7f0800000000000000
+      internalID: -580148921264720534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 693
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b0b74d35229d60800000000000000
+      internalID: 7895414041859896999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_56
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 409
+        width: 244
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61cfd69aa9fae290800000000000000
+      internalID: -7860195688550776467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_57
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 411
+        width: 261
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc76beaf80c76c060800000000000000
+      internalID: 6973397451041105871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_58
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 711
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b7602e8bbd415c0800000000000000
+      internalID: -4245526961590994075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_59
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 708
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857fba682e70f1e80800000000000000
+      internalID: -8205831326542334120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_60
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 692
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2425728b713bd4470800000000000000
+      internalID: 8380551396061565506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_61
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 708
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acfc00017fd9c9b0800000000000000
+      internalID: -5059267029948891992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262f1b158105ec6d0800000000000000
+      internalID: -2968347039010524574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_63
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 700
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fb5253702138450800000000000000
+      internalID: 6089730943300779814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_64
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 618
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f5b8b20cf484bc0800000000000000
+      internalID: -3798698598904144078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_65
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 618
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c4338d3f86e0d10800000000000000
+      internalID: 2093726273287441512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_66
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 618
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3702a4997cfc7bc60800000000000000
+      internalID: 7833958533011480691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_67
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 593
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28ec8d795247cde0800000000000000
+      internalID: -1313007814229301203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_68
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 608
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01edd0079d91c3870800000000000000
+      internalID: 8663828204832546320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_69
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b34cb69963aea4c0800000000000000
+      internalID: -4274299322432207946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_70
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 594
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b00cddeb807f00b0800000000000000
+      internalID: -5760261652090191687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_71
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 586
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d87f72a3152ff0800000000000000
+      internalID: -61621431255379277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_72
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0675afc7ad70300800000000000000
+      internalID: 218383337261588729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_73
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 591
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55244a38478d607c0800000000000000
+      internalID: -4105356015365242283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_74
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 524
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e4ebf22a673f300800000000000000
+      internalID: 284701640412253741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_75
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 519
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f26a74c7cdc7e730800000000000000
+      internalID: 4028414649584739062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_76
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 485
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8331d4330ec32c0800000000000000
+      internalID: -4450435820807833397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_77
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 485
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34a4a97fa3e64bd0800000000000000
+      internalID: -2646177388233972674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_78
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2966c29f5594f5470800000000000000
+      internalID: 8385501664788637330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_79
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 490
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977963fc609c46550800000000000000
+      internalID: 6153264021978388345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_80
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 490
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f4f80687ea59300800000000000000
+      internalID: 258304385682984807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 445
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8987e3041d0f657f0800000000000000
+      internalID: -624046716827567976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_82
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 447
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b59766a455c1f0800000000000000
+      internalID: -1025320266477750908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_83
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 477
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabfbb45f4f649dd0800000000000000
+      internalID: -2480235108259595350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_84
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 476
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133a5e4ff0f533db0800000000000000
+      internalID: -4813399054591089871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_85
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 478
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac0173102840060800000000000000
+      internalID: 6918797869278350017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_86
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 477
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f410cfa08928933f0800000000000000
+      internalID: -920561059289628337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_87
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 459
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c18a2a3c36c2e510800000000000000
+      internalID: 1577040781509296576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_88
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 483
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a382f24cfe6c6b00800000000000000
+      internalID: 823154861635961764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_89
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 472
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cb81da49062eb10800000000000000
+      internalID: 2009274575436168321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_90
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 469
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da822a832f44d9f0800000000000000
+      internalID: -444643449142867245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_91
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 478
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7a672dedd060d70800000000000000
+      internalID: 9008903355266148340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_92
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 477
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21ddeef0d46f0fb0800000000000000
+      internalID: -4679410639021682388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_93
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 465
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c02b64a064ede50800000000000000
+      internalID: 6835978294344682586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_94
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 470
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61755026f5f04d50800000000000000
+      internalID: 6719641081490010479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_95
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 465
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b83720536f7ac90800000000000000
+      internalID: -7158482375147287659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_96
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 459
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b04c4693d873ec60800000000000000
+      internalID: 7846247825964548277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 455
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc7cf01eb91b4770800000000000000
+      internalID: 8595992617886186745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_98
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 467
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf2d3d18462cb0a0800000000000000
+      internalID: -6864569640849428513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_99
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 462
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4eb45dc8a2ab860800000000000000
+      internalID: 7546390909974996167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_100
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 464
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c698362150f2740800000000000000
+      internalID: 5129324077135785096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_101
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 464
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b0b0e63e1e206e0800000000000000
+      internalID: -1872686128112661646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_102
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 464
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edacb9b1a225d6810800000000000000
+      internalID: 1760153370177030878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_103
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 459
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2c7e7672bd2b620800000000000000
+      internalID: 2788532081589207765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_104
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 455
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545a1af196fdd6060800000000000000
+      internalID: 6948455442697790789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_105
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 446
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc760f059e4bd7e0800000000000000
+      internalID: -1739710428939387712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_106
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 438
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac76dd9f163b6d990800000000000000
+      internalID: -7361499307505260598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_107
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 436
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c091274a96391080800000000000000
+      internalID: -9216275126190763837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_108
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 451
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648906eb137dd2e30800000000000000
+      internalID: 4480473812950882374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_109
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 454
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30af82b6875bcaf60800000000000000
+      internalID: 8047006163002784259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_110
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 446
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bca9f192c5618a0800000000000000
+      internalID: -6334774494156371083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_111
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 447
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d2556a629a8ae00800000000000000
+      internalID: 1056280096082832789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_112
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 452
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887430bf4adf59580800000000000000
+      internalID: -8820865410107488376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_113
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 452
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd2f4066ed050100800000000000000
+      internalID: 73480252030922162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_114
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 459
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54135331460290e0800000000000000
+      internalID: -2264740785510214563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_115
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 434
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a669e5726b6545990800000000000000
+      internalID: -7398192947518335382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_116
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 445
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d891a10f410be08f0800000000000000
+      internalID: -572326498655397491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 259
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56be29064f076e40800000000000000
+      internalID: 5649501051035760223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_118
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 209
+        width: 240
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c24094b7960880800000000000000
+      internalID: -8645055632920886733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_119
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 432
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cfc2a4ab494df50800000000000000
+      internalID: 6905307656495103018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_120
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 432
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fe3f426c8eb1460800000000000000
+      internalID: 7213615165885116212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_121
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 434
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c13818af5722390800000000000000
+      internalID: -7844577882150855525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_122
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 437
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf10f47feb38e80800000000000000
+      internalID: -8177482528982959364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_123
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 422
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a6199c240696c00800000000000000
+      internalID: 894351840975612527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_124
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 424
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725753719cc4b2990800000000000000
+      internalID: -7409744335346502361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_125
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 441
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526c42bb2540a03f0800000000000000
+      internalID: -933929219352377819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_126
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 394
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df9854825d9e5e20800000000000000
+      internalID: 3341280951288766423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_127
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 147
+        width: 290
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba46ab1d8552d720800000000000000
+      internalID: 2869449977131059894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_128
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 419
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2567b8001558280800000000000000
+      internalID: -9041731614094765339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_129
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 403
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a977db8c1bc2b6c00800000000000000
+      internalID: 894858093051869082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_130
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 256
+        width: 255
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e862001dcf17bcb0800000000000000
+      internalID: -4848371508243699482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_131
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 237
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf6981a8c6987120800000000000000
+      internalID: 2411843388904665005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_132
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 242
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52b438463402e110800000000000000
+      internalID: 1288597074567541342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_133
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 248
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145b0a812bcd29500800000000000000
+      internalID: 401625974264870209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_134
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 240
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e5b6bc58f7ed5e0800000000000000
+      internalID: -1882927381574099373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_135
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 227
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d832d21d3c8be88e0800000000000000
+      internalID: -1689209659049827443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_136
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 148
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5768afbaceb077b30800000000000000
+      internalID: 4284906681591826037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_137
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 227
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdd2482a451fc820800000000000000
+      internalID: 2940592489943457228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_138
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 224
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a07dff373f948490800000000000000
+      internalID: -7744890399524818776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_139
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 196
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9270ab13f37a93c0800000000000000
+      internalID: -4352038601922415969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_140
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 163
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46814cfef8faa810800000000000000
+      internalID: 1777506776988616270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_141
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6dee3e7735bc450800000000000000
+      internalID: 6110069093848504000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_142
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 166
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9dccc295ac8b2d0800000000000000
+      internalID: -3262635445677401618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_143
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 201
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac1f2d747a73d80800000000000000
+      internalID: -8270958263719048493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_144
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 214
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a5c44f9de1f63a0800000000000000
+      internalID: -6670078601657034085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_145
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 191
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7285f426c775f8ba0800000000000000
+      internalID: -6084548379817322457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_146
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 194
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137794508b99feed0800000000000000
+      internalID: -2382516662213970127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_147
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 208
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452fae600a96e0650800000000000000
+      internalID: 6201009872967496276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_148
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 215
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564d066c2fc31e1e0800000000000000
+      internalID: -2170386532007881627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_149
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 196
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31761edfab17d3b50800000000000000
+      internalID: 6574536078968055571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_150
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 189
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1be07713af6ab00800000000000000
+      internalID: 839633470908969433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 202
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8a31ffbb580590800000000000000
+      internalID: -7707809882300577136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_152
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 196
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5627ca0db1708530800000000000000
+      internalID: 3855206337772725852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_153
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 186
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c3de0dc3e60fe10800000000000000
+      internalID: 2229403023030697099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_154
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 196
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad4fb364070b3020800000000000000
+      internalID: 2322457748274367904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_155
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 183
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751d997125f558260800000000000000
+      internalID: 7099185193807368535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_156
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 193
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e712bb9335cfd00800000000000000
+      internalID: 1007771924041924132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_157
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 165
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a53efd59fe90580800000000000000
+      internalID: -8860287364889355720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_158
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 189
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc39dd1a2f0251d0800000000000000
+      internalID: -3363609298128519993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_159
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c739c0513ad6a80800000000000000
+      internalID: -8471936013213402049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_160
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e928a5883d7364b90800000000000000
+      internalID: -7258052367795715426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_161
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 185
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9eaf4e675eb1fa0800000000000000
+      internalID: -5828812993890424358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_162
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 163
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0df3c20e03c200800000000000000
+      internalID: 199018213575297839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_163
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c28a26e2f4da10800000000000000
+      internalID: 1933437210418398694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_164
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 182
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873dcc69998644df0800000000000000
+      internalID: -196917474828168328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_165
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 165
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2dc848eb26a3590800000000000000
+      internalID: -7693728443001941280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_166
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 163
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed52aac76555556d0800000000000000
+      internalID: -3002399746625493538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_167
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 175
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23db4b2c7ab4c9140800000000000000
+      internalID: 4727736892730424626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_168
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 170
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a905546903f9d2ef0800000000000000
+      internalID: -131273783095504742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_169
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 165
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6951c9f6c0c48c0800000000000000
+      internalID: -4013819494394390857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_170
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 181
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3e4df255868d110800000000000000
+      internalID: 1285892408698266569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_171
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 183
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2832aa1c7d64ff100800000000000000
+      internalID: 143911605580211074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_172
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 183
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0d1ac1bd2970e00800000000000000
+      internalID: 1010938111143825633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_173
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 150
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a766f82560a438c50800000000000000
+      internalID: 6666253264453854842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 261
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbebb0245e865a520800000000000000
+      internalID: 2712689684425457340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_175
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 171
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2803eaca3a11f10800000000000000
+      internalID: 2238750451831964326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_176
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 156
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37b14c6c623ade90800000000000000
+      internalID: -7000227229539911875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_177
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 155
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a0d4ed14793bfe0800000000000000
+      internalID: -1174428768655308199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_178
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 155
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ad6b361aae3cc80800000000000000
+      internalID: -8303535309057500525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_179
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 158
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a7aab4269205640800000000000000
+      internalID: 5066595082944805398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_180
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 150
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be83dfb9903b67f0800000000000000
+      internalID: -618347086926868813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_181
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 162
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2d7265378b11a20800000000000000
+      internalID: 3031406829703254732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_182
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 163
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe5d2f2a7d322720800000000000000
+      internalID: 2819883911674158845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_183
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affa43a8f10d3f950800000000000000
+      internalID: 6481753122597548026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_184
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 155
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc283509f4ced2d80800000000000000
+      internalID: -8273697113941769524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_185
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 153
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5418aea1736a0da0800000000000000
+      internalID: -5977856215468207011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_186
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 160
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc032ba7b08073a0800000000000000
+      internalID: -6669689521797133109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_187
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 145
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77ec76119e9cc6f0800000000000000
+      internalID: -662980699145574531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_188
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 150
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1191d36bfe0fc31c0800000000000000
+      internalID: -4522475013441513199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_189
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 251
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785f40ac4cb03a5f0800000000000000
+      internalID: -746740173382552185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_190
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 150
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba64170fc038d110800000000000000
+      internalID: 1285831359349418681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_191
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 257
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37876ded1da2e1e20800000000000000
+      internalID: 3323140655921133683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_192
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 258
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8895f17eac1bc640800000000000000
+      internalID: 5101202538489026703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_0: -2851784069990414763
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_1: -866550731377151924
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_10: 1506330407569714781
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_100: 5129324077135785096
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_101: -1872686128112661646
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_102: 1760153370177030878
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_103: 2788532081589207765
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_104: 6948455442697790789
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_105: -1739710428939387712
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_106: -7361499307505260598
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_107: -9216275126190763837
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_108: 4480473812950882374
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_109: 8047006163002784259
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_11: 2288873537991243253
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_110: -6334774494156371083
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_111: 1056280096082832789
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_112: -8820865410107488376
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_113: 73480252030922162
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_114: -2264740785510214563
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_115: -7398192947518335382
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_116: -572326498655397491
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_117: 5649501051035760223
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_118: -8645055632920886733
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_119: 6905307656495103018
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_12: 2636122532683923400
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_120: 7213615165885116212
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_121: -7844577882150855525
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_122: -8177482528982959364
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_123: 894351840975612527
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_124: -7409744335346502361
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_125: -933929219352377819
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_126: 3341280951288766423
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_127: 2869449977131059894
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_128: -9041731614094765339
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_129: 894858093051869082
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_13: 1421237489624344079
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_130: -4848371508243699482
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_131: 2411843388904665005
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_132: 1288597074567541342
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_133: 401625974264870209
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_134: -1882927381574099373
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_135: -1689209659049827443
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_136: 4284906681591826037
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_137: 2940592489943457228
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_138: -7744890399524818776
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_139: -4352038601922415969
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_14: 3766651098852758371
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_140: 1777506776988616270
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_141: 6110069093848504000
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_142: -3262635445677401618
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_143: -8270958263719048493
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_144: -6670078601657034085
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_145: -6084548379817322457
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_146: -2382516662213970127
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_147: 6201009872967496276
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_148: -2170386532007881627
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_149: 6574536078968055571
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_15: 3412120879614514668
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_150: 839633470908969433
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_151: -7707809882300577136
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_152: 3855206337772725852
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_153: 2229403023030697099
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_154: 2322457748274367904
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_155: 7099185193807368535
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_156: 1007771924041924132
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_157: -8860287364889355720
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_158: -3363609298128519993
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_159: -8471936013213402049
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_16: -5725525801682253086
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_160: -7258052367795715426
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_161: -5828812993890424358
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_162: 199018213575297839
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_163: 1933437210418398694
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_164: -196917474828168328
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_165: -7693728443001941280
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_166: -3002399746625493538
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_167: 4727736892730424626
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_168: -131273783095504742
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_169: -4013819494394390857
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_17: -1001676872040281697
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_170: 1285892408698266569
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_171: 143911605580211074
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_172: 1010938111143825633
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_173: 6666253264453854842
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_174: 2712689684425457340
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_175: 2238750451831964326
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_176: -7000227229539911875
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_177: -1174428768655308199
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_178: -8303535309057500525
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_179: 5066595082944805398
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_18: 3080332754089872545
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_180: -618347086926868813
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_181: 3031406829703254732
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_182: 2819883911674158845
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_183: 6481753122597548026
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_184: -8273697113941769524
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_185: -5977856215468207011
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_186: -6669689521797133109
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_187: -662980699145574531
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_188: -4522475013441513199
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_189: -746740173382552185
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_19: 6649141234956045825
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_190: 1285831359349418681
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_191: 3323140655921133683
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_192: 5101202538489026703
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_2: 18614775594734960
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_20: -6959740849193330245
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_21: -6880683808113633486
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_22: -7963509079014571064
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_23: -7871761808627732330
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_24: 917826659501533166
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_25: 2438170070187925641
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_26: 2859304041702459748
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_27: 5549145172367057672
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_28: -6263758198687788216
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_29: 8261710009286903305
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_3: 3076398752669329593
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_30: 8156478072689326748
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_31: -4179570125131920740
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_32: 2284187769413026001
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_33: 4195837040408108907
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_34: -6100468967372377260
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_35: -4418298750385954426
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_36: 3889636792533274918
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_37: 6894133453256002435
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_38: 4025113371353411308
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_39: 7970744037244213117
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_4: 7517076360174500468
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_40: -1171924560430791133
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_41: -2164604223717715919
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_42: -180462790028997852
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_43: 9213807499179383363
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_44: 7527704942788403167
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_45: 4041488756971519663
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_46: -4956583541886092794
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_47: 5907764595195662331
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_48: 3910392578274850395
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_49: 7892466297195807688
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_5: -7539197991275557149
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_50: -184197454029609951
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_51: 4651033804158047334
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_52: -2877591790697935698
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_53: 5187622497345812161
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_54: -580148921264720534
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_55: 7895414041859896999
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_56: -7860195688550776467
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_57: 6973397451041105871
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_58: -4245526961590994075
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_59: -8205831326542334120
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_6: 3408285586739536947
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_60: 8380551396061565506
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_61: -5059267029948891992
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_62: -2968347039010524574
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_63: 6089730943300779814
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_64: -3798698598904144078
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_65: 2093726273287441512
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_66: 7833958533011480691
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_67: -1313007814229301203
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_68: 8663828204832546320
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_69: -4274299322432207946
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_7: 995868213038806305
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_70: -5760261652090191687
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_71: -61621431255379277
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_72: 218383337261588729
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_73: -4105356015365242283
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_74: 284701640412253741
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_75: 4028414649584739062
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_76: -4450435820807833397
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_77: -2646177388233972674
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_78: 8385501664788637330
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_79: 6153264021978388345
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_8: -4776767314111834314
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_80: 258304385682984807
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_81: -624046716827567976
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_82: -1025320266477750908
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_83: -2480235108259595350
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_84: -4813399054591089871
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_85: 6918797869278350017
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_86: -920561059289628337
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_87: 1577040781509296576
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_88: 823154861635961764
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_89: 2009274575436168321
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_9: 2451450677386714152
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_90: -444643449142867245
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_91: 9008903355266148340
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_92: -4679410639021682388
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_93: 6835978294344682586
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_94: 6719641081490010479
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_95: -7158482375147287659
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_96: 7846247825964548277
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_97: 8595992617886186745
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_98: -6864569640849428513
+      Ninja_Fire_Female_Scroll_Battle_Death_Right_16f_v1_99: 7546390909974996167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

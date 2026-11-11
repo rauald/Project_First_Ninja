@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6dada78d084e5e44e9376bc73313be91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3559549722854513400
+    second: Monster_Boar_Death_0
+  - first:
+      213: 4178725214373032374
+    second: Monster_Boar_Death_1
+  - first:
+      213: -4818606209505797082
+    second: Monster_Boar_Death_2
+  - first:
+      213: -8664692622213138893
+    second: Monster_Boar_Death_3
+  - first:
+      213: 5671564518267137488
+    second: Monster_Boar_Death_4
+  - first:
+      213: -2661707784727610409
+    second: Monster_Boar_Death_5
+  - first:
+      213: 2328491839680821488
+    second: Monster_Boar_Death_6
+  - first:
+      213: -6157444835532999566
+    second: Monster_Boar_Death_7
+  - first:
+      213: 5081683078225192632
+    second: Monster_Boar_Death_8
+  - first:
+      213: 2496647924059996065
+    second: Monster_Boar_Death_9
+  - first:
+      213: -6552576069426835405
+    second: Monster_Boar_Death_10
+  - first:
+      213: -6846611077307619798
+    second: Monster_Boar_Death_11
+  - first:
+      213: -301320796362744678
+    second: Monster_Boar_Death_12
+  - first:
+      213: 7751001261379939598
+    second: Monster_Boar_Death_13
+  - first:
+      213: 7181843218787342530
+    second: Monster_Boar_Death_14
+  - first:
+      213: 7307487366200488258
+    second: Monster_Boar_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Boar_Death_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 767
+        width: 228
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa55171d9f066130800000000000000
+      internalID: 3559549722854513400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 767
+        width: 226
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b13ca05170ddf930800000000000000
+      internalID: 4178725214373032374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 767
+        width: 228
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c5ae9be2fd02db0800000000000000
+      internalID: -4818606209505797082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 767
+        width: 228
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336b905b7f3d0c780800000000000000
+      internalID: -8664692622213138893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 511
+        width: 226
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda50051e175be40800000000000000
+      internalID: 5671564518267137488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 511
+        width: 230
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db3b634fd6bf0bd0800000000000000
+      internalID: -2661707784727610409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 511
+        width: 233
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f83296cdf6705020800000000000000
+      internalID: 2328491839680821488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_7
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 511
+        width: 238
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274fdfdab8c5c8aa0800000000000000
+      internalID: -6157444835532999566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 255
+        width: 241
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6e9b2f5d3c58640800000000000000
+      internalID: 5081683078225192632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 255
+        width: 239
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afffc22f00e5a220800000000000000
+      internalID: 2496647924059996065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 255
+        width: 241
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330961a28c29015a0800000000000000
+      internalID: -6552576069426835405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_11
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 255
+        width: 236
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2623d50083fbf0a0800000000000000
+      internalID: -6846611077307619798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 229
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5c59055e71dbf0800000000000000
+      internalID: -301320796362744678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 235
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0de726a496119b60800000000000000
+      internalID: 7751001261379939598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 237
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c81e504b580ba360800000000000000
+      internalID: 7181843218787342530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Boar_Death_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 246
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241f807fa09696560800000000000000
+      internalID: 7307487366200488258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Boar_Death_0: 3559549722854513400
+      Monster_Boar_Death_1: 4178725214373032374
+      Monster_Boar_Death_10: -6552576069426835405
+      Monster_Boar_Death_11: -6846611077307619798
+      Monster_Boar_Death_12: -301320796362744678
+      Monster_Boar_Death_13: 7751001261379939598
+      Monster_Boar_Death_14: 7181843218787342530
+      Monster_Boar_Death_15: 7307487366200488258
+      Monster_Boar_Death_2: -4818606209505797082
+      Monster_Boar_Death_3: -8664692622213138893
+      Monster_Boar_Death_4: 5671564518267137488
+      Monster_Boar_Death_5: -2661707784727610409
+      Monster_Boar_Death_6: 2328491839680821488
+      Monster_Boar_Death_7: -6157444835532999566
+      Monster_Boar_Death_8: 5081683078225192632
+      Monster_Boar_Death_9: 2496647924059996065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

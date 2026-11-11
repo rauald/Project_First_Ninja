@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 1c931acead282fb47a55e464116b1e91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3529422045815100243
+    second: Monster_Goblin_Attack_0
+  - first:
+      213: 254358925025722664
+    second: Monster_Goblin_Attack_1
+  - first:
+      213: -7854135457786148186
+    second: Monster_Goblin_Attack_2
+  - first:
+      213: 8353738989506777605
+    second: Monster_Goblin_Attack_3
+  - first:
+      213: 7828351231587285918
+    second: Monster_Goblin_Attack_4
+  - first:
+      213: -2156189261065092790
+    second: Monster_Goblin_Attack_5
+  - first:
+      213: -9094232797664039736
+    second: Monster_Goblin_Attack_6
+  - first:
+      213: -8673897506420647447
+    second: Monster_Goblin_Attack_7
+  - first:
+      213: 7200787882775176714
+    second: Monster_Goblin_Attack_8
+  - first:
+      213: -5149136499273039893
+    second: Monster_Goblin_Attack_9
+  - first:
+      213: 2584306425835303438
+    second: Monster_Goblin_Attack_10
+  - first:
+      213: 6156193471488248714
+    second: Monster_Goblin_Attack_11
+  - first:
+      213: 5072998799965155312
+    second: Monster_Goblin_Attack_12
+  - first:
+      213: 7504922401153074586
+    second: Monster_Goblin_Attack_13
+  - first:
+      213: 2887165543261561998
+    second: Monster_Goblin_Attack_14
+  - first:
+      213: 2411907309390390268
+    second: Monster_Goblin_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 767
+        width: 173
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac22c85959f40fc0800000000000000
+      internalID: -3529422045815100243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 767
+        width: 189
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821cb9b381aa78300800000000000000
+      internalID: 254358925025722664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 767
+        width: 196
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa4bd40a61800390800000000000000
+      internalID: -7854135457786148186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 767
+        width: 204
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502d1e7d9517ee370800000000000000
+      internalID: 8353738989506777605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 511
+        width: 192
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b70cff7f3e3ac60800000000000000
+      internalID: 7828351231587285918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 511
+        width: 187
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4104b18a4da312e0800000000000000
+      internalID: -2156189261065092790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 511
+        width: 173
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc278e247bcac180800000000000000
+      internalID: -9094232797664039736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 511
+        width: 195
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e996a79c2020a780800000000000000
+      internalID: -8673897506420647447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 184
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0660cf8d665ee360800000000000000
+      internalID: 7200787882775176714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 255
+        width: 171
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beff4dc92a79a88b0800000000000000
+      internalID: -5149136499273039893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 255
+        width: 225
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e023ca6800d4dd320800000000000000
+      internalID: 2584306425835303438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 255
+        width: 230
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bc2ac68513f6550800000000000000
+      internalID: 6156193471488248714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 210
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffe7e9d789e66640800000000000000
+      internalID: 5072998799965155312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 180
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95c99b3927d62860800000000000000
+      internalID: 7504922401153074586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 177
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e846ad5c3c5411820800000000000000
+      internalID: 2887165543261561998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Goblin_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 175
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3e1674be0d87120800000000000000
+      internalID: 2411907309390390268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Goblin_Attack_0: -3529422045815100243
+      Monster_Goblin_Attack_1: 254358925025722664
+      Monster_Goblin_Attack_10: 2584306425835303438
+      Monster_Goblin_Attack_11: 6156193471488248714
+      Monster_Goblin_Attack_12: 5072998799965155312
+      Monster_Goblin_Attack_13: 7504922401153074586
+      Monster_Goblin_Attack_14: 2887165543261561998
+      Monster_Goblin_Attack_15: 2411907309390390268
+      Monster_Goblin_Attack_2: -7854135457786148186
+      Monster_Goblin_Attack_3: 8353738989506777605
+      Monster_Goblin_Attack_4: 7828351231587285918
+      Monster_Goblin_Attack_5: -2156189261065092790
+      Monster_Goblin_Attack_6: -9094232797664039736
+      Monster_Goblin_Attack_7: -8673897506420647447
+      Monster_Goblin_Attack_8: 7200787882775176714
+      Monster_Goblin_Attack_9: -5149136499273039893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

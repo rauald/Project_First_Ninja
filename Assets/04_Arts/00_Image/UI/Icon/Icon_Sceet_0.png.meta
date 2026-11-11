@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: df715e38db7d39444a94e783aa012a0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8871049797570128504
+    second: Icon_Sceet_0_0
+  - first:
+      213: -7350440493262723552
+    second: Icon_Sceet_0_1
+  - first:
+      213: 6744557596406264812
+    second: Icon_Sceet_0_2
+  - first:
+      213: 715870649915309543
+    second: Icon_Sceet_0_3
+  - first:
+      213: -7029158978417126677
+    second: Icon_Sceet_0_4
+  - first:
+      213: 483833728514800981
+    second: Icon_Sceet_0_5
+  - first:
+      213: -8288599916238113104
+    second: Icon_Sceet_0_6
+  - first:
+      213: -5571961042590525290
+    second: Icon_Sceet_0_7
+  - first:
+      213: -9140591169254043570
+    second: Icon_Sceet_0_8
+  - first:
+      213: 5778594852807669998
+    second: Icon_Sceet_0_9
+  - first:
+      213: 8482024121307958605
+    second: Icon_Sceet_0_10
+  - first:
+      213: 373413819317525251
+    second: Icon_Sceet_0_11
+  - first:
+      213: 3210120031421791965
+    second: Icon_Sceet_0_12
+  - first:
+      213: 5053502901123120466
+    second: Icon_Sceet_0_13
+  - first:
+      213: 3804763789544351595
+    second: Icon_Sceet_0_14
+  - first:
+      213: 5145051627655827880
+    second: Icon_Sceet_0_15
+  - first:
+      213: -8355979599029848779
+    second: Icon_Sceet_0_16
+  - first:
+      213: 85133223569403325
+    second: Icon_Sceet_0_17
+  - first:
+      213: -4970965901492813075
+    second: Icon_Sceet_0_18
+  - first:
+      213: 8194345645147772686
+    second: Icon_Sceet_0_19
+  - first:
+      213: -236896646172508950
+    second: Icon_Sceet_0_20
+  - first:
+      213: -5132675068733479316
+    second: Icon_Sceet_0_21
+  - first:
+      213: 5123317152286405665
+    second: Icon_Sceet_0_22
+  - first:
+      213: 485582346692878817
+    second: Icon_Sceet_0_23
+  - first:
+      213: -5877673932212204088
+    second: Icon_Sceet_0_24
+  - first:
+      213: -3364023771201192944
+    second: Icon_Sceet_0_25
+  - first:
+      213: 8380288774762239304
+    second: Icon_Sceet_0_26
+  - first:
+      213: -2581105768421148848
+    second: Icon_Sceet_0_27
+  - first:
+      213: 2178720403252886516
+    second: Icon_Sceet_0_28
+  - first:
+      213: -4190943960918420398
+    second: Icon_Sceet_0_29
+  - first:
+      213: 2519706556166751570
+    second: Icon_Sceet_0_30
+  - first:
+      213: 9198842011857112306
+    second: Icon_Sceet_0_31
+  - first:
+      213: 5556062159482135348
+    second: Icon_Sceet_0_32
+  - first:
+      213: 4296061862100282380
+    second: Icon_Sceet_0_33
+  - first:
+      213: -1417354413470985453
+    second: Icon_Sceet_0_34
+  - first:
+      213: 3499176113788147614
+    second: Icon_Sceet_0_35
+  - first:
+      213: -1898363162647597584
+    second: Icon_Sceet_0_36
+  - first:
+      213: -7006883821650946714
+    second: Icon_Sceet_0_37
+  - first:
+      213: 2775334850143768799
+    second: Icon_Sceet_0_38
+  - first:
+      213: -5761876269117376818
+    second: Icon_Sceet_0_39
+  - first:
+      213: 1888313460256387555
+    second: Icon_Sceet_0_40
+  - first:
+      213: -5678700840049364679
+    second: Icon_Sceet_0_41
+  - first:
+      213: -7482682131570452223
+    second: Icon_Sceet_0_42
+  - first:
+      213: -5632986888280656623
+    second: Icon_Sceet_0_43
+  - first:
+      213: 7068421603925907586
+    second: Icon_Sceet_0_44
+  - first:
+      213: 1821972543136560445
+    second: Icon_Sceet_0_45
+  - first:
+      213: -8252177778276526785
+    second: Icon_Sceet_0_46
+  - first:
+      213: -7552966188720156545
+    second: Icon_Sceet_0_47
+  - first:
+      213: 7771294636180003793
+    second: Icon_Sceet_0_48
+  - first:
+      213: 7619443584993642779
+    second: Icon_Sceet_0_49
+  - first:
+      213: -4283943928454633346
+    second: Icon_Sceet_0_50
+  - first:
+      213: 2899162346044216190
+    second: Icon_Sceet_0_51
+  - first:
+      213: 2529172457728319110
+    second: Icon_Sceet_0_52
+  - first:
+      213: 7518553897643915899
+    second: Icon_Sceet_0_53
+  - first:
+      213: -2780077680132604820
+    second: Icon_Sceet_0_54
+  - first:
+      213: 2931924203426036636
+    second: Icon_Sceet_0_55
+  - first:
+      213: 6814557802241513192
+    second: Icon_Sceet_0_56
+  - first:
+      213: 2705118831634217272
+    second: Icon_Sceet_0_57
+  - first:
+      213: -2035282108106538469
+    second: Icon_Sceet_0_58
+  - first:
+      213: 526809035263668181
+    second: Icon_Sceet_0_59
+  - first:
+      213: 8622145584313088176
+    second: Icon_Sceet_0_60
+  - first:
+      213: 303126994489475258
+    second: Icon_Sceet_0_61
+  - first:
+      213: -1265784884739156069
+    second: Icon_Sceet_0_62
+  - first:
+      213: -626600289678916419
+    second: Icon_Sceet_0_63
+  - first:
+      213: -7912228090071609639
+    second: Icon_Sceet_0_64
+  - first:
+      213: -552382315775775865
+    second: Icon_Sceet_0_65
+  - first:
+      213: 8167335908254719695
+    second: Icon_Sceet_0_66
+  - first:
+      213: 8159610892584511353
+    second: Icon_Sceet_0_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icon_Sceet_0_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 903
+        width: 102
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ae7f04acc4c1b70800000000000000
+      internalID: 8871049797570128504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 904
+        width: 362
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026ad60d05dfdf990800000000000000
+      internalID: -7350440493262723552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 923
+        width: 122
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce335f4566b799d50800000000000000
+      internalID: 6744557596406264812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 916
+        width: 242
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed745130984fe900800000000000000
+      internalID: 715870649915309543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 903
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be213b5b629637e90800000000000000
+      internalID: -7029158978417126677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 783
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d3a7e663ce6b600800000000000000
+      internalID: 483833728514800981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 783
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b67b438a4af8fc80800000000000000
+      internalID: -8288599916238113104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 783
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698931a04fa6ca2b0800000000000000
+      internalID: -5571961042590525290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 787
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e405a8fa2c8162180800000000000000
+      internalID: -9140591169254043570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 793
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8708ef661b13050800000000000000
+      internalID: 5778594852807669998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 783
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d0bd6aff336b570800000000000000
+      internalID: 8482024121307958605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 784
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b94a6e3e1ae2500800000000000000
+      internalID: 373413819317525251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_12
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 800
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddef24f1923ac8c20800000000000000
+      internalID: 3210120031421791965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_13
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 826
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d79dc2d16a12640800000000000000
+      internalID: 5053502901123120466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b676f02128c3dc430800000000000000
+      internalID: 3804763789544351595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 543
+        width: 104
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a198791235e66740800000000000000
+      internalID: 5145051627655827880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 674
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5353a6993d8990c80800000000000000
+      internalID: -8355979599029848779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 665
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd207d37347e2100800000000000000
+      internalID: 85133223569403325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_18
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 758
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de201f299d4930bb0800000000000000
+      internalID: -4970965901492813075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_19
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 761
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e075dc1e2f928b170800000000000000
+      internalID: 8194345645147772686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_20
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 543
+        width: 101
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecf76461cf56bcf0800000000000000
+      internalID: -236896646172508950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_21
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 667
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6623a4183315c8b0800000000000000
+      internalID: -5132675068733479316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 696
+        width: 115
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12472b53ecda91740800000000000000
+      internalID: 5123317152286405665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_23
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 747
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e164d352922db600800000000000000
+      internalID: 485582346692878817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_24
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 741
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd0bec23be4e6ea0800000000000000
+      internalID: -5877673932212204088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_25
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 746
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c359514369051d0800000000000000
+      internalID: -3364023771201192944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_26
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 546
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84595ee6d34cc4470800000000000000
+      internalID: 8380288774762239304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_27
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 544
+        width: 117
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057bb899af11e2cd0800000000000000
+      internalID: -2581105768421148848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_28
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 663
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbb8c4d9ae5c3e10800000000000000
+      internalID: 2178720403252886516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 565
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25493ef0ca6c6d5c0800000000000000
+      internalID: -4190943960918420398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 544
+        width: 120
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255ca8a43cbc7f220800000000000000
+      internalID: 2519706556166751570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 550
+        width: 121
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fccead721ad8af70800000000000000
+      internalID: 9198842011857112306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_32
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 549
+        width: 113
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4332ce5c8191b1d40800000000000000
+      internalID: 5556062159482135348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 472
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c2797808dae9b30800000000000000
+      internalID: 4296061862100282380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 423
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313da30abab845ce0800000000000000
+      internalID: -1417354413470985453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 494
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97dfd4d2229f8030800000000000000
+      internalID: 3499176113788147614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 425
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fde3b3f2c8a7a5e0800000000000000
+      internalID: -1898363162647597584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 423
+        width: 47
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665501cc94c82ce90800000000000000
+      internalID: -7006883821650946714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 461
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0d4938758f38620800000000000000
+      internalID: 2775334850143768799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_39
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 500
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6718b9f04b900b0800000000000000
+      internalID: -5761876269117376818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_40
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 424
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1bb2f5613a43a10800000000000000
+      internalID: 1888313460256387555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_41
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 432
+        width: 108
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931352b4ca33131b0800000000000000
+      internalID: -5678700840049364679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_42
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 435
+        width: 122
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109949c0f3c282890800000000000000
+      internalID: -7482682131570452223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_43
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 426
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115399b154c93d1b0800000000000000
+      internalID: -5632986888280656623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_44
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 475
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28853b8aff3181260800000000000000
+      internalID: 7068421603925907586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_45
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 332
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d357b20ff52f84910800000000000000
+      internalID: 1821972543136560445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 315
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35947658006a7d80800000000000000
+      internalID: -8252177778276526785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_47
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 315
+        width: 49
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f709cc8c4497e2790800000000000000
+      internalID: -7552966188720156545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_48
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 316
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db586a2c4f29db60800000000000000
+      internalID: 7771294636180003793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_49
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 315
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19ccad2293bdb960800000000000000
+      internalID: 7619443584993642779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_50
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 315
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7825c2c1bf5c84c0800000000000000
+      internalID: -4283943928454633346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_51
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 316
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7357261bc4eb3820800000000000000
+      internalID: 2899162346044216190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_52
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 315
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e199e33fc691320800000000000000
+      internalID: 2529172457728319110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 196
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ab1b55fe4475860800000000000000
+      internalID: 7518553897643915899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 195
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c34b3541e2b69d0800000000000000
+      internalID: -2780077680132604820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 195
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b349d678940b820800000000000000
+      internalID: 2931924203426036636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_56
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 63
+        width: 122
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6d8ff473c229e50800000000000000
+      internalID: 6814557802241513192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_57
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 183
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839f6cabe338a8520800000000000000
+      internalID: 2705118831634217272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_58
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 196
+        width: 122
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b120a90c4b931c3e0800000000000000
+      internalID: -2035282108106538469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_59
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 185
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df6b53c60a9f4700800000000000000
+      internalID: 526809035263668181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_60
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 183
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b83fa21ab308a770800000000000000
+      internalID: 8622145584313088176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_61
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 71
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0806c356ce43400800000000000000
+      internalID: 303126994489475258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_62
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 122
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97501f8a570f6ee0800000000000000
+      internalID: -1265784884739156069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_63
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 63
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4088d3b5edd47f0800000000000000
+      internalID: -626600289678916419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_64
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 68
+        width: 122
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de0a6d097e123290800000000000000
+      internalID: -7912228090071609639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_65
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 63
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b2affd53b8558f0800000000000000
+      internalID: -552382315775775865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_66
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 71
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce90d47cb4385170800000000000000
+      internalID: 8167335908254719695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Sceet_0_67
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 66
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97768e510e2cc3170800000000000000
+      internalID: 8159610892584511353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Icon_Sceet_0_0: 8871049797570128504
+      Icon_Sceet_0_1: -7350440493262723552
+      Icon_Sceet_0_10: 8482024121307958605
+      Icon_Sceet_0_11: 373413819317525251
+      Icon_Sceet_0_12: 3210120031421791965
+      Icon_Sceet_0_13: 5053502901123120466
+      Icon_Sceet_0_14: 3804763789544351595
+      Icon_Sceet_0_15: 5145051627655827880
+      Icon_Sceet_0_16: -8355979599029848779
+      Icon_Sceet_0_17: 85133223569403325
+      Icon_Sceet_0_18: -4970965901492813075
+      Icon_Sceet_0_19: 8194345645147772686
+      Icon_Sceet_0_2: 6744557596406264812
+      Icon_Sceet_0_20: -236896646172508950
+      Icon_Sceet_0_21: -5132675068733479316
+      Icon_Sceet_0_22: 5123317152286405665
+      Icon_Sceet_0_23: 485582346692878817
+      Icon_Sceet_0_24: -5877673932212204088
+      Icon_Sceet_0_25: -3364023771201192944
+      Icon_Sceet_0_26: 8380288774762239304
+      Icon_Sceet_0_27: -2581105768421148848
+      Icon_Sceet_0_28: 2178720403252886516
+      Icon_Sceet_0_29: -4190943960918420398
+      Icon_Sceet_0_3: 715870649915309543
+      Icon_Sceet_0_30: 2519706556166751570
+      Icon_Sceet_0_31: 9198842011857112306
+      Icon_Sceet_0_32: 5556062159482135348
+      Icon_Sceet_0_33: 4296061862100282380
+      Icon_Sceet_0_34: -1417354413470985453
+      Icon_Sceet_0_35: 3499176113788147614
+      Icon_Sceet_0_36: -1898363162647597584
+      Icon_Sceet_0_37: -7006883821650946714
+      Icon_Sceet_0_38: 2775334850143768799
+      Icon_Sceet_0_39: -5761876269117376818
+      Icon_Sceet_0_4: -7029158978417126677
+      Icon_Sceet_0_40: 1888313460256387555
+      Icon_Sceet_0_41: -5678700840049364679
+      Icon_Sceet_0_42: -7482682131570452223
+      Icon_Sceet_0_43: -5632986888280656623
+      Icon_Sceet_0_44: 7068421603925907586
+      Icon_Sceet_0_45: 1821972543136560445
+      Icon_Sceet_0_46: -8252177778276526785
+      Icon_Sceet_0_47: -7552966188720156545
+      Icon_Sceet_0_48: 7771294636180003793
+      Icon_Sceet_0_49: 7619443584993642779
+      Icon_Sceet_0_5: 483833728514800981
+      Icon_Sceet_0_50: -4283943928454633346
+      Icon_Sceet_0_51: 2899162346044216190
+      Icon_Sceet_0_52: 2529172457728319110
+      Icon_Sceet_0_53: 7518553897643915899
+      Icon_Sceet_0_54: -2780077680132604820
+      Icon_Sceet_0_55: 2931924203426036636
+      Icon_Sceet_0_56: 6814557802241513192
+      Icon_Sceet_0_57: 2705118831634217272
+      Icon_Sceet_0_58: -2035282108106538469
+      Icon_Sceet_0_59: 526809035263668181
+      Icon_Sceet_0_6: -8288599916238113104
+      Icon_Sceet_0_60: 8622145584313088176
+      Icon_Sceet_0_61: 303126994489475258
+      Icon_Sceet_0_62: -1265784884739156069
+      Icon_Sceet_0_63: -626600289678916419
+      Icon_Sceet_0_64: -7912228090071609639
+      Icon_Sceet_0_65: -552382315775775865
+      Icon_Sceet_0_66: 8167335908254719695
+      Icon_Sceet_0_67: 8159610892584511353
+      Icon_Sceet_0_7: -5571961042590525290
+      Icon_Sceet_0_8: -9140591169254043570
+      Icon_Sceet_0_9: 5778594852807669998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

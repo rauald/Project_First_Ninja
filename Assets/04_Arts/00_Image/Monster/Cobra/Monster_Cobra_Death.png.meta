@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: e491e72b277f99343a11f6c121d4b5e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3238874537439985701
+    second: Monster_Cobra_Death_0
+  - first:
+      213: 5631969369347076007
+    second: Monster_Cobra_Death_1
+  - first:
+      213: -197980872378295545
+    second: Monster_Cobra_Death_2
+  - first:
+      213: -7264761325971626931
+    second: Monster_Cobra_Death_3
+  - first:
+      213: -4144267787462972259
+    second: Monster_Cobra_Death_4
+  - first:
+      213: -5792212191898962927
+    second: Monster_Cobra_Death_5
+  - first:
+      213: -5343659660857584106
+    second: Monster_Cobra_Death_6
+  - first:
+      213: -3892533413154445705
+    second: Monster_Cobra_Death_7
+  - first:
+      213: -8829672302641102539
+    second: Monster_Cobra_Death_8
+  - first:
+      213: -8602233746090003151
+    second: Monster_Cobra_Death_9
+  - first:
+      213: -5322963327186144084
+    second: Monster_Cobra_Death_10
+  - first:
+      213: 5427941275692894228
+    second: Monster_Cobra_Death_11
+  - first:
+      213: -1245493943845827015
+    second: Monster_Cobra_Death_12
+  - first:
+      213: 2192836385669830945
+    second: Monster_Cobra_Death_13
+  - first:
+      213: -7151485985329825063
+    second: Monster_Cobra_Death_14
+  - first:
+      213: 1869063301027561359
+    second: Monster_Cobra_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 767
+        width: 170
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5200b244b3bc2fc20800000000000000
+      internalID: 3238874537439985701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 767
+        width: 171
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af20dd4d46c82e40800000000000000
+      internalID: 5631969369347076007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 767
+        width: 172
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bd19d0271a04df0800000000000000
+      internalID: -197980872378295545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 767
+        width: 171
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44277b70126e2b90800000000000000
+      internalID: -7264761325971626931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 511
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cec22976a9c76c0800000000000000
+      internalID: -4144267787462972259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 511
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114fc2e23bded9fa0800000000000000
+      internalID: -5792212191898962927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 511
+        width: 164
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616dff1b9d187d5b0800000000000000
+      internalID: -5343659660857584106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_7
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 511
+        width: 164
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7762798fb71faf9c0800000000000000
+      internalID: -3892533413154445705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 255
+        width: 165
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531c8f582d3b67580800000000000000
+      internalID: -8829672302641102539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 169
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1357d690cf9be9880800000000000000
+      internalID: -8602233746090003151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 255
+        width: 175
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca473a26e090126b0800000000000000
+      internalID: -5322963327186144084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_11
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 255
+        width: 181
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4180b5fe4dbe35b40800000000000000
+      internalID: 5427941275692894228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 183
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e4b236bdd17bee0800000000000000
+      internalID: -1245493943845827015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 185
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129d66a13158e6e10800000000000000
+      internalID: 2192836385669830945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 185
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da3b34f261d0cc90800000000000000
+      internalID: -7151485985329825063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Death_15
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 185
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f77786b2f30f910800000000000000
+      internalID: 1869063301027561359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Cobra_Death_0: 3238874537439985701
+      Monster_Cobra_Death_1: 5631969369347076007
+      Monster_Cobra_Death_10: -5322963327186144084
+      Monster_Cobra_Death_11: 5427941275692894228
+      Monster_Cobra_Death_12: -1245493943845827015
+      Monster_Cobra_Death_13: 2192836385669830945
+      Monster_Cobra_Death_14: -7151485985329825063
+      Monster_Cobra_Death_15: 1869063301027561359
+      Monster_Cobra_Death_2: -197980872378295545
+      Monster_Cobra_Death_3: -7264761325971626931
+      Monster_Cobra_Death_4: -4144267787462972259
+      Monster_Cobra_Death_5: -5792212191898962927
+      Monster_Cobra_Death_6: -5343659660857584106
+      Monster_Cobra_Death_7: -3892533413154445705
+      Monster_Cobra_Death_8: -8829672302641102539
+      Monster_Cobra_Death_9: -8602233746090003151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 9b93917b9d69d404cbb428fe0e9201f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2807206947480241880
+    second: Monster_LesserFireDemon_Death_0
+  - first:
+      213: -5665879781304520747
+    second: Monster_LesserFireDemon_Death_1
+  - first:
+      213: -7938160844067707977
+    second: Monster_LesserFireDemon_Death_2
+  - first:
+      213: 2037134263084110469
+    second: Monster_LesserFireDemon_Death_3
+  - first:
+      213: 3937232450833150396
+    second: Monster_LesserFireDemon_Death_4
+  - first:
+      213: 3279770113655497015
+    second: Monster_LesserFireDemon_Death_5
+  - first:
+      213: 1534380397024523665
+    second: Monster_LesserFireDemon_Death_6
+  - first:
+      213: 4078212185547244388
+    second: Monster_LesserFireDemon_Death_7
+  - first:
+      213: 6843568106120029968
+    second: Monster_LesserFireDemon_Death_8
+  - first:
+      213: 3011090520939629198
+    second: Monster_LesserFireDemon_Death_9
+  - first:
+      213: 7681240028789200696
+    second: Monster_LesserFireDemon_Death_10
+  - first:
+      213: 7717122819422829379
+    second: Monster_LesserFireDemon_Death_11
+  - first:
+      213: 1213680059975603178
+    second: Monster_LesserFireDemon_Death_12
+  - first:
+      213: 6585448043657267415
+    second: Monster_LesserFireDemon_Death_13
+  - first:
+      213: -4359726574794100899
+    second: Monster_LesserFireDemon_Death_14
+  - first:
+      213: 297102190117077761
+    second: Monster_LesserFireDemon_Death_15
+  - first:
+      213: 2028631167513748961
+    second: Monster_LesserFireDemon_Death_16
+  - first:
+      213: -1424740331121358062
+    second: Monster_LesserFireDemon_Death_17
+  - first:
+      213: 4691001376230975046
+    second: Monster_LesserFireDemon_Death_18
+  - first:
+      213: -7305669479797156464
+    second: Monster_LesserFireDemon_Death_19
+  - first:
+      213: 2740664959361247175
+    second: Monster_LesserFireDemon_Death_20
+  - first:
+      213: -8824817839760945293
+    second: Monster_LesserFireDemon_Death_21
+  - first:
+      213: -4490555324866511777
+    second: Monster_LesserFireDemon_Death_22
+  - first:
+      213: 8140237995398598123
+    second: Monster_LesserFireDemon_Death_23
+  - first:
+      213: -4782144005984543127
+    second: Monster_LesserFireDemon_Death_24
+  - first:
+      213: -308167103567222072
+    second: Monster_LesserFireDemon_Death_25
+  - first:
+      213: -5440115109148266731
+    second: Monster_LesserFireDemon_Death_26
+  - first:
+      213: -3161961516873216564
+    second: Monster_LesserFireDemon_Death_27
+  - first:
+      213: -5622128822900862931
+    second: Monster_LesserFireDemon_Death_28
+  - first:
+      213: 6464759443565183598
+    second: Monster_LesserFireDemon_Death_29
+  - first:
+      213: -4991780089212229894
+    second: Monster_LesserFireDemon_Death_30
+  - first:
+      213: 5380136619632407427
+    second: Monster_LesserFireDemon_Death_31
+  - first:
+      213: 7162407985926237712
+    second: Monster_LesserFireDemon_Death_32
+  - first:
+      213: -8049140265782564862
+    second: Monster_LesserFireDemon_Death_33
+  - first:
+      213: -7658465243799364827
+    second: Monster_LesserFireDemon_Death_34
+  - first:
+      213: 594587100950817812
+    second: Monster_LesserFireDemon_Death_35
+  - first:
+      213: -3052941884558294860
+    second: Monster_LesserFireDemon_Death_36
+  - first:
+      213: 5809478456114326708
+    second: Monster_LesserFireDemon_Death_37
+  - first:
+      213: -4692344069838035028
+    second: Monster_LesserFireDemon_Death_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 767
+        width: 176
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6819378d335f620800000000000000
+      internalID: 2807206947480241880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 767
+        width: 178
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfa647ab50ce51b0800000000000000
+      internalID: -5665879781304520747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 767
+        width: 176
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3ed6f35ccf5d190800000000000000
+      internalID: -7938160844067707977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 767
+        width: 177
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582d7eea1da554c10800000000000000
+      internalID: 2037134263084110469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 511
+        width: 176
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1fc0ebd0cd3a630800000000000000
+      internalID: 3937232450833150396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 511
+        width: 177
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731e0699a85148d20800000000000000
+      internalID: 3279770113655497015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 511
+        width: 176
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19538f277d63b4510800000000000000
+      internalID: 1534380397024523665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 511
+        width: 177
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463863e1068b89830800000000000000
+      internalID: 4078212185547244388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 255
+        width: 176
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0172a790fec39fe50800000000000000
+      internalID: 6843568106120029968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 177
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a072710ea89c920800000000000000
+      internalID: 3011090520939629198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 255
+        width: 177
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837dd76fb1f399a60800000000000000
+      internalID: 7681240028789200696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_11
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 255
+        width: 176
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b32c3315ab81b60800000000000000
+      internalID: 7717122819422829379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 117
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae312dd859bd7d010800000000000000
+      internalID: 1213680059975603178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 72
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d88bf0ca16346b50800000000000000
+      internalID: 6585448043657267415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 125
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f219f67c32f73c0800000000000000
+      internalID: -4359726574794100899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 109
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1034be72ed48f1400800000000000000
+      internalID: 297102190117077761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_16
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 114
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e561f77c45272c10800000000000000
+      internalID: 2028631167513748961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 69
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bc65aa73e4a3ce0800000000000000
+      internalID: -1424740331121358062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 88
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646ad1fc5e8c91140800000000000000
+      internalID: 4691001376230975046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_19
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 73
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0951742b05c0d9a90800000000000000
+      internalID: -7305669479797156464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 102
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c76617824cc80620800000000000000
+      internalID: 2740664959361247175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_21
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 73
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fc48d3ee2f78580800000000000000
+      internalID: -8824817839760945293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 89
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cb71959b75ea1c0800000000000000
+      internalID: -4490555324866511777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed0fd6f35fe7f070800000000000000
+      internalID: 8140237995398598123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 46
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e178a0d5962adb0800000000000000
+      internalID: -4782144005984543127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_25
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 83
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca2a6ce6ab29bbf0800000000000000
+      internalID: -308167103567222072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_26
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 66
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f6bf59124d084b0800000000000000
+      internalID: -5440115109148266731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_27
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd0151d0c47e14d0800000000000000
+      internalID: -3161961516873216564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2052857f9f2af1b0800000000000000
+      internalID: -5622128822900862931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e620e00567077b950800000000000000
+      internalID: 6464759443565183598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 55
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af623a9d472a9bab0800000000000000
+      internalID: -4991780089212229894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_31
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 40
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383b24810c51aaa40800000000000000
+      internalID: 5380136619632407427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_32
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 50
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01eed897d1cf56360800000000000000
+      internalID: 7162407985926237712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 44
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208acbe0395bb4090800000000000000
+      internalID: -8049140265782564862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_34
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 162
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bd9a2ef6aa7b590800000000000000
+      internalID: -7658465243799364827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 19
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ce33c61d5604800800000000000000
+      internalID: 594587100950817812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 158
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0cdfaf785c1a5d0800000000000000
+      internalID: -3052941884558294860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_37
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 159
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcaafa30e96f9050800000000000000
+      internalID: 5809478456114326708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_LesserFireDemon_Death_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a469fde171eeb0800000000000000
+      internalID: -4692344069838035028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_LesserFireDemon_Death_0: 2807206947480241880
+      Monster_LesserFireDemon_Death_1: -5665879781304520747
+      Monster_LesserFireDemon_Death_10: 7681240028789200696
+      Monster_LesserFireDemon_Death_11: 7717122819422829379
+      Monster_LesserFireDemon_Death_12: 1213680059975603178
+      Monster_LesserFireDemon_Death_13: 6585448043657267415
+      Monster_LesserFireDemon_Death_14: -4359726574794100899
+      Monster_LesserFireDemon_Death_15: 297102190117077761
+      Monster_LesserFireDemon_Death_16: 2028631167513748961
+      Monster_LesserFireDemon_Death_17: -1424740331121358062
+      Monster_LesserFireDemon_Death_18: 4691001376230975046
+      Monster_LesserFireDemon_Death_19: -7305669479797156464
+      Monster_LesserFireDemon_Death_2: -7938160844067707977
+      Monster_LesserFireDemon_Death_20: 2740664959361247175
+      Monster_LesserFireDemon_Death_21: -8824817839760945293
+      Monster_LesserFireDemon_Death_22: -4490555324866511777
+      Monster_LesserFireDemon_Death_23: 8140237995398598123
+      Monster_LesserFireDemon_Death_24: -4782144005984543127
+      Monster_LesserFireDemon_Death_25: -308167103567222072
+      Monster_LesserFireDemon_Death_26: -5440115109148266731
+      Monster_LesserFireDemon_Death_27: -3161961516873216564
+      Monster_LesserFireDemon_Death_28: -5622128822900862931
+      Monster_LesserFireDemon_Death_29: 6464759443565183598
+      Monster_LesserFireDemon_Death_3: 2037134263084110469
+      Monster_LesserFireDemon_Death_30: -4991780089212229894
+      Monster_LesserFireDemon_Death_31: 5380136619632407427
+      Monster_LesserFireDemon_Death_32: 7162407985926237712
+      Monster_LesserFireDemon_Death_33: -8049140265782564862
+      Monster_LesserFireDemon_Death_34: -7658465243799364827
+      Monster_LesserFireDemon_Death_35: 594587100950817812
+      Monster_LesserFireDemon_Death_36: -3052941884558294860
+      Monster_LesserFireDemon_Death_37: 5809478456114326708
+      Monster_LesserFireDemon_Death_38: -4692344069838035028
+      Monster_LesserFireDemon_Death_4: 3937232450833150396
+      Monster_LesserFireDemon_Death_5: 3279770113655497015
+      Monster_LesserFireDemon_Death_6: 1534380397024523665
+      Monster_LesserFireDemon_Death_7: 4078212185547244388
+      Monster_LesserFireDemon_Death_8: 6843568106120029968
+      Monster_LesserFireDemon_Death_9: 3011090520939629198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

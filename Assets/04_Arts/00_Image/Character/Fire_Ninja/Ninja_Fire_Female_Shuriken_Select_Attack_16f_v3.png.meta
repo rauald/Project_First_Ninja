@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: f02faf362752b494c9e21db7e760c0f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3510614834639513318
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_0
+  - first:
+      213: -3961068230213511702
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_1
+  - first:
+      213: -5116519562359337651
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_2
+  - first:
+      213: -143163652277518204
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_3
+  - first:
+      213: -3458930219372492911
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_4
+  - first:
+      213: -4633461711765181024
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_5
+  - first:
+      213: 8507472831587552030
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_6
+  - first:
+      213: -4886403818299405984
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_7
+  - first:
+      213: 6505865300604894036
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_8
+  - first:
+      213: -2449517834584122537
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_9
+  - first:
+      213: 5187425508257343816
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_10
+  - first:
+      213: -6114299571053626294
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_11
+  - first:
+      213: -1946904117184725885
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_12
+  - first:
+      213: 2745854443249564304
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_13
+  - first:
+      213: -3007370572123610918
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_14
+  - first:
+      213: -5887753016992987298
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_15
+  - first:
+      213: 4552435485122592922
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_16
+  - first:
+      213: -4162948318773999502
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_17
+  - first:
+      213: 937337662553901827
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_18
+  - first:
+      213: 689780756753966292
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_19
+  - first:
+      213: 4897728831712676827
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_20
+  - first:
+      213: -2550456268369122886
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_21
+  - first:
+      213: -1524542858333918905
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_22
+  - first:
+      213: -9018894970723278341
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_23
+  - first:
+      213: -2292246467149189305
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_24
+  - first:
+      213: -1268391844140531103
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_25
+  - first:
+      213: -874311539134989201
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_26
+  - first:
+      213: 6131612165655974113
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_27
+  - first:
+      213: 2652718923496936608
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_28
+  - first:
+      213: -3022545567924429244
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_29
+  - first:
+      213: -5776535726610481200
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_30
+  - first:
+      213: 879518153609611012
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_31
+  - first:
+      213: -5680134600966868281
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_32
+  - first:
+      213: 5354240588679625065
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_33
+  - first:
+      213: 375708261009236902
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_34
+  - first:
+      213: 3627280474722136731
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_35
+  - first:
+      213: -5459984116446038730
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_36
+  - first:
+      213: 8402471452099181406
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_37
+  - first:
+      213: 7090500812478369439
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_38
+  - first:
+      213: 2325452960906502113
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_39
+  - first:
+      213: 5263257521364433196
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_40
+  - first:
+      213: 6902515661747623802
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_41
+  - first:
+      213: -4220560968053007162
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_42
+  - first:
+      213: -7222629769398103792
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_43
+  - first:
+      213: -4881359836938849557
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_44
+  - first:
+      213: -5555199343899183613
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_45
+  - first:
+      213: -3804467846089739203
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_46
+  - first:
+      213: -6131448247116110869
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_47
+  - first:
+      213: -5194628534434177259
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_48
+  - first:
+      213: 7757646855280113433
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_49
+  - first:
+      213: -6633602571963083602
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_50
+  - first:
+      213: 7556927870526251167
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_51
+  - first:
+      213: 8824203263519357373
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_52
+  - first:
+      213: 4114582130529378151
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_53
+  - first:
+      213: -2212613566940292098
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_54
+  - first:
+      213: 4928635880371004765
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_55
+  - first:
+      213: 8508475129453279130
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_56
+  - first:
+      213: 5954490263342586756
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_57
+  - first:
+      213: -5669238756349142147
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_58
+  - first:
+      213: -2738884169652773404
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_59
+  - first:
+      213: -8862152184003017670
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_60
+  - first:
+      213: -8949376064614901129
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_61
+  - first:
+      213: -1546691275556559127
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_62
+  - first:
+      213: -9207184373585144800
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_63
+  - first:
+      213: -2097659469610684295
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_64
+  - first:
+      213: 581696867153139301
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_65
+  - first:
+      213: -6734650415830855586
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_66
+  - first:
+      213: 7911984160344400376
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_67
+  - first:
+      213: 3139985312354083272
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_68
+  - first:
+      213: 6143174789286910882
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_69
+  - first:
+      213: -5643155009463788090
+    second: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 242
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19581e686ac74fc0800000000000000
+      internalID: -3510614834639513318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5d9076e657709c0800000000000000
+      internalID: -3961068230213511702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 953
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d0c3701987ef8b0800000000000000
+      internalID: -5116519562359337651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 737
+        width: 267
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4804041ba61630ef0800000000000000
+      internalID: -143163652277518204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 999
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197407baa496fffc0800000000000000
+      internalID: -3458930219372492911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 997
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adecdd4f13a2bfb0800000000000000
+      internalID: -4633461711765181024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 971
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b001f377d901670800000000000000
+      internalID: 8507472831587552030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 747
+        width: 258
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069c625dd91003cb0800000000000000
+      internalID: -4886403818299405984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 745
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b3817750a794a50800000000000000
+      internalID: 6505865300604894036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 936
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b11aee180910ed0800000000000000
+      internalID: -2449517834584122537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_10
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 929
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849aa7ef3007df740800000000000000
+      internalID: 5187425508257343816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 906
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c76016fe4a52ba0800000000000000
+      internalID: -6114299571053626294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 820
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c757345053bf4e0800000000000000
+      internalID: -1946904117184725885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_13
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 777
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a71d6611c3b1620800000000000000
+      internalID: 2745854443249564304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_14
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 761
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0eb9cf56ca346d0800000000000000
+      internalID: -3007370572123610918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 776
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5706e063df7a4ea0800000000000000
+      internalID: -5887753016992987298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 251
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a908d9134ff7d2f30800000000000000
+      internalID: 4552435485122592922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 490
+        width: 254
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2788a217f8c3a36c0800000000000000
+      internalID: -4162948318773999502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 726
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bce1b43a7120d00800000000000000
+      internalID: 937337662553901827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 701
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4683391f7929900800000000000000
+      internalID: 689780756753966292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 490
+        width: 254
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb4c645c6a38f340800000000000000
+      internalID: 4897728831712676827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_21
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 508
+        width: 266
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9a0bc6985fa9cd0800000000000000
+      internalID: -2550456268369122886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 713
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749e524095cb7dae0800000000000000
+      internalID: -1524542858333918905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 595
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf16b7beec276d280800000000000000
+      internalID: -9018894970723278341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 592
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fade3abfd4030e0800000000000000
+      internalID: -2292246467149189305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_25
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 539
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16240068654c56ee0800000000000000
+      internalID: -1268391844140531103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_26
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 554
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c75d69942ddd3f0800000000000000
+      internalID: -874311539134989201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 253
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0536a27ccd71550800000000000000
+      internalID: 6131612165655974113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 493
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4ddf36ec950d420800000000000000
+      internalID: 2652718923496936608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_29
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 503
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ede62f1d2cd06d0800000000000000
+      internalID: -3022545567924429244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 490
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df770fac5f95dfa0800000000000000
+      internalID: -5776535726610481200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 250
+        width: 251
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407886fc91da43c00800000000000000
+      internalID: 879518153609611012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 245
+        width: 255
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2f6f0dcab1c21b0800000000000000
+      internalID: -5680134600966868281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_33
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 488
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9693a3a82751e4a40800000000000000
+      internalID: 5354240588679625065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_34
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 475
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a2ac3ca8c63500800000000000000
+      internalID: 375708261009236902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_35
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 250
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92f584af50b65230800000000000000
+      internalID: 3627280474722136731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_36
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 477
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63575f3df5d3a34b0800000000000000
+      internalID: -5459984116446038730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_37
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 472
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b7bb974439b9470800000000000000
+      internalID: 8402471452099181406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_38
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 415
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e446ffbe4866260800000000000000
+      internalID: 7090500812478369439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 311
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef56bca52ba54020800000000000000
+      internalID: 2325452960906502113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_40
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29745a64d8da0940800000000000000
+      internalID: 5263257521364433196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_41
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 319
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77990b5c69aacf50800000000000000
+      internalID: 6902515661747623802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_42
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 291
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc525a392e8d65c0800000000000000
+      internalID: -4220560968053007162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0115ddaed7014cb90800000000000000
+      internalID: -7222629769398103792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 275
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2b662471de14cb0800000000000000
+      internalID: -4881359836938849557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306f76221a7f7e2b0800000000000000
+      internalID: -5555199343899183613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 246
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34fc62a6a0d33bc0800000000000000
+      internalID: -3804467846089739203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_47
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 253
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3e3f71e48b8eaa0800000000000000
+      internalID: -6131448247116110869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_48
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 251
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f51f8ced8f8e7b0800000000000000
+      internalID: -5194628534434177259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_49
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 250
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917b5ed86b2b8ab60800000000000000
+      internalID: 7757646855280113433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_50
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 246
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4d50d6b95b0f3a0800000000000000
+      internalID: -6633602571963083602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_51
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 257
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9067f32cd99fd860800000000000000
+      internalID: 7556927870526251167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_52
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 254
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f9e39d1ed57a70800000000000000
+      internalID: 8824203263519357373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_53
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 250
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f9f51d5aee91930800000000000000
+      internalID: 4114582130529378151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_54
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 222
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb505d0fa73b41e0800000000000000
+      internalID: -2212613566940292098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 244
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5522cc5838066440800000000000000
+      internalID: 4928635880371004765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_56
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 228
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97fe47ec0d241670800000000000000
+      internalID: 8508475129453279130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_57
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 214
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b9e05a85992a250800000000000000
+      internalID: 5954490263342586756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_58
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 221
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b9ee45361d251b0800000000000000
+      internalID: -5669238756349142147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_59
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 230
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edd7e2eb578df9d0800000000000000
+      internalID: -2738884169652773404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 184
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a344c07da8f430580800000000000000
+      internalID: -8862152184003017670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_61
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 235
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ade3392ed6dc380800000000000000
+      internalID: -8949376064614901129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_62
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 228
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e66147ca7c098ae0800000000000000
+      internalID: -1546691275556559127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_63
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 186
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0241eee0892893080800000000000000
+      internalID: -9207184373585144800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_64
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 176
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970fe1683dd93e2e0800000000000000
+      internalID: -2097659469610684295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_65
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 163
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566de9df73a921800800000000000000
+      internalID: 581696867153139301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_66
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 124
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5017f5e027b982a0800000000000000
+      internalID: -6734650415830855586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_67
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 95
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f168d1aca30dcd60800000000000000
+      internalID: 7911984160344400376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_68
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 95
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c12fc65108739b20800000000000000
+      internalID: 3139985312354083272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_69
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 69
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abd4944ce0f04550800000000000000
+      internalID: 6143174789286910882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_70
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 27
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdd178ea6c7fa1b0800000000000000
+      internalID: -5643155009463788090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_0: -3510614834639513318
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_1: -3961068230213511702
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_10: 5187425508257343816
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_11: -6114299571053626294
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_12: -1946904117184725885
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_13: 2745854443249564304
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_14: -3007370572123610918
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_15: -5887753016992987298
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_16: 4552435485122592922
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_17: -4162948318773999502
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_18: 937337662553901827
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_19: 689780756753966292
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_2: -5116519562359337651
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_20: 4897728831712676827
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_21: -2550456268369122886
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_22: -1524542858333918905
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_23: -9018894970723278341
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_24: -2292246467149189305
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_25: -1268391844140531103
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_26: -874311539134989201
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_27: 6131612165655974113
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_28: 2652718923496936608
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_29: -3022545567924429244
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_3: -143163652277518204
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_30: -5776535726610481200
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_31: 879518153609611012
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_32: -5680134600966868281
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_33: 5354240588679625065
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_34: 375708261009236902
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_35: 3627280474722136731
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_36: -5459984116446038730
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_37: 8402471452099181406
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_38: 7090500812478369439
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_39: 2325452960906502113
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_4: -3458930219372492911
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_40: 5263257521364433196
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_41: 6902515661747623802
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_42: -4220560968053007162
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_43: -7222629769398103792
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_44: -4881359836938849557
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_45: -5555199343899183613
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_46: -3804467846089739203
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_47: -6131448247116110869
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_48: -5194628534434177259
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_49: 7757646855280113433
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_5: -4633461711765181024
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_50: -6633602571963083602
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_51: 7556927870526251167
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_52: 8824203263519357373
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_53: 4114582130529378151
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_54: -2212613566940292098
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_55: 4928635880371004765
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_56: 8508475129453279130
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_57: 5954490263342586756
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_58: -5669238756349142147
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_59: -2738884169652773404
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_6: 8507472831587552030
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_60: -8862152184003017670
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_61: -8949376064614901129
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_62: -1546691275556559127
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_63: -9207184373585144800
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_64: -2097659469610684295
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_65: 581696867153139301
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_66: -6734650415830855586
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_67: 7911984160344400376
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_68: 3139985312354083272
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_69: 6143174789286910882
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_7: -4886403818299405984
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_70: -5643155009463788090
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_8: 6505865300604894036
+      Ninja_Fire_Female_Shuriken_Select_Attack_16f_v3_9: -2449517834584122537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 2ce97058c5c3a7e45ace80f81b89c2ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 684170285809202494
+    second: Monster_Scorpion_Attack_0
+  - first:
+      213: -2213940343384999330
+    second: Monster_Scorpion_Attack_1
+  - first:
+      213: -347023742140223769
+    second: Monster_Scorpion_Attack_2
+  - first:
+      213: -1168578118030460721
+    second: Monster_Scorpion_Attack_3
+  - first:
+      213: -7576828804374399415
+    second: Monster_Scorpion_Attack_4
+  - first:
+      213: 6446301724969778720
+    second: Monster_Scorpion_Attack_5
+  - first:
+      213: 8723115270497229183
+    second: Monster_Scorpion_Attack_6
+  - first:
+      213: 6015668521873368391
+    second: Monster_Scorpion_Attack_7
+  - first:
+      213: 5916829464712549179
+    second: Monster_Scorpion_Attack_8
+  - first:
+      213: 4554438321142390507
+    second: Monster_Scorpion_Attack_9
+  - first:
+      213: 4846445603284021192
+    second: Monster_Scorpion_Attack_10
+  - first:
+      213: 2068405158679133172
+    second: Monster_Scorpion_Attack_11
+  - first:
+      213: -2449623242374719501
+    second: Monster_Scorpion_Attack_12
+  - first:
+      213: 7939625137323171745
+    second: Monster_Scorpion_Attack_13
+  - first:
+      213: -4994428763609315340
+    second: Monster_Scorpion_Attack_14
+  - first:
+      213: -7030058585831337763
+    second: Monster_Scorpion_Attack_15
+  - first:
+      213: -7130933796137357004
+    second: Monster_Scorpion_Attack_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 767
+        width: 175
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35f8830049ae7900800000000000000
+      internalID: 684170285809202494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 767
+        width: 176
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a71a6dcf08641e0800000000000000
+      internalID: -2213940343384999330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 767
+        width: 186
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeea11cebf1f2bf0800000000000000
+      internalID: -347023742140223769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 847
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8ff7e946068cfe0800000000000000
+      internalID: -1168578118030460721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 767
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946f05f9852b9d690800000000000000
+      internalID: -7576828804374399415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 511
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ebfcfc34dd57950800000000000000
+      internalID: 6446301724969778720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 511
+        width: 191
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79d5c81f1bbe0970800000000000000
+      internalID: 8723115270497229183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 511
+        width: 190
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e2c4f5a2fb7350800000000000000
+      internalID: 6015668521873368391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 511
+        width: 185
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3391c8ac0dcc1250800000000000000
+      internalID: 5916829464712549179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 255
+        width: 178
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee5e1bc58d943f30800000000000000
+      internalID: 4554438321142390507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 178
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf6ffe3998024340800000000000000
+      internalID: 4846445603284021192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 255
+        width: 179
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbb7ae688374bc10800000000000000
+      internalID: 2068405158679133172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 255
+        width: 177
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7d6b4c3a0310ed0800000000000000
+      internalID: -2449623242374719501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 178
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afd8e71ff63f2e60800000000000000
+      internalID: 7939625137323171745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 176
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7c219408930bab0800000000000000
+      internalID: -4994428763609315340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 176
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0965986f6307e90800000000000000
+      internalID: -7030058585831337763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0
+        width: 175
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431b7646e75d90d90800000000000000
+      internalID: -7130933796137357004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Scorpion_Attack_0: 684170285809202494
+      Monster_Scorpion_Attack_1: -2213940343384999330
+      Monster_Scorpion_Attack_10: 4846445603284021192
+      Monster_Scorpion_Attack_11: 2068405158679133172
+      Monster_Scorpion_Attack_12: -2449623242374719501
+      Monster_Scorpion_Attack_13: 7939625137323171745
+      Monster_Scorpion_Attack_14: -4994428763609315340
+      Monster_Scorpion_Attack_15: -7030058585831337763
+      Monster_Scorpion_Attack_16: -7130933796137357004
+      Monster_Scorpion_Attack_2: -347023742140223769
+      Monster_Scorpion_Attack_3: -1168578118030460721
+      Monster_Scorpion_Attack_4: -7576828804374399415
+      Monster_Scorpion_Attack_5: 6446301724969778720
+      Monster_Scorpion_Attack_6: 8723115270497229183
+      Monster_Scorpion_Attack_7: 6015668521873368391
+      Monster_Scorpion_Attack_8: 5916829464712549179
+      Monster_Scorpion_Attack_9: 4554438321142390507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

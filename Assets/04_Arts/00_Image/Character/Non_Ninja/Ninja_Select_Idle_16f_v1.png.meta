@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: e99ace010ed76d14bb28a096c722e2d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8223244960296296497
+    second: Ninja_Select_Idle_16f_v1_0
+  - first:
+      213: -1530754167671448926
+    second: Ninja_Select_Idle_16f_v1_1
+  - first:
+      213: -837252992948478756
+    second: Ninja_Select_Idle_16f_v1_2
+  - first:
+      213: -7866913110008226543
+    second: Ninja_Select_Idle_16f_v1_3
+  - first:
+      213: 7563690350278795885
+    second: Ninja_Select_Idle_16f_v1_4
+  - first:
+      213: 8933398438877555173
+    second: Ninja_Select_Idle_16f_v1_5
+  - first:
+      213: 1465164696145303028
+    second: Ninja_Select_Idle_16f_v1_6
+  - first:
+      213: 2064786307561010788
+    second: Ninja_Select_Idle_16f_v1_7
+  - first:
+      213: 8158242402167250374
+    second: Ninja_Select_Idle_16f_v1_8
+  - first:
+      213: 792523275432825253
+    second: Ninja_Select_Idle_16f_v1_9
+  - first:
+      213: -4764807470974883561
+    second: Ninja_Select_Idle_16f_v1_10
+  - first:
+      213: -5465001964193467006
+    second: Ninja_Select_Idle_16f_v1_11
+  - first:
+      213: 7495732147182842988
+    second: Ninja_Select_Idle_16f_v1_12
+  - first:
+      213: -8948941773268851839
+    second: Ninja_Select_Idle_16f_v1_13
+  - first:
+      213: -808881764697813543
+    second: Ninja_Select_Idle_16f_v1_14
+  - first:
+      213: -5505334148899397068
+    second: Ninja_Select_Idle_16f_v1_15
+  - first:
+      213: 9222730167852308489
+    second: Ninja_Select_Idle_16f_v1_16
+  - first:
+      213: 1518091890121460747
+    second: Ninja_Select_Idle_16f_v1_17
+  - first:
+      213: 3311448881568970230
+    second: Ninja_Select_Idle_16f_v1_18
+  - first:
+      213: -2482280213519664615
+    second: Ninja_Select_Idle_16f_v1_19
+  - first:
+      213: -8472946664398216435
+    second: Ninja_Select_Idle_16f_v1_20
+  - first:
+      213: -790829733736278284
+    second: Ninja_Select_Idle_16f_v1_21
+  - first:
+      213: -3873818009981491769
+    second: Ninja_Select_Idle_16f_v1_22
+  - first:
+      213: 8228408264379267420
+    second: Ninja_Select_Idle_16f_v1_23
+  - first:
+      213: 121938221250513414
+    second: Ninja_Select_Idle_16f_v1_24
+  - first:
+      213: -41912271066313208
+    second: Ninja_Select_Idle_16f_v1_25
+  - first:
+      213: -6299106819539606871
+    second: Ninja_Select_Idle_16f_v1_26
+  - first:
+      213: -8695575889143295363
+    second: Ninja_Select_Idle_16f_v1_27
+  - first:
+      213: 6501683412494212043
+    second: Ninja_Select_Idle_16f_v1_28
+  - first:
+      213: -7397311765719511886
+    second: Ninja_Select_Idle_16f_v1_29
+  - first:
+      213: -691196166603953643
+    second: Ninja_Select_Idle_16f_v1_30
+  - first:
+      213: -8608855272811728111
+    second: Ninja_Select_Idle_16f_v1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 275
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1306b7709b5de1270800000000000000
+      internalID: 8223244960296296497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 266
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa9e7dd13ba1cae0800000000000000
+      internalID: -1530754167671448926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 250
+        width: 255
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc5c20c6da7164f0800000000000000
+      internalID: -837252992948478756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 891
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d9817053c13d290800000000000000
+      internalID: -7866913110008226543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 867
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62ea67ac40a7f860800000000000000
+      internalID: 7563690350278795885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 256
+        width: 259
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9635a8c8ec9fb70800000000000000
+      internalID: 8933398438877555173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 859
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f51f23478f455410800000000000000
+      internalID: 1465164696145303028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 856
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466b34ff43897ac10800000000000000
+      internalID: 2064786307561010788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 855
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd55b49d36e73170800000000000000
+      internalID: 8158242402167250374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 865
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1176458bb9ffa00800000000000000
+      internalID: 792523275432825253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 846
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7192a65a9d000edb0800000000000000
+      internalID: -4764807470974883561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 782
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285bf6b1ba96824b0800000000000000
+      internalID: -5465001964193467006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 784
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c643f4c7ca0360860800000000000000
+      internalID: 7495732147182842988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 549
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183e7a8eed8fec380800000000000000
+      internalID: -8948941773268851839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 570
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd45e5125646c4f0800000000000000
+      internalID: -808881764697813543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 557
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432260592cf1993b0800000000000000
+      internalID: -5505334148899397068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 534
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9089d1a3938bdff70800000000000000
+      internalID: 9222730167852308489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 526
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c4717e788511510800000000000000
+      internalID: 1518091890121460747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 514
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f578c58631a4fd20800000000000000
+      internalID: 3311448881568970230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 514
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91afd282c4b2d8dd0800000000000000
+      internalID: -2482280213519664615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 519
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03a6bb76eb0a6a80800000000000000
+      internalID: -8472946664398216435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 353
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f615d21c886605f0800000000000000
+      internalID: -790829733736278284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 290
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5ea865b0f6d3ac0800000000000000
+      internalID: -3873818009981491769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 266
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f63178bd213270800000000000000
+      internalID: 8228408264379267420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 268
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a0e2a8a2631b100800000000000000
+      internalID: 121938221250513414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 228
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ecc53f2091b6ff0800000000000000
+      internalID: -41912271066313208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 251
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2e913c8b31598a0800000000000000
+      internalID: -6299106819539606871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 212
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72992acccb135780800000000000000
+      internalID: -8695575889143295363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 228
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb54c3cd9e9a3a50800000000000000
+      internalID: 6501683412494212043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 91
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc88774428775990800000000000000
+      internalID: -7397311765719511886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 87
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aa573afb06866f0800000000000000
+      internalID: -691196166603953643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Idle_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 23
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113fe45bdb3378880800000000000000
+      internalID: -8608855272811728111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Select_Idle_16f_v1_0: 8223244960296296497
+      Ninja_Select_Idle_16f_v1_1: -1530754167671448926
+      Ninja_Select_Idle_16f_v1_10: -4764807470974883561
+      Ninja_Select_Idle_16f_v1_11: -5465001964193467006
+      Ninja_Select_Idle_16f_v1_12: 7495732147182842988
+      Ninja_Select_Idle_16f_v1_13: -8948941773268851839
+      Ninja_Select_Idle_16f_v1_14: -808881764697813543
+      Ninja_Select_Idle_16f_v1_15: -5505334148899397068
+      Ninja_Select_Idle_16f_v1_16: 9222730167852308489
+      Ninja_Select_Idle_16f_v1_17: 1518091890121460747
+      Ninja_Select_Idle_16f_v1_18: 3311448881568970230
+      Ninja_Select_Idle_16f_v1_19: -2482280213519664615
+      Ninja_Select_Idle_16f_v1_2: -837252992948478756
+      Ninja_Select_Idle_16f_v1_20: -8472946664398216435
+      Ninja_Select_Idle_16f_v1_21: -790829733736278284
+      Ninja_Select_Idle_16f_v1_22: -3873818009981491769
+      Ninja_Select_Idle_16f_v1_23: 8228408264379267420
+      Ninja_Select_Idle_16f_v1_24: 121938221250513414
+      Ninja_Select_Idle_16f_v1_25: -41912271066313208
+      Ninja_Select_Idle_16f_v1_26: -6299106819539606871
+      Ninja_Select_Idle_16f_v1_27: -8695575889143295363
+      Ninja_Select_Idle_16f_v1_28: 6501683412494212043
+      Ninja_Select_Idle_16f_v1_29: -7397311765719511886
+      Ninja_Select_Idle_16f_v1_3: -7866913110008226543
+      Ninja_Select_Idle_16f_v1_30: -691196166603953643
+      Ninja_Select_Idle_16f_v1_31: -8608855272811728111
+      Ninja_Select_Idle_16f_v1_4: 7563690350278795885
+      Ninja_Select_Idle_16f_v1_5: 8933398438877555173
+      Ninja_Select_Idle_16f_v1_6: 1465164696145303028
+      Ninja_Select_Idle_16f_v1_7: 2064786307561010788
+      Ninja_Select_Idle_16f_v1_8: 8158242402167250374
+      Ninja_Select_Idle_16f_v1_9: 792523275432825253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

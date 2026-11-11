@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 7c7cff91bac6e054d8e87f718439902f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9009519860102739220
+    second: Monster_Wolf_Death_0
+  - first:
+      213: 1699114809587485255
+    second: Monster_Wolf_Death_1
+  - first:
+      213: 3164320932819551329
+    second: Monster_Wolf_Death_2
+  - first:
+      213: 9041187709755619496
+    second: Monster_Wolf_Death_3
+  - first:
+      213: 8904536655538169169
+    second: Monster_Wolf_Death_4
+  - first:
+      213: 2575095150291891095
+    second: Monster_Wolf_Death_5
+  - first:
+      213: -8003369774425129460
+    second: Monster_Wolf_Death_6
+  - first:
+      213: -7268441077663119204
+    second: Monster_Wolf_Death_7
+  - first:
+      213: 1515068611756449846
+    second: Monster_Wolf_Death_8
+  - first:
+      213: -3099549046064036784
+    second: Monster_Wolf_Death_9
+  - first:
+      213: -1511642797825197967
+    second: Monster_Wolf_Death_10
+  - first:
+      213: 5860009681495856388
+    second: Monster_Wolf_Death_11
+  - first:
+      213: -5644786074858246857
+    second: Monster_Wolf_Death_12
+  - first:
+      213: 1083210221225436387
+    second: Monster_Wolf_Death_13
+  - first:
+      213: 1346084252416063476
+    second: Monster_Wolf_Death_14
+  - first:
+      213: -5246044457580861429
+    second: Monster_Wolf_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 767
+        width: 179
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415304a049e380d70800000000000000
+      internalID: 9009519860102739220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 767
+        width: 179
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a4112cae7749710800000000000000
+      internalID: 1699114809587485255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 767
+        width: 183
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164ca048f1de9eb20800000000000000
+      internalID: 3164320932819551329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 767
+        width: 182
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a87c9bd150c87d70800000000000000
+      internalID: 9041187709755619496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 511
+        width: 182
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1552cc2f8e4439b70800000000000000
+      internalID: 8904536655538169169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 511
+        width: 182
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793baff45639cb320800000000000000
+      internalID: 2575095150291891095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 511
+        width: 184
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eba4508915ee090800000000000000
+      internalID: -8003369774425129460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 511
+        width: 183
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c984807895f412b90800000000000000
+      internalID: -7268441077663119204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630661e00ea960510800000000000000
+      internalID: 1515068611756449846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 184
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054c37190903cf4d0800000000000000
+      internalID: -3099549046064036784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 255
+        width: 186
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178f95862e0950be0800000000000000
+      internalID: -1511642797825197967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_11
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 255
+        width: 188
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40519e5f1cfe25150800000000000000
+      internalID: 5860009681495856388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 188
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73da007e8f0b9a1b0800000000000000
+      internalID: -5644786074858246857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 189
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4e63505f5580f00800000000000000
+      internalID: 1083210221225436387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_14
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 189
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7b107ee704ea210800000000000000
+      internalID: 1346084252416063476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Wolf_Death_15
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 189
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b086cfd4c5e4237b0800000000000000
+      internalID: -5246044457580861429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Wolf_Death_0: 9009519860102739220
+      Monster_Wolf_Death_1: 1699114809587485255
+      Monster_Wolf_Death_10: -1511642797825197967
+      Monster_Wolf_Death_11: 5860009681495856388
+      Monster_Wolf_Death_12: -5644786074858246857
+      Monster_Wolf_Death_13: 1083210221225436387
+      Monster_Wolf_Death_14: 1346084252416063476
+      Monster_Wolf_Death_15: -5246044457580861429
+      Monster_Wolf_Death_2: 3164320932819551329
+      Monster_Wolf_Death_3: 9041187709755619496
+      Monster_Wolf_Death_4: 8904536655538169169
+      Monster_Wolf_Death_5: 2575095150291891095
+      Monster_Wolf_Death_6: -8003369774425129460
+      Monster_Wolf_Death_7: -7268441077663119204
+      Monster_Wolf_Death_8: 1515068611756449846
+      Monster_Wolf_Death_9: -3099549046064036784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

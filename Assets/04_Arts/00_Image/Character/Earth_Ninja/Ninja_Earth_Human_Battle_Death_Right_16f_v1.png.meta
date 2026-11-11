@@ -1,0 +1,5109 @@
+fileFormatVersion: 2
+guid: a66d181ca58aa974583f020447d945c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2261521431956396108
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_0
+  - first:
+      213: -4074951587719971482
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_1
+  - first:
+      213: 7002856288166009688
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_2
+  - first:
+      213: -8451816508879518346
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_3
+  - first:
+      213: -4240270241118907178
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_4
+  - first:
+      213: 1356033448685951405
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_5
+  - first:
+      213: -4475780367567000087
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_6
+  - first:
+      213: -910367363649591667
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_7
+  - first:
+      213: -2600117559614657996
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_8
+  - first:
+      213: 5414647897911230924
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_9
+  - first:
+      213: 8723033595791592262
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_10
+  - first:
+      213: 5987909823708610293
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_11
+  - first:
+      213: 9220064944485582880
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_12
+  - first:
+      213: 576250062181790550
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_13
+  - first:
+      213: 7293726860667295968
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_14
+  - first:
+      213: 4108221188529936748
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_15
+  - first:
+      213: 8647383608356827771
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_16
+  - first:
+      213: -1797102759946871003
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_17
+  - first:
+      213: 1413535538833017521
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_18
+  - first:
+      213: 5693782113908158623
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_19
+  - first:
+      213: -5555168237650125625
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_20
+  - first:
+      213: 8591606280887371272
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_21
+  - first:
+      213: -8543998121367864266
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_22
+  - first:
+      213: 922335260396366974
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_23
+  - first:
+      213: -3347537117142691693
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_24
+  - first:
+      213: 6515942523494235443
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_25
+  - first:
+      213: -6855228758409274580
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_26
+  - first:
+      213: 4481094754479226894
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_27
+  - first:
+      213: 9164439477918350490
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_28
+  - first:
+      213: 4408575065709340571
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_29
+  - first:
+      213: 795491673418367302
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_30
+  - first:
+      213: -3392325215459400325
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_31
+  - first:
+      213: 3161920908247540589
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_32
+  - first:
+      213: -3442883017619019728
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_33
+  - first:
+      213: -916715808464749662
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_34
+  - first:
+      213: 3779670444627496501
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_35
+  - first:
+      213: -6471653303204083319
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_36
+  - first:
+      213: 1664765625620096602
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_37
+  - first:
+      213: -6630641809746746585
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_38
+  - first:
+      213: 1683117858613775725
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_39
+  - first:
+      213: -781897741084525574
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_40
+  - first:
+      213: -3003292783862666220
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_41
+  - first:
+      213: -8921503857399808845
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_42
+  - first:
+      213: 7698088538151621093
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_43
+  - first:
+      213: 3846034650714055975
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_44
+  - first:
+      213: 8387777626508438791
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_45
+  - first:
+      213: -2053988050368482813
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_46
+  - first:
+      213: -258838047235383052
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_47
+  - first:
+      213: 8703846443230507362
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_48
+  - first:
+      213: 7359353685187805543
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_49
+  - first:
+      213: 6220398796342329439
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_50
+  - first:
+      213: -3733303288216405844
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_51
+  - first:
+      213: -4770480181741155883
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_52
+  - first:
+      213: 7788553319926507086
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_53
+  - first:
+      213: -8744911498404269956
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_54
+  - first:
+      213: -3873683075076009612
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_55
+  - first:
+      213: -6712809161145093974
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_56
+  - first:
+      213: -2372851085670160572
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_57
+  - first:
+      213: -8139752387047707336
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_58
+  - first:
+      213: -41274038658269139
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_59
+  - first:
+      213: 6026411796521970082
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_60
+  - first:
+      213: -2926470113899333258
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_61
+  - first:
+      213: 4254596168591896482
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_62
+  - first:
+      213: 4525645627850501602
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_63
+  - first:
+      213: 7349310251832590460
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_64
+  - first:
+      213: 8186046719017844014
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_65
+  - first:
+      213: -8247176835224998491
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_66
+  - first:
+      213: 1953537309352473823
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_67
+  - first:
+      213: -5251714929255690761
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_68
+  - first:
+      213: -168155547843579214
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_69
+  - first:
+      213: 9170923956331863876
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_70
+  - first:
+      213: -2766367027085230164
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_71
+  - first:
+      213: -3007547178307816629
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_72
+  - first:
+      213: 6077185965813161036
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_73
+  - first:
+      213: -9154315340999075662
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_74
+  - first:
+      213: 8560090946221161613
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_75
+  - first:
+      213: 2438510005825769488
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_76
+  - first:
+      213: 4273904982047590605
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_77
+  - first:
+      213: -4679458044164666871
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_78
+  - first:
+      213: 3121924511744286125
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_79
+  - first:
+      213: 2157463612031907663
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_80
+  - first:
+      213: -9171938914169354415
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_81
+  - first:
+      213: -7218950304605065088
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_82
+  - first:
+      213: -1806148106858525086
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_83
+  - first:
+      213: -1053600207079615826
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_84
+  - first:
+      213: 5858075392840374034
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_85
+  - first:
+      213: 9103899545052371971
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_86
+  - first:
+      213: -5990544380956207633
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_87
+  - first:
+      213: -4068045478229696396
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_88
+  - first:
+      213: -5934743607534955097
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_89
+  - first:
+      213: 211425624298370524
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_90
+  - first:
+      213: 7696232275058828227
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_91
+  - first:
+      213: 1218402355752716816
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_92
+  - first:
+      213: 4519290651091397799
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_93
+  - first:
+      213: 6560328152767759242
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_94
+  - first:
+      213: -2539083402653467970
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_95
+  - first:
+      213: 8085592230354459410
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_96
+  - first:
+      213: 1384693608185594087
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_97
+  - first:
+      213: 443034803104230018
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_98
+  - first:
+      213: 7278724343177749250
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_99
+  - first:
+      213: -3106982627817658819
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_100
+  - first:
+      213: 824333688420604649
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_101
+  - first:
+      213: -1568396571150327041
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_102
+  - first:
+      213: 3740020752686740325
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_103
+  - first:
+      213: -7611093710539056275
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_104
+  - first:
+      213: -1020159838290327138
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_105
+  - first:
+      213: 7309810968766458632
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_106
+  - first:
+      213: 2125254032452365792
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_107
+  - first:
+      213: -1935686739218961773
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_108
+  - first:
+      213: 8437414584276557276
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_109
+  - first:
+      213: 340559233159927317
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_110
+  - first:
+      213: -3269601645353496034
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_111
+  - first:
+      213: 2415392519274214145
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_112
+  - first:
+      213: -4777106182018514352
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_113
+  - first:
+      213: -1802663777597399181
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_114
+  - first:
+      213: 1397515276031931488
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_115
+  - first:
+      213: 2986197682558626488
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_116
+  - first:
+      213: 7469091297375806459
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_117
+  - first:
+      213: -3351100022881232093
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_118
+  - first:
+      213: -4173024601772520883
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_119
+  - first:
+      213: -3753023751292962579
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_120
+  - first:
+      213: 549017607259591397
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_121
+  - first:
+      213: -8573888445094481087
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_122
+  - first:
+      213: 1618857144003294192
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_123
+  - first:
+      213: -2485959254340103779
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_124
+  - first:
+      213: 5196614079196207542
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_125
+  - first:
+      213: 6189672670962060482
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_126
+  - first:
+      213: 2357082994985745270
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_127
+  - first:
+      213: 5121076104411587281
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_128
+  - first:
+      213: -7862774332200586397
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_129
+  - first:
+      213: 7109452677409734381
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_130
+  - first:
+      213: 4833536242807374846
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_131
+  - first:
+      213: -6366244225582041239
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_132
+  - first:
+      213: -1620042856869569104
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_133
+  - first:
+      213: -2296755018231944535
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_134
+  - first:
+      213: 8474365634803150442
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_135
+  - first:
+      213: 6601042398249282548
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_136
+  - first:
+      213: 8175902616898912332
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_137
+  - first:
+      213: 5271526784017997760
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_138
+  - first:
+      213: -5213008910305970452
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_139
+  - first:
+      213: -8431900238127426909
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_140
+  - first:
+      213: 8628181050639399387
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_141
+  - first:
+      213: 5553966482282869537
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_142
+  - first:
+      213: 1501352115561271885
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_143
+  - first:
+      213: -1349348445083033109
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_144
+  - first:
+      213: 45807336845756533
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_145
+  - first:
+      213: 3460066591829135053
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_146
+  - first:
+      213: -3583561913493355845
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_147
+  - first:
+      213: -3947976794268758408
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_148
+  - first:
+      213: -2987698225522198626
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_149
+  - first:
+      213: -2636170538325524874
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_150
+  - first:
+      213: -6214351980776354167
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_151
+  - first:
+      213: -7045806060255707754
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_152
+  - first:
+      213: -5760834334075310327
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_153
+  - first:
+      213: -6200058763388846112
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_154
+  - first:
+      213: 6577397875330534235
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_155
+  - first:
+      213: -2928911461871394920
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_156
+  - first:
+      213: -1621697159557471115
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_157
+  - first:
+      213: 7465501881774817872
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_158
+  - first:
+      213: 83912466645307167
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_159
+  - first:
+      213: -107806639805713291
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_160
+  - first:
+      213: -8624560608405361346
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_161
+  - first:
+      213: -764209716132943754
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_162
+  - first:
+      213: 1033427966583106835
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_163
+  - first:
+      213: 9050195541372465138
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_164
+  - first:
+      213: -2908367609485183434
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_165
+  - first:
+      213: 4236422547172558069
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_166
+  - first:
+      213: -6315232343280521518
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_167
+  - first:
+      213: 1333078761486939757
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_168
+  - first:
+      213: -6391816988172402921
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_169
+  - first:
+      213: 5821539580037659884
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_170
+  - first:
+      213: 2115343794224436506
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_171
+  - first:
+      213: 3712669483367192856
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_172
+  - first:
+      213: -5665344304495601670
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_173
+  - first:
+      213: 8389428265359101556
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_174
+  - first:
+      213: -6160567337308652802
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_175
+  - first:
+      213: 8552775109908973016
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_176
+  - first:
+      213: 4760418669981846733
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_177
+  - first:
+      213: 6701760616081594274
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_178
+  - first:
+      213: 9026841122720040502
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_179
+  - first:
+      213: 1413160846069916742
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_180
+  - first:
+      213: 879131214024616837
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_181
+  - first:
+      213: -1023441882961120535
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_182
+  - first:
+      213: 7107577635010973662
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_183
+  - first:
+      213: -6405962430739318586
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_184
+  - first:
+      213: 5304319332303726442
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_185
+  - first:
+      213: -1184964676476971043
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_186
+  - first:
+      213: 2162770763577412691
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_187
+  - first:
+      213: 4719627110814003446
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_188
+  - first:
+      213: 2003741110843329157
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_189
+  - first:
+      213: -1320808406197374125
+    second: Ninja_Earth_Human_Battle_Death_Right_16f_v1_190
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 265
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4891b3a2c9826f10800000000000000
+      internalID: 2261521431956396108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 724
+        width: 277
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d7909fe1dd277c0800000000000000
+      internalID: -4074951587719971482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 963
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bde3df0b42f2160800000000000000
+      internalID: 7002856288166009688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 711
+        width: 264
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67544713aad15ba80800000000000000
+      internalID: -8451816508879518346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 711
+        width: 266
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4927e7ea88725c0800000000000000
+      internalID: -4240270241118907178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 874
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9597cac3991d210800000000000000
+      internalID: 1356033448685951405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed608a2875d2e1c0800000000000000
+      internalID: -4475780367567000087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 887
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ae82c4b9bd53f0800000000000000
+      internalID: -910367363649591667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 892
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43aa9e40bd68aebd0800000000000000
+      internalID: -2600117559614657996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 877
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc180da3391b42b40800000000000000
+      internalID: 5414647897911230924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 872
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bc4f8b6d07e0970800000000000000
+      internalID: 8723033595791592262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 872
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe39356244591350800000000000000
+      internalID: 5987909823708610293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 858
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028481e873044ff70800000000000000
+      internalID: 9220064944485582880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 868
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6537422e0604ff700800000000000000
+      internalID: 576250062181790550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 821
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e89cca9fe5883560800000000000000
+      internalID: 7293726860667295968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 851
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c695f099765530930800000000000000
+      internalID: 4108221188529936748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 857
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72f4a4739da10870800000000000000
+      internalID: 8647383608356827771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 846
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f1e70bf886f07e0800000000000000
+      internalID: -1797102759946871003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 812
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba48855513ed9310800000000000000
+      internalID: 1413535538833017521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 805
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f7f76aa0640f40800000000000000
+      internalID: 5693782113908158623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 806
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccd45f9be318e2b0800000000000000
+      internalID: -5555168237650125625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 813
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8068e4664648b3770800000000000000
+      internalID: 8591606280887371272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 797
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c73460afe9d6980800000000000000
+      internalID: -8543998121367864266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 805
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c2eb7580bcccc00800000000000000
+      internalID: 922335260396366974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 784
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390564c5ab82b81d0800000000000000
+      internalID: -3347537117142691693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 795
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d7cb1c3374d6a50800000000000000
+      internalID: 6515942523494235443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 719
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b19f8c3c55dd0a0800000000000000
+      internalID: -6855228758409274580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 775
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00c995ffeb003e30800000000000000
+      internalID: 4481094754479226894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 781
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cb3ee5621ae2f70800000000000000
+      internalID: 9164439477918350490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 780
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97ef352aa76e2d30800000000000000
+      internalID: 4408575065709340571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 776
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64102e756772a0b00800000000000000
+      internalID: 795491673418367302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 750
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7521f9903a0ce0d0800000000000000
+      internalID: -3392325215459400325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 767
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63a9ff305661eb20800000000000000
+      internalID: 3161920908247540589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 757
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038e79bf22c6830d0800000000000000
+      internalID: -3442883017619019728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 745
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab397444db2743f0800000000000000
+      internalID: -916715808464749662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 771
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e801c6e36147430800000000000000
+      internalID: 3779670444627496501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 742
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9898909eb911036a0800000000000000
+      internalID: -6471653303204083319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 720
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56ed55248f6a1710800000000000000
+      internalID: 1664765625620096602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 757
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7232139976a3bf3a0800000000000000
+      internalID: -6630641809746746585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 762
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d4acd56c2ab5710800000000000000
+      internalID: 1683117858613775725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 737
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbf9fba5242625f0800000000000000
+      internalID: -781897741084525574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 740
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c2f5d00292256d0800000000000000
+      internalID: -3003292783862666220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 731
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc38658283703480800000000000000
+      internalID: -8921503857399808845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 737
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1980e3dba15da60800000000000000
+      internalID: 7698088538151621093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 727
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725a7ad332cdf5530800000000000000
+      internalID: 3846034650714055975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 744
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d210b9f4f576470800000000000000
+      internalID: 8387777626508438791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 737
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302b3ec20c4ce73e0800000000000000
+      internalID: -2053988050368482813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 736
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0ed2cda2c686cf0800000000000000
+      internalID: -258838047235383052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 749
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2613d44a9364ac870800000000000000
+      internalID: 8703846443230507362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 738
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761c4166f2da12660800000000000000
+      internalID: 7359353685187805543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 709
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5080498fbb435650800000000000000
+      internalID: 6220398796342329439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 732
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca830137074a03cc0800000000000000
+      internalID: -3733303288216405844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 716
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9074fbc89dbcdb0800000000000000
+      internalID: -4770480181741155883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_53
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 667
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a86c9aff761c60800000000000000
+      internalID: 7788553319926507086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 319
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7072612355d3a680800000000000000
+      internalID: -8744911498404269956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 737
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471d6a154c9ed3ac0800000000000000
+      internalID: -3873683075076009612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_56
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 729
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa075f842af47d2a0800000000000000
+      internalID: -6712809161145093974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_57
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 736
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447eabd6280f11fd0800000000000000
+      internalID: -2372851085670160572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_58
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 736
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d226a845ac90f80800000000000000
+      internalID: -8139752387047707336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_59
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 740
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2004530b7d5d6ff0800000000000000
+      internalID: -41274038658269139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_60
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 740
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a96ae1899d12a350800000000000000
+      internalID: 6026411796521970082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_61
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 726
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679bb3fbfe61367d0800000000000000
+      internalID: -2926470113899333258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_62
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 734
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af68ab6cac5b0b30800000000000000
+      internalID: 4254596168591896482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_63
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 737
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed245b78b25ece30800000000000000
+      internalID: 4525645627850501602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_64
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 737
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c704e985cbefdf560800000000000000
+      internalID: 7349310251832590460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 433
+        width: 281
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d7fc19e1eaa9170800000000000000
+      internalID: 8186046719017844014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_66
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 726
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad65902d542c8d80800000000000000
+      internalID: -8247176835224998491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_67
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 724
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43d6325db5c1b10800000000000000
+      internalID: 1953537309352473823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_68
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 711
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd491cb8192e17b0800000000000000
+      internalID: -5251714929255690761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_69
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 706
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2b5cf8b679aadf0800000000000000
+      internalID: -168155547843579214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_70
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 721
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fd747afbaa54f70800000000000000
+      internalID: 9170923956331863876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_71
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 419
+        width: 489
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf3b3088d3eb99d0800000000000000
+      internalID: -2766367027085230164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_72
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 657
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43fbb7a6cb0346d0800000000000000
+      internalID: -3007547178307816629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_73
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 713
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c58460070865450800000000000000
+      internalID: 6077185965813161036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_74
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 708
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b857d1f2b655f080800000000000000
+      internalID: -9154315340999075662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 585
+        width: 54
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cbc8ebc5d8bc670800000000000000
+      internalID: 8560090946221161613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0101b763ee357d120800000000000000
+      internalID: 2438510005825769488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_77
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 595
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc808b2efe5ff4b30800000000000000
+      internalID: 4273904982047590605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a8830a3b93f0fb0800000000000000
+      internalID: -4679458044164666871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_79
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 544
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad5a128dcd435b20800000000000000
+      internalID: 3121924511744286125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_80
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 482
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f473ef279b9d0fd10800000000000000
+      internalID: 2157463612031907663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_81
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1578a5f072ab6b080800000000000000
+      internalID: -9171938914169354415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_82
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 459
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08031d212f221db90800000000000000
+      internalID: -7218950304605065088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_83
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 485
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e04febdd54fe6e0800000000000000
+      internalID: -1806148106858525086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_84
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 490
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2ddb1a13cd061f0800000000000000
+      internalID: -1053600207079615826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_85
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 475
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21715b948801c4150800000000000000
+      internalID: 5858075392840374034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_86
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 482
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cdfa5d66c875e70800000000000000
+      internalID: 9103899545052371971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_87
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 446
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe594e1ff9f4ddca0800000000000000
+      internalID: -5990544380956207633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_88
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 447
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4702cf3e0366b87c0800000000000000
+      internalID: -4068045478229696396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_89
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 483
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5dbdfe12e83ada0800000000000000
+      internalID: -5934743607534955097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_90
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 475
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd538b03c722fe200800000000000000
+      internalID: 211425624298370524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_91
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 490
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c327cf4a728eca60800000000000000
+      internalID: 7696232275058828227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_92
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 493
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac328bc72a8e010800000000000000
+      internalID: 1218402355752716816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 483
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aceb0727eeb7be30800000000000000
+      internalID: 4519290651091397799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_94
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 485
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8387b362b7fa0b50800000000000000
+      internalID: 6560328152767759242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_95
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 470
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaffb1191d53ccd0800000000000000
+      internalID: -2539083402653467970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_96
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 454
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b9fe05b4bc53070800000000000000
+      internalID: 8085592230354459410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e008ae008b673310800000000000000
+      internalID: 1384693608185594087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_98
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 467
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28aa92e5ec9f52600800000000000000
+      internalID: 443034803104230018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_99
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 472
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203291dc939330560800000000000000
+      internalID: 7278724343177749250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_100
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 472
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d366e91f2c7c1e4d0800000000000000
+      internalID: -3106982627817658819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_101
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 444
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea92b24f1f907b00800000000000000
+      internalID: 824333688420604649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_102
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 471
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2e4a5d0afeb3ae0800000000000000
+      internalID: -1568396571150327041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_103
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 409
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5637b702f0937e330800000000000000
+      internalID: 3740020752686740325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_104
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 473
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b1c177896ff5690800000000000000
+      internalID: -7611093710539056275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_105
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 478
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99c598380aa7d1f0800000000000000
+      internalID: -1020159838290327138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_106
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 470
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b2498d85aa17560800000000000000
+      internalID: 7309810968766458632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_107
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 477
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed2acd484b6e7d10800000000000000
+      internalID: 2125254032452365792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_108
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 470
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a6b689a2f0325e0800000000000000
+      internalID: -1935686739218961773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_109
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 477
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd118e6cd7b71570800000000000000
+      internalID: 8437414584276557276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_110
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 459
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5161a7571d8e9b400800000000000000
+      internalID: 340559233159927317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_111
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 455
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e121cab60aa00a2d0800000000000000
+      internalID: -3269601645353496034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_112
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 469
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103b970f2b2358120800000000000000
+      internalID: 2415392519274214145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_113
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 454
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052c676dc3f44bdb0800000000000000
+      internalID: -4777106182018514352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_114
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 399
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fd7de58d6abf6e0800000000000000
+      internalID: -1802663777597399181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_115
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 459
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064b01c3db8f46310800000000000000
+      internalID: 1397515276031931488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_116
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba600288fa117920800000000000000
+      internalID: 2986197682558626488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_117
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 465
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3eb0746fa87a760800000000000000
+      internalID: 7469091297375806459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_118
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 470
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b5c59b8408e71d0800000000000000
+      internalID: -3351100022881232093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_119
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 447
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a026cfb307616c0800000000000000
+      internalID: -4173024601772520883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_120
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 419
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8349658c49aebc0800000000000000
+      internalID: -3753023751292962579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_121
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 447
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e29420ea908e9700800000000000000
+      internalID: 549017607259591397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_122
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 435
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1433156b2ed630980800000000000000
+      internalID: -8573888445094481087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_123
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 459
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f37b62def5577610800000000000000
+      internalID: 1618857144003294192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_124
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 444
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9196f6ba39108dd0800000000000000
+      internalID: -2485959254340103779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_125
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 457
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b99841e8f41e1840800000000000000
+      internalID: 5196614079196207542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_126
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 454
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc03acff7226e550800000000000000
+      internalID: 6189672670962060482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_127
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 446
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b3d3ede7a06b020800000000000000
+      internalID: 2357082994985745270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_128
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 434
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2a1379597b11740800000000000000
+      internalID: 5121076104411587281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_129
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 435
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363ff145760d1e290800000000000000
+      internalID: -7862774332200586397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_130
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 365
+        width: 59
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deef478ea89d9a260800000000000000
+      internalID: 7109452677409734381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_131
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef382898a9b241340800000000000000
+      internalID: 4833536242807374846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_132
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 451
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967fccc4b9e86a7a0800000000000000
+      internalID: -6366244225582041239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_133
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 441
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd5163ea937489e0800000000000000
+      internalID: -1620042856869569104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_134
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 446
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa603aca794020e0800000000000000
+      internalID: -2296755018231944535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_135
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 444
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e283f45aefa9570800000000000000
+      internalID: 8474365634803150442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 255
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe0fe561d9b9b50800000000000000
+      internalID: 6601042398249282548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_137
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 411
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40427ebc14a67170800000000000000
+      internalID: 8175902616898912332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_138
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 158
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf99592ea9382940800000000000000
+      internalID: 5271526784017997760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 437
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6344a040ca7a7b0800000000000000
+      internalID: -5213008910305970452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_140
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 386
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a212e4586fdbfa80800000000000000
+      internalID: -8431900238127426909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_141
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 365
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd93e1593f47db770800000000000000
+      internalID: 8628181050639399387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_142
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 420
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12375e6e617a31d40800000000000000
+      internalID: 5553966482282869537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_143
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 430
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d429fca6bcfd5d410800000000000000
+      internalID: 1501352115561271885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_144
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 425
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1a9940db6264de0800000000000000
+      internalID: -1349348445083033109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_145
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 420
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5784cc8b78db2a000800000000000000
+      internalID: 45807336845756533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_146
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 425
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce0c29ab30a40030800000000000000
+      internalID: 3460066591829135053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_147
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 419
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb20c9b1d61a44ec0800000000000000
+      internalID: -3583561913493355845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_148
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 396
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e002cd508f539c0800000000000000
+      internalID: -3947976794268758408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_149
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 220
+        width: 269
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e973fab1b409986d0800000000000000
+      internalID: -2987698225522198626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_150
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 147
+        width: 351
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eb1c7ccd07a6bd0800000000000000
+      internalID: -2636170538325524874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_151
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 378
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e849c6ccf22c9a0800000000000000
+      internalID: -6214351980776354167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_152
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 248
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df92ee7b4483e90800000000000000
+      internalID: -7045806060255707754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_153
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 237
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f219302b76d00b0800000000000000
+      internalID: -5760834334075310327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 269
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eff8ad6767f4f9a0800000000000000
+      internalID: -6200058763388846112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_155
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 129
+        width: 141
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b4c71e48c974b50800000000000000
+      internalID: 6577397875330534235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_156
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 222
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd5902b8a6a57d0800000000000000
+      internalID: -2928911461871394920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_157
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 222
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574215786039e79e0800000000000000
+      internalID: -1621697159557471115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_158
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 224
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052c235586aca9760800000000000000
+      internalID: 7465501881774817872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_159
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 225
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fce9e91fd1a2100800000000000000
+      internalID: 83912466645307167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_160
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 220
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574b3f9ae6ef08ef0800000000000000
+      internalID: -107806639805713291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_161
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 222
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3deb2052d76f4880800000000000000
+      internalID: -8624560608405361346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_162
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 222
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6786ef7ef4bf465f0800000000000000
+      internalID: -764209716132943754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_163
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 225
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31de321a249775e00800000000000000
+      internalID: 1033427966583106835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_164
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 220
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff645715e0c89d70800000000000000
+      internalID: 9050195541372465138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_165
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 222
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6363260811763a7d0800000000000000
+      internalID: -2908367609485183434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_166
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 219
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f40da27cdbcaca30800000000000000
+      internalID: 4236422547172558069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_167
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 217
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dee4b0b4a9cb58a0800000000000000
+      internalID: -6315232343280521518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_168
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 209
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66fb04121c008210800000000000000
+      internalID: 1333078761486939757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_169
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 209
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f3da68054bb47a0800000000000000
+      internalID: -6391816988172402921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_170
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 178
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec750a77634ac050800000000000000
+      internalID: 5821539580037659884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_171
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 202
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15139829f53b5d10800000000000000
+      internalID: 2115343794224436506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_172
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 268
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d88c793d068330800000000000000
+      internalID: 3712669483367192856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_173
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 181
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7d1401f57a061b0800000000000000
+      internalID: -5665344304495601670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_174
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 173
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ec959ee8c3d6470800000000000000
+      internalID: 8389428265359101556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_175
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 184
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaf7d495a4418aa0800000000000000
+      internalID: -6160567337308652802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_176
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 176
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d54dedd5af81b670800000000000000
+      internalID: 8552775109908973016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_177
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 186
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccc76efe87601240800000000000000
+      internalID: 4760418669981846733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_178
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 142
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a71f3bd5cf610d50800000000000000
+      internalID: 6701760616081594274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_179
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636cd93cc28c54d70800000000000000
+      internalID: 9026841122720040502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_180
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 151
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ec706d4e8c9310800000000000000
+      internalID: 1413160846069916742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_181
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 149
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b25ea6e2d433c00800000000000000
+      internalID: 879131214024616837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_182
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 165
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e278d5a7010cc1f0800000000000000
+      internalID: -1023441882961120535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_183
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 154
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf0754933033a260800000000000000
+      internalID: 7107577635010973662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_184
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8f8470c137917a0800000000000000
+      internalID: -6405962430739318586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_185
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 267
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a676339445abc9940800000000000000
+      internalID: 5304319332303726442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_186
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7543ba7e82e8fe0800000000000000
+      internalID: -1184964676476971043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_187
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 145
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cc1a5fc84b30e10800000000000000
+      internalID: 2162770763577412691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_188
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f03f540adb7f7140800000000000000
+      internalID: 4719627110814003446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_189
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 145
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ac9ad8ce7becb10800000000000000
+      internalID: 2003741110843329157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Battle_Death_Right_16f_v1_190
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 260
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3537144a0cb8bade0800000000000000
+      internalID: -1320808406197374125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_0: 2261521431956396108
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_1: -4074951587719971482
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_10: 8723033595791592262
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_100: -3106982627817658819
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_101: 824333688420604649
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_102: -1568396571150327041
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_103: 3740020752686740325
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_104: -7611093710539056275
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_105: -1020159838290327138
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_106: 7309810968766458632
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_107: 2125254032452365792
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_108: -1935686739218961773
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_109: 8437414584276557276
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_11: 5987909823708610293
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_110: 340559233159927317
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_111: -3269601645353496034
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_112: 2415392519274214145
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_113: -4777106182018514352
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_114: -1802663777597399181
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_115: 1397515276031931488
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_116: 2986197682558626488
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_117: 7469091297375806459
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_118: -3351100022881232093
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_119: -4173024601772520883
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_12: 9220064944485582880
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_120: -3753023751292962579
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_121: 549017607259591397
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_122: -8573888445094481087
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_123: 1618857144003294192
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_124: -2485959254340103779
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_125: 5196614079196207542
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_126: 6189672670962060482
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_127: 2357082994985745270
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_128: 5121076104411587281
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_129: -7862774332200586397
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_13: 576250062181790550
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_130: 7109452677409734381
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_131: 4833536242807374846
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_132: -6366244225582041239
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_133: -1620042856869569104
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_134: -2296755018231944535
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_135: 8474365634803150442
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_136: 6601042398249282548
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_137: 8175902616898912332
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_138: 5271526784017997760
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_139: -5213008910305970452
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_14: 7293726860667295968
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_140: -8431900238127426909
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_141: 8628181050639399387
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_142: 5553966482282869537
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_143: 1501352115561271885
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_144: -1349348445083033109
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_145: 45807336845756533
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_146: 3460066591829135053
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_147: -3583561913493355845
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_148: -3947976794268758408
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_149: -2987698225522198626
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_15: 4108221188529936748
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_150: -2636170538325524874
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_151: -6214351980776354167
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_152: -7045806060255707754
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_153: -5760834334075310327
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_154: -6200058763388846112
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_155: 6577397875330534235
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_156: -2928911461871394920
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_157: -1621697159557471115
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_158: 7465501881774817872
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_159: 83912466645307167
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_16: 8647383608356827771
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_160: -107806639805713291
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_161: -8624560608405361346
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_162: -764209716132943754
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_163: 1033427966583106835
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_164: 9050195541372465138
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_165: -2908367609485183434
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_166: 4236422547172558069
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_167: -6315232343280521518
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_168: 1333078761486939757
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_169: -6391816988172402921
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_17: -1797102759946871003
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_170: 5821539580037659884
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_171: 2115343794224436506
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_172: 3712669483367192856
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_173: -5665344304495601670
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_174: 8389428265359101556
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_175: -6160567337308652802
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_176: 8552775109908973016
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_177: 4760418669981846733
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_178: 6701760616081594274
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_179: 9026841122720040502
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_18: 1413535538833017521
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_180: 1413160846069916742
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_181: 879131214024616837
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_182: -1023441882961120535
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_183: 7107577635010973662
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_184: -6405962430739318586
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_185: 5304319332303726442
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_186: -1184964676476971043
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_187: 2162770763577412691
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_188: 4719627110814003446
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_189: 2003741110843329157
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_19: 5693782113908158623
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_190: -1320808406197374125
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_2: 7002856288166009688
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_20: -5555168237650125625
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_21: 8591606280887371272
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_22: -8543998121367864266
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_23: 922335260396366974
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_24: -3347537117142691693
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_25: 6515942523494235443
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_26: -6855228758409274580
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_27: 4481094754479226894
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_28: 9164439477918350490
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_29: 4408575065709340571
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_3: -8451816508879518346
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_30: 795491673418367302
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_31: -3392325215459400325
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_32: 3161920908247540589
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_33: -3442883017619019728
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_34: -916715808464749662
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_35: 3779670444627496501
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_36: -6471653303204083319
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_37: 1664765625620096602
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_38: -6630641809746746585
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_39: 1683117858613775725
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_4: -4240270241118907178
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_40: -781897741084525574
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_41: -3003292783862666220
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_42: -8921503857399808845
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_43: 7698088538151621093
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_44: 3846034650714055975
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_45: 8387777626508438791
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_46: -2053988050368482813
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_47: -258838047235383052
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_48: 8703846443230507362
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_49: 7359353685187805543
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_5: 1356033448685951405
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_50: 6220398796342329439
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_51: -3733303288216405844
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_52: -4770480181741155883
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_53: 7788553319926507086
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_54: -8744911498404269956
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_55: -3873683075076009612
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_56: -6712809161145093974
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_57: -2372851085670160572
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_58: -8139752387047707336
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_59: -41274038658269139
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_6: -4475780367567000087
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_60: 6026411796521970082
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_61: -2926470113899333258
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_62: 4254596168591896482
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_63: 4525645627850501602
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_64: 7349310251832590460
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_65: 8186046719017844014
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_66: -8247176835224998491
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_67: 1953537309352473823
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_68: -5251714929255690761
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_69: -168155547843579214
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_7: -910367363649591667
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_70: 9170923956331863876
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_71: -2766367027085230164
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_72: -3007547178307816629
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_73: 6077185965813161036
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_74: -9154315340999075662
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_75: 8560090946221161613
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_76: 2438510005825769488
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_77: 4273904982047590605
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_78: -4679458044164666871
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_79: 3121924511744286125
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_8: -2600117559614657996
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_80: 2157463612031907663
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_81: -9171938914169354415
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_82: -7218950304605065088
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_83: -1806148106858525086
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_84: -1053600207079615826
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_85: 5858075392840374034
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_86: 9103899545052371971
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_87: -5990544380956207633
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_88: -4068045478229696396
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_89: -5934743607534955097
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_9: 5414647897911230924
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_90: 211425624298370524
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_91: 7696232275058828227
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_92: 1218402355752716816
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_93: 4519290651091397799
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_94: 6560328152767759242
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_95: -2539083402653467970
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_96: 8085592230354459410
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_97: 1384693608185594087
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_98: 443034803104230018
+      Ninja_Earth_Human_Battle_Death_Right_16f_v1_99: 7278724343177749250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

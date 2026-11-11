@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: c192e0175749fcf44855885529c01a5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4483274697270417441
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_0
+  - first:
+      213: 8322153422929885618
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_1
+  - first:
+      213: -6525742516283010706
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_2
+  - first:
+      213: -8018852961899628837
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_3
+  - first:
+      213: -2550272006596169247
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_4
+  - first:
+      213: -6689185044977793806
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_5
+  - first:
+      213: 2930009476052916852
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_6
+  - first:
+      213: -1016927993771278954
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_7
+  - first:
+      213: 8429694166768668197
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_8
+  - first:
+      213: 6274950529465875082
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_9
+  - first:
+      213: -758663394580158779
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_10
+  - first:
+      213: 178566406565636921
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_11
+  - first:
+      213: -6816440346459768747
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_12
+  - first:
+      213: 2564244823238363779
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_13
+  - first:
+      213: -2495142415094024062
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_14
+  - first:
+      213: -4038119504704593593
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_15
+  - first:
+      213: -5053073158827700639
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_16
+  - first:
+      213: -631459306563461401
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_17
+  - first:
+      213: 385765347544885601
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_18
+  - first:
+      213: 7651206731826387872
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_19
+  - first:
+      213: 1544904855107607819
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_20
+  - first:
+      213: 37532488528617333
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_21
+  - first:
+      213: 2069652005900090924
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_22
+  - first:
+      213: -4920278579677485678
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_23
+  - first:
+      213: -8580925593759465391
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_24
+  - first:
+      213: 2779525430592840652
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_25
+  - first:
+      213: -5189256261268073119
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_26
+  - first:
+      213: 2863064461607143817
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_27
+  - first:
+      213: -1504885127788517914
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_28
+  - first:
+      213: 3463026252948129064
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_29
+  - first:
+      213: 1183790470396309457
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_30
+  - first:
+      213: 6178504868687373349
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_31
+  - first:
+      213: -9158601464308358874
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_32
+  - first:
+      213: -2914439319834293858
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_33
+  - first:
+      213: 8681164027969400203
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_34
+  - first:
+      213: -9141819939016546919
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_35
+  - first:
+      213: -4024599245223184523
+    second: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 886
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128dc41759ac73e30800000000000000
+      internalID: 4483274697270417441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 767
+        width: 215
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9790c027a3e7370800000000000000
+      internalID: 8322153422929885618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 883
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61994d91c7ef65a0800000000000000
+      internalID: -6525742516283010706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 767
+        width: 216
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd632e387bf47b090800000000000000
+      internalID: -8018852961899628837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 880
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e176363f1d9b9cd0800000000000000
+      internalID: -2550272006596169247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 767
+        width: 219
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f44e3574ad3b23a0800000000000000
+      internalID: -6689185044977793806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 872
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a99a8381c79a820800000000000000
+      internalID: 2930009476052916852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 767
+        width: 217
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dbc19a06523e1f0800000000000000
+      internalID: -1016927993771278954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 833
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ecd67ae2a4cf470800000000000000
+      internalID: 8429694166768668197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 617
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a76fba24a151750800000000000000
+      internalID: 6274950529465875082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 511
+        width: 214
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c625f589afa875f0800000000000000
+      internalID: -758663394580158779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 619
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ba92063356a7200800000000000000
+      internalID: 178566406565636921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 511
+        width: 213
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558ff94be932761a0800000000000000
+      internalID: -6816440346459768747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_13
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 626
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ac14ea417069320800000000000000
+      internalID: 2564244823238363779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_14
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 511
+        width: 212
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2887f4c71397f5dd0800000000000000
+      internalID: -2495142415094024062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_15
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 628
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741a18194b7b5f7c0800000000000000
+      internalID: -4038119504704593593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_16
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 511
+        width: 215
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e83000cb0efd9b0800000000000000
+      internalID: -5053073158827700639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 584
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee9b263b1b9c37f0800000000000000
+      internalID: -631459306563461401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 590
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169611b2a838a5500800000000000000
+      internalID: 385765347544885601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 377
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abd6991cfb8e2a60800000000000000
+      internalID: 7651206731826387872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 255
+        width: 216
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d177cc7ca907510800000000000000
+      internalID: 1544904855107607819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_21
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 364
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fd8467997558000800000000000000
+      internalID: 37532488528617333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 218
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e795ca881e8bc10800000000000000
+      internalID: 2069652005900090924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_23
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 363
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2952c5653b8a7bbb0800000000000000
+      internalID: -4920278579677485678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_24
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 255
+        width: 221
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150c8ebd2ad6ae880800000000000000
+      internalID: -8580925593759465391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_25
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 364
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3a6ae07abd29620800000000000000
+      internalID: 2779525430592840652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_26
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 255
+        width: 221
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16515aa9cee0cf7b0800000000000000
+      internalID: -5189256261268073119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 333
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989832b65f5abb720800000000000000
+      internalID: 2863064461607143817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 106
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5a56213f29d1be0800000000000000
+      internalID: -1504885127788517914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 219
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82543d677042f0030800000000000000
+      internalID: 3463026252948129064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_30
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 109
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfe67c292bad6010800000000000000
+      internalID: 1183790470396309457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_31
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 219
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524e12561757eb550800000000000000
+      internalID: 6178504868687373349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_32
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 113
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62127881e7c16e080800000000000000
+      internalID: -9158601464308358874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_33
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 215
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9988d541e4dd87d0800000000000000
+      internalID: -2914439319834293858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_34
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 113
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8de30c40b0b97870800000000000000
+      internalID: 8681164027969400203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_35
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 218
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995e55e633bb12180800000000000000
+      internalID: -9141819939016546919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_36
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 67
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577ba294f40c528c0800000000000000
+      internalID: -4024599245223184523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_0: 4483274697270417441
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_1: 8322153422929885618
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_10: -758663394580158779
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_11: 178566406565636921
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_12: -6816440346459768747
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_13: 2564244823238363779
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_14: -2495142415094024062
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_15: -4038119504704593593
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_16: -5053073158827700639
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_17: -631459306563461401
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_18: 385765347544885601
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_19: 7651206731826387872
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_2: -6525742516283010706
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_20: 1544904855107607819
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_21: 37532488528617333
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_22: 2069652005900090924
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_23: -4920278579677485678
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_24: -8580925593759465391
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_25: 2779525430592840652
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_26: -5189256261268073119
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_27: 2863064461607143817
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_28: -1504885127788517914
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_29: 3463026252948129064
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_3: -8018852961899628837
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_30: 1183790470396309457
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_31: 6178504868687373349
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_32: -9158601464308358874
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_33: -2914439319834293858
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_34: 8681164027969400203
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_35: -9141819939016546919
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_36: -4024599245223184523
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_4: -2550272006596169247
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_5: -6689185044977793806
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_6: 2930009476052916852
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_7: -1016927993771278954
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_8: 8429694166768668197
+      Ninja_Wind_Human_Female_Battle_Run_Right_16f_v2_9: 6274950529465875082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

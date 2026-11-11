@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: b89b4a27e1265f44face58187d4cbf5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2728192672224986616
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_0
+  - first:
+      213: 343795261439008957
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_1
+  - first:
+      213: 6936447517565411046
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_2
+  - first:
+      213: 5985339905112273906
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_3
+  - first:
+      213: 2178691266977784373
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_4
+  - first:
+      213: 821943100862499745
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_5
+  - first:
+      213: 2750591823185684072
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_6
+  - first:
+      213: 7038742290764180934
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_7
+  - first:
+      213: 6930221621371048273
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_8
+  - first:
+      213: -3087083094436847976
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_9
+  - first:
+      213: -7071685807412264717
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_10
+  - first:
+      213: 3034148839806631800
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_11
+  - first:
+      213: 6987201985048798822
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_12
+  - first:
+      213: -5687844586243214089
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_13
+  - first:
+      213: 1061411020700090825
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_14
+  - first:
+      213: 8124047936444925869
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_15
+  - first:
+      213: -8195544261275204490
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_16
+  - first:
+      213: -8283176072520817595
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_17
+  - first:
+      213: -5056497037932933878
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_18
+  - first:
+      213: 3414819631774182036
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_19
+  - first:
+      213: 3823096213456548728
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_20
+  - first:
+      213: -5089045649491892860
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_21
+  - first:
+      213: 2875996749584525977
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_22
+  - first:
+      213: 4784672314736561890
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_23
+  - first:
+      213: -8802657060635020758
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_24
+  - first:
+      213: -6417487114987258486
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_25
+  - first:
+      213: -2923883629472955607
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_26
+  - first:
+      213: 4572238680867716372
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_27
+  - first:
+      213: -2626226715078698093
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_28
+  - first:
+      213: 1430382774272157194
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_29
+  - first:
+      213: 230554543112932577
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_30
+  - first:
+      213: -1287268653632659840
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_31
+  - first:
+      213: 6250133829422005614
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_32
+  - first:
+      213: 8999675279548114992
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_33
+  - first:
+      213: 3609240472281114832
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_34
+  - first:
+      213: -1122628191089649532
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_35
+  - first:
+      213: 620867167616578902
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_36
+  - first:
+      213: -5890446904613160660
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_37
+  - first:
+      213: 2546240724970052539
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_38
+  - first:
+      213: -4864931628665191636
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_39
+  - first:
+      213: -2604161808469456478
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_40
+  - first:
+      213: -56383924507797340
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_41
+  - first:
+      213: 1645167369571964539
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_42
+  - first:
+      213: 4760170758521869003
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_43
+  - first:
+      213: 8366921232729544620
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_44
+  - first:
+      213: 1507733559988482229
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_45
+  - first:
+      213: -7559966517798712083
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_46
+  - first:
+      213: 6860509850427242932
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_47
+  - first:
+      213: -150172269152203042
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_48
+  - first:
+      213: -3801482936060619786
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_49
+  - first:
+      213: 6985561141118039513
+    second: Ninja_Earth_Human_Select_Attack_16f_v1_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 509
+        width: 236
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab43d1833832ad0800000000000000
+      internalID: -2728192672224986616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 971
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0e88108f765c400800000000000000
+      internalID: 343795261439008957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 509
+        width: 247
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee50af2446334060800000000000000
+      internalID: 6936447517565411046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 508
+        width: 279
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3ff289ee2301350800000000000000
+      internalID: 5985339905112273906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 760
+        width: 243
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532e4730a244c3e10800000000000000
+      internalID: 2178691266977784373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 953
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab0e7835e0286b00800000000000000
+      internalID: 821943100862499745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 934
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866a31f90b01c2620800000000000000
+      internalID: 2750591823185684072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 931
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cda48212d2aea160800000000000000
+      internalID: 7038742290764180934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 932
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519d84c8d71d2060800000000000000
+      internalID: 6930221621371048273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 754
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e5afb184a7825d0800000000000000
+      internalID: -3087083094436847976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 509
+        width: 229
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0450eb9335cdd90800000000000000
+      internalID: -7071685807412264717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 713
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f76505b467b1a20800000000000000
+      internalID: 3034148839806631800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 647
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ecb48f2787f060800000000000000
+      internalID: 6987201985048798822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 544
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4385bfb77b011b0800000000000000
+      internalID: -5687844586243214089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 548
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1838123b3eabe00800000000000000
+      internalID: 1061411020700090825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 251
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da78b0e1e8a6eb070800000000000000
+      internalID: 8124047936444925869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 415
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67443bd8ae3934e80800000000000000
+      internalID: -8195544261275204490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 249
+        width: 233
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544a1698f3f3c0d80800000000000000
+      internalID: -8283176072520817595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 248
+        width: 268
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d41360cb6b3d9b0800000000000000
+      internalID: -5056497037932933878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 0
+        width: 259
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a2ee3dc50e36f20800000000000000
+      internalID: 3414819631774182036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 297
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f73120cd5e0530800000000000000
+      internalID: 3823096213456548728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 253
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485e948d1f31069b0800000000000000
+      internalID: -5089045649491892860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 235
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ae92a5ec799e720800000000000000
+      internalID: 2875996749584525977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 215
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eec486be12966240800000000000000
+      internalID: 4784672314736561890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 238
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22f345ba0ea6d580800000000000000
+      internalID: -8802657060635020758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 261
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8db980687180f6a0800000000000000
+      internalID: -6417487114987258486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 206
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9234fa494574c67d0800000000000000
+      internalID: -2923883629472955607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 199
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dbb610bdad37f30800000000000000
+      internalID: 4572238680867716372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 196
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd71c87b4cd8bd0800000000000000
+      internalID: -2626226715078698093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 183
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0664510e8db9d310800000000000000
+      internalID: 1430382774272157194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 184
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec499ba228133300800000000000000
+      internalID: 230554543112932577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 167
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08edab1daf3b22ee0800000000000000
+      internalID: -1287268653632659840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 171
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db95d6a9fecb650800000000000000
+      internalID: 6250133829422005614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 163
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03864530cf445ec70800000000000000
+      internalID: 8999675279548114992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 142
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d867434619961230800000000000000
+      internalID: 3609240472281114832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488134fab9f9b60f0800000000000000
+      internalID: -1122628191089649532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 155
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6553d724663cd9800800000000000000
+      internalID: 620867167616578902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 165
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29bb3acfbde04ea0800000000000000
+      internalID: -5890446904613160660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb1974e270165320800000000000000
+      internalID: 2546240724970052539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 111
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2349d0957a4c7cb0800000000000000
+      internalID: -4864931628665191636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 119
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a90a84f1a82cdbd0800000000000000
+      internalID: -2604161808469456478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 97
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a89ba09e1fa73ff0800000000000000
+      internalID: -56383924507797340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 88
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b769663910fc4d610800000000000000
+      internalID: 1645167369571964539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 98
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2d5eb95168f0240800000000000000
+      internalID: 4760170758521869003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 82
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7948408864d1470800000000000000
+      internalID: 8366921232729544620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 94
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b07c0b3fab8ce410800000000000000
+      internalID: 1507733559988482229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 66
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc2c8a18a951790800000000000000
+      internalID: -7559966517798712083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 69
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9b8c44c5d653f50800000000000000
+      internalID: 6860509850427242932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 50
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede811aed1b7aedf0800000000000000
+      internalID: -150172269152203042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3d568296b6e3bc0800000000000000
+      internalID: -3801482936060619786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Earth_Human_Select_Attack_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 43
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5fc15c8d2b1f060800000000000000
+      internalID: 6985561141118039513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Earth_Human_Select_Attack_16f_v1_0: -2728192672224986616
+      Ninja_Earth_Human_Select_Attack_16f_v1_1: 343795261439008957
+      Ninja_Earth_Human_Select_Attack_16f_v1_10: -7071685807412264717
+      Ninja_Earth_Human_Select_Attack_16f_v1_11: 3034148839806631800
+      Ninja_Earth_Human_Select_Attack_16f_v1_12: 6987201985048798822
+      Ninja_Earth_Human_Select_Attack_16f_v1_13: -5687844586243214089
+      Ninja_Earth_Human_Select_Attack_16f_v1_14: 1061411020700090825
+      Ninja_Earth_Human_Select_Attack_16f_v1_15: 8124047936444925869
+      Ninja_Earth_Human_Select_Attack_16f_v1_16: -8195544261275204490
+      Ninja_Earth_Human_Select_Attack_16f_v1_17: -8283176072520817595
+      Ninja_Earth_Human_Select_Attack_16f_v1_18: -5056497037932933878
+      Ninja_Earth_Human_Select_Attack_16f_v1_19: 3414819631774182036
+      Ninja_Earth_Human_Select_Attack_16f_v1_2: 6936447517565411046
+      Ninja_Earth_Human_Select_Attack_16f_v1_20: 3823096213456548728
+      Ninja_Earth_Human_Select_Attack_16f_v1_21: -5089045649491892860
+      Ninja_Earth_Human_Select_Attack_16f_v1_22: 2875996749584525977
+      Ninja_Earth_Human_Select_Attack_16f_v1_23: 4784672314736561890
+      Ninja_Earth_Human_Select_Attack_16f_v1_24: -8802657060635020758
+      Ninja_Earth_Human_Select_Attack_16f_v1_25: -6417487114987258486
+      Ninja_Earth_Human_Select_Attack_16f_v1_26: -2923883629472955607
+      Ninja_Earth_Human_Select_Attack_16f_v1_27: 4572238680867716372
+      Ninja_Earth_Human_Select_Attack_16f_v1_28: -2626226715078698093
+      Ninja_Earth_Human_Select_Attack_16f_v1_29: 1430382774272157194
+      Ninja_Earth_Human_Select_Attack_16f_v1_3: 5985339905112273906
+      Ninja_Earth_Human_Select_Attack_16f_v1_30: 230554543112932577
+      Ninja_Earth_Human_Select_Attack_16f_v1_31: -1287268653632659840
+      Ninja_Earth_Human_Select_Attack_16f_v1_32: 6250133829422005614
+      Ninja_Earth_Human_Select_Attack_16f_v1_33: 8999675279548114992
+      Ninja_Earth_Human_Select_Attack_16f_v1_34: 3609240472281114832
+      Ninja_Earth_Human_Select_Attack_16f_v1_35: -1122628191089649532
+      Ninja_Earth_Human_Select_Attack_16f_v1_36: 620867167616578902
+      Ninja_Earth_Human_Select_Attack_16f_v1_37: -5890446904613160660
+      Ninja_Earth_Human_Select_Attack_16f_v1_38: 2546240724970052539
+      Ninja_Earth_Human_Select_Attack_16f_v1_39: -4864931628665191636
+      Ninja_Earth_Human_Select_Attack_16f_v1_4: 2178691266977784373
+      Ninja_Earth_Human_Select_Attack_16f_v1_40: -2604161808469456478
+      Ninja_Earth_Human_Select_Attack_16f_v1_41: -56383924507797340
+      Ninja_Earth_Human_Select_Attack_16f_v1_42: 1645167369571964539
+      Ninja_Earth_Human_Select_Attack_16f_v1_43: 4760170758521869003
+      Ninja_Earth_Human_Select_Attack_16f_v1_44: 8366921232729544620
+      Ninja_Earth_Human_Select_Attack_16f_v1_45: 1507733559988482229
+      Ninja_Earth_Human_Select_Attack_16f_v1_46: -7559966517798712083
+      Ninja_Earth_Human_Select_Attack_16f_v1_47: 6860509850427242932
+      Ninja_Earth_Human_Select_Attack_16f_v1_48: -150172269152203042
+      Ninja_Earth_Human_Select_Attack_16f_v1_49: -3801482936060619786
+      Ninja_Earth_Human_Select_Attack_16f_v1_5: 821943100862499745
+      Ninja_Earth_Human_Select_Attack_16f_v1_50: 6985561141118039513
+      Ninja_Earth_Human_Select_Attack_16f_v1_6: 2750591823185684072
+      Ninja_Earth_Human_Select_Attack_16f_v1_7: 7038742290764180934
+      Ninja_Earth_Human_Select_Attack_16f_v1_8: 6930221621371048273
+      Ninja_Earth_Human_Select_Attack_16f_v1_9: -3087083094436847976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

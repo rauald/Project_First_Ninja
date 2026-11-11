@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 80e26d8b9a575fd49b505d6691f0ac37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7678116804543502227
+    second: Monster_Cobra_Attack_0
+  - first:
+      213: 5288164468714250775
+    second: Monster_Cobra_Attack_1
+  - first:
+      213: -8777665597727971824
+    second: Monster_Cobra_Attack_2
+  - first:
+      213: -3822319335362240907
+    second: Monster_Cobra_Attack_3
+  - first:
+      213: 7576489873787775728
+    second: Monster_Cobra_Attack_4
+  - first:
+      213: 8985850685280377245
+    second: Monster_Cobra_Attack_5
+  - first:
+      213: 5740390350495345881
+    second: Monster_Cobra_Attack_6
+  - first:
+      213: 241108538327651001
+    second: Monster_Cobra_Attack_7
+  - first:
+      213: -5320467507088285019
+    second: Monster_Cobra_Attack_8
+  - first:
+      213: -3097693961355701771
+    second: Monster_Cobra_Attack_9
+  - first:
+      213: -7404886167071055906
+    second: Monster_Cobra_Attack_10
+  - first:
+      213: -7455647968437627094
+    second: Monster_Cobra_Attack_11
+  - first:
+      213: -9004236319057626355
+    second: Monster_Cobra_Attack_12
+  - first:
+      213: -1089684701651522150
+    second: Monster_Cobra_Attack_13
+  - first:
+      213: -3660667655760162553
+    second: Monster_Cobra_Attack_14
+  - first:
+      213: -6447676963463199995
+    second: Monster_Cobra_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 767
+        width: 162
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d682a395279d17590800000000000000
+      internalID: -7678116804543502227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 767
+        width: 149
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7122e8ff095536940800000000000000
+      internalID: 5288164468714250775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 767
+        width: 154
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016e14a15a77f2680800000000000000
+      internalID: -8777665597727971824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 767
+        width: 160
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e50a5e0d464fac0800000000000000
+      internalID: -3822319335362240907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 511
+        width: 158
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fae673f569152960800000000000000
+      internalID: 7576489873787775728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 511
+        width: 159
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9956d4d69724bc70800000000000000
+      internalID: 8985850685280377245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 511
+        width: 165
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcea512c96f9af40800000000000000
+      internalID: 5740390350495345881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 511
+        width: 156
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2555b20f6985300800000000000000
+      internalID: 241108538327651001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 255
+        width: 170
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2aef8cdf6e926b0800000000000000
+      internalID: -5320467507088285019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 255
+        width: 169
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1558221c7c205d0800000000000000
+      internalID: -3097693961355701771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 255
+        width: 164
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf9689834f8c3990800000000000000
+      internalID: -7404886167071055906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 255
+        width: 153
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2799e6aca7388890800000000000000
+      internalID: -7455647968437627094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 150
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b36e836c68a0380800000000000000
+      internalID: -9004236319057626355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 151
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d22e88989a0e0f0800000000000000
+      internalID: -1089684701651522150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 154
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70157a18922b23dc0800000000000000
+      internalID: -3660667655760162553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Cobra_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 159
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5038e4686ff3586a0800000000000000
+      internalID: -6447676963463199995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Cobra_Attack_0: -7678116804543502227
+      Monster_Cobra_Attack_1: 5288164468714250775
+      Monster_Cobra_Attack_10: -7404886167071055906
+      Monster_Cobra_Attack_11: -7455647968437627094
+      Monster_Cobra_Attack_12: -9004236319057626355
+      Monster_Cobra_Attack_13: -1089684701651522150
+      Monster_Cobra_Attack_14: -3660667655760162553
+      Monster_Cobra_Attack_15: -6447676963463199995
+      Monster_Cobra_Attack_2: -8777665597727971824
+      Monster_Cobra_Attack_3: -3822319335362240907
+      Monster_Cobra_Attack_4: 7576489873787775728
+      Monster_Cobra_Attack_5: 8985850685280377245
+      Monster_Cobra_Attack_6: 5740390350495345881
+      Monster_Cobra_Attack_7: 241108538327651001
+      Monster_Cobra_Attack_8: -5320467507088285019
+      Monster_Cobra_Attack_9: -3097693961355701771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 4db27260c13c7924c9384c8721bfbed4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8748690832757202110
+    second: Monster_PoisonSlime_Attack_0
+  - first:
+      213: -7780872902949883915
+    second: Monster_PoisonSlime_Attack_1
+  - first:
+      213: 5456929669934820247
+    second: Monster_PoisonSlime_Attack_2
+  - first:
+      213: -2078127908505150132
+    second: Monster_PoisonSlime_Attack_3
+  - first:
+      213: -5248460314468894623
+    second: Monster_PoisonSlime_Attack_4
+  - first:
+      213: -1237271300956546131
+    second: Monster_PoisonSlime_Attack_5
+  - first:
+      213: 2078784364565994616
+    second: Monster_PoisonSlime_Attack_6
+  - first:
+      213: 6749349990190675768
+    second: Monster_PoisonSlime_Attack_7
+  - first:
+      213: 3750103113044497235
+    second: Monster_PoisonSlime_Attack_8
+  - first:
+      213: 1446698436540020404
+    second: Monster_PoisonSlime_Attack_9
+  - first:
+      213: -2914354791502265541
+    second: Monster_PoisonSlime_Attack_10
+  - first:
+      213: 8043229799622014294
+    second: Monster_PoisonSlime_Attack_11
+  - first:
+      213: -1201086090914877349
+    second: Monster_PoisonSlime_Attack_12
+  - first:
+      213: 2310009930156900888
+    second: Monster_PoisonSlime_Attack_13
+  - first:
+      213: 1085148119557625052
+    second: Monster_PoisonSlime_Attack_14
+  - first:
+      213: 4146589347556723790
+    second: Monster_PoisonSlime_Attack_15
+  - first:
+      213: -5323720318075012055
+    second: Monster_PoisonSlime_Attack_16
+  - first:
+      213: -6144763112043891683
+    second: Monster_PoisonSlime_Attack_17
+  - first:
+      213: 3181864052095075944
+    second: Monster_PoisonSlime_Attack_18
+  - first:
+      213: 7195768642191921623
+    second: Monster_PoisonSlime_Attack_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 767
+        width: 177
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc9538b5f7996970800000000000000
+      internalID: 8748690832757202110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 767
+        width: 178
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffa531d159c40490800000000000000
+      internalID: -7780872902949883915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 767
+        width: 181
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b21cc6f98eabb40800000000000000
+      internalID: 5456929669934820247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 767
+        width: 183
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d99b77da10923e0800000000000000
+      internalID: -2078127908505150132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 511
+        width: 183
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168b85ac629b927b0800000000000000
+      internalID: -5248460314468894623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 511
+        width: 183
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab13bf9e4454dee0800000000000000
+      internalID: -1237271300956546131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 511
+        width: 182
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c979e9d5359dc10800000000000000
+      internalID: 2078784364565994616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 511
+        width: 181
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837f9167e028aad50800000000000000
+      internalID: 6749349990190675768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 255
+        width: 178
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3539a1499ea0b0430800000000000000
+      internalID: 3750103113044497235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 170
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b4172094b31410800000000000000
+      internalID: 1446698436540020404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 308
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33cc0f02c12e87d0800000000000000
+      internalID: -2914354791502265541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 255
+        width: 172
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6557e4d43ea4f9f60800000000000000
+      internalID: 8043229799622014294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 308
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b503b5e5092e45fe0800000000000000
+      internalID: -1201086090914877349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 255
+        width: 170
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81280a2eacdce0020800000000000000
+      internalID: 2310009930156900888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 307
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd45ae227783f0f00800000000000000
+      internalID: 1085148119557625052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 170
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c8982ca05ab8930800000000000000
+      internalID: 4146589347556723790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 50
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cfb95b3985e16b0800000000000000
+      internalID: -5323720318075012055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 179
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1433b5818a69baa0800000000000000
+      internalID: -6144763112043891683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 0
+        width: 177
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86646b44f70482c20800000000000000
+      internalID: 3181864052095075944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_PoisonSlime_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 178
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d19ebb84718cd360800000000000000
+      internalID: 7195768642191921623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_PoisonSlime_Attack_0: 8748690832757202110
+      Monster_PoisonSlime_Attack_1: -7780872902949883915
+      Monster_PoisonSlime_Attack_10: -2914354791502265541
+      Monster_PoisonSlime_Attack_11: 8043229799622014294
+      Monster_PoisonSlime_Attack_12: -1201086090914877349
+      Monster_PoisonSlime_Attack_13: 2310009930156900888
+      Monster_PoisonSlime_Attack_14: 1085148119557625052
+      Monster_PoisonSlime_Attack_15: 4146589347556723790
+      Monster_PoisonSlime_Attack_16: -5323720318075012055
+      Monster_PoisonSlime_Attack_17: -6144763112043891683
+      Monster_PoisonSlime_Attack_18: 3181864052095075944
+      Monster_PoisonSlime_Attack_19: 7195768642191921623
+      Monster_PoisonSlime_Attack_2: 5456929669934820247
+      Monster_PoisonSlime_Attack_3: -2078127908505150132
+      Monster_PoisonSlime_Attack_4: -5248460314468894623
+      Monster_PoisonSlime_Attack_5: -1237271300956546131
+      Monster_PoisonSlime_Attack_6: 2078784364565994616
+      Monster_PoisonSlime_Attack_7: 6749349990190675768
+      Monster_PoisonSlime_Attack_8: 3750103113044497235
+      Monster_PoisonSlime_Attack_9: 1446698436540020404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

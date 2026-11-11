@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 787002569f12daf48ade5f55d90da982
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5158955008786504241
+    second: Monster_Yeti_Attack_0
+  - first:
+      213: 10149195455259292
+    second: Monster_Yeti_Attack_1
+  - first:
+      213: 90117423415106512
+    second: Monster_Yeti_Attack_2
+  - first:
+      213: -1916625901178467699
+    second: Monster_Yeti_Attack_3
+  - first:
+      213: -5959352587766187650
+    second: Monster_Yeti_Attack_4
+  - first:
+      213: 2735932859509809162
+    second: Monster_Yeti_Attack_5
+  - first:
+      213: 246483912487005199
+    second: Monster_Yeti_Attack_6
+  - first:
+      213: -1050842472271586920
+    second: Monster_Yeti_Attack_7
+  - first:
+      213: 1103787074889292658
+    second: Monster_Yeti_Attack_8
+  - first:
+      213: -2017611926342425747
+    second: Monster_Yeti_Attack_9
+  - first:
+      213: 4850025597777604816
+    second: Monster_Yeti_Attack_10
+  - first:
+      213: -1148664040760420252
+    second: Monster_Yeti_Attack_11
+  - first:
+      213: 397956978874139389
+    second: Monster_Yeti_Attack_12
+  - first:
+      213: 595763719656513523
+    second: Monster_Yeti_Attack_13
+  - first:
+      213: -127205299162415866
+    second: Monster_Yeti_Attack_14
+  - first:
+      213: -228410529434628127
+    second: Monster_Yeti_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 767
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a11f64f3a489740800000000000000
+      internalID: 5158955008786504241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 767
+        width: 172
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92edd5b3ae042000800000000000000
+      internalID: 10149195455259292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 767
+        width: 172
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db1bb2b159204100800000000000000
+      internalID: 90117423415106512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 767
+        width: 172
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ac1f8c5e6c665e0800000000000000
+      internalID: -1916625901178467699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 511
+        width: 173
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7934ea35602c4da0800000000000000
+      internalID: -5959352587766187650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 511
+        width: 176
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00a66ca07cf7f520800000000000000
+      internalID: 2735932859509809162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 511
+        width: 180
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce2aeffcfab6300800000000000000
+      internalID: 246483912487005199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 511
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899db5dc658aa61f0800000000000000
+      internalID: -1050842472271586920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 255
+        width: 151
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b917a1f70715f00800000000000000
+      internalID: 1103787074889292658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 255
+        width: 143
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63a4cb84a00004e0800000000000000
+      internalID: -2017611926342425747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 255
+        width: 144
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0f51ba590ce4340800000000000000
+      internalID: 4850025597777604816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 255
+        width: 153
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468d53c04202f00f0800000000000000
+      internalID: -1148664040760420252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 143
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df24ea983c3d58500800000000000000
+      internalID: 397956978874139389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 151
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff113052f3944800800000000000000
+      internalID: 595763719656513523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 165
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d70e154731c3ef0800000000000000
+      internalID: -127205299162415866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Yeti_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef071a65d584dcf0800000000000000
+      internalID: -228410529434628127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Yeti_Attack_0: 5158955008786504241
+      Monster_Yeti_Attack_1: 10149195455259292
+      Monster_Yeti_Attack_10: 4850025597777604816
+      Monster_Yeti_Attack_11: -1148664040760420252
+      Monster_Yeti_Attack_12: 397956978874139389
+      Monster_Yeti_Attack_13: 595763719656513523
+      Monster_Yeti_Attack_14: -127205299162415866
+      Monster_Yeti_Attack_15: -228410529434628127
+      Monster_Yeti_Attack_2: 90117423415106512
+      Monster_Yeti_Attack_3: -1916625901178467699
+      Monster_Yeti_Attack_4: -5959352587766187650
+      Monster_Yeti_Attack_5: 2735932859509809162
+      Monster_Yeti_Attack_6: 246483912487005199
+      Monster_Yeti_Attack_7: -1050842472271586920
+      Monster_Yeti_Attack_8: 1103787074889292658
+      Monster_Yeti_Attack_9: -2017611926342425747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

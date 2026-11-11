@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: c6a06bc8f83649c4e90c38100440f34c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 239065236974975837
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_0
+  - first:
+      213: 935805258976912539
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_1
+  - first:
+      213: -4556222465240091153
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_2
+  - first:
+      213: -9133976329326429943
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_3
+  - first:
+      213: -8874518611948900895
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_4
+  - first:
+      213: -2034831187921533460
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_5
+  - first:
+      213: 8525494741135733151
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_6
+  - first:
+      213: 2015627451209698300
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_7
+  - first:
+      213: 5832951620212607189
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_8
+  - first:
+      213: 8254213078622844907
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_9
+  - first:
+      213: 5484253834301119407
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_10
+  - first:
+      213: 4481308603724925391
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_11
+  - first:
+      213: 7022036817879739103
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_12
+  - first:
+      213: -8973746091511570965
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_13
+  - first:
+      213: 500866633928472460
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_14
+  - first:
+      213: -3728844610950130013
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_15
+  - first:
+      213: 2905892672849007505
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_16
+  - first:
+      213: -6017083209388577894
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_17
+  - first:
+      213: -4295060333756908958
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_18
+  - first:
+      213: 7774301004507998382
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_19
+  - first:
+      213: 4700617456579373479
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_20
+  - first:
+      213: 5883402019368557557
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_21
+  - first:
+      213: -892506841412658308
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_22
+  - first:
+      213: 2545921234198893453
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_23
+  - first:
+      213: -7331017854275334696
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_24
+  - first:
+      213: -1568909627415114111
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_25
+  - first:
+      213: 5085309318059805035
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_26
+  - first:
+      213: -5414082783658235832
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_27
+  - first:
+      213: -6043167831021744091
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_28
+  - first:
+      213: 5428429850720833945
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_29
+  - first:
+      213: -3772121486786393361
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_30
+  - first:
+      213: -7672368202700796557
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_31
+  - first:
+      213: 1671264238310002760
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_32
+  - first:
+      213: -2203184168409659591
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_33
+  - first:
+      213: 2827046295297589044
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_34
+  - first:
+      213: -1105951562263718806
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_35
+  - first:
+      213: 4146470796583658059
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_36
+  - first:
+      213: 1127715053545062141
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_37
+  - first:
+      213: -536422705747633696
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_38
+  - first:
+      213: 5992316335221364477
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_39
+  - first:
+      213: 845666224207511928
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_40
+  - first:
+      213: -8681832256008622910
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_41
+  - first:
+      213: -5264497954361155030
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_42
+  - first:
+      213: -3893209791409473222
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_43
+  - first:
+      213: 3685593844903612560
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_44
+  - first:
+      213: -4648666223241886145
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_45
+  - first:
+      213: -2291545306269652611
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_46
+  - first:
+      213: -1909965434882985792
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_47
+  - first:
+      213: -8321387032808949438
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_48
+  - first:
+      213: -8945772255506707182
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_49
+  - first:
+      213: 5352264290515661047
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_50
+  - first:
+      213: 5388279501916818255
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_51
+  - first:
+      213: 7288650480428994237
+    second: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 727
+        width: 243
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bb9000194515300800000000000000
+      internalID: 239065236974975837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 744
+        width: 221
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94e248cce5acfc00800000000000000
+      internalID: 935805258976912539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 736
+        width: 231
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5b5b9cecb05c0c0800000000000000
+      internalID: -4556222465240091153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 931
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909fbaf1ce89d3180800000000000000
+      internalID: -9133976329326429943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 713
+        width: 238
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed6136775067d480800000000000000
+      internalID: -8874518611948900895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 833
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce50d0ac0d3d2c3e0800000000000000
+      internalID: -2034831187921533460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 455
+        width: 218
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f913bdb0c44a05670800000000000000
+      internalID: 8525494741135733151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 498
+        width: 228
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb41e4dc72f8fb10800000000000000
+      internalID: 2015627451209698300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 735
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8cfc2289ec2f050800000000000000
+      internalID: 5832951620212607189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 730
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7b2b3ff0bdc8270800000000000000
+      internalID: 8254213078622844907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 662
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab97933ecbfb1c40800000000000000
+      internalID: 5484253834301119407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 660
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc90ded9e6ec03e30800000000000000
+      internalID: 4481308603724925391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 698
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaaf611849437160800000000000000
+      internalID: 7022036817879739103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 506
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed17e68979d67380800000000000000
+      internalID: -8973746091511570965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 674
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87f623cc8f63f600800000000000000
+      internalID: 500866633928472460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 662
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a610b5259b704cc0800000000000000
+      internalID: -3728844610950130013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 441
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19353986dfdc35820800000000000000
+      internalID: 2905892672849007505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 659
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b2d6073b60f7ca0800000000000000
+      internalID: -6017083209388577894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 662
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a7c85f161e464c0800000000000000
+      internalID: -4295060333756908958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 602
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea869a6d29dd3eb60800000000000000
+      internalID: 7774301004507998382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 588
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9e96cfba2fb3140800000000000000
+      internalID: 4700617456579373479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 498
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb574b07fa06a150800000000000000
+      internalID: 5883402019368557557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 462
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b1ef5a1cd2d93f0800000000000000
+      internalID: -892506841412658308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 459
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d839c86afdde45320800000000000000
+      internalID: 2545921234198893453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 455
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd4fd95a1ef24a90800000000000000
+      internalID: -7331017854275334696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 173
+        width: 235
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e4b3d910d1a3ae0800000000000000
+      internalID: -1568909627415114111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 472
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6940f3b1e5a29640800000000000000
+      internalID: 5085309318059805035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 445
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8482e7fa4605dd4b0800000000000000
+      internalID: -5414082783658235832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 254
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52091e130ea522ca0800000000000000
+      internalID: -6043167831021744091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 450
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991975c2038a55b40800000000000000
+      internalID: 5428429850720833945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 437
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea8a7a4e7bb6abc0800000000000000
+      internalID: -3772121486786393361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 446
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d440405c5468590800000000000000
+      internalID: -7672368202700796557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 238
+        width: 263
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840184258f5813710800000000000000
+      internalID: 1671264238310002760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 420
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9378d2bfba7bc61e0800000000000000
+      internalID: -2203184168409659591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 407
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ffbc290afab3720800000000000000
+      internalID: 2827046295297589044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 425
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a649b78e9eed6a0f0800000000000000
+      internalID: -1105951562263718806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 370
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4266e578393b8930800000000000000
+      internalID: 4146470796583658059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 248
+        width: 245
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfef966cdd276af00800000000000000
+      internalID: 1127715053545062141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 171
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e95576246e3e88f0800000000000000
+      internalID: -536422705747633696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 183
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6d3ae45fbf82350800000000000000
+      internalID: 5992316335221364477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 158
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8714f6c43f86cbb00800000000000000
+      internalID: 845666224207511928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 179
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cce31dbf8fe38780800000000000000
+      internalID: -8681832256008622910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 257
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a226885c00fb0f6b0800000000000000
+      internalID: -5264497954361155030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 148
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3937f2625a88f9c0800000000000000
+      internalID: -3893209791409473222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 233
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09098d7231cd52330800000000000000
+      internalID: 3685593844903612560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 156
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f368f4c13be9c7fb0800000000000000
+      internalID: -4648666223241886145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 158
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7965116fabc230e0800000000000000
+      internalID: -2291545306269652611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 250
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c076807e807e75e0800000000000000
+      internalID: -1909965434882985792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 158
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24971ee059e748c80800000000000000
+      internalID: -8321387032808949438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 145
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4af4c78b3ad380800000000000000
+      internalID: -8945772255506707182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 262
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0b134c300174a40800000000000000
+      internalID: 5352264290515661047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 150
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b454e98a307ca40800000000000000
+      internalID: 5388279501916818255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 122
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe43f9befc762560800000000000000
+      internalID: 7288650480428994237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_0: 239065236974975837
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_1: 935805258976912539
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_10: 5484253834301119407
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_11: 4481308603724925391
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_12: 7022036817879739103
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_13: -8973746091511570965
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_14: 500866633928472460
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_15: -3728844610950130013
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_16: 2905892672849007505
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_17: -6017083209388577894
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_18: -4295060333756908958
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_19: 7774301004507998382
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_2: -4556222465240091153
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_20: 4700617456579373479
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_21: 5883402019368557557
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_22: -892506841412658308
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_23: 2545921234198893453
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_24: -7331017854275334696
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_25: -1568909627415114111
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_26: 5085309318059805035
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_27: -5414082783658235832
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_28: -6043167831021744091
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_29: 5428429850720833945
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_3: -9133976329326429943
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_30: -3772121486786393361
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_31: -7672368202700796557
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_32: 1671264238310002760
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_33: -2203184168409659591
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_34: 2827046295297589044
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_35: -1105951562263718806
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_36: 4146470796583658059
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_37: 1127715053545062141
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_38: -536422705747633696
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_39: 5992316335221364477
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_4: -8874518611948900895
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_40: 845666224207511928
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_41: -8681832256008622910
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_42: -5264497954361155030
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_43: -3893209791409473222
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_44: 3685593844903612560
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_45: -4648666223241886145
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_46: -2291545306269652611
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_47: -1909965434882985792
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_48: -8321387032808949438
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_49: -8945772255506707182
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_5: -2034831187921533460
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_50: 5352264290515661047
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_51: 5388279501916818255
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_52: 7288650480428994237
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_6: 8525494741135733151
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_7: 2015627451209698300
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_8: 5832951620212607189
+      Ninja_Wood_Elf_Female_Battle_Death_Right_16f_v1_9: 8254213078622844907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

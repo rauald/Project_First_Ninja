@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 0d6859513d0e147478ffb1ab932323b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1684857499302750205
+    second: Monster_FireElemental_Attack_0
+  - first:
+      213: -4700706499131733839
+    second: Monster_FireElemental_Attack_1
+  - first:
+      213: -6436146610272601667
+    second: Monster_FireElemental_Attack_2
+  - first:
+      213: 6388372163149531963
+    second: Monster_FireElemental_Attack_3
+  - first:
+      213: 3099037569833562006
+    second: Monster_FireElemental_Attack_4
+  - first:
+      213: -6709498732502298236
+    second: Monster_FireElemental_Attack_5
+  - first:
+      213: 2662043449072548028
+    second: Monster_FireElemental_Attack_6
+  - first:
+      213: 4592531523062147135
+    second: Monster_FireElemental_Attack_7
+  - first:
+      213: -8688347058764941150
+    second: Monster_FireElemental_Attack_8
+  - first:
+      213: 2048197808240381214
+    second: Monster_FireElemental_Attack_9
+  - first:
+      213: -4640229958432641238
+    second: Monster_FireElemental_Attack_10
+  - first:
+      213: 3734250687489083142
+    second: Monster_FireElemental_Attack_11
+  - first:
+      213: 4809055626083530343
+    second: Monster_FireElemental_Attack_12
+  - first:
+      213: -658835590128629493
+    second: Monster_FireElemental_Attack_13
+  - first:
+      213: -2533334503994600578
+    second: Monster_FireElemental_Attack_14
+  - first:
+      213: 4135358646715261305
+    second: Monster_FireElemental_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 767
+        width: 110
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30818e8f70f2e98e0800000000000000
+      internalID: -1684857499302750205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 767
+        width: 113
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b802ed285cb3ceb0800000000000000
+      internalID: -4700706499131733839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 767
+        width: 115
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9fd5412c63ea6a0800000000000000
+      internalID: -6436146610272601667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 767
+        width: 120
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b8585a2ae08a850800000000000000
+      internalID: 6388372163149531963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 511
+        width: 121
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fe487104ef10b20800000000000000
+      internalID: 3099037569833562006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 511
+        width: 124
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4815444837213e2a0800000000000000
+      internalID: -6709498732502298236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 511
+        width: 126
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8ff9ea96a71f420800000000000000
+      internalID: 2662043449072548028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 511
+        width: 129
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3827e38613fbbf30800000000000000
+      internalID: 4592531523062147135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 128
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a87105026acc6780800000000000000
+      internalID: -8688347058764941150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 255
+        width: 136
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dc6e50e09ac6c10800000000000000
+      internalID: 2048197808240381214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 255
+        width: 139
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f2f7310779a9fb0800000000000000
+      internalID: -4640229958432641238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 255
+        width: 126
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6078b022739b2d330800000000000000
+      internalID: 3734250687489083142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 119
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7667dc9cc923db240800000000000000
+      internalID: 4809055626083530343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 115
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b098ffc75885bd6f0800000000000000
+      internalID: -658835590128629493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 114
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e735928d0b9c7dcd0800000000000000
+      internalID: -2533334503994600578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 0
+        width: 113
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971ad4477ceb36930800000000000000
+      internalID: 4135358646715261305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_FireElemental_Attack_0: -1684857499302750205
+      Monster_FireElemental_Attack_1: -4700706499131733839
+      Monster_FireElemental_Attack_10: -4640229958432641238
+      Monster_FireElemental_Attack_11: 3734250687489083142
+      Monster_FireElemental_Attack_12: 4809055626083530343
+      Monster_FireElemental_Attack_13: -658835590128629493
+      Monster_FireElemental_Attack_14: -2533334503994600578
+      Monster_FireElemental_Attack_15: 4135358646715261305
+      Monster_FireElemental_Attack_2: -6436146610272601667
+      Monster_FireElemental_Attack_3: 6388372163149531963
+      Monster_FireElemental_Attack_4: 3099037569833562006
+      Monster_FireElemental_Attack_5: -6709498732502298236
+      Monster_FireElemental_Attack_6: 2662043449072548028
+      Monster_FireElemental_Attack_7: 4592531523062147135
+      Monster_FireElemental_Attack_8: -8688347058764941150
+      Monster_FireElemental_Attack_9: 2048197808240381214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

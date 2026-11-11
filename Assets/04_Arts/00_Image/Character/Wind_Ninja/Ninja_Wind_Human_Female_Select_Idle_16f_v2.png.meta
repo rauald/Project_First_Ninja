@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 5bd0ec08e64d96443aa22a148cf75b26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8220519150608304902
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_0
+  - first:
+      213: 1341485410606604540
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_1
+  - first:
+      213: 8142722361487658627
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_2
+  - first:
+      213: -1603488881124603778
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_3
+  - first:
+      213: -136352134390687609
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_4
+  - first:
+      213: 7291078006775562435
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_5
+  - first:
+      213: -8162626342199140759
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_6
+  - first:
+      213: -9160495907110602750
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_7
+  - first:
+      213: 7308178178568213684
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_8
+  - first:
+      213: -8391241012631628902
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_9
+  - first:
+      213: -2454517913899068005
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_10
+  - first:
+      213: 2492424989511905155
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_11
+  - first:
+      213: -6330506488272903905
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_12
+  - first:
+      213: 7762474943322348978
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_13
+  - first:
+      213: 2000467871578604501
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_14
+  - first:
+      213: 5526319242860386433
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_15
+  - first:
+      213: 8447783544190348835
+    second: Ninja_Wind_Human_Female_Select_Idle_16f_v2_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 767
+        width: 232
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af432bef269daed80800000000000000
+      internalID: -8220519150608304902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 767
+        width: 231
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0639a9fd9ed9210800000000000000
+      internalID: 1341485410606604540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 767
+        width: 233
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e0a1588d2c00170800000000000000
+      internalID: 8142722361487658627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 767
+        width: 233
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e788747bb534fb9e0800000000000000
+      internalID: -1603488881124603778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 511
+        width: 232
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788d649c4749b1ef0800000000000000
+      internalID: -136352134390687609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 511
+        width: 234
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0458f31dc1f2560800000000000000
+      internalID: 7291078006775562435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 511
+        width: 236
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e59f6d69688be80800000000000000
+      internalID: -8162626342199140759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_7
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 511
+        width: 237
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208b042c1816fd080800000000000000
+      internalID: -9160495907110602750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 255
+        width: 239
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4d1d0455ddb6560800000000000000
+      internalID: 7308178178568213684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 255
+        width: 234
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a931769f1c25c8b80800000000000000
+      internalID: -8391241012631628902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 344
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95963f36fccfedd0800000000000000
+      internalID: -2454517913899068005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_11
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 255
+        width: 230
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fe921925fd69220800000000000000
+      internalID: 2492424989511905155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 255
+        width: 232
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11203ea3e58528a0800000000000000
+      internalID: -6330506488272903905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 231
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd599665d9d9bb60800000000000000
+      internalID: 7762474943322348978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d346062ee613cb10800000000000000
+      internalID: 2000467871578604501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188591a521e61bc40800000000000000
+      internalID: 5526319242860386433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wind_Human_Female_Select_Idle_16f_v2_16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 230
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e2bda006e8c3570800000000000000
+      internalID: 8447783544190348835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_0: -8220519150608304902
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_1: 1341485410606604540
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_10: -2454517913899068005
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_11: 2492424989511905155
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_12: -6330506488272903905
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_13: 7762474943322348978
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_14: 2000467871578604501
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_15: 5526319242860386433
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_16: 8447783544190348835
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_2: 8142722361487658627
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_3: -1603488881124603778
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_4: -136352134390687609
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_5: 7291078006775562435
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_6: -8162626342199140759
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_7: -9160495907110602750
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_8: 7308178178568213684
+      Ninja_Wind_Human_Female_Select_Idle_16f_v2_9: -8391241012631628902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

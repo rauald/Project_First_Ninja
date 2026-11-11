@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: d8ab64c368b4fa843ad9095148aa6b22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6431151687243365431
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_0
+  - first:
+      213: -2534670853317910270
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_1
+  - first:
+      213: 6292710334651161282
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_2
+  - first:
+      213: 5545598712102723472
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_3
+  - first:
+      213: 8119651403855244033
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_4
+  - first:
+      213: -244488639755561525
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_5
+  - first:
+      213: 4400733044468842087
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_6
+  - first:
+      213: -8812417927803741770
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_7
+  - first:
+      213: -4339428846927800621
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_8
+  - first:
+      213: 1675095204399978553
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_9
+  - first:
+      213: -9004109449588936795
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_10
+  - first:
+      213: -6590075660929284003
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_11
+  - first:
+      213: 4893084515315215129
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_12
+  - first:
+      213: 5223914688689296287
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_13
+  - first:
+      213: 1211940445501988223
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_14
+  - first:
+      213: 1458670662139017174
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_15
+  - first:
+      213: -1387664608628626065
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_16
+  - first:
+      213: -1962216900548420483
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_17
+  - first:
+      213: -1147143933922819755
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_18
+  - first:
+      213: 3701376714245814569
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_19
+  - first:
+      213: 4900978949804864667
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_20
+  - first:
+      213: 2636581961260158378
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_21
+  - first:
+      213: 7252458679036598106
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_22
+  - first:
+      213: 3969145725594268865
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_23
+  - first:
+      213: 5575783998397559664
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_24
+  - first:
+      213: -1668909962802885191
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_25
+  - first:
+      213: -1233010168136774876
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_26
+  - first:
+      213: 3648724811643535313
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_27
+  - first:
+      213: 5233247844701372440
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_28
+  - first:
+      213: 7535944878803194402
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_29
+  - first:
+      213: 1375310664704354078
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_30
+  - first:
+      213: -119544197276919927
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_31
+  - first:
+      213: -8099436741324120930
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_32
+  - first:
+      213: -3116750784496701467
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_33
+  - first:
+      213: -4487757956330406377
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_34
+  - first:
+      213: 7314609307316993386
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_35
+  - first:
+      213: -6983829505762763592
+    second: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 765
+        width: 197
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c384393d95ffb6a0800000000000000
+      internalID: -6431151687243365431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 976
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2012375c94a03dcd0800000000000000
+      internalID: -2534670853317910270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 752
+        width: 261
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cadf4b85b2345750800000000000000
+      internalID: 6292710334651161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 945
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1fb595ace5fc40800000000000000
+      internalID: 5545598712102723472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 709
+        width: 216
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b2bca9eebcea070800000000000000
+      internalID: 8119651403855244033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 771
+        width: 197
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc550c3a0e66b9cf0800000000000000
+      internalID: -244488639755561525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 253
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e73ea436b821d30800000000000000
+      internalID: 4400733044468842087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 726
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b959f8b59004b580800000000000000
+      internalID: -8812417927803741770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 503
+        width: 260
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d619ca747047c3c0800000000000000
+      internalID: -4339428846927800621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 501
+        width: 240
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938983f96322f3710800000000000000
+      internalID: 1675095204399978553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 509
+        width: 202
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af6382592afa0380800000000000000
+      internalID: -9004109449588936795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 698
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58cc532a195b84a0800000000000000
+      internalID: -6590075660929284003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 259
+        width: 192
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91be357217ab7e340800000000000000
+      internalID: 4893084515315215129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 473
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93554c5bb21f7840800000000000000
+      internalID: 5223914688689296287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 259
+        width: 213
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d131ff96da1d010800000000000000
+      internalID: 1211940445501988223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 259
+        width: 177
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d774152d3d3e3410800000000000000
+      internalID: 1458670662139017174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 259
+        width: 205
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2f4ff3660ebce0800000000000000
+      internalID: -1387664608628626065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 455
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c1b8e002ec4c4e0800000000000000
+      internalID: -1962216900548420483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 433
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55149408ba68410f0800000000000000
+      internalID: -1147143933922819755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 383
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9293688c28eed5330800000000000000
+      internalID: 3701376714245814569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 381
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9439ca6366c30440800000000000000
+      internalID: 4900978949804864667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 324
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad4d161355079420800000000000000
+      internalID: 2636581961260158378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 189
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57dc205eb8e5a460800000000000000
+      internalID: 7252458679036598106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 212
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c47ecb020d351730800000000000000
+      internalID: 3969145725594268865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 261
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733bc8310a216d40800000000000000
+      internalID: 5575783998397559664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 236
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd06092b37d6d8e0800000000000000
+      internalID: -1668909962802885191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 177
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b43cbe8c773eee0800000000000000
+      internalID: -1233010168136774876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 202
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfba2962efd2a230800000000000000
+      internalID: 3648724811643535313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 198
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100105103b30a840800000000000000
+      internalID: 5233247844701372440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 199
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2221dfba0fd059860800000000000000
+      internalID: 7535944878803194402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 188
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17628943c5161310800000000000000
+      internalID: 1375310664704354078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 196
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987995a9f2b475ef0800000000000000
+      internalID: -119544197276919927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 189
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9cd0a84235099f80800000000000000
+      internalID: -8099436741324120930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef67acbca31fb4d0800000000000000
+      internalID: -3116750784496701467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 135
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e3ef67ae748b1c0800000000000000
+      internalID: -4487757956330406377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d35691966b28560800000000000000
+      internalID: 7314609307316993386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Select_Attack_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc5e110114741f90800000000000000
+      internalID: -6983829505762763592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_0: -6431151687243365431
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_1: -2534670853317910270
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_10: -9004109449588936795
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_11: -6590075660929284003
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_12: 4893084515315215129
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_13: 5223914688689296287
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_14: 1211940445501988223
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_15: 1458670662139017174
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_16: -1387664608628626065
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_17: -1962216900548420483
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_18: -1147143933922819755
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_19: 3701376714245814569
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_2: 6292710334651161282
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_20: 4900978949804864667
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_21: 2636581961260158378
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_22: 7252458679036598106
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_23: 3969145725594268865
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_24: 5575783998397559664
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_25: -1668909962802885191
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_26: -1233010168136774876
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_27: 3648724811643535313
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_28: 5233247844701372440
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_29: 7535944878803194402
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_3: 5545598712102723472
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_30: 1375310664704354078
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_31: -119544197276919927
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_32: -8099436741324120930
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_33: -3116750784496701467
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_34: -4487757956330406377
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_35: 7314609307316993386
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_36: -6983829505762763592
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_4: 8119651403855244033
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_5: -244488639755561525
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_6: 4400733044468842087
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_7: -8812417927803741770
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_8: -4339428846927800621
+      Ninja_Wood_Elf_Female_Select_Attack_16f_v1_9: 1675095204399978553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

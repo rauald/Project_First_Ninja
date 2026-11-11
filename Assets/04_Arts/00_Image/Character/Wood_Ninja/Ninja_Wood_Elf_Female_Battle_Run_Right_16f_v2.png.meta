@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6c658fcdc4b6f8040bc681ae0a3b2033
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5813463000703095833
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_0
+  - first:
+      213: 6609135184360895598
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_1
+  - first:
+      213: 4393524326477189463
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_2
+  - first:
+      213: -915275622725907804
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_3
+  - first:
+      213: 5286097838194825439
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_4
+  - first:
+      213: -5040274304786133635
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_5
+  - first:
+      213: 8748835930803202086
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_6
+  - first:
+      213: -3026731128664274912
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_7
+  - first:
+      213: -2494705623591431082
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_8
+  - first:
+      213: 4407066516841004210
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_9
+  - first:
+      213: -9154497379249895799
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_10
+  - first:
+      213: -7941305012680130280
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_11
+  - first:
+      213: 2728229974853349676
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_12
+  - first:
+      213: 8918903363522855209
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_13
+  - first:
+      213: -6679181016992112889
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_14
+  - first:
+      213: 4792018005529806189
+    second: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 767
+        width: 213
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914d8cf4cc19da050800000000000000
+      internalID: 5813463000703095833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 767
+        width: 214
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64fd58fe6d58bb50800000000000000
+      internalID: 6609135184360895598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 767
+        width: 210
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751d5b7d81fe8fc30800000000000000
+      internalID: 4393524326477189463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 767
+        width: 212
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa09d3aba94c43f0800000000000000
+      internalID: -915275622725907804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 511
+        width: 212
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd810951afdfb5940800000000000000
+      internalID: 5286097838194825439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 511
+        width: 210
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d81bc69395d0ab0800000000000000
+      internalID: -5040274304786133635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_6
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 511
+        width: 213
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628e2bdfceb1a6970800000000000000
+      internalID: 8748835930803202086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 511
+        width: 214
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02849552314eef5d0800000000000000
+      internalID: -3026731128664274912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 255
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654d9aee376016dd0800000000000000
+      internalID: -2494705623591431082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 213
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc73ddb5ab092d30800000000000000
+      internalID: 4407066516841004210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 255
+        width: 214
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986c09cd221b4f080800000000000000
+      internalID: -9154497379249895799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 255
+        width: 215
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8110c227a21dac190800000000000000
+      internalID: -7941305012680130280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 215
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21f4b415be9cd520800000000000000
+      internalID: 2728229974853349676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 216
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92101d0da5f46cb70800000000000000
+      internalID: 8918903363522855209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 213
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f17abb048ce43a0800000000000000
+      internalID: -6679181016992112889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 212
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6541e0acfaa08240800000000000000
+      internalID: 4792018005529806189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_0: 5813463000703095833
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_1: 6609135184360895598
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_10: -9154497379249895799
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_11: -7941305012680130280
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_12: 2728229974853349676
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_13: 8918903363522855209
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_14: -6679181016992112889
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_15: 4792018005529806189
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_2: 4393524326477189463
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_3: -915275622725907804
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_4: 5286097838194825439
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_5: -5040274304786133635
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_6: 8748835930803202086
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_7: -3026731128664274912
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_8: -2494705623591431082
+      Ninja_Wood_Elf_Female_Battle_Run_Right_16f_v2_9: 4407066516841004210
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

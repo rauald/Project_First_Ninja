@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 25d15f6bc463c1045a45c644f2ec8d0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8276349303436616471
+    second: Monster_Scorpion_Death_0
+  - first:
+      213: -4790969391309767956
+    second: Monster_Scorpion_Death_1
+  - first:
+      213: 212921113460980482
+    second: Monster_Scorpion_Death_2
+  - first:
+      213: 2572702211953546042
+    second: Monster_Scorpion_Death_3
+  - first:
+      213: -6515087337043568159
+    second: Monster_Scorpion_Death_4
+  - first:
+      213: 6283769673124894343
+    second: Monster_Scorpion_Death_5
+  - first:
+      213: 5024641769268933367
+    second: Monster_Scorpion_Death_6
+  - first:
+      213: 507373734302904119
+    second: Monster_Scorpion_Death_7
+  - first:
+      213: -5547068780105429708
+    second: Monster_Scorpion_Death_8
+  - first:
+      213: 325925472966526920
+    second: Monster_Scorpion_Death_9
+  - first:
+      213: -8690248713401303205
+    second: Monster_Scorpion_Death_10
+  - first:
+      213: 4246863566123657662
+    second: Monster_Scorpion_Death_11
+  - first:
+      213: 5799358203813083892
+    second: Monster_Scorpion_Death_12
+  - first:
+      213: 6448823751150744771
+    second: Monster_Scorpion_Death_13
+  - first:
+      213: -6733331130184112810
+    second: Monster_Scorpion_Death_14
+  - first:
+      213: 5436282248590993016
+    second: Monster_Scorpion_Death_15
+  - first:
+      213: 5648792074410512323
+    second: Monster_Scorpion_Death_16
+  - first:
+      213: -1247248592139506302
+    second: Monster_Scorpion_Death_17
+  - first:
+      213: -2023010625768888823
+    second: Monster_Scorpion_Death_18
+  - first:
+      213: -331129371468209426
+    second: Monster_Scorpion_Death_19
+  - first:
+      213: -6844083193710029761
+    second: Monster_Scorpion_Death_20
+  - first:
+      213: 2302658361524632350
+    second: Monster_Scorpion_Death_21
+  - first:
+      213: -241890901354005266
+    second: Monster_Scorpion_Death_22
+  - first:
+      213: -4391992322112211890
+    second: Monster_Scorpion_Death_23
+  - first:
+      213: 3473753444947069384
+    second: Monster_Scorpion_Death_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 767
+        width: 173
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713246c67df7bd270800000000000000
+      internalID: 8276349303436616471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 767
+        width: 174
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea3635e8be038db0800000000000000
+      internalID: -4790969391309767956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_2
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 767
+        width: 174
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bb505ef9274f200800000000000000
+      internalID: 212921113460980482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_3
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 767
+        width: 173
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a335a50f70314b320800000000000000
+      internalID: 2572702211953546042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 602
+        width: 97
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e95fdad592c595a0800000000000000
+      internalID: -6515087337043568159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 511
+        width: 170
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7865bf0993f643750800000000000000
+      internalID: 6283769673124894343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 511
+        width: 183
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27dd4411d1bb540800000000000000
+      internalID: 5024641769268933367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 511
+        width: 184
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fec7129bd8a0700800000000000000
+      internalID: 507373734302904119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 511
+        width: 186
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d0829855ad403b0800000000000000
+      internalID: -5547068780105429708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_9
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 528
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7cb67ad7be58400800000000000000
+      internalID: 325925472966526920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 255
+        width: 186
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f7beb86d8066780800000000000000
+      internalID: -8690248713401303205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 351
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9695c99e3efea30800000000000000
+      internalID: 4246863566123657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 347
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fab68f5f857b7050800000000000000
+      internalID: 5799358203813083892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 350
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4317ac803de7950800000000000000
+      internalID: 6448823751150744771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 344
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655eb4603076e82a0800000000000000
+      internalID: -6733331130184112810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 354
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876270607ed817b40800000000000000
+      internalID: 5436282248590993016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_16
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 346
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc74d867a846e40800000000000000
+      internalID: 5648792074410512323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 255
+        width: 186
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d2bee7302e0bee0800000000000000
+      internalID: -1247248592139506302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 258
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9066432ed82dce3e0800000000000000
+      internalID: -2023010625768888823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 255
+        width: 140
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee260fe4797976bf0800000000000000
+      internalID: -331129371468209426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 255
+        width: 190
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3451b9c89ee401a0800000000000000
+      internalID: -6844083193710029761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 189
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b32cd649fa4ff10800000000000000
+      internalID: 2302658361524632350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 190
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec356eb181a4acf0800000000000000
+      internalID: -241890901354005266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_23
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 189
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e443248b0428c03c0800000000000000
+      internalID: -4391992322112211890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_Scorpion_Death_24
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 190
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90c5b7a50453030800000000000000
+      internalID: 3473753444947069384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_Scorpion_Death_0: 8276349303436616471
+      Monster_Scorpion_Death_1: -4790969391309767956
+      Monster_Scorpion_Death_10: -8690248713401303205
+      Monster_Scorpion_Death_11: 4246863566123657662
+      Monster_Scorpion_Death_12: 5799358203813083892
+      Monster_Scorpion_Death_13: 6448823751150744771
+      Monster_Scorpion_Death_14: -6733331130184112810
+      Monster_Scorpion_Death_15: 5436282248590993016
+      Monster_Scorpion_Death_16: 5648792074410512323
+      Monster_Scorpion_Death_17: -1247248592139506302
+      Monster_Scorpion_Death_18: -2023010625768888823
+      Monster_Scorpion_Death_19: -331129371468209426
+      Monster_Scorpion_Death_2: 212921113460980482
+      Monster_Scorpion_Death_20: -6844083193710029761
+      Monster_Scorpion_Death_21: 2302658361524632350
+      Monster_Scorpion_Death_22: -241890901354005266
+      Monster_Scorpion_Death_23: -4391992322112211890
+      Monster_Scorpion_Death_24: 3473753444947069384
+      Monster_Scorpion_Death_3: 2572702211953546042
+      Monster_Scorpion_Death_4: -6515087337043568159
+      Monster_Scorpion_Death_5: 6283769673124894343
+      Monster_Scorpion_Death_6: 5024641769268933367
+      Monster_Scorpion_Death_7: 507373734302904119
+      Monster_Scorpion_Death_8: -5547068780105429708
+      Monster_Scorpion_Death_9: 325925472966526920
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

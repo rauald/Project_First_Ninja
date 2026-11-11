@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: d8127d6f2716b3b449f20cb9f6e5fcf8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3048919041768397805
+    second: Monster_FireElemental_Death_0
+  - first:
+      213: 8203122747139794988
+    second: Monster_FireElemental_Death_1
+  - first:
+      213: -5261532897432912266
+    second: Monster_FireElemental_Death_2
+  - first:
+      213: -760953450847635103
+    second: Monster_FireElemental_Death_3
+  - first:
+      213: 8464463527673517884
+    second: Monster_FireElemental_Death_4
+  - first:
+      213: -4141784985114052253
+    second: Monster_FireElemental_Death_5
+  - first:
+      213: 3397041526005510306
+    second: Monster_FireElemental_Death_6
+  - first:
+      213: -7053523374091143220
+    second: Monster_FireElemental_Death_7
+  - first:
+      213: -5502228144296496346
+    second: Monster_FireElemental_Death_8
+  - first:
+      213: 2760779610910045101
+    second: Monster_FireElemental_Death_9
+  - first:
+      213: 6173882172834450882
+    second: Monster_FireElemental_Death_10
+  - first:
+      213: 8761624700053434050
+    second: Monster_FireElemental_Death_11
+  - first:
+      213: 1478692053465312725
+    second: Monster_FireElemental_Death_12
+  - first:
+      213: -6827564242182843023
+    second: Monster_FireElemental_Death_13
+  - first:
+      213: 2671001510063267002
+    second: Monster_FireElemental_Death_14
+  - first:
+      213: -2428728175465133625
+    second: Monster_FireElemental_Death_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 767
+        width: 126
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb9781f6bfef4a20800000000000000
+      internalID: 3048919041768397805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 767
+        width: 123
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28a1303da857d170800000000000000
+      internalID: 8203122747139794988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 767
+        width: 124
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eba72e4b74bf6b0800000000000000
+      internalID: -5261532897432912266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 767
+        width: 121
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1697e9f3edc8075f0800000000000000
+      internalID: -760953450847635103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 511
+        width: 115
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37da355bb0d77570800000000000000
+      internalID: 8464463527673517884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 511
+        width: 107
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369fa3a008c6586c0800000000000000
+      internalID: -4141784985114052253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_6
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 511
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a03fc40547b42f20800000000000000
+      internalID: 3397041526005510306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_7
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 511
+        width: 96
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7f168ccd9dc1e90800000000000000
+      internalID: -7053523374091143220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 91
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623fc02a7a824a3b0800000000000000
+      internalID: -5502228144296496346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 255
+        width: 78
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da33f6bcd62405620800000000000000
+      internalID: 2760779610910045101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 255
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd0ae420290ea550800000000000000
+      internalID: 6173882172834450882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 255
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce29fd5e3b879970800000000000000
+      internalID: 8761624700053434050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd2ef2969e558410800000000000000
+      internalID: 1478692053465312725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1755887ee7e9f31a0800000000000000
+      internalID: -6827564242182843023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_14
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc5ad9c8bd411520800000000000000
+      internalID: 2671001510063267002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster_FireElemental_Death_15
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c90b65a79c6b4ed0800000000000000
+      internalID: -2428728175465133625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monster_FireElemental_Death_0: 3048919041768397805
+      Monster_FireElemental_Death_1: 8203122747139794988
+      Monster_FireElemental_Death_10: 6173882172834450882
+      Monster_FireElemental_Death_11: 8761624700053434050
+      Monster_FireElemental_Death_12: 1478692053465312725
+      Monster_FireElemental_Death_13: -6827564242182843023
+      Monster_FireElemental_Death_14: 2671001510063267002
+      Monster_FireElemental_Death_15: -2428728175465133625
+      Monster_FireElemental_Death_2: -5261532897432912266
+      Monster_FireElemental_Death_3: -760953450847635103
+      Monster_FireElemental_Death_4: 8464463527673517884
+      Monster_FireElemental_Death_5: -4141784985114052253
+      Monster_FireElemental_Death_6: 3397041526005510306
+      Monster_FireElemental_Death_7: -7053523374091143220
+      Monster_FireElemental_Death_8: -5502228144296496346
+      Monster_FireElemental_Death_9: 2760779610910045101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

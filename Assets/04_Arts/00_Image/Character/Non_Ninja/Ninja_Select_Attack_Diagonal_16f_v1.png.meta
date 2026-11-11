@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: 023218c6b2fc1e24c811f60eedc0cbb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7124968830057850590
+    second: Ninja_Select_Attack_Diagonal_16f_v1_0
+  - first:
+      213: 2895100274984895190
+    second: Ninja_Select_Attack_Diagonal_16f_v1_1
+  - first:
+      213: -8851030499043667391
+    second: Ninja_Select_Attack_Diagonal_16f_v1_2
+  - first:
+      213: -1685668958805491526
+    second: Ninja_Select_Attack_Diagonal_16f_v1_3
+  - first:
+      213: 7128244886172373922
+    second: Ninja_Select_Attack_Diagonal_16f_v1_4
+  - first:
+      213: 4161412378010156700
+    second: Ninja_Select_Attack_Diagonal_16f_v1_5
+  - first:
+      213: 6515126554901245
+    second: Ninja_Select_Attack_Diagonal_16f_v1_6
+  - first:
+      213: 1486943751324790058
+    second: Ninja_Select_Attack_Diagonal_16f_v1_7
+  - first:
+      213: -5138192198206416854
+    second: Ninja_Select_Attack_Diagonal_16f_v1_8
+  - first:
+      213: 133669731396683968
+    second: Ninja_Select_Attack_Diagonal_16f_v1_9
+  - first:
+      213: 3645640593172421119
+    second: Ninja_Select_Attack_Diagonal_16f_v1_10
+  - first:
+      213: -5760108558275474677
+    second: Ninja_Select_Attack_Diagonal_16f_v1_11
+  - first:
+      213: 4901259380661956793
+    second: Ninja_Select_Attack_Diagonal_16f_v1_12
+  - first:
+      213: -7473547579502860252
+    second: Ninja_Select_Attack_Diagonal_16f_v1_13
+  - first:
+      213: 121901507806488977
+    second: Ninja_Select_Attack_Diagonal_16f_v1_14
+  - first:
+      213: 4421117936900640795
+    second: Ninja_Select_Attack_Diagonal_16f_v1_15
+  - first:
+      213: 4180872133778161627
+    second: Ninja_Select_Attack_Diagonal_16f_v1_16
+  - first:
+      213: -8367780318478973322
+    second: Ninja_Select_Attack_Diagonal_16f_v1_17
+  - first:
+      213: 6782870221671114936
+    second: Ninja_Select_Attack_Diagonal_16f_v1_18
+  - first:
+      213: 4337580079042586238
+    second: Ninja_Select_Attack_Diagonal_16f_v1_19
+  - first:
+      213: -8295941489605990062
+    second: Ninja_Select_Attack_Diagonal_16f_v1_20
+  - first:
+      213: 4596826783222433081
+    second: Ninja_Select_Attack_Diagonal_16f_v1_21
+  - first:
+      213: -1697829370902559868
+    second: Ninja_Select_Attack_Diagonal_16f_v1_22
+  - first:
+      213: 6545358969272751426
+    second: Ninja_Select_Attack_Diagonal_16f_v1_23
+  - first:
+      213: 8050867187302841479
+    second: Ninja_Select_Attack_Diagonal_16f_v1_24
+  - first:
+      213: 1154664937177319883
+    second: Ninja_Select_Attack_Diagonal_16f_v1_25
+  - first:
+      213: -6701534994140794543
+    second: Ninja_Select_Attack_Diagonal_16f_v1_26
+  - first:
+      213: -7798602759665911413
+    second: Ninja_Select_Attack_Diagonal_16f_v1_27
+  - first:
+      213: -354439270913755990
+    second: Ninja_Select_Attack_Diagonal_16f_v1_28
+  - first:
+      213: 4657856782661334069
+    second: Ninja_Select_Attack_Diagonal_16f_v1_29
+  - first:
+      213: -7842024983107878419
+    second: Ninja_Select_Attack_Diagonal_16f_v1_30
+  - first:
+      213: 583174467202659093
+    second: Ninja_Select_Attack_Diagonal_16f_v1_31
+  - first:
+      213: -5208808760702752988
+    second: Ninja_Select_Attack_Diagonal_16f_v1_32
+  - first:
+      213: 526169790936617232
+    second: Ninja_Select_Attack_Diagonal_16f_v1_33
+  - first:
+      213: 5837610866389745297
+    second: Ninja_Select_Attack_Diagonal_16f_v1_34
+  - first:
+      213: 5887661962506669753
+    second: Ninja_Select_Attack_Diagonal_16f_v1_35
+  - first:
+      213: 3448839723045860453
+    second: Ninja_Select_Attack_Diagonal_16f_v1_36
+  - first:
+      213: 5865358668907156097
+    second: Ninja_Select_Attack_Diagonal_16f_v1_37
+  - first:
+      213: 7282112506472969764
+    second: Ninja_Select_Attack_Diagonal_16f_v1_38
+  - first:
+      213: -6831895298281101358
+    second: Ninja_Select_Attack_Diagonal_16f_v1_39
+  - first:
+      213: 4144774992656558938
+    second: Ninja_Select_Attack_Diagonal_16f_v1_40
+  - first:
+      213: 4116706944865270253
+    second: Ninja_Select_Attack_Diagonal_16f_v1_41
+  - first:
+      213: 8425840538555896942
+    second: Ninja_Select_Attack_Diagonal_16f_v1_42
+  - first:
+      213: 3255177311523094027
+    second: Ninja_Select_Attack_Diagonal_16f_v1_43
+  - first:
+      213: -6752650277662843870
+    second: Ninja_Select_Attack_Diagonal_16f_v1_44
+  - first:
+      213: 8794397903885717950
+    second: Ninja_Select_Attack_Diagonal_16f_v1_45
+  - first:
+      213: -969450527761145247
+    second: Ninja_Select_Attack_Diagonal_16f_v1_46
+  - first:
+      213: -8486681811088181927
+    second: Ninja_Select_Attack_Diagonal_16f_v1_47
+  - first:
+      213: 3632339712587617776
+    second: Ninja_Select_Attack_Diagonal_16f_v1_48
+  - first:
+      213: 3983178058101209581
+    second: Ninja_Select_Attack_Diagonal_16f_v1_49
+  - first:
+      213: 9066711939003775629
+    second: Ninja_Select_Attack_Diagonal_16f_v1_50
+  - first:
+      213: 1893937006699201525
+    second: Ninja_Select_Attack_Diagonal_16f_v1_51
+  - first:
+      213: -8167280778790617657
+    second: Ninja_Select_Attack_Diagonal_16f_v1_52
+  - first:
+      213: 3360535610776660786
+    second: Ninja_Select_Attack_Diagonal_16f_v1_53
+  - first:
+      213: 3518767393643815742
+    second: Ninja_Select_Attack_Diagonal_16f_v1_54
+  - first:
+      213: 9158111397413985382
+    second: Ninja_Select_Attack_Diagonal_16f_v1_55
+  - first:
+      213: -5642885405152200487
+    second: Ninja_Select_Attack_Diagonal_16f_v1_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229dba849960f1d90800000000000000
+      internalID: -7124968830057850590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 281
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d24c977c567d2820800000000000000
+      internalID: 2895100274984895190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1013
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1429a58e7a2da2580800000000000000
+      internalID: -8851030499043667391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1012
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab00f75530d4b98e0800000000000000
+      internalID: -1685668958805491526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 971
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a39c48f4fc9ce260800000000000000
+      internalID: 7128244886172373922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 258
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e753b728e40c930800000000000000
+      internalID: 4161412378010156700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_6
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 255
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab8fb1975271000800000000000000
+      internalID: 6515126554901245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 961
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d63b2b67fa2a410800000000000000
+      internalID: 1486943751324790058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 939
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2819364b6971b8b0800000000000000
+      internalID: -5138192198206416854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 851
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c80f1999e3ead100800000000000000
+      internalID: 133669731396683968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 869
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff959c6ddcae79230800000000000000
+      internalID: 3645640593172421119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 872
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b8d4cd8cbff00b0800000000000000
+      internalID: -5760108558275474677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_12
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 858
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b038605075c40440800000000000000
+      internalID: 4901259380661956793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 852
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42860cfa210a84890800000000000000
+      internalID: -7473547579502860252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_14
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 841
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199e36686c411b100800000000000000
+      internalID: 121901507806488977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 814
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10121be657fa5d30800000000000000
+      internalID: 4421117936900640795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 805
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf3d21fd01750a30800000000000000
+      internalID: 4180872133778161627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 805
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6764e8e722cafdb80800000000000000
+      internalID: -8367780318478973322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 747
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b828488788912e50800000000000000
+      internalID: 6782870221671114936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 688
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76e424b91e223c30800000000000000
+      internalID: 4337580079042586238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 652
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2592c924b25eedc80800000000000000
+      internalID: -8295941489605990062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93589f3ba953bcf30800000000000000
+      internalID: 4596826783222433081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483c022ce291078e0800000000000000
+      internalID: -1697829370902559868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_23
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 602
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2455be2cd49c5da50800000000000000
+      internalID: 6545358969272751426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_24
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 602
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cb8013d0d6abf60800000000000000
+      internalID: 8050867187302841479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 552
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc98d0784a1360010800000000000000
+      internalID: 1154664937177319883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_26
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 544
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1517368dd6d5ff2a0800000000000000
+      internalID: -6701534994140794543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 535
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b897bbddb1cc5c390800000000000000
+      internalID: -7798602759665911413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_28
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 553
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4bcba6c57c41bf0800000000000000
+      internalID: -354439270913755990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_29
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 522
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5343c21c01804a040800000000000000
+      internalID: 4657856782661334069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 437
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1cd12a3d78b2390800000000000000
+      internalID: -7842024983107878419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 444
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51331bf861ad71800800000000000000
+      internalID: 583174467202659093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 447
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ae53970896b7b0800000000000000
+      internalID: -5208808760702752988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_33
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 441
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011915813a45d4700800000000000000
+      internalID: 526169790936617232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 424
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19efe1c672c530150800000000000000
+      internalID: 5837610866389745297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_35
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 399
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be0ac85c5d25b150800000000000000
+      internalID: 5887661962506669753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 416
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564b763947dbcdf20800000000000000
+      internalID: 3448839723045860453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_37
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 406
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182187422a0f56150800000000000000
+      internalID: 5865358668907156097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 409
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42630ca0eb24f0560800000000000000
+      internalID: 7282112506472969764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_39
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d72b435c6b3031a0800000000000000
+      internalID: -6831895298281101358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_40
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 381
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b673755e2358930800000000000000
+      internalID: 4144774992656558938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_41
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f315b72b712930800000000000000
+      internalID: 4116706944865270253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_42
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 370
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64d5bae3599ee470800000000000000
+      internalID: 8425840538555896942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_43
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 339
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ebe36a486bc2d20800000000000000
+      internalID: 3255177311523094027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_44
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 277
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c967b7954c942a0800000000000000
+      internalID: -6752650277662843870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_45
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 261
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb15c828c4afb0a70800000000000000
+      internalID: 8794397903885717950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_46
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 189
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1626b71a1e1db82f0800000000000000
+      internalID: -969450527761145247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_47
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 237
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955f1507bdf393a80800000000000000
+      internalID: -8486681811088181927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_48
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 219
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5545049b9a86230800000000000000
+      internalID: 3632339712587617776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_49
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 209
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9b04e0757174730800000000000000
+      internalID: 3983178058101209581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_50
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 175
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8afc15987e63dd70800000000000000
+      internalID: 9066711939003775629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_51
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 189
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3c54f4cad984a10800000000000000
+      internalID: 1893937006699201525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 145
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3f4f576df7ae80800000000000000
+      internalID: -8167280778790617657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 90
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba467455503ae20800000000000000
+      internalID: 3360535610776660786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_54
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 57
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33ed512d4c25d030800000000000000
+      internalID: 3518767393643815742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_55
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 35
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c11505bc5281f70800000000000000
+      internalID: 9158111397413985382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ninja_Select_Attack_Diagonal_16f_v1_56
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8baad0f9170b1b0800000000000000
+      internalID: -5642885405152200487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ninja_Select_Attack_Diagonal_16f_v1_0: -7124968830057850590
+      Ninja_Select_Attack_Diagonal_16f_v1_1: 2895100274984895190
+      Ninja_Select_Attack_Diagonal_16f_v1_10: 3645640593172421119
+      Ninja_Select_Attack_Diagonal_16f_v1_11: -5760108558275474677
+      Ninja_Select_Attack_Diagonal_16f_v1_12: 4901259380661956793
+      Ninja_Select_Attack_Diagonal_16f_v1_13: -7473547579502860252
+      Ninja_Select_Attack_Diagonal_16f_v1_14: 121901507806488977
+      Ninja_Select_Attack_Diagonal_16f_v1_15: 4421117936900640795
+      Ninja_Select_Attack_Diagonal_16f_v1_16: 4180872133778161627
+      Ninja_Select_Attack_Diagonal_16f_v1_17: -8367780318478973322
+      Ninja_Select_Attack_Diagonal_16f_v1_18: 6782870221671114936
+      Ninja_Select_Attack_Diagonal_16f_v1_19: 4337580079042586238
+      Ninja_Select_Attack_Diagonal_16f_v1_2: -8851030499043667391
+      Ninja_Select_Attack_Diagonal_16f_v1_20: -8295941489605990062
+      Ninja_Select_Attack_Diagonal_16f_v1_21: 4596826783222433081
+      Ninja_Select_Attack_Diagonal_16f_v1_22: -1697829370902559868
+      Ninja_Select_Attack_Diagonal_16f_v1_23: 6545358969272751426
+      Ninja_Select_Attack_Diagonal_16f_v1_24: 8050867187302841479
+      Ninja_Select_Attack_Diagonal_16f_v1_25: 1154664937177319883
+      Ninja_Select_Attack_Diagonal_16f_v1_26: -6701534994140794543
+      Ninja_Select_Attack_Diagonal_16f_v1_27: -7798602759665911413
+      Ninja_Select_Attack_Diagonal_16f_v1_28: -354439270913755990
+      Ninja_Select_Attack_Diagonal_16f_v1_29: 4657856782661334069
+      Ninja_Select_Attack_Diagonal_16f_v1_3: -1685668958805491526
+      Ninja_Select_Attack_Diagonal_16f_v1_30: -7842024983107878419
+      Ninja_Select_Attack_Diagonal_16f_v1_31: 583174467202659093
+      Ninja_Select_Attack_Diagonal_16f_v1_32: -5208808760702752988
+      Ninja_Select_Attack_Diagonal_16f_v1_33: 526169790936617232
+      Ninja_Select_Attack_Diagonal_16f_v1_34: 5837610866389745297
+      Ninja_Select_Attack_Diagonal_16f_v1_35: 5887661962506669753
+      Ninja_Select_Attack_Diagonal_16f_v1_36: 3448839723045860453
+      Ninja_Select_Attack_Diagonal_16f_v1_37: 5865358668907156097
+      Ninja_Select_Attack_Diagonal_16f_v1_38: 7282112506472969764
+      Ninja_Select_Attack_Diagonal_16f_v1_39: -6831895298281101358
+      Ninja_Select_Attack_Diagonal_16f_v1_4: 7128244886172373922
+      Ninja_Select_Attack_Diagonal_16f_v1_40: 4144774992656558938
+      Ninja_Select_Attack_Diagonal_16f_v1_41: 4116706944865270253
+      Ninja_Select_Attack_Diagonal_16f_v1_42: 8425840538555896942
+      Ninja_Select_Attack_Diagonal_16f_v1_43: 3255177311523094027
+      Ninja_Select_Attack_Diagonal_16f_v1_44: -6752650277662843870
+      Ninja_Select_Attack_Diagonal_16f_v1_45: 8794397903885717950
+      Ninja_Select_Attack_Diagonal_16f_v1_46: -969450527761145247
+      Ninja_Select_Attack_Diagonal_16f_v1_47: -8486681811088181927
+      Ninja_Select_Attack_Diagonal_16f_v1_48: 3632339712587617776
+      Ninja_Select_Attack_Diagonal_16f_v1_49: 3983178058101209581
+      Ninja_Select_Attack_Diagonal_16f_v1_5: 4161412378010156700
+      Ninja_Select_Attack_Diagonal_16f_v1_50: 9066711939003775629
+      Ninja_Select_Attack_Diagonal_16f_v1_51: 1893937006699201525
+      Ninja_Select_Attack_Diagonal_16f_v1_52: -8167280778790617657
+      Ninja_Select_Attack_Diagonal_16f_v1_53: 3360535610776660786
+      Ninja_Select_Attack_Diagonal_16f_v1_54: 3518767393643815742
+      Ninja_Select_Attack_Diagonal_16f_v1_55: 9158111397413985382
+      Ninja_Select_Attack_Diagonal_16f_v1_56: -5642885405152200487
+      Ninja_Select_Attack_Diagonal_16f_v1_6: 6515126554901245
+      Ninja_Select_Attack_Diagonal_16f_v1_7: 1486943751324790058
+      Ninja_Select_Attack_Diagonal_16f_v1_8: -5138192198206416854
+      Ninja_Select_Attack_Diagonal_16f_v1_9: 133669731396683968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
