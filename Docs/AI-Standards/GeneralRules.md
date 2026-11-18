@@ -20,6 +20,7 @@ Assets ← 최상위 폴더
 ㅣ- 07_Animations
 ㅣ- 08_Effects
 ㅣ- 09_Shader
+ㅣ- 10_Data
 ㅣ- 99_Etc
 ```
 ## 초기 설정 진행
