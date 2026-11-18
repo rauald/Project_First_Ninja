@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: c56b9989e26597549bf88d7286c63a10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1893458498738930503
+    second: IceElemental_Death_0
+  - first:
+      213: -7389877812578125943
+    second: IceElemental_Death_1
+  - first:
+      213: 1235098280257058902
+    second: IceElemental_Death_2
+  - first:
+      213: -6080033406754186905
+    second: IceElemental_Death_3
+  - first:
+      213: 8678740651597720862
+    second: IceElemental_Death_4
+  - first:
+      213: -8228042158017558652
+    second: IceElemental_Death_5
+  - first:
+      213: 850526462814492537
+    second: IceElemental_Death_6
+  - first:
+      213: 4170671973853931110
+    second: IceElemental_Death_7
+  - first:
+      213: 7036409558827716329
+    second: IceElemental_Death_8
+  - first:
+      213: 8009347029950738723
+    second: IceElemental_Death_9
+  - first:
+      213: 3619083472091293531
+    second: IceElemental_Death_10
+  - first:
+      213: -5257516802210057408
+    second: IceElemental_Death_11
+  - first:
+      213: -4093478813290374377
+    second: IceElemental_Death_12
+  - first:
+      213: -5443680680384842662
+    second: IceElemental_Death_13
+  - first:
+      213: 4229632328755434056
+    second: IceElemental_Death_14
+  - first:
+      213: 2580473946208045962
+    second: IceElemental_Death_15
+  - first:
+      213: 5900922447010056869
+    second: IceElemental_Death_16
+  - first:
+      213: 1350117336924559540
+    second: IceElemental_Death_17
+  - first:
+      213: -5966109383407384016
+    second: IceElemental_Death_18
+  - first:
+      213: -3808338192212511885
+    second: IceElemental_Death_19
+  - first:
+      213: -1132534970654179023
+    second: IceElemental_Death_20
+  - first:
+      213: -8062624586146054438
+    second: IceElemental_Death_21
+  - first:
+      213: -7470410253655807257
+    second: IceElemental_Death_22
+  - first:
+      213: -3721685717184324579
+    second: IceElemental_Death_23
+  - first:
+      213: 553185356992633294
+    second: IceElemental_Death_24
+  - first:
+      213: -8485876682433872468
+    second: IceElemental_Death_25
+  - first:
+      213: 4949378359411942928
+    second: IceElemental_Death_26
+  - first:
+      213: 3802221600559838407
+    second: IceElemental_Death_27
+  - first:
+      213: -4377012676393853698
+    second: IceElemental_Death_28
+  - first:
+      213: -2872740705185588576
+    second: IceElemental_Death_29
+  - first:
+      213: 4660829301022063251
+    second: IceElemental_Death_30
+  - first:
+      213: 8603974984613769217
+    second: IceElemental_Death_31
+  - first:
+      213: -1857529198669286236
+    second: IceElemental_Death_32
+  - first:
+      213: 774896052789143058
+    second: IceElemental_Death_33
+  - first:
+      213: -4101907151294606897
+    second: IceElemental_Death_34
+  - first:
+      213: -4834926513988317934
+    second: IceElemental_Death_35
+  - first:
+      213: 3749660019315710056
+    second: IceElemental_Death_36
+  - first:
+      213: -76891275795254653
+    second: IceElemental_Death_37
+  - first:
+      213: -2268415785563760528
+    second: IceElemental_Death_38
+  - first:
+      213: -3761935040677946796
+    second: IceElemental_Death_39
+  - first:
+      213: 6409722350364476390
+    second: IceElemental_Death_40
+  - first:
+      213: -1607972023841892031
+    second: IceElemental_Death_41
+  - first:
+      213: -2832145681804181446
+    second: IceElemental_Death_42
+  - first:
+      213: 4576851407504993800
+    second: IceElemental_Death_43
+  - first:
+      213: -1074682939479683055
+    second: IceElemental_Death_44
+  - first:
+      213: 4923996975882333367
+    second: IceElemental_Death_45
+  - first:
+      213: 1275022683683778105
+    second: IceElemental_Death_46
+  - first:
+      213: 3227393449706278094
+    second: IceElemental_Death_47
+  - first:
+      213: 3046572156017126669
+    second: IceElemental_Death_48
+  - first:
+      213: -5447444487823145548
+    second: IceElemental_Death_49
+  - first:
+      213: 2465305536232543612
+    second: IceElemental_Death_50
+  - first:
+      213: -4817924185732090820
+    second: IceElemental_Death_51
+  - first:
+      213: 5346583695485345490
+    second: IceElemental_Death_52
+  - first:
+      213: -2547189639476475726
+    second: IceElemental_Death_53
+  - first:
+      213: 2588662155682708306
+    second: IceElemental_Death_54
+  - first:
+      213: 7946883864636725349
+    second: IceElemental_Death_55
+  - first:
+      213: -7494187572093747287
+    second: IceElemental_Death_56
+  - first:
+      213: -448559479820610317
+    second: IceElemental_Death_57
+  - first:
+      213: -1668630007905661012
+    second: IceElemental_Death_58
+  - first:
+      213: -7916128603095392336
+    second: IceElemental_Death_59
+  - first:
+      213: -8025655255052637403
+    second: IceElemental_Death_60
+  - first:
+      213: 3474091115218699563
+    second: IceElemental_Death_61
+  - first:
+      213: -2146500148929720434
+    second: IceElemental_Death_62
+  - first:
+      213: 6069361261993570792
+    second: IceElemental_Death_63
+  - first:
+      213: 747412084714964037
+    second: IceElemental_Death_64
+  - first:
+      213: 826859104080496606
+    second: IceElemental_Death_65
+  - first:
+      213: -136505169057717127
+    second: IceElemental_Death_66
+  - first:
+      213: -7399797660826561615
+    second: IceElemental_Death_67
+  - first:
+      213: 4194176570919071193
+    second: IceElemental_Death_68
+  - first:
+      213: 3525248348643562392
+    second: IceElemental_Death_69
+  - first:
+      213: -5001628182359252656
+    second: IceElemental_Death_70
+  - first:
+      213: -3893821588673889119
+    second: IceElemental_Death_71
+  - first:
+      213: -2901376609107934932
+    second: IceElemental_Death_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceElemental_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb8b1078519b5e0800000000000000
+      internalID: -1893458498738930503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9877dbf5841e17990800000000000000
+      internalID: -7389877812578125943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fa619753f32110800000000000000
+      internalID: 1235098280257058902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76998e774d16f9ba0800000000000000
+      internalID: -6080033406754186905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d693404a4117870800000000000000
+      internalID: 8678740651597720862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487cc66504f10dd80800000000000000
+      internalID: -8228042158017558652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9779028cf4dadcb00800000000000000
+      internalID: 850526462814492537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ad34201431e930800000000000000
+      internalID: 4170671973853931110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec618963956a160800000000000000
+      internalID: 7036409558827716329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3213b0b30bae62f60800000000000000
+      internalID: 8009347029950738723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b572d7e3e31993230800000000000000
+      internalID: 3619083472091293531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0433f9be25c8907b0800000000000000
+      internalID: -5257516802210057408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b5d3e15ba0137c0800000000000000
+      internalID: -4093478813290374377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54310753492474b0800000000000000
+      internalID: -5443680680384842662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842d9f5813ca2ba30800000000000000
+      internalID: 4229632328755434056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceElemental_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b81e3d16fafc320800000000000000
+      internalID: 2580473946208045962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: be120e4cfb708304199ea97627c85835
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IceElemental_Death_0: -1893458498738930503
+      IceElemental_Death_1: -7389877812578125943
+      IceElemental_Death_10: 3619083472091293531
+      IceElemental_Death_11: -5257516802210057408
+      IceElemental_Death_12: -4093478813290374377
+      IceElemental_Death_13: -5443680680384842662
+      IceElemental_Death_14: 4229632328755434056
+      IceElemental_Death_15: 2580473946208045962
+      IceElemental_Death_2: 1235098280257058902
+      IceElemental_Death_3: -6080033406754186905
+      IceElemental_Death_4: 8678740651597720862
+      IceElemental_Death_5: -8228042158017558652
+      IceElemental_Death_6: 850526462814492537
+      IceElemental_Death_7: 4170671973853931110
+      IceElemental_Death_8: 7036409558827716329
+      IceElemental_Death_9: 8009347029950738723
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

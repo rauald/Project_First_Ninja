@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: c098f63ff5efa284884556e84f55fd42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4652309563905400367
+    second: Wind_Battle_Death_0
+  - first:
+      213: 7692889877679173766
+    second: Wind_Battle_Death_1
+  - first:
+      213: 4831250230403115412
+    second: Wind_Battle_Death_2
+  - first:
+      213: -5004651480894524557
+    second: Wind_Battle_Death_3
+  - first:
+      213: 2075586829342765122
+    second: Wind_Battle_Death_4
+  - first:
+      213: 2575714181124277138
+    second: Wind_Battle_Death_5
+  - first:
+      213: 5177969188495885194
+    second: Wind_Battle_Death_6
+  - first:
+      213: 3184689882272781869
+    second: Wind_Battle_Death_7
+  - first:
+      213: 8056182414302148946
+    second: Wind_Battle_Death_8
+  - first:
+      213: 8343159952426833166
+    second: Wind_Battle_Death_9
+  - first:
+      213: 8950758065486534362
+    second: Wind_Battle_Death_10
+  - first:
+      213: -5621390876234945197
+    second: Wind_Battle_Death_11
+  - first:
+      213: -19944206629178020
+    second: Wind_Battle_Death_12
+  - first:
+      213: -1032319393135710887
+    second: Wind_Battle_Death_13
+  - first:
+      213: 5470218951569938475
+    second: Wind_Battle_Death_14
+  - first:
+      213: 8820357820389980726
+    second: Wind_Battle_Death_15
+  - first:
+      213: 8721527694760693429
+    second: Wind_Battle_Death_16
+  - first:
+      213: -8631785616451964964
+    second: Wind_Battle_Death_17
+  - first:
+      213: -6982456259085054767
+    second: Wind_Battle_Death_18
+  - first:
+      213: -3493737894329825681
+    second: Wind_Battle_Death_19
+  - first:
+      213: -8537873982174201140
+    second: Wind_Battle_Death_20
+  - first:
+      213: -6627109114599651524
+    second: Wind_Battle_Death_21
+  - first:
+      213: 8393278922570122543
+    second: Wind_Battle_Death_22
+  - first:
+      213: 2763467724231656901
+    second: Wind_Battle_Death_23
+  - first:
+      213: 4791303143258709924
+    second: Wind_Battle_Death_24
+  - first:
+      213: 5782033638444755991
+    second: Wind_Battle_Death_25
+  - first:
+      213: 5288684860832833399
+    second: Wind_Battle_Death_26
+  - first:
+      213: 5824372804222113045
+    second: Wind_Battle_Death_27
+  - first:
+      213: -3406871698435938655
+    second: Wind_Battle_Death_28
+  - first:
+      213: -5154276277598984891
+    second: Wind_Battle_Death_29
+  - first:
+      213: -377073846467827974
+    second: Wind_Battle_Death_30
+  - first:
+      213: -3361151594294312617
+    second: Wind_Battle_Death_31
+  - first:
+      213: -6146619159556137855
+    second: Wind_Battle_Death_32
+  - first:
+      213: -1849386267523280162
+    second: Wind_Battle_Death_33
+  - first:
+      213: -1083010672760991284
+    second: Wind_Battle_Death_34
+  - first:
+      213: -7976820735692164338
+    second: Wind_Battle_Death_35
+  - first:
+      213: -6255273053446224317
+    second: Wind_Battle_Death_36
+  - first:
+      213: 9199240279862943850
+    second: Wind_Battle_Death_37
+  - first:
+      213: 8639690769117037214
+    second: Wind_Battle_Death_38
+  - first:
+      213: 4183333686541873297
+    second: Wind_Battle_Death_39
+  - first:
+      213: 4539130232767623680
+    second: Wind_Battle_Death_40
+  - first:
+      213: -2827389639443202179
+    second: Wind_Battle_Death_41
+  - first:
+      213: 417009686658269642
+    second: Wind_Battle_Death_42
+  - first:
+      213: -8616803305321140014
+    second: Wind_Battle_Death_43
+  - first:
+      213: -7224291239961241366
+    second: Wind_Battle_Death_44
+  - first:
+      213: -884883431078742328
+    second: Wind_Battle_Death_45
+  - first:
+      213: 8108608257040751497
+    second: Wind_Battle_Death_46
+  - first:
+      213: 1181041779684103006
+    second: Wind_Battle_Death_47
+  - first:
+      213: -3806339675365270640
+    second: Wind_Battle_Death_48
+  - first:
+      213: 4693145270278398948
+    second: Wind_Battle_Death_49
+  - first:
+      213: 4347501936467656911
+    second: Wind_Battle_Death_50
+  - first:
+      213: 2248250206560561787
+    second: Wind_Battle_Death_51
+  - first:
+      213: 3038147208210653053
+    second: Wind_Battle_Death_52
+  - first:
+      213: -7824425559683426252
+    second: Wind_Battle_Death_53
+  - first:
+      213: 4149109293192472270
+    second: Wind_Battle_Death_54
+  - first:
+      213: 1215083033794696535
+    second: Wind_Battle_Death_55
+  - first:
+      213: 233086376412003174
+    second: Wind_Battle_Death_56
+  - first:
+      213: -6643776709167073768
+    second: Wind_Battle_Death_57
+  - first:
+      213: 6456897653117869126
+    second: Wind_Battle_Death_58
+  - first:
+      213: -4173744781034532303
+    second: Wind_Battle_Death_59
+  - first:
+      213: -538798065575734597
+    second: Wind_Battle_Death_60
+  - first:
+      213: -1208473028561032094
+    second: Wind_Battle_Death_61
+  - first:
+      213: 3695731205141067017
+    second: Wind_Battle_Death_62
+  - first:
+      213: -2776551911283997637
+    second: Wind_Battle_Death_63
+  - first:
+      213: -5261655116583436181
+    second: Wind_Battle_Death_64
+  - first:
+      213: -496641508500979872
+    second: Wind_Battle_Death_65
+  - first:
+      213: -5398176629839589188
+    second: Wind_Battle_Death_66
+  - first:
+      213: -2864484533931233976
+    second: Wind_Battle_Death_67
+  - first:
+      213: -7453048570037393051
+    second: Wind_Battle_Death_68
+  - first:
+      213: -5634073037512611757
+    second: Wind_Battle_Death_69
+  - first:
+      213: 2587969632590301319
+    second: Wind_Battle_Death_70
+  - first:
+      213: 3953594381602442032
+    second: Wind_Battle_Death_71
+  - first:
+      213: -5594853080782235265
+    second: Wind_Battle_Death_72
+  - first:
+      213: -411083690237786079
+    second: Wind_Battle_Death_73
+  - first:
+      213: -9073821421980125286
+    second: Wind_Battle_Death_74
+  - first:
+      213: 8279451033734555523
+    second: Wind_Battle_Death_75
+  - first:
+      213: 5517978491885708763
+    second: Wind_Battle_Death_76
+  - first:
+      213: -5545716925447795888
+    second: Wind_Battle_Death_77
+  - first:
+      213: -7025145175606909164
+    second: Wind_Battle_Death_78
+  - first:
+      213: -7529221755202672573
+    second: Wind_Battle_Death_79
+  - first:
+      213: -6745670800628308355
+    second: Wind_Battle_Death_80
+  - first:
+      213: -6265115254065451796
+    second: Wind_Battle_Death_81
+  - first:
+      213: -3165041297417298973
+    second: Wind_Battle_Death_82
+  - first:
+      213: -8662383886374942409
+    second: Wind_Battle_Death_83
+  - first:
+      213: -117648211898542919
+    second: Wind_Battle_Death_84
+  - first:
+      213: 8044572932759537796
+    second: Wind_Battle_Death_85
+  - first:
+      213: 5957144676082391765
+    second: Wind_Battle_Death_86
+  - first:
+      213: -8075737186737289722
+    second: Wind_Battle_Death_87
+  - first:
+      213: 7581596232677092975
+    second: Wind_Battle_Death_88
+  - first:
+      213: 8759915468218213508
+    second: Wind_Battle_Death_89
+  - first:
+      213: -4382329399882922275
+    second: Wind_Battle_Death_90
+  - first:
+      213: -2725678540972614240
+    second: Wind_Battle_Death_91
+  - first:
+      213: 4922136590746847937
+    second: Wind_Battle_Death_92
+  - first:
+      213: -4041273394427125128
+    second: Wind_Battle_Death_93
+  - first:
+      213: 7335928983099747713
+    second: Wind_Battle_Death_94
+  - first:
+      213: 5239413315374847395
+    second: Wind_Battle_Death_95
+  - first:
+      213: 7651891331926556426
+    second: Wind_Battle_Death_96
+  - first:
+      213: -4386415352047549830
+    second: Wind_Battle_Death_97
+  - first:
+      213: -8435951769106759572
+    second: Wind_Battle_Death_98
+  - first:
+      213: -7257998509604408474
+    second: Wind_Battle_Death_99
+  - first:
+      213: 7646971305490835394
+    second: Wind_Battle_Death_100
+  - first:
+      213: -358610946126425012
+    second: Wind_Battle_Death_101
+  - first:
+      213: 3975805808444145592
+    second: Wind_Battle_Death_102
+  - first:
+      213: 5172898377745082909
+    second: Wind_Battle_Death_103
+  - first:
+      213: 2702790960480241459
+    second: Wind_Battle_Death_104
+  - first:
+      213: 7864855198430291886
+    second: Wind_Battle_Death_105
+  - first:
+      213: 4568526798201577878
+    second: Wind_Battle_Death_106
+  - first:
+      213: -8018752722419112623
+    second: Wind_Battle_Death_107
+  - first:
+      213: 6958477035489151728
+    second: Wind_Battle_Death_108
+  - first:
+      213: 6733200585925876470
+    second: Wind_Battle_Death_109
+  - first:
+      213: -2191645500707650408
+    second: Wind_Battle_Death_110
+  - first:
+      213: 7945984654890160311
+    second: Wind_Battle_Death_111
+  - first:
+      213: 2073593647820985766
+    second: Wind_Battle_Death_112
+  - first:
+      213: 53840286120692315
+    second: Wind_Battle_Death_113
+  - first:
+      213: -572744467873657115
+    second: Wind_Battle_Death_114
+  - first:
+      213: 6490140354452626533
+    second: Wind_Battle_Death_115
+  - first:
+      213: -3177749150304529176
+    second: Wind_Battle_Death_116
+  - first:
+      213: 2782561868663158863
+    second: Wind_Battle_Death_117
+  - first:
+      213: 9137584049408771454
+    second: Wind_Battle_Death_118
+  - first:
+      213: -6118168166411100238
+    second: Wind_Battle_Death_119
+  - first:
+      213: 5276283193368387707
+    second: Wind_Battle_Death_120
+  - first:
+      213: 7295915254969358020
+    second: Wind_Battle_Death_121
+  - first:
+      213: -1323516177502050368
+    second: Wind_Battle_Death_122
+  - first:
+      213: -3542141350468082318
+    second: Wind_Battle_Death_123
+  - first:
+      213: 6879025128612699170
+    second: Wind_Battle_Death_124
+  - first:
+      213: 4172944992153452630
+    second: Wind_Battle_Death_125
+  - first:
+      213: -6552891472222208773
+    second: Wind_Battle_Death_126
+  - first:
+      213: -5498294477973134773
+    second: Wind_Battle_Death_127
+  - first:
+      213: 6580120263874226707
+    second: Wind_Battle_Death_128
+  - first:
+      213: -3502377315310014641
+    second: Wind_Battle_Death_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wind_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d12442c91daf6fb0800000000000000
+      internalID: -4652309563905400367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680f347c592a2ca60800000000000000
+      internalID: 7692889877679173766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499a33ccc7c0c0340800000000000000
+      internalID: 4831250230403115412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37336a07ef7eb8ab0800000000000000
+      internalID: -5004651480894524557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240747f6937fdcc10800000000000000
+      internalID: 2075586829342765122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29349d8a666ceb320800000000000000
+      internalID: 2575714181124277138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83073afa87dbd740800000000000000
+      internalID: 5177969188495885194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2656a0239a423c20800000000000000
+      internalID: 3184689882272781869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2597a3ae83f4dcf60800000000000000
+      internalID: 8056182414302148946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e059aa4d5cbd8c370800000000000000
+      internalID: 8343159952426833166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad699c3990b773c70800000000000000
+      internalID: 8950758065486534362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35de46e08ceccf1b0800000000000000
+      internalID: -5621390876234945197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c557a8889d429bff0800000000000000
+      internalID: -19944206629178020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d266d3bf67ca1f0800000000000000
+      internalID: -1032319393135710887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b289feb672f1aeb40800000000000000
+      internalID: 5470218951569938475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63afe2494b4386a70800000000000000
+      internalID: 8820357820389980726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cf543a34f9df0b9498684b291b641aa8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Wind_Battle_Death_0: -4652309563905400367
+      Wind_Battle_Death_1: 7692889877679173766
+      Wind_Battle_Death_10: 8950758065486534362
+      Wind_Battle_Death_11: -5621390876234945197
+      Wind_Battle_Death_12: -19944206629178020
+      Wind_Battle_Death_13: -1032319393135710887
+      Wind_Battle_Death_14: 5470218951569938475
+      Wind_Battle_Death_15: 8820357820389980726
+      Wind_Battle_Death_2: 4831250230403115412
+      Wind_Battle_Death_3: -5004651480894524557
+      Wind_Battle_Death_4: 2075586829342765122
+      Wind_Battle_Death_5: 2575714181124277138
+      Wind_Battle_Death_6: 5177969188495885194
+      Wind_Battle_Death_7: 3184689882272781869
+      Wind_Battle_Death_8: 8056182414302148946
+      Wind_Battle_Death_9: 8343159952426833166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

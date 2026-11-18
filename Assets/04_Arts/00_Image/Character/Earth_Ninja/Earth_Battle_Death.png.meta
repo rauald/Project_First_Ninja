@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: a66d181ca58aa974583f020447d945c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5651187947510163174
+    second: Earth_Battle_Death_0
+  - first:
+      213: 5914127165642110504
+    second: Earth_Battle_Death_1
+  - first:
+      213: 1959580851651451018
+    second: Earth_Battle_Death_2
+  - first:
+      213: -4363633205620889417
+    second: Earth_Battle_Death_3
+  - first:
+      213: -8683458617624912548
+    second: Earth_Battle_Death_4
+  - first:
+      213: -8955731273260797933
+    second: Earth_Battle_Death_5
+  - first:
+      213: 3432772396355589047
+    second: Earth_Battle_Death_6
+  - first:
+      213: 4031916187534990741
+    second: Earth_Battle_Death_7
+  - first:
+      213: 1042830848431327352
+    second: Earth_Battle_Death_8
+  - first:
+      213: 2986598143020341944
+    second: Earth_Battle_Death_9
+  - first:
+      213: -4649541437476851784
+    second: Earth_Battle_Death_10
+  - first:
+      213: 2577025283194010560
+    second: Earth_Battle_Death_11
+  - first:
+      213: -7900649830145946016
+    second: Earth_Battle_Death_12
+  - first:
+      213: 2838849675052812491
+    second: Earth_Battle_Death_13
+  - first:
+      213: -3979292362906759710
+    second: Earth_Battle_Death_14
+  - first:
+      213: 722882919522109987
+    second: Earth_Battle_Death_15
+  - first:
+      213: -8622099523882117257
+    second: Earth_Battle_Death_16
+  - first:
+      213: -1133076944710563938
+    second: Earth_Battle_Death_17
+  - first:
+      213: -3012036527803579055
+    second: Earth_Battle_Death_18
+  - first:
+      213: 7805997743218086043
+    second: Earth_Battle_Death_19
+  - first:
+      213: 7647403109359863290
+    second: Earth_Battle_Death_20
+  - first:
+      213: 728392185642652114
+    second: Earth_Battle_Death_21
+  - first:
+      213: -1734213449574136879
+    second: Earth_Battle_Death_22
+  - first:
+      213: -2594623192547885909
+    second: Earth_Battle_Death_23
+  - first:
+      213: 5934254146958107610
+    second: Earth_Battle_Death_24
+  - first:
+      213: 8450582936981461776
+    second: Earth_Battle_Death_25
+  - first:
+      213: -6948925387499615879
+    second: Earth_Battle_Death_26
+  - first:
+      213: -3181764436434330379
+    second: Earth_Battle_Death_27
+  - first:
+      213: 1367112132741582570
+    second: Earth_Battle_Death_28
+  - first:
+      213: 6049184963444638042
+    second: Earth_Battle_Death_29
+  - first:
+      213: -841176043192725946
+    second: Earth_Battle_Death_30
+  - first:
+      213: 2868043468271178001
+    second: Earth_Battle_Death_31
+  - first:
+      213: 519822723880785990
+    second: Earth_Battle_Death_32
+  - first:
+      213: -5622941977898830222
+    second: Earth_Battle_Death_33
+  - first:
+      213: -7034652954887397776
+    second: Earth_Battle_Death_34
+  - first:
+      213: -5102203949269884035
+    second: Earth_Battle_Death_35
+  - first:
+      213: 5022992757906519975
+    second: Earth_Battle_Death_36
+  - first:
+      213: -5274314725493540632
+    second: Earth_Battle_Death_37
+  - first:
+      213: -1023782172452992486
+    second: Earth_Battle_Death_38
+  - first:
+      213: -5138143714779488391
+    second: Earth_Battle_Death_39
+  - first:
+      213: 3672179993264234025
+    second: Earth_Battle_Death_40
+  - first:
+      213: 201654382183057157
+    second: Earth_Battle_Death_41
+  - first:
+      213: 7182002402480975594
+    second: Earth_Battle_Death_42
+  - first:
+      213: 4810370636460688950
+    second: Earth_Battle_Death_43
+  - first:
+      213: -1892202035482192619
+    second: Earth_Battle_Death_44
+  - first:
+      213: 2060348097140657341
+    second: Earth_Battle_Death_45
+  - first:
+      213: -8109577213973136055
+    second: Earth_Battle_Death_46
+  - first:
+      213: -7390082467051430213
+    second: Earth_Battle_Death_47
+  - first:
+      213: 2929251431102653892
+    second: Earth_Battle_Death_48
+  - first:
+      213: 4695685962848587151
+    second: Earth_Battle_Death_49
+  - first:
+      213: 1360860787264820598
+    second: Earth_Battle_Death_50
+  - first:
+      213: 1021587326865959876
+    second: Earth_Battle_Death_51
+  - first:
+      213: 6318241854336340722
+    second: Earth_Battle_Death_52
+  - first:
+      213: -7485537403350184153
+    second: Earth_Battle_Death_53
+  - first:
+      213: 7231137885813291403
+    second: Earth_Battle_Death_54
+  - first:
+      213: 6722275010559275705
+    second: Earth_Battle_Death_55
+  - first:
+      213: 5679501513823848618
+    second: Earth_Battle_Death_56
+  - first:
+      213: -261846210741302392
+    second: Earth_Battle_Death_57
+  - first:
+      213: -8329107713728189622
+    second: Earth_Battle_Death_58
+  - first:
+      213: 2250692928766383411
+    second: Earth_Battle_Death_59
+  - first:
+      213: 247262461240103469
+    second: Earth_Battle_Death_60
+  - first:
+      213: -294267824676321834
+    second: Earth_Battle_Death_61
+  - first:
+      213: 106848262260338152
+    second: Earth_Battle_Death_62
+  - first:
+      213: 3242490078275624180
+    second: Earth_Battle_Death_63
+  - first:
+      213: 9202821930394635492
+    second: Earth_Battle_Death_64
+  - first:
+      213: -8896125898527935583
+    second: Earth_Battle_Death_65
+  - first:
+      213: -8700493959255427608
+    second: Earth_Battle_Death_66
+  - first:
+      213: 7012232395870822860
+    second: Earth_Battle_Death_67
+  - first:
+      213: -6024942724945330820
+    second: Earth_Battle_Death_68
+  - first:
+      213: -955531392068041328
+    second: Earth_Battle_Death_69
+  - first:
+      213: 6470737462626732379
+    second: Earth_Battle_Death_70
+  - first:
+      213: 6126876336025169291
+    second: Earth_Battle_Death_71
+  - first:
+      213: -6857174857120681167
+    second: Earth_Battle_Death_72
+  - first:
+      213: 6365050491321851083
+    second: Earth_Battle_Death_73
+  - first:
+      213: 3579053953363768661
+    second: Earth_Battle_Death_74
+  - first:
+      213: 3631344293970394874
+    second: Earth_Battle_Death_75
+  - first:
+      213: 5481557952363496728
+    second: Earth_Battle_Death_76
+  - first:
+      213: 5008021743939215232
+    second: Earth_Battle_Death_77
+  - first:
+      213: -1432687491220267367
+    second: Earth_Battle_Death_78
+  - first:
+      213: 4518343570326855185
+    second: Earth_Battle_Death_79
+  - first:
+      213: -6996257894899426130
+    second: Earth_Battle_Death_80
+  - first:
+      213: -4983094837560017571
+    second: Earth_Battle_Death_81
+  - first:
+      213: 2533931393692359783
+    second: Earth_Battle_Death_82
+  - first:
+      213: -8791553009048619519
+    second: Earth_Battle_Death_83
+  - first:
+      213: 7795000888555069942
+    second: Earth_Battle_Death_84
+  - first:
+      213: -5020137421039241051
+    second: Earth_Battle_Death_85
+  - first:
+      213: 5907083846525424399
+    second: Earth_Battle_Death_86
+  - first:
+      213: -2077897563338689229
+    second: Earth_Battle_Death_87
+  - first:
+      213: -6779484037250464807
+    second: Earth_Battle_Death_88
+  - first:
+      213: 4104124195919023795
+    second: Earth_Battle_Death_89
+  - first:
+      213: 910121371755334731
+    second: Earth_Battle_Death_90
+  - first:
+      213: 3946690447483167278
+    second: Earth_Battle_Death_91
+  - first:
+      213: 2993135176203292481
+    second: Earth_Battle_Death_92
+  - first:
+      213: -435048781243667199
+    second: Earth_Battle_Death_93
+  - first:
+      213: 353899956681167060
+    second: Earth_Battle_Death_94
+  - first:
+      213: -8182614322338930504
+    second: Earth_Battle_Death_95
+  - first:
+      213: 3310071984462456973
+    second: Earth_Battle_Death_96
+  - first:
+      213: 1053735251311299744
+    second: Earth_Battle_Death_97
+  - first:
+      213: 6342318861013114062
+    second: Earth_Battle_Death_98
+  - first:
+      213: 3275871313196991023
+    second: Earth_Battle_Death_99
+  - first:
+      213: -126323725119813403
+    second: Earth_Battle_Death_100
+  - first:
+      213: 8306428059479051006
+    second: Earth_Battle_Death_101
+  - first:
+      213: -774617458047371156
+    second: Earth_Battle_Death_102
+  - first:
+      213: -8795427112706449952
+    second: Earth_Battle_Death_103
+  - first:
+      213: -1727199941521832101
+    second: Earth_Battle_Death_104
+  - first:
+      213: 1740390860061734071
+    second: Earth_Battle_Death_105
+  - first:
+      213: 8455286587302878009
+    second: Earth_Battle_Death_106
+  - first:
+      213: -5638428057884480440
+    second: Earth_Battle_Death_107
+  - first:
+      213: -8516780372523940009
+    second: Earth_Battle_Death_108
+  - first:
+      213: -7614464488256672295
+    second: Earth_Battle_Death_109
+  - first:
+      213: 3421789664338220773
+    second: Earth_Battle_Death_110
+  - first:
+      213: -5821324386208455610
+    second: Earth_Battle_Death_111
+  - first:
+      213: -6847052896331069126
+    second: Earth_Battle_Death_112
+  - first:
+      213: -1892188386779955445
+    second: Earth_Battle_Death_113
+  - first:
+      213: 1049850196138532806
+    second: Earth_Battle_Death_114
+  - first:
+      213: 5740108274454705679
+    second: Earth_Battle_Death_115
+  - first:
+      213: 4334469061873076520
+    second: Earth_Battle_Death_116
+  - first:
+      213: 7307168765999504720
+    second: Earth_Battle_Death_117
+  - first:
+      213: 7876545515092950232
+    second: Earth_Battle_Death_118
+  - first:
+      213: -78295439316757889
+    second: Earth_Battle_Death_119
+  - first:
+      213: -4934291571347327242
+    second: Earth_Battle_Death_120
+  - first:
+      213: -4202239518789671039
+    second: Earth_Battle_Death_121
+  - first:
+      213: 8257567853535228420
+    second: Earth_Battle_Death_122
+  - first:
+      213: 4014253796856625934
+    second: Earth_Battle_Death_123
+  - first:
+      213: 4713674056461259547
+    second: Earth_Battle_Death_124
+  - first:
+      213: 8796353872799708015
+    second: Earth_Battle_Death_125
+  - first:
+      213: -6851921424532008001
+    second: Earth_Battle_Death_126
+  - first:
+      213: 7933985271368753586
+    second: Earth_Battle_Death_127
+  - first:
+      213: -7942404658186910748
+    second: Earth_Battle_Death_128
+  - first:
+      213: -8837339483720227038
+    second: Earth_Battle_Death_129
+  - first:
+      213: -5960721983977823731
+    second: Earth_Battle_Death_130
+  - first:
+      213: 1768474289879583008
+    second: Earth_Battle_Death_131
+  - first:
+      213: -2401695978120048114
+    second: Earth_Battle_Death_132
+  - first:
+      213: -4391768777872810077
+    second: Earth_Battle_Death_133
+  - first:
+      213: 8238642183556003679
+    second: Earth_Battle_Death_134
+  - first:
+      213: 7486649882767870707
+    second: Earth_Battle_Death_135
+  - first:
+      213: -7075662929910394272
+    second: Earth_Battle_Death_136
+  - first:
+      213: -8507055515791181227
+    second: Earth_Battle_Death_137
+  - first:
+      213: -1896151776105244457
+    second: Earth_Battle_Death_138
+  - first:
+      213: -5215501977302783150
+    second: Earth_Battle_Death_139
+  - first:
+      213: 4759212989840446935
+    second: Earth_Battle_Death_140
+  - first:
+      213: 4876362281060876335
+    second: Earth_Battle_Death_141
+  - first:
+      213: -6543875694101581618
+    second: Earth_Battle_Death_142
+  - first:
+      213: -906890522475765412
+    second: Earth_Battle_Death_143
+  - first:
+      213: -3336464063583282749
+    second: Earth_Battle_Death_144
+  - first:
+      213: -8068529836904809075
+    second: Earth_Battle_Death_145
+  - first:
+      213: 7199167114615561426
+    second: Earth_Battle_Death_146
+  - first:
+      213: 474075500046616571
+    second: Earth_Battle_Death_147
+  - first:
+      213: 2381370718003728144
+    second: Earth_Battle_Death_148
+  - first:
+      213: 3710565951568679047
+    second: Earth_Battle_Death_149
+  - first:
+      213: 6584032706369375346
+    second: Earth_Battle_Death_150
+  - first:
+      213: -1855348569492640802
+    second: Earth_Battle_Death_151
+  - first:
+      213: -1548573606998033673
+    second: Earth_Battle_Death_152
+  - first:
+      213: -3459939029149347954
+    second: Earth_Battle_Death_153
+  - first:
+      213: -6156781382933411550
+    second: Earth_Battle_Death_154
+  - first:
+      213: -2391608106504663859
+    second: Earth_Battle_Death_155
+  - first:
+      213: 8659844599033036670
+    second: Earth_Battle_Death_156
+  - first:
+      213: 999595157466381625
+    second: Earth_Battle_Death_157
+  - first:
+      213: -5726750366480637226
+    second: Earth_Battle_Death_158
+  - first:
+      213: -7306696867137974866
+    second: Earth_Battle_Death_159
+  - first:
+      213: 985346295351066747
+    second: Earth_Battle_Death_160
+  - first:
+      213: 7559194466848770613
+    second: Earth_Battle_Death_161
+  - first:
+      213: 7797437397328211205
+    second: Earth_Battle_Death_162
+  - first:
+      213: 1204544156780042317
+    second: Earth_Battle_Death_163
+  - first:
+      213: -6393801073945692838
+    second: Earth_Battle_Death_164
+  - first:
+      213: -1127857760045600219
+    second: Earth_Battle_Death_165
+  - first:
+      213: -8143718755769706307
+    second: Earth_Battle_Death_166
+  - first:
+      213: -8614567515626980323
+    second: Earth_Battle_Death_167
+  - first:
+      213: 6923977634821224716
+    second: Earth_Battle_Death_168
+  - first:
+      213: -2911250567824178383
+    second: Earth_Battle_Death_169
+  - first:
+      213: -3435517877925997928
+    second: Earth_Battle_Death_170
+  - first:
+      213: -2179307442919623805
+    second: Earth_Battle_Death_171
+  - first:
+      213: 5521696780137876655
+    second: Earth_Battle_Death_172
+  - first:
+      213: 250866530723461142
+    second: Earth_Battle_Death_173
+  - first:
+      213: -5172856435441483456
+    second: Earth_Battle_Death_174
+  - first:
+      213: 8450093861007345225
+    second: Earth_Battle_Death_175
+  - first:
+      213: -4932925085768336925
+    second: Earth_Battle_Death_176
+  - first:
+      213: -365686042243801254
+    second: Earth_Battle_Death_177
+  - first:
+      213: -1188789521646346890
+    second: Earth_Battle_Death_178
+  - first:
+      213: -3151242707090428254
+    second: Earth_Battle_Death_179
+  - first:
+      213: -1652407333621167869
+    second: Earth_Battle_Death_180
+  - first:
+      213: 4488850105521280183
+    second: Earth_Battle_Death_181
+  - first:
+      213: -3032196268757772304
+    second: Earth_Battle_Death_182
+  - first:
+      213: -8887187189805654492
+    second: Earth_Battle_Death_183
+  - first:
+      213: 2628967851572203850
+    second: Earth_Battle_Death_184
+  - first:
+      213: -7294616681985599697
+    second: Earth_Battle_Death_185
+  - first:
+      213: -5355288990502914569
+    second: Earth_Battle_Death_186
+  - first:
+      213: 6502032854752311331
+    second: Earth_Battle_Death_187
+  - first:
+      213: 4491837304407772986
+    second: Earth_Battle_Death_188
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6ef4a3f7d0d6e40800000000000000
+      internalID: 5651187947510163174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826f590a253331250800000000000000
+      internalID: 5914127165642110504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88975bf664d13b10800000000000000
+      internalID: 1959580851651451018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b82ed018b24173c0800000000000000
+      internalID: -4363633205620889417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d99aae4682e7780800000000000000
+      internalID: -8683458617624912548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310fe614bd9d6b380800000000000000
+      internalID: -8955731273260797933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b39a8f8e48a3af20800000000000000
+      internalID: 3432772396355589047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d9b2a196e34f730800000000000000
+      internalID: 4031916187534990741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8788199a121e87e00800000000000000
+      internalID: 1042830848431327352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba9199ff27827920800000000000000
+      internalID: 2986598143020341944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfabba62b2897fb0800000000000000
+      internalID: -4649541437476851784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbbaf567de63c320800000000000000
+      internalID: 2577025283194010560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e8663c6d04b5290800000000000000
+      internalID: -7900649830145946016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc881441dbe956720800000000000000
+      internalID: 2838849675052812491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed848bdda6b6c8c0800000000000000
+      internalID: -3979292362906759710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a00507f22380a00800000000000000
+      internalID: 722882919522109987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1c525182cfb1e0e4b9efea1716c6b398
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Earth_Battle_Death_0: 5651187947510163174
+      Earth_Battle_Death_1: 5914127165642110504
+      Earth_Battle_Death_10: -4649541437476851784
+      Earth_Battle_Death_11: 2577025283194010560
+      Earth_Battle_Death_12: -7900649830145946016
+      Earth_Battle_Death_13: 2838849675052812491
+      Earth_Battle_Death_14: -3979292362906759710
+      Earth_Battle_Death_15: 722882919522109987
+      Earth_Battle_Death_2: 1959580851651451018
+      Earth_Battle_Death_3: -4363633205620889417
+      Earth_Battle_Death_4: -8683458617624912548
+      Earth_Battle_Death_5: -8955731273260797933
+      Earth_Battle_Death_6: 3432772396355589047
+      Earth_Battle_Death_7: 4031916187534990741
+      Earth_Battle_Death_8: 1042830848431327352
+      Earth_Battle_Death_9: 2986598143020341944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 9f5ee1001c633ad478ef911abfd8c308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1030393991974584249
+    second: Wood_Battle_Idle_0
+  - first:
+      213: 9160984923621240454
+    second: Wood_Battle_Idle_1
+  - first:
+      213: -7676500046066031228
+    second: Wood_Battle_Idle_2
+  - first:
+      213: 6118833858112776253
+    second: Wood_Battle_Idle_3
+  - first:
+      213: -3935251178775035382
+    second: Wood_Battle_Idle_4
+  - first:
+      213: -2971077251678541334
+    second: Wood_Battle_Idle_5
+  - first:
+      213: -3230016242669705082
+    second: Wood_Battle_Idle_6
+  - first:
+      213: -6925390107624988074
+    second: Wood_Battle_Idle_7
+  - first:
+      213: -5080459930712824095
+    second: Wood_Battle_Idle_8
+  - first:
+      213: 2193806280956267193
+    second: Wood_Battle_Idle_9
+  - first:
+      213: -4870365905498148839
+    second: Wood_Battle_Idle_10
+  - first:
+      213: -7685377740682164984
+    second: Wood_Battle_Idle_11
+  - first:
+      213: 4026757571502507275
+    second: Wood_Battle_Idle_12
+  - first:
+      213: 5190078089968485143
+    second: Wood_Battle_Idle_13
+  - first:
+      213: -5048333748105699936
+    second: Wood_Battle_Idle_14
+  - first:
+      213: 4124514210921100384
+    second: Wood_Battle_Idle_15
+  - first:
+      213: 1178561759412257391
+    second: Wood_Battle_Idle_16
+  - first:
+      213: -5541519036447729021
+    second: Wood_Battle_Idle_17
+  - first:
+      213: -6249686153403659416
+    second: Wood_Battle_Idle_18
+  - first:
+      213: -2673615823394602989
+    second: Wood_Battle_Idle_19
+  - first:
+      213: -7596068972670308711
+    second: Wood_Battle_Idle_20
+  - first:
+      213: 2222788308279333006
+    second: Wood_Battle_Idle_21
+  - first:
+      213: -3341564826383311570
+    second: Wood_Battle_Idle_22
+  - first:
+      213: -3383165940764898244
+    second: Wood_Battle_Idle_23
+  - first:
+      213: 8919639111281267402
+    second: Wood_Battle_Idle_24
+  - first:
+      213: -2724553778779511345
+    second: Wood_Battle_Idle_25
+  - first:
+      213: -9198905922493594339
+    second: Wood_Battle_Idle_26
+  - first:
+      213: 455975885597049050
+    second: Wood_Battle_Idle_27
+  - first:
+      213: 7498478219479164094
+    second: Wood_Battle_Idle_28
+  - first:
+      213: 7381101297471344797
+    second: Wood_Battle_Idle_29
+  - first:
+      213: -4248024510772414384
+    second: Wood_Battle_Idle_30
+  - first:
+      213: -1413540217476769842
+    second: Wood_Battle_Idle_31
+  - first:
+      213: -3053655943829459840
+    second: Wood_Battle_Idle_32
+  - first:
+      213: -1475068852431697965
+    second: Wood_Battle_Idle_33
+  - first:
+      213: -5927008136504633321
+    second: Wood_Battle_Idle_34
+  - first:
+      213: 6164922389471073594
+    second: Wood_Battle_Idle_35
+  - first:
+      213: -4465238903516772474
+    second: Wood_Battle_Idle_36
+  - first:
+      213: 940242042317952650
+    second: Wood_Battle_Idle_37
+  - first:
+      213: -8531726739472536822
+    second: Wood_Battle_Idle_38
+  - first:
+      213: 8832058893085031694
+    second: Wood_Battle_Idle_39
+  - first:
+      213: 2953884775271658248
+    second: Wood_Battle_Idle_40
+  - first:
+      213: 4136631130469778183
+    second: Wood_Battle_Idle_41
+  - first:
+      213: -3644775141737157485
+    second: Wood_Battle_Idle_42
+  - first:
+      213: -7953373218434719153
+    second: Wood_Battle_Idle_43
+  - first:
+      213: -7528445516794686136
+    second: Wood_Battle_Idle_44
+  - first:
+      213: -7834674261594507135
+    second: Wood_Battle_Idle_45
+  - first:
+      213: 3461300691426583971
+    second: Wood_Battle_Idle_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf775e50e1bc4e00800000000000000
+      internalID: 1030393991974584249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e2725404b522f70800000000000000
+      internalID: 9160984923621240454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485e6f341e7977590800000000000000
+      internalID: -7676500046066031228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e17899f67ae450800000000000000
+      internalID: 6118833858112776253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a024d2b17ed2369c0800000000000000
+      internalID: -3935251178775035382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9e4752bfc94c6d0800000000000000
+      internalID: -2971077251678541334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6882ee4375dac23d0800000000000000
+      internalID: -3230016242669705082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6522200b36214ef90800000000000000
+      internalID: -6925390107624988074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a1464c949e79b0800000000000000
+      internalID: -5080459930712824095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba4b627037f17e10800000000000000
+      internalID: 2193806280956267193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910fb94630cf86cb0800000000000000
+      internalID: -4870365905498148839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80502f9e9ad085590800000000000000
+      internalID: -7685377740682164984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0585063daae1e730800000000000000
+      internalID: 4026757571502507275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7130c1d468cd60840800000000000000
+      internalID: 5190078089968485143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad1b8c0437b0f9b0800000000000000
+      internalID: -5048333748105699936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064b00d72d73d3930800000000000000
+      internalID: 4124514210921100384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 492ee5c1526210d4f838e76533788bb4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Wood_Battle_Idle_0: 1030393991974584249
+      Wood_Battle_Idle_1: 9160984923621240454
+      Wood_Battle_Idle_10: -4870365905498148839
+      Wood_Battle_Idle_11: -7685377740682164984
+      Wood_Battle_Idle_12: 4026757571502507275
+      Wood_Battle_Idle_13: 5190078089968485143
+      Wood_Battle_Idle_14: -5048333748105699936
+      Wood_Battle_Idle_15: 4124514210921100384
+      Wood_Battle_Idle_2: -7676500046066031228
+      Wood_Battle_Idle_3: 6118833858112776253
+      Wood_Battle_Idle_4: -3935251178775035382
+      Wood_Battle_Idle_5: -2971077251678541334
+      Wood_Battle_Idle_6: -3230016242669705082
+      Wood_Battle_Idle_7: -6925390107624988074
+      Wood_Battle_Idle_8: -5080459930712824095
+      Wood_Battle_Idle_9: 2193806280956267193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

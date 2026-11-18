@@ -1,0 +1,855 @@
+fileFormatVersion: 2
+guid: b339f3df4185cc84498ab48a33b9caaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1330810209003499914
+    second: Fire_Select_Attack_0
+  - first:
+      213: -177676893124398644
+    second: Fire_Select_Attack_1
+  - first:
+      213: -4941328804029193230
+    second: Fire_Select_Attack_2
+  - first:
+      213: 3957258196695853931
+    second: Fire_Select_Attack_3
+  - first:
+      213: 9056215849337351919
+    second: Fire_Select_Attack_4
+  - first:
+      213: -1592139908111475279
+    second: Fire_Select_Attack_5
+  - first:
+      213: 1568757372479931526
+    second: Fire_Select_Attack_6
+  - first:
+      213: 444519126268705400
+    second: Fire_Select_Attack_7
+  - first:
+      213: -5821370415179380420
+    second: Fire_Select_Attack_8
+  - first:
+      213: -4790742266477798426
+    second: Fire_Select_Attack_9
+  - first:
+      213: 3406528824941666419
+    second: Fire_Select_Attack_10
+  - first:
+      213: -3620701691523355186
+    second: Fire_Select_Attack_11
+  - first:
+      213: 6800871098681572749
+    second: Fire_Select_Attack_12
+  - first:
+      213: -2088442229966636027
+    second: Fire_Select_Attack_13
+  - first:
+      213: 2898521101058889036
+    second: Fire_Select_Attack_14
+  - first:
+      213: 321361703785321474
+    second: Fire_Select_Attack_15
+  - first:
+      213: 3788676896929700956
+    second: Fire_Select_Attack_16
+  - first:
+      213: -5051835580214240763
+    second: Fire_Select_Attack_17
+  - first:
+      213: -7911686208447172868
+    second: Fire_Select_Attack_18
+  - first:
+      213: -6002905131243467046
+    second: Fire_Select_Attack_19
+  - first:
+      213: -1187494663845905848
+    second: Fire_Select_Attack_20
+  - first:
+      213: -5232812271633241260
+    second: Fire_Select_Attack_21
+  - first:
+      213: -5214649386574740313
+    second: Fire_Select_Attack_22
+  - first:
+      213: -6020155169498702020
+    second: Fire_Select_Attack_23
+  - first:
+      213: -5820113145976838417
+    second: Fire_Select_Attack_24
+  - first:
+      213: 8741300411149941936
+    second: Fire_Select_Attack_25
+  - first:
+      213: 8023083150701856785
+    second: Fire_Select_Attack_26
+  - first:
+      213: 5874100243376363584
+    second: Fire_Select_Attack_27
+  - first:
+      213: 1428631067231736264
+    second: Fire_Select_Attack_28
+  - first:
+      213: -8824176009481152334
+    second: Fire_Select_Attack_29
+  - first:
+      213: 7237859695708730478
+    second: Fire_Select_Attack_30
+  - first:
+      213: -4873520054623724270
+    second: Fire_Select_Attack_31
+  - first:
+      213: 5055591296914277639
+    second: Fire_Select_Attack_32
+  - first:
+      213: 5371571837851094865
+    second: Fire_Select_Attack_33
+  - first:
+      213: -6632516496747422625
+    second: Fire_Select_Attack_34
+  - first:
+      213: -501066153905513750
+    second: Fire_Select_Attack_35
+  - first:
+      213: 6156818057966576747
+    second: Fire_Select_Attack_36
+  - first:
+      213: -8710134980227527360
+    second: Fire_Select_Attack_37
+  - first:
+      213: 5478685022152081115
+    second: Fire_Select_Attack_38
+  - first:
+      213: 152880795065480140
+    second: Fire_Select_Attack_39
+  - first:
+      213: 2408962678167257230
+    second: Fire_Select_Attack_40
+  - first:
+      213: -4957996011046702227
+    second: Fire_Select_Attack_41
+  - first:
+      213: -5648877504920075101
+    second: Fire_Select_Attack_42
+  - first:
+      213: 392618156434761945
+    second: Fire_Select_Attack_43
+  - first:
+      213: 4364821791640201013
+    second: Fire_Select_Attack_44
+  - first:
+      213: 4515959208142129483
+    second: Fire_Select_Attack_45
+  - first:
+      213: 5630434165678195166
+    second: Fire_Select_Attack_46
+  - first:
+      213: -1650427538481065511
+    second: Fire_Select_Attack_47
+  - first:
+      213: -408482858917316633
+    second: Fire_Select_Attack_48
+  - first:
+      213: 677617509929563318
+    second: Fire_Select_Attack_49
+  - first:
+      213: -347463732238147396
+    second: Fire_Select_Attack_50
+  - first:
+      213: 7183329862623995575
+    second: Fire_Select_Attack_51
+  - first:
+      213: -6067763199249204368
+    second: Fire_Select_Attack_52
+  - first:
+      213: -8620280643485348228
+    second: Fire_Select_Attack_53
+  - first:
+      213: -3902494634358723412
+    second: Fire_Select_Attack_54
+  - first:
+      213: -2236505243452718532
+    second: Fire_Select_Attack_55
+  - first:
+      213: -6841158025065392400
+    second: Fire_Select_Attack_56
+  - first:
+      213: -6701510908703851449
+    second: Fire_Select_Attack_57
+  - first:
+      213: -2174637630311617269
+    second: Fire_Select_Attack_58
+  - first:
+      213: -1556220865113001447
+    second: Fire_Select_Attack_59
+  - first:
+      213: -7606467908053085635
+    second: Fire_Select_Attack_60
+  - first:
+      213: 8006957518696717306
+    second: Fire_Select_Attack_61
+  - first:
+      213: -4088716726151914091
+    second: Fire_Select_Attack_62
+  - first:
+      213: 4211002203057630067
+    second: Fire_Select_Attack_63
+  - first:
+      213: -6918962525372584088
+    second: Fire_Select_Attack_64
+  - first:
+      213: -3625942047069609770
+    second: Fire_Select_Attack_65
+  - first:
+      213: 2030623108179556001
+    second: Fire_Select_Attack_66
+  - first:
+      213: -8909357348305284261
+    second: Fire_Select_Attack_67
+  - first:
+      213: -1005782769365885981
+    second: Fire_Select_Attack_68
+  - first:
+      213: 1898996247743768610
+    second: Fire_Select_Attack_69
+  - first:
+      213: 4147240149302662062
+    second: Fire_Select_Attack_70
+  - first:
+      213: 7173075913584976769
+    second: Fire_Select_Attack_71
+  - first:
+      213: 6409398988783980512
+    second: Fire_Select_Attack_72
+  - first:
+      213: -2514532704832480247
+    second: Fire_Select_Attack_73
+  - first:
+      213: 7120936733082970619
+    second: Fire_Select_Attack_74
+  - first:
+      213: -1923364282979397010
+    second: Fire_Select_Attack_75
+  - first:
+      213: 4659787572019677082
+    second: Fire_Select_Attack_76
+  - first:
+      213: 2472439927759263175
+    second: Fire_Select_Attack_77
+  - first:
+      213: -1804241953025111239
+    second: Fire_Select_Attack_78
+  - first:
+      213: 5454612810835063331
+    second: Fire_Select_Attack_79
+  - first:
+      213: 904393857902940303
+    second: Fire_Select_Attack_80
+  - first:
+      213: -5665426953390008304
+    second: Fire_Select_Attack_81
+  - first:
+      213: -8928150307331520053
+    second: Fire_Select_Attack_82
+  - first:
+      213: 4785754281456620251
+    second: Fire_Select_Attack_83
+  - first:
+      213: -1003435098169816575
+    second: Fire_Select_Attack_84
+  - first:
+      213: 2684075155400789099
+    second: Fire_Select_Attack_85
+  - first:
+      213: 6876021497260312098
+    second: Fire_Select_Attack_86
+  - first:
+      213: -1952392922410214861
+    second: Fire_Select_Attack_87
+  - first:
+      213: 7683581664680918997
+    second: Fire_Select_Attack_88
+  - first:
+      213: 4809044647038466851
+    second: Fire_Select_Attack_89
+  - first:
+      213: 8749064568480227874
+    second: Fire_Select_Attack_90
+  - first:
+      213: -4399724793360168717
+    second: Fire_Select_Attack_91
+  - first:
+      213: -946208163415698486
+    second: Fire_Select_Attack_92
+  - first:
+      213: 1772531630657806623
+    second: Fire_Select_Attack_93
+  - first:
+      213: 3777070301554602759
+    second: Fire_Select_Attack_94
+  - first:
+      213: 1922801418812014668
+    second: Fire_Select_Attack_95
+  - first:
+      213: 2171383121691769700
+    second: Fire_Select_Attack_96
+  - first:
+      213: -1867207168629647289
+    second: Fire_Select_Attack_97
+  - first:
+      213: -8317057984451735775
+    second: Fire_Select_Attack_98
+  - first:
+      213: 8318191173743278085
+    second: Fire_Select_Attack_99
+  - first:
+      213: 7493214390367848627
+    second: Fire_Select_Attack_100
+  - first:
+      213: -4353663141216483139
+    second: Fire_Select_Attack_101
+  - first:
+      213: 7480425588427992695
+    second: Fire_Select_Attack_102
+  - first:
+      213: 948633659931489470
+    second: Fire_Select_Attack_103
+  - first:
+      213: 3280765884570404846
+    second: Fire_Select_Attack_104
+  - first:
+      213: -178195394529627326
+    second: Fire_Select_Attack_105
+  - first:
+      213: 62090529792588077
+    second: Fire_Select_Attack_106
+  - first:
+      213: 4513527700155539444
+    second: Fire_Select_Attack_107
+  - first:
+      213: -8256415776882313068
+    second: Fire_Select_Attack_108
+  - first:
+      213: 7581373126806233716
+    second: Fire_Select_Attack_109
+  - first:
+      213: -1483772704970753384
+    second: Fire_Select_Attack_110
+  - first:
+      213: -6731565603695070639
+    second: Fire_Select_Attack_111
+  - first:
+      213: 4891310167029150998
+    second: Fire_Select_Attack_112
+  - first:
+      213: -2925567017752859846
+    second: Fire_Select_Attack_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_Select_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81fd1b85dcf77210800000000000000
+      internalID: 1330810209003499914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1768c9ec3c88df0800000000000000
+      internalID: -177676893124398644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f32f6d02afdc6bb0800000000000000
+      internalID: -4941328804029193230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b2f8a0d510be630800000000000000
+      internalID: 3957258196695853931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feee30545542ead70800000000000000
+      internalID: 9056215849337351919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdda48603597e9e0800000000000000
+      internalID: -1592139908111475279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6840175c48855c510800000000000000
+      internalID: 1568757372479931526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87afc194acf3b2600800000000000000
+      internalID: 444519126268705400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c3494376563fa0800000000000000
+      internalID: -5821370415179380420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb14248a4dd38db0800000000000000
+      internalID: -4790742266477798426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370e6cfeaeb664f20800000000000000
+      internalID: 3406528824941666419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd281faefea0cdc0800000000000000
+      internalID: -3620701691523355186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8db2205b3c816e50800000000000000
+      internalID: 6800871098681572749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cf9ec5bdc5403e0800000000000000
+      internalID: -2088442229966636027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45d69a959d993820800000000000000
+      internalID: 2898521101058889036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Select_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d98654c4b57400800000000000000
+      internalID: 321361703785321474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6e1143c43f0b664fb3159489e5fc5da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fire_Select_Attack_0: 1330810209003499914
+      Fire_Select_Attack_1: -177676893124398644
+      Fire_Select_Attack_10: 3406528824941666419
+      Fire_Select_Attack_11: -3620701691523355186
+      Fire_Select_Attack_12: 6800871098681572749
+      Fire_Select_Attack_13: -2088442229966636027
+      Fire_Select_Attack_14: 2898521101058889036
+      Fire_Select_Attack_15: 321361703785321474
+      Fire_Select_Attack_2: -4941328804029193230
+      Fire_Select_Attack_3: 3957258196695853931
+      Fire_Select_Attack_4: 9056215849337351919
+      Fire_Select_Attack_5: -1592139908111475279
+      Fire_Select_Attack_6: 1568757372479931526
+      Fire_Select_Attack_7: 444519126268705400
+      Fire_Select_Attack_8: -5821370415179380420
+      Fire_Select_Attack_9: -4790742266477798426
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

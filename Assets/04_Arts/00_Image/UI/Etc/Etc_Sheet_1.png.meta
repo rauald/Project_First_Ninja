@@ -1,0 +1,2069 @@
+fileFormatVersion: 2
+guid: c82674211f07a934e835c69752f6b180
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2568545063367725780
+    second: Etc_Sheet_1_0
+  - first:
+      213: 6537613642901321529
+    second: Etc_Sheet_1_1
+  - first:
+      213: 2128977852602544297
+    second: Etc_Sheet_1_2
+  - first:
+      213: 2191435968497677096
+    second: Etc_Sheet_1_3
+  - first:
+      213: -7622691466516870975
+    second: Etc_Sheet_1_4
+  - first:
+      213: 3772536449993381713
+    second: Etc_Sheet_1_5
+  - first:
+      213: 7233249449867988949
+    second: Etc_Sheet_1_6
+  - first:
+      213: 2597473628238513169
+    second: Etc_Sheet_1_7
+  - first:
+      213: 1747850876943699898
+    second: Etc_Sheet_1_8
+  - first:
+      213: 7283712268983010424
+    second: Etc_Sheet_1_9
+  - first:
+      213: 1447344315647697285
+    second: Etc_Sheet_1_10
+  - first:
+      213: -566964471613219104
+    second: Etc_Sheet_1_11
+  - first:
+      213: 8965526748961866723
+    second: Etc_Sheet_1_12
+  - first:
+      213: 7442926186180492724
+    second: Etc_Sheet_1_13
+  - first:
+      213: -30159021818394312
+    second: Etc_Sheet_1_14
+  - first:
+      213: -5058282827590976845
+    second: Etc_Sheet_1_15
+  - first:
+      213: -6152705994515757292
+    second: Etc_Sheet_1_16
+  - first:
+      213: -3705521522017818090
+    second: Etc_Sheet_1_17
+  - first:
+      213: -8449337184745556151
+    second: Etc_Sheet_1_18
+  - first:
+      213: -1391828642841371357
+    second: Etc_Sheet_1_19
+  - first:
+      213: -733776894031455335
+    second: Etc_Sheet_1_20
+  - first:
+      213: -6598833787197258308
+    second: Etc_Sheet_1_21
+  - first:
+      213: 3622867967552520834
+    second: Etc_Sheet_1_22
+  - first:
+      213: -5787264951822394594
+    second: Etc_Sheet_1_23
+  - first:
+      213: -1597955328577240285
+    second: Etc_Sheet_1_24
+  - first:
+      213: -811036627164381015
+    second: Etc_Sheet_1_25
+  - first:
+      213: -2361044752823166560
+    second: Etc_Sheet_1_26
+  - first:
+      213: 6280678830899756686
+    second: Etc_Sheet_1_27
+  - first:
+      213: -7322491293742311219
+    second: Etc_Sheet_1_28
+  - first:
+      213: 6278140324056791368
+    second: Etc_Sheet_1_29
+  - first:
+      213: 3313883227571429963
+    second: Etc_Sheet_1_30
+  - first:
+      213: 3415967013292544463
+    second: Etc_Sheet_1_31
+  - first:
+      213: -4843522102613864674
+    second: Etc_Sheet_1_32
+  - first:
+      213: 5343474818680873717
+    second: Etc_Sheet_1_33
+  - first:
+      213: -7604334969412102511
+    second: Etc_Sheet_1_34
+  - first:
+      213: 3090442191024361037
+    second: Etc_Sheet_1_35
+  - first:
+      213: -4752152759690252907
+    second: Etc_Sheet_1_36
+  - first:
+      213: -6228155889960951732
+    second: Etc_Sheet_1_37
+  - first:
+      213: 5380733813447661101
+    second: Etc_Sheet_1_38
+  - first:
+      213: 8701079526441219290
+    second: Etc_Sheet_1_39
+  - first:
+      213: 707074721134081823
+    second: Etc_Sheet_1_40
+  - first:
+      213: 5612997746544725798
+    second: Etc_Sheet_1_41
+  - first:
+      213: 5534727573311715271
+    second: Etc_Sheet_1_42
+  - first:
+      213: 2260780916621411999
+    second: Etc_Sheet_1_43
+  - first:
+      213: -1544883548716787760
+    second: Etc_Sheet_1_44
+  - first:
+      213: 3093328845627760323
+    second: Etc_Sheet_1_45
+  - first:
+      213: 3423422840086001525
+    second: Etc_Sheet_1_46
+  - first:
+      213: 1233321410666920538
+    second: Etc_Sheet_1_47
+  - first:
+      213: 2057106634143727969
+    second: Etc_Sheet_1_48
+  - first:
+      213: -5605126689428121426
+    second: Etc_Sheet_1_49
+  - first:
+      213: 6223295832340259621
+    second: Etc_Sheet_1_50
+  - first:
+      213: -6926423877614305587
+    second: Etc_Sheet_1_51
+  - first:
+      213: -8978740866792349348
+    second: Etc_Sheet_1_52
+  - first:
+      213: 21076379280858915
+    second: Etc_Sheet_1_53
+  - first:
+      213: -5633416335381371267
+    second: Etc_Sheet_1_54
+  - first:
+      213: 1518893163163995630
+    second: Etc_Sheet_1_55
+  - first:
+      213: -8077726035543505494
+    second: Etc_Sheet_1_56
+  - first:
+      213: 8639380625455477997
+    second: Etc_Sheet_1_57
+  - first:
+      213: -5518112883844817033
+    second: Etc_Sheet_1_58
+  - first:
+      213: 4349517625544360624
+    second: Etc_Sheet_1_59
+  - first:
+      213: -2050034442671689051
+    second: Etc_Sheet_1_60
+  - first:
+      213: -8047656770704290408
+    second: Etc_Sheet_1_61
+  - first:
+      213: -4852159113027675666
+    second: Etc_Sheet_1_62
+  - first:
+      213: 1979370087015663060
+    second: Etc_Sheet_1_63
+  - first:
+      213: 2922415568497635505
+    second: Etc_Sheet_1_64
+  - first:
+      213: 5485578248478768637
+    second: Etc_Sheet_1_65
+  - first:
+      213: -5065698487816741814
+    second: Etc_Sheet_1_66
+  - first:
+      213: -7594300989966364400
+    second: Etc_Sheet_1_67
+  - first:
+      213: -747095995650451956
+    second: Etc_Sheet_1_68
+  - first:
+      213: -4026338688705661175
+    second: Etc_Sheet_1_69
+  - first:
+      213: -8769668064440940989
+    second: Etc_Sheet_1_70
+  - first:
+      213: 3489604707440182677
+    second: Etc_Sheet_1_71
+  - first:
+      213: -1562563584905467197
+    second: Etc_Sheet_1_72
+  - first:
+      213: 7544417510388879858
+    second: Etc_Sheet_1_73
+  - first:
+      213: 4168308656452547881
+    second: Etc_Sheet_1_74
+  - first:
+      213: 1411266071064337894
+    second: Etc_Sheet_1_75
+  - first:
+      213: 8846378598299652619
+    second: Etc_Sheet_1_76
+  - first:
+      213: 8583184823119026326
+    second: Etc_Sheet_1_77
+  - first:
+      213: -118799723232599658
+    second: Etc_Sheet_1_78
+  - first:
+      213: 4028932140692142684
+    second: Etc_Sheet_1_79
+  - first:
+      213: -8687312842024077138
+    second: Etc_Sheet_1_80
+  - first:
+      213: -2205825174743247992
+    second: Etc_Sheet_1_81
+  - first:
+      213: 3293724528356019127
+    second: Etc_Sheet_1_82
+  - first:
+      213: -6766737881409510180
+    second: Etc_Sheet_1_83
+  - first:
+      213: 6790636999164510161
+    second: Etc_Sheet_1_84
+  - first:
+      213: 2951683000604635438
+    second: Etc_Sheet_1_85
+  - first:
+      213: 675479074118909772
+    second: Etc_Sheet_1_86
+  - first:
+      213: 1757469559264132783
+    second: Etc_Sheet_1_87
+  - first:
+      213: -3039640230005554455
+    second: Etc_Sheet_1_88
+  - first:
+      213: -907780894763535292
+    second: Etc_Sheet_1_89
+  - first:
+      213: 6355357329592279940
+    second: Etc_Sheet_1_90
+  - first:
+      213: 3899687773254190701
+    second: Etc_Sheet_1_91
+  - first:
+      213: 3517236438559966684
+    second: Etc_Sheet_1_92
+  - first:
+      213: 6315723371150953851
+    second: Etc_Sheet_1_93
+  - first:
+      213: -3352926179176445202
+    second: Etc_Sheet_1_94
+  - first:
+      213: -1106718769825630230
+    second: Etc_Sheet_1_95
+  - first:
+      213: -3523612840352669303
+    second: Etc_Sheet_1_96
+  - first:
+      213: 6682898993472563750
+    second: Etc_Sheet_1_97
+  - first:
+      213: 3818764895395714012
+    second: Etc_Sheet_1_98
+  - first:
+      213: -7785641104544530530
+    second: Etc_Sheet_1_99
+  - first:
+      213: -4914402818025737378
+    second: Etc_Sheet_1_100
+  - first:
+      213: -3009403190786000530
+    second: Etc_Sheet_1_101
+  - first:
+      213: -1496165742751287567
+    second: Etc_Sheet_1_102
+  - first:
+      213: 6526923236524319667
+    second: Etc_Sheet_1_103
+  - first:
+      213: -8724423145982098592
+    second: Etc_Sheet_1_104
+  - first:
+      213: 3838404333295096621
+    second: Etc_Sheet_1_105
+  - first:
+      213: -8262416528313022636
+    second: Etc_Sheet_1_106
+  - first:
+      213: -2846462457796287132
+    second: Etc_Sheet_1_107
+  - first:
+      213: 6382774828176440505
+    second: Etc_Sheet_1_108
+  - first:
+      213: 7058766762407021723
+    second: Etc_Sheet_1_109
+  - first:
+      213: 9211472001932585270
+    second: Etc_Sheet_1_110
+  - first:
+      213: 869152087804902252
+    second: Etc_Sheet_1_111
+  - first:
+      213: 6090488757652497051
+    second: Etc_Sheet_1_112
+  - first:
+      213: -5751318712522405529
+    second: Etc_Sheet_1_113
+  - first:
+      213: 5487712959443721171
+    second: Etc_Sheet_1_114
+  - first:
+      213: 6843735524563955271
+    second: Etc_Sheet_1_115
+  - first:
+      213: 6145839589708355970
+    second: Etc_Sheet_1_116
+  - first:
+      213: 4028329843095474892
+    second: Etc_Sheet_1_117
+  - first:
+      213: -593144349735625768
+    second: Etc_Sheet_1_118
+  - first:
+      213: -57107705553907263
+    second: Etc_Sheet_1_119
+  - first:
+      213: 3173204254284297466
+    second: Etc_Sheet_1_120
+  - first:
+      213: 3973495817328765957
+    second: Etc_Sheet_1_121
+  - first:
+      213: -1894714797259607983
+    second: Etc_Sheet_1_122
+  - first:
+      213: 8957738844615400530
+    second: Etc_Sheet_1_123
+  - first:
+      213: -6751494011307820812
+    second: Etc_Sheet_1_124
+  - first:
+      213: -7064788217469219627
+    second: Etc_Sheet_1_125
+  - first:
+      213: -8823736640239226843
+    second: Etc_Sheet_1_126
+  - first:
+      213: -3561168662264548927
+    second: Etc_Sheet_1_127
+  - first:
+      213: -1818073656527493187
+    second: Etc_Sheet_1_128
+  - first:
+      213: -8524484324363254436
+    second: Etc_Sheet_1_129
+  - first:
+      213: 261244771420815811
+    second: Etc_Sheet_1_130
+  - first:
+      213: -3027191130047758684
+    second: Etc_Sheet_1_131
+  - first:
+      213: 297533312331695752
+    second: Etc_Sheet_1_132
+  - first:
+      213: -441327690606811783
+    second: Etc_Sheet_1_133
+  - first:
+      213: -2028272666297330883
+    second: Etc_Sheet_1_134
+  - first:
+      213: 4211856297675141228
+    second: Etc_Sheet_1_135
+  - first:
+      213: -6525490228795981276
+    second: Etc_Sheet_1_136
+  - first:
+      213: -8636629865535032707
+    second: Etc_Sheet_1_137
+  - first:
+      213: 4603616472761165845
+    second: Etc_Sheet_1_138
+  - first:
+      213: -3458106131357834438
+    second: Etc_Sheet_1_139
+  - first:
+      213: 4601862409751193364
+    second: Etc_Sheet_1_140
+  - first:
+      213: -3828453870726772136
+    second: Etc_Sheet_1_141
+  - first:
+      213: 7404934404464011235
+    second: Etc_Sheet_1_142
+  - first:
+      213: -7119890021979301961
+    second: Etc_Sheet_1_143
+  - first:
+      213: 2180115672378622579
+    second: Etc_Sheet_1_144
+  - first:
+      213: 6749377107492241604
+    second: Etc_Sheet_1_145
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Etc_Sheet_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 250
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2dd9b502e45a320800000000000000
+      internalID: 2568545063367725780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 628
+        width: 250
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93771ef68f44aba50800000000000000
+      internalID: 6537613642901321529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 979
+        width: 300
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a07c0fb316ab8d10800000000000000
+      internalID: 2128977852602544297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_3
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 866
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8237152176b896e10800000000000000
+      internalID: 2191435968497677096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 866
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c84cd97f72c63690800000000000000
+      internalID: -7622691466516870975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_5
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 912
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157911cd9edba5430800000000000000
+      internalID: 3772536449993381713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 753
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfcb2f1d0aa16460800000000000000
+      internalID: 7233249449867988949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 753
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1140a9cb0841c0420800000000000000
+      internalID: 2597473628238513169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 799
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf8590bc1d914810800000000000000
+      internalID: 1747850876943699898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 686
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87403e6c7b1f41560800000000000000
+      internalID: 7283712268983010424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_10
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 799
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581acd99cfff51410800000000000000
+      internalID: 1447344315647697285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_11
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 686
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee1a3521dcb128f0800000000000000
+      internalID: -566964471613219104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_12
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 640
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e38228a313fb6c70800000000000000
+      internalID: 8965526748961866723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 640
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdbdb89ee59a4760800000000000000
+      internalID: 7442926186180492724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 562
+        width: 162
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839cdb9878ad49ff0800000000000000
+      internalID: -30159021818394312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 562
+        width: 336
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417c8751f723d9aa0800000000000000
+      internalID: -6152705994515757292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_18
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 563
+        width: 111
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947fdb3d89cedba80800000000000000
+      internalID: -8449337184745556151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_20
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 562
+        width: 133
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b9dd67dc911d5f0800000000000000
+      internalID: -733776894031455335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_22
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 562
+        width: 105
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2820c12c833074230800000000000000
+      internalID: 3622867967552520834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_23
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 562
+        width: 173
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bde8540318fafa0800000000000000
+      internalID: -5787264951822394594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 104
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9dc218e42eb3fd0800000000000000
+      internalID: -2361044752823166560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 502
+        width: 263
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8599de6f8416a90800000000000000
+      internalID: -7322491293742311219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_31
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 502
+        width: 116
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc111c766e3f76f20800000000000000
+      internalID: 3415967013292544463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_32
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 502
+        width: 323
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f82fb4f4a58ccb0800000000000000
+      internalID: -4843522102613864674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_35
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 502
+        width: 105
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e03e28cc473ea20800000000000000
+      internalID: 3090442191024361037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 217
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d25483e36fc0eb0800000000000000
+      internalID: -4752152759690252907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_38
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 441
+        width: 222
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d261b7d15e43caa40800000000000000
+      internalID: 5380733813447661101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_41
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 440
+        width: 223
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fcdd726bf55ed40800000000000000
+      internalID: 5612997746544725798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_43
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 441
+        width: 214
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96833af348ef5f10800000000000000
+      internalID: 2260780916621411999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_46
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 387
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577f84b5fe0728f20800000000000000
+      internalID: 3423422840086001525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 155
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a7fa0e943ad1110800000000000000
+      internalID: 1233321410666920538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_49
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 378
+        width: 160
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8539329f69632b0800000000000000
+      internalID: -5605126689428121426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_51
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 381
+        width: 114
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcef30b5e2660ef90800000000000000
+      internalID: -6926423877614305587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_53
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 379
+        width: 161
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fdf24fad0ea4000800000000000000
+      internalID: 21076379280858915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_55
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 380
+        width: 112
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedc822d841341510800000000000000
+      internalID: 1518893163163995630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_56
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 379
+        width: 105
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54182e7f626ef80800000000000000
+      internalID: -8077726035543505494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_57
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 378
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de47aabc7ee35e770800000000000000
+      internalID: 8639380625455477997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 322
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f5cef7199bb63b0800000000000000
+      internalID: -5518112883844817033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 312
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b24fd65c379c5c30800000000000000
+      internalID: 4349517625544360624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 311
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2fc333980dc83e0800000000000000
+      internalID: -2050034442671689051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_61
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 320
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d47eb2ecaf05090800000000000000
+      internalID: -8047656770704290408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_62
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee99f4a9efaa9acb0800000000000000
+      internalID: -4852159113027675666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_63
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 320
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d54a936b92287b10800000000000000
+      internalID: 1979370087015663060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_64
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 320
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07f56d9718e8820800000000000000
+      internalID: 2922415568497635505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_65
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 274
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdbf286a50b02c40800000000000000
+      internalID: 5485578248478768637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 548
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c1376801603b9b0800000000000000
+      internalID: -5065698487816741814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 552
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907794a8b429f18c0800000000000000
+      internalID: -4026338688705661175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34609eceb51eb4680800000000000000
+      internalID: -8769668064440940989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_71
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595c0812ef09d6030800000000000000
+      internalID: 3489604707440182677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caafb6c2b8a05ae0800000000000000
+      internalID: -1562563584905467197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 76
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f157ffe0c723b860800000000000000
+      internalID: 7544417510388879858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 76
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9253a0e63aec8d930800000000000000
+      internalID: 4168308656452547881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_75
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 76
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edd951b303d59310800000000000000
+      internalID: 1411266071064337894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_77
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 102
+        width: 148
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6989887fe199d1770800000000000000
+      internalID: 8583184823119026326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_83
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 102
+        width: 149
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd42862afb7b712a0800000000000000
+      internalID: -6766737881409510180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_90
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 102
+        width: 152
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483e503b1d3c23850800000000000000
+      internalID: 6355357329592279940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 137
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0638a896f5f9ce680800000000000000
+      internalID: -8724423145982098592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_111
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 38
+        width: 163
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b76690839df0c00800000000000000
+      internalID: 869152087804902252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_119
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 38
+        width: 189
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1958828dc153ff0800000000000000
+      internalID: -57107705553907263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_128
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 37
+        width: 133
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7ee2754a7e4c6e0800000000000000
+      internalID: -1818073656527493187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_1_136
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 37
+        width: 159
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422455fd53dc075a0800000000000000
+      internalID: -6525490228795981276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c8e14cbc9b92859479f50b3bb6f14240
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Etc_Sheet_1_0: 2568545063367725780
+      Etc_Sheet_1_1: 6537613642901321529
+      Etc_Sheet_1_10: 1447344315647697285
+      Etc_Sheet_1_100: -4914402818025737378
+      Etc_Sheet_1_101: -3009403190786000530
+      Etc_Sheet_1_102: -1496165742751287567
+      Etc_Sheet_1_103: 6526923236524319667
+      Etc_Sheet_1_104: -8724423145982098592
+      Etc_Sheet_1_105: 3838404333295096621
+      Etc_Sheet_1_106: -8262416528313022636
+      Etc_Sheet_1_107: -2846462457796287132
+      Etc_Sheet_1_108: 6382774828176440505
+      Etc_Sheet_1_109: 7058766762407021723
+      Etc_Sheet_1_11: -566964471613219104
+      Etc_Sheet_1_110: 9211472001932585270
+      Etc_Sheet_1_111: 869152087804902252
+      Etc_Sheet_1_112: 6090488757652497051
+      Etc_Sheet_1_113: -5751318712522405529
+      Etc_Sheet_1_114: 5487712959443721171
+      Etc_Sheet_1_115: 6843735524563955271
+      Etc_Sheet_1_116: 6145839589708355970
+      Etc_Sheet_1_117: 4028329843095474892
+      Etc_Sheet_1_118: -593144349735625768
+      Etc_Sheet_1_119: -57107705553907263
+      Etc_Sheet_1_12: 8965526748961866723
+      Etc_Sheet_1_120: 3173204254284297466
+      Etc_Sheet_1_121: 3973495817328765957
+      Etc_Sheet_1_122: -1894714797259607983
+      Etc_Sheet_1_123: 8957738844615400530
+      Etc_Sheet_1_124: -6751494011307820812
+      Etc_Sheet_1_125: -7064788217469219627
+      Etc_Sheet_1_126: -8823736640239226843
+      Etc_Sheet_1_127: -3561168662264548927
+      Etc_Sheet_1_128: -1818073656527493187
+      Etc_Sheet_1_129: -8524484324363254436
+      Etc_Sheet_1_13: 7442926186180492724
+      Etc_Sheet_1_130: 261244771420815811
+      Etc_Sheet_1_131: -3027191130047758684
+      Etc_Sheet_1_132: 297533312331695752
+      Etc_Sheet_1_133: -441327690606811783
+      Etc_Sheet_1_134: -2028272666297330883
+      Etc_Sheet_1_135: 4211856297675141228
+      Etc_Sheet_1_136: -6525490228795981276
+      Etc_Sheet_1_137: -8636629865535032707
+      Etc_Sheet_1_138: 4603616472761165845
+      Etc_Sheet_1_139: -3458106131357834438
+      Etc_Sheet_1_14: -30159021818394312
+      Etc_Sheet_1_140: 4601862409751193364
+      Etc_Sheet_1_141: -3828453870726772136
+      Etc_Sheet_1_142: 7404934404464011235
+      Etc_Sheet_1_143: -7119890021979301961
+      Etc_Sheet_1_144: 2180115672378622579
+      Etc_Sheet_1_145: 6749377107492241604
+      Etc_Sheet_1_15: -5058282827590976845
+      Etc_Sheet_1_16: -6152705994515757292
+      Etc_Sheet_1_17: -3705521522017818090
+      Etc_Sheet_1_18: -8449337184745556151
+      Etc_Sheet_1_19: -1391828642841371357
+      Etc_Sheet_1_2: 2128977852602544297
+      Etc_Sheet_1_20: -733776894031455335
+      Etc_Sheet_1_21: -6598833787197258308
+      Etc_Sheet_1_22: 3622867967552520834
+      Etc_Sheet_1_23: -5787264951822394594
+      Etc_Sheet_1_24: -1597955328577240285
+      Etc_Sheet_1_25: -811036627164381015
+      Etc_Sheet_1_26: -2361044752823166560
+      Etc_Sheet_1_27: 6280678830899756686
+      Etc_Sheet_1_28: -7322491293742311219
+      Etc_Sheet_1_29: 6278140324056791368
+      Etc_Sheet_1_3: 2191435968497677096
+      Etc_Sheet_1_30: 3313883227571429963
+      Etc_Sheet_1_31: 3415967013292544463
+      Etc_Sheet_1_32: -4843522102613864674
+      Etc_Sheet_1_33: 5343474818680873717
+      Etc_Sheet_1_34: -7604334969412102511
+      Etc_Sheet_1_35: 3090442191024361037
+      Etc_Sheet_1_36: -4752152759690252907
+      Etc_Sheet_1_37: -6228155889960951732
+      Etc_Sheet_1_38: 5380733813447661101
+      Etc_Sheet_1_39: 8701079526441219290
+      Etc_Sheet_1_4: -7622691466516870975
+      Etc_Sheet_1_40: 707074721134081823
+      Etc_Sheet_1_41: 5612997746544725798
+      Etc_Sheet_1_42: 5534727573311715271
+      Etc_Sheet_1_43: 2260780916621411999
+      Etc_Sheet_1_44: -1544883548716787760
+      Etc_Sheet_1_45: 3093328845627760323
+      Etc_Sheet_1_46: 3423422840086001525
+      Etc_Sheet_1_47: 1233321410666920538
+      Etc_Sheet_1_48: 2057106634143727969
+      Etc_Sheet_1_49: -5605126689428121426
+      Etc_Sheet_1_5: 3772536449993381713
+      Etc_Sheet_1_50: 6223295832340259621
+      Etc_Sheet_1_51: -6926423877614305587
+      Etc_Sheet_1_52: -8978740866792349348
+      Etc_Sheet_1_53: 21076379280858915
+      Etc_Sheet_1_54: -5633416335381371267
+      Etc_Sheet_1_55: 1518893163163995630
+      Etc_Sheet_1_56: -8077726035543505494
+      Etc_Sheet_1_57: 8639380625455477997
+      Etc_Sheet_1_58: -5518112883844817033
+      Etc_Sheet_1_59: 4349517625544360624
+      Etc_Sheet_1_6: 7233249449867988949
+      Etc_Sheet_1_60: -2050034442671689051
+      Etc_Sheet_1_61: -8047656770704290408
+      Etc_Sheet_1_62: -4852159113027675666
+      Etc_Sheet_1_63: 1979370087015663060
+      Etc_Sheet_1_64: 2922415568497635505
+      Etc_Sheet_1_65: 5485578248478768637
+      Etc_Sheet_1_66: -5065698487816741814
+      Etc_Sheet_1_67: -7594300989966364400
+      Etc_Sheet_1_68: -747095995650451956
+      Etc_Sheet_1_69: -4026338688705661175
+      Etc_Sheet_1_7: 2597473628238513169
+      Etc_Sheet_1_70: -8769668064440940989
+      Etc_Sheet_1_71: 3489604707440182677
+      Etc_Sheet_1_72: -1562563584905467197
+      Etc_Sheet_1_73: 7544417510388879858
+      Etc_Sheet_1_74: 4168308656452547881
+      Etc_Sheet_1_75: 1411266071064337894
+      Etc_Sheet_1_76: 8846378598299652619
+      Etc_Sheet_1_77: 8583184823119026326
+      Etc_Sheet_1_78: -118799723232599658
+      Etc_Sheet_1_79: 4028932140692142684
+      Etc_Sheet_1_8: 1747850876943699898
+      Etc_Sheet_1_80: -8687312842024077138
+      Etc_Sheet_1_81: -2205825174743247992
+      Etc_Sheet_1_82: 3293724528356019127
+      Etc_Sheet_1_83: -6766737881409510180
+      Etc_Sheet_1_84: 6790636999164510161
+      Etc_Sheet_1_85: 2951683000604635438
+      Etc_Sheet_1_86: 675479074118909772
+      Etc_Sheet_1_87: 1757469559264132783
+      Etc_Sheet_1_88: -3039640230005554455
+      Etc_Sheet_1_89: -907780894763535292
+      Etc_Sheet_1_9: 7283712268983010424
+      Etc_Sheet_1_90: 6355357329592279940
+      Etc_Sheet_1_91: 3899687773254190701
+      Etc_Sheet_1_92: 3517236438559966684
+      Etc_Sheet_1_93: 6315723371150953851
+      Etc_Sheet_1_94: -3352926179176445202
+      Etc_Sheet_1_95: -1106718769825630230
+      Etc_Sheet_1_96: -3523612840352669303
+      Etc_Sheet_1_97: 6682898993472563750
+      Etc_Sheet_1_98: 3818764895395714012
+      Etc_Sheet_1_99: -7785641104544530530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

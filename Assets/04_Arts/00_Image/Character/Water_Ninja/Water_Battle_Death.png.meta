@@ -1,0 +1,963 @@
+fileFormatVersion: 2
+guid: 2534df0802d0a0f42926fefdde9dccf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2422491122255485298
+    second: Water_Battle_Death_0
+  - first:
+      213: 7273643225263067691
+    second: Water_Battle_Death_1
+  - first:
+      213: 6349175744333046380
+    second: Water_Battle_Death_2
+  - first:
+      213: -6066019908380767447
+    second: Water_Battle_Death_3
+  - first:
+      213: 505317353794348852
+    second: Water_Battle_Death_4
+  - first:
+      213: 6555534080694135412
+    second: Water_Battle_Death_5
+  - first:
+      213: -6595525120207447507
+    second: Water_Battle_Death_6
+  - first:
+      213: -8280009097504302940
+    second: Water_Battle_Death_7
+  - first:
+      213: 5056413597580050681
+    second: Water_Battle_Death_8
+  - first:
+      213: -5616006558302554932
+    second: Water_Battle_Death_9
+  - first:
+      213: 4287411414665612991
+    second: Water_Battle_Death_10
+  - first:
+      213: 8511272349364775691
+    second: Water_Battle_Death_11
+  - first:
+      213: 3477551219869106932
+    second: Water_Battle_Death_12
+  - first:
+      213: -3595306099771349379
+    second: Water_Battle_Death_13
+  - first:
+      213: -5444930116208676613
+    second: Water_Battle_Death_14
+  - first:
+      213: 3564408337127939361
+    second: Water_Battle_Death_15
+  - first:
+      213: -4066656764889063535
+    second: Water_Battle_Death_16
+  - first:
+      213: 9111711070126087608
+    second: Water_Battle_Death_17
+  - first:
+      213: 6529672070897226914
+    second: Water_Battle_Death_18
+  - first:
+      213: 6681717483226748774
+    second: Water_Battle_Death_19
+  - first:
+      213: -5078023584709355960
+    second: Water_Battle_Death_20
+  - first:
+      213: 6388760657144335859
+    second: Water_Battle_Death_21
+  - first:
+      213: 2936382766027669835
+    second: Water_Battle_Death_22
+  - first:
+      213: 8718947048328423041
+    second: Water_Battle_Death_23
+  - first:
+      213: -4175438617809311135
+    second: Water_Battle_Death_24
+  - first:
+      213: 6341547000864693590
+    second: Water_Battle_Death_25
+  - first:
+      213: 8671136569665985208
+    second: Water_Battle_Death_26
+  - first:
+      213: -7247983606677809410
+    second: Water_Battle_Death_27
+  - first:
+      213: -6557702654492901821
+    second: Water_Battle_Death_28
+  - first:
+      213: 7612463657073583233
+    second: Water_Battle_Death_29
+  - first:
+      213: -1673842913234833652
+    second: Water_Battle_Death_30
+  - first:
+      213: -1291350617771415251
+    second: Water_Battle_Death_31
+  - first:
+      213: 7766469118259669627
+    second: Water_Battle_Death_32
+  - first:
+      213: -1095386211589935170
+    second: Water_Battle_Death_33
+  - first:
+      213: 2232124274020236103
+    second: Water_Battle_Death_34
+  - first:
+      213: -4693496293612076475
+    second: Water_Battle_Death_35
+  - first:
+      213: -9182288601264053316
+    second: Water_Battle_Death_36
+  - first:
+      213: -4850391961814229729
+    second: Water_Battle_Death_37
+  - first:
+      213: -2862800342975232644
+    second: Water_Battle_Death_38
+  - first:
+      213: 840759057459706019
+    second: Water_Battle_Death_39
+  - first:
+      213: 331283287766428927
+    second: Water_Battle_Death_40
+  - first:
+      213: -4134589976615301352
+    second: Water_Battle_Death_41
+  - first:
+      213: -4898607099100461773
+    second: Water_Battle_Death_42
+  - first:
+      213: -1624357196397629577
+    second: Water_Battle_Death_43
+  - first:
+      213: 9040946383143037
+    second: Water_Battle_Death_44
+  - first:
+      213: -516009980835013138
+    second: Water_Battle_Death_45
+  - first:
+      213: -7054839854326072927
+    second: Water_Battle_Death_46
+  - first:
+      213: -2571363531011974509
+    second: Water_Battle_Death_47
+  - first:
+      213: 4863274913079056517
+    second: Water_Battle_Death_48
+  - first:
+      213: -1223736849366074740
+    second: Water_Battle_Death_49
+  - first:
+      213: 8966796804108048053
+    second: Water_Battle_Death_50
+  - first:
+      213: -2916711450150362255
+    second: Water_Battle_Death_51
+  - first:
+      213: 9081211520916807397
+    second: Water_Battle_Death_52
+  - first:
+      213: 2852137449573142602
+    second: Water_Battle_Death_53
+  - first:
+      213: 2687675507766195950
+    second: Water_Battle_Death_54
+  - first:
+      213: 6121735052397610636
+    second: Water_Battle_Death_55
+  - first:
+      213: 4335912366266999426
+    second: Water_Battle_Death_56
+  - first:
+      213: -6799816496451658140
+    second: Water_Battle_Death_57
+  - first:
+      213: -4605822548497633585
+    second: Water_Battle_Death_58
+  - first:
+      213: -3376264003160695065
+    second: Water_Battle_Death_59
+  - first:
+      213: 8227191912794986360
+    second: Water_Battle_Death_60
+  - first:
+      213: 5820920039620172122
+    second: Water_Battle_Death_61
+  - first:
+      213: -2155643818447192303
+    second: Water_Battle_Death_62
+  - first:
+      213: -7790185953898331979
+    second: Water_Battle_Death_63
+  - first:
+      213: -7672806457323127413
+    second: Water_Battle_Death_64
+  - first:
+      213: 6995999864329962670
+    second: Water_Battle_Death_65
+  - first:
+      213: -2115763443203499681
+    second: Water_Battle_Death_66
+  - first:
+      213: 3166594159333599147
+    second: Water_Battle_Death_67
+  - first:
+      213: -1547619391305250425
+    second: Water_Battle_Death_68
+  - first:
+      213: 8356494081727500366
+    second: Water_Battle_Death_69
+  - first:
+      213: -77110786848709304
+    second: Water_Battle_Death_70
+  - first:
+      213: -6454818797804639386
+    second: Water_Battle_Death_71
+  - first:
+      213: -3208296909398683365
+    second: Water_Battle_Death_72
+  - first:
+      213: -3892649019265231086
+    second: Water_Battle_Death_73
+  - first:
+      213: -3092654582776841098
+    second: Water_Battle_Death_74
+  - first:
+      213: -6856201041723598637
+    second: Water_Battle_Death_75
+  - first:
+      213: 1639715724794263728
+    second: Water_Battle_Death_76
+  - first:
+      213: -4327106509490893634
+    second: Water_Battle_Death_77
+  - first:
+      213: -2914386312348863374
+    second: Water_Battle_Death_78
+  - first:
+      213: -5185840655996802124
+    second: Water_Battle_Death_79
+  - first:
+      213: -8746792616172467108
+    second: Water_Battle_Death_80
+  - first:
+      213: 8953609651968969315
+    second: Water_Battle_Death_81
+  - first:
+      213: 1805922994409672218
+    second: Water_Battle_Death_82
+  - first:
+      213: -731670950340692790
+    second: Water_Battle_Death_83
+  - first:
+      213: 4738602110286645462
+    second: Water_Battle_Death_84
+  - first:
+      213: 4857760406045149043
+    second: Water_Battle_Death_85
+  - first:
+      213: -3649995575744917689
+    second: Water_Battle_Death_86
+  - first:
+      213: 8408654577560883312
+    second: Water_Battle_Death_87
+  - first:
+      213: 2303852890372807258
+    second: Water_Battle_Death_88
+  - first:
+      213: 5532960098071064905
+    second: Water_Battle_Death_89
+  - first:
+      213: 5647594001772332200
+    second: Water_Battle_Death_90
+  - first:
+      213: -4938724934010320946
+    second: Water_Battle_Death_91
+  - first:
+      213: 6127837779961930673
+    second: Water_Battle_Death_92
+  - first:
+      213: 2398872888878637969
+    second: Water_Battle_Death_93
+  - first:
+      213: -6613511816901115225
+    second: Water_Battle_Death_94
+  - first:
+      213: -5893370870842456151
+    second: Water_Battle_Death_95
+  - first:
+      213: -8785847207502242864
+    second: Water_Battle_Death_96
+  - first:
+      213: -3035822301042204328
+    second: Water_Battle_Death_97
+  - first:
+      213: -8584907899279620916
+    second: Water_Battle_Death_98
+  - first:
+      213: -3723661315974917881
+    second: Water_Battle_Death_99
+  - first:
+      213: -6091292664219897501
+    second: Water_Battle_Death_100
+  - first:
+      213: -2593452882736425220
+    second: Water_Battle_Death_101
+  - first:
+      213: -6033549866436698774
+    second: Water_Battle_Death_102
+  - first:
+      213: -407287378068350701
+    second: Water_Battle_Death_103
+  - first:
+      213: -6200915015486454915
+    second: Water_Battle_Death_104
+  - first:
+      213: 768199161107399577
+    second: Water_Battle_Death_105
+  - first:
+      213: 3495372313283753969
+    second: Water_Battle_Death_106
+  - first:
+      213: 8454716954751021877
+    second: Water_Battle_Death_107
+  - first:
+      213: 7094219421670239324
+    second: Water_Battle_Death_108
+  - first:
+      213: 987576484712212933
+    second: Water_Battle_Death_109
+  - first:
+      213: 1402078204918682415
+    second: Water_Battle_Death_110
+  - first:
+      213: 2048826233738926005
+    second: Water_Battle_Death_111
+  - first:
+      213: -7733953130164794642
+    second: Water_Battle_Death_112
+  - first:
+      213: -766780266640808458
+    second: Water_Battle_Death_113
+  - first:
+      213: -3337659338380093794
+    second: Water_Battle_Death_114
+  - first:
+      213: -7341028953045045298
+    second: Water_Battle_Death_115
+  - first:
+      213: -2958595877465267852
+    second: Water_Battle_Death_116
+  - first:
+      213: -5343389361536901983
+    second: Water_Battle_Death_117
+  - first:
+      213: 7296683039788015149
+    second: Water_Battle_Death_118
+  - first:
+      213: 4327644372012218132
+    second: Water_Battle_Death_119
+  - first:
+      213: 3994758585593336401
+    second: Water_Battle_Death_120
+  - first:
+      213: -7474451521451049524
+    second: Water_Battle_Death_121
+  - first:
+      213: 5688233348481708211
+    second: Water_Battle_Death_122
+  - first:
+      213: -7785312841700040162
+    second: Water_Battle_Death_123
+  - first:
+      213: -2624541183236841922
+    second: Water_Battle_Death_124
+  - first:
+      213: 1274539355380424903
+    second: Water_Battle_Death_125
+  - first:
+      213: 2535435730162246997
+    second: Water_Battle_Death_126
+  - first:
+      213: -4410432452011643856
+    second: Water_Battle_Death_127
+  - first:
+      213: 1979498362810850480
+    second: Water_Battle_Death_128
+  - first:
+      213: -3592888866572177457
+    second: Water_Battle_Death_129
+  - first:
+      213: 1800179556410308918
+    second: Water_Battle_Death_130
+  - first:
+      213: 3581127863892223307
+    second: Water_Battle_Death_131
+  - first:
+      213: -4389104032893238395
+    second: Water_Battle_Death_132
+  - first:
+      213: 1045447984132506552
+    second: Water_Battle_Death_133
+  - first:
+      213: 3699883797285389175
+    second: Water_Battle_Death_134
+  - first:
+      213: 1017776072445562822
+    second: Water_Battle_Death_135
+  - first:
+      213: -8883756654859713232
+    second: Water_Battle_Death_136
+  - first:
+      213: 4003993582235576256
+    second: Water_Battle_Death_137
+  - first:
+      213: -5411192910579057091
+    second: Water_Battle_Death_138
+  - first:
+      213: -217068027408317362
+    second: Water_Battle_Death_139
+  - first:
+      213: -7247528614901711645
+    second: Water_Battle_Death_140
+  - first:
+      213: -1069464889993159218
+    second: Water_Battle_Death_141
+  - first:
+      213: -431269425560373734
+    second: Water_Battle_Death_142
+  - first:
+      213: -1481420396125010626
+    second: Water_Battle_Death_143
+  - first:
+      213: 9150841498439654176
+    second: Water_Battle_Death_144
+  - first:
+      213: -5541515818352516337
+    second: Water_Battle_Death_145
+  - first:
+      213: -6269664257493844
+    second: Water_Battle_Death_146
+  - first:
+      213: 7841298442750955160
+    second: Water_Battle_Death_147
+  - first:
+      213: 1973917627218039186
+    second: Water_Battle_Death_148
+  - first:
+      213: 8088570801688013313
+    second: Water_Battle_Death_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86ac62c825916ed0800000000000000
+      internalID: -2422491122255485298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b225bb8d9fb21f460800000000000000
+      internalID: 7273643225263067691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c626f7933bdcc1850800000000000000
+      internalID: 6349175744333046380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b4480580b21dba0800000000000000
+      internalID: -6066019908380767447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437a0cbb47f330700800000000000000
+      internalID: 505317353794348852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47aadb0838fe9fa50800000000000000
+      internalID: 6555534080694135412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a9ed609dcf774a0800000000000000
+      internalID: -6595525120207447507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8d04e589f771d80800000000000000
+      internalID: -8280009097504302940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0c631806dfb2640800000000000000
+      internalID: 5056413597580050681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4bc144acfef02b0800000000000000
+      internalID: -5616006558302554932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe491947f1ff7b30800000000000000
+      internalID: 4287411414665612991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bed7a6b1d1e1670800000000000000
+      internalID: 8511272349364775691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2468cd86eb24030800000000000000
+      internalID: 3477551219869106932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d766558a628ea1ec0800000000000000
+      internalID: -3595306099771349379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf03e8468e8bf64b0800000000000000
+      internalID: -5444930116208676613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d93f06f72577130800000000000000
+      internalID: 3564408337127939361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3115a05932a3b8498cf20e936b76d83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Water_Battle_Death_0: -2422491122255485298
+      Water_Battle_Death_1: 7273643225263067691
+      Water_Battle_Death_10: 4287411414665612991
+      Water_Battle_Death_11: 8511272349364775691
+      Water_Battle_Death_12: 3477551219869106932
+      Water_Battle_Death_13: -3595306099771349379
+      Water_Battle_Death_14: -5444930116208676613
+      Water_Battle_Death_15: 3564408337127939361
+      Water_Battle_Death_2: 6349175744333046380
+      Water_Battle_Death_3: -6066019908380767447
+      Water_Battle_Death_4: 505317353794348852
+      Water_Battle_Death_5: 6555534080694135412
+      Water_Battle_Death_6: -6595525120207447507
+      Water_Battle_Death_7: -8280009097504302940
+      Water_Battle_Death_8: 5056413597580050681
+      Water_Battle_Death_9: -5616006558302554932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

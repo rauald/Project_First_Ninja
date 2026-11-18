@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: b89b4a27e1265f44face58187d4cbf5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1082083534621019853
+    second: Earth_Select_Attack_0
+  - first:
+      213: 25676276928244230
+    second: Earth_Select_Attack_1
+  - first:
+      213: 2562873765495587704
+    second: Earth_Select_Attack_2
+  - first:
+      213: 5158639597987453005
+    second: Earth_Select_Attack_3
+  - first:
+      213: 5432443592232714708
+    second: Earth_Select_Attack_4
+  - first:
+      213: 3792657044272867858
+    second: Earth_Select_Attack_5
+  - first:
+      213: 8243009131757719884
+    second: Earth_Select_Attack_6
+  - first:
+      213: -1098322593501001515
+    second: Earth_Select_Attack_7
+  - first:
+      213: 955899350582625343
+    second: Earth_Select_Attack_8
+  - first:
+      213: 1839225099358698178
+    second: Earth_Select_Attack_9
+  - first:
+      213: -8718213627812214550
+    second: Earth_Select_Attack_10
+  - first:
+      213: 4921752107185031965
+    second: Earth_Select_Attack_11
+  - first:
+      213: -5932331396903914386
+    second: Earth_Select_Attack_12
+  - first:
+      213: -1418755148349955882
+    second: Earth_Select_Attack_13
+  - first:
+      213: -6903367310061553739
+    second: Earth_Select_Attack_14
+  - first:
+      213: -4625626976412868850
+    second: Earth_Select_Attack_15
+  - first:
+      213: -2300015498657759936
+    second: Earth_Select_Attack_16
+  - first:
+      213: -7949115053542047741
+    second: Earth_Select_Attack_17
+  - first:
+      213: -1346328253965913633
+    second: Earth_Select_Attack_18
+  - first:
+      213: -2180075623496219408
+    second: Earth_Select_Attack_19
+  - first:
+      213: -8276350128991639171
+    second: Earth_Select_Attack_20
+  - first:
+      213: -9126742813296824516
+    second: Earth_Select_Attack_21
+  - first:
+      213: 933377388310835071
+    second: Earth_Select_Attack_22
+  - first:
+      213: 8718434571275178106
+    second: Earth_Select_Attack_23
+  - first:
+      213: 9201087306380300173
+    second: Earth_Select_Attack_24
+  - first:
+      213: -1854872572222855353
+    second: Earth_Select_Attack_25
+  - first:
+      213: -2950170669576260768
+    second: Earth_Select_Attack_26
+  - first:
+      213: 7202732503423457371
+    second: Earth_Select_Attack_27
+  - first:
+      213: -7395767578069106972
+    second: Earth_Select_Attack_28
+  - first:
+      213: -7121006448479846973
+    second: Earth_Select_Attack_29
+  - first:
+      213: -387853123149972438
+    second: Earth_Select_Attack_30
+  - first:
+      213: 475918316098000593
+    second: Earth_Select_Attack_31
+  - first:
+      213: 5758518557051314545
+    second: Earth_Select_Attack_32
+  - first:
+      213: -667841065740265005
+    second: Earth_Select_Attack_33
+  - first:
+      213: -7763601521213185244
+    second: Earth_Select_Attack_34
+  - first:
+      213: 18337415780331765
+    second: Earth_Select_Attack_35
+  - first:
+      213: -8459012060049445737
+    second: Earth_Select_Attack_36
+  - first:
+      213: 2922772535723318106
+    second: Earth_Select_Attack_37
+  - first:
+      213: 3731424888784299328
+    second: Earth_Select_Attack_38
+  - first:
+      213: 2704078085315997275
+    second: Earth_Select_Attack_39
+  - first:
+      213: 9099218022282749790
+    second: Earth_Select_Attack_40
+  - first:
+      213: 2515915996089464623
+    second: Earth_Select_Attack_41
+  - first:
+      213: 200276830214929505
+    second: Earth_Select_Attack_42
+  - first:
+      213: 5575096654848807765
+    second: Earth_Select_Attack_43
+  - first:
+      213: -1412468269974185266
+    second: Earth_Select_Attack_44
+  - first:
+      213: -3354870976469864560
+    second: Earth_Select_Attack_45
+  - first:
+      213: -8224917339416117435
+    second: Earth_Select_Attack_46
+  - first:
+      213: 7629256018697708457
+    second: Earth_Select_Attack_47
+  - first:
+      213: -6279154427970703614
+    second: Earth_Select_Attack_48
+  - first:
+      213: 8828445643685484242
+    second: Earth_Select_Attack_49
+  - first:
+      213: -4932149016906278395
+    second: Earth_Select_Attack_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth_Select_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce826add35540f00800000000000000
+      internalID: 1082083534621019853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a667510783b5000800000000000000
+      internalID: 25676276928244230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873488c6c18219320800000000000000
+      internalID: 2562873765495587704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d485e4af16b279740800000000000000
+      internalID: 5158639597987453005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c0613aaae36b40800000000000000
+      internalID: 5432443592232714708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a64c6cc7932a430800000000000000
+      internalID: 3792657044272867858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4158bac12d056270800000000000000
+      internalID: 8243009131757719884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8469d9b69f1c0f0800000000000000
+      internalID: -1098322593501001515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3401801569044d00800000000000000
+      internalID: 955899350582625343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caf145bb7d368910800000000000000
+      internalID: 1839225099358698178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8884685eea20780800000000000000
+      internalID: -8718213627812214550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b4b4507739d4440800000000000000
+      internalID: 4921752107185031965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6435ad76002cada0800000000000000
+      internalID: -5932331396903914386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0285f95b19f4ce0800000000000000
+      internalID: -1418755148349955882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7bcb1d1005230a0800000000000000
+      internalID: -6903367310061553739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Select_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f5277c5c87ecfb0800000000000000
+      internalID: -4625626976412868850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df4aedec30d474a41b6a5ed9447a0d6c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Earth_Select_Attack_0: 1082083534621019853
+      Earth_Select_Attack_1: 25676276928244230
+      Earth_Select_Attack_10: -8718213627812214550
+      Earth_Select_Attack_11: 4921752107185031965
+      Earth_Select_Attack_12: -5932331396903914386
+      Earth_Select_Attack_13: -1418755148349955882
+      Earth_Select_Attack_14: -6903367310061553739
+      Earth_Select_Attack_15: -4625626976412868850
+      Earth_Select_Attack_2: 2562873765495587704
+      Earth_Select_Attack_3: 5158639597987453005
+      Earth_Select_Attack_4: 5432443592232714708
+      Earth_Select_Attack_5: 3792657044272867858
+      Earth_Select_Attack_6: 8243009131757719884
+      Earth_Select_Attack_7: -1098322593501001515
+      Earth_Select_Attack_8: 955899350582625343
+      Earth_Select_Attack_9: 1839225099358698178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

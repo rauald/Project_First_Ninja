@@ -1,0 +1,705 @@
+fileFormatVersion: 2
+guid: 2ba651ed35019f244816da6ffa8d91db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1105839632615960005
+    second: Earth_Battle_Run_0
+  - first:
+      213: 8299032792630835396
+    second: Earth_Battle_Run_1
+  - first:
+      213: 8537263029995579241
+    second: Earth_Battle_Run_2
+  - first:
+      213: -6969915160407048504
+    second: Earth_Battle_Run_3
+  - first:
+      213: -4005712830779546698
+    second: Earth_Battle_Run_4
+  - first:
+      213: 6489109009887016723
+    second: Earth_Battle_Run_5
+  - first:
+      213: 1406706983251825395
+    second: Earth_Battle_Run_6
+  - first:
+      213: 2863033494916860619
+    second: Earth_Battle_Run_7
+  - first:
+      213: 5627496648513812997
+    second: Earth_Battle_Run_8
+  - first:
+      213: -465433293826288916
+    second: Earth_Battle_Run_9
+  - first:
+      213: 4982566524153657454
+    second: Earth_Battle_Run_10
+  - first:
+      213: 1832529929515442418
+    second: Earth_Battle_Run_11
+  - first:
+      213: -93792418746948644
+    second: Earth_Battle_Run_12
+  - first:
+      213: -2100696152295047261
+    second: Earth_Battle_Run_13
+  - first:
+      213: -1659160523273175035
+    second: Earth_Battle_Run_14
+  - first:
+      213: -1181477842924349107
+    second: Earth_Battle_Run_15
+  - first:
+      213: 4982182367571578766
+    second: Earth_Battle_Run_16
+  - first:
+      213: 7245576998797607659
+    second: Earth_Battle_Run_17
+  - first:
+      213: 1388060708803560733
+    second: Earth_Battle_Run_18
+  - first:
+      213: 2321668847398041630
+    second: Earth_Battle_Run_19
+  - first:
+      213: 2381279571444020281
+    second: Earth_Battle_Run_20
+  - first:
+      213: -8411720273873613288
+    second: Earth_Battle_Run_21
+  - first:
+      213: 5804192971131612574
+    second: Earth_Battle_Run_22
+  - first:
+      213: 7859297167192911220
+    second: Earth_Battle_Run_23
+  - first:
+      213: 6430048850396335511
+    second: Earth_Battle_Run_24
+  - first:
+      213: 674575993651791735
+    second: Earth_Battle_Run_25
+  - first:
+      213: 138516367994950917
+    second: Earth_Battle_Run_26
+  - first:
+      213: 746472840157350367
+    second: Earth_Battle_Run_27
+  - first:
+      213: -336194405461827618
+    second: Earth_Battle_Run_28
+  - first:
+      213: -4482596166015486120
+    second: Earth_Battle_Run_29
+  - first:
+      213: 3003591237542162920
+    second: Earth_Battle_Run_30
+  - first:
+      213: -4967658738958772855
+    second: Earth_Battle_Run_31
+  - first:
+      213: 941587681709630718
+    second: Earth_Battle_Run_32
+  - first:
+      213: 3004329706329838474
+    second: Earth_Battle_Run_33
+  - first:
+      213: 1145146360970191601
+    second: Earth_Battle_Run_34
+  - first:
+      213: 8127170040299220926
+    second: Earth_Battle_Run_35
+  - first:
+      213: -4109260370972320385
+    second: Earth_Battle_Run_36
+  - first:
+      213: 1346595400109065272
+    second: Earth_Battle_Run_37
+  - first:
+      213: -7840779454850133830
+    second: Earth_Battle_Run_38
+  - first:
+      213: 8475054843137339741
+    second: Earth_Battle_Run_39
+  - first:
+      213: 1131827480364691298
+    second: Earth_Battle_Run_40
+  - first:
+      213: -4541362250286682331
+    second: Earth_Battle_Run_41
+  - first:
+      213: 1043203346084251982
+    second: Earth_Battle_Run_42
+  - first:
+      213: -4724049125739834747
+    second: Earth_Battle_Run_43
+  - first:
+      213: -1001671253575092198
+    second: Earth_Battle_Run_44
+  - first:
+      213: 4452408044886488546
+    second: Earth_Battle_Run_45
+  - first:
+      213: -8614520366215300221
+    second: Earth_Battle_Run_46
+  - first:
+      213: -6375615588056775873
+    second: Earth_Battle_Run_47
+  - first:
+      213: 5547076451672691673
+    second: Earth_Battle_Run_48
+  - first:
+      213: -5315964022658694028
+    second: Earth_Battle_Run_49
+  - first:
+      213: 2708901815964335465
+    second: Earth_Battle_Run_50
+  - first:
+      213: -8976063400533181890
+    second: Earth_Battle_Run_51
+  - first:
+      213: 5692552373594345438
+    second: Earth_Battle_Run_52
+  - first:
+      213: -727627539771505101
+    second: Earth_Battle_Run_53
+  - first:
+      213: -8422970239326226401
+    second: Earth_Battle_Run_54
+  - first:
+      213: 6326138966609829862
+    second: Earth_Battle_Run_55
+  - first:
+      213: -1049029560991180735
+    second: Earth_Battle_Run_56
+  - first:
+      213: 6886152264311124938
+    second: Earth_Battle_Run_57
+  - first:
+      213: 4807214807759989732
+    second: Earth_Battle_Run_58
+  - first:
+      213: 1042769951873531456
+    second: Earth_Battle_Run_59
+  - first:
+      213: 3449999576929120872
+    second: Earth_Battle_Run_60
+  - first:
+      213: 6841464808478412824
+    second: Earth_Battle_Run_61
+  - first:
+      213: -5907633905956350508
+    second: Earth_Battle_Run_62
+  - first:
+      213: 4997855273963352087
+    second: Earth_Battle_Run_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth_Battle_Run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd6f90794bb85f00800000000000000
+      internalID: 1105839632615960005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83410da561c2370800000000000000
+      internalID: 8299032792630835396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96726f05e737a7670800000000000000
+      internalID: 8537263029995579241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cef35df613e54f90800000000000000
+      internalID: -6969915160407048504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b329215769d868c0800000000000000
+      internalID: -4005712830779546698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3173a138342fd0a50800000000000000
+      internalID: 6489109009887016723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f259c75c80a58310800000000000000
+      internalID: 1406706983251825395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca809c6bc98bb720800000000000000
+      internalID: 2863033494916860619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50afd55d262e81e40800000000000000
+      internalID: 5627496648513812997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce218de92e27a89f0800000000000000
+      internalID: -465433293826288916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e687eeddad1a52540800000000000000
+      internalID: 4982566524153657454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f02a0103447e6910800000000000000
+      internalID: 1832529929515442418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3a6f5ca48c2bef0800000000000000
+      internalID: -93792418746948644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af7c6dbaf3d8d2e0800000000000000
+      internalID: -2100696152295047261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50083f07b4a79f8e0800000000000000
+      internalID: -1659160523273175035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth_Battle_Run_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49df7e592c8a9fe0800000000000000
+      internalID: -1181477842924349107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e10296bc9a689734f80b1c69b08d07be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Earth_Battle_Run_0: 1105839632615960005
+      Earth_Battle_Run_1: 8299032792630835396
+      Earth_Battle_Run_10: 4982566524153657454
+      Earth_Battle_Run_11: 1832529929515442418
+      Earth_Battle_Run_12: -93792418746948644
+      Earth_Battle_Run_13: -2100696152295047261
+      Earth_Battle_Run_14: -1659160523273175035
+      Earth_Battle_Run_15: -1181477842924349107
+      Earth_Battle_Run_2: 8537263029995579241
+      Earth_Battle_Run_3: -6969915160407048504
+      Earth_Battle_Run_4: -4005712830779546698
+      Earth_Battle_Run_5: 6489109009887016723
+      Earth_Battle_Run_6: 1406706983251825395
+      Earth_Battle_Run_7: 2863033494916860619
+      Earth_Battle_Run_8: 5627496648513812997
+      Earth_Battle_Run_9: -465433293826288916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

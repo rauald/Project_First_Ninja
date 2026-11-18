@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: ec53805fc2646924e86f365b7074befe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1265490692459501791
+    second: Non_Battle_Idle_0
+  - first:
+      213: 5981621494135164270
+    second: Non_Battle_Idle_1
+  - first:
+      213: -7743796288717570274
+    second: Non_Battle_Idle_2
+  - first:
+      213: 9034827664797823701
+    second: Non_Battle_Idle_3
+  - first:
+      213: -6782123822852236094
+    second: Non_Battle_Idle_4
+  - first:
+      213: 858392777238742621
+    second: Non_Battle_Idle_5
+  - first:
+      213: -2739152347128202137
+    second: Non_Battle_Idle_6
+  - first:
+      213: 2317821016656990213
+    second: Non_Battle_Idle_7
+  - first:
+      213: 7010247929708019209
+    second: Non_Battle_Idle_8
+  - first:
+      213: -10698155373292812
+    second: Non_Battle_Idle_9
+  - first:
+      213: -7577064128746785689
+    second: Non_Battle_Idle_10
+  - first:
+      213: 6539024140565096133
+    second: Non_Battle_Idle_11
+  - first:
+      213: -8002922902758290360
+    second: Non_Battle_Idle_12
+  - first:
+      213: -9003763810168221727
+    second: Non_Battle_Idle_13
+  - first:
+      213: 7073444347391076689
+    second: Non_Battle_Idle_14
+  - first:
+      213: 7274723483944645980
+    second: Non_Battle_Idle_15
+  - first:
+      213: -5773908356763910513
+    second: Non_Battle_Idle_16
+  - first:
+      213: 4467171664255035019
+    second: Non_Battle_Idle_17
+  - first:
+      213: -2579032567415005571
+    second: Non_Battle_Idle_18
+  - first:
+      213: -855796076683925294
+    second: Non_Battle_Idle_19
+  - first:
+      213: 6074657849000017284
+    second: Non_Battle_Idle_20
+  - first:
+      213: -5360382782328438255
+    second: Non_Battle_Idle_21
+  - first:
+      213: -6879797327762944858
+    second: Non_Battle_Idle_22
+  - first:
+      213: 282374888989722153
+    second: Non_Battle_Idle_23
+  - first:
+      213: 2506438598695631319
+    second: Non_Battle_Idle_24
+  - first:
+      213: 2335016055253896832
+    second: Non_Battle_Idle_25
+  - first:
+      213: -4770654900265072131
+    second: Non_Battle_Idle_26
+  - first:
+      213: -1977964671559350782
+    second: Non_Battle_Idle_27
+  - first:
+      213: -2758628039082953411
+    second: Non_Battle_Idle_28
+  - first:
+      213: -2723986836070809091
+    second: Non_Battle_Idle_29
+  - first:
+      213: -4826428031381359288
+    second: Non_Battle_Idle_30
+  - first:
+      213: -7997439619565365367
+    second: Non_Battle_Idle_31
+  - first:
+      213: 3614829843364184915
+    second: Non_Battle_Idle_32
+  - first:
+      213: 5931664529983512185
+    second: Non_Battle_Idle_33
+  - first:
+      213: -93840160886841792
+    second: Non_Battle_Idle_34
+  - first:
+      213: 244362874957964281
+    second: Non_Battle_Idle_35
+  - first:
+      213: 7820395853296975850
+    second: Non_Battle_Idle_36
+  - first:
+      213: -4628212199234501735
+    second: Non_Battle_Idle_37
+  - first:
+      213: 6889241069551807009
+    second: Non_Battle_Idle_38
+  - first:
+      213: -1260116871499598859
+    second: Non_Battle_Idle_39
+  - first:
+      213: -5486513104978117257
+    second: Non_Battle_Idle_40
+  - first:
+      213: 7281306076722282065
+    second: Non_Battle_Idle_41
+  - first:
+      213: 4261138664944710861
+    second: Non_Battle_Idle_42
+  - first:
+      213: -4276680750594566223
+    second: Non_Battle_Idle_43
+  - first:
+      213: 2152591153375884552
+    second: Non_Battle_Idle_44
+  - first:
+      213: -5421865566908892251
+    second: Non_Battle_Idle_45
+  - first:
+      213: -6931818210400433717
+    second: Non_Battle_Idle_46
+  - first:
+      213: -2343103892111668273
+    second: Non_Battle_Idle_47
+  - first:
+      213: -7912980283596187483
+    second: Non_Battle_Idle_48
+  - first:
+      213: 6980999462100668975
+    second: Non_Battle_Idle_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Non_Battle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12763698be2107ee0800000000000000
+      internalID: -1265490692459501791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d84c29e0df20350800000000000000
+      internalID: 5981621494135164270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f3006cd42888490800000000000000
+      internalID: -7743796288717570274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2752f74e7226d70800000000000000
+      internalID: 9034827664797823701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc9d2cf05e01e1a0800000000000000
+      internalID: -6782123822852236094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d568315deaf99eb00800000000000000
+      internalID: 858392777238742621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cfeb3f3739cf9d0800000000000000
+      internalID: -2739152347128202137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50056ce2fed8a2020800000000000000
+      internalID: 2317821016656990213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ef9a5a957694160800000000000000
+      internalID: 7010247929708019209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f21939951ef9dff0800000000000000
+      internalID: -10698155373292812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76471b5e15cd8d690800000000000000
+      internalID: -7577064128746785689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c626148fc74fba50800000000000000
+      internalID: 6539024140565096133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c01407508efe090800000000000000
+      internalID: -8002922902758290360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efc765c4843c0380800000000000000
+      internalID: -9003763810168221727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1596db0482ce92260800000000000000
+      internalID: 7073444347391076689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5576bb277205f460800000000000000
+      internalID: 7274723483944645980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e0ddb177317260c4bae412f9791b2e1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Non_Battle_Idle_0: -1265490692459501791
+      Non_Battle_Idle_1: 5981621494135164270
+      Non_Battle_Idle_10: -7577064128746785689
+      Non_Battle_Idle_11: 6539024140565096133
+      Non_Battle_Idle_12: -8002922902758290360
+      Non_Battle_Idle_13: -9003763810168221727
+      Non_Battle_Idle_14: 7073444347391076689
+      Non_Battle_Idle_15: 7274723483944645980
+      Non_Battle_Idle_2: -7743796288717570274
+      Non_Battle_Idle_3: 9034827664797823701
+      Non_Battle_Idle_4: -6782123822852236094
+      Non_Battle_Idle_5: 858392777238742621
+      Non_Battle_Idle_6: -2739152347128202137
+      Non_Battle_Idle_7: 2317821016656990213
+      Non_Battle_Idle_8: 7010247929708019209
+      Non_Battle_Idle_9: -10698155373292812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

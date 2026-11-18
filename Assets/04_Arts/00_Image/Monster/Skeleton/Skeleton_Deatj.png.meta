@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bc82a46da45f1e546a05bb46fa2af8e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6131772019994387408
+    second: Skeleton_Deatj_0
+  - first:
+      213: -3932362024878941339
+    second: Skeleton_Deatj_1
+  - first:
+      213: 8641334555241550259
+    second: Skeleton_Deatj_2
+  - first:
+      213: 1653303359660021154
+    second: Skeleton_Deatj_3
+  - first:
+      213: 8517529397779791940
+    second: Skeleton_Deatj_4
+  - first:
+      213: -1137691012700134932
+    second: Skeleton_Deatj_5
+  - first:
+      213: 6399575805190600615
+    second: Skeleton_Deatj_6
+  - first:
+      213: 2829540170727396950
+    second: Skeleton_Deatj_7
+  - first:
+      213: 4806257322957085124
+    second: Skeleton_Deatj_8
+  - first:
+      213: -275068315990322756
+    second: Skeleton_Deatj_9
+  - first:
+      213: -6042801411256934082
+    second: Skeleton_Deatj_10
+  - first:
+      213: 3797345379165438721
+    second: Skeleton_Deatj_11
+  - first:
+      213: -4806497728031995383
+    second: Skeleton_Deatj_12
+  - first:
+      213: -1005881495095380765
+    second: Skeleton_Deatj_13
+  - first:
+      213: 1628636727639229531
+    second: Skeleton_Deatj_14
+  - first:
+      213: -665494115295656820
+    second: Skeleton_Deatj_15
+  - first:
+      213: -1424427002795698798
+    second: Skeleton_Deatj_16
+  - first:
+      213: 6533053332701757050
+    second: Skeleton_Deatj_17
+  - first:
+      213: 4166867453097244251
+    second: Skeleton_Deatj_18
+  - first:
+      213: -5938874623880303260
+    second: Skeleton_Deatj_19
+  - first:
+      213: 8954247714588477132
+    second: Skeleton_Deatj_20
+  - first:
+      213: -4359833542371845341
+    second: Skeleton_Deatj_21
+  - first:
+      213: 3652557671106807751
+    second: Skeleton_Deatj_22
+  - first:
+      213: -9119722251314737611
+    second: Skeleton_Deatj_23
+  - first:
+      213: -926927279470969260
+    second: Skeleton_Deatj_24
+  - first:
+      213: 5305528450580219475
+    second: Skeleton_Deatj_25
+  - first:
+      213: 4661580565610260717
+    second: Skeleton_Deatj_26
+  - first:
+      213: -2088628234705445670
+    second: Skeleton_Deatj_27
+  - first:
+      213: -5143314259892587260
+    second: Skeleton_Deatj_28
+  - first:
+      213: -7492107533893906567
+    second: Skeleton_Deatj_29
+  - first:
+      213: 4157706428211270965
+    second: Skeleton_Deatj_30
+  - first:
+      213: -7487075119088514128
+    second: Skeleton_Deatj_31
+  - first:
+      213: 2203229075709532756
+    second: Skeleton_Deatj_32
+  - first:
+      213: 3553869706555103652
+    second: Skeleton_Deatj_33
+  - first:
+      213: -4573442767486813742
+    second: Skeleton_Deatj_34
+  - first:
+      213: -1088297093056258638
+    second: Skeleton_Deatj_35
+  - first:
+      213: 4028340470625349443
+    second: Skeleton_Deatj_36
+  - first:
+      213: -4724597532690264143
+    second: Skeleton_Deatj_37
+  - first:
+      213: -1441030963397339713
+    second: Skeleton_Deatj_38
+  - first:
+      213: 9040199919100268195
+    second: Skeleton_Deatj_39
+  - first:
+      213: -5525225794591372932
+    second: Skeleton_Deatj_40
+  - first:
+      213: 8440760689967635138
+    second: Skeleton_Deatj_41
+  - first:
+      213: 409766839554627353
+    second: Skeleton_Deatj_42
+  - first:
+      213: 7452351367006787536
+    second: Skeleton_Deatj_43
+  - first:
+      213: -5923821417780849572
+    second: Skeleton_Deatj_44
+  - first:
+      213: -5604242167889103546
+    second: Skeleton_Deatj_45
+  - first:
+      213: -7211136956649655989
+    second: Skeleton_Deatj_46
+  - first:
+      213: -9061179212025012914
+    second: Skeleton_Deatj_47
+  - first:
+      213: -7700195567181726899
+    second: Skeleton_Deatj_48
+  - first:
+      213: 8919417455854898290
+    second: Skeleton_Deatj_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skeleton_Deatj_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c1e88d5d197eaa0800000000000000
+      internalID: -6131772019994387408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bdadaa2917d69c0800000000000000
+      internalID: -3932362024878941339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b11b768eff2ce770800000000000000
+      internalID: 8641334555241550259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5de7265a6b1f610800000000000000
+      internalID: 1653303359660021154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408c960cd7543670800000000000000
+      internalID: 8517529397779791940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1aadb3d0c1630f0800000000000000
+      internalID: -1137691012700134932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7f195d94cdfc850800000000000000
+      internalID: 6399575805190600615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65697e13bcb844720800000000000000
+      internalID: 2829540170727396950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c91af1129143b240800000000000000
+      internalID: 4806257322957085124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb19e60f2d2ce2cf0800000000000000
+      internalID: -275068315990322756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e312dc1f128a32ca0800000000000000
+      internalID: -6042801411256934082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10380aec081e2b430800000000000000
+      internalID: 3797345379165438721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a4ee248c3eb4db0800000000000000
+      internalID: -4806497728031995383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e473be0c146a02f0800000000000000
+      internalID: -1005881495095380765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54471399741a9610800000000000000
+      internalID: 1628636727639229531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_Deatj_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8480b9c0a0b3c6f0800000000000000
+      internalID: -665494115295656820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9e11a663ecaaed41bff0b370d4290c2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Skeleton_Deatj_0: -6131772019994387408
+      Skeleton_Deatj_1: -3932362024878941339
+      Skeleton_Deatj_10: -6042801411256934082
+      Skeleton_Deatj_11: 3797345379165438721
+      Skeleton_Deatj_12: -4806497728031995383
+      Skeleton_Deatj_13: -1005881495095380765
+      Skeleton_Deatj_14: 1628636727639229531
+      Skeleton_Deatj_15: -665494115295656820
+      Skeleton_Deatj_2: 8641334555241550259
+      Skeleton_Deatj_3: 1653303359660021154
+      Skeleton_Deatj_4: 8517529397779791940
+      Skeleton_Deatj_5: -1137691012700134932
+      Skeleton_Deatj_6: 6399575805190600615
+      Skeleton_Deatj_7: 2829540170727396950
+      Skeleton_Deatj_8: 4806257322957085124
+      Skeleton_Deatj_9: -275068315990322756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

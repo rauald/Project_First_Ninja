@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: d79c89d9fa24b3b4fa4ea20e70b835e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5301843687256407928
+    second: Wood_Battle_Death_0
+  - first:
+      213: -2445129529529842256
+    second: Wood_Battle_Death_1
+  - first:
+      213: -1388176278750176954
+    second: Wood_Battle_Death_2
+  - first:
+      213: 7371842594556969202
+    second: Wood_Battle_Death_3
+  - first:
+      213: -2251820332332985867
+    second: Wood_Battle_Death_4
+  - first:
+      213: -1121271910061512456
+    second: Wood_Battle_Death_5
+  - first:
+      213: 458924655233083100
+    second: Wood_Battle_Death_6
+  - first:
+      213: -976871327677863859
+    second: Wood_Battle_Death_7
+  - first:
+      213: 6498890400294310577
+    second: Wood_Battle_Death_8
+  - first:
+      213: 7206782599261561161
+    second: Wood_Battle_Death_9
+  - first:
+      213: -8175086411077480892
+    second: Wood_Battle_Death_10
+  - first:
+      213: 6021368264626990814
+    second: Wood_Battle_Death_11
+  - first:
+      213: -4314111773623898511
+    second: Wood_Battle_Death_12
+  - first:
+      213: -6701620823704480464
+    second: Wood_Battle_Death_13
+  - first:
+      213: 147464296523603259
+    second: Wood_Battle_Death_14
+  - first:
+      213: -8086847412099423364
+    second: Wood_Battle_Death_15
+  - first:
+      213: -8717570265170049277
+    second: Wood_Battle_Death_16
+  - first:
+      213: -3074867942718760649
+    second: Wood_Battle_Death_17
+  - first:
+      213: 5608718236041620815
+    second: Wood_Battle_Death_18
+  - first:
+      213: 9186627215326356497
+    second: Wood_Battle_Death_19
+  - first:
+      213: -6067946499785028628
+    second: Wood_Battle_Death_20
+  - first:
+      213: 764472390328966201
+    second: Wood_Battle_Death_21
+  - first:
+      213: -7553226761098207942
+    second: Wood_Battle_Death_22
+  - first:
+      213: -4600305949560013865
+    second: Wood_Battle_Death_23
+  - first:
+      213: -3080241423548030009
+    second: Wood_Battle_Death_24
+  - first:
+      213: 7526499219451758135
+    second: Wood_Battle_Death_25
+  - first:
+      213: 6610786354505835422
+    second: Wood_Battle_Death_26
+  - first:
+      213: -5027836548810096592
+    second: Wood_Battle_Death_27
+  - first:
+      213: -3211616948940677150
+    second: Wood_Battle_Death_28
+  - first:
+      213: -5868917588716525530
+    second: Wood_Battle_Death_29
+  - first:
+      213: -8735964234512798624
+    second: Wood_Battle_Death_30
+  - first:
+      213: -2883435182938951464
+    second: Wood_Battle_Death_31
+  - first:
+      213: -4861075983411232233
+    second: Wood_Battle_Death_32
+  - first:
+      213: 7268782416841692076
+    second: Wood_Battle_Death_33
+  - first:
+      213: -3227153692186492534
+    second: Wood_Battle_Death_34
+  - first:
+      213: -9000949462372271234
+    second: Wood_Battle_Death_35
+  - first:
+      213: 3682192031368555153
+    second: Wood_Battle_Death_36
+  - first:
+      213: 3730388808897986997
+    second: Wood_Battle_Death_37
+  - first:
+      213: -2063309312627911580
+    second: Wood_Battle_Death_38
+  - first:
+      213: 3307875382420135048
+    second: Wood_Battle_Death_39
+  - first:
+      213: 5837532505866269109
+    second: Wood_Battle_Death_40
+  - first:
+      213: 3283397595594577221
+    second: Wood_Battle_Death_41
+  - first:
+      213: -8663553884970130518
+    second: Wood_Battle_Death_42
+  - first:
+      213: 653001343701256900
+    second: Wood_Battle_Death_43
+  - first:
+      213: -896009236011619136
+    second: Wood_Battle_Death_44
+  - first:
+      213: -7312780825698312898
+    second: Wood_Battle_Death_45
+  - first:
+      213: -1061121301928248370
+    second: Wood_Battle_Death_46
+  - first:
+      213: 565541911753478049
+    second: Wood_Battle_Death_47
+  - first:
+      213: 4040062395781546365
+    second: Wood_Battle_Death_48
+  - first:
+      213: -1260243228899542835
+    second: Wood_Battle_Death_49
+  - first:
+      213: 1868857186023676425
+    second: Wood_Battle_Death_50
+  - first:
+      213: -9209144342451397415
+    second: Wood_Battle_Death_51
+  - first:
+      213: 7420285723613021136
+    second: Wood_Battle_Death_52
+  - first:
+      213: -6674760050560433108
+    second: Wood_Battle_Death_53
+  - first:
+      213: -5992442510685086886
+    second: Wood_Battle_Death_54
+  - first:
+      213: -3214533004373734566
+    second: Wood_Battle_Death_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wood_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8804f6eb1411c66b0800000000000000
+      internalID: -5301843687256407928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b54e82d5a7211ed0800000000000000
+      internalID: -2445129529529842256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649d87387053cbce0800000000000000
+      internalID: -1388176278750176954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f089a438cb0e4660800000000000000
+      internalID: 7371842594556969202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f15a41a65defb0e0800000000000000
+      internalID: -2251820332332985867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8e82873217070f0800000000000000
+      internalID: -1121271910061512456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd626ddda8d6e5600800000000000000
+      internalID: 458924655233083100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d482f7204b47172f0800000000000000
+      internalID: -976871327677863859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b21dbfe262b03a50800000000000000
+      internalID: 6498890400294310577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941a3724792a30460800000000000000
+      internalID: 7206782599261561161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e8a9bf8324c8e80800000000000000
+      internalID: -8175086411077480892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee6eab882309350800000000000000
+      internalID: 6021368264626990814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e21d3f2323124c0800000000000000
+      internalID: -4314111773623898511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035dbb71e5f0ff2a0800000000000000
+      internalID: -6701620823704480464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d97531ff5eb0200800000000000000
+      internalID: 147464296523603259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73e609ef1fb5cf80800000000000000
+      internalID: -8086847412099423364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c92300840c7e774e94d19e5d928c968
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Wood_Battle_Death_0: -5301843687256407928
+      Wood_Battle_Death_1: -2445129529529842256
+      Wood_Battle_Death_10: -8175086411077480892
+      Wood_Battle_Death_11: 6021368264626990814
+      Wood_Battle_Death_12: -4314111773623898511
+      Wood_Battle_Death_13: -6701620823704480464
+      Wood_Battle_Death_14: 147464296523603259
+      Wood_Battle_Death_15: -8086847412099423364
+      Wood_Battle_Death_2: -1388176278750176954
+      Wood_Battle_Death_3: 7371842594556969202
+      Wood_Battle_Death_4: -2251820332332985867
+      Wood_Battle_Death_5: -1121271910061512456
+      Wood_Battle_Death_6: 458924655233083100
+      Wood_Battle_Death_7: -976871327677863859
+      Wood_Battle_Death_8: 6498890400294310577
+      Wood_Battle_Death_9: 7206782599261561161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

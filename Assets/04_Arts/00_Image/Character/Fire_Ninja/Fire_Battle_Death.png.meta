@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 2dcb8a519be2eb04eaaba8e16f27af05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8916061695346531925
+    second: Fire_Battle_Death_0
+  - first:
+      213: -4092568203474156303
+    second: Fire_Battle_Death_1
+  - first:
+      213: 3580358124679673961
+    second: Fire_Battle_Death_2
+  - first:
+      213: -8332338272995383489
+    second: Fire_Battle_Death_3
+  - first:
+      213: 1936876978262794638
+    second: Fire_Battle_Death_4
+  - first:
+      213: -7031845963318195800
+    second: Fire_Battle_Death_5
+  - first:
+      213: -8494594647425122827
+    second: Fire_Battle_Death_6
+  - first:
+      213: 3257784220272871435
+    second: Fire_Battle_Death_7
+  - first:
+      213: -7919236732057028397
+    second: Fire_Battle_Death_8
+  - first:
+      213: 191642225799528888
+    second: Fire_Battle_Death_9
+  - first:
+      213: -3722883296818625818
+    second: Fire_Battle_Death_10
+  - first:
+      213: 2090328001589427656
+    second: Fire_Battle_Death_11
+  - first:
+      213: 8578349592573008115
+    second: Fire_Battle_Death_12
+  - first:
+      213: -7355691452179157498
+    second: Fire_Battle_Death_13
+  - first:
+      213: -9125556334020855970
+    second: Fire_Battle_Death_14
+  - first:
+      213: -3318507202745765357
+    second: Fire_Battle_Death_15
+  - first:
+      213: -902777511329608074
+    second: Fire_Battle_Death_16
+  - first:
+      213: 2660992386556357832
+    second: Fire_Battle_Death_17
+  - first:
+      213: -2444228379962466795
+    second: Fire_Battle_Death_18
+  - first:
+      213: 7292976982298765512
+    second: Fire_Battle_Death_19
+  - first:
+      213: -2466256184261033058
+    second: Fire_Battle_Death_20
+  - first:
+      213: -2774069001069858328
+    second: Fire_Battle_Death_21
+  - first:
+      213: -2490302695936798900
+    second: Fire_Battle_Death_22
+  - first:
+      213: -2573682082803165931
+    second: Fire_Battle_Death_23
+  - first:
+      213: -7989231853338110568
+    second: Fire_Battle_Death_24
+  - first:
+      213: 4312948431152052651
+    second: Fire_Battle_Death_25
+  - first:
+      213: 6143137981598759013
+    second: Fire_Battle_Death_26
+  - first:
+      213: 294566279574420033
+    second: Fire_Battle_Death_27
+  - first:
+      213: -705502723239576895
+    second: Fire_Battle_Death_28
+  - first:
+      213: 5913272156536676348
+    second: Fire_Battle_Death_29
+  - first:
+      213: 5924270549861358510
+    second: Fire_Battle_Death_30
+  - first:
+      213: 8904736370676622872
+    second: Fire_Battle_Death_31
+  - first:
+      213: 2431346208051492250
+    second: Fire_Battle_Death_32
+  - first:
+      213: 4960493816081750808
+    second: Fire_Battle_Death_33
+  - first:
+      213: -2092191244687088110
+    second: Fire_Battle_Death_34
+  - first:
+      213: 2435237426934022933
+    second: Fire_Battle_Death_35
+  - first:
+      213: 7760104875250606043
+    second: Fire_Battle_Death_36
+  - first:
+      213: -2577937211653073610
+    second: Fire_Battle_Death_37
+  - first:
+      213: -1057448636841494195
+    second: Fire_Battle_Death_38
+  - first:
+      213: 3450653422908498825
+    second: Fire_Battle_Death_39
+  - first:
+      213: 2190999350985800490
+    second: Fire_Battle_Death_40
+  - first:
+      213: -2739497936317305633
+    second: Fire_Battle_Death_41
+  - first:
+      213: 7016472500140071474
+    second: Fire_Battle_Death_42
+  - first:
+      213: -6747627332306980832
+    second: Fire_Battle_Death_43
+  - first:
+      213: 6642036537105189091
+    second: Fire_Battle_Death_44
+  - first:
+      213: 1236442082439528978
+    second: Fire_Battle_Death_45
+  - first:
+      213: -1285365396347433822
+    second: Fire_Battle_Death_46
+  - first:
+      213: -3338155171019211328
+    second: Fire_Battle_Death_47
+  - first:
+      213: -4920451869474232860
+    second: Fire_Battle_Death_48
+  - first:
+      213: -1910100945156408710
+    second: Fire_Battle_Death_49
+  - first:
+      213: 4940602673102440484
+    second: Fire_Battle_Death_50
+  - first:
+      213: -895363547041014593
+    second: Fire_Battle_Death_51
+  - first:
+      213: -2403744135308494392
+    second: Fire_Battle_Death_52
+  - first:
+      213: -3050783284497241434
+    second: Fire_Battle_Death_53
+  - first:
+      213: -303284018232612618
+    second: Fire_Battle_Death_54
+  - first:
+      213: -6072457858298955119
+    second: Fire_Battle_Death_55
+  - first:
+      213: 245403258281106336
+    second: Fire_Battle_Death_56
+  - first:
+      213: 5702745219172128398
+    second: Fire_Battle_Death_57
+  - first:
+      213: 1985598912555991023
+    second: Fire_Battle_Death_58
+  - first:
+      213: -5534882441759787344
+    second: Fire_Battle_Death_59
+  - first:
+      213: 4399966243005280224
+    second: Fire_Battle_Death_60
+  - first:
+      213: 1457664403842981454
+    second: Fire_Battle_Death_61
+  - first:
+      213: -298251673959952281
+    second: Fire_Battle_Death_62
+  - first:
+      213: -5238640494545386800
+    second: Fire_Battle_Death_63
+  - first:
+      213: -1368188241014762646
+    second: Fire_Battle_Death_64
+  - first:
+      213: -2713001430394043165
+    second: Fire_Battle_Death_65
+  - first:
+      213: 4645799397785415242
+    second: Fire_Battle_Death_66
+  - first:
+      213: 2118072709740805737
+    second: Fire_Battle_Death_67
+  - first:
+      213: -1245314528422963522
+    second: Fire_Battle_Death_68
+  - first:
+      213: 103382883839653485
+    second: Fire_Battle_Death_69
+  - first:
+      213: -8349322143934304007
+    second: Fire_Battle_Death_70
+  - first:
+      213: 6610147989680449416
+    second: Fire_Battle_Death_71
+  - first:
+      213: -8427272797060419737
+    second: Fire_Battle_Death_72
+  - first:
+      213: -9113664809644531374
+    second: Fire_Battle_Death_73
+  - first:
+      213: 7138252881680500672
+    second: Fire_Battle_Death_74
+  - first:
+      213: 7032542470956109422
+    second: Fire_Battle_Death_75
+  - first:
+      213: 4528178808750857377
+    second: Fire_Battle_Death_76
+  - first:
+      213: 8366922962669563366
+    second: Fire_Battle_Death_77
+  - first:
+      213: 7015965971454942705
+    second: Fire_Battle_Death_78
+  - first:
+      213: 8162339627078975557
+    second: Fire_Battle_Death_79
+  - first:
+      213: 7479468499822090512
+    second: Fire_Battle_Death_80
+  - first:
+      213: 8238709739981853657
+    second: Fire_Battle_Death_81
+  - first:
+      213: 6209664208022820283
+    second: Fire_Battle_Death_82
+  - first:
+      213: 933703245839977480
+    second: Fire_Battle_Death_83
+  - first:
+      213: -9027950517518033649
+    second: Fire_Battle_Death_84
+  - first:
+      213: 2818783320635763374
+    second: Fire_Battle_Death_85
+  - first:
+      213: 7229699656763167846
+    second: Fire_Battle_Death_86
+  - first:
+      213: -2719996886683098245
+    second: Fire_Battle_Death_87
+  - first:
+      213: -1416614987881370292
+    second: Fire_Battle_Death_88
+  - first:
+      213: 3449085796516275087
+    second: Fire_Battle_Death_89
+  - first:
+      213: 5654772844712694827
+    second: Fire_Battle_Death_90
+  - first:
+      213: 1704215608240560877
+    second: Fire_Battle_Death_91
+  - first:
+      213: -7330175875821103293
+    second: Fire_Battle_Death_92
+  - first:
+      213: 6337092079929504428
+    second: Fire_Battle_Death_93
+  - first:
+      213: -3934164377362671450
+    second: Fire_Battle_Death_94
+  - first:
+      213: -8962809586022710240
+    second: Fire_Battle_Death_95
+  - first:
+      213: 1894625074040190723
+    second: Fire_Battle_Death_96
+  - first:
+      213: -5964164573544629324
+    second: Fire_Battle_Death_97
+  - first:
+      213: -1637781493076032896
+    second: Fire_Battle_Death_98
+  - first:
+      213: 3906866168689810700
+    second: Fire_Battle_Death_99
+  - first:
+      213: -4758459567117302858
+    second: Fire_Battle_Death_100
+  - first:
+      213: 4456605191143859105
+    second: Fire_Battle_Death_101
+  - first:
+      213: 8218419822819748351
+    second: Fire_Battle_Death_102
+  - first:
+      213: -8602920134024101639
+    second: Fire_Battle_Death_103
+  - first:
+      213: 614176644084046165
+    second: Fire_Battle_Death_104
+  - first:
+      213: -3654257332441622685
+    second: Fire_Battle_Death_105
+  - first:
+      213: 756262393468000109
+    second: Fire_Battle_Death_106
+  - first:
+      213: -7985290621577628193
+    second: Fire_Battle_Death_107
+  - first:
+      213: -6178745180556193349
+    second: Fire_Battle_Death_108
+  - first:
+      213: -618124006404155479
+    second: Fire_Battle_Death_109
+  - first:
+      213: 5191898365139032331
+    second: Fire_Battle_Death_110
+  - first:
+      213: 5660993054756826293
+    second: Fire_Battle_Death_111
+  - first:
+      213: 7138904019480884069
+    second: Fire_Battle_Death_112
+  - first:
+      213: -249390290965750501
+    second: Fire_Battle_Death_113
+  - first:
+      213: -5363719381427545595
+    second: Fire_Battle_Death_114
+  - first:
+      213: -8929865335418490815
+    second: Fire_Battle_Death_115
+  - first:
+      213: -1473506386917812389
+    second: Fire_Battle_Death_116
+  - first:
+      213: 8100764715772907136
+    second: Fire_Battle_Death_117
+  - first:
+      213: -4827760760021563103
+    second: Fire_Battle_Death_118
+  - first:
+      213: -104571970557695081
+    second: Fire_Battle_Death_119
+  - first:
+      213: 8571850889651641488
+    second: Fire_Battle_Death_120
+  - first:
+      213: 946040160125087180
+    second: Fire_Battle_Death_121
+  - first:
+      213: 2546051131685329199
+    second: Fire_Battle_Death_122
+  - first:
+      213: 1017779807585819097
+    second: Fire_Battle_Death_123
+  - first:
+      213: 131424199883683367
+    second: Fire_Battle_Death_124
+  - first:
+      213: -990147274915859
+    second: Fire_Battle_Death_125
+  - first:
+      213: -8904538572833869142
+    second: Fire_Battle_Death_126
+  - first:
+      213: -7412369662826802733
+    second: Fire_Battle_Death_127
+  - first:
+      213: 7482690749848241328
+    second: Fire_Battle_Death_128
+  - first:
+      213: 8411574629320492479
+    second: Fire_Battle_Death_129
+  - first:
+      213: -1949713902409477825
+    second: Fire_Battle_Death_130
+  - first:
+      213: 4796391597227369143
+    second: Fire_Battle_Death_131
+  - first:
+      213: 4747918824025703164
+    second: Fire_Battle_Death_132
+  - first:
+      213: 4463409900254208073
+    second: Fire_Battle_Death_133
+  - first:
+      213: 6648491073346505221
+    second: Fire_Battle_Death_134
+  - first:
+      213: 3132258606523900424
+    second: Fire_Battle_Death_135
+  - first:
+      213: -8621952600774652941
+    second: Fire_Battle_Death_136
+  - first:
+      213: 150024728450097661
+    second: Fire_Battle_Death_137
+  - first:
+      213: 5856703045904376433
+    second: Fire_Battle_Death_138
+  - first:
+      213: -6053679592393097475
+    second: Fire_Battle_Death_139
+  - first:
+      213: -3857283204506930151
+    second: Fire_Battle_Death_140
+  - first:
+      213: -1791653781596940469
+    second: Fire_Battle_Death_141
+  - first:
+      213: -6124200245630605060
+    second: Fire_Battle_Death_142
+  - first:
+      213: -3700542810095202133
+    second: Fire_Battle_Death_143
+  - first:
+      213: -6367804870358835437
+    second: Fire_Battle_Death_144
+  - first:
+      213: 3712096561867036712
+    second: Fire_Battle_Death_145
+  - first:
+      213: -3272721877538737974
+    second: Fire_Battle_Death_146
+  - first:
+      213: 6043728913358475575
+    second: Fire_Battle_Death_147
+  - first:
+      213: 3275068075918368814
+    second: Fire_Battle_Death_148
+  - first:
+      213: 5634693502708135627
+    second: Fire_Battle_Death_149
+  - first:
+      213: -2565047586949793826
+    second: Fire_Battle_Death_150
+  - first:
+      213: 8515336665544120917
+    second: Fire_Battle_Death_151
+  - first:
+      213: -5567799136018465588
+    second: Fire_Battle_Death_152
+  - first:
+      213: 1198981608514803343
+    second: Fire_Battle_Death_153
+  - first:
+      213: -8725129009211136827
+    second: Fire_Battle_Death_154
+  - first:
+      213: -6503636952049540691
+    second: Fire_Battle_Death_155
+  - first:
+      213: 4602151245342449164
+    second: Fire_Battle_Death_156
+  - first:
+      213: -8199197129467901220
+    second: Fire_Battle_Death_157
+  - first:
+      213: -6866356485157708211
+    second: Fire_Battle_Death_158
+  - first:
+      213: -8146768266441554307
+    second: Fire_Battle_Death_159
+  - first:
+      213: -4244386704681182026
+    second: Fire_Battle_Death_160
+  - first:
+      213: 7629943986436333017
+    second: Fire_Battle_Death_161
+  - first:
+      213: -1546925354082750172
+    second: Fire_Battle_Death_162
+  - first:
+      213: -2588099699376465395
+    second: Fire_Battle_Death_163
+  - first:
+      213: -140214823345001749
+    second: Fire_Battle_Death_164
+  - first:
+      213: 7604434689589926614
+    second: Fire_Battle_Death_165
+  - first:
+      213: 5891422832278071262
+    second: Fire_Battle_Death_166
+  - first:
+      213: 8738537841455606437
+    second: Fire_Battle_Death_167
+  - first:
+      213: 7896900664550227763
+    second: Fire_Battle_Death_168
+  - first:
+      213: 7493011478829110670
+    second: Fire_Battle_Death_169
+  - first:
+      213: 3732693326311536264
+    second: Fire_Battle_Death_170
+  - first:
+      213: 1400512990795159724
+    second: Fire_Battle_Death_171
+  - first:
+      213: -5000022596919223629
+    second: Fire_Battle_Death_172
+  - first:
+      213: -2399466351499867504
+    second: Fire_Battle_Death_173
+  - first:
+      213: 3214253944217717779
+    second: Fire_Battle_Death_174
+  - first:
+      213: -162593712601288224
+    second: Fire_Battle_Death_175
+  - first:
+      213: 807498052705912961
+    second: Fire_Battle_Death_176
+  - first:
+      213: 7410475178617054499
+    second: Fire_Battle_Death_177
+  - first:
+      213: -1259138282058914369
+    second: Fire_Battle_Death_178
+  - first:
+      213: -1318568450226260325
+    second: Fire_Battle_Death_179
+  - first:
+      213: -6526795537673632943
+    second: Fire_Battle_Death_180
+  - first:
+      213: 7010289743069418857
+    second: Fire_Battle_Death_181
+  - first:
+      213: 7260195255716011540
+    second: Fire_Battle_Death_182
+  - first:
+      213: -6274089163331852497
+    second: Fire_Battle_Death_183
+  - first:
+      213: 2482110255450036540
+    second: Fire_Battle_Death_184
+  - first:
+      213: -1590738159176708569
+    second: Fire_Battle_Death_185
+  - first:
+      213: 7907477232805520591
+    second: Fire_Battle_Death_186
+  - first:
+      213: -1843222160702576642
+    second: Fire_Battle_Death_187
+  - first:
+      213: -7300602921925358765
+    second: Fire_Battle_Death_188
+  - first:
+      213: 4935207132423724873
+    second: Fire_Battle_Death_189
+  - first:
+      213: 2533873644099775409
+    second: Fire_Battle_Death_190
+  - first:
+      213: -1333522181559997298
+    second: Fire_Battle_Death_191
+  - first:
+      213: 4036065196387029978
+    second: Fire_Battle_Death_192
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1276d9029c34480800000000000000
+      internalID: -8916061695346531925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f44ddcf6e64437c0800000000000000
+      internalID: -4092568203474156303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968373eaebcffa130800000000000000
+      internalID: 3580358124679673961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37e7b1cc769d5c80800000000000000
+      internalID: -8332338272995383489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e816cf6895b21ea10800000000000000
+      internalID: 1936876978262794638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a987294a5dd96e90800000000000000
+      internalID: -7031845963318195800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd7a49ac232d1a80800000000000000
+      internalID: -8494594647425122827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08cc34ec79f53d20800000000000000
+      internalID: 3257784220272871435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8f38d6628391290800000000000000
+      internalID: -7919236732057028397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b10fb8c699d8a200800000000000000
+      internalID: 191642225799528888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e204e0cd59a55cc0800000000000000
+      internalID: -3722883296818625818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd3ace0e36520d10800000000000000
+      internalID: 2090328001589427656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f85e60218b6c0770800000000000000
+      internalID: 8578349592573008115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60eeb7ba8955be990800000000000000
+      internalID: -7355691452179157498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57fedc0dd28b5180800000000000000
+      internalID: -9125556334020855970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31273c3084b42f1d0800000000000000
+      internalID: -3318507202745765357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 526a3e39da37fb04c8f62815ff6b8eb9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fire_Battle_Death_0: -8916061695346531925
+      Fire_Battle_Death_1: -4092568203474156303
+      Fire_Battle_Death_10: -3722883296818625818
+      Fire_Battle_Death_11: 2090328001589427656
+      Fire_Battle_Death_12: 8578349592573008115
+      Fire_Battle_Death_13: -7355691452179157498
+      Fire_Battle_Death_14: -9125556334020855970
+      Fire_Battle_Death_15: -3318507202745765357
+      Fire_Battle_Death_2: 3580358124679673961
+      Fire_Battle_Death_3: -8332338272995383489
+      Fire_Battle_Death_4: 1936876978262794638
+      Fire_Battle_Death_5: -7031845963318195800
+      Fire_Battle_Death_6: -8494594647425122827
+      Fire_Battle_Death_7: 3257784220272871435
+      Fire_Battle_Death_8: -7919236732057028397
+      Fire_Battle_Death_9: 191642225799528888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

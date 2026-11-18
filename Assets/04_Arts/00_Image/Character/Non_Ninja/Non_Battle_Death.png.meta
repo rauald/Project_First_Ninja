@@ -1,0 +1,1059 @@
+fileFormatVersion: 2
+guid: e819cf3b10430af44969f872eaa0b85f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -975790953791641905
+    second: Non_Battle_Death_0
+  - first:
+      213: 5812571606736619392
+    second: Non_Battle_Death_1
+  - first:
+      213: -2038727317273576955
+    second: Non_Battle_Death_2
+  - first:
+      213: 7540508103978903324
+    second: Non_Battle_Death_3
+  - first:
+      213: -4780185556092361087
+    second: Non_Battle_Death_4
+  - first:
+      213: 6721636330715342153
+    second: Non_Battle_Death_5
+  - first:
+      213: 7685171625016288126
+    second: Non_Battle_Death_6
+  - first:
+      213: -4318104560590053098
+    second: Non_Battle_Death_7
+  - first:
+      213: 5850206282716166772
+    second: Non_Battle_Death_8
+  - first:
+      213: -1450563799803517816
+    second: Non_Battle_Death_9
+  - first:
+      213: 635784569481119123
+    second: Non_Battle_Death_10
+  - first:
+      213: -2506019575002503661
+    second: Non_Battle_Death_11
+  - first:
+      213: 5432671018927472403
+    second: Non_Battle_Death_12
+  - first:
+      213: 3704836619579077792
+    second: Non_Battle_Death_13
+  - first:
+      213: -2919825551273064657
+    second: Non_Battle_Death_14
+  - first:
+      213: -3814646729803498383
+    second: Non_Battle_Death_15
+  - first:
+      213: 39910756337629557
+    second: Non_Battle_Death_16
+  - first:
+      213: -422076852261991557
+    second: Non_Battle_Death_17
+  - first:
+      213: 7100718250257360758
+    second: Non_Battle_Death_18
+  - first:
+      213: 5728864603540288005
+    second: Non_Battle_Death_19
+  - first:
+      213: 5983207358495023578
+    second: Non_Battle_Death_20
+  - first:
+      213: -8962573258186776155
+    second: Non_Battle_Death_21
+  - first:
+      213: -2807930612325960571
+    second: Non_Battle_Death_22
+  - first:
+      213: -2597964836366314727
+    second: Non_Battle_Death_23
+  - first:
+      213: -746320107292352327
+    second: Non_Battle_Death_24
+  - first:
+      213: 4985874985634267854
+    second: Non_Battle_Death_25
+  - first:
+      213: 5680711979073811825
+    second: Non_Battle_Death_26
+  - first:
+      213: 3781037516983300934
+    second: Non_Battle_Death_27
+  - first:
+      213: -306335992039125637
+    second: Non_Battle_Death_28
+  - first:
+      213: 5306066058557741467
+    second: Non_Battle_Death_29
+  - first:
+      213: 722255779422820193
+    second: Non_Battle_Death_30
+  - first:
+      213: 3630678582341182712
+    second: Non_Battle_Death_31
+  - first:
+      213: 4740564060916727309
+    second: Non_Battle_Death_32
+  - first:
+      213: 8644522592436185000
+    second: Non_Battle_Death_33
+  - first:
+      213: 4757289101901904279
+    second: Non_Battle_Death_34
+  - first:
+      213: -4787712852222391153
+    second: Non_Battle_Death_35
+  - first:
+      213: -4628554982894478491
+    second: Non_Battle_Death_36
+  - first:
+      213: -1595955692845978653
+    second: Non_Battle_Death_37
+  - first:
+      213: 8093798062797195841
+    second: Non_Battle_Death_38
+  - first:
+      213: 8793384250512706042
+    second: Non_Battle_Death_39
+  - first:
+      213: -3001924812185479272
+    second: Non_Battle_Death_40
+  - first:
+      213: -1998448747470858629
+    second: Non_Battle_Death_41
+  - first:
+      213: 2469227044201322486
+    second: Non_Battle_Death_42
+  - first:
+      213: 62421115015967441
+    second: Non_Battle_Death_43
+  - first:
+      213: 7476568687009218981
+    second: Non_Battle_Death_44
+  - first:
+      213: 4973584990703978631
+    second: Non_Battle_Death_45
+  - first:
+      213: -5870449112812359367
+    second: Non_Battle_Death_46
+  - first:
+      213: 6374320035224884500
+    second: Non_Battle_Death_47
+  - first:
+      213: 6628611761058041420
+    second: Non_Battle_Death_48
+  - first:
+      213: -4066259698838777986
+    second: Non_Battle_Death_49
+  - first:
+      213: -7128167562802964535
+    second: Non_Battle_Death_50
+  - first:
+      213: -2997388395940732930
+    second: Non_Battle_Death_51
+  - first:
+      213: 6100458638181893112
+    second: Non_Battle_Death_52
+  - first:
+      213: 2297284473549223506
+    second: Non_Battle_Death_53
+  - first:
+      213: 572080341059258310
+    second: Non_Battle_Death_54
+  - first:
+      213: -3743578377489924793
+    second: Non_Battle_Death_55
+  - first:
+      213: -7983137605841449200
+    second: Non_Battle_Death_56
+  - first:
+      213: -9190006325293244187
+    second: Non_Battle_Death_57
+  - first:
+      213: -5827931926040563311
+    second: Non_Battle_Death_58
+  - first:
+      213: -788842958015024016
+    second: Non_Battle_Death_59
+  - first:
+      213: -6131340248797608690
+    second: Non_Battle_Death_60
+  - first:
+      213: 4517140827984691542
+    second: Non_Battle_Death_61
+  - first:
+      213: 3662719061758194795
+    second: Non_Battle_Death_62
+  - first:
+      213: -5304716861667190313
+    second: Non_Battle_Death_63
+  - first:
+      213: 3226472053224422160
+    second: Non_Battle_Death_64
+  - first:
+      213: 3777642322018371278
+    second: Non_Battle_Death_65
+  - first:
+      213: -4047300052804101020
+    second: Non_Battle_Death_66
+  - first:
+      213: -9081224944785260320
+    second: Non_Battle_Death_67
+  - first:
+      213: 1395227430247129178
+    second: Non_Battle_Death_68
+  - first:
+      213: -7854496459699051152
+    second: Non_Battle_Death_69
+  - first:
+      213: 2894675374244796378
+    second: Non_Battle_Death_70
+  - first:
+      213: -7674318095676666394
+    second: Non_Battle_Death_71
+  - first:
+      213: 5513122766804201980
+    second: Non_Battle_Death_72
+  - first:
+      213: 1345204962337746516
+    second: Non_Battle_Death_73
+  - first:
+      213: -5515838324639994439
+    second: Non_Battle_Death_74
+  - first:
+      213: 1670052985534527433
+    second: Non_Battle_Death_75
+  - first:
+      213: 6786816184441094691
+    second: Non_Battle_Death_76
+  - first:
+      213: 6162059086498494683
+    second: Non_Battle_Death_77
+  - first:
+      213: -7499126322857494759
+    second: Non_Battle_Death_78
+  - first:
+      213: 6962836044100021324
+    second: Non_Battle_Death_79
+  - first:
+      213: -3852320072146021022
+    second: Non_Battle_Death_80
+  - first:
+      213: -7921124694906488735
+    second: Non_Battle_Death_81
+  - first:
+      213: 1067041670656166312
+    second: Non_Battle_Death_82
+  - first:
+      213: -5440642120532352360
+    second: Non_Battle_Death_83
+  - first:
+      213: 5689077299712313468
+    second: Non_Battle_Death_84
+  - first:
+      213: 5052851920821239242
+    second: Non_Battle_Death_85
+  - first:
+      213: 1803873313327189508
+    second: Non_Battle_Death_86
+  - first:
+      213: 1590443524245543306
+    second: Non_Battle_Death_87
+  - first:
+      213: -3830034140449714254
+    second: Non_Battle_Death_88
+  - first:
+      213: -4393298639391697953
+    second: Non_Battle_Death_89
+  - first:
+      213: 2168650495739464243
+    second: Non_Battle_Death_90
+  - first:
+      213: -4953352536794161112
+    second: Non_Battle_Death_91
+  - first:
+      213: 7563560091921677174
+    second: Non_Battle_Death_92
+  - first:
+      213: -7766138993664210334
+    second: Non_Battle_Death_93
+  - first:
+      213: -5467883748606688112
+    second: Non_Battle_Death_94
+  - first:
+      213: -2815283084622098602
+    second: Non_Battle_Death_95
+  - first:
+      213: -3090943876215003676
+    second: Non_Battle_Death_96
+  - first:
+      213: -8644884648669305947
+    second: Non_Battle_Death_97
+  - first:
+      213: 8100938699261819171
+    second: Non_Battle_Death_98
+  - first:
+      213: -1226881536660686379
+    second: Non_Battle_Death_99
+  - first:
+      213: 1757354133917230136
+    second: Non_Battle_Death_100
+  - first:
+      213: 3707301909083986946
+    second: Non_Battle_Death_101
+  - first:
+      213: 6938902317151928341
+    second: Non_Battle_Death_102
+  - first:
+      213: 5786089251337450631
+    second: Non_Battle_Death_103
+  - first:
+      213: 1645267315203688146
+    second: Non_Battle_Death_104
+  - first:
+      213: 3777058013700631921
+    second: Non_Battle_Death_105
+  - first:
+      213: -8335165653017977804
+    second: Non_Battle_Death_106
+  - first:
+      213: 4774817620151968333
+    second: Non_Battle_Death_107
+  - first:
+      213: -6804217834195085637
+    second: Non_Battle_Death_108
+  - first:
+      213: 3897812661036408203
+    second: Non_Battle_Death_109
+  - first:
+      213: 3020097644728444110
+    second: Non_Battle_Death_110
+  - first:
+      213: 2822478064225226144
+    second: Non_Battle_Death_111
+  - first:
+      213: 1432562147227420350
+    second: Non_Battle_Death_112
+  - first:
+      213: 8407097609326713739
+    second: Non_Battle_Death_113
+  - first:
+      213: 8613892244480260220
+    second: Non_Battle_Death_114
+  - first:
+      213: 5601434323566974952
+    second: Non_Battle_Death_115
+  - first:
+      213: -5096166378291669959
+    second: Non_Battle_Death_116
+  - first:
+      213: -4443433294681429286
+    second: Non_Battle_Death_117
+  - first:
+      213: -8755965972440572484
+    second: Non_Battle_Death_118
+  - first:
+      213: 189475873348468178
+    second: Non_Battle_Death_119
+  - first:
+      213: 6417822412509565784
+    second: Non_Battle_Death_120
+  - first:
+      213: -6240149362611118877
+    second: Non_Battle_Death_121
+  - first:
+      213: 6486186810126733916
+    second: Non_Battle_Death_122
+  - first:
+      213: 9003328757593335387
+    second: Non_Battle_Death_123
+  - first:
+      213: -5477422616089222447
+    second: Non_Battle_Death_124
+  - first:
+      213: 8191550952626954360
+    second: Non_Battle_Death_125
+  - first:
+      213: 7266069332393473197
+    second: Non_Battle_Death_126
+  - first:
+      213: -8998974336134920820
+    second: Non_Battle_Death_127
+  - first:
+      213: 2494448073777987533
+    second: Non_Battle_Death_128
+  - first:
+      213: -5724409981985101001
+    second: Non_Battle_Death_129
+  - first:
+      213: -637760970688967704
+    second: Non_Battle_Death_130
+  - first:
+      213: 7356551245457034509
+    second: Non_Battle_Death_131
+  - first:
+      213: 4837218420660985551
+    second: Non_Battle_Death_132
+  - first:
+      213: -8210551190148439537
+    second: Non_Battle_Death_133
+  - first:
+      213: -5323154233800772979
+    second: Non_Battle_Death_134
+  - first:
+      213: 7883297277939371535
+    second: Non_Battle_Death_135
+  - first:
+      213: 6197211575525486765
+    second: Non_Battle_Death_136
+  - first:
+      213: -6916996538697856752
+    second: Non_Battle_Death_137
+  - first:
+      213: 5814224616600246019
+    second: Non_Battle_Death_138
+  - first:
+      213: 5526596094555907610
+    second: Non_Battle_Death_139
+  - first:
+      213: 4876696078663504982
+    second: Non_Battle_Death_140
+  - first:
+      213: 6578145864092396430
+    second: Non_Battle_Death_141
+  - first:
+      213: -1627321586183669889
+    second: Non_Battle_Death_142
+  - first:
+      213: -3696297369102406233
+    second: Non_Battle_Death_143
+  - first:
+      213: 4159360494648176015
+    second: Non_Battle_Death_144
+  - first:
+      213: -9187343430144387765
+    second: Non_Battle_Death_145
+  - first:
+      213: -2283583416902677491
+    second: Non_Battle_Death_146
+  - first:
+      213: 8435982604543466154
+    second: Non_Battle_Death_147
+  - first:
+      213: 7999075019542593994
+    second: Non_Battle_Death_148
+  - first:
+      213: -8141013000890859790
+    second: Non_Battle_Death_149
+  - first:
+      213: 1255293024375954865
+    second: Non_Battle_Death_150
+  - first:
+      213: -6862737383326219690
+    second: Non_Battle_Death_151
+  - first:
+      213: 3088659265447537374
+    second: Non_Battle_Death_152
+  - first:
+      213: 6560818109471507594
+    second: Non_Battle_Death_153
+  - first:
+      213: 3525823271108287018
+    second: Non_Battle_Death_154
+  - first:
+      213: 3845347627376255473
+    second: Non_Battle_Death_155
+  - first:
+      213: 3664819197648853836
+    second: Non_Battle_Death_156
+  - first:
+      213: -5827370294859526423
+    second: Non_Battle_Death_157
+  - first:
+      213: 4293209874336517769
+    second: Non_Battle_Death_158
+  - first:
+      213: 2372084481275730546
+    second: Non_Battle_Death_159
+  - first:
+      213: -8462957398629939070
+    second: Non_Battle_Death_160
+  - first:
+      213: -3826981198262050836
+    second: Non_Battle_Death_161
+  - first:
+      213: 5893699872133659368
+    second: Non_Battle_Death_162
+  - first:
+      213: -2485943705056541366
+    second: Non_Battle_Death_163
+  - first:
+      213: 7576606992160873834
+    second: Non_Battle_Death_164
+  - first:
+      213: 6149245822471018103
+    second: Non_Battle_Death_165
+  - first:
+      213: -6886750263896263174
+    second: Non_Battle_Death_166
+  - first:
+      213: -5632197413965512470
+    second: Non_Battle_Death_167
+  - first:
+      213: -7176385356130377068
+    second: Non_Battle_Death_168
+  - first:
+      213: -9141289856954580228
+    second: Non_Battle_Death_169
+  - first:
+      213: 7355932686145158704
+    second: Non_Battle_Death_170
+  - first:
+      213: 2495644955948353538
+    second: Non_Battle_Death_171
+  - first:
+      213: 296802139226882154
+    second: Non_Battle_Death_172
+  - first:
+      213: -7832030145007988144
+    second: Non_Battle_Death_173
+  - first:
+      213: -3249549097371689908
+    second: Non_Battle_Death_174
+  - first:
+      213: 8883881280906744959
+    second: Non_Battle_Death_175
+  - first:
+      213: 4637641524957126850
+    second: Non_Battle_Death_176
+  - first:
+      213: 6302478371567109004
+    second: Non_Battle_Death_177
+  - first:
+      213: 5984783116296839150
+    second: Non_Battle_Death_178
+  - first:
+      213: 5978540599350712181
+    second: Non_Battle_Death_179
+  - first:
+      213: -6066181135069407059
+    second: Non_Battle_Death_180
+  - first:
+      213: -7892612019322164662
+    second: Non_Battle_Death_181
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Non_Battle_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6a5382c4b4572f0800000000000000
+      internalID: -975790953791641905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087ce0b74176aa050800000000000000
+      internalID: 5812571606736619392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50af50c7e4cf4b3e0800000000000000
+      internalID: -2038727317273576955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17ed935b2445a860800000000000000
+      internalID: 7540508103978903324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18669a0309e59adb0800000000000000
+      internalID: -4780185556092361087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945e5a941ac084d50800000000000000
+      internalID: 6721636330715342153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73e10b00e637aa60800000000000000
+      internalID: 7685171625016288126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611290bc7c20314c0800000000000000
+      internalID: -4318104560590053098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a3e005e9b103150800000000000000
+      internalID: 5850206282716166772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884aba4d8ef8edbe0800000000000000
+      internalID: -1450563799803517816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395c89982b2c2d800800000000000000
+      internalID: 635784569481119123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316ecc75974d83dd0800000000000000
+      internalID: -2506019575002503661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f3bb81289b46b40800000000000000
+      internalID: 5432671018927472403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4bed4c6493a6330800000000000000
+      internalID: 3704836619579077792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27824a8122ba77d0800000000000000
+      internalID: -2919825551273064657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Non_Battle_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cf4769207af0bc0800000000000000
+      internalID: -3814646729803498383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24e0fc2fa8f9ebf4bb7a349be8556ccb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Non_Battle_Death_0: -975790953791641905
+      Non_Battle_Death_1: 5812571606736619392
+      Non_Battle_Death_10: 635784569481119123
+      Non_Battle_Death_11: -2506019575002503661
+      Non_Battle_Death_12: 5432671018927472403
+      Non_Battle_Death_13: 3704836619579077792
+      Non_Battle_Death_14: -2919825551273064657
+      Non_Battle_Death_15: -3814646729803498383
+      Non_Battle_Death_2: -2038727317273576955
+      Non_Battle_Death_3: 7540508103978903324
+      Non_Battle_Death_4: -4780185556092361087
+      Non_Battle_Death_5: 6721636330715342153
+      Non_Battle_Death_6: 7685171625016288126
+      Non_Battle_Death_7: -4318104560590053098
+      Non_Battle_Death_8: 5850206282716166772
+      Non_Battle_Death_9: -1450563799803517816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,693 @@
+fileFormatVersion: 2
+guid: dbe2977f2dd0b424093ec818040b09a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4428099860328181851
+    second: Sphinx_Death_0
+  - first:
+      213: 7498476856560507056
+    second: Sphinx_Death_1
+  - first:
+      213: 5682162690193194048
+    second: Sphinx_Death_2
+  - first:
+      213: 697396914844668433
+    second: Sphinx_Death_3
+  - first:
+      213: 716170080263796527
+    second: Sphinx_Death_4
+  - first:
+      213: 8399519778549977477
+    second: Sphinx_Death_5
+  - first:
+      213: -6993424157020187574
+    second: Sphinx_Death_6
+  - first:
+      213: 6583914872645060272
+    second: Sphinx_Death_7
+  - first:
+      213: -3977681818664475942
+    second: Sphinx_Death_8
+  - first:
+      213: 5432332743388433605
+    second: Sphinx_Death_9
+  - first:
+      213: -2546682927445604815
+    second: Sphinx_Death_10
+  - first:
+      213: -2325175456446456493
+    second: Sphinx_Death_11
+  - first:
+      213: 8736057057942813138
+    second: Sphinx_Death_12
+  - first:
+      213: 7749405965575251466
+    second: Sphinx_Death_13
+  - first:
+      213: 7915169256004105437
+    second: Sphinx_Death_14
+  - first:
+      213: -3766478645770353623
+    second: Sphinx_Death_15
+  - first:
+      213: 9206903352361483398
+    second: Sphinx_Death_16
+  - first:
+      213: 1196209630440811802
+    second: Sphinx_Death_17
+  - first:
+      213: -6544326293811779822
+    second: Sphinx_Death_18
+  - first:
+      213: 5790489738783192490
+    second: Sphinx_Death_19
+  - first:
+      213: -5116810053101939687
+    second: Sphinx_Death_20
+  - first:
+      213: -1444100960692927418
+    second: Sphinx_Death_21
+  - first:
+      213: 3670245767054178865
+    second: Sphinx_Death_22
+  - first:
+      213: 5336346713586286739
+    second: Sphinx_Death_23
+  - first:
+      213: 8758034585309985826
+    second: Sphinx_Death_24
+  - first:
+      213: -6603947657729288791
+    second: Sphinx_Death_25
+  - first:
+      213: 4197805051901298304
+    second: Sphinx_Death_26
+  - first:
+      213: 8740751903858958037
+    second: Sphinx_Death_27
+  - first:
+      213: -1646401776576553061
+    second: Sphinx_Death_28
+  - first:
+      213: 6978538875968858036
+    second: Sphinx_Death_29
+  - first:
+      213: -5895037992843055430
+    second: Sphinx_Death_30
+  - first:
+      213: 8652840547855629614
+    second: Sphinx_Death_31
+  - first:
+      213: 3845533355506403221
+    second: Sphinx_Death_32
+  - first:
+      213: 4863649333093630673
+    second: Sphinx_Death_33
+  - first:
+      213: -5573513656575124319
+    second: Sphinx_Death_34
+  - first:
+      213: -7040674346114013133
+    second: Sphinx_Death_35
+  - first:
+      213: 5208700072051962187
+    second: Sphinx_Death_36
+  - first:
+      213: -4020647595276233103
+    second: Sphinx_Death_37
+  - first:
+      213: 5189668013477276998
+    second: Sphinx_Death_38
+  - first:
+      213: 9120709613046199583
+    second: Sphinx_Death_39
+  - first:
+      213: -2253351096940124148
+    second: Sphinx_Death_40
+  - first:
+      213: 6603830012197158795
+    second: Sphinx_Death_41
+  - first:
+      213: 8989939520348717654
+    second: Sphinx_Death_42
+  - first:
+      213: 2732362338129200980
+    second: Sphinx_Death_43
+  - first:
+      213: 108780278861024544
+    second: Sphinx_Death_44
+  - first:
+      213: 3954501002212912183
+    second: Sphinx_Death_45
+  - first:
+      213: 6910878774835430681
+    second: Sphinx_Death_46
+  - first:
+      213: 7862983162541442763
+    second: Sphinx_Death_47
+  - first:
+      213: 1871325889443026884
+    second: Sphinx_Death_48
+  - first:
+      213: -5543422749547270920
+    second: Sphinx_Death_49
+  - first:
+      213: 5626403256766314752
+    second: Sphinx_Death_50
+  - first:
+      213: 8287500149374520984
+    second: Sphinx_Death_51
+  - first:
+      213: -8124704211060590764
+    second: Sphinx_Death_52
+  - first:
+      213: 5954496934243461832
+    second: Sphinx_Death_53
+  - first:
+      213: 4469875227706249436
+    second: Sphinx_Death_54
+  - first:
+      213: -5142524536060724172
+    second: Sphinx_Death_55
+  - first:
+      213: 4917694646652752632
+    second: Sphinx_Death_56
+  - first:
+      213: 5233101257230364118
+    second: Sphinx_Death_57
+  - first:
+      213: 2061352941269668781
+    second: Sphinx_Death_58
+  - first:
+      213: 4926662842907552177
+    second: Sphinx_Death_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sphinx_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af8e2b53aa3c82c0800000000000000
+      internalID: -4428099860328181851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8d6cfe8f0ff0860800000000000000
+      internalID: 7498476856560507056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c71f08cd81bde40800000000000000
+      internalID: 5682162690193194048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11215c09cc6ada900800000000000000
+      internalID: 697396914844668433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27f2e0c4e850f900800000000000000
+      internalID: 716170080263796527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581d65c6cb6119470800000000000000
+      internalID: 8399519778549977477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a441d2d28cd52fe90800000000000000
+      internalID: -6993424157020187574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b68b6f81b3ce5b50800000000000000
+      internalID: 6583914872645060272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad269f8e57f6cc8c0800000000000000
+      internalID: -3977681818664475942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc046f29d5836b40800000000000000
+      internalID: 5432332743388433605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1368d02de5d58acd0800000000000000
+      internalID: -2546682927445604815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d5d0edd315bbfd0800000000000000
+      internalID: -2325175456446456493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9b93ccb95bc3970800000000000000
+      internalID: 8736057057942813138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e766eaab6b8b60800000000000000
+      internalID: 7749405965575251466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4b731808458dd60800000000000000
+      internalID: 7915169256004105437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphinx_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92483c890a7cabbc0800000000000000
+      internalID: -3766478645770353623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a584a49f2a8859341a7c2c6cd062b7d4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sphinx_Death_0: -4428099860328181851
+      Sphinx_Death_1: 7498476856560507056
+      Sphinx_Death_10: -2546682927445604815
+      Sphinx_Death_11: -2325175456446456493
+      Sphinx_Death_12: 8736057057942813138
+      Sphinx_Death_13: 7749405965575251466
+      Sphinx_Death_14: 7915169256004105437
+      Sphinx_Death_15: -3766478645770353623
+      Sphinx_Death_2: 5682162690193194048
+      Sphinx_Death_3: 697396914844668433
+      Sphinx_Death_4: 716170080263796527
+      Sphinx_Death_5: 8399519778549977477
+      Sphinx_Death_6: -6993424157020187574
+      Sphinx_Death_7: 6583914872645060272
+      Sphinx_Death_8: -3977681818664475942
+      Sphinx_Death_9: 5432332743388433605
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

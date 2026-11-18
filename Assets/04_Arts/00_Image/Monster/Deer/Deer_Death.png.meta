@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 211c45ddaab00304e84db13b5d3e621a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1682260701401489020
+    second: Deer_Death_0
+  - first:
+      213: -6321928371098337109
+    second: Deer_Death_1
+  - first:
+      213: -500953647144629212
+    second: Deer_Death_2
+  - first:
+      213: 649120832302896437
+    second: Deer_Death_3
+  - first:
+      213: -6039745693801344809
+    second: Deer_Death_4
+  - first:
+      213: 1134885974677903086
+    second: Deer_Death_5
+  - first:
+      213: -2954240719676230434
+    second: Deer_Death_6
+  - first:
+      213: 6765175952643515791
+    second: Deer_Death_7
+  - first:
+      213: -1002183131758875341
+    second: Deer_Death_8
+  - first:
+      213: -4846785384518003250
+    second: Deer_Death_9
+  - first:
+      213: 8889266078907623493
+    second: Deer_Death_10
+  - first:
+      213: 3001486079771898345
+    second: Deer_Death_11
+  - first:
+      213: -6338711473246204
+    second: Deer_Death_12
+  - first:
+      213: -4451691406027607181
+    second: Deer_Death_13
+  - first:
+      213: 2980196320910073482
+    second: Deer_Death_14
+  - first:
+      213: 1454831313409151740
+    second: Deer_Death_15
+  - first:
+      213: -1686067705578318310
+    second: Deer_Death_16
+  - first:
+      213: 4663877903110867826
+    second: Deer_Death_17
+  - first:
+      213: 3277831088920507394
+    second: Deer_Death_18
+  - first:
+      213: 7601076583266247380
+    second: Deer_Death_19
+  - first:
+      213: -6612135357328805208
+    second: Deer_Death_20
+  - first:
+      213: -267543744013202655
+    second: Deer_Death_21
+  - first:
+      213: 3140436089104171228
+    second: Deer_Death_22
+  - first:
+      213: 2621118393171461305
+    second: Deer_Death_23
+  - first:
+      213: 5453238180276018314
+    second: Deer_Death_24
+  - first:
+      213: 4168138619920174196
+    second: Deer_Death_25
+  - first:
+      213: 1774382829483848632
+    second: Deer_Death_26
+  - first:
+      213: -751177300852611066
+    second: Deer_Death_27
+  - first:
+      213: -3333949939617610953
+    second: Deer_Death_28
+  - first:
+      213: -230545435950197740
+    second: Deer_Death_29
+  - first:
+      213: 7461073622304436712
+    second: Deer_Death_30
+  - first:
+      213: 1193872594927755378
+    second: Deer_Death_31
+  - first:
+      213: 1537971464219846107
+    second: Deer_Death_32
+  - first:
+      213: 6850267820340186507
+    second: Deer_Death_33
+  - first:
+      213: 4549718148833997244
+    second: Deer_Death_34
+  - first:
+      213: 5408228823439568618
+    second: Deer_Death_35
+  - first:
+      213: 6387235847015192091
+    second: Deer_Death_36
+  - first:
+      213: -1845064744114916793
+    second: Deer_Death_37
+  - first:
+      213: -5947241916847667256
+    second: Deer_Death_38
+  - first:
+      213: -4018968335838750855
+    second: Deer_Death_39
+  - first:
+      213: -4676485679993192802
+    second: Deer_Death_40
+  - first:
+      213: -4554351768858935755
+    second: Deer_Death_41
+  - first:
+      213: 3143330963668967136
+    second: Deer_Death_42
+  - first:
+      213: -8217457371110094489
+    second: Deer_Death_43
+  - first:
+      213: 7123741679629598076
+    second: Deer_Death_44
+  - first:
+      213: -4089135765844132756
+    second: Deer_Death_45
+  - first:
+      213: -5289102056125811234
+    second: Deer_Death_46
+  - first:
+      213: 3508859200631113989
+    second: Deer_Death_47
+  - first:
+      213: -9175649003673111958
+    second: Deer_Death_48
+  - first:
+      213: 8946648459055586975
+    second: Deer_Death_49
+  - first:
+      213: -5607839557926182645
+    second: Deer_Death_50
+  - first:
+      213: -4791226316848382067
+    second: Deer_Death_51
+  - first:
+      213: -266722164489635952
+    second: Deer_Death_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e92a6e137985710800000000000000
+      internalID: 1682260701401489020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0483934aff348a0800000000000000
+      internalID: -6321928371098337109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c0205ef414c09f0800000000000000
+      internalID: -500953647144629212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53558b135f3220900800000000000000
+      internalID: 649120832302896437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0964b9a438e2ca0800000000000000
+      internalID: -6039745693801344809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6df35f7ccefbf00800000000000000
+      internalID: 1134885974677903086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed434bab7bd6007d0800000000000000
+      internalID: -2954240719676230434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85e45c7fabb2ed50800000000000000
+      internalID: 6765175952643515791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33daf9f50c78712f0800000000000000
+      internalID: -1002183131758875341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5df354f52ccbcb0800000000000000
+      internalID: -4846785384518003250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548e733c6640d5b70800000000000000
+      internalID: 8889266078907623493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1751fdfab67a920800000000000000
+      internalID: 3001486079771898345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400bd4ab9fa79eff0800000000000000
+      internalID: -6338711473246204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373b016904a6832c0800000000000000
+      internalID: -4451691406027607181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e55cc93c8cb5920800000000000000
+      internalID: 2980196320910073482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Death_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf21edb1f59903410800000000000000
+      internalID: 1454831313409151740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d982fea96d805b442901fc5cf1ba0af1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Deer_Death_0: 1682260701401489020
+      Deer_Death_1: -6321928371098337109
+      Deer_Death_10: 8889266078907623493
+      Deer_Death_11: 3001486079771898345
+      Deer_Death_12: -6338711473246204
+      Deer_Death_13: -4451691406027607181
+      Deer_Death_14: 2980196320910073482
+      Deer_Death_15: 1454831313409151740
+      Deer_Death_2: -500953647144629212
+      Deer_Death_3: 649120832302896437
+      Deer_Death_4: -6039745693801344809
+      Deer_Death_5: 1134885974677903086
+      Deer_Death_6: -2954240719676230434
+      Deer_Death_7: 6765175952643515791
+      Deer_Death_8: -1002183131758875341
+      Deer_Death_9: -4846785384518003250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
