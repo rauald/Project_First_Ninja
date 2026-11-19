@@ -4,15 +4,19 @@ using UnityEngine;
 
 public sealed class ObjectPool<T> where T : Component, IPoolable
 {
+    private const int MAX_INSTANCES = 200;
+
+    private readonly HashSet<Component> _instances;
     private readonly Stack<T> _available = new();
     private readonly HashSet<T> _rented = new();
     private readonly T _prefab;
     private readonly Transform _root;
 
-    public ObjectPool(T prefab, Transform root)
+    internal ObjectPool(T prefab, Transform root, HashSet<Component> instances)
     {
         _prefab = prefab;
         _root = root;
+        _instances = instances;
     }
 
     public T Rent(Vector3 position, Quaternion rotation)
@@ -25,7 +29,17 @@ public sealed class ObjectPool<T> where T : Component, IPoolable
 
         if (item == null)
         {
+            if (_instances.Count >= MAX_INSTANCES)
+            {
+                _instances.RemoveWhere(instance => instance == null);
+                if (_instances.Count >= MAX_INSTANCES)
+                {
+                    return null;
+                }
+            }
+
             item = UnityEngine.Object.Instantiate(_prefab, _root);
+            _instances.Add(item);
         }
 
         item.transform.SetPositionAndRotation(position, rotation);

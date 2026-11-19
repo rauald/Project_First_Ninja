@@ -1,14 +1,11 @@
 using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public sealed class GameManager : Singleton<GameManager>
 {
-    [SerializeField] private DataManager _data;
-    [SerializeField] private SoundManager _sound;
-    [SerializeField] private UIManager _ui;
+    [SerializeField] private TitleScreen _title;
 
     private readonly SaveLoadManager _save = new();
     private bool _isReady;
@@ -22,7 +19,7 @@ public sealed class GameManager : Singleton<GameManager>
         }
 
         SceneManager.activeSceneChanged += OnActiveSceneChanged;
-        UpdateTitleStatus(SceneManager.GetActiveScene());
+        ShowScenePresentation(SceneManager.GetActiveScene());
     }
 
     protected override void OnDestroy()
@@ -33,28 +30,25 @@ public sealed class GameManager : Singleton<GameManager>
 
     private void OnActiveSceneChanged(Scene previous, Scene current)
     {
-        UpdateTitleStatus(current);
+        ShowScenePresentation(current);
     }
 
-    private void UpdateTitleStatus(Scene scene)
+    private void ShowScenePresentation(Scene scene)
     {
-        _ui.SetTitleStatus(null);
-    }
+        SceneType sceneType = (SceneType)scene.buildIndex;
+        SoundManager.Instance.PlaySceneBgm(sceneType);
 
-    private void Update()
-    {
-        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (sceneIndex == (int)SceneType.Title && !_isLoading
-            && (Mouse.current?.leftButton.wasPressedThisFrame == true
-                || Touchscreen.current?.primaryTouch.press.wasPressedThisFrame == true))
+        switch (sceneType)
         {
-            if (!_ui.Title.IsIntroComplete)
-            {
-                _ui.Title.SkipIntro();
-                return;
-            }
-
-            StartAsyncLoad(SceneType.Lobby);
+            case SceneType.Title:
+                UIManager.Instance.Window.Open(WindowType.Title);
+                break;
+            case SceneType.Lobby:
+                UIManager.Instance.Window.Open(WindowType.Lobby);
+                break;
+            case SceneType.Game:
+                UIManager.Instance.Window.Open(WindowType.Battle);
+                break;
         }
     }
 
@@ -62,7 +56,7 @@ public sealed class GameManager : Singleton<GameManager>
     {
         int index = (int)sceneType;
         if (_isLoading || index < 0 || index >= (int)SceneType.Max
-            || (SceneManager.GetActiveScene().buildIndex == (int)SceneType.Title && !_ui.Title.CanStart)
+            || (SceneManager.GetActiveScene().buildIndex == (int)SceneType.Title && !_title.CanStart)
             || index == SceneManager.GetActiveScene().buildIndex)
         {
             return;
@@ -77,8 +71,7 @@ public sealed class GameManager : Singleton<GameManager>
         bool fromTitle = SceneManager.GetActiveScene().buildIndex == (int)SceneType.Title;
         if (fromTitle)
         {
-            _ui.SetTitleStatus(null);
-            _ui.Title.SetProgress(0f);
+            _title.SetProgress(0f);
         }
 
         yield return null;
@@ -87,9 +80,9 @@ public sealed class GameManager : Singleton<GameManager>
         {
             try
             {
-                _data.LoadTables();
+                DataManager.Instance.LoadTables();
                 _save.LoadData();
-                _sound.Initialize(_save);
+                SoundManager.Instance.Initialize(_save);
                 _isReady = true;
             }
             catch (Exception exception)
@@ -97,8 +90,7 @@ public sealed class GameManager : Singleton<GameManager>
                 Debug.LogException(exception, this);
                 if (fromTitle)
                 {
-                    _ui.SetTitleStatus("Loading failed. Click or tap to retry.");
-                    _ui.Title.ShowRetry();
+                    _title.ShowRetry();
                 }
 
                 _isLoading = false;
@@ -111,8 +103,7 @@ public sealed class GameManager : Singleton<GameManager>
         {
             if (fromTitle)
             {
-                _ui.SetTitleStatus("Loading failed. Click or tap to retry.");
-                _ui.Title.ShowRetry();
+                _title.ShowRetry();
             }
 
             _isLoading = false;
@@ -128,16 +119,16 @@ public sealed class GameManager : Singleton<GameManager>
         {
             if (fromTitle && SceneManager.GetActiveScene().buildIndex == (int)SceneType.Title)
             {
-                _ui.Title.SetProgress(Mathf.Clamp01(operation.progress / 0.9f));
+                _title.SetProgress(Mathf.Clamp01(operation.progress / 0.9f));
             }
             yield return null;
         }
 
         if (fromTitle)
         {
-            _ui.Title.SetProgress(1f);
+            _title.SetProgress(1f);
             yield return null;
-            yield return _ui.Title.FadeTo(1f);
+            yield return _title.FadeTo(1f);
             yield return new WaitForSecondsRealtime(1f);
         }
 
@@ -145,8 +136,7 @@ public sealed class GameManager : Singleton<GameManager>
         yield return operation;
         if (fromTitle)
         {
-            _ui.Title.HideTitle();
-            yield return _ui.Title.FadeTo(0f);
+            yield return _title.FadeTo(0f);
         }
 
         _isLoading = false;

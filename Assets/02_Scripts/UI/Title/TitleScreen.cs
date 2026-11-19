@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
-public sealed class TitleScreen : MonoBehaviour
+public sealed class TitleScreen : MonoBehaviour, IWindowable
 {
-    [SerializeField] private GameObject _content;
+    [SerializeField] private Text _status;
     [SerializeField] private GameObject _desktopPrompt;
     [SerializeField] private GameObject _mobilePrompt;
     [SerializeField] private GameObject _loadingBar;
@@ -19,13 +20,38 @@ public sealed class TitleScreen : MonoBehaviour
     public bool CanStart { get; private set; }
     public bool IsIntroComplete { get; private set; }
 
-    private void Start()
+    public void ResetUI()
     {
+        IsIntroComplete = false;
+        CanStart = false;
+        _status.gameObject.SetActive(false);
         _desktopPrompt.SetActive(false);
         _mobilePrompt.SetActive(false);
         _prompt = Application.isMobilePlatform ? _mobilePrompt : _desktopPrompt;
         _loadingBar.SetActive(false);
         _fade.alpha = 0f;
+        _introAnimator.Play("Intro", 0, 0f);
+        _introAnimator.Update(0f);
+    }
+
+    private void Update()
+    {
+        if (Mouse.current?.leftButton.wasPressedThisFrame != true
+            && Touchscreen.current?.primaryTouch.press.wasPressedThisFrame != true)
+        {
+            return;
+        }
+
+        if (!IsIntroComplete)
+        {
+            SkipIntro();
+            return;
+        }
+
+        if (CanStart)
+        {
+            GameManager.Instance.StartAsyncLoad(SceneType.Lobby);
+        }
     }
 
     public void CompleteIntro()
@@ -56,6 +82,7 @@ public sealed class TitleScreen : MonoBehaviour
     public void SetProgress(float progress)
     {
         CanStart = false;
+        _status.gameObject.SetActive(false);
         _prompt.SetActive(false);
         _loadingBar.SetActive(true);
         ((RectTransform)_fill.transform).anchorMax = new Vector2(Mathf.Clamp01(progress), 1f);
@@ -64,6 +91,8 @@ public sealed class TitleScreen : MonoBehaviour
 
     public void ShowRetry()
     {
+        _status.text = "Loading failed. Click or tap to retry.";
+        _status.gameObject.SetActive(true);
         _loadingBar.SetActive(false);
         _prompt.SetActive(true);
         CanStart = true;
@@ -82,10 +111,4 @@ public sealed class TitleScreen : MonoBehaviour
         }
     }
 
-    public void HideTitle()
-    {
-        _content.SetActive(false);
-        _prompt.SetActive(false);
-        _loadingBar.SetActive(false);
-    }
 }
