@@ -41,3 +41,25 @@ public enum EquipmentSlotType
     Ring = 7,
     Max
 }
+
+public enum WindowType
+{
+    None = -1,
+    Title = 0,
+    Lobby,
+    Shop,
+    Equipment,
+    StageSelect,
+    Character,
+    Talent,
+    Battle,
+    Max
+}
+
+public enum PopUpType
+{
+    None = -1,
+    Settings = 0,
+    Toast,
+    Max
+}
