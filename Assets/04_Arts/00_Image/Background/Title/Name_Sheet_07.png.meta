@@ -3,17 +3,53 @@ guid: 73dc6447c8c2faa4fa5b0bf39dd24132
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1008143736986619506
-    second: FirstNinja_Title_Animation_v2_Sheet_08_0
+      213: 7071385653913301761
+    second: Name_Sheet_07_0
   - first:
-      213: 6126892230784367806
-    second: FirstNinja_Title_Animation_v2_Sheet_08_1
+      213: 6382761123175440031
+    second: Name_Sheet_07_1
   - first:
-      213: 1869231690450417383
-    second: FirstNinja_Title_Animation_v2_Sheet_08_2
+      213: -7834667643354728295
+    second: Name_Sheet_07_2
   - first:
-      213: 4129674878257433415
-    second: FirstNinja_Title_Animation_v2_Sheet_08_3
+      213: 7737462590541432988
+    second: Name_Sheet_07_3
+  - first:
+      213: -6232679898111322839
+    second: Name_Sheet_07_4
+  - first:
+      213: -6967644962809423124
+    second: Name_Sheet_07_5
+  - first:
+      213: -7847158137840795392
+    second: Name_Sheet_07_6
+  - first:
+      213: 8463757370837967356
+    second: Name_Sheet_07_7
+  - first:
+      213: -6412026171467442402
+    second: Name_Sheet_07_8
+  - first:
+      213: -7506438076200693906
+    second: Name_Sheet_07_9
+  - first:
+      213: 1518425403098742823
+    second: Name_Sheet_07_10
+  - first:
+      213: 4988627370246315955
+    second: Name_Sheet_07_11
+  - first:
+      213: 4715564256975646040
+    second: Name_Sheet_07_12
+  - first:
+      213: 213550320892674338
+    second: Name_Sheet_07_13
+  - first:
+      213: 3179111091370570151
+    second: Name_Sheet_07_14
+  - first:
+      213: 9136552962453117100
+    second: Name_Sheet_07_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +117,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -94,7 +130,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -107,7 +143,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 51
     textureCompression: 1
@@ -135,90 +171,159 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_08_0
+      name: Name_Sheet_07_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 568
-        width: 256
-        height: 456
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
+      customData:
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e81b062dc9a5202f0800000000000000
-      internalID: -1008143736986619506
+      spriteID: 103bb4359cb922260800000000000000
+      internalID: 7071385653913301761
       vertices: []
-      indices: 
+      indices:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_08_1
+      name: Name_Sheet_07_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 568
-        width: 256
-        height: 456
+        x: 1080
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
+      customData:
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebcb001b508170550800000000000000
-      internalID: 6126892230784367806
+      spriteID: f9e9b099c6f149850800000000000000
+      internalID: 6382761123175440031
       vertices: []
-      indices: 
+      indices:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_08_2
+      name: Name_Sheet_07_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 568
-        width: 256
-        height: 456
+        x: 2160
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
+      customData:
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e63330a158d0f910800000000000000
-      internalID: 1869231690450417383
+      spriteID: 9983898c94ba54390800000000000000
+      internalID: -7834667643354728295
       vertices: []
-      indices: 
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Name_Sheet_07_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 1080
+        height: 1920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9888143b3df06b60800000000000000
+      internalID: 7737462590541432988
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Name_Sheet_07_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 256
+        width: 1080
+        height: 1920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9255b52a7a21189a0800000000000000
+      internalID: -6232679898111322839
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Name_Sheet_07_5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 256
+        width: 1080
+        height: 1920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea54be82d3fd4f90800000000000000
+      internalID: -6967644962809423124
+      vertices: []
+      indices:
       edges: []
       weights: []
     outline: []
-    customData: 
+    customData:
     physicsShape: []
     bones: []
-    spriteID: 054d9d3f3e8046844a40beb3b8595029
+    spriteID: 4a18c90a8f1db4944b9f76e6e2417a23
     internalID: 0
     vertices: []
-    indices: 
+    indices:
     edges: []
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":256.0,"y":456.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1080.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      FirstNinja_Title_Animation_v2_Sheet_08_0: -1008143736986619506
-      FirstNinja_Title_Animation_v2_Sheet_08_1: 6126892230784367806
-      FirstNinja_Title_Animation_v2_Sheet_08_2: 1869231690450417383
+      Name_Sheet_07_0: 7071385653913301761
+      Name_Sheet_07_1: 6382761123175440031
+      Name_Sheet_07_2: -7834667643354728295
+      Name_Sheet_07_3: 7737462590541432988
+      Name_Sheet_07_4: -6232679898111322839
+      Name_Sheet_07_5: -6967644962809423124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
