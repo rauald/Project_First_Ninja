@@ -3,35 +3,77 @@ guid: 40218aafe029c3e41831cda1f864fc71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7329404477270252631
-    second: FirstNinja_Title_Animation_v2_Sheet_07_0
+      213: -8805522088264245884
+    second: Name_Sheet_06_0
   - first:
-      213: 1133084346511237214
-    second: FirstNinja_Title_Animation_v2_Sheet_07_1
+      213: -2260052202795269470
+    second: Name_Sheet_06_1
   - first:
-      213: 5296022059912167957
-    second: FirstNinja_Title_Animation_v2_Sheet_07_2
+      213: -1239594059352182002
+    second: Name_Sheet_06_2
   - first:
-      213: -3102050332669411931
-    second: FirstNinja_Title_Animation_v2_Sheet_07_3
+      213: 8390218027172105685
+    second: Name_Sheet_06_3
   - first:
-      213: 2574174019979478498
-    second: FirstNinja_Title_Animation_v2_Sheet_07_4
+      213: -62732933089700119
+    second: Name_Sheet_06_4
   - first:
-      213: 8144162517633196981
-    second: FirstNinja_Title_Animation_v2_Sheet_07_5
+      213: 2984331394052576639
+    second: Name_Sheet_06_5
   - first:
-      213: 1551938489507185770
-    second: FirstNinja_Title_Animation_v2_Sheet_07_6
+      213: 946367759137894489
+    second: Name_Sheet_06_6
   - first:
-      213: 608282872754865969
-    second: FirstNinja_Title_Animation_v2_Sheet_07_7
+      213: -6600840411092928205
+    second: Name_Sheet_06_7
   - first:
-      213: -4281634583617543874
-    second: FirstNinja_Title_Animation_v2_Sheet_07_8
+      213: -3853962417896603767
+    second: Name_Sheet_06_8
   - first:
-      213: -856618520366733873
-    second: FirstNinja_Title_Animation_v2_Sheet_07_9
+      213: -599708393870612912
+    second: Name_Sheet_06_9
+  - first:
+      213: 4973410089202058381
+    second: Name_Sheet_06_10
+  - first:
+      213: 3692854376333355869
+    second: Name_Sheet_06_11
+  - first:
+      213: 1492844112619782176
+    second: Name_Sheet_06_12
+  - first:
+      213: -3653212868764822448
+    second: Name_Sheet_06_13
+  - first:
+      213: 8969855334344843422
+    second: Name_Sheet_06_14
+  - first:
+      213: -26154002270698390
+    second: Name_Sheet_06_15
+  - first:
+      213: 4507840005947686050
+    second: Name_Sheet_06_16
+  - first:
+      213: -598042073374391194
+    second: Name_Sheet_06_17
+  - first:
+      213: 380076566636845518
+    second: Name_Sheet_06_18
+  - first:
+      213: 550077727133138706
+    second: Name_Sheet_06_19
+  - first:
+      213: -165860900600697296
+    second: Name_Sheet_06_20
+  - first:
+      213: -1674856727324788068
+    second: Name_Sheet_06_21
+  - first:
+      213: 5425456032739872499
+    second: Name_Sheet_06_22
+  - first:
+      213: 984879632954583559
+    second: Name_Sheet_06_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +141,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -112,7 +154,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -125,7 +167,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 51
     textureCompression: 1
@@ -153,13 +195,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_0
+      name: Name_Sheet_06_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 568
-        width: 256
-        height: 456
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75cd9da0a8647b560800000000000000
-      internalID: 7329404477270252631
+      spriteID: 48d572b70508cc580800000000000000
+      internalID: -8805522088264245884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_1
+      name: Name_Sheet_06_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 568
-        width: 256
-        height: 456
+        x: 1080
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e50ab56b53689bf00800000000000000
-      internalID: 1133084346511237214
+      spriteID: 2a28c8eee7ea2a0e0800000000000000
+      internalID: -2260052202795269470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_2
+      name: Name_Sheet_06_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 568
-        width: 256
-        height: 456
+        x: 2160
+        y: 2176
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,42 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51282b301004f7940800000000000000
-      internalID: 5296022059912167957
+      spriteID: e03f0aa45c31ccee0800000000000000
+      internalID: -1239594059352182002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_3
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 568
-        width: 256
-        height: 456
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ad7bd568ad43f4d0800000000000000
-      internalID: -3102050332669411931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_4
+      name: Name_Sheet_06_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 256
-        height: 456
+        y: 256
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e58ae2f1ad49b320800000000000000
-      internalID: 2574174019979478498
+      spriteID: 5dd0ca9a7da007470800000000000000
+      internalID: 8390218027172105685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_5
+      name: Name_Sheet_06_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 112
-        width: 256
-        height: 456
+        x: 1080
+        y: 256
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b3e39009a0e50170800000000000000
-      internalID: 8144162517633196981
+      spriteID: 9e6587fcab0212ff0800000000000000
+      internalID: -62732933089700119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_6
+      name: Name_Sheet_06_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 112
-        width: 256
-        height: 456
+        x: 2160
+        y: 256
+        width: 1080
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,30 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a64055c65d7998510800000000000000
-      internalID: 1551938489507185770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FirstNinja_Title_Animation_v2_Sheet_07_7
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 112
-        width: 256
-        height: 456
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1370289cc0e017800800000000000000
-      internalID: 608282872754865969
+      spriteID: f75dc8a57997a6920800000000000000
+      internalID: 2984331394052576639
       vertices: []
       indices: 
       edges: []
@@ -332,7 +330,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 12b9a0c966f3fcc4d9ad3690b32d5030
+    spriteID: 783109412931c004f9971099c7ff07f4
     internalID: 0
     vertices: []
     indices: 
@@ -342,16 +340,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":256.0,"y":456.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1080.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      FirstNinja_Title_Animation_v2_Sheet_07_0: 7329404477270252631
-      FirstNinja_Title_Animation_v2_Sheet_07_1: 1133084346511237214
-      FirstNinja_Title_Animation_v2_Sheet_07_2: 5296022059912167957
-      FirstNinja_Title_Animation_v2_Sheet_07_3: -3102050332669411931
-      FirstNinja_Title_Animation_v2_Sheet_07_4: 2574174019979478498
-      FirstNinja_Title_Animation_v2_Sheet_07_5: 8144162517633196981
-      FirstNinja_Title_Animation_v2_Sheet_07_6: 1551938489507185770
-      FirstNinja_Title_Animation_v2_Sheet_07_7: 608282872754865969
+      Name_Sheet_06_0: -8805522088264245884
+      Name_Sheet_06_1: -2260052202795269470
+      Name_Sheet_06_2: -1239594059352182002
+      Name_Sheet_06_3: 8390218027172105685
+      Name_Sheet_06_4: -62732933089700119
+      Name_Sheet_06_5: 2984331394052576639
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
