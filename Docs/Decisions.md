@@ -328,3 +328,38 @@
 - 전체 87개 클립·31개 Controller·1,254프레임 검증은 이전 통과 결과를 따른다. 원본 씬의 전체 흐름과 기기 화면 및 독립 빌드는 미검증이다.
 - 사용자가 현재 로비 씬 및 UI 시트 meta 변경을 모두 포함하여 main 대상 PR로 통합하도록 승인했다.
 - 최종 검증 로그: C:/Users/user/.codex/visualizations/2026/11/19/01a1f241-c0e8-7d63-b581-b1d4f49a68fc/lobby-animation-final-validation.log
+
+## FUNC-006 — 캐릭터 화면 슬라이드 전환
+
+- 날짜: 2026-11-19
+- 관련 기획: 로비 캐릭터 버튼을 누르면 왼쪽의 캐릭터 화면이 들어오고 로비가 오른쪽으로 이동한다. 페이드 없이 이동하며 로비는 화면 밖에 도착한 뒤 비활성화한다.
+- 관련 파일: Assets/02_Scripts/Manager/WindowManager.cs:7, :44 / Assets/01_Scenes/00_Tilte_Scene.unity:929, :4374.
+- 사용한 기능·기술: RectTransform.anchoredPosition, Coroutine, Mathf.SmoothStep, Time.unscaledDeltaTime, CanvasGroup.
+- 선택 이유: 기존 LobbyWindow.OpenCharacterWindow와 WindowType.Character를 유지하고 WindowManager에서 두 화면의 이동 및 활성 상태를 관리한다. 새 이미지 에셋은 사용하지 않는다.
+- 구현 구조: CharacterButton → LobbyWindow.OpenCharacterWindow → WindowManager.Open(Character) → SlideToCharacter → Character_Window 활성화 → 두 화면 오른쪽 이동 → 로비 비활성화 → 로비 좌표 복원 → 현재 화면 변경.
+- 주요 필드: _slideDuration(Inspector 기본 0.35초), _inputGroup(WindowManager의 CanvasGroup), _isSliding(중복 전환 차단), _current(현재 화면).
+- 구현 결과: 비활성 Character_Window 기본 컨테이너를 생성하고 Character 슬롯에 연결했다. 컨테이너는 단색 Image이며 상세 캐릭터 UI는 이번 범위에 포함하지 않는다. SafeAreaLayout의 전체 화면 레이어에 등록해 기기 화면 전체를 덮는다. 전체 Canvas 너비만큼 이동하며 전환 중 CanvasGroup의 interactable/blocksRaycasts를 차단한다. alpha는 변경하지 않는다. 완료 후 입력을 복구한다. 이동 시간 0은 즉시 완료된다. 이후 로비를 다시 열면 원래 중앙 위치에서 활성화된다. 캐릭터 화면의 복귀 버튼 및 역방향 전환은 이번 범위에 포함하지 않는다.
+- 검증 결과: dotnet build Assembly-CSharp.csproj --no-restore --verbosity quiet 성공(경고 0, 오류 0). 씬 fileID 중복 부재, 신규 컴포넌트 존재, Character 슬롯과 기존 버튼 연결을 정적으로 검사했다. 너비 1080/1200/1440에서 진행률 0/0.25/0.5/0.75/1의 좌표를 계산해 두 화면의 간격과 시작·종료 위치를 확인했다. git diff --check를 확인했다.
+- 미검증: Unity Play Mode 실제 버튼 클릭·슬라이드 표시·전환 중 입력, 기기 해상도 변경 중 표시, Android 실기기 및 독립 빌드. 정적 좌표 검사는 실제 렌더링 검증을 대체하지 않는다.
+
+### 로비 메뉴별 슬라이드 방향 변경 (2026-11-19)
+
+- 현재 적용 기준: 방향은 대상 화면이 들어오는 위치를 뜻한다. 상점·장비는 왼쪽에서 진입하고 로비는 오른쪽으로 이동한다. 던전(StageSelect)은 아래에서 진입하고 로비는 위로 이동한다. 캐릭터·특성은 오른쪽에서 진입하고 로비는 왼쪽으로 이동한다. 앞선 캐릭터 왼쪽 진입 기록은 변경 이력이다.
+- 관련 파일: Assets/02_Scripts/Manager/WindowManager.cs(GetEntryDirection, SlideToWindow), Assets/01_Scenes/00_Tilte_Scene.unity(Shop_Window, Equipment_Window, StageSelect_Window, Character_Window, Talent_Window).
+- 구현 구조: LobbyWindow의 기존 메뉴 버튼 → Open(WindowType) → GetEntryDirection → SlideToWindow. 수평 전환은 전체 Canvas 너비, 수직 전환은 높이를 사용한다. 대상 컨테이너를 진입 방향 화면 밖에서 활성화하고 두 화면을 반대 방향으로 함께 이동시킨다. 로비는 끝에 도착한 뒤 비활성화하고 좌표를 복구한다.
+- 유지 동작: 기본 0.35초(SmoothStep), unscaledDeltaTime, 전환 중 UI 입력 및 중복 전환 차단, 완료 후 입력 복원, 페이드 없음, 시간 0의 즉시 완료. 로비에서 각 메뉴로 진입할 때 적용한다. 복귀 UI와 메뉴 간 슬라이드는 이번 범위 밖이다.
+- 씬 연결: 다섯 대상 모두 기존 WindowType 슬롯, WindowManager 자식, SafeAreaLayout 전체 화면 레이어에 연결했다. 화면은 상세 UI가 없는 단색 기본 컨테이너이며 신규 이미지 에셋은 사용하지 않는다.
+- 검증 결과: dotnet build Assembly-CSharp.csproj --no-restore --verbosity quiet 성공(경고 0, 오류 0). 대상 5개 슬롯, 초기 비활성 상태, 컴포넌트 참조, 전체 화면 레이어와 자식 등록, 씬 fileID 중복 부재를 정적으로 검사했다. 세 가지 화면 크기(1080×1920, 1200×2400, 1440×2560)에서 세 방향의 진행률 0/0.25/0.5/0.75/1 좌표를 계산해 간격과 끝점을 확인했다. git diff --check 통과.
+- 미검증: Unity Play Mode 실제 클릭·렌더링·입력 차단, 전환 중 해상도 변경, Android 실기기와 독립 빌드. 좌표 계산은 렌더링 검증을 대체하지 않는다.
+
+## FUNC-007 — 타이틀 클릭·터치 안내 Image 전환
+
+- 날짜: 2026-11-19
+- 관련 기획: 인트로 종료 후 클릭·터치 안내가 위아래 잘리지 않게 표시한다.
+- 관련 파일: Assets/01_Scenes/00_Tilte_Scene.unity(DesktopPrompt, MobilePrompt), Assets/07_Animations/Title/TitlePromptBlink.anim.
+- 사용한 기능·기술: uGUI Image, 기존 Multiple Sprite, Preserve Aspect, Animator 알파 곡선.
+- 선택 이유: 시트 일부를 수동 UV 좌표로 표시하던 RawImage를 실제 문구 영역으로 슬라이스된 스프라이트 참조로 바꾼다.
+- 구현 구조: TitleScreen의 기존 안내 활성화 → Image에 문구 스프라이트 표시 → TitlePromptBlink가 Image.m_Color.a를 반복 변경한다. TitleScreen과 Animator Controller 참조는 유지한다.
+- 구현 결과: DesktopPrompt는 Etc_Sheet_1_32(548×67, fileID -5065698487816741814), MobilePrompt는 Etc_Sheet_1_33(552×69, fileID -4026338688705661175)을 연결했다. 두 안내의 RawImage를 Image(Simple, PreserveAspect=1)로 바꾸고 수동 Texture/UVRect 설정을 제거했다. 기존 위치와 표시 영역을 유지한다. 깜빡임 클립의 실행 곡선·genericBindings·편집 곡선에 있는 컴포넌트 GUID 3곳을 Image로 변경했다. 알파 키와 1초 반복 주기는 유지한다. 원본 이미지와 meta는 수정하지 않았다.
+- 검증 결과: 원본 시트를 직접 열어 클릭·터치 문구 위치를 확인했다. 두 Image 타입·스프라이트 fileID 존재·비율 유지·UV 설정 제거를 정적 검사했다. 애니메이션의 바인딩 3개가 Image를 가리키고 GUID 외의 클립 내용이 기존과 같은지 검사했다. git diff --check 통과. C# 변경은 없다.
+- 미검증: Unity Play Mode에서 인트로 종료 후 실제 안내 표시·깜빡임, Android 실기기 및 독립 빌드.
