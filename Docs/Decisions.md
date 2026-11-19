@@ -135,3 +135,196 @@
 - 관련 파일: Assets/02_Scripts/Manager/GameManager.cs, Assets/02_Scripts/UI/Title/TitleScreen.cs, Assets/02_Scripts/UI/Lobby/LobbyWindow.cs, Assets/01_Scenes/00_Tilte_Scene.unity.
 - 구현 결과: 매니저 소비 코드는 Singleton의 Instance로 접근한다. LobbyWindow는 UIManager.Instance를 통해 WindowManager와 PopUpManager를 사용한다. 씬에 배치된 매니저, UIManager의 하위 매니저 연결, GameManager의 TitleScreen 참조는 기존 Inspector 구성을 사용한다.
 - 검증: C# 컴파일, 씬의 중복 참조 6개 제거, LobbyWindow 버튼 연결 6개를 확인했다. Unity Play Mode는 미실행이다.
+
+
+## FUNC-004 — 캐릭터·몬스터 애니메이션
+
+- 날짜: 2026-11-19
+- 관련 기획: 캐릭터는 로비 Idle/Attack, 전투 Idle/Run/Death. 몬스터는 Move/Attack/Death.
+- 사용한 기능·기술: Unity 6000.3.9f1 AnimationClip, Animator Controller, uGUI Image, SpriteRenderer, 기존 Multiple Sprite 시트.
+- 선택 이유: 기존 이미지와 스프라이트 GUID·fileID를 유지하며 프레임 애니메이션을 재사용한다. 로비의 Image와 전투의 SpriteRenderer에 맞춰 바인딩을 분리한다.
+- 구현 결과: 캐릭터 6종 × 5개 = 30개 클립, 몬스터 19종 × 3개 = 57개 클립, Controller 31개(캐릭터 로비 6·전투 6, 몬스터 19)를 생성했다. 총 원본 프레임 1,254개를 사용한다. 모든 클립은 12 FPS이며 마지막 프레임을 한 프레임 길이 동안 유지한다. Idle/Run/Move는 반복, Attack/Death는 1회 재생한다.
+- 원본 처리: 시트의 위→아래, 왼쪽→오른쪽 순서다. 오크의 Attack 22프레임, Death 24프레임도 모두 사용한다. Skeleton_Attacl, Skeleton_Deatj, Skeleton_move, Slime_Attacl 원본 파일명은 유지하고 출력 에셋의 상태 이름만 Attack/Death/Move로 통일했다.
+
+### 구현 구조와 사용 방법
+
+```text
+캐릭터 Lobby Controller (Animator와 Image가 같은 오브젝트)
+  Entry → Idle -- Attack Trigger → Attack -- Exit Time 1 → Idle
+캐릭터 Battle Controller (Animator와 SpriteRenderer가 같은 오브젝트)
+  Entry → Idle ← IsMoving bool → Run
+  Idle/Run -- Death Trigger → Death (종료 상태)
+몬스터 Battle Controller (Animator와 SpriteRenderer가 같은 오브젝트)
+  Entry → Move -- Attack Trigger → Attack -- Exit Time 1 → Move
+  Move/Attack -- Death Trigger → Death (종료 상태)
+```
+
+- 상태 이름: Idle, Attack, Run, Move, Death. Controller별로 해당 상태만 포함한다.
+- 파라미터: 로비는 Attack(Trigger), 캐릭터 전투는 IsMoving(Bool)·Death(Trigger), 몬스터는 Attack(Trigger)·Death(Trigger).
+- 호출 예: Animator.SetTrigger("Attack"), Animator.SetBool("IsMoving", true), Animator.SetTrigger("Death").
+- 전환 시간은 0초다. Death 전환을 이동·공격 전환보다 우선 배치하고 Death에는 나가는 전환을 두지 않는다.
+- 재사용 시 Animator.Rebind()와 Animator.Update(0f)로 기본 상태를 초기화한다. 현재 요청은 에셋 생성 범위로, 호출 스크립트와 씬·프리팹 연결은 포함하지 않는다.
+- 기존 씬과 이미지의 사용자 변경은 수정하지 않았다.
+
+### 검증 결과와 미검증 항목
+
+- 정적 검사: 클립 87개, Controller 31개, 원본 프레임 1,254개의 순서·스프라이트 GUID/fileID·12 FPS·반복 설정·Controller 내부 참조를 확인했다.
+- Unity 6000.3.9f1 격리 프로젝트에서 전체 클립과 Controller 임포트, 로비 Image/전투 SpriteRenderer 바인딩, 재생 길이, 반복 여부, 모든 1,254프레임의 SampleAnimation 적용을 검사했다. 검증 오브젝트에는 Animator를 포함했다.
+- 원본 프로젝트의 배치 실행은 프로젝트 경로 선택 후 반환 코드 1로 종료했다. 원본 Temp/UnityLockfile을 변경하지 않고 격리 프로젝트에서 에셋을 검증했다.
+- 최종 클립은 Unity AnimationUtility로 직렬화한 에셋이다. 재생 길이는 캐릭터·일반 공격/죽음 16프레임 기준 약 1.333초, 몬스터 이동 8프레임 약 0.667초, 오크 공격 22프레임 약 1.833초, 오크 죽음 24프레임 2초다.
+- 미검증: 원본 씬에서의 Play Mode 재생, 실제 게임 코드가 호출하는 상태 전환, 기기 화면 표시, Windows·Android 빌드와 실기기. 씬·프리팹 연결은 이번 승인 범위에 포함하지 않았다.
+- 검증 로그: C:/Users/user/.codex/visualizations/2026/11/19/01a1f241-c0e8-7d63-b581-b1d4f49a68fc/animation-validation.log
+
+### 관련 파일
+
+| 파일 | 줄 수 |
+|---|---:|
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Battle_Death.anim` | 92 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Battle_Idle.anim` | 92 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Battle_Run.anim` | 92 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Select_Attack.anim` | 92 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Select_Idle.anim` | 92 |
+| `Assets/07_Animations/Monster/Boar/Boar_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Boar/Boar_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Boar/Boar_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Cobra/Cobra_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Cobra/Cobra_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Cobra/Cobra_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Deer/Deer_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Deer/Deer_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Deer/Deer_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/ElderGoblin/ElderGoblin_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/ElderGoblin/ElderGoblin_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/ElderGoblin/ElderGoblin_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/FireElemental/FireElemental_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/FireElemental/FireElemental_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/FireElemental/FireElemental_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/FireSlime/FireSlime_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/FireSlime/FireSlime_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/FireSlime/FireSlime_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Goblin/Goblin_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Goblin/Goblin_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Goblin/Goblin_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/IceElemental/IceElemental_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/IceElemental/IceElemental_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/IceElemental/IceElemental_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/IceSlime/IceSlime_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/IceSlime/IceSlime_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/IceSlime/IceSlime_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/LesserFireDemon/LesserFireDemon_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/LesserFireDemon/LesserFireDemon_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/LesserFireDemon/LesserFireDemon_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Mummy/Mummy_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Mummy/Mummy_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Mummy/Mummy_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Orc/Orc_Attack.anim` | 104 |
+| `Assets/07_Animations/Monster/Orc/Orc_Death.anim` | 108 |
+| `Assets/07_Animations/Monster/Orc/Orc_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/PoisonSlime/PoisonSlime_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/PoisonSlime/PoisonSlime_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/PoisonSlime/PoisonSlime_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Scorpion/Scorpion_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Scorpion/Scorpion_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Scorpion/Scorpion_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Skeleton/Skeleton_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Skeleton/Skeleton_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Skeleton/Skeleton_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Slime/Slime_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Slime/Slime_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Slime/Slime_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Sphinx/Sphinx_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Sphinx/Sphinx_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Sphinx/Sphinx_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Wolf/Wolf_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Wolf/Wolf_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Wolf/Wolf_Move.anim` | 76 |
+| `Assets/07_Animations/Monster/Yeti/Yeti_Attack.anim` | 92 |
+| `Assets/07_Animations/Monster/Yeti/Yeti_Death.anim` | 92 |
+| `Assets/07_Animations/Monster/Yeti/Yeti_Move.anim` | 76 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Earth_Ninja/Earth_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Fire_Ninja/Fire_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Non_Ninja/Non_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Water_Ninja/Water_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Wind_Ninja/Wind_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Ninja_Lobby.controller` | 156 |
+| `Assets/07_Animations/Character/Wood_Ninja/Wood_Ninja_Battle.controller` | 246 |
+| `Assets/07_Animations/Monster/Boar/Boar_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Cobra/Cobra_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Deer/Deer_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/ElderGoblin/ElderGoblin_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/FireElemental/FireElemental_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/FireSlime/FireSlime_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Goblin/Goblin_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/IceElemental/IceElemental_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/IceSlime/IceSlime_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/LesserFireDemon/LesserFireDemon_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Mummy/Mummy_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Orc/Orc_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/PoisonSlime/PoisonSlime_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Scorpion/Scorpion_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Skeleton/Skeleton_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Slime/Slime_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Sphinx/Sphinx_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Wolf/Wolf_Battle.controller` | 243 |
+| `Assets/07_Animations/Monster/Yeti/Yeti_Battle.controller` | 243 |
+
+
+## FUNC-005 — 로비 기본 캐릭터와 주기 공격 애니메이션
+
+- 날짜: 2026-11-19
+- 관련 기획: 로비 중앙의 Non_Ninja는 Idle을 반복하며 로비 진입 후 10초마다 Attack을 한 번 재생한다. 사용자 요청의 None_Ninja/Attak는 프로젝트의 Non_Ninja/Attack을 뜻한다.
+- 관련 파일: Assets/02_Scripts/UI/Lobby/LobbyWindow.cs (65줄, OnEnable/Update 추가), Assets/01_Scenes/00_Tilte_Scene.unity (1956줄 Animator 참조, 4369줄 Animator 추가).
+- 사용한 기능·기술: uGUI Image, Animator, Time.unscaledDeltaTime, Animator.Rebind, Animator.Update, Animator.SetTrigger.
+- 선택 이유: 기존 Non_Ninja_Lobby Controller의 Idle → Attack → Idle 전환과 원본 스프라이트를 재사용한다. UI 애니메이션과 타이머는 게임 시간 배율의 영향을 받지 않도록 UnscaledTime을 사용한다.
+- 구현 구조: Lobby_Window.OnEnable → _attackTimer=0 → _characterAnimator.Rebind/Update(0) → Idle. Update → _attackTimer 누적 → 10초마다 Attack Trigger → Attack 1회 종료 후 Controller가 Idle로 복귀. 로비 비활성화 시 Update가 멈추고 재활성화 시 초기화한다.
+- 구현 결과: 기존 Kage 오브젝트를 Non_Ninja로 표시하고 가로·세로 중심을 로비 영역의 (0.5, 0.5)로 배치했다. 기존 크기를 유지한다. Non_Select_Idle 첫 스프라이트와 Non_Ninja_Lobby Controller를 연결하고 LobbyWindow의 Inspector Animator 참조를 지정했다. 기존 로비 버튼 기능은 유지했다.
+- 검증 결과: 씬의 Animator 참조·Controller GUID·중앙 앵커·중복 fileID 부재를 정적으로 검사했다. 실제 수정된 LobbyWindow.cs와 기존 Controller/클립을 복사한 격리 Unity 6000.3.9f1 Play Mode에서 Attack 진입 10.00003초·20.00001초, Idle 복귀 2회, 재진입 Idle·타이머 0을 확인했다. Time.timeScale=0에서도 재생됐다. 격리 검증의 다른 매니저는 스텁을 사용했다.
+- 검증 중 에디터 이슈: UnityEditor.Search.SearchDatabase의 IndexOutOfRange 예외가 시작 인덱싱 중 기록됐으나 재생 주기 검증은 통과했다.
+- 미검증: 원본 씬 Play Mode의 전체 타이틀→로비 흐름, 실제 기기에서의 중앙 표시, Windows·Android 빌드.
+- 검증 로그: C:/Users/user/.codex/visualizations/2026/11/19/01a1f241-c0e8-7d63-b581-b1d4f49a68fc/lobby-animation-validation.log
+
+### 로비 캐릭터 재생 속도 조정 (2026-11-19)
+
+- 관련 파일: Assets/02_Scripts/UI/Lobby/LobbyWindow.cs:16.
+- 변경: OnEnable의 Animator.Rebind 후 speed를 1.5f로 설정한다. 로비 Non_Ninja의 Idle·Attack을 모두 기존보다 1.5배 빠르게 재생한다.
+- 공격 주기: 사용자가 수정한 ATTACK_INTERVAL = 3f를 유지한다. Time.unscaledDeltaTime 타이머는 Animator.speed와 독립적이므로 공격 시작 간격은 3초다.
+- 검증: 소스에서 speed = 1.5f 적용, ATTACK_INTERVAL = 3f 유지 및 기존 타이머 처리 보존을 확인했다. 이번 변경의 Unity Play Mode 재생은 미검증이다.
+
+
+### 로비 애니메이션 최종 설정 및 통합 검증 (2026-11-19)
+
+- 최종 공격 간격은 사용자가 수정한 ATTACK_INTERVAL = 5f를 유지한다. 재생 속도는 Animator.speed = 1.5f다. 앞선 10초·3초 기록은 변경 이력이다.
+- 실제 LobbyWindow.cs와 기존 Controller를 사용한 격리 Unity Play Mode 검증 결과: Attack 진입 5.000165초·10.00033초, Idle 복귀 2회, 재진입 Idle·타이머 0·speed 1.5. Time.timeScale=0에서도 동작했다.
+- 전체 87개 클립·31개 Controller·1,254프레임 검증은 이전 통과 결과를 따른다. 원본 씬의 전체 흐름과 기기 화면 및 독립 빌드는 미검증이다.
+- 사용자가 현재 로비 씬 및 UI 시트 meta 변경을 모두 포함하여 main 대상 PR로 통합하도록 승인했다.
+- 최종 검증 로그: C:/Users/user/.codex/visualizations/2026/11/19/01a1f241-c0e8-7d63-b581-b1d4f49a68fc/lobby-animation-final-validation.log
