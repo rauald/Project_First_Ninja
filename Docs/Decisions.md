@@ -448,3 +448,15 @@
 - 원본 시트·좌표 JSON·개별 PNG와 Unity의 시트·분할 메타데이터를 맞췄다. 기존 슬롯의 픽셀과 Unity 참조를 유지했다.
 - CharacterPopUp은 재료 상세 타입으로 스프라이트를 조회한다. 씬과 CharacterScreenSetup에 두 배열을 연결했다.
 - 개별 PNG와 양쪽 시트의 픽셀 일치 및 기존 영역 보존을 검사했다. Unity Play Mode는 미실행이다.
+
+## FUNC-014 — 장비 화면
+
+- 날짜 2026-11-20
+- 관련 기획은 UI_기조.xlsb의 <장비 화면> 기능표와 배치 그림이다. 장비 부위와 능력치 명칭은 장비_기조.xlsb와 EquipData.csv를 따른다.
+- 00_Tilte_Scene.unity의 Canvas/SafeArea/WindowManager/Equipment_Window에 기존 장비 배경, 재화·설정, 좌우 8부위, 현재 선택된 캐릭터, 5열 스크롤 인벤토리와 하단 메뉴를 배치했다. 슬롯 위치는 RectTransform, 인벤토리 열 수와 간격은 Content의 GridLayoutGroup, 카드 모양은 InventorySlotTemplate에서 편집한다. 장비 카드는 소지 데이터에 따라 생성한다.
+- WindowManager.Open(WindowType.Equipment) → EquipmentWindow.ResetUI → RefreshEquipment가 화면을 갱신한다. 장비 버튼은 EquipmentPopUp.ShowEquipment로 정보와 장착 또는 교체 버튼을 표시한다. Settings_PopUp과 메뉴는 기존 씬 참조를 사용한다.
+- EquipmentPopUp.EquipSelected → EquipmentInventory.TryEquip → SaveLoadManager.SaveData 순서로 처리한다. SaveLoadData.Equipment의 각 항목은 장비 정의 ID, 레벨·등급과 장착 여부를 저장한다. 같은 정의 ID의 여러 소지 장비를 구분하고 교체된 장비는 인벤토리에 보관한다. 저장 실패 시 양쪽 장비의 장착 상태를 복구한다.
+- 초기 지급은 별도로 추가하지 않았다. 장비가 없는 저장에는 빈 상태를 표시한다. 장비별 이미지는 이름 라벨로 임시 표시한다. 뽑기와 구매는 이번 장비 관리 범위에서 제외했다.
+- 관련 파일은 00_Tilte_Scene.unity, EquipmentWindow.cs, EquipmentPopUp.cs, EquipmentInventory.cs, EquipmentInstanceData.cs, SaveLoadData.cs, GameManager.cs, EnumList.cs다.
+- Unity 참조를 사용한 Roslyn C# 컴파일 및 씬 참조 정적 검사에 통과했다. 장비 74종의 CSV 참조 열, 8개 부위 슬롯, 팝업과 메뉴 이벤트, 계층의 참조와 앵커를 확인했다.
+- Unity 6000.3.9f1 배치 모드는 프로젝트 경로 설정 직후 반환 코드 1로 종료했다. 별도 모델 실행 파일은 Windows 애플리케이션 제어 정책에서 차단됐다. Play Mode 입력·표시, 실제 저장·재실행과 Android 실기기는 미검증이다.
