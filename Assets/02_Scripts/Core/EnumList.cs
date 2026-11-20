@@ -61,5 +61,6 @@ public enum PopUpType
     None = -1,
     Settings = 0,
     Toast,
+    Character,
     Max
 }

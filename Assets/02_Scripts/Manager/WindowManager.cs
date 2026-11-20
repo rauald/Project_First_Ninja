@@ -24,8 +24,9 @@ public sealed class WindowManager : MonoBehaviour
             return;
         }
 
-        Vector2 entryDirection = GetEntryDirection(type);
-        if (entryDirection != Vector2.zero && _current == _windows[(int)WindowType.Lobby])
+        WindowType previousType = (WindowType)System.Array.IndexOf(_windows, _current);
+        Vector2 entryDirection = GetEntryDirection(previousType, type);
+        if (_current != null && entryDirection != Vector2.zero)
         {
             StartCoroutine(SlideToWindow(window, entryDirection));
             return;
@@ -41,21 +42,45 @@ public sealed class WindowManager : MonoBehaviour
         _current.GetComponent<IWindowable>()?.ResetUI();
     }
 
-    private static Vector2 GetEntryDirection(WindowType type)
+    private static Vector2 GetEntryDirection(WindowType previous, WindowType next)
     {
-        switch (type)
+        int previousIndex = GetMenuIndex(previous);
+        int nextIndex = GetMenuIndex(next);
+        if (previousIndex < 0 || nextIndex < 0)
         {
-            case WindowType.Shop:
-            case WindowType.Equipment:
-                return Vector2.left;
-            case WindowType.StageSelect:
-                return Vector2.down;
-            case WindowType.Character:
-            case WindowType.Talent:
-                return Vector2.right;
-            default:
-                return Vector2.zero;
+            return Vector2.zero;
         }
+
+        if (nextIndex != previousIndex)
+        {
+            return nextIndex < previousIndex ? Vector2.left : Vector2.right;
+        }
+
+        // 로비와 던전은 같은 중앙 메뉴다. 두 화면 사이에는 세로 전환을 유지한다.
+        if (previous == WindowType.Lobby && next == WindowType.StageSelect)
+        {
+            return Vector2.down;
+        }
+
+        if (previous == WindowType.StageSelect && next == WindowType.Lobby)
+        {
+            return Vector2.up;
+        }
+
+        return Vector2.zero;
+    }
+
+    private static int GetMenuIndex(WindowType type)
+    {
+        return type switch
+        {
+            WindowType.Shop => 0,
+            WindowType.Equipment => 1,
+            WindowType.Lobby or WindowType.StageSelect => 2,
+            WindowType.Character => 3,
+            WindowType.Talent => 4,
+            _ => -1
+        };
     }
 
     private IEnumerator SlideToWindow(GameObject window, Vector2 entryDirection)
@@ -67,7 +92,7 @@ public sealed class WindowManager : MonoBehaviour
         RectTransform previous = (RectTransform)_current.transform;
         RectTransform next = (RectTransform)window.transform;
         Vector2 previousOrigin = previous.anchoredPosition;
-        Vector2 nextOrigin = Vector2.zero;
+        Vector2 nextOrigin = next.anchoredPosition;
         RectTransform canvas = (RectTransform)GetComponentInParent<Canvas>().rootCanvas.transform;
 
         // 진입 방향에 따라 전체 화면의 너비 또는 높이만큼 이동한다.

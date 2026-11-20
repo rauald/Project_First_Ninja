@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public sealed class LobbyWindow : MonoBehaviour, IWindowable
 {
@@ -6,6 +7,9 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
     private static readonly int ATTACK_TRIGGER = Animator.StringToHash("Attack");
 
     [SerializeField] private Animator _characterAnimator;
+    [SerializeField] private CharacterWindow _characterWindow;
+    [SerializeField] private Text _silver;
+    [SerializeField] private Text _gold;
 
     private float _attackTimer;
 
@@ -32,6 +36,11 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
     public void ResetUI()
     {
         UIManager.Instance.PopUp.Close();
+        CharacterProgression characters = GameManager.Instance.Characters;
+        CharacterDetailView.ApplyPresentation(_characterAnimator,
+            _characterWindow.GetPresentation(characters.Data.EquippedCharacterId));
+        _silver.text = CurrencyFormatter.Format(characters.GetAmount(0, 0));
+        _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
     }
 
     public void OpenSettingsPopUp()

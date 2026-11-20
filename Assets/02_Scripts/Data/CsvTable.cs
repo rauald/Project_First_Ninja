@@ -6,6 +6,7 @@ using System.IO;
 public sealed class CsvTable
 {
     private readonly Dictionary<int, string[]> _rows = new();
+    private readonly Dictionary<int, string> _labels = new();
 
     public int Count => _rows.Count;
 
@@ -52,6 +53,7 @@ public sealed class CsvTable
             {
                 throw new FormatException($"{lineNumber}행에 중복 ID {id}가 있습니다.");
             }
+            table._labels.Add(id, columns[1]);
         }
 
         return table;
@@ -60,6 +62,16 @@ public sealed class CsvTable
     public int GetInt(int id, int field)
     {
         return int.Parse(_rows[id][field], CultureInfo.InvariantCulture);
+    }
+
+    public string GetString(int id, int field)
+    {
+        return _rows[id][field];
+    }
+
+    public string GetLabel(int id)
+    {
+        return _labels[id];
     }
 
     public IEnumerable<int> GetIds()

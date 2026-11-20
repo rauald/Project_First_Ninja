@@ -4,15 +4,15 @@ using Screen = UnityEngine.Device.Screen;
 [RequireComponent(typeof(RectTransform))]
 public sealed class SafeAreaLayout : MonoBehaviour
 {
-    [SerializeField] private RectTransform[] _fullScreenLayers;
-    [SerializeField] private RectTransform _lobbyTopLetterbox;
-    [SerializeField] private RectTransform _lobbyBottomLetterbox;
-    [SerializeField] private RectTransform _lobbyLeftLetterbox;
-    [SerializeField] private RectTransform _lobbyRightLetterbox;
+    [SerializeField] private RectTransform _topLetterbox;
+    [SerializeField] private RectTransform _bottomLetterbox;
+    [SerializeField] private RectTransform _leftLetterbox;
+    [SerializeField] private RectTransform _rightLetterbox;
 
     private RectTransform _layout;
     private Vector2Int _screenSize;
     private Rect _safeArea;
+    private Vector2 _canvasSize;
 
     private void OnEnable()
     {
@@ -30,35 +30,32 @@ public sealed class SafeAreaLayout : MonoBehaviour
     {
         Vector2Int size = new(Screen.width, Screen.height);
         Rect area = Screen.safeArea;
+        Vector2 canvasSize = ((RectTransform)_layout.parent).rect.size;
         if (size.x <= 0 || size.y <= 0 || area.width <= 0 || area.height <= 0
-            || (size == _screenSize && area == _safeArea))
+            || (size == _screenSize && area == _safeArea && canvasSize == _canvasSize))
         {
             return;
         }
 
-        // 화면 픽셀 좌표를 부모 Canvas의 정규화된 앵커로 바꾼다.
+        // 중앙 고정 앵커를 유지하고 Canvas 단위의 위치와 크기만 계산한다.
         Rect fittedArea = GetContentRect(size, area);
-        _layout.anchorMin = new Vector2(fittedArea.xMin / size.x, fittedArea.yMin / size.y);
-        _layout.anchorMax = new Vector2(fittedArea.xMax / size.x, fittedArea.yMax / size.y);
-        _layout.offsetMin = Vector2.zero;
-        _layout.offsetMax = Vector2.zero;
+        Vector2 scale = new(canvasSize.x / size.x, canvasSize.y / size.y);
+        _layout.sizeDelta = Vector2.Scale(fittedArea.size, scale);
+        _layout.anchoredPosition = Vector2.Scale(fittedArea.center - (Vector2)size * 0.5f, scale);
 
-        // 배경 레이어는 안전 영역을 기준으로 전체 화면까지 확장한다.
-        Vector2 fullMin = new(-fittedArea.xMin / fittedArea.width, -fittedArea.yMin / fittedArea.height);
-        Vector2 fullMax = new((size.x - fittedArea.xMin) / fittedArea.width, (size.y - fittedArea.yMin) / fittedArea.height);
-        foreach (RectTransform layer in _fullScreenLayers)
-        {
-            layer.anchorMin = fullMin;
-            layer.anchorMax = fullMax;
-        }
-
-        SetLetterbox(_lobbyTopLetterbox, new Vector2(fullMin.x, 1f), fullMax);
-        SetLetterbox(_lobbyBottomLetterbox, fullMin, new Vector2(fullMax.x, 0f));
-        SetLetterbox(_lobbyLeftLetterbox, new Vector2(fullMin.x, 0f), Vector2.up);
-        SetLetterbox(_lobbyRightLetterbox, Vector2.right, new Vector2(fullMax.x, 1f));
+        float top = (size.y - fittedArea.yMax) * scale.y;
+        float bottom = fittedArea.yMin * scale.y;
+        float left = fittedArea.xMin * scale.x;
+        float right = (size.x - fittedArea.xMax) * scale.x;
+        float extraWidth = canvasSize.x - _layout.sizeDelta.x;
+        SetLetterbox(_topLetterbox, new Vector2(-_layout.anchoredPosition.x, top * 0.5f), new Vector2(extraWidth, top));
+        SetLetterbox(_bottomLetterbox, new Vector2(-_layout.anchoredPosition.x, -bottom * 0.5f), new Vector2(extraWidth, bottom));
+        SetLetterbox(_leftLetterbox, new Vector2(-left * 0.5f, 0f), new Vector2(left, 0f));
+        SetLetterbox(_rightLetterbox, new Vector2(right * 0.5f, 0f), new Vector2(right, 0f));
 
         _screenSize = size;
         _safeArea = area;
+        _canvasSize = canvasSize;
     }
 
     private static Rect GetContentRect(Vector2Int size, Rect safeArea)
@@ -71,14 +68,14 @@ public sealed class SafeAreaLayout : MonoBehaviour
         return new Rect(left, bottom, width, height);
     }
 
-    private static void SetLetterbox(RectTransform strip, Vector2 min, Vector2 max)
+    private static void SetLetterbox(RectTransform strip, Vector2 position, Vector2 size)
     {
         if (strip == null)
         {
             return;
         }
 
-        strip.anchorMin = min;
-        strip.anchorMax = max;
+        strip.anchoredPosition = position;
+        strip.sizeDelta = size;
     }
 }
