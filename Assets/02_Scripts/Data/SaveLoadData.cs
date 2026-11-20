@@ -9,6 +9,7 @@ public sealed class SaveLoadData
     public bool IsDamageTextEnabled = true;
     public int EquippedCharacterId = 1;
     public bool HasReceivedTestSilver;
+    public List<EquipmentInstanceData> Equipment = new();
     public List<CharacterProgressData> Characters = new();
     public List<CharacterMaterialData> CharacterMaterials = new();
 }

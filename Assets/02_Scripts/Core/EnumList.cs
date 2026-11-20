@@ -62,5 +62,6 @@ public enum PopUpType
     Settings = 0,
     Toast,
     Character,
+    Equipment,
     Max
 }
