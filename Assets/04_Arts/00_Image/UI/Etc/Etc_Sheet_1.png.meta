@@ -671,7 +671,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_1_55555
+      name: Etc_Sheet_1_46
       rect:
         serializedVersion: 2
         x: 803
@@ -1202,10 +1202,10 @@ TextureImporter:
       name: Etc_Sheet_1_57
       rect:
         serializedVersion: 2
-        x: 880
-        y: 387
-        width: 130
-        height: 114
+        x: 882
+        y: 275
+        width: 128
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1529,28 +1529,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_1_58
-      rect:
-        serializedVersion: 2
-        x: 880
-        y: 274
-        width: 130
-        height: 114
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfdbf286a50b02c40800000000000000
-      internalID: 5485578248478768637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Etc_Sheet_1_32
       rect:
         serializedVersion: 2
@@ -1859,7 +1837,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_1_59
+      name: Etc_Sheet_1_58
       rect:
         serializedVersion: 2
         x: 492
@@ -1881,7 +1859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_1_60
+      name: Etc_Sheet_1_59
       rect:
         serializedVersion: 2
         x: 626
@@ -1998,6 +1976,7 @@ TextureImporter:
       Etc_Sheet_1_43: -8724423145982098592
       Etc_Sheet_1_44: 869152087804902252
       Etc_Sheet_1_45: -57107705553907263
+      Etc_Sheet_1_46: 3772536449993381713
       Etc_Sheet_1_47: 2191435968497677096
       Etc_Sheet_1_48: -7622691466516870975
       Etc_Sheet_1_49: 1747850876943699898
@@ -2008,13 +1987,11 @@ TextureImporter:
       Etc_Sheet_1_53: 7283712268983010424
       Etc_Sheet_1_54: -566964471613219104
       Etc_Sheet_1_55: 8965526748961866723
-      Etc_Sheet_1_55555: 3772536449993381713
       Etc_Sheet_1_56: 7442926186180492724
       Etc_Sheet_1_57: 3423422840086001525
-      Etc_Sheet_1_58: 5485578248478768637
-      Etc_Sheet_1_59: -1818073656527493187
+      Etc_Sheet_1_58: -1818073656527493187
+      Etc_Sheet_1_59: -6525490228795981276
       Etc_Sheet_1_6: -733776894031455335
-      Etc_Sheet_1_60: -6525490228795981276
       Etc_Sheet_1_67: -7594300989966364400
       Etc_Sheet_1_68: -747095995650451956
       Etc_Sheet_1_7: 3622867967552520834

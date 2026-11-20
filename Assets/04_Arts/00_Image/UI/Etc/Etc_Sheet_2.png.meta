@@ -356,7 +356,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,6 +365,138 @@ TextureImporter:
       bones: []
       spriteID: ea7bf6673b9c8d944bf0b8da9f788361
       internalID: -721741464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 992
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12082c3824eedda4eb52180ea2c5fee6
+      internalID: -1642205357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 912
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0177b119cb7069f4c82a27da89ba1667
+      internalID: 735171240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 912
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77fd4a5b1e80cf47bef40b4dfd5d94c
+      internalID: 1394853626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 799
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c9525ac775c8144880f0dc7b539fe7
+      internalID: 1077434808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 799
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b173e17c40a0b394791f420cb09af688
+      internalID: -469754525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 686
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208222dc7482a324f8d0d808048537a2
+      internalID: -557878146
       vertices: []
       indices: 
       edges: []
@@ -385,6 +517,12 @@ TextureImporter:
     nameFileIdTable:
       Etc_Sheet_2_0: -6901302400151794442
       Etc_Sheet_2_1: 4486999554668159238
+      Etc_Sheet_2_10: -1642205357
+      Etc_Sheet_2_11: 735171240
+      Etc_Sheet_2_12: 1394853626
+      Etc_Sheet_2_13: 1077434808
+      Etc_Sheet_2_14: -469754525
+      Etc_Sheet_2_15: -557878146
       Etc_Sheet_2_2: 8891709311694764422
       Etc_Sheet_2_3: 9027834958913227320
       Etc_Sheet_2_4: -7118059100937998067
