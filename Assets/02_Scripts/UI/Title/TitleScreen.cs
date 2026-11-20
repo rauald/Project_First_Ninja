@@ -85,7 +85,7 @@ public sealed class TitleScreen : MonoBehaviour, IWindowable
         _status.gameObject.SetActive(false);
         _prompt.SetActive(false);
         _loadingBar.SetActive(true);
-        ((RectTransform)_fill.transform).anchorMax = new Vector2(Mathf.Clamp01(progress), 1f);
+        _fill.fillAmount = Mathf.Clamp01(progress);
         _percentage.text = $"{Mathf.RoundToInt(Mathf.Clamp01(progress) * 100f)}%";
     }
 

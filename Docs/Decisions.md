@@ -363,3 +363,88 @@
 - 구현 결과: DesktopPrompt는 Etc_Sheet_1_32(548×67, fileID -5065698487816741814), MobilePrompt는 Etc_Sheet_1_33(552×69, fileID -4026338688705661175)을 연결했다. 두 안내의 RawImage를 Image(Simple, PreserveAspect=1)로 바꾸고 수동 Texture/UVRect 설정을 제거했다. 기존 위치와 표시 영역을 유지한다. 깜빡임 클립의 실행 곡선·genericBindings·편집 곡선에 있는 컴포넌트 GUID 3곳을 Image로 변경했다. 알파 키와 1초 반복 주기는 유지한다. 원본 이미지와 meta는 수정하지 않았다.
 - 검증 결과: 원본 시트를 직접 열어 클릭·터치 문구 위치를 확인했다. 두 Image 타입·스프라이트 fileID 존재·비율 유지·UV 설정 제거를 정적 검사했다. 애니메이션의 바인딩 3개가 Image를 가리키고 GUID 외의 클립 내용이 기존과 같은지 검사했다. git diff --check 통과. C# 변경은 없다.
 - 미검증: Unity Play Mode에서 인트로 종료 후 실제 안내 표시·깜빡임, Android 실기기 및 독립 빌드.
+
+## FUNC-008 — 캐릭터 선택 화면
+
+- 날짜: 2026-11-19
+- 관련 기획: `UI_기조.xlsb`의 `<로비 화면>`, `<캐릭터 화면>`, `<기능 팝업>`, `<공용 팝업>`. `캐릭터_기조.xlsb`와 `스킬_기조.xlsb`의 캐릭터·성장·패시브·각성 설명.
+- 사용자 확정: 최초에는 카게만 해금한다. 사용자가 수정한 캐릭터 DB의 패시브 참조 18개를 CharacterData.csv에 동기화했다. 원본 XLSB는 수정하지 않았다.
+- 사용한 기능·기술: uGUI Image·Text·Button·Slider, Inspector 참조, 기존 로비 Animator, CSV 기반 성장 계산, 기존 JSON 저장, EventSystem 레이캐스트.
+- 선택 이유: 기존 화면 전환과 에셋을 유지하며, UI를 씬에 미리 배치해 사용자가 직접 RectTransform과 스프라이트를 수정할 수 있게 한다. 성장·재료 처리는 UI 밖 CharacterProgression이 담당한다.
+- 구현 구조: GameManager의 최초 데이터 로드 → CharacterProgression.Initialize → WindowManager.Open(Character) → CharacterWindow.ResetUI → 장착 캐릭터 정보·전체 캐릭터 6슬롯 표시. 인벤토리 클릭 → CharacterPopUp.ShowCharacter → 장착 또는 성장 확인. 스킬 클릭 → ShowSkill → 닫으면 이전 정보 화면 복원.
+- 구현 결과: 재화·설정·로비 복귀·하단 메뉴, 등급·레벨·성급·공격력·방어력·체력, 캐릭터별 애니메이션, 패시브 3개와 각성기·잠금·설명, 정보 팝업, 장착과 저장·로비 반영, 레벨업·성급업·등급업 비용 확인·확인·취소·재료 부족 알림을 연결했다. 미해금 캐릭터는 1레벨·0성·N등급 기본 능력치를 보여주고 장착·성장을 막는다.
+- 성장 기준: 태생 등급은 고정하고 현재 등급은 N부터 시작한다. 현재 CSV 범위에 따라 최대 레벨 100·5성·E등급이다. 레벨업은 은자, 성급업은 은자와 해당 캐릭터 조각, 등급업은 해당 속성석을 사용한다. 능력치는 기본 값에 완료한 레벨·성급·등급 성장치를 누적한다. 레벨 구간은 성장 전 레벨 기준으로 해석했다. 패시브는 1·3·5성, 각성기는 세 번째 패시브와 함께 5성에서 열린다. 각성 설명은 캐릭터의 0~5 식별자를 기존 전투 액티브 DB 19~24행에 연결한다.
+- 저장 구조: SaveLoadData에 EquippedCharacterId, Characters, CharacterMaterials, IsDamageTextEnabled를 추가했다. 재료는 ItemType·DetailType·Amount로 저장한다. 기존 볼륨만 있는 저장 파일에도 기본 캐릭터 상태를 채운다. 장착과 성장은 저장 실패 시 상태와 차감 재료를 복구한다. SaveLoadManager 자체는 변경하지 않았다.
+- 설정: BGM·SFX 0~100 표시·슬라이더와 데미지 폰트 OFF/ON 저장을 연결했다. 데미지 폰트의 전투 렌더링은 아직 존재하지 않아 이번 범위는 설정 저장까지다.
+- 편집 위치: 타이틀 씬의 Canvas/SafeArea/WindowManager/Character_Window 아래 Background·TopBar·EquippedCharacter·Inventory·BottomBar·LobbyButton. 팝업은 같은 SafeArea의 PopUpManager/Character_PopUp·Settings_PopUp 아래다. 배경만 전체 화면 레이어로 등록하고 UI 내용은 안전 영역 안에 둔다.
+- 에셋: 기존 BG_Character, 6종 캐릭터·로비 Controller, 상·하단 바·재화·메뉴·스킬 아이콘을 재사용했다. 새 이미지는 만들지 않았다. 패널과 잠금 표시는 기본 Image·Text로 틀을 잡았다.
+- 편집 도구: CharacterScreenSetup은 최초 씬 생성용 Editor 도구다. 이미 CharacterWindow가 있으면 재생성을 거부하므로 사용자 배치를 덮어쓰지 않는다. 실행 중 UI 오브젝트는 생성하지 않는다.
+- 검증: 전체 C# 및 Editor 생성 코드 Roslyn 컴파일 성공(경고 0·오류 0). 순수 성장 로직 37개 검사 통과. 격리 Unity 6000.3.9f1 Play Mode에서 타이틀→로비→캐릭터, 6종 정보·24개 스킬 참조, 팝업 복귀, 비용 확인·취소·재료 부족·3종 성장, 장착·로비 반영, 실제 JSON 저장·재로드와 설정을 실행했다. 1080×1920·1080×2340 렌더 텍스처와 팝업 이미지를 직접 확인했다. 렌더 텍스처 검증은 기기 안전 영역 검증을 대신하지 않는다.
+- 검증 환경 이슈: 원본 프로젝트 배치 실행은 시작 단계에서 반환 코드 1로 종료하여 원본 잠금 파일을 건드리지 않고 전체 Assets·Packages·ProjectSettings 복사본으로 검증했다. 격리 프로젝트의 긴 경로에 따른 일부 에디터 패키지 임포트 경고, Burst DLL 로딩 오류 4551과 UnityEditor.Search.SearchDatabase의 시작 인덱싱 예외가 기록됐다. 게임 코드 오류와 에디터 인덱서 오류는 분리해 기록한다.
+- 미검증: 원본 프로젝트에서 사용자 직접 클릭, Android 실기기 터치·안전 영역·폰트, 독립 Windows·Android 빌드, 다른 캐릭터의 획득 경로와 전투 사용. 보유 재화의 초기값은 기존처럼 0이며 지급·뽑기 기능을 추가하지 않았다.
+- 로그·캡처: `C:/Users/user/.codex/visualizations/2026/11/19/01a1f286-4ab2-7bd0-9bcb-13feaf931814/`의 character-build.log, character-playmode-final.log, character-*.png.
+- 관련 파일: Assets/01_Scenes/00_Tilte_Scene.unity, Assets/02_Scripts/UI/Character/ 아래 화면·뷰·팝업·슬롯·표현 데이터·Editor 생성 코드와 meta, Assets/02_Scripts/Data/CharacterProgression.cs·CharacterProgressData.cs·CharacterMaterialData.cs·CharacterGrowthType.cs·SaveLoadData.cs·CsvTable.cs, Assets/02_Scripts/Manager/GameManager.cs, Assets/02_Scripts/Core/EnumList.cs, Assets/02_Scripts/UI/Lobby/LobbyWindow.cs, Assets/10_Data/CharacterData.csv.
+- 최종 실행 검증: CHARACTER_PLAYMODE_PASS checks=99 runtimeErrors=0 editorSearchErrors=1, Unity 반환 코드 0. 실제 EventSystem의 최상위 레이캐스트를 거쳐 인벤토리·장착·성장 확인 버튼을 실행했고, 설정 UI 렌더 프레임 이후 슬라이더 트랙을 포인터로 눌러 볼륨 저장을 확인했다. 버튼뿐 아니라 트랙·핸들에도 레이캐스트를 연결했다. 최종 전체 C# 컴파일은 경고 0·오류 0, git diff --check와 씬 ID·내부 참조·에셋/패키지 GUID·신규 meta·패시브 참조 18개 검사도 통과했다.
+- 신규 코드 줄 수: CharacterGrowthType.cs 8, CharacterMaterialData.cs 9, CharacterProgressData.cs 11, CharacterProgression.cs 244, CharacterDetailView.cs 88, CharacterInventorySlot.cs 25, CharacterPopUp.cs 159, CharacterPresentation.cs 12, CharacterSettingsPopUp.cs 53, CharacterWindow.cs 53, Editor/CharacterScreenSetup.cs 416.
+- 기능명세서: `C:/Users/user/OneDrive/프로젝트/11월 개인 프로젝트/기능명세서/20261119/캐릭터 선택 화면.md`.
+
+## FUNC-009 — 공통 레터박스와 메뉴 위치별 슬라이드
+
+- 날짜: 2026-11-19
+- 관련 기획: 모든 화면에 동일한 레터박스를 유지하고 하단 메뉴의 상대 위치로 화면 전환 방향을 결정한다는 사용자 수정 요청.
+- 관련 파일: Assets/02_Scripts/UI/SafeAreaLayout.cs(공통 레터박스 참조·계산), Assets/02_Scripts/Manager/WindowManager.cs(Open, GetEntryDirection, GetMenuIndex, SlideToWindow), Assets/01_Scenes/00_Tilte_Scene.unity(SafeArea·로비·레터박스 4개 계층).
+- 사용한 기능·기술: 기존 SafeAreaLayout의 1080:1920 비율·기기 안전 영역 계산, 공용 Canvas의 형제 렌더링 순서, RectTransform 슬라이드·Coroutine·CanvasGroup.
+- 선택 이유: 로비 안의 기존 검은 띠 4개를 재사용해, 각 화면에 중복된 띠를 만들지 않고 활성 상태와 위치를 공통으로 유지한다. 기존 전환 코드에서 시작·대상 메뉴 비교만 확장한다.
+- 레터박스 구조: Canvas/SafeArea 아래 WindowManager, PopUpManager, TopSafeAreaLetterbox, BottomSafeAreaLetterbox, LeftSafeAreaLetterbox, RightSafeAreaLetterbox 순서로 배치했다. 로비의 자식 목록에서 띠를 제거하고 부모를 SafeArea로 바꿨다. 검은 띠는 화면·팝업보다 나중에 그려지며 메뉴와 함께 이동하거나 비활성화되지 않는다. Canvas의 SceneFade는 기존 위치를 유지한다. 띠 참조 이름은 _topLetterbox·_bottomLetterbox·_leftLetterbox·_rightLetterbox로 변경하고 씬의 직렬화 필드도 맞췄다.
+- 슬라이드 구조: Open → 현재 _current의 WindowType 조회 → GetEntryDirection(previous, next) → GetMenuIndex 비교 → SlideToWindow. 메뉴 순서는 Shop=0, Equipment=1, Lobby/StageSelect=2, Character=3, Talent=4다. 작은 번호의 대상은 왼쪽에서 들어오며 현재 화면은 오른쪽으로 이동한다. 큰 번호의 대상은 오른쪽에서 들어오며 현재 화면은 왼쪽으로 이동한다. 모든 메뉴 간 이동에 적용한다.
+- 같은 메뉴 위치: 로비→StageSelect는 아래에서, StageSelect→로비는 위에서 들어온다. 타이틀·전투는 메뉴 순위가 없으므로 기존 즉시 전환을 유지한다. 같은 화면 재요청은 무시한다.
+- 유지 동작: 기본 0.35초·SmoothStep·unscaledDeltaTime, 중복 전환·전환 중 입력 차단, 완료 후 입력 복구. 대상의 anchoredPosition을 nextOrigin으로 보관해 사용자가 조정한 시작 위치도 유지한다.
+- 검증: 전체 런타임·Editor C# 컴파일 성공(경고 0·오류 0). 공통 부모·화면/팝업 위 형제 순서·씬 내부 참조·직렬화 이름·중복 ID 부재를 검사했다. 추가 실행 검증 결과는 아래 최종 검증 항목을 따른다.
+- 미검증: 원본 프로젝트 직접 클릭, Android 실기기·터치·안전 영역, 독립 Windows·Android 빌드. 상점·장비·던전·특성 화면은 기존 기본 컨테이너로 전환을 검증하며 상세 화면을 새로 구현하지 않는다.
+- 기능명세서: `C:/Users/user/OneDrive/프로젝트/11월 개인 프로젝트/기능명세서/20261119/공통 레터박스와 메뉴 슬라이드.md`.
+- 최종 검증: 격리 Unity 6000.3.9f1 Play Mode에서 NAVIGATION_PASS checks=167 transitions=30 runtimeErrors=0 editorSearchErrors=1, 반환 코드 0. 여섯 메뉴의 서로 다른 30개 조합에서 진입 방향·Canvas 크기 기준 시작 좌표·입력 차단/복구·중복 요청 무시·최종 활성 상태·양쪽 원점 복원을 확인했다. 타이틀·로비 진입·전체 전환·설정 팝업·전투용 임시 컨테이너에서 띠가 활성화되고 공용 원점에 머무는지 확인했다. 실제 전투 상세 UI는 없는 상태이므로 전투는 임시 컨테이너의 활성 상태 검증이다. 1080×2340의 상하 여백, 1920×1080의 좌우 여백, 노치 안전 영역의 9:16 콘텐츠 계산을 검사했다. 이번 ScreenCapture 배치 호출은 PNG를 생성하지 않아 새 화면 캡처의 시각 검증은 수행하지 못했다. git diff --check 통과.
+- 관련 코드 줄 수: SafeAreaLayout.cs 84줄, WindowManager.cs 124줄. 실행 로그: `C:/Users/user/.codex/visualizations/2026/11/19/01a1f286-4ab2-7bd0-9bcb-13feaf931814/navigation-validation.log`.
+
+## FUNC-010 — UI 기본 앵커 프리셋과 수동 배치 유지
+
+- 날짜: 2026-11-19
+- 관련 기획: 일반 UI는 기본 앵커 프리셋과 위치·크기 값으로 편집하고 코드가 사용자 배치를 되돌리지 않도록 한다는 사용자 요청. 이전 기록의 임의 비율 앵커·전체 화면 레이어 확장 방식은 이번 변경으로 대체한다.
+- 관련 파일: Assets/01_Scenes/00_Tilte_Scene.unity, Assets/02_Scripts/UI/SafeAreaLayout.cs, Assets/02_Scripts/UI/Title/TitleScreen.cs, Assets/02_Scripts/UI/Character/Editor/CharacterScreenSetup.cs.
+- 사용한 기능·기술: RectTransform 기본 앵커(0·0.5·1), anchoredPosition·sizeDelta, Image.Type.Filled·fillAmount, 기존 CanvasScaler·안전 영역 계산.
+- 선택 이유: 이미 9:16 콘텐츠 영역이 있으므로 일반 UI 전체를 임의 비율 앵커로 구성할 필요가 없다. 위치·크기를 Inspector에서 조정하기 쉽게 하고 화면 컨테이너의 실행 중 앵커 덮어쓰기를 제거한다.
+- 배치 변환: 현재 저장된 씬의 커스텀 앵커 179개를 기본 프리셋으로 바꿨다. 가로·세로로 넓게 펼친 요소는 Stretch, 나머지는 가까운 고정 앵커를 사용하고 오프셋·크기로 원래 영역을 보존했다. 1080×1920 기준 변환 대상의 부모 내 위치·크기 최대 오차는 약 4.92×10^-8 Canvas 단위였다. 기존 기본 프리셋은 유지했다.
+- 자동 덮어쓰기 제거: SafeAreaLayout의 _fullScreenLayers와 일반 화면·배경 anchorMin/anchorMax 변경 루프를 제거했다. 배경 2개의 AspectRatioFitter도 제거하고 안전 영역에 맞는 기본 전체 Stretch로 설정했다. 배경은 안전 영역을 채우며 바깥은 공통 레터박스가 가린다.
+- 자동 영역: SafeArea는 중앙 고정, 위·아래 띠는 Top/Bottom Stretch, 좌·우 띠는 Left/Right Stretch 프리셋을 씬에 저장했다. SafeAreaLayout은 앵커를 쓰지 않고 위치·크기만 계산한다. _canvasSize 변경도 감지해 CanvasScaler 단위가 바뀌어도 다시 계산한다. 안전 영역과 띠 자체의 위치·크기는 계속 자동 관리 대상이다.
+- 로딩 게이지: TitleScreen.SetProgress는 RectTransform.anchorMax 대신 Image.fillAmount를 변경한다. 씬 Image를 Filled/Horizontal로 설정하고 Unity 내장 UISprite를 연결했다. Sprite가 없는 Image는 fillAmount에 따른 메시가 생성되지 않으므로 기존 내장 리소스를 재사용했다. 새 이미지 파일은 만들지 않았다.
+- 생성 도구: CharacterScreenSetup.SetBounds는 기본 프리셋과 부모 크기에 따른 anchoredPosition·sizeDelta를 기록한다. 제거된 전체 화면 레이어 필드에 접근하는 생성 코드는 삭제했다. 도구는 최초 생성 전용이며 기존 사용자 씬을 자동 재생성하지 않는다.
+- 제어 구분: 일반 화면·배치용 UI의 앵커는 런타임 코드가 수정하지 않는다. WindowManager는 슬라이드 중 화면 위치를 바꾸고 시작 원점으로 복구한다. Unity Slider의 Fill·Handle은 Slider가 값을 표시하기 위해 관리하므로 런타임에 커스텀 앵커가 될 수 있다. 편집 대상은 슬라이더 루트이며 Fill·Handle은 자동 관리 자식이다. Play Mode에서 한 임시 편집은 Unity 기본 동작대로 종료 시 복원되므로 지속 배치는 Edit Mode에서 저장한다.
+- 검증: 전체 C#·Editor 컴파일 성공(경고 0·오류 0). 격리 Unity 6000.3.9f1 Play Mode에서 ANCHOR_PASS checks=439 runtimeErrors=0 editorSearchErrors=1, 반환 코드 0. 일반 UI의 기본 프리셋, 로딩 0·25·50·100% 앵커 보존과 50% 실제 메시 너비, 배경 Fitter 부재, UI 이름·화면 컨테이너를 수동 편집한 뒤 안전 영역 재활성화·CanvasScaler 기준 변경에도 앵커·위치·크기가 유지되는지 확인했다. 편집한 화면 원점의 왕복 전환과 공통 레터박스 프리셋·9:16 영역도 확인했다.
+- 미검증: 원본 에디터에서 사용자 직접 편집·클릭, Android 실기기·폰트·안전 영역, 독립 빌드. 기존 검색 인덱서 예외 1건과 임포트 단계의 에디터/Burst 문제는 게임 코드 오류와 구분했다.
+- 로그: `C:/Users/user/.codex/visualizations/2026/11/19/01a1f286-4ab2-7bd0-9bcb-13feaf931814/anchor-validation.log`, `anchor-conversion-report.json`.
+- 기능명세서: `C:/Users/user/OneDrive/프로젝트/11월 개인 프로젝트/기능명세서/20261119/UI 앵커 프리셋과 배치 유지.md`.
+- 최종 정적 검증: 씬의 모든 직렬화 앵커가 0·0.5·1의 기본 프리셋 값임을 확인했다. ID 중복·내부 참조 이상이 없고 _fullScreenLayers·배경 Fitter 참조가 제거됐으며 git diff --check를 통과했다. 관련 코드 줄 수: SafeAreaLayout.cs 81, TitleScreen.cs 114, CharacterScreenSetup.cs 409.
+
+## FUNC-011 — 공용 재화 표기와 테스트 은자
+
+- 날짜 2026-11-19
+- 모든 재화 UI에 CurrencyFormatter.Format을 사용한다. 0~999는 정수, 1,000부터 a, 1,000,000부터 b, 1,000,000,000부터 c로 표시한다. c 이상은 c 단위를 유지한다. 소수는 둘째 자리 아래를 버린다. 저장 및 차감에는 원래 정수 값을 사용한다.
+- 로비와 캐릭터 화면의 은자·금자 및 성장 확인의 재화 보유량·비용에 적용했다.
+- CharacterProgression.Initialize에서 새 저장과 미지급 기존 저장의 은자를 최소 1c로 맞춘다. HasReceivedTestSilver를 저장해 이후 소모분이 보충되지 않게 한다.
+- 검증은 포맷 7개 사례, 초기 지급, 재초기화, 금자 및 기존 1c 초과 잔액 유지까지 통과했다. Unity Play Mode는 미실행이다.
+
+## FUNC-012 — 성장 팝업 버튼과 재료 표시
+
+- 날짜 2026-11-19
+- CharacterPopUp의 선택 모드는 확인을 왼쪽, 취소를 오른쪽에 표시한다. 일반 메시지 모드는 가운데 확인 버튼만 표시한다.
+- 재료는 이미지와 보유량 / 필요량으로 표시한다. 하나면 가운데, 둘이면 좌우 슬롯을 사용한다. 충분하면 흰색, 부족하면 빨간색이며 은자·금자는 공용 재화 포맷을 사용한다.
+- 은자·금자 이미지는 상단바 아이콘을 재사용한다. 캐릭터 조각과 속성석은 캐릭터 초상과 기존 속성 아이콘으로 임시 표시한다.
+- 관련 파일은 CharacterPopUp.cs, CharacterScreenSetup.cs, 00_Tilte_Scene.unity다. 팝업 버튼과 슬롯은 씬에서 편집할 수 있다.
+- 전체 C# 컴파일 성공. 씬 참조 및 버튼 연결을 정적으로 확인했다. Unity Play Mode는 미실행이다.
+
+## FUNC-013 — 성장 재료 아이콘 연결
+
+- 날짜 2026-11-20
+- 기존 Icon_Sheet_2의 빈 칸 34~45를 사용했다. 34~39는 카게부터 나기까지의 조각, 40~45는 무·화·수·목·토·풍 속성석이다.
+- 원본 시트·좌표 JSON·개별 PNG와 Unity의 시트·분할 메타데이터를 맞췄다. 기존 슬롯의 픽셀과 Unity 참조를 유지했다.
+- CharacterPopUp은 재료 상세 타입으로 스프라이트를 조회한다. 씬과 CharacterScreenSetup에 두 배열을 연결했다.
+- 개별 PNG와 양쪽 시트의 픽셀 일치 및 기존 영역 보존을 검사했다. Unity Play Mode는 미실행이다.

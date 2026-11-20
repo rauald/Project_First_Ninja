@@ -109,7 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -347,6 +347,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 992
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7bf6673b9c8d944bf0b8da9f788361
+      internalID: -721741464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -370,6 +392,7 @@ TextureImporter:
       Etc_Sheet_2_6: -7003313165600723269
       Etc_Sheet_2_7: -9035521600068663867
       Etc_Sheet_2_8: -7472281537351241639
+      Etc_Sheet_2_9: -721741464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

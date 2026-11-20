@@ -11,6 +11,9 @@ public sealed class GameManager : Singleton<GameManager>
     private bool _isReady;
     private bool _isLoading;
 
+    public CharacterProgression Characters { get; private set; }
+    public SaveLoadManager Save => _save;
+
     private void Start()
     {
         if (Instance != this)
@@ -82,6 +85,8 @@ public sealed class GameManager : Singleton<GameManager>
             {
                 DataManager.Instance.LoadTables();
                 _save.LoadData();
+                Characters = new CharacterProgression(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
+                Characters.Initialize();
                 SoundManager.Instance.Initialize(_save);
                 _isReady = true;
             }
