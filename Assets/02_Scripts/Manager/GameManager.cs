@@ -14,6 +14,7 @@ public sealed class GameManager : Singleton<GameManager>
     public CharacterProgression Characters { get; private set; }
     public EquipmentInventory Equipment { get; private set; }
     public ShopService Shop { get; private set; }
+    public TalentService Talents { get; private set; }
     public SaveLoadManager Save => _save;
 
     private void Start()
@@ -90,6 +91,7 @@ public sealed class GameManager : Singleton<GameManager>
                 Characters = new CharacterProgression(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
                 Equipment = new EquipmentInventory(_save.CurData, DataManager.Instance.GetTable("EquipData"), _save.SaveData);
                 Shop = new ShopService(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
+                Talents = new TalentService(DataManager.Instance.GetTable("AbilityData"), _save.CurData, _save.SaveData);
                 Characters.Initialize();
                 SoundManager.Instance.Initialize(_save);
                 _isReady = true;

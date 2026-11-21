@@ -12,4 +12,5 @@ public sealed class SaveLoadData
     public List<EquipmentInstanceData> Equipment = new();
     public List<CharacterProgressData> Characters = new();
     public List<CharacterMaterialData> CharacterMaterials = new();
+    public List<int> LearnedTalentIds = new();
 }

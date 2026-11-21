@@ -486,3 +486,16 @@
 - 검증 결과는 Unity 참조를 사용한 Roslyn 컴파일과 오버레이 계층, 스프라이트 연결, 결과 위치 정적 검사다. Unity 배치 모드가 종료 코드 1로 종료돼 Play Mode에서 애니메이션과 입력을 확인하지 못했다.
 - 특수 장비 S 배지 추가. 기존 Icon_Sheet_1의 SpecialS를 장비 아이콘 왼쪽 아래에 배치했다. 장비 태생 구분에 따라 연출 중 공개 이미지, 1회 결과와 10회 결과에 표시한다. C# 컴파일, 스프라이트와 배지 12개 참조를 확인했다. Play Mode는 미검증이다.
 - 뽑기 확률 팝업을 세로 ScrollRect로 변경했다. 일반 장비 30종과 특수장비 44종을 가운데 정렬한 제목으로 나눴다. 행은 왼쪽 아이콘, 가운데 장비명, 오른쪽 확률 순서이며 팝업을 열면 목록 맨 위부터 표시한다. 기존 장비 아이콘과 추첨 가중치를 사용한다. 페이지 번호와 좌우 버튼을 제거했다. C# 컴파일, 뷰포트와 열 정렬, 양쪽 뽑기의 분류별 행 수와 확률 합계를 검사했다. Unity 배치 모드 종료로 Play Mode 입력과 실제 표시를 확인하지 못했다.
+
+## 특성 화면
+
+- 날짜 2026-11-21
+- 관련 기획은 UI_기조.xlsb의 <특성 화면> 시안, 특성_기조.xlsb의 <특성>과 <특성DB>다. 중앙 1개와 속성별 25개씩 총 151개를 배치했다.
+- `00_Tilte_Scene.unity`의 `Talent_Window`에서 화면을 편집한다. `TalentViewport/TalentTree/Nodes`에서 특성 위치와 스프라이트를 수정할 수 있다. TopBar와 BottomBar는 트리 바깥에 고정했다. 두 바를 각각 230.4 UI 단위로 맞춰 안전 영역 가운데에 1번 노드가 표시되도록 했다.
+- 1번을 기준으로 12시 무속성, 2시 화속성, 4시 수속성, 6시 목속성, 8시 토속성, 10시 풍속성 순으로 뻗는다. 일반 효과 노드는 DB의 선행·후속 관계에 따라 가지 안에 배치했다. AbilityData.csv의 선행 조건 174개를 검은 선으로 표시한다. 수정된 선행 조건에 맞춰 6개 가지마다 25개 노드를 배치했다.
+- 노드와 상세 팝업은 Etc_Sheet_0·1·2의 전용 육각형 스프라이트 19종을 원본 크기인 128×112로 표시한다. 1번은 TalentEmpty를 사용한다. 습득 전에는 RGB 밝기 0.72를 적용한다.
+- `WindowManager.Open → TalentWindow.ResetUI → TalentNodeView.PlaceLink → TalentPanViewport.ResetPosition` 순서로 노드 위치에 맞춰 선을 다시 연결하고 화면을 1번 위치로 돌린다. 이동 한계는 축별 가장 바깥 노드 위치로 계산해 끝 노드의 중심이 뷰포트 중심까지 이동할 수 있게 했다.
+- 노드를 누르면 특성 효과, 선행 특성마다의 습득 여부, 비용 및 습득 상태를 표시한다. `TalentService.TryLearn`은 모든 선행 조건과 잔액을 확인하고 기존 재화에서 비용을 차감한 뒤 `LearnedTalentIds`에 기록한다. 저장이 실패하면 재화와 습득 상태를 복구한다.
+- 관련 파일은 `Assets/01_Scenes/00_Tilte_Scene.unity` 19655행, `Assets/02_Scripts/UI/Talent/TalentWindow.cs` 41행, `TalentNodeView.cs` 21행, `TalentPanViewport.cs` 16행, `Assets/02_Scripts/Data/TalentService.cs` 78행, `SaveLoadData.cs` 15행, `Assets/02_Scripts/Manager/GameManager.cs` 94행, `Assets/10_Data/AbilityData.csv`다.
+- Unity 참조를 사용한 Roslyn 컴파일과 씬의 ID·스프라이트·버튼·선행 연결 검사를 통과했다. 독립 서비스 테스트에서 은자·금자 차감, 복수 선행 조건, 중복 습득 차단, 저장 실패 복구와 저장 모델의 습득 상태 재사용을 확인했다.
+- Unity 배치 모드가 두 차례 모두 프로젝트 초기화 중 종료됐다. Play Mode 화면, 실제 마우스와 터치 드래그, 로컬 저장 파일 재실행, Android 실기기는 미검증이다. 전투 능력치 적용은 특성 화면 작업 범위 밖이다.
