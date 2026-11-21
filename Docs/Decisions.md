@@ -460,3 +460,29 @@
 - 관련 파일은 00_Tilte_Scene.unity, EquipmentWindow.cs, EquipmentPopUp.cs, EquipmentInventory.cs, EquipmentInstanceData.cs, SaveLoadData.cs, GameManager.cs, EnumList.cs다.
 - Unity 참조를 사용한 Roslyn C# 컴파일 및 씬 참조 정적 검사에 통과했다. 장비 74종의 CSV 참조 열, 8개 부위 슬롯, 팝업과 메뉴 이벤트, 계층의 참조와 앵커를 확인했다.
 - Unity 6000.3.9f1 배치 모드는 프로젝트 경로 설정 직후 반환 코드 1로 종료했다. 별도 모델 실행 파일은 Windows 애플리케이션 제어 정책에서 차단됐다. Play Mode 입력·표시, 실제 저장·재실행과 Android 실기기는 미검증이다.
+
+
+## FUNC-015 — 상점 화면
+
+- 날짜 2026-11-21
+- 관련 기획은 UI_기조.xlsb의 <상점 화면>과 <기능 팝업>, 장비_기조.xlsb의 뽑기 확률 및 N등급 지급 규칙이다.
+- 상점 UI는 00_Tilte_Scene.unity의 Canvas/SafeArea/WindowManager/Shop_Window에 배치했다. ShopContent 아래 PremiumDraw, NormalDraw, GoldExchange의 RectTransform을 Inspector에서 수정할 수 있다. TopBar와 BottomBar는 기존 재화, 설정, 메뉴 구조를 사용한다. 패널과 버튼은 임시 배치다.
+- WindowManager.Open(WindowType.Shop) → ShopWindow.ResetUI → RefreshShop 순서로 가격과 잔액을 갱신한다. Shop_Modal은 확률 목록, 거래 확인, 뽑기 결과 및 오류를 표시한다.
+- ShopService.GetDrawCost와 GetExchangeCost는 DefaultData.csv의 구분으로 가격을 조회한다. 일반 1·10회는 은자 1,000·9,000, 고급 1·10회는 금자 10·90이다. 금자 1·10·100개 교환은 은자 1,000·9,500·90,000이다. 금자와 다이아는 같은 재화이며 기존 금자 저장 항목을 사용한다.
+- ShopService.TryDraw는 EquipNomalGacha 또는 EquipSpecialGacha의 가중치로 뽑고, EquipmentInstanceData에 장비를 1레벨 N등급으로 지급한다. GetOdds는 같은 가중치를 사용한다. TryExchange는 은자를 차감하고 금자를 지급한다. 거래당 한 번 저장하며, 실패하면 잔액과 지급 목록을 복구한다.
+- 관련 파일은 Assets/01_Scenes/00_Tilte_Scene.unity, Assets/02_Scripts/UI/Shop/ShopWindow.cs, Assets/02_Scripts/Data/ShopService.cs, Assets/02_Scripts/Manager/GameManager.cs, Assets/10_Data/DefaultData.csv와 해당 Unity 메타 파일이다.
+- 검증 결과는 Unity 참조를 사용한 Roslyn C# 컴파일, 씬의 계층·컴포넌트와 CSV 연결 검사, DefaultData의 가격 7종 일치 확인이다. 각 뽑기 풀의 장비 74종과 가중치를 확인했다. 특수 장비 확률은 일반 2.2%, 고급 8.8%다.
+- Unity 배치 모드가 프로젝트 경로 설정 직후 종료 코드 1로 종료됐다. 독립 거래 테스트 실행은 Windows 애플리케이션 제어 정책에 차단됐다. Play Mode 화면·클릭, 저장 후 재실행, 실기기는 미검증이다.
+
+
+### 뽑기 연출 추가
+
+- 날짜 2026-11-21
+- ShopWindow.DrawEquipment → ShopService.TryDraw → ShopDrawPresentation.Play 순서로 실행한다. 뽑기 거래 저장을 완료한 뒤 획득 장비 ID 순서대로 검은 전체 화면에서 연출한다. 실패 시 기존 상점 오류 팝업 또는 결과 화면 하단에 메시지를 표시한다. 교환은 기존 확인 팝업을 사용한다.
+- 장비 하나마다 0.3초 낙하, 0.3초 펼침, 0.4초 연기 소멸과 장비 공개를 진행한다. 장비 DB의 태생 구분으로 회색과 금색 두루마리를 고른다. 연출 화면을 클릭하거나 터치하면 남은 연출을 생략하고 전체 획득 결과를 표시한다.
+- 1회 결과는 가운데, 10회 결과는 4·4·2로 배치한다. 돌아가기는 오버레이를 닫고, 다시 뽑기는 마지막 종류와 횟수로 새 거래를 시작한다. 연출 중에는 추가 뽑기 입력을 받지 않는다.
+- 씬의 Canvas/Shop_Draw_Overlay에서 애니메이션과 결과 카드 배치를 편집할 수 있다. 프로젝트에 가져온 Etc_Sheet_2·3의 연출 스프라이트 5개와 기존 Icon_Sheet_0·1의 장비 아이콘 74개를 연결했다.
+- 관련 파일은 Assets/02_Scripts/Data/ShopService.cs, Assets/02_Scripts/UI/Shop/ShopWindow.cs, Assets/02_Scripts/UI/Shop/ShopDrawPresentation.cs, Assets/01_Scenes/00_Tilte_Scene.unity다.
+- 검증 결과는 Unity 참조를 사용한 Roslyn 컴파일과 오버레이 계층, 스프라이트 연결, 결과 위치 정적 검사다. Unity 배치 모드가 종료 코드 1로 종료돼 Play Mode에서 애니메이션과 입력을 확인하지 못했다.
+- 특수 장비 S 배지 추가. 기존 Icon_Sheet_1의 SpecialS를 장비 아이콘 왼쪽 아래에 배치했다. 장비 태생 구분에 따라 연출 중 공개 이미지, 1회 결과와 10회 결과에 표시한다. C# 컴파일, 스프라이트와 배지 12개 참조를 확인했다. Play Mode는 미검증이다.
+- 뽑기 확률 팝업을 세로 ScrollRect로 변경했다. 일반 장비 30종과 특수장비 44종을 가운데 정렬한 제목으로 나눴다. 행은 왼쪽 아이콘, 가운데 장비명, 오른쪽 확률 순서이며 팝업을 열면 목록 맨 위부터 표시한다. 기존 장비 아이콘과 추첨 가중치를 사용한다. 페이지 번호와 좌우 버튼을 제거했다. C# 컴파일, 뷰포트와 열 정렬, 양쪽 뽑기의 분류별 행 수와 확률 합계를 검사했다. Unity 배치 모드 종료로 Play Mode 입력과 실제 표시를 확인하지 못했다.
