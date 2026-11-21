@@ -63,5 +63,6 @@ public enum PopUpType
     Toast,
     Character,
     Equipment,
+    StageEntry,
     Max
 }
