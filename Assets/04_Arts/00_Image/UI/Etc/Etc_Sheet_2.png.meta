@@ -238,7 +238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_4
+      name: Etc_Sheet_2_5
       rect:
         serializedVersion: 2
         x: 132
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_5
+      name: Etc_Sheet_2_6
       rect:
         serializedVersion: 2
         x: 178
@@ -282,7 +282,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_6
+      name: Etc_Sheet_2_7
       rect:
         serializedVersion: 2
         x: 222
@@ -304,7 +304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_7
+      name: Etc_Sheet_2_8
       rect:
         serializedVersion: 2
         x: 267
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_8
+      name: Etc_Sheet_2_4
       rect:
         serializedVersion: 2
         x: 66
@@ -373,34 +373,12 @@ TextureImporter:
       name: Etc_Sheet_2_10
       rect:
         serializedVersion: 2
-        x: 641
-        y: 992
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12082c3824eedda4eb52180ea2c5fee6
-      internalID: -1642205357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Etc_Sheet_2_11
-      rect:
-        serializedVersion: 2
         x: 674
         y: 912
         width: 128
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,7 +392,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_12
+      name: Etc_Sheet_2_11
       rect:
         serializedVersion: 2
         x: 803
@@ -422,7 +400,7 @@ TextureImporter:
         width: 128
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_13
+      name: Etc_Sheet_2_12
       rect:
         serializedVersion: 2
         x: 641
@@ -444,7 +422,7 @@ TextureImporter:
         width: 128
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,7 +436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_14
+      name: Etc_Sheet_2_13
       rect:
         serializedVersion: 2
         x: 770
@@ -466,7 +444,7 @@ TextureImporter:
         width: 128
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,7 +458,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Etc_Sheet_2_15
+      name: Etc_Sheet_2_14
       rect:
         serializedVersion: 2
         x: 641
@@ -488,7 +466,7 @@ TextureImporter:
         width: 128
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -497,6 +475,72 @@ TextureImporter:
       bones: []
       spriteID: 208222dc7482a324f8d0d808048537a2
       internalID: -557878146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 458
+        width: 201
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573480b59b273ed44aaa434337330516
+      internalID: -1993427857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 404
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8403972ffa8fad542b19e87024efe783
+      internalID: -2073790349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 115
+        width: 229
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b288d4ef409074483c9de21bfe7da6
+      internalID: 1244152533
       vertices: []
       indices: 
       edges: []
@@ -517,19 +561,21 @@ TextureImporter:
     nameFileIdTable:
       Etc_Sheet_2_0: -6901302400151794442
       Etc_Sheet_2_1: 4486999554668159238
-      Etc_Sheet_2_10: -1642205357
-      Etc_Sheet_2_11: 735171240
-      Etc_Sheet_2_12: 1394853626
-      Etc_Sheet_2_13: 1077434808
-      Etc_Sheet_2_14: -469754525
-      Etc_Sheet_2_15: -557878146
+      Etc_Sheet_2_10: 735171240
+      Etc_Sheet_2_11: 1394853626
+      Etc_Sheet_2_12: 1077434808
+      Etc_Sheet_2_13: -469754525
+      Etc_Sheet_2_14: -557878146
+      Etc_Sheet_2_15: -1993427857
+      Etc_Sheet_2_16: -2073790349
+      Etc_Sheet_2_17: 1244152533
       Etc_Sheet_2_2: 8891709311694764422
       Etc_Sheet_2_3: 9027834958913227320
-      Etc_Sheet_2_4: -7118059100937998067
-      Etc_Sheet_2_5: -8845855149921674796
-      Etc_Sheet_2_6: -7003313165600723269
-      Etc_Sheet_2_7: -9035521600068663867
-      Etc_Sheet_2_8: -7472281537351241639
+      Etc_Sheet_2_4: -7472281537351241639
+      Etc_Sheet_2_5: -7118059100937998067
+      Etc_Sheet_2_6: -8845855149921674796
+      Etc_Sheet_2_7: -7003313165600723269
+      Etc_Sheet_2_8: -9035521600068663867
       Etc_Sheet_2_9: -721741464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
