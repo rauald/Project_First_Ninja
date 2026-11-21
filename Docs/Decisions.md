@@ -499,3 +499,14 @@
 - 관련 파일은 `Assets/01_Scenes/00_Tilte_Scene.unity` 19655행, `Assets/02_Scripts/UI/Talent/TalentWindow.cs` 41행, `TalentNodeView.cs` 21행, `TalentPanViewport.cs` 16행, `Assets/02_Scripts/Data/TalentService.cs` 78행, `SaveLoadData.cs` 15행, `Assets/02_Scripts/Manager/GameManager.cs` 94행, `Assets/10_Data/AbilityData.csv`다.
 - Unity 참조를 사용한 Roslyn 컴파일과 씬의 ID·스프라이트·버튼·선행 연결 검사를 통과했다. 독립 서비스 테스트에서 은자·금자 차감, 복수 선행 조건, 중복 습득 차단, 저장 실패 복구와 저장 모델의 습득 상태 재사용을 확인했다.
 - Unity 배치 모드가 두 차례 모두 프로젝트 초기화 중 종료됐다. Play Mode 화면, 실제 마우스와 터치 드래그, 로컬 저장 파일 재실행, Android 실기기는 미검증이다. 전투 능력치 적용은 특성 화면 작업 범위 밖이다.
+
+## 스테이지 선택 화면
+
+- 날짜 2026-11-21
+- 관련 기획은 UI_기조.xlsb의 <스테이지 선택 화면> 배치도와 동작 규칙이다. 최초 클리어에는 최초 클리어 보상과 반복 보상을 함께 지급한다.
+- `00_Tilte_Scene.unity`의 `Canvas/SafeArea/WindowManager/StageSelect_Window`를 편집한다. `StageViewport/StageList`의 VerticalLayoutGroup으로 카드 간격을 조정하고, `StageViewport/StageCardTemplate`에서 카드 크기와 번호·맵·이름·클리어·잠금 위치를 조정한다. `StageSelectWindow`의 Map Previews는 들판·화산·빙산·사막 순서다. 공용 재화·설정 바, 하단 메뉴, 포털 배경과 카드 스프라이트를 재사용했다. 입장 팝업 배치는 `SafeArea/PopUpManager/StageEntry_PopUp`에 있다.
+- `StageSelectWindow.ResetUI → StageCardView.Bind → StageEntryPopUp.Show` 순서로 `StageData.csv`의 100개 스테이지를 표시하고 입장 여부를 묻는다. 첫 스테이지는 초기 해금되며, 이전 스테이지를 클리어하면 다음 스테이지가 열린다. 클리어한 스테이지는 다시 선택할 수 있다. YES는 `GameManager.TryEnterStage`로 선택 ID를 전달해 전투 씬을 불러온다. NO는 팝업을 닫고 목록의 위치를 유지한다.
+- 전투는 `GameManager.ActiveStageId`에서 선택한 스테이지 ID를 읽고, 승리 시 `TryCompleteStage`를 호출한다. `StageProgression.TryRecordClear`는 반복 보상과 최초 클리어 여부에 따른 추가 보상을 합산하고, 재화와 `SaveLoadData.ClearedStageIds`를 한 번에 저장한다. 저장 실패 시 재화와 클리어 기록을 원복한다. 같은 입장 건의 보상은 한 번만 처리한다. 1번 스테이지의 최초 클리어 보상 합계는 은자 1,000과 금자 100이며, 두 번째부터는 은자 1,000이다.
+- 관련 파일은 `Assets/01_Scenes/00_Tilte_Scene.unity` 74421행, `Assets/02_Scripts/UI/StageSelect/StageSelectWindow.cs` 84행, `StageCardView.cs` 31행, `StageEntryPopUp.cs` 25행, `Assets/02_Scripts/Data/StageProgression.cs` 125행, `SaveLoadData.cs` 17행, `Assets/02_Scripts/Manager/GameManager.cs` 188행, `Assets/02_Scripts/Core/EnumList.cs` 68행이다.
+- Roslyn으로 Unity 참조를 포함한 프로젝트 런타임 C# 컴파일에 성공했다. 씬의 신규 오브젝트·컴포넌트 172개와 참조, 팝업 등록, 버튼 9개, 맵 스프라이트 4종, StageData 100행을 정적으로 검사했다. Unity 배치 모드는 프로젝트 초기화 중 종료 코드 1로 종료됐다. 독립 서비스 테스트의 실행은 Windows 애플리케이션 제어 정책으로 차단됐다. Unity Play Mode의 입력·씬 전환과 저장 재실행 동작은 미검증이다. 현 전투 씬에는 카메라만 있으며 승리 판정에서 보상 호출을 연결하는 작업은 전투 구현 시 진행한다.
+- 스테이지 선택 화면을 열 때마다 입장 가능한 가장 높은 카드에 맞춰 스크롤한다. 중앙 위치를 기준으로 계산하고 목록 양 끝에서는 맨 위 또는 맨 아래로 제한한다. 여백은 기존 값 그대로 사용한다. C# 컴파일과 1·2·50·100번 카드 위치 계산을 확인했다. Play Mode는 미검증이다.

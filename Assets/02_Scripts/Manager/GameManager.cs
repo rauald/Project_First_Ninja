@@ -10,11 +10,14 @@ public sealed class GameManager : Singleton<GameManager>
     private readonly SaveLoadManager _save = new();
     private bool _isReady;
     private bool _isLoading;
+    private bool _hasSettledStage;
 
     public CharacterProgression Characters { get; private set; }
     public EquipmentInventory Equipment { get; private set; }
     public ShopService Shop { get; private set; }
     public TalentService Talents { get; private set; }
+    public StageProgression Stages { get; private set; }
+    public int ActiveStageId { get; private set; }
     public SaveLoadManager Save => _save;
 
     private void Start()
@@ -50,12 +53,41 @@ public sealed class GameManager : Singleton<GameManager>
                 UIManager.Instance.Window.Open(WindowType.Title);
                 break;
             case SceneType.Lobby:
+                ActiveStageId = 0;
                 UIManager.Instance.Window.Open(WindowType.Lobby);
                 break;
             case SceneType.Game:
                 UIManager.Instance.Window.Open(WindowType.Battle);
                 break;
         }
+    }
+
+    public bool TryEnterStage(int stageId)
+    {
+        if (_isLoading || SceneManager.GetActiveScene().buildIndex != (int)SceneType.Lobby
+            || Stages == null || !Stages.CanEnter(stageId))
+        {
+            return false;
+        }
+
+        ActiveStageId = stageId;
+        _hasSettledStage = false;
+        StartAsyncLoad(SceneType.Game);
+        return true;
+    }
+
+    public bool TryCompleteStage(out long silver, out long gold)
+    {
+        silver = gold = 0;
+        if (_hasSettledStage || ActiveStageId == 0
+            || SceneManager.GetActiveScene().buildIndex != (int)SceneType.Game
+            || !Stages.TryRecordClear(ActiveStageId, out silver, out gold))
+        {
+            return false;
+        }
+
+        _hasSettledStage = true;
+        return true;
     }
 
     public void StartAsyncLoad(SceneType sceneType)
@@ -92,6 +124,7 @@ public sealed class GameManager : Singleton<GameManager>
                 Equipment = new EquipmentInventory(_save.CurData, DataManager.Instance.GetTable("EquipData"), _save.SaveData);
                 Shop = new ShopService(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
                 Talents = new TalentService(DataManager.Instance.GetTable("AbilityData"), _save.CurData, _save.SaveData);
+                Stages = new StageProgression(DataManager.Instance.GetTable("StageData"), _save.CurData, _save.SaveData);
                 Characters.Initialize();
                 SoundManager.Instance.Initialize(_save);
                 _isReady = true;
