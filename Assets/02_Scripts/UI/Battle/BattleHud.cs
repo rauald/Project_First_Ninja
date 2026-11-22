@@ -43,6 +43,8 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private Text _refreshChoicesLabel;
     [SerializeField] private Sprite[] _activeIcons;
     [SerializeField] private Sprite[] _passiveIcons;
+    [SerializeField] private Sprite _namedWarningSprite;
+    [SerializeField] private Sprite _bossWarningSprite;
     [SerializeField] private Text[] _activeSlots;
     [SerializeField] private Text[] _passiveSlots;
     [SerializeField] private Text _resultTitle;
@@ -57,6 +59,10 @@ public sealed class BattleHud : MonoBehaviour
     private readonly List<DamageLabel> _damageLabels = new();
     private GameObject _modal;
     private Coroutine _unfoldChoices;
+    private Coroutine _spawnWarning;
+    private Image _warningImage;
+    private RawImage _warningBorder;
+    private Texture2D _warningBorderTexture;
 
     private sealed class DamageLabel
     {
@@ -66,6 +72,93 @@ public sealed class BattleHud : MonoBehaviour
     }
 
     public bool HasModal => _modal != null;
+
+    public void ShowSpawnWarning(bool boss)
+    {
+        Sprite sprite = boss ? _bossWarningSprite : _namedWarningSprite;
+        if (sprite == null)
+        {
+            return;
+        }
+        if (_warningImage == null)
+        {
+            CreateSpawnWarning();
+        }
+        if (_spawnWarning != null)
+        {
+            StopCoroutine(_spawnWarning);
+        }
+
+        _warningImage.sprite = sprite;
+        _spawnWarning = StartCoroutine(FlashSpawnWarning());
+    }
+
+    private void CreateSpawnWarning()
+    {
+        Canvas canvas = _level.GetComponentInParent<Canvas>().rootCanvas;
+        var border = new GameObject("Monster warning border", typeof(RectTransform), typeof(RawImage));
+        border.transform.SetParent(canvas.transform, false);
+        _warningBorder = border.GetComponent<RawImage>();
+        _warningBorder.raycastTarget = false;
+        _warningBorder.rectTransform.anchorMax = Vector2.one;
+        _warningBorder.rectTransform.anchorMin = Vector2.zero;
+        _warningBorder.rectTransform.offsetMin = Vector2.zero;
+        _warningBorder.rectTransform.offsetMax = Vector2.zero;
+
+        const int size = 96;
+        _warningBorderTexture = new Texture2D(size, size, TextureFormat.RGBA32, false);
+        _warningBorderTexture.wrapMode = TextureWrapMode.Clamp;
+        var pixels = new Color32[size * size];
+        for (int y = 0; y < size; y++)
+        {
+            for (int x = 0; x < size; x++)
+            {
+                float edge = Mathf.Min(Mathf.Min(x, size - 1 - x), Mathf.Min(y, size - 1 - y));
+                float alpha = 1f - Mathf.SmoothStep(0f, 1f, edge / 9f);
+                pixels[y * size + x] = new Color32(255, 20, 34, (byte)Mathf.RoundToInt(255f * alpha));
+            }
+        }
+        _warningBorderTexture.SetPixels32(pixels);
+        _warningBorderTexture.Apply(false, true);
+        _warningBorder.texture = _warningBorderTexture;
+
+        var message = new GameObject("Monster warning image", typeof(RectTransform), typeof(Image));
+        message.transform.SetParent(border.transform, false);
+        _warningImage = message.GetComponent<Image>();
+        _warningImage.raycastTarget = false;
+        _warningImage.preserveAspect = true;
+        _warningImage.rectTransform.anchorMin = new Vector2(.10f, .40f);
+        _warningImage.rectTransform.anchorMax = new Vector2(.90f, .60f);
+        _warningImage.rectTransform.offsetMin = Vector2.zero;
+        _warningImage.rectTransform.offsetMax = Vector2.zero;
+    }
+
+    private IEnumerator FlashSpawnWarning()
+    {
+        const float duration = 2f;
+        const int flashes = 5;
+        _warningBorder.transform.SetAsLastSibling();
+        _warningBorder.gameObject.SetActive(true);
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            float pulse = .5f + .5f * Mathf.Cos(elapsed / duration * flashes * Mathf.PI * 2f);
+            _warningBorder.color = new Color(1f, 1f, 1f, pulse * .83f);
+            _warningImage.color = new Color(1f, 1f, 1f, Mathf.Lerp(.2f, 1f, pulse));
+            yield return null;
+            elapsed += Time.unscaledDeltaTime;
+        }
+        _warningBorder.gameObject.SetActive(false);
+        _spawnWarning = null;
+    }
+
+    private void OnDestroy()
+    {
+        if (_warningBorderTexture != null)
+        {
+            Destroy(_warningBorderTexture);
+        }
+    }
 
     public void Refresh(int level, float experience, float health, long silver, long gold, bool hasAwakening,
         bool hasUsedAwakening)

@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -56,9 +56,9 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -304,6 +304,160 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 427
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772a29fc8e0994d48a86efc7c3e3b113
+      internalID: -1262700065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 77
+        width: 431
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba076615d86e0cb4295a5c5b38596728
+      internalID: -2053577205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a04ce613bf4d4c9b5a6e491ade3ab
+      internalID: 1540572620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 15
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6ecd0d0381ba84185ee8fc1742b3d0
+      internalID: 921114231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 15
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e991a81a4861794490c3f1904fa3157
+      internalID: -1162001930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 15
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d80cc28a751894d95695296ae59abb
+      internalID: -25496165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 15
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264c8bdcc88526442a918d0a8fe26cbd
+      internalID: -1779311532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -322,12 +476,19 @@ TextureImporter:
     nameFileIdTable:
       Etc_Sheet_3_0: 5255986704186310747
       Etc_Sheet_3_1: -7121400597583979912
+      Etc_Sheet_3_10: 1540572620
+      Etc_Sheet_3_11: 921114231
+      Etc_Sheet_3_12: -1162001930
+      Etc_Sheet_3_13: -25496165
+      Etc_Sheet_3_14: -1779311532
       Etc_Sheet_3_2: 288343191
       Etc_Sheet_3_3: -774784319
       Etc_Sheet_3_4: -863679249
       Etc_Sheet_3_5: -1716349211
       Etc_Sheet_3_6: 444440365
       Etc_Sheet_3_7: 1409860049
+      Etc_Sheet_3_8: -1262700065
+      Etc_Sheet_3_9: -2053577205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

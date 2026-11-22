@@ -180,7 +180,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -293,9 +293,7 @@ MonoBehaviour:
   _input: {fileID: 800000003}
   _hud: {fileID: 800000002}
   _camera: {fileID: 453174116}
-  _waveInterval: 20
-  _waveCount: 12
-  _enemiesPerWave: 5
+  _waveInterval: 60
   _player: {fileID: 800000013}
   _playerAnimator: {fileID: 800000014}
   _actors: {fileID: 800000009}
@@ -355,6 +353,45 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 6fabfc8127784e35a351e25142506e29, type: 2}
   - {fileID: 9100000, guid: 4554b82ee4f743e19447f25ce25c5171, type: 2}
   - {fileID: 9100000, guid: bbb703e854bf4c55b905b1dff3570807, type: 2}
+  _elementalSprites:
+  - {fileID: 2800000, guid: 9070166b590b42b5b7714539773ec33f, type: 3}
+  - {fileID: 2800000, guid: 9327b9c2c3b94de1b931d301c0189dc1, type: 3}
+  - {fileID: 2800000, guid: 9e9b8cc3f613420d8e3d592007af827b, type: 3}
+  - {fileID: 2800000, guid: 7329a6784d644237980206ec5883fbc8, type: 3}
+  - {fileID: 2800000, guid: 98282e9920eb486fbca1293b94cdc70e, type: 3}
+  - {fileID: 2800000, guid: a1d45097a72f4988a95172dfbdc446ab, type: 3}
+  - {fileID: 2800000, guid: 4c8a26b6ef1a41f2b3eabf3dd8c50e74, type: 3}
+  - {fileID: 2800000, guid: 930537f652cd46b8a9f9f9c6f460e6c7, type: 3}
+  - {fileID: 2800000, guid: 5e0f764026084262a9c617e17b46735a, type: 3}
+  - {fileID: 2800000, guid: a7e66461d2bf432095c85831f108423c, type: 3}
+  - {fileID: 2800000, guid: 7db51db6e514456b9197bba538bf5366, type: 3}
+  - {fileID: 2800000, guid: 85da721ed03540be848239b1542856ca, type: 3}
+  - {fileID: 2800000, guid: 022d2529f9e74108b2344cb9f29f6e07, type: 3}
+  _elementalRanges:
+  - Name: 검기
+    Radius: 1.25
+  - Name: 블랙홀
+    Radius: 1.25
+  - Name: 불 구슬
+    Radius: 1.25
+  - Name: 회전 불 표창
+    Radius: 1.25
+  - Name: 물 웅덩이
+    Radius: 1.25
+  - Name: 물기둥 스프라이트 시트
+    Radius: 1.25
+  - Name: 폭발 열매
+    Radius: 1.25
+  - Name: 독안개 해골
+    Radius: 1.25
+  - Name: 운석 낙하
+    Radius: 1.25
+  - Name: 돌기둥
+    Radius: 1.25
+  - Name: 톱니 칼날
+    Radius: 1.25
+  - Name: 돌풍
+    Radius: 1.25
   _attackIcons:
   - {fileID: 216515728045778827, guid: fcc934ce2095466478a801fe12ddf583, type: 3}
   - {fileID: 5933969540857335508, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
@@ -381,7 +418,12 @@ MonoBehaviour:
   - {fileID: -2254234606611112900, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 5418993267321018604, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   _chestSprite: {fileID: -5199706600373070536, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
-  _experienceSprite: {fileID: -2695979567824529472, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
+  _experienceSprites:
+  - {fileID: 1540572620, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
+  - {fileID: 921114231, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
+  - {fileID: -1162001930, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
+  - {fileID: -25496165, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
+  - {fileID: -1779311532, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
   _silverSprite: {fileID: -1706640960586323762, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   _useTestChoices: 0
   _testChoice1:
@@ -4705,18 +4747,20 @@ MonoBehaviour:
   - {fileID: -7820018311293291037, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: -48258820094527627, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 8723866944502067902, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
+  _namedWarningSprite: {fileID: -1262700065, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
+  _bossWarningSprite: {fileID: -2053577205, guid: 580936220cbc0d04482ef1fc9b245875, type: 3}
   _passiveIcons:
   - {fileID: 7063925494768294997, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 882482564801864927, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 3212768573439505890, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
-  - {fileID: -566964471613219104, guid: c82674211f07a934e835c69752f6b180, type: 3}
+  - {fileID: 5933969540857335508, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: -6569175997161492681, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: -7343600603858149201, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 1705315820845167851, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: 1705315820845167851, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   - {fileID: -468014071189102506, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
-  - {fileID: 1077434808, guid: caba118b7d6ae5f4aafb3c96249c11f3, type: 3}
-  - {fileID: -469754525, guid: caba118b7d6ae5f4aafb3c96249c11f3, type: 3}
+  - {fileID: 1896016330513818074, guid: 973ede6a419633344a2e4bb6289e1f4a, type: 3}
+  - {fileID: -2695979567824529472, guid: df715e38db7d39444a94e783aa012a0b, type: 3}
   _activeSlots:
   - {fileID: 800000314}
   - {fileID: 800000322}

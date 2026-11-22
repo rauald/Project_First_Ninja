@@ -218,10 +218,10 @@ public sealed class BattleSkills
         return value;
     }
 
-    public (float Damage, float Radius, int Count, float Duration, float Cooldown) GetAttack(int id)
+    public (float Damage, float Radius, int Count, float Duration, float Cooldown) GetAttack(int id, float? baseRadius = null)
     {
         int damage = _activeTable.GetInt(id, 3);
-        int range = _activeTable.GetInt(id, 4);
+        float range = baseRadius ?? _activeTable.GetInt(id, 4) * .0025f;
         int count = _activeTable.GetInt(id, 5);
         int duration = _activeTable.GetInt(id, 6);
         int cooldown = _activeTable.GetInt(id, 7);
@@ -232,14 +232,19 @@ public sealed class BattleSkills
                 switch (type)
                 {
                     case 1: damage += value; break;
-                    case 2: range += value; break;
+                    case 2: range += value * .0025f; break;
                     case 3: count += value; break;
                     case 4: duration += value; break;
                     case 5: cooldown = Mathf.RoundToInt(cooldown * (1f - value / 1000f)); break;
                 }
             }
         }
-        return (damage / 1000f, range * .0025f, count + GetPassiveBonus(9),
+        // 쿠나이, 물화살, 응축된 바람, 검기, 불 구슬, 폭발 열매에만 투사체 보너스를 적용한다.
+        if (id is 2 or 3 or 6 or 7 or 9 or 13)
+        {
+            count += GetPassiveBonus(9);
+        }
+        return (damage / 1000f, range, count,
             duration / 10f * (1f + GetPassiveBonus(8) / 1000f),
             Mathf.Max(.25f, cooldown / 10f * (1f - GetPassiveBonus(7) / 1000f)));
     }

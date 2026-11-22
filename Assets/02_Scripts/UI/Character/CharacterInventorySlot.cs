@@ -15,9 +15,9 @@ public sealed class CharacterInventorySlot : MonoBehaviour
         int id = presentation.CharacterId;
         CharacterProgressData state = characters.GetCharacter(id);
         _portrait.sprite = presentation.Portrait;
-        _portrait.color = state.IsUnlocked ? Color.white : new Color(0.45f, 0.45f, 0.45f, 1f);
-        _label.text = characters.Characters.GetString(id, 0) + (state.IsUnlocked ? $"\nLv. {state.Level}" : "\n미해금");
-        _lock.SetActive(!state.IsUnlocked);
+        _portrait.color = state.IsAvailable ? Color.white : new Color(0.45f, 0.45f, 0.45f, 1f);
+        _label.text = characters.Characters.GetString(id, 0) + (state.IsAvailable ? $"\nLv. {state.Level}" : "\n미해금");
+        _lock.SetActive(!state.IsAvailable);
         _equipped.SetActive(characters.Data.EquippedCharacterId == id);
         _button.onClick.RemoveAllListeners();
         _button.onClick.AddListener(() => window.OpenCharacter(id));

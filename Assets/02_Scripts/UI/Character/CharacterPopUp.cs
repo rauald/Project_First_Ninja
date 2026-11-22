@@ -48,7 +48,7 @@ public sealed class CharacterPopUp : MonoBehaviour
         CharacterProgression characters = GameManager.Instance.Characters;
         _detail.RefreshCharacter(_window.GetPresentation(_characterId), slot => ShowSkill(_characterId, slot, true));
         CharacterProgressData state = characters.GetCharacter(_characterId);
-        _equip.interactable = state.IsUnlocked && characters.Data.EquippedCharacterId != _characterId;
+        _equip.interactable = state.IsAvailable && characters.Data.EquippedCharacterId != _characterId;
         _equip.GetComponentInChildren<Text>().text = characters.Data.EquippedCharacterId == _characterId ? "장착 중" : "장착";
         for (int i = 0; i < _growthButtons.Length; i++)
         {
