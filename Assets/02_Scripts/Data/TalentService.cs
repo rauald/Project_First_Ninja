@@ -4,6 +4,14 @@ using System.Linq;
 
 public sealed class TalentService
 {
+    private static readonly string[] _effects =
+    {
+        "", "스킬 새로고침", "무속성 스킬 피해 증가", "화속성 스킬 피해 증가", "수속성 스킬 피해 증가",
+        "목속성 스킬 피해 증가", "토속성 스킬 피해 증가", "풍속성 스킬 피해 증가",
+        "공격력 증가", "방어력 증가", "치명타 확률 증가", "치명타 피해 증가", "이동속도 증가",
+        "회피율 증가", "전투 은화 획득량 증가", "전투 금화 획득량 증가", "전투 경험치 획득량 증가",
+        "체력 증가", "전투 아이템 획득 범위 증가", "스킬 범위 증가"
+    };
     public sealed class Talent
     {
         public int Id { get; }
@@ -18,7 +26,8 @@ public sealed class TalentService
         {
             Id = id;
             Name = table.GetString(id, 1);
-            Effect = table.GetLabel(id).TrimEnd('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+            int type = table.GetInt(id, 2);
+            Effect = type > 0 && type < _effects.Length ? _effects[type] : Name;
             Value = table.GetInt(id, 3);
             Prerequisites = Enumerable.Range(4, 3).Select(field => table.GetInt(id, field))
                 .Where(prerequisite => prerequisite != 0).Distinct().ToArray();

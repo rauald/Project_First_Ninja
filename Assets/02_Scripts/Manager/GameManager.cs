@@ -57,6 +57,7 @@ public sealed class GameManager : Singleton<GameManager>
                 UIManager.Instance.Window.Open(WindowType.Lobby);
                 break;
             case SceneType.Game:
+                UIManager.Instance.PopUp.Close();
                 UIManager.Instance.Window.Open(WindowType.Battle);
                 break;
         }
@@ -78,15 +79,33 @@ public sealed class GameManager : Singleton<GameManager>
 
     public bool TryCompleteStage(out long silver, out long gold)
     {
+        return TrySettleBattle(true, 0, 0, out silver, out gold);
+    }
+
+    public bool TrySettleBattle(bool isVictory, long collectedSilver, long collectedGold, out long silver, out long gold)
+    {
         silver = gold = 0;
         if (_hasSettledStage || ActiveStageId == 0
             || SceneManager.GetActiveScene().buildIndex != (int)SceneType.Game
-            || !Stages.TryRecordClear(ActiveStageId, out silver, out gold))
+            || !Stages.TryRecordResult(ActiveStageId, isVictory, collectedSilver, collectedGold, out silver, out gold))
         {
             return false;
         }
 
         _hasSettledStage = true;
+        return true;
+    }
+
+    public bool TryRestartBattle(int stageId)
+    {
+        if (!_hasSettledStage || SceneManager.GetActiveScene().buildIndex != (int)SceneType.Game
+            || (stageId != ActiveStageId && stageId != Stages.GetNextStage(ActiveStageId)) || !Stages.CanEnter(stageId))
+        {
+            return false;
+        }
+
+        ActiveStageId = stageId;
+        _hasSettledStage = false;
         return true;
     }
 

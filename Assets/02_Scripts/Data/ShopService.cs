@@ -25,14 +25,17 @@ public sealed class ShopService
 
     public long GetDrawCost(bool isPremium, int count)
     {
-        return count is 1 or 10
-            ? GetValue(isPremium ? $"고급뽑기{count}회금자값" : $"일반뽑기{count}회은자값")
-            : 0;
+        return count switch
+        {
+            1 => GetValue(isPremium ? 6 : 4),
+            10 => GetValue(isPremium ? 7 : 5),
+            _ => 0
+        };
     }
 
     public long GetExchangeCost(int count)
     {
-        return count is 1 or 10 or 100 ? GetValue($"금자{count}개교환은자값") : 0;
+        return count switch { 1 => GetValue(1), 10 => GetValue(2), 100 => GetValue(3), _ => 0 };
     }
 
     public (int Id, decimal Probability)[] GetOdds(bool isPremium)
@@ -125,18 +128,11 @@ public sealed class ShopService
         return true;
     }
 
-    private long GetValue(string label)
+    private long GetValue(int id)
     {
-        foreach (int id in _defaults.GetIds())
-        {
-            if (_defaults.GetLabel(id) == label
-                && long.TryParse(_defaults.GetString(id, 0), NumberStyles.None, CultureInfo.InvariantCulture, out long value))
-            {
-                return value;
-            }
-        }
-
-        return 0;
+        return _defaults.Contains(id)
+            && long.TryParse(_defaults.GetString(id, 0), NumberStyles.None, CultureInfo.InvariantCulture, out long value)
+            ? value : 0;
     }
 
     private CharacterMaterialData FindCurrency(int detailType)

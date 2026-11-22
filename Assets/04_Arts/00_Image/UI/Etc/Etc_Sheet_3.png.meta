@@ -133,9 +133,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 766
-        width: 451
-        height: 258
+        y: 767
+        width: 450
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,9 +155,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 452
-        y: 661
-        width: 445
-        height: 363
+        y: 662
+        width: 443
+        height: 362
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,6 +168,138 @@ TextureImporter:
       bones: []
       spriteID: 87a90c523e3bb2d90800000000000000
       internalID: -7121400597583979912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 300
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb3be3252e5e4b4eb547c58a3756211
+      internalID: 288343191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 615
+        width: 300
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dac4134d30bbb489090ea9dc11d73e
+      internalID: -774784319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 615
+        width: 300
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebcbb3bfbfefd341a155ddb32d74b38
+      internalID: -863679249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 250
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7504144c46fea047b045fb150b4c051
+      internalID: -1716349211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 217
+        width: 250
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678e77391d4e2b4aad6da5f2244922c
+      internalID: 444440365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etc_Sheet_3_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 217
+        width: 250
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3add13442c3742a869c9fa3890c77
+      internalID: 1409860049
       vertices: []
       indices: 
       edges: []
@@ -184,10 +316,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Etc_Sheet_3_0: 5255986704186310747
       Etc_Sheet_3_1: -7121400597583979912
+      Etc_Sheet_3_2: 288343191
+      Etc_Sheet_3_3: -774784319
+      Etc_Sheet_3_4: -863679249
+      Etc_Sheet_3_5: -1716349211
+      Etc_Sheet_3_6: 444440365
+      Etc_Sheet_3_7: 1409860049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,9 +159,11 @@ public sealed class CharacterPopUp : MonoBehaviour
         CsvTable table = DataManager.Instance.GetTable(slot == 3 ? "BattleActiveSkillData" : "CharacterPassiveSkillData");
         CsvTable characterTable = GameManager.Instance.Characters.Characters;
         int row = slot == 3 ? 19 + characterTable.GetInt(id, 22) : characterTable.GetInt(id, 16 + slot * 2);
-        _skillTitle.text = presentation.SkillNames[slot];
+        _skillTitle.text = table.Contains(row) ? table.GetString(row, 1) : presentation.SkillNames[slot];
         _skillIcon.sprite = presentation.SkillIcons[slot];
-        _skillDescription.text = table.Contains(row) ? table.GetLabel(row) : "스킬 정보가 아직 연결되지 않았습니다.";
+        _skillDescription.text = table.Contains(row)
+            ? (slot == 3 ? BattleSkills.GetActiveDescription(row) : BattleSkills.GetCharacterPassiveDescription(row))
+            : "스킬 정보가 아직 연결되지 않았습니다.";
         int condition = GameManager.Instance.Characters.Characters.GetInt(id, 17 + Mathf.Min(slot, 2) * 2);
         _skillDescription.text += $"\n\n개방 조건: 캐릭터 해금 · {condition}성\n" +
             (CharacterDetailView.IsSkillUnlocked(id, slot) ? "개방됨" : "잠금 상태");
