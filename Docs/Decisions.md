@@ -510,3 +510,48 @@
 - 관련 파일은 `Assets/01_Scenes/00_Tilte_Scene.unity` 74421행, `Assets/02_Scripts/UI/StageSelect/StageSelectWindow.cs` 84행, `StageCardView.cs` 31행, `StageEntryPopUp.cs` 25행, `Assets/02_Scripts/Data/StageProgression.cs` 125행, `SaveLoadData.cs` 17행, `Assets/02_Scripts/Manager/GameManager.cs` 188행, `Assets/02_Scripts/Core/EnumList.cs` 68행이다.
 - Roslyn으로 Unity 참조를 포함한 프로젝트 런타임 C# 컴파일에 성공했다. 씬의 신규 오브젝트·컴포넌트 172개와 참조, 팝업 등록, 버튼 9개, 맵 스프라이트 4종, StageData 100행을 정적으로 검사했다. Unity 배치 모드는 프로젝트 초기화 중 종료 코드 1로 종료됐다. 독립 서비스 테스트의 실행은 Windows 애플리케이션 제어 정책으로 차단됐다. Unity Play Mode의 입력·씬 전환과 저장 재실행 동작은 미검증이다. 현 전투 씬에는 카메라만 있으며 승리 판정에서 보상 호출을 연결하는 작업은 전투 구현 시 진행한다.
 - 스테이지 선택 화면을 열 때마다 입장 가능한 가장 높은 카드에 맞춰 스크롤한다. 중앙 위치를 기준으로 계산하고 목록 양 끝에서는 맨 위 또는 맨 아래로 제한한다. 여백은 기존 값 그대로 사용한다. C# 컴파일과 1·2·50·100번 카드 위치 계산을 확인했다. Play Mode는 미검증이다.
+
+## 전투 화면
+
+- 날짜 2026-11-21
+- 관련 기획은 `UI_기조.xlsb`의 `<전투 화면>` 배치도·동작 규칙과 `<기능 팝업>`의 설정·스킬 선택·현재 스킬·전투 결과 항목이다.
+- `02_Game_Scene`의 `BattleCanvas/SafeArea/HUD`에서 상단 상태, 조이스틱, 각성기와 현재 스킬 버튼의 RectTransform을 편집한다. `CurrentSkillsButton`은 우하단에 고정한다. `BattleCanvas/SafeArea/Popups`에서 팝업별 배치를 편집한다. 체력바와 데미지 표시는 카메라의 월드 좌표를 Canvas 좌표로 변환해 캐릭터를 따른다.
+- `BattleSession.BeginStage`는 `GameManager.ActiveStageId`, 선택한 캐릭터와 StageData·MonsterData를 읽어 전투를 초기화한다. `BattleMap.SetTerrain`은 스테이지 종류에 맞는 기존 바닥 스프라이트를 20×20으로 배치한다. `BattleInput.Direction → BattleSession.Update → BattleMap.ClampInside`에서 방향키 및 드래그 조이스틱 입력을 적용한다. 기존 캐릭터·몬스터 전투 Animator를 사용한다.
+- `BattleSession.FireSkills → RemoveEnemy → CollectDrops`가 몬스터 처치와 경험치 곡옥, 상자 10개의 랜덤 은자·금자 드롭을 처리한다. `BattleSkills.DrawChoices`는 가능한 스킬 중 최대 3개를 중복 없이 고르고, 5레벨과 각성기 스킬을 제외한다. 액티브는 기본 공격을 포함해서 6개, 패시브는 5개까지다. 현재 스킬 목록은 액티브·패시브를 각각 4열로 표시한다. 캐릭터 패시브 3의 성급 조건을 만족하면 각성기 버튼을 표시한다.
+- `BattleSession.RetrySettlement → GameManager.TrySettleBattle → StageProgression.TryRecordResult`에서 획득 재화와 승리 보상을 한 번에 저장한다. 패배 시 획득 재화만 보존한다. 저장 실패 시 저장 전 상태로 되돌리고 재시도를 제공한다. 재도전과 다음 스테이지는 `GameManager.TryRestartBattle → BattleSession.BeginStage`로 씬 내에서 초기화한다. 메인으로는 로비 씬을 불러온다.
+- 임시 구현값은 타일 한 변 2유닛, 20초 간격의 일반 웨이브 12회와 보스 출현, 필요 경험치 5부터 레벨마다 3 증가, 상자당 은자 100 또는 금자 1이다. 웨이브 간격·횟수·몬스터 수는 `BattleWorld`의 Inspector에서 조절한다. 공격은 CSV 수치에 따른 근거리·범위 타격과 기존 아이콘으로 시각화했다. 파이어 골렘 외형은 기존 하급 불의 악마 스프라이트를 임시로 재사용했다.
+- 관련 파일은 `Assets/01_Scenes/02_Game_Scene.unity`, `Assets/02_Scripts/Battle/BattleMap.cs`, `BattleSession.cs`, `BattleSkills.cs`, `Assets/02_Scripts/UI/Battle/BattleInput.cs`, `BattleHud.cs`, `Assets/02_Scripts/Manager/GameManager.cs`, `Assets/02_Scripts/Data/StageProgression.cs`다.
+- Unity 참조를 사용한 Roslyn 프로젝트 런타임 C# 컴파일과 씬 YAML 486개 레코드의 참조·스프라이트 ID·UI 호출·우하단 앵커·스테이지 데이터 100행 정적 검사를 통과했다. Unity 배치 모드는 초기화에서 종료 코드 1을 반환했다. 독립 규칙 테스트는 컴파일됐으나 Windows 애플리케이션 제어 정책이 실행을 차단했다. Unity Play Mode의 전투, 터치 조작, 씬 전환, 재화 저장 재실행과 Android 실기기는 미검증이다.
+- 후속 Play Mode 검증에서 단일 스프라이트로 임포트한 바닥 4종에 잘못된 서브 스프라이트 ID를 사용한 문제와 Animator Controller 참조 유형 오류를 수정했다. Unity Pixel 5 Simulator에서 타이틀 → 로비 → 들판 1 입장, 맵 표시, 조이스틱 이동, 몬스터 출현·자동 공격, 경험치 증가, 우하단 현재 스킬 팝업을 확인했다. 최종 실행의 Console 오류와 경고는 각각 0건이었다. 스테이지 완료와 Android 실기기 검증은 남아 있다.
+
+### 스킬 선택 팝업 개편
+
+- 스킬 선택 팝업의 상단 한 줄은 액티브 6칸과 패시브 5칸으로 구성한다. 최초 습득 순서대로 액티브는 왼쪽, 패시브는 오른쪽부터 채우며 업그레이드할 때 기존 위치를 유지한다. 빈 슬롯은 테두리만 표시한다.
+- 가로 3열의 선택지는 기존 Etc 시트의 무·화·수·목·토·풍 두루마리로 표시한다. 공통 패시브에는 무속성 두루마리를 사용한다. `BattleHud.UnfoldChoices`가 0.45초 동안 마스크를 아래로 확장하고, 펼쳐진 뒤 선택과 새로고침을 활성화한다.
+- `BattleSession.RefreshChoices`는 한 스테이지 도전에서 한 번만 허용한다. 사용 후 다음 레벨업에도 버튼을 비활성화한다. 재도전과 다음 스테이지에서는 `BeginStage`가 횟수를 복구한다.
+- Roslyn 런타임 C# 컴파일과 씬 직렬화 참조, 동일한 높이의 6칸·5칸 슬롯, 가로 3개 선택지와 속성별 접힌·펼친 스프라이트 연결을 검사했다. 수정 팝업의 실제 펼침과 입력은 Play Mode에서 미검증이다.
+
+### 스킬 선택 배경과 두루마리
+
+- `BattleCanvas/SkillSelectionPopup`의 전체 화면 검은 Image를 기본 알파 0.55로 설정했다. Unity Inspector의 `Image > Color > A`에서 조절한다. 선택지 콘텐츠에는 별도의 패널 배경을 두지 않는다.
+- 각 선택지는 상단 손잡이, 중단 두루마리, 하단 손잡이로 구성한다. 무·화·수·목·토·풍 스프라이트를 각각 연결한다. 같은 손잡이 스프라이트를 하단에서는 상하 반전해서 사용한다. 상단은 고정하고 하단 이동에 맞춰 RectMask2D를 아래로 늘려 중단과 설명을 드러낸다.
+- 선택지, 상단 습득 슬롯, 현재 스킬 목록이 공유하는 액티브 18종 아이콘을 CSV ID 순서와 `Icon_Sheet_0_7`부터 `Icon_Sheet_0_24`까지 대응시켰다. 패시브 11종은 효과명과 스프라이트를 대조해 연결했다. 지속시간과 재사용 대기시간에는 기존 시계 아이콘을 공용한다. 경험치에는 특성 화면의 경험치 획득 아이콘을 사용한다.
+- Roslyn 런타임 C# 컴파일과 씬 직렬화 레코드 625개 검사가 통과했다. 전체 화면 앵커, 배경 알파, 손잡이 참조, 아이콘 파일 ID를 확인했다. Unity Play Mode의 시각 동작은 미검증이다.
+
+### 전투 스킬 데이터와 시전 연출
+
+- 2026-11-22. 두루마리 6종의 상·중·하 참조를 사용자 시트의 nameFileIdTable과 대조했다. 스킬 ID와 연출 아이콘 24개를 맞췄다. 반달베기의 전투 연출에는 베기 궤적 스프라이트를 사용한다. 선택 화면의 11개 슬롯은 금색 사각 테두리를 사용한다.
+- `CsvTable.Parse`는 헤더를 형식 검사에 사용해 넘기고, 첫 열을 키로 사용하며 `구분` 열을 저장하지 않는다. 전투 액티브·패시브와 캐릭터 전용 패시브는 새 이름 열을 사용한다. 캐릭터 스킬 팝업의 설명은 스킬 기조에 적힌 동작을 사용한다. 상점은 DefaultData ID, 특성은 효과 종류를 사용해 기존 표시와 가격을 유지한다.
+- 기본 공격은 선택한 캐릭터의 것만 처음부터 보유한다. 레벨업의 액티브 후보는 공용 속성 스킬 ID 7~18이다. `BattleWorld > Battle Session > Use Test Choices`를 켜고 `Test Choice 1~3`에 종류와 ID를 지정한다. Play Mode에서 컴포넌트 메뉴의 `테스트 레벨업`을 선택하면 바로 확인할 수 있다. 습득 불가·중복 지정은 제외하고 가능한 무작위 후보로 채운다. 테스트 필드는 에디터와 개발 빌드에서 사용한다.
+- `BattleSkillEffect`는 기존 스프라이트를 베기·투사체·회전·지속 영역·상승·낙하·파동·폭발로 움직인다. `BattleSession`은 시전 준비와 영역의 지속 피해를 처리한다. 캐릭터 전용 패시브는 별 개방 조건을 적용한다. 화상·감속은 2초, 돌풍 밀어내기는 0.8유닛을 임시 적용했다. 각성기는 스킬 기조에 맞춰 스테이지 도전당 1회다.
+- Editor/Player 런타임 C# 컴파일과 씬 레코드 625개 검사 확인. Unity Pixel 5 Simulator에서 타이틀 → 들판 1, Inspector 지정 선택지 검기·물기둥·돌기둥, 빈 슬롯과 두루마리 표시, 물기둥 시전, 돌기둥 습득과 현재 스킬 이름을 확인했다. 최종 Play Mode Console은 오류·경고 0건이었다. 24종 개별 시전, 고성급 전용 패시브, Android 실기기는 미검증이다.
+
+### 스킬 선택지 배치와 설명
+
+- 스킬 선택 팝업의 액티브·패시브 목록에 알파 1의 검정 배경을 각각 적용했다. 어두운 습득 아이콘에도 밝은 외곽선이 보이도록 했다.
+- 새로고침 버튼을 아래 기준 192에 배치했다. 현재 스킬 버튼의 기준값은 120이다. 선택지 중단은 상하 앵커 사이를 채우며 1080×1920 기준 높이는 1048이다. `BattleHud`가 실측 높이만큼 중단을 펼치고 하단 손잡이를 내린다.
+- 스킬명은 별도 Text에 표시한다. 최초 습득은 설명만, 레벨업은 다음 레벨의 효과를 줄별로 표시한다. 두 번째 효과가 없는 스킬은 한 줄만 표시한다.
+- 패시브의 회색 참조를 별도 분리했다. 무 검정·토 갈색·풍 하늘색은 이미지 저장 승인과 Unity 연결 전이다. C# 컴파일 및 씬 참조 검사를 수행했다. 이번 배치의 Play Mode 확인은 남아 있다.
+
+- 사용자가 Unity에 추가한 `Etc_Sheet_3`의 2~4번을 검정·갈색·하늘색 손잡이로, 5~7번을 각 중단으로 연결했다. 스킬 선택 오버레이는 화면 전체를 덮고, 자식 `Content`에 `SafeAreaLayout`을 적용해 하단 검은 띠가 새로고침 버튼을 가리지 않게 했다.
+- Unity Pixel 5 Simulator에서 검기(무·검정), 불 구슬(화·빨강), 물기둥(수·파랑), 폭발 열매(목·초록), 돌기둥(토·갈색), 톱니 칼날(풍·하늘색), 환술 : 분신(패시브·회색)의 상·중·하가 모두 표시되는 것을 확인했다. 새로고침을 눌러 1/1에서 0/1로 변하는 것과 패시브 습득 후 우측 끝 아이콘 및 다음 레벨 효과 표시를 확인했다. Console 오류·경고는 각각 0건이었다.

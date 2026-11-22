@@ -37,18 +37,42 @@ public sealed class StageProgression
 
     public bool TryRecordClear(int id, out long silver, out long gold)
     {
+        return TryRecordResult(id, true, 0, 0, out silver, out gold);
+    }
+
+    public int GetNextStage(int id)
+    {
+        int index = Array.BinarySearch(_stageIds, id);
+        return index >= 0 && index + 1 < _stageIds.Length ? _stageIds[index + 1] : 0;
+    }
+
+    public bool TryRecordResult(int id, bool isVictory, long collectedSilver, long collectedGold,
+        out long silver, out long gold)
+    {
         silver = gold = 0;
-        if (!CanEnter(id))
+        if (!CanEnter(id) || collectedSilver < 0 || collectedGold < 0)
         {
             return false;
         }
 
-        bool isFirstClear = !HasCleared(id);
+        bool isFirstClear = isVictory && !HasCleared(id);
         long[] rewards = new long[2];
-        if (!TryAddReward(id, REPEAT_REWARD, rewards)
+        if ((isVictory && !TryAddReward(id, REPEAT_REWARD, rewards))
             || (isFirstClear && !TryAddReward(id, FIRST_REWARD, rewards)))
         {
             return false;
+        }
+
+        if (collectedSilver > long.MaxValue - rewards[SILVER] || collectedGold > long.MaxValue - rewards[GOLD])
+        {
+            return false;
+        }
+
+        rewards[SILVER] += collectedSilver;
+        rewards[GOLD] += collectedGold;
+        if (!isVictory && collectedSilver == 0 && collectedGold == 0)
+        {
+            return true;
         }
 
         List<CharacterMaterialData> materials = _data.CharacterMaterials;
