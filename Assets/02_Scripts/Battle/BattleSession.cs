@@ -5,12 +5,15 @@ using UnityEngine;
 public sealed class BattleSession : MonoBehaviour
 {
     private const int CHEST_COUNT = 10;
+    private const int FINAL_WAVE = 5;
+    private const int FIRST_WAVE_EXPERIENCE_ROW = 8;
+    private const int NAMED_EXPERIENCE_ROW = 12;
+    private const float BASIC_SHOT_INTERVAL = .09f;
     private static readonly int _isMovingParameter = Animator.StringToHash("IsMoving");
     private static readonly int _attackTrigger = Animator.StringToHash("Attack");
     private static readonly int _deathTrigger = Animator.StringToHash("Death");
-    [SerializeField, Min(.5f)] private float _waveInterval = 20f;
-    [SerializeField, Min(1)] private int _waveCount = 12;
-    [SerializeField, Min(1)] private int _enemiesPerWave = 5;
+    private const float SPAWN_WINDOW = 10f;
+    [SerializeField, Min(SPAWN_WINDOW)] private float _waveInterval = 60f;
 
     [SerializeField] private BattleMap _map;
     [SerializeField] private BattleInput _input;
@@ -24,8 +27,52 @@ public sealed class BattleSession : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController[] _characterAnimations;
     [SerializeField] private RuntimeAnimatorController[] _monsterAnimations;
     [SerializeField] private Sprite[] _attackIcons;
+    [System.Serializable]
+    private struct ElementalRange
+    {
+        public string Name;
+        [Min(.01f)] public float Radius;
+    }
+
+    [SerializeField] private ElementalRange[] _elementalRanges;
+    [SerializeField] private Texture2D[] _elementalSprites;
+    private readonly Dictionary<(int, int), Sprite> _elementalSpriteCache = new();
+
+    private void OnDestroy()
+    {
+        foreach (Sprite sprite in _elementalSpriteCache.Values)
+            Destroy(sprite);
+    }
+
+    public Sprite GetElementalSprite(int slot, int frame = 0)
+    {
+        if (_elementalSprites == null || slot >= _elementalSprites.Length || !_elementalSprites[slot])
+            return null;
+        if (_elementalSpriteCache.TryGetValue((slot, frame), out Sprite sprite))
+            return sprite;
+        Texture2D texture = _elementalSprites[slot];
+        bool sheet = slot is 5 or 12;
+        int width = texture.width / (sheet ? 4 : 1);
+        int height = texture.height / (sheet ? 2 : 1);
+        var rect = new Rect(frame % 4 * width, sheet ? (1 - frame / 4) * height : 0, width, height);
+        if (frame > 0 && (slot is 6 or 8))
+        {
+            int piece = frame - 1;
+            width /= 3;
+            height /= 3;
+            rect = new Rect(piece % 3 * width, piece / 3 * height, width, height);
+        }
+        else if (frame > 0 && slot == 9)
+        {
+            int visibleHeight = Mathf.Max(1, height * frame / 12);
+            rect = new Rect(0, height - visibleHeight, width, visibleHeight);
+        }
+        sprite = Sprite.Create(texture, rect, new Vector2(.5f, .5f), 100f, 0, SpriteMeshType.FullRect);
+        _elementalSpriteCache.Add((slot, frame), sprite);
+        return sprite;
+    }
     [SerializeField] private Sprite _chestSprite;
-    [SerializeField] private Sprite _experienceSprite;
+    [SerializeField] private Sprite[] _experienceSprites;
     [SerializeField] private Sprite _silverSprite;
     [SerializeField] private Sprite _goldSprite;
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
@@ -68,6 +115,7 @@ public sealed class BattleSession : MonoBehaviour
         public float BurnDamage;
         public int MarkedBy;
         public bool IsChest;
+        public int ExperienceReward;
     }
 
     private sealed class Drop
@@ -76,6 +124,7 @@ public sealed class BattleSession : MonoBehaviour
         public int Type;
         public int Amount;
         public bool IsAttracted;
+        public float CanCollectAt;
     }
 
     private sealed class Attack
@@ -91,17 +140,32 @@ public sealed class BattleSession : MonoBehaviour
         public float Delay;
         public bool IsArea;
         public bool IsPassive;
+        public Enemy Target;
+        public Vector2 Start;
+        public Vector2 Direction;
+        public float Travel;
+        public float TravelTime;
+        public float Progress;
+        public float CharacterSize;
+        public HashSet<Enemy> Pierced;
+        public bool HasLaunched;
+        public BattleSkillEffect Flight;
+        public float Elapsed;
+        public float NextTick;
     }
 
     private readonly List<Enemy> _enemies = new();
     private readonly List<Drop> _drops = new();
     private readonly List<Attack> _attacks = new();
+    private Vector2 _facing = Vector2.right;
     private readonly Dictionary<int, float> _cooldowns = new();
     private readonly float[] _characterPassives = new float[19];
     private List<BattleSkills.Choice> _choices = new();
     private GameManager _game;
     private CsvTable _stageData;
     private CsvTable _monsterData;
+    private CsvTable _battleLevelData;
+    private CsvTable _defaultData;
     private int _stageId;
     private int _level;
     private float _experience;
@@ -118,6 +182,7 @@ public sealed class BattleSession : MonoBehaviour
     private float _shield;
     private int _waterCasts;
     private float _spawnDelay;
+    private int _regularSpawned;
     private bool _hasUsedAwakening;
     private long _silver;
     private long _gold;
@@ -132,7 +197,7 @@ public sealed class BattleSession : MonoBehaviour
     public BattleSkills Skills { get; private set; }
     public bool IsEffectPaused => _isPausedByApp || _hud.HasModal;
     public SaveLoadData Settings => _game.Save.CurData;
-    private int TargetExperience => 5 + (_level - 1) * 3;
+    private int TargetExperience => _battleLevelData.Contains(_level) ? _battleLevelData.GetInt(_level, 0) : 0;
     private float MaxHealth => _stats[2] * (1f + Skills.GetPassiveBonus(3) / 1000f);
 
     private void Start()
@@ -150,6 +215,8 @@ public sealed class BattleSession : MonoBehaviour
 
         _stageData = data.GetTable("StageData");
         _monsterData = data.GetTable("MonsterData");
+        _battleLevelData = data.GetTable("BattleLevelData");
+        _defaultData = data.GetTable("DefaultData");
         BeginStage();
     }
 
@@ -173,11 +240,13 @@ public sealed class BattleSession : MonoBehaviour
         _silver = _gold = 0;
         _level = 1;
         _spawnDelay = .5f;
+        _regularSpawned = 0;
         _hasUsedAwakening = false;
         _isFinished = _isVictory = _isSettled = false;
         _hasRefreshedChoices = false;
         _player.transform.localPosition = Vector3.zero;
         _player.flipX = false;
+        _facing = Vector2.right;
         _map.SetTerrain(_game.Stages.GetMapType(_stageId));
         int character = Settings.EquippedCharacterId;
         CharacterProgression characters = _game.Characters;
@@ -235,12 +304,16 @@ public sealed class BattleSession : MonoBehaviour
             + input * (_moveSpeed * .32f * (1f + Skills.GetPassiveBonus(6) / 1000f) * delta), .4f);
         _player.transform.position = position;
         _playerAnimator.SetBool(_isMovingParameter, input.sqrMagnitude > .01f);
+        if (input.sqrMagnitude > .01f)
+        {
+            _facing = input.normalized;
+        }
         if (Mathf.Abs(input.x) > .01f)
         {
             _player.flipX = input.x < 0;
         }
 
-        SpawnWave(delta, position);
+        SpawnWave(delta);
         MoveEnemies(delta, position);
         if (_health <= 0f)
         {
@@ -249,10 +322,13 @@ public sealed class BattleSession : MonoBehaviour
         }
 
         FireSkills(delta);
-        CollectDrops(delta, position);
+        if (!ProcessLevelUps())
+        {
+            CollectDrops(delta, position);
+        }
         RefreshHud();
-        if (_wave > _waveCount && !_enemies.Any(enemy => !enemy.IsChest) && !_hud.HasModal
-            && !_drops.Any(drop => drop.IsAttracted))
+        if (_wave == FINAL_WAVE && !_enemies.Any(enemy => !enemy.IsChest) && !_hud.HasModal
+            && !_drops.Any(drop => drop.IsAttracted || Time.time < drop.CanCollectAt))
         {
             Finish(true);
         }
@@ -286,47 +362,77 @@ public sealed class BattleSession : MonoBehaviour
         }
     }
 
-    private void SpawnWave(float delta, Vector2 player)
+    private void SpawnWave(float delta)
     {
         _spawnDelay -= delta;
-        if (_wave > _waveCount || _spawnDelay > 0f)
+        if (_wave >= FINAL_WAVE)
         {
             return;
         }
 
-        _spawnDelay = _waveInterval;
-        if (_wave == _waveCount)
+        if (_spawnDelay <= 0f)
         {
-            SpawnEnemy(6, player);
+            _spawnDelay += _waveInterval;
+            _regularSpawned = 0;
+            _wave++;
+            if (_wave == FINAL_WAVE)
+            {
+                for (int i = _enemies.Count - 1; i >= 0; i--)
+                {
+                    Enemy enemy = _enemies[i];
+                    if (!enemy.IsChest)
+                    {
+                        _enemies.RemoveAt(i);
+                        PlayEnemyDeath(enemy);
+                    }
+                }
+                SpawnEnemy(6, NAMED_EXPERIENCE_ROW);
+                _hud.ShowSpawnWarning(true);
+                return;
+            }
+            if (_wave == 3)
+            {
+                SpawnEnemy(5, NAMED_EXPERIENCE_ROW);
+                _hud.ShowSpawnWarning(false);
+            }
         }
-        else
+        if (_wave == 0)
         {
-            for (int i = 0; i < _enemiesPerWave; i++)
-            {
-                SpawnEnemy(2 + (_wave + i) % 3, player);
-            }
-            if (_wave % 4 == 3)
-            {
-                SpawnEnemy(5, player);
-            }
+            return;
         }
-        _wave++;
+
+        int regularCount = (50 + (_wave - 1) * 10) * (1 - _wave / FINAL_WAVE) * 2;
+        float progress = Mathf.Clamp01((_waveInterval - _spawnDelay) / SPAWN_WINDOW);
+        int due = progress >= 1f ? regularCount : Mathf.FloorToInt(progress * regularCount);
+        while (_regularSpawned < due)
+        {
+            int field = _wave == 4 ? 2 + _regularSpawned % 3 : 1 + _wave;
+            SpawnEnemy(field, FIRST_WAVE_EXPERIENCE_ROW + _wave - 1);
+            _regularSpawned++;
+        }
     }
 
-    private void SpawnEnemy(int field, Vector2 player)
+    private void SpawnEnemy(int field, int experienceRow)
     {
         int id = _stageData.GetInt(_stageId, field);
-        Vector2 direction = Random.insideUnitCircle.normalized;
-        Vector2 spawn = _map.ClampInside(player + direction * 6f, .5f);
-        if ((spawn - player).sqrMagnitude < 9f)
+        float edge = Mathf.Max(0f, _map.HalfExtent - 1f);
+        float alongEdge = Random.Range(-edge, edge);
+        Vector2 spawn = Random.Range(0, 4) switch
         {
-            spawn = _map.ClampInside(player - direction * 6f, .5f);
-        }
+            0 => new Vector2(-edge, alongEdge),
+            1 => new Vector2(edge, alongEdge),
+            2 => new Vector2(alongEdge, -edge),
+            _ => new Vector2(alongEdge, edge)
+        };
         Sprite sprite = _monsters[id - 1];
         SpriteRenderer view = CreateActor(_monsterData.GetString(id, 0), sprite, spawn, .72f + (field - 2) * .13f, 2);
         Animator animator = view.gameObject.AddComponent<Animator>();
         animator.runtimeAnimatorController = _monsterAnimations[id - 1];
-        _enemies.Add(new Enemy { Id = id, Health = _monsterData.GetInt(id, 4), View = view, Animator = animator });
+        _enemies.Add(new Enemy
+        {
+            Id = id, Health = _monsterData.GetInt(id, 4), View = view, Animator = animator,
+            ExperienceReward = _defaultData.GetInt(experienceRow, 0)
+        });
     }
 
     private void MoveEnemies(float delta, Vector2 player)
@@ -403,6 +509,34 @@ public sealed class BattleSession : MonoBehaviour
         for (int i = _attacks.Count - 1; i >= 0; i--)
         {
             Attack attack = _attacks[i];
+            if (attack.Id is >= 7 and <= 18 && !attack.IsPassive)
+            {
+                if (AdvanceElementalAttack(attack, delta))
+                {
+                    _attacks.RemoveAt(i);
+                }
+                continue;
+            }
+            if (attack.TravelTime > 0f)
+            {
+                float flightDelta = delta;
+                if (!attack.HasLaunched)
+                {
+                    attack.Delay -= delta;
+                    if (attack.Delay > 0f)
+                    {
+                        continue;
+                    }
+                    flightDelta = -attack.Delay;
+                    LaunchBasicAttack(attack);
+                }
+                AdvanceBasicAttack(attack, flightDelta);
+                if (attack.Progress >= 1f)
+                {
+                    _attacks.RemoveAt(i);
+                }
+                continue;
+            }
             attack.Delay -= delta;
             if (attack.Delay <= 0f)
             {
@@ -419,35 +553,44 @@ public sealed class BattleSession : MonoBehaviour
 
     private bool QueueAttack(int id, bool isAwakening, out float cooldown)
     {
-        var attack = Skills.GetAttack(id);
+        float? baseRadius = id is >= 7 and <= 18 && _elementalRanges != null && id - 7 < _elementalRanges.Length
+            ? Mathf.Max(.01f, _elementalRanges[id - 7].Radius) : null;
+        var attack = Skills.GetAttack(id, baseRadius);
         cooldown = Mathf.Max(.25f, attack.Cooldown * (1f - _cooldownReduction / 1000f - _characterPassives[17]));
         int element = BattleSkills.GetActiveElement(id);
         float radius = attack.Radius * (isAwakening ? 2.3f : 1f) * (element == 0 ? 1f + _characterPassives[1] : 1f);
         Vector2 player = _player.transform.position;
+        float damage = _stats[0] * attack.Damage * (1f + Skills.GetPassiveBonus(1) / 1000f
+            + Mathf.Min(_kills / 10, 20) * _characterPassives[13]) * 5f;
+        if (id is >= 1 and <= 6)
+        {
+            return QueueBasicAttack(id, radius, damage, attack.Count, attack.Duration);
+        }
+        if (id is >= 7 and <= 18)
+        {
+            QueueElementalAttack(id, player, radius, damage, attack.Count, attack.Duration);
+            return true;
+        }
         Enemy nearest = _enemies.Where(enemy => ((Vector2)enemy.View.transform.position - player).sqrMagnitude <= radius * radius)
             .OrderBy(enemy => ((Vector2)enemy.View.transform.position - player).sqrMagnitude).FirstOrDefault();
-        if (!isAwakening && (nearest == null || (id == 11 && _attacks.Any(pending => pending.Id == id))))
-        {
-            return false;
-        }
-
-        Vector2 target = nearest == null ? player + Vector2.right * radius : nearest.View.transform.position;
-        bool isGrounded = id is 11 or 12 or 13 or 14 or 15 or 16 or 20 or 22;
-        float startup = id is 2 or 3 or 6 or 7 or 9 or 13 or 15 or 20 ? .25f : .10f;
-        float duration = id == 11 ? Mathf.Max(1f, attack.Duration) : attack.Duration;
+        bool isGrounded = id is 20 or 22;
+        Vector2 target = nearest == null
+            ? (isGrounded ? player : player + _facing * radius)
+            : nearest.View.transform.position;
+        float startup = id == 20 ? .25f : .10f;
+        float duration = attack.Duration;
         _attacks.Add(new Attack
         {
             Id = id,
             Center = target,
             IsGrounded = isGrounded,
             Radius = radius,
-            Damage = _stats[0] * attack.Damage * (1f + Skills.GetPassiveBonus(1) / 1000f
-                + Mathf.Min(_kills / 10, 20) * _characterPassives[13]) * 5f,
+            Damage = damage,
             Count = attack.Count,
-            IsArea = isAwakening || id is 8 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18,
+            IsArea = isAwakening,
             Delay = startup,
             Remaining = startup + Mathf.Max(.05f, duration),
-            Interval = id is 8 or 10 or 11 or 14 or 17 ? .65f : Mathf.Max(.35f, cooldown)
+            Interval = Mathf.Max(.35f, cooldown)
         });
         BattleSkillEffect.Play(this, _actors, _player.transform, id, _attackIcons[id - 1], target, radius, duration, attack.Count);
         if (element == 2 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
@@ -455,6 +598,361 @@ public sealed class BattleSession : MonoBehaviour
             QueuePassiveHit(21, target, radius, _stats[0] * _characterPassives[8] * 5f);
         }
         return true;
+    }
+
+    private bool QueueBasicAttack(int id, float radius, float damage, int count, float duration)
+    {
+        Vector2 origin = _player.transform.position;
+        int shots = id is 2 or 3 or 6 ? Mathf.Max(1, count) : 1;
+        Enemy[] targets = _enemies
+            .OrderBy(enemy => ((Vector2)enemy.View.transform.position - origin).sqrMagnitude)
+            .Take(shots).ToArray();
+
+        float time = id switch { 1 => .25f, 4 => .33f, 5 => duration > 0f ? duration : .28f,
+            6 => Mathf.Max(.01f, duration), _ => 1f };
+        // 전투 목록은 뒤에서부터 갱신하므로, 같은 프레임에 발사할 때도 가까운 적부터 처리한다.
+        for (int shot = shots - 1; shot >= 0; shot--)
+        {
+            Enemy target = targets.Length == 0 ? null : targets[shot % targets.Length];
+            _attacks.Add(new Attack
+            {
+                Id = id, Target = target, TravelTime = time, Radius = radius,
+                Delay = shot * BASIC_SHOT_INTERVAL, Damage = damage
+            });
+        }
+        if (id == 3 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
+        {
+            Vector2 center = targets.Length == 0 ? origin : targets[0].View.transform.position;
+            QueuePassiveHit(21, center, radius, _stats[0] * _characterPassives[8] * 5f);
+        }
+        return true;
+    }
+
+    private void LaunchBasicAttack(Attack attack)
+    {
+        Vector2 origin = _player.transform.position;
+        float size = Mathf.Max(.1f, _player.bounds.size.y);
+        if (attack.Target != null && !_enemies.Contains(attack.Target))
+        {
+            attack.Target = null;
+        }
+        Vector2 direction = attack.Target == null
+            ? _facing : ((Vector2)attack.Target.View.transform.position - origin).normalized;
+        if (direction == Vector2.zero)
+        {
+            direction = _facing;
+        }
+        if (attack.Id is 1 or 4)
+        {
+            direction = Mathf.Abs(direction.x) >= Mathf.Abs(direction.y)
+                ? new Vector2(Mathf.Sign(direction.x), 0f) : new Vector2(0f, Mathf.Sign(direction.y));
+        }
+        bool piercing = attack.Id is 5 or 6;
+        bool tracksTarget = attack.Id is 2 or 3;
+        attack.HasLaunched = true;
+        attack.Direction = direction;
+        attack.CharacterSize = size;
+        attack.Travel = attack.Id switch { 5 => size, 6 => 5f * attack.TravelTime, _ => 0f };
+        float launchOffset = piercing ? size * .5f : tracksTarget ? size * .35f : 0f;
+        if (tracksTarget && attack.Target != null)
+        {
+            launchOffset = Mathf.Min(launchOffset, Vector2.Distance(origin, attack.Target.View.transform.position));
+        }
+        attack.Start = origin + direction * launchOffset;
+        attack.Center = attack.Start + direction * attack.Travel;
+        attack.Pierced = piercing ? new HashSet<Enemy>() : null;
+        attack.Flight = BattleSkillEffect.PlayBasic(this, _actors, attack.Id, attack.Start, attack.Center,
+            direction, size, attack.Radius, attack.TravelTime);
+    }
+
+    private void AdvanceBasicAttack(Attack attack, float delta)
+    {
+        if (attack.Id is 2 or 3)
+        {
+            AdvanceTrackedProjectile(attack, delta);
+            return;
+        }
+        float previous = attack.Progress;
+        attack.Progress = Mathf.Min(1f, previous + delta / attack.TravelTime);
+        if (attack.Id is 5 or 6)
+        {
+            float width = attack.CharacterSize * (attack.Id == 5 ? .48f : .26f);
+            HitPiercingTargets(attack, previous * attack.Travel, attack.Progress * attack.Travel, width);
+            if (attack.Id == 6)
+            {
+                if (attack.Progress >= 1f)
+                {
+                    attack.Flight.EndFlight();
+                }
+                else
+                {
+                    attack.Flight.SetFlightPose(attack.Start + attack.Direction * (attack.Progress * attack.Travel),
+                        attack.Direction);
+                }
+            }
+        }
+        else if (previous < .5f && attack.Progress >= .5f)
+        {
+            float minimumDot = Mathf.Cos(BattleSkillEffect.GetSweepHalfAngle(attack.Id) * Mathf.Deg2Rad);
+            var targets = _enemies.Where(enemy =>
+            {
+                Vector2 offset = (Vector2)enemy.View.transform.position - attack.Start;
+                return offset.sqrMagnitude <= attack.Radius * attack.Radius
+                    && (offset == Vector2.zero || Vector2.Dot(offset.normalized, attack.Direction) >= minimumDot);
+            }).OrderBy(enemy => ((Vector2)enemy.View.transform.position - attack.Start).sqrMagnitude).ToArray();
+            foreach (Enemy enemy in targets)
+            {
+                HitBasicEnemy(attack, enemy);
+            }
+        }
+    }
+
+    private void HitPiercingTargets(Attack attack, float from, float to, float width)
+    {
+        var targets = new List<(Enemy Enemy, float Entry)>();
+        foreach (Enemy enemy in _enemies)
+        {
+            if (!attack.Pierced.Contains(enemy) && TouchesPath(enemy, attack.Start, attack.Direction,
+                from, to, width, out float entry))
+            {
+                targets.Add((enemy, entry));
+            }
+        }
+        foreach (var hit in targets.OrderBy(hit => hit.Entry))
+        {
+            attack.Pierced.Add(hit.Enemy);
+            HitBasicEnemy(attack, hit.Enemy);
+        }
+    }
+
+    private void QueueElementalAttack(int id, Vector2 origin, float radius, float damage, int count, float duration)
+    {
+        if (id == 11)
+        {
+            Attack puddle = _attacks.Find(pending => pending.Id == 11);
+            if (puddle != null)
+            {
+                puddle.Radius = radius;
+                puddle.Damage = damage;
+                return;
+            }
+        }
+
+        float interval = id == 8 ? .2f : id is 10 or 11 or 14 or 17 ? .4f : 0f;
+        float life = id switch
+        {
+            11 => float.PositiveInfinity,
+            12 => .58f,
+            13 => duration > 0f ? duration : .5f,
+            15 => .65f,
+            16 => .44f,
+            18 => .55f,
+            _ => Mathf.Max(.01f, duration)
+        };
+        float firstHit = id switch
+        {
+            12 => .19f, 13 => life, 15 => .43f, 16 => .14f, 18 => .13f, _ => interval
+        };
+        Vector2 direction = _facing;
+        bool piercing = id is 7 or 9;
+        float travel = id switch { 7 => 8f * life, 9 => 7f * life, _ => 0f };
+        int instances = id switch
+        {
+            16 => 3,
+            7 or 9 or 12 or 13 or 14 or 15 or 17 => Mathf.Max(1, count),
+            _ => 1
+        };
+        Vector2[] fruitTargets = id == 13
+            ? _enemies.OrderBy(enemy => ((Vector2)enemy.View.transform.position - origin).sqrMagnitude)
+                .Take(instances).Select(enemy => (Vector2)enemy.View.transform.position).ToArray()
+            : System.Array.Empty<Vector2>();
+        for (int i = instances - 1; i >= 0; i--)
+        {
+            Vector2 center = id switch
+            {
+                8 => _map.ClampInside(origin + direction * radius, .15f),
+                12 or 14 or 15 or 17 => RandomVisiblePoint(),
+                13 => fruitTargets.Length == 0 ? _map.ClampInside(origin + direction * radius, .15f)
+                    : fruitTargets[i % fruitTargets.Length],
+                16 => _map.ClampInside(origin + direction * radius * (.45f + i * .52f), .15f),
+                _ => origin
+            };
+            Vector2 start = piercing ? origin + direction * (_player.bounds.size.y * .35f) : origin;
+            _attacks.Add(new Attack
+            {
+                Id = id, Start = start, Center = center, Direction = direction, Radius = radius,
+                Damage = damage, Count = id == 10 ? Mathf.Max(1, count) : 1,
+                Remaining = life, Interval = interval, NextTick = firstHit, Travel = travel,
+                Delay = id == 16 ? i * .15f : id is 7 or 9 or 13 ? i * BASIC_SHOT_INTERVAL : 0f,
+                Pierced = piercing ? new HashSet<Enemy>() : null,
+                CharacterSize = Mathf.Max(.1f, _player.bounds.size.y)
+            });
+        }
+        if (id is 11 or 12 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
+        {
+            QueuePassiveHit(21, origin, radius, _stats[0] * _characterPassives[8] * 5f);
+        }
+    }
+
+    private Vector2 RandomVisiblePoint()
+    {
+        Vector3 point = _camera.ViewportToWorldPoint(new Vector3(Random.Range(.14f, .86f),
+            Random.Range(.16f, .84f), Mathf.Abs(_camera.transform.position.z)));
+        return _map.ClampInside(point, .25f);
+    }
+
+    private bool AdvanceElementalAttack(Attack attack, float delta)
+    {
+        if (!attack.HasLaunched)
+        {
+            attack.Delay -= delta;
+            if (attack.Delay > 0f)
+            {
+                return false;
+            }
+            delta = -attack.Delay;
+            attack.HasLaunched = true;
+            Vector2 position = attack.Id is 7 or 9 or 13 ? attack.Start : attack.Center;
+            attack.Flight = BattleSkillEffect.PlayElemental(this, _actors, attack.Id, position, attack.Direction, attack.Count);
+        }
+        float previous = attack.Elapsed;
+        attack.Elapsed = Mathf.Min(attack.Remaining, previous + delta);
+        if (attack.Id is 7 or 9)
+        {
+            float speed = attack.Travel / attack.Remaining;
+            HitPiercingTargets(attack, previous * speed, attack.Elapsed * speed,
+                attack.Radius * (attack.Id == 7 ? .48f : .26f));
+            attack.Center = attack.Start + attack.Direction * (attack.Elapsed * speed);
+        }
+        else
+        {
+            if (attack.Id is 10 or 11)
+            {
+                attack.Center = _player.transform.position;
+            }
+            while (attack.NextTick <= attack.Elapsed)
+            {
+                HitElementalArea(attack, attack.NextTick);
+                attack.NextTick = attack.Interval > 0f ? attack.NextTick + attack.Interval : float.PositiveInfinity;
+            }
+        }
+
+        if (attack.Elapsed >= attack.Remaining)
+        {
+            if (attack.Id == 13)
+            {
+                BattleSkillEffect.PlayImpact(this, _actors, 13, attack.Center, attack.Direction, attack.Radius * .8f);
+            }
+            attack.Flight.EndFlight();
+            return true;
+        }
+        attack.Flight.SetElementalPose(attack.Start, attack.Center, attack.Direction, attack.Radius,
+            attack.Elapsed, attack.Remaining, attack.Count);
+        return false;
+    }
+
+    private void HitElementalArea(Attack attack, float tick)
+    {
+        float radiusSquared = attack.Radius * attack.Radius;
+        var targets = _enemies.Where(enemy =>
+        {
+            Vector2 position = enemy.View.transform.position;
+            if (attack.Id == 11)
+            {
+                Vector2 offset = position - BattleSkillEffect.GetPuddleCenter(attack.Center);
+                offset.y /= BattleSkillEffect.PUDDLE_SQUASH;
+                return offset.sqrMagnitude <= radiusSquared;
+            }
+            if (attack.Id == 10)
+            {
+                for (int i = 0; i < attack.Count; i++)
+                {
+                    Vector2 blade = BattleSkillEffect.GetOrbitOffset(tick, attack.Radius, i, attack.Count);
+                    float width = attack.Radius * .32f + EnemyRadius(enemy);
+                    if ((position - attack.Center - blade).sqrMagnitude <= width * width)
+                    {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            return (position - attack.Center).sqrMagnitude <= radiusSquared;
+        }).ToArray();
+        foreach (Enemy enemy in targets)
+        {
+            DamageEnemy(attack, enemy, attack.Center);
+        }
+    }
+
+    private void AdvanceTrackedProjectile(Attack attack, float delta)
+    {
+        if (attack.Target != null && !_enemies.Contains(attack.Target))
+        {
+            attack.Target = null;
+        }
+        if (attack.Target != null)
+        {
+            Vector2 offset = (Vector2)attack.Target.View.transform.position - attack.Center;
+            if (offset != Vector2.zero)
+            {
+                attack.Direction = offset.normalized;
+            }
+        }
+
+        float step = (attack.Id == 2 ? 10f : 9f) * delta;
+        float width = attack.CharacterSize * .18f;
+        Enemy hit = attack.Target;
+        if (hit == null)
+        {
+            float nearestEntry = float.PositiveInfinity;
+            foreach (Enemy enemy in _enemies)
+            {
+                if (TouchesPath(enemy, attack.Center, attack.Direction, 0f, step, width, out float entry)
+                    && entry < nearestEntry)
+                {
+                    hit = enemy;
+                    nearestEntry = entry;
+                }
+            }
+        }
+        if (hit != null && TouchesPath(hit, attack.Center, attack.Direction, 0f, step, width, out _))
+        {
+            HitBasicEnemy(attack, hit);
+            attack.Flight.EndFlight();
+            attack.Progress = 1f;
+            return;
+        }
+
+        attack.Center += attack.Direction * step;
+        attack.Flight.SetFlightPose(attack.Center, attack.Direction);
+        float limit = _map.HalfExtent + attack.CharacterSize;
+        if (Mathf.Abs(attack.Center.x) > limit || Mathf.Abs(attack.Center.y) > limit)
+        {
+            attack.Flight.EndFlight();
+            attack.Progress = 1f;
+        }
+    }
+
+    private static float EnemyRadius(Enemy enemy) => Mathf.Min(enemy.View.bounds.extents.x, enemy.View.bounds.extents.y);
+
+    private static bool TouchesPath(Enemy enemy, Vector2 origin, Vector2 direction, float from, float to,
+        float width, out float entry)
+    {
+        Vector2 offset = (Vector2)enemy.View.transform.position - origin;
+        float along = Vector2.Dot(offset, direction);
+        float across = offset.x * direction.y - offset.y * direction.x;
+        float radius = width + EnemyRadius(enemy);
+        float depthSquared = radius * radius - across * across;
+        float depth = Mathf.Sqrt(Mathf.Max(0f, depthSquared));
+        entry = along - depth;
+        return depthSquared >= 0f && entry <= to && along + depth >= from;
+    }
+
+    private void HitBasicEnemy(Attack attack, Enemy enemy)
+    {
+        BattleSkillEffect.PlayImpact(this, _actors, attack.Id, enemy.View.transform.position,
+            attack.Direction, attack.CharacterSize);
+        DamageEnemy(attack, enemy, attack.Start);
     }
 
     private void HitTargets(Attack attack)
@@ -469,31 +967,36 @@ public sealed class BattleSession : MonoBehaviour
 
         foreach (Enemy enemy in targets)
         {
-            float damage = attack.Damage;
-            if (Random.value * 1000f < _critical + Skills.GetPassiveBonus(4))
+            DamageEnemy(attack, enemy, player);
+        }
+    }
+
+    private void DamageEnemy(Attack attack, Enemy enemy, Vector2 player)
+    {
+        float damage = attack.Damage;
+        if (Random.value * 1000f < _critical + Skills.GetPassiveBonus(4))
+        {
+            damage *= 1f + (_criticalDamage + Skills.GetPassiveBonus(5)) / 1000f
+                + _characterPassives[14] * _health / MaxHealth;
+        }
+        if (!enemy.IsChest)
+        {
+            damage *= 100f / (100f + _monsterData.GetInt(enemy.Id, 3));
+            if (!attack.IsPassive)
             {
-                damage *= 1f + (_criticalDamage + Skills.GetPassiveBonus(5)) / 1000f
-                    + _characterPassives[14] * _health / MaxHealth;
+                damage = ApplyElementPassives(enemy, attack.Id, damage);
             }
-            if (!enemy.IsChest)
-            {
-                damage *= 100f / (100f + _monsterData.GetInt(enemy.Id, 3));
-                if (!attack.IsPassive)
-                {
-                    damage = ApplyElementPassives(enemy, attack.Id, damage);
-                }
-            }
-            if (attack.Id == 18 && !enemy.IsChest)
-            {
-                Vector2 position = enemy.View.transform.position;
-                enemy.View.transform.position = _map.ClampInside(position + (position - player).normalized * .8f, .4f);
-            }
-            enemy.Health -= Mathf.Max(1f, damage);
-            _hud.ShowDamage(enemy.View.transform.position, damage, false);
-            if (enemy.Health <= 0f)
-            {
-                RemoveEnemy(enemy);
-            }
+        }
+        if (attack.Id == 18 && !enemy.IsChest)
+        {
+            Vector2 position = enemy.View.transform.position;
+            enemy.View.transform.position = _map.ClampInside(position + (position - player).normalized * .8f, .4f);
+        }
+        enemy.Health -= Mathf.Max(1f, damage);
+        _hud.ShowDamage(enemy.View.transform.position, damage, false);
+        if (enemy.Health <= 0f)
+        {
+            RemoveEnemy(enemy);
         }
     }
 
@@ -577,9 +1080,14 @@ public sealed class BattleSession : MonoBehaviour
                 PlayPassiveFeedback(22, _player.transform.position, .8f);
             }
         }
-        Sprite sprite = type == 0 ? _experienceSprite : type == 1 ? _silverSprite : _goldSprite;
-        int amount = type == 0 ? _monsterData.GetInt(enemy.Id, 1) : type == 1 ? 100 : 1;
-        _drops.Add(new Drop { Type = type, Amount = amount, View = CreateActor("Pickup", sprite, position, .25f, 1) });
+        int amount = type == 0 ? enemy.ExperienceReward : type == 1 ? 100 : 1;
+        Sprite sprite = type == 0 ? GetExperienceSprite(amount) : type == 1 ? _silverSprite : _goldSprite;
+        _drops.Add(new Drop
+        {
+            Type = type, Amount = amount,
+            View = CreateActor("Pickup", sprite, position, .25f, 1),
+            CanCollectAt = Time.time + (type == 0 ? .2f : 0f)
+        });
         _enemies.Remove(enemy);
         if (enemy.IsChest)
         {
@@ -587,10 +1095,28 @@ public sealed class BattleSession : MonoBehaviour
         }
         else
         {
-            enemy.Animator.SetTrigger(_deathTrigger);
-            enemy.View.sortingOrder = 0;
-            Destroy(enemy.View.gameObject, .65f);
+            PlayEnemyDeath(enemy);
         }
+    }
+
+    private Sprite GetExperienceSprite(int amount)
+    {
+        int index = amount switch
+        {
+            2 => 1,
+            3 => 2,
+            5 => 3,
+            200 => 4,
+            _ => 0
+        };
+        return _experienceSprites[index];
+    }
+
+    private static void PlayEnemyDeath(Enemy enemy)
+    {
+        enemy.Animator.SetTrigger(_deathTrigger);
+        enemy.View.sortingOrder = 0;
+        Destroy(enemy.View.gameObject, .65f);
     }
 
     private void CollectDrops(float delta, Vector2 player)
@@ -601,7 +1127,7 @@ public sealed class BattleSession : MonoBehaviour
             Vector2 position = drop.View.transform.position;
             float pickupRadius = 1.75f * (1f + _characterPassives[16]);
             drop.IsAttracted |= (position - player).sqrMagnitude < pickupRadius * pickupRadius;
-            if (!drop.IsAttracted)
+            if (!drop.IsAttracted || Time.time < drop.CanCollectAt)
             {
                 continue;
             }
@@ -616,14 +1142,11 @@ public sealed class BattleSession : MonoBehaviour
             switch (drop.Type)
             {
                 case 0:
-                    _experience += drop.Amount * (1f + Skills.GetPassiveBonus(11) / 1000f);
-                    if (_experience >= TargetExperience)
+                    if (TargetExperience > 0)
                     {
-                        _experience = 0;
-                        _level++;
-                        if (DrawChoices())
+                        _experience += drop.Amount * (1f + Skills.GetPassiveBonus(11) / 1000f);
+                        if (ProcessLevelUps())
                         {
-                            _input.ResetStick();
                             return;
                         }
                     }
@@ -638,6 +1161,27 @@ public sealed class BattleSession : MonoBehaviour
                     break;
             }
         }
+    }
+
+    private bool ProcessLevelUps()
+    {
+        int target = TargetExperience;
+        while (target > 0 && _experience >= target)
+        {
+            _experience -= target;
+            _level++;
+            target = TargetExperience;
+            if (target <= 0)
+            {
+                _experience = 0f;
+            }
+            if (DrawChoices())
+            {
+                _input.ResetStick();
+                return true;
+            }
+        }
+        return false;
     }
 
     private SpriteRenderer CreateActor(string actorName, Sprite sprite, Vector2 position, float height, int sortingOrder)
@@ -719,13 +1263,21 @@ public sealed class BattleSession : MonoBehaviour
 
     private void RefreshHud()
     {
-        _hud.Refresh(_level, _experience / TargetExperience, _health / MaxHealth, _silver, _gold,
+        int target = TargetExperience;
+        _hud.Refresh(_level, target > 0 ? Mathf.Clamp01(_experience / target) : 1f, _health / MaxHealth, _silver, _gold,
             _hasAwakening, _hasUsedAwakening);
     }
 
     private void Finish(bool isVictory)
     {
         _isFinished = true;
+        foreach (Attack attack in _attacks)
+        {
+            if (attack.Id is >= 7 and <= 18 && attack.Flight != null)
+            {
+                attack.Flight.EndFlight();
+            }
+        }
         _isVictory = isVictory;
         _playerAnimator.SetBool(_isMovingParameter, false);
         if (!isVictory)

@@ -38,9 +38,9 @@ public sealed class CharacterProgression
             });
         }
 
-        if (!Characters.Contains(Data.EquippedCharacterId) || !GetCharacter(Data.EquippedCharacterId).IsUnlocked)
+        if (!Characters.Contains(Data.EquippedCharacterId) || !GetCharacter(Data.EquippedCharacterId).IsAvailable)
         {
-            Data.EquippedCharacterId = Data.Characters.Find(value => value.IsUnlocked)?.CharacterId ?? 1;
+            Data.EquippedCharacterId = Data.Characters.Find(value => value.IsAvailable)?.CharacterId ?? 1;
         }
 
         GrantTestSilver();
@@ -77,7 +77,7 @@ public sealed class CharacterProgression
 
     public bool EquipCharacter(int id, out string message)
     {
-        if (!GetCharacter(id).IsUnlocked)
+        if (!GetCharacter(id).IsAvailable)
         {
             message = "아직 해금하지 않은 캐릭터입니다.";
             return false;
@@ -100,7 +100,7 @@ public sealed class CharacterProgression
     {
         CharacterProgressData state = GetCharacter(id);
         int[] stats = { Characters.GetInt(id, 8), Characters.GetInt(id, 9), Characters.GetInt(id, 10) };
-        if (!state.IsUnlocked)
+        if (!state.IsAvailable)
         {
             return stats;
         }
@@ -149,7 +149,7 @@ public sealed class CharacterProgression
     {
         cost = new List<CharacterMaterialData>();
         CharacterProgressData state = GetCharacter(id);
-        if (!state.IsUnlocked)
+        if (!state.IsAvailable)
         {
             message = "아직 해금하지 않은 캐릭터입니다.";
             return false;

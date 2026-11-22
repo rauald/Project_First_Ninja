@@ -22,9 +22,9 @@ public sealed class CharacterDetailView : MonoBehaviour
         CsvTable table = characters.Characters;
         int id = presentation.CharacterId;
         _name.text = table.GetString(id, 0);
-        int rank = state.IsUnlocked ? state.Rank : 0;
-        int level = state.IsUnlocked ? state.Level : 1;
-        int stars = state.IsUnlocked ? state.Stars : 0;
+        int rank = state.IsAvailable ? state.Rank : 0;
+        int level = state.IsAvailable ? state.Level : 1;
+        int stars = state.IsAvailable ? state.Stars : 0;
         _rankLevel.text = $"{GetRankName(rank)}   Lv. {level}   {GetElementName(table.GetInt(id, 7))}";
         _stars.text = new string('★', stars) + new string('☆', 5 - stars);
         int[] stats = characters.GetStats(id);
@@ -73,7 +73,7 @@ public sealed class CharacterDetailView : MonoBehaviour
         CharacterProgressData state = characters.GetCharacter(id);
         // 각성기는 각성기 개방 패시브(세 번째 패시브)의 성급 조건을 함께 사용한다.
         int conditionField = 17 + Mathf.Min(slot, 2) * 2;
-        return state.IsUnlocked && state.Stars >= characters.Characters.GetInt(id, conditionField);
+        return state.IsAvailable && state.Stars >= characters.Characters.GetInt(id, conditionField);
     }
 
     public static string GetRankName(int rank)
