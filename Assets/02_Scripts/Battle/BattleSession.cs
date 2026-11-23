@@ -1,10 +1,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using TalentEffectType = TalentService.EffectType;
+using GearEffect = EquipmentInventory.EffectType;
 
 public sealed class BattleSession : MonoBehaviour
 {
     private const int CHEST_COUNT = 10;
+    // 스킬 선택지 새로고침을 해금하는 운명 개변 특성 ID다.
+    private const int SKILL_REFRESH_TALENT_ID = 1;
     private const int FINAL_WAVE = 5;
     private const int FIRST_WAVE_EXPERIENCE_ROW = 8;
     private const int NAMED_EXPERIENCE_ROW = 12;
@@ -27,6 +31,21 @@ public sealed class BattleSession : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController[] _characterAnimations;
     [SerializeField] private RuntimeAnimatorController[] _monsterAnimations;
     [SerializeField] private Sprite[] _attackIcons;
+
+    // 각성기 ID 19~24의 캐릭터별 컷신을 재생하는 Animator Controller다.
+    [SerializeField] private RuntimeAnimatorController[] _awakeningCutsceneControllers;
+    // 유성낙화의 소환 두루마리와 소멸 연기다.
+    [SerializeField] private Sprite _meteorScroll;
+    [SerializeField] private Sprite _meteorSmoke;
+    [SerializeField] private Sprite _meteorBody;
+    [SerializeField] private Sprite _meteorDebris;
+    [SerializeField] private Sprite[] _meteorGroundFire;
+    [SerializeField] private Sprite _meteorShockwave;
+    // 창해범람의 부상·회전·돌진을 4×4 순서로 담은 스프라이트 시트다.
+    [SerializeField] private Texture2D _oceanDragonSheet;
+
+    // 진기폭발과 유성낙화의 비교용 Particle System 연출을 선택한다.
+    [SerializeField] private bool _useParticleSystemAwakenings;
     [System.Serializable]
     private struct ElementalRange
     {
@@ -83,6 +102,13 @@ public sealed class BattleSession : MonoBehaviour
         [Min(0)] public int Id;
     }
 
+#if UNITY_EDITOR
+    [Header("각성기 테스트")]
+    // 에디터에서 성급에 관계없이 각성기 버튼을 표시한다.
+    [SerializeField] private bool _enableAwakeningForTesting;
+#endif
+
+
     [Header("레벨업 선택지 테스트")]
     [SerializeField] private bool _useTestChoices;
     [SerializeField] private TestSkill _testChoice1;
@@ -103,10 +129,16 @@ public sealed class BattleSession : MonoBehaviour
     }
 #endif
 
+    // 역할별 풀과 아직 슬롯을 받지 못한 일반 몬스터를 보관한다.
+    private readonly ObjectPool<SpriteRenderer>[] _actorPools = new ObjectPool<SpriteRenderer>[4];
+    private readonly ObjectPool<SpriteRenderer>[] _dropPools = new ObjectPool<SpriteRenderer>[3];
+    private readonly Queue<(int Field, int Row, int Wave)> _pendingEnemies = new();
+
     private sealed class Enemy
     {
         public SpriteRenderer View;
         public Animator Animator;
+        public ObjectPool<SpriteRenderer> Pool;
         public int Id;
         public float Health;
         public float AttackDelay;
@@ -116,10 +148,13 @@ public sealed class BattleSession : MonoBehaviour
         public int MarkedBy;
         public bool IsChest;
         public int ExperienceReward;
+        public int Wave;
     }
 
     private sealed class Drop
     {
+        public Vector2 Position;
+        public Sprite Sprite;
         public SpriteRenderer View;
         public int Type;
         public int Amount;
@@ -172,7 +207,13 @@ public sealed class BattleSession : MonoBehaviour
     private int _kills;
     private int _wave;
     private int _awakeningId;
-    private int[] _stats;
+    // 특성과 장착 장비까지 적용한 출전 능력치다.
+    private float _baseAttack;
+    private float _baseDefense;
+    private float _baseHealth;
+    private int[] _equipmentEffects;
+    // 전투 입장 시 읽은 습득 특성의 효과 종류별 합계다.
+    private int[] _talentEffects;
     private int _critical;
     private int _criticalDamage;
     private int _moveSpeed;
@@ -183,7 +224,76 @@ public sealed class BattleSession : MonoBehaviour
     private int _waterCasts;
     private float _spawnDelay;
     private int _regularSpawned;
+    // 한 전투에서 각성기를 사용했는지 기록한다.
     private bool _hasUsedAwakening;
+    // 현재 각성 연출과 경과 시간, 적용한 타격 수를 추적한다.
+    private BattleAwakeningEffect _awakeningEffect;
+    private ObjectPool<BattleAwakeningEffect> _activeAwakeningPool;
+    private readonly Dictionary<(int, bool), ObjectPool<BattleAwakeningEffect>> _awakeningPools = new();
+    private readonly Dictionary<(int, BattleSkillEffect.Channel), ObjectPool<BattleSkillEffect>> _skillPools = new();
+
+    private void PrepareEffectPools()
+    {
+        for (int id = 1; id <= 6; id++)
+        {
+            GetSkillPool(id, BattleSkillEffect.Channel.Basic);
+            GetSkillPool(id, BattleSkillEffect.Channel.Impact);
+        }
+        for (int id = 7; id <= 18; id++)
+            GetSkillPool(id, BattleSkillEffect.Channel.Elemental);
+        GetSkillPool(13, BattleSkillEffect.Channel.Impact);
+        for (int id = 19; id <= 24; id++)
+        {
+            GetSkillPool(id, BattleSkillEffect.Channel.Feedback);
+            GetAwakeningPool(id, false);
+        }
+        GetAwakeningPool(19, true);
+        GetAwakeningPool(20, true);
+    }
+
+    // 스킬 ID와 표현 방식별로 독립적인 풀을 만든다.
+    internal ObjectPool<BattleSkillEffect> GetSkillPool(int id, BattleSkillEffect.Channel channel)
+    {
+        var key = (id, channel);
+        if (!_skillPools.TryGetValue(key, out var pool))
+        {
+            pool = PoolManager.Instance.CreateScenePool(_actors,
+                root => BattleSkillEffect.CreatePooled(root, id, channel, this), 10);
+            _skillPools.Add(key, pool);
+        }
+        return pool;
+    }
+
+    private ObjectPool<BattleAwakeningEffect> GetAwakeningPool(int id, bool particle)
+    {
+        var key = (id, particle);
+        if (!_awakeningPools.TryGetValue(key, out var pool))
+        {
+            pool = PoolManager.Instance.CreateScenePool(_actors, root => CreateAwakening(root, id, particle), 1);
+            _awakeningPools.Add(key, pool);
+        }
+        return pool;
+    }
+
+    private BattleAwakeningEffect CreateAwakening(Transform root, int id, bool particle)
+    {
+        int index = id - 19;
+        RuntimeAnimatorController controller = _awakeningCutsceneControllers != null
+            && index < _awakeningCutsceneControllers.Length ? _awakeningCutsceneControllers[index] : null;
+        var effect = BattleAwakeningEffect.Create(root, _camera, controller, _player,
+            _attackIcons[id - 1], _player.sharedMaterial, id, particle);
+        if (id == 20)
+            effect.ConfigureMeteor(_meteorScroll, _meteorSmoke, _meteorBody, _meteorDebris, _meteorGroundFire, _meteorShockwave, _map);
+        if (id == 21 && _oceanDragonSheet != null)
+            effect.ConfigureOcean(_oceanDragonSheet, _map);
+        if (id == 22)
+            effect.ConfigureThornBloom(_map);
+        return effect;
+    }
+    private bool _awakeningHitApplied;
+    private float _awakeningAge;
+    // 시전 시점의 각성기 기본 피해다.
+    private float _awakeningDamage;
     private long _silver;
     private long _gold;
     private int _goldRemainder;
@@ -195,10 +305,13 @@ public sealed class BattleSession : MonoBehaviour
     private bool _hasRefreshedChoices;
 
     public BattleSkills Skills { get; private set; }
-    public bool IsEffectPaused => _isPausedByApp || _hud.HasModal;
+    public bool IsEffectPaused => _isPausedByApp || _hud.HasModal || _awakeningEffect != null;
     public SaveLoadData Settings => _game.Save.CurData;
     private int TargetExperience => _battleLevelData.Contains(_level) ? _battleLevelData.GetInt(_level, 0) : 0;
-    private float MaxHealth => _stats[2] * (1f + Skills.GetPassiveBonus(3) / 1000f);
+    private float MaxHealth => _baseHealth * (1f + Skills.GetPassiveBonus(3) / 1000f);
+
+    // 특성 데이터와 기존 전투 패시브의 단위는 천분율이다.
+    private int TalentValue(TalentEffectType type) => _talentEffects[(int)type];
 
     private void Start()
     {
@@ -217,16 +330,20 @@ public sealed class BattleSession : MonoBehaviour
         _monsterData = data.GetTable("MonsterData");
         _battleLevelData = data.GetTable("BattleLevelData");
         _defaultData = data.GetTable("DefaultData");
+        PreparePools();
         BeginStage();
     }
 
     private void BeginStage()
     {
-        foreach (Transform actor in _actors)
-        {
-            actor.gameObject.SetActive(false);
-            Destroy(actor.gameObject);
-        }
+        // 지연 반환을 취소한 뒤 재도전에 사용할 객체를 모두 회수한다.
+        StopAllCoroutines();
+        foreach (var pool in _actorPools) pool.ReturnAll();
+        foreach (var pool in _dropPools) pool.ReturnAll();
+        foreach (var pool in _skillPools.Values) pool.ReturnAll();
+        foreach (var pool in _awakeningPools.Values) pool.ReturnAll();
+        _pendingEnemies.Clear();
+        _hud.ResetDamageLabels();
         _enemies.Clear();
         _drops.Clear();
         _attacks.Clear();
@@ -242,6 +359,8 @@ public sealed class BattleSession : MonoBehaviour
         _spawnDelay = .5f;
         _regularSpawned = 0;
         _hasUsedAwakening = false;
+        _awakeningEffect = null;
+        _activeAwakeningPool = null;
         _isFinished = _isVictory = _isSettled = false;
         _hasRefreshedChoices = false;
         _player.transform.localPosition = Vector3.zero;
@@ -262,7 +381,7 @@ public sealed class BattleSession : MonoBehaviour
                 _characterPassives[passive] = passiveTable.GetInt(passive, 3) / 1000f;
             }
         }
-        _stats = characters.GetStats(character);
+        InitializeBattleStats(characters.GetStats(character));
         _critical = table.GetInt(character, 11);
         _criticalDamage = table.GetInt(character, 12);
         _moveSpeed = table.GetInt(character, 13);
@@ -270,9 +389,13 @@ public sealed class BattleSession : MonoBehaviour
         _cooldownReduction = table.GetInt(character, 15);
         _hasAwakening = table.GetInt(character, 20) > 0
             && stars >= table.GetInt(character, 21);
+#if UNITY_EDITOR
+        _hasAwakening |= _enableAwakeningForTesting;
+#endif
         _awakeningId = 19 + table.GetInt(character, 22);
         Skills = new BattleSkills(DataManager.Instance, 1 + table.GetInt(character, 2));
         _health = MaxHealth;
+        _shield = _health * EquipmentValue(GearEffect.StartingShield) / 1000f;
         SetPlayerSprite(_characters[character - 1]);
         _playerAnimator.runtimeAnimatorController = _characterAnimations[character - 1];
         _playerAnimator.Rebind();
@@ -282,7 +405,10 @@ public sealed class BattleSession : MonoBehaviour
         {
             Vector2 position = Random.insideUnitCircle * (_map.HalfExtent - 1f);
             position = position.normalized * Mathf.Max(2f, position.magnitude);
-            _enemies.Add(new Enemy { View = CreateActor("Chest", _chestSprite, position, .7f, 1), Health = 12f, IsChest = true });
+            var pool = _actorPools[3];
+            var chest = RentActor(pool, "Chest", _chestSprite, position, .7f, 1);
+            if (chest != null)
+                _enemies.Add(new Enemy { View = chest, Pool = pool, Health = 12f, IsChest = true });
         }
 
         _input.ResetStick();
@@ -290,6 +416,32 @@ public sealed class BattleSession : MonoBehaviour
         FollowPlayer();
         RefreshHud();
     }
+
+    // 전투 입장 시 장착 상태와 습득 특성을 읽어 시작 능력치를 확정한다.
+    private void InitializeBattleStats(int[] characterStats)
+    {
+        _talentEffects = _game.Talents.GetLearnedEffectTotals();
+        _equipmentEffects = _game.Equipment.GetEquippedEffectTotals(DataManager.Instance.GetTable("EquipLevelUp"));
+
+        // 캐릭터 수치에 장비 고정값을 더하고 출전 전에 확정되는 배율을 적용한다.
+        _baseAttack = (characterStats[0] + EquipmentValue(GearEffect.FlatAttack))
+            * (1f + (EquipmentValue(GearEffect.Attack) + TalentValue(TalentEffectType.Attack)) / 1000f);
+        _baseDefense = (characterStats[1] + EquipmentValue(GearEffect.FlatDefense))
+            * (1f + (EquipmentValue(GearEffect.Defense) + TalentValue(TalentEffectType.Defense)) / 1000f);
+        _baseHealth = (characterStats[2] + EquipmentValue(GearEffect.FlatHealth))
+            * (1f + (EquipmentValue(GearEffect.Health) + TalentValue(TalentEffectType.Health)) / 1000f);
+    }
+
+    // 장착 장비 효과의 합계를 읽는다.
+    private int EquipmentValue(GearEffect type) => _equipmentEffects[(int)type];
+
+    // 출전 시 이동속도에 전투 중 선택한 패시브 배율을 추가한다.
+    private float GetMoveSpeed()
+    {
+        int bonus = TalentValue(TalentEffectType.MoveSpeed) + EquipmentValue(GearEffect.MoveSpeed);
+        return _moveSpeed * .32f * (1f + bonus / 1000f) * (1f + Skills.GetPassiveBonus(6) / 1000f);
+    }
+
 
     private void Update()
     {
@@ -299,9 +451,15 @@ public sealed class BattleSession : MonoBehaviour
         }
 
         float delta = Time.deltaTime;
+        if (_awakeningEffect != null)
+        {
+            UpdateAwakening(delta);
+            return;
+        }
+
         Vector2 input = _input.Direction;
         Vector2 position = _map.ClampInside((Vector2)_player.transform.position
-            + input * (_moveSpeed * .32f * (1f + Skills.GetPassiveBonus(6) / 1000f) * delta), .4f);
+            + input * (GetMoveSpeed() * delta), .4f);
         _player.transform.position = position;
         _playerAnimator.SetBool(_isMovingParameter, input.sqrMagnitude > .01f);
         if (input.sqrMagnitude > .01f)
@@ -349,6 +507,8 @@ public sealed class BattleSession : MonoBehaviour
     {
         Vector3 screen = _camera.transform.position;
         Vector2 center = _map.FollowPosition(_player.transform.position, _camera);
+        // 추적 좌표를 매 프레임 새로 계산해 각성 흔들림이 누적되지 않게 한다.
+        center += _awakeningEffect != null ? _awakeningEffect.CameraOffset : Vector2.zero;
         _camera.transform.position = new Vector3(center.x, center.y, screen.z);
         _hud.MoveHealthBar(_camera.WorldToScreenPoint(_player.transform.position + Vector3.down * .55f));
     }
@@ -364,19 +524,20 @@ public sealed class BattleSession : MonoBehaviour
 
     private void SpawnWave(float delta)
     {
-        _spawnDelay -= delta;
         if (_wave >= FINAL_WAVE)
         {
             return;
         }
 
-        if (_spawnDelay <= 0f)
+        _spawnDelay -= delta;
+        if (_spawnDelay <= 0f || IsCurrentWaveCleared())
         {
-            _spawnDelay += _waveInterval;
+            _spawnDelay = _waveInterval;
             _regularSpawned = 0;
             _wave++;
             if (_wave == FINAL_WAVE)
             {
+                _pendingEnemies.Clear();
                 for (int i = _enemies.Count - 1; i >= 0; i--)
                 {
                     Enemy enemy = _enemies[i];
@@ -386,13 +547,13 @@ public sealed class BattleSession : MonoBehaviour
                         PlayEnemyDeath(enemy);
                     }
                 }
-                SpawnEnemy(6, NAMED_EXPERIENCE_ROW);
+                SpawnEnemy(6, NAMED_EXPERIENCE_ROW, _wave);
                 _hud.ShowSpawnWarning(true);
                 return;
             }
             if (_wave == 3)
             {
-                SpawnEnemy(5, NAMED_EXPERIENCE_ROW);
+                SpawnEnemy(5, NAMED_EXPERIENCE_ROW, _wave);
                 _hud.ShowSpawnWarning(false);
             }
         }
@@ -401,19 +562,40 @@ public sealed class BattleSession : MonoBehaviour
             return;
         }
 
-        int regularCount = (50 + (_wave - 1) * 10) * (1 - _wave / FINAL_WAVE) * 2;
+        int regularCount = GetRegularSpawnCount(_wave);
         float progress = Mathf.Clamp01((_waveInterval - _spawnDelay) / SPAWN_WINDOW);
         int due = progress >= 1f ? regularCount : Mathf.FloorToInt(progress * regularCount);
         while (_regularSpawned < due)
         {
             int field = _wave == 4 ? 2 + _regularSpawned % 3 : 1 + _wave;
-            SpawnEnemy(field, FIRST_WAVE_EXPERIENCE_ROW + _wave - 1);
+            _pendingEnemies.Enqueue((field, FIRST_WAVE_EXPERIENCE_ROW + _wave - 1, _wave));
             _regularSpawned++;
         }
+
+        while (_pendingEnemies.TryPeek(out var pending) && SpawnEnemy(pending.Field, pending.Row, pending.Wave))
+            _pendingEnemies.Dequeue();
     }
 
-    private void SpawnEnemy(int field, int experienceRow)
+    private static int GetRegularSpawnCount(int wave) => 100 + (wave - 1) * 20;
+
+    // 현재 웨이브의 생성과 대기가 끝났을 때 살아 있는 몬스터만 확인한다.
+    private bool IsCurrentWaveCleared()
     {
+        if (_wave == 0 || _regularSpawned < GetRegularSpawnCount(_wave) || _pendingEnemies.Count > 0)
+            return false;
+
+        foreach (Enemy enemy in _enemies)
+            if (!enemy.IsChest && enemy.Wave == _wave)
+                return false;
+        return true;
+    }
+
+    // 풀 상한에 도달하면 호출자가 해당 적을 다음 갱신까지 대기시킨다.
+    private bool SpawnEnemy(int field, int experienceRow, int wave)
+    {
+        var pool = _actorPools[field < 5 ? 0 : field - 4];
+        if (pool.AvailableCount == 0 && pool.RentedCount >= ObjectPool<SpriteRenderer>.MAX_INSTANCES)
+            return false;
         int id = _stageData.GetInt(_stageId, field);
         float edge = Mathf.Max(0f, _map.HalfExtent - 1f);
         float alongEdge = Random.Range(-edge, edge);
@@ -425,14 +607,19 @@ public sealed class BattleSession : MonoBehaviour
             _ => new Vector2(alongEdge, edge)
         };
         Sprite sprite = _monsters[id - 1];
-        SpriteRenderer view = CreateActor(_monsterData.GetString(id, 0), sprite, spawn, .72f + (field - 2) * .13f, 2);
-        Animator animator = view.gameObject.AddComponent<Animator>();
+        SpriteRenderer view = RentActor(pool, _monsterData.GetString(id, 0), sprite, spawn, .72f + (field - 2) * .13f, 2);
+        if (view == null)
+            return false;
+
+        Animator animator = view.GetComponent<Animator>();
         animator.runtimeAnimatorController = _monsterAnimations[id - 1];
+        animator.Rebind();
         _enemies.Add(new Enemy
         {
-            Id = id, Health = _monsterData.GetInt(id, 4), View = view, Animator = animator,
-            ExperienceReward = _defaultData.GetInt(experienceRow, 0)
+            Id = id, Health = _monsterData.GetInt(id, 4), View = view, Animator = animator, Pool = pool,
+            Wave = wave, ExperienceReward = _defaultData.GetInt(experienceRow, 0)
         });
+        return true;
     }
 
     private void MoveEnemies(float delta, Vector2 player)
@@ -471,7 +658,7 @@ public sealed class BattleSession : MonoBehaviour
             }
             enemy.AttackDelay = Mathf.Max(.3f, _monsterData.GetInt(enemy.Id, 8) / 10f);
             enemy.Animator.SetTrigger(_attackTrigger);
-            if (Random.value * 1000f >= _dodge)
+            if (Random.value * 1000f >= _dodge + TalentValue(TalentEffectType.Dodge) + EquipmentValue(GearEffect.Dodge))
             {
                 int pattern = _monsterData.GetInt(enemy.Id, 1) == 3 ? Random.Range(9, 12) : 9;
                 float damage = _monsterData.GetInt(enemy.Id, 2) * _monsterData.GetInt(enemy.Id, pattern)
@@ -480,8 +667,8 @@ public sealed class BattleSession : MonoBehaviour
                 {
                     damage *= 1f + _monsterData.GetInt(enemy.Id, 7) / 1000f;
                 }
-                float defense = _stats[1] * (1f + Skills.GetPassiveBonus(2) / 1000f);
-                damage = Mathf.Max(1f, damage * 100f / (100f + defense));
+                float defense = _baseDefense * (1f + Skills.GetPassiveBonus(2) / 1000f);
+                damage = Mathf.Max(1f, damage * 100f / (100f + defense) * (1f - Mathf.Clamp01(EquipmentValue(GearEffect.DamageReduction) / 1000f)));
                 float absorbed = Mathf.Min(_shield, damage);
                 _shield -= absorbed;
                 damage -= absorbed;
@@ -489,6 +676,7 @@ public sealed class BattleSession : MonoBehaviour
                 if (damage > 0f)
                 {
                     _hud.ShowDamage(_player.transform.position, damage, true);
+                    SoundManager.Instance?.PlayHit();
                 }
             }
         }
@@ -500,7 +688,7 @@ public sealed class BattleSession : MonoBehaviour
         {
             float remaining = _cooldowns.GetValueOrDefault(id) - delta;
             _cooldowns[id] = remaining;
-            if (remaining <= 0f && QueueAttack(id, false, out float cooldown))
+            if (remaining <= 0f && QueueAttack(id, out float cooldown))
             {
                 _cooldowns[id] = cooldown;
             }
@@ -551,17 +739,48 @@ public sealed class BattleSession : MonoBehaviour
         }
     }
 
-    private bool QueueAttack(int id, bool isAwakening, out float cooldown)
+    // 스킬 배율에 현재 공격력과 전투 중 공격 보너스를 적용한다.
+    private float CalculateSkillDamage(int skillId, float multiplier)
+    {
+        // 범용 공격력 강화와 10마리 단위로 누적되는 캐릭터 패시브를 합한다.
+        float bonus = Skills.GetPassiveBonus(1) / 1000f
+            + Mathf.Min(_kills / 10, 20) * _characterPassives[13];
+        return ApplySkillDamageBonuses(skillId, _baseAttack * multiplier * (1f + bonus) * 5f);
+    }
+
+    // 스킬 종류와 속성에 맞는 장비 및 특성 피해 보너스를 적용한다.
+    private float ApplySkillDamageBonuses(int skillId, float damage, bool isPassive = false)
+    {
+        int element = BattleSkills.GetActiveElement(skillId);
+        int bonus = _talentEffects[(int)TalentEffectType.NeutralDamage + element]
+            + _equipmentEffects[(int)GearEffect.NeutralDamage + element]
+            + EquipmentValue(GearEffect.AllSkillDamage);
+        if (!isPassive && skillId <= 6)
+        {
+            bonus += EquipmentValue(GearEffect.BasicDamage);
+        }
+        else if (!isPassive && skillId >= 19)
+        {
+            bonus += EquipmentValue(GearEffect.AwakeningDamage);
+        }
+        return damage * (1f + bonus / 1000f);
+    }
+
+    // 범위 보너스를 판정과 연출에서 공유하는 반경에 적용한다.
+    private float ApplySkillRangeBonuses(float radius) => radius * (1f + (TalentValue(TalentEffectType.SkillRange) + EquipmentValue(GearEffect.SkillRange)) / 1000f);
+
+
+    // 스킬 정의를 읽고 기본기 또는 속성기 시전을 예약한다.
+    private bool QueueAttack(int id, out float cooldown)
     {
         float? baseRadius = id is >= 7 and <= 18 && _elementalRanges != null && id - 7 < _elementalRanges.Length
             ? Mathf.Max(.01f, _elementalRanges[id - 7].Radius) : null;
         var attack = Skills.GetAttack(id, baseRadius);
-        cooldown = Mathf.Max(.25f, attack.Cooldown * (1f - _cooldownReduction / 1000f - _characterPassives[17]));
+        cooldown = Mathf.Max(.25f, attack.Cooldown * (1f - (_cooldownReduction + EquipmentValue(GearEffect.Cooldown)) / 1000f - _characterPassives[17]));
         int element = BattleSkills.GetActiveElement(id);
-        float radius = attack.Radius * (isAwakening ? 2.3f : 1f) * (element == 0 ? 1f + _characterPassives[1] : 1f);
+        float radius = ApplySkillRangeBonuses(attack.Radius * (element == 0 ? 1f + _characterPassives[1] : 1f));
         Vector2 player = _player.transform.position;
-        float damage = _stats[0] * attack.Damage * (1f + Skills.GetPassiveBonus(1) / 1000f
-            + Mathf.Min(_kills / 10, 20) * _characterPassives[13]) * 5f;
+        float damage = CalculateSkillDamage(id, attack.Damage);
         if (id is >= 1 and <= 6)
         {
             return QueueBasicAttack(id, radius, damage, attack.Count, attack.Duration);
@@ -571,33 +790,7 @@ public sealed class BattleSession : MonoBehaviour
             QueueElementalAttack(id, player, radius, damage, attack.Count, attack.Duration);
             return true;
         }
-        Enemy nearest = _enemies.Where(enemy => ((Vector2)enemy.View.transform.position - player).sqrMagnitude <= radius * radius)
-            .OrderBy(enemy => ((Vector2)enemy.View.transform.position - player).sqrMagnitude).FirstOrDefault();
-        bool isGrounded = id is 20 or 22;
-        Vector2 target = nearest == null
-            ? (isGrounded ? player : player + _facing * radius)
-            : nearest.View.transform.position;
-        float startup = id == 20 ? .25f : .10f;
-        float duration = attack.Duration;
-        _attacks.Add(new Attack
-        {
-            Id = id,
-            Center = target,
-            IsGrounded = isGrounded,
-            Radius = radius,
-            Damage = damage,
-            Count = attack.Count,
-            IsArea = isAwakening,
-            Delay = startup,
-            Remaining = startup + Mathf.Max(.05f, duration),
-            Interval = Mathf.Max(.35f, cooldown)
-        });
-        BattleSkillEffect.Play(this, _actors, _player.transform, id, _attackIcons[id - 1], target, radius, duration, attack.Count);
-        if (element == 2 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
-        {
-            QueuePassiveHit(21, target, radius, _stats[0] * _characterPassives[8] * 5f);
-        }
-        return true;
+        return false;
     }
 
     private bool QueueBasicAttack(int id, float radius, float damage, int count, float duration)
@@ -623,7 +816,7 @@ public sealed class BattleSession : MonoBehaviour
         if (id == 3 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
         {
             Vector2 center = targets.Length == 0 ? origin : targets[0].View.transform.position;
-            QueuePassiveHit(21, center, radius, _stats[0] * _characterPassives[8] * 5f);
+            QueuePassiveHit(21, center, radius, _baseAttack * _characterPassives[8] * 5f);
         }
         return true;
     }
@@ -661,7 +854,7 @@ public sealed class BattleSession : MonoBehaviour
         attack.Start = origin + direction * launchOffset;
         attack.Center = attack.Start + direction * attack.Travel;
         attack.Pierced = piercing ? new HashSet<Enemy>() : null;
-        attack.Flight = BattleSkillEffect.PlayBasic(this, _actors, attack.Id, attack.Start, attack.Center,
+        attack.Flight = BattleSkillEffect.PlayBasic(this, attack.Id, attack.Start, attack.Center,
             direction, size, attack.Radius, attack.TravelTime);
     }
 
@@ -682,11 +875,11 @@ public sealed class BattleSession : MonoBehaviour
             {
                 if (attack.Progress >= 1f)
                 {
-                    attack.Flight.EndFlight();
+                    attack.Flight?.EndFlight();
                 }
                 else
                 {
-                    attack.Flight.SetFlightPose(attack.Start + attack.Direction * (attack.Progress * attack.Travel),
+                    attack.Flight?.SetFlightPose(attack.Start + attack.Direction * (attack.Progress * attack.Travel),
                         attack.Direction);
                 }
             }
@@ -790,7 +983,7 @@ public sealed class BattleSession : MonoBehaviour
         }
         if (id is 11 or 12 && _characterPassives[8] > 0f && ++_waterCasts % 5 == 0)
         {
-            QueuePassiveHit(21, origin, radius, _stats[0] * _characterPassives[8] * 5f);
+            QueuePassiveHit(21, origin, radius, _baseAttack * _characterPassives[8] * 5f);
         }
     }
 
@@ -813,7 +1006,7 @@ public sealed class BattleSession : MonoBehaviour
             delta = -attack.Delay;
             attack.HasLaunched = true;
             Vector2 position = attack.Id is 7 or 9 or 13 ? attack.Start : attack.Center;
-            attack.Flight = BattleSkillEffect.PlayElemental(this, _actors, attack.Id, position, attack.Direction, attack.Count);
+            attack.Flight = BattleSkillEffect.PlayElemental(this, attack.Id, position, attack.Direction, attack.Count);
         }
         float previous = attack.Elapsed;
         attack.Elapsed = Mathf.Min(attack.Remaining, previous + delta);
@@ -841,12 +1034,12 @@ public sealed class BattleSession : MonoBehaviour
         {
             if (attack.Id == 13)
             {
-                BattleSkillEffect.PlayImpact(this, _actors, 13, attack.Center, attack.Direction, attack.Radius * .8f);
+                BattleSkillEffect.PlayImpact(this, 13, attack.Center, attack.Direction, attack.Radius * .8f);
             }
-            attack.Flight.EndFlight();
+            attack.Flight?.EndFlight();
             return true;
         }
-        attack.Flight.SetElementalPose(attack.Start, attack.Center, attack.Direction, attack.Radius,
+        attack.Flight?.SetElementalPose(attack.Start, attack.Center, attack.Direction, attack.Radius,
             attack.Elapsed, attack.Remaining, attack.Count);
         return false;
     }
@@ -918,17 +1111,17 @@ public sealed class BattleSession : MonoBehaviour
         if (hit != null && TouchesPath(hit, attack.Center, attack.Direction, 0f, step, width, out _))
         {
             HitBasicEnemy(attack, hit);
-            attack.Flight.EndFlight();
+            attack.Flight?.EndFlight();
             attack.Progress = 1f;
             return;
         }
 
         attack.Center += attack.Direction * step;
-        attack.Flight.SetFlightPose(attack.Center, attack.Direction);
+        attack.Flight?.SetFlightPose(attack.Center, attack.Direction);
         float limit = _map.HalfExtent + attack.CharacterSize;
         if (Mathf.Abs(attack.Center.x) > limit || Mathf.Abs(attack.Center.y) > limit)
         {
-            attack.Flight.EndFlight();
+            attack.Flight?.EndFlight();
             attack.Progress = 1f;
         }
     }
@@ -950,7 +1143,7 @@ public sealed class BattleSession : MonoBehaviour
 
     private void HitBasicEnemy(Attack attack, Enemy enemy)
     {
-        BattleSkillEffect.PlayImpact(this, _actors, attack.Id, enemy.View.transform.position,
+        BattleSkillEffect.PlayImpact(this, attack.Id, enemy.View.transform.position,
             attack.Direction, attack.CharacterSize);
         DamageEnemy(attack, enemy, attack.Start);
     }
@@ -974,14 +1167,19 @@ public sealed class BattleSession : MonoBehaviour
     private void DamageEnemy(Attack attack, Enemy enemy, Vector2 player)
     {
         float damage = attack.Damage;
-        if (Random.value * 1000f < _critical + Skills.GetPassiveBonus(4))
+        if (Random.value * 1000f < _critical + Skills.GetPassiveBonus(4) + TalentValue(TalentEffectType.CriticalChance) + EquipmentValue(GearEffect.CriticalChance) + EquipmentValue(GearEffect.CriticalChanceAndDamage))
         {
-            damage *= 1f + (_criticalDamage + Skills.GetPassiveBonus(5)) / 1000f
+            damage *= 1f + (_criticalDamage + Skills.GetPassiveBonus(5) + TalentValue(TalentEffectType.CriticalDamage) + EquipmentValue(GearEffect.CriticalDamage) + EquipmentValue(GearEffect.CriticalChanceAndDamage)) / 1000f
                 + _characterPassives[14] * _health / MaxHealth;
         }
         if (!enemy.IsChest)
         {
-            damage *= 100f / (100f + _monsterData.GetInt(enemy.Id, 3));
+            int grade = _monsterData.GetInt(enemy.Id, 1);
+            int bonus = grade == 3 ? EquipmentValue(GearEffect.BossDamage)
+                : grade == 1 ? EquipmentValue(GearEffect.NormalEnemyDamage) : 0;
+            float defense = _monsterData.GetInt(enemy.Id, 3)
+                * (1f - Mathf.Clamp01(EquipmentValue(GearEffect.IgnoreDefense) / 1000f));
+            damage *= (1f + bonus / 1000f) * 100f / (100f + defense);
             if (!attack.IsPassive)
             {
                 damage = ApplyElementPassives(enemy, attack.Id, damage);
@@ -1040,6 +1238,9 @@ public sealed class BattleSession : MonoBehaviour
 
     private void QueuePassiveHit(int skillId, Vector2 position, float radius, float damage, int visualId = 0)
     {
+        int effectId = visualId == 0 ? skillId : visualId;
+        radius = ApplySkillRangeBonuses(radius);
+        damage = ApplySkillDamageBonuses(effectId, damage, true);
         _attacks.Add(new Attack
         {
             Id = skillId,
@@ -1053,12 +1254,12 @@ public sealed class BattleSession : MonoBehaviour
             Remaining = .25f,
             Interval = 1f
         });
-        PlayPassiveFeedback(visualId == 0 ? skillId : visualId, position, radius);
+        PlayPassiveFeedback(effectId, position, radius);
     }
 
     private void PlayPassiveFeedback(int visualId, Vector2 position, float radius)
     {
-        BattleSkillEffect.Play(this, _actors, _player.transform, visualId, _attackIcons[visualId - 1], position, radius, .65f, 1);
+        BattleSkillEffect.Play(this, _player.transform, visualId, _attackIcons[visualId - 1], position, radius, .65f, 1);
     }
 
     private void RemoveEnemy(Enemy enemy)
@@ -1068,9 +1269,10 @@ public sealed class BattleSession : MonoBehaviour
         if (!enemy.IsChest)
         {
             _kills++;
+            SoundManager.Instance?.PlayEnemyDefeat();
             if (enemy.BurnTime > 0f && _characterPassives[5] > 0f)
             {
-                QueuePassiveHit(19, position, 1.5f, _stats[0] * _characterPassives[5] * 5f, 20);
+                QueuePassiveHit(19, position, 1.5f, _baseAttack * _characterPassives[5] * 5f, 20);
             }
             if (_characterPassives[10] > 0f)
             {
@@ -1085,13 +1287,14 @@ public sealed class BattleSession : MonoBehaviour
         _drops.Add(new Drop
         {
             Type = type, Amount = amount,
-            View = CreateActor("Pickup", sprite, position, .25f, 1),
+            Position = position, Sprite = sprite,
+            View = RentActor(_dropPools[type], "Pickup", sprite, position, .25f, 1),
             CanCollectAt = Time.time + (type == 0 ? .2f : 0f)
         });
         _enemies.Remove(enemy);
         if (enemy.IsChest)
         {
-            Despawn(enemy.View);
+            enemy.Pool.Return(enemy.View);
         }
         else
         {
@@ -1112,11 +1315,18 @@ public sealed class BattleSession : MonoBehaviour
         return _experienceSprites[index];
     }
 
-    private static void PlayEnemyDeath(Enemy enemy)
+    private void PlayEnemyDeath(Enemy enemy)
     {
         enemy.Animator.SetTrigger(_deathTrigger);
         enemy.View.sortingOrder = 0;
-        Destroy(enemy.View.gameObject, .65f);
+        StartCoroutine(ReturnAfterDeath(enemy));
+    }
+
+    // 사망 연출이 끝나면 같은 슬롯을 다시 사용할 수 있다.
+    private System.Collections.IEnumerator ReturnAfterDeath(Enemy enemy)
+    {
+        yield return new WaitForSeconds(.65f);
+        enemy.Pool.Return(enemy.View);
     }
 
     private void CollectDrops(float delta, Vector2 player)
@@ -1124,27 +1334,33 @@ public sealed class BattleSession : MonoBehaviour
         for (int i = _drops.Count - 1; i >= 0; i--)
         {
             Drop drop = _drops[i];
-            Vector2 position = drop.View.transform.position;
-            float pickupRadius = 1.75f * (1f + _characterPassives[16]);
+            Vector2 position = drop.Position;
+            // 표시 슬롯이 꽉 차도 보상은 위치를 유지하며 정상적으로 수집된다.
+            if (drop.View == null)
+                drop.View = RentActor(_dropPools[drop.Type], "Pickup", drop.Sprite, position, .25f, 1);
+            float pickupRadius = 1.75f * (1f + _characterPassives[16] + (TalentValue(TalentEffectType.PickupRange) + EquipmentValue(GearEffect.PickupRange)) / 1000f);
             drop.IsAttracted |= (position - player).sqrMagnitude < pickupRadius * pickupRadius;
             if (!drop.IsAttracted || Time.time < drop.CanCollectAt)
             {
                 continue;
             }
-            drop.View.transform.position = Vector2.MoveTowards(position, player, 8f * delta);
-            if (((Vector2)drop.View.transform.position - player).sqrMagnitude > .09f)
+            drop.Position = Vector2.MoveTowards(position, player, 8f * delta);
+            if (drop.View != null)
+                drop.View.transform.position = drop.Position;
+            if ((drop.Position - player).sqrMagnitude > .09f)
             {
                 continue;
             }
 
             _drops.RemoveAt(i);
-            Despawn(drop.View);
+            if (drop.View != null)
+                _dropPools[drop.Type].Return(drop.View);
             switch (drop.Type)
             {
                 case 0:
                     if (TargetExperience > 0)
                     {
-                        _experience += drop.Amount * (1f + Skills.GetPassiveBonus(11) / 1000f);
+                        _experience += drop.Amount * (1f + (Skills.GetPassiveBonus(11) + TalentValue(TalentEffectType.ExperienceGain) + EquipmentValue(GearEffect.ExperienceGain)) / 1000f);
                         if (ProcessLevelUps())
                         {
                             return;
@@ -1152,10 +1368,10 @@ public sealed class BattleSession : MonoBehaviour
                     }
                     break;
                 case 1:
-                    _silver += Mathf.RoundToInt(drop.Amount * (1f + Skills.GetPassiveBonus(10) / 1000f));
+                    _silver += Mathf.RoundToInt(drop.Amount * (1f + (Skills.GetPassiveBonus(10) + TalentValue(TalentEffectType.SilverGain)) / 1000f));
                     break;
                 case 2:
-                    int goldUnits = drop.Amount * (1000 + Skills.GetPassiveBonus(10)) + _goldRemainder;
+                    int goldUnits = drop.Amount * (1000 + Skills.GetPassiveBonus(10) + TalentValue(TalentEffectType.GoldGain) + EquipmentValue(GearEffect.GoldGain)) + _goldRemainder;
                     _gold += goldUnits / 1000;
                     _goldRemainder = goldUnits % 1000;
                     break;
@@ -1170,6 +1386,7 @@ public sealed class BattleSession : MonoBehaviour
         {
             _experience -= target;
             _level++;
+            SoundManager.Instance?.PlayLevelUp();
             target = TargetExperience;
             if (target <= 0)
             {
@@ -1184,23 +1401,50 @@ public sealed class BattleSession : MonoBehaviour
         return false;
     }
 
-    private SpriteRenderer CreateActor(string actorName, Sprite sprite, Vector2 position, float height, int sortingOrder)
+    // 씬을 처음 열 때 종류별 초기 수량을 준비한다.
+    private void PreparePools()
     {
-        GameObject actor = new(actorName);
-        actor.transform.SetParent(_actors, false);
-        actor.transform.position = position;
-        actor.transform.localScale = Vector3.one * (height / sprite.bounds.size.y);
-        SpriteRenderer view = actor.AddComponent<SpriteRenderer>();
+        for (int i = 0; i < _actorPools.Length; i++)
+        {
+            bool animated = i < 3;
+            _actorPools[i] = PoolManager.Instance.CreateScenePool(_actors,
+                root => CreateActorView(root, animated), i switch { 0 => 200, 3 => CHEST_COUNT, _ => 1 });
+        }
+
+        for (int i = 0; i < _dropPools.Length; i++)
+            _dropPools[i] = PoolManager.Instance.CreateScenePool(_actors, root => CreateActorView(root, false), 10);
+
+        PrepareEffectPools();
+    }
+
+    private static SpriteRenderer CreateActorView(Transform root, bool animated)
+    {
+        var actor = new GameObject("Pooled battle actor");
+        actor.transform.SetParent(root, false);
+        if (animated)
+            actor.AddComponent<Animator>();
+        return actor.AddComponent<SpriteRenderer>();
+    }
+
+    // 위치와 표시 속성을 초기화해 이전 대여 상태가 남지 않게 한다.
+    private static SpriteRenderer RentActor(ObjectPool<SpriteRenderer> pool, string actorName, Sprite sprite,
+        Vector2 position, float height, int sortingOrder)
+    {
+        var view = pool.Rent(position, Quaternion.identity);
+        if (view == null)
+            return null;
+
+        view.gameObject.name = actorName;
+        view.transform.localScale = Vector3.one * (height / sprite.bounds.size.y);
         view.sprite = sprite;
+        view.color = Color.white;
+        view.flipX = view.flipY = false;
         view.sortingOrder = sortingOrder;
         return view;
     }
 
-    private static void Despawn(SpriteRenderer view)
-    {
-        view.gameObject.SetActive(false);
-        Destroy(view.gameObject);
-    }
+    // 로비에서 운명 개변을 습득했을 때만 전투 중 새로고침을 허용한다.
+    private bool HasRefreshTalent => _game.Talents.IsLearned(SKILL_REFRESH_TALENT_ID);
 
     private bool DrawChoices()
     {
@@ -1218,13 +1462,13 @@ public sealed class BattleSession : MonoBehaviour
         {
             return false;
         }
-        _hud.ShowChoices(_choices, !_hasRefreshedChoices);
+        _hud.ShowChoices(_choices, HasRefreshTalent, _hasRefreshedChoices);
         return true;
     }
 
     public void RefreshChoices()
     {
-        if (_choices.Count > 0 && !_hasRefreshedChoices)
+        if (_choices.Count > 0 && !_hasRefreshedChoices && HasRefreshTalent)
         {
             _hasRefreshedChoices = true;
             DrawChoices();
@@ -1245,20 +1489,91 @@ public sealed class BattleSession : MonoBehaviour
         _hud.CloseModal();
         if (!choice.IsActive)
         {
-            BattleSkillEffect.Play(this, _actors, _player.transform, 19, _hud.GetSkillIcon(choice.Id, false),
+            BattleSkillEffect.Play(this, _player.transform, 19, _hud.GetSkillIcon(choice.Id, false),
                 _player.transform.position, .75f, .65f, 1);
         }
         RefreshHud();
     }
 
+    // 해금한 각성기를 전투에서 한 번만 발동한다.
     public void ActivateAwakening()
     {
-        if (!_hasAwakening || _hasUsedAwakening || _isFinished || _hud.HasModal || _isPausedByApp)
+        if (Skills == null || !_hasAwakening || _hasUsedAwakening || _isFinished
+            || _hud.HasModal || _isPausedByApp || _awakeningId is < 19 or > 24)
         {
             return;
         }
-        _hasUsedAwakening = QueueAttack(_awakeningId, true, out _);
+
+        // 연출이 시작되면 이전 터치를 해제하고 이동 애니메이션을 멈춘다.
+        _activeAwakeningPool = GetAwakeningPool(_awakeningId, _useParticleSystemAwakenings && _awakeningId is 19 or 20);
+        _awakeningEffect = _activeAwakeningPool.Rent(Vector3.zero, Quaternion.identity);
+        if (_awakeningEffect == null)
+            return;
+
+        _awakeningEffect.BeginCast(_player.sprite);
+        _hasUsedAwakening = true;
+        SoundManager.Instance?.PlayAwakening();
+        _awakeningAge = 0f;
+        _awakeningHitApplied = false;
+        // 시전 시점의 공격력과 데이터 배율로 최종 타격에 사용할 피해를 계산한다.
+        _awakeningDamage = CalculateSkillDamage(_awakeningId, Skills.GetAttack(_awakeningId).Damage);
+
+        _input.ResetStick();
+        _playerAnimator.SetBool(_isMovingParameter, false);
         RefreshHud();
+    }
+
+    // 연출마다 정해진 타격 순간에 한 번 피해를 적용하고 종료 시 풀에 반환한다.
+    private void UpdateAwakening(float delta)
+    {
+        _awakeningAge += delta;
+        bool isPlaying = _awakeningAge < BattleAwakeningEffect.CUTSCENE_DURATION + BattleAwakeningEffect.EFFECT_DURATION;
+        if (isPlaying)
+            _awakeningEffect.Render(_awakeningAge, delta);
+
+        if (!_awakeningHitApplied && _awakeningAge >= _awakeningEffect.ImpactAge)
+        {
+            _awakeningHitApplied = true;
+            HitAwakeningTargets();
+        }
+        if (isPlaying)
+            return;
+
+        _activeAwakeningPool.Return(_awakeningEffect);
+        _activeAwakeningPool = null;
+        _awakeningEffect = null;
+#if UNITY_EDITOR
+        // 테스트 중에는 타격이 끝나야 같은 전투에서 다시 시전할 수 있다.
+        if (_enableAwakeningForTesting)
+        {
+            _hasUsedAwakening = false;
+        }
+#endif
+        _input.ResetStick();
+        RefreshHud();
+    }
+
+    // 현재 맵에 살아 있는 몬스터와 보스에 각성기 피해를 준다.
+    private void HitAwakeningTargets()
+    {
+        var attack = new Attack { Id = _awakeningId, Damage = _awakeningDamage };
+        Vector2 player = _player.transform.position;
+
+        // 처치 시 원본 목록이 바뀌므로 타격 시작 시의 적 목록을 순회한다.
+        foreach (Enemy enemy in _enemies.ToArray())
+        {
+            if (enemy.IsChest)
+            {
+                continue;
+            }
+
+            DamageEnemy(attack, enemy, player);
+            if (_awakeningId == 24 && enemy.Health > 0f)
+            {
+                Vector2 position = enemy.View.transform.position;
+                enemy.View.transform.position = _map.ClampInside(position + (position - player).normalized * 1.2f, .4f);
+            }
+        }
     }
 
     private void RefreshHud()
@@ -1266,6 +1581,7 @@ public sealed class BattleSession : MonoBehaviour
         int target = TargetExperience;
         _hud.Refresh(_level, target > 0 ? Mathf.Clamp01(_experience / target) : 1f, _health / MaxHealth, _silver, _gold,
             _hasAwakening, _hasUsedAwakening);
+        _hud.SetWaveStatus(_wave, FINAL_WAVE, _spawnDelay);
     }
 
     private void Finish(bool isVictory)
@@ -1275,10 +1591,11 @@ public sealed class BattleSession : MonoBehaviour
         {
             if (attack.Id is >= 7 and <= 18 && attack.Flight != null)
             {
-                attack.Flight.EndFlight();
+                attack.Flight?.EndFlight();
             }
         }
         _isVictory = isVictory;
+        SoundManager.Instance?.PlayResult(isVictory);
         _playerAnimator.SetBool(_isMovingParameter, false);
         if (!isVictory)
         {
@@ -1311,6 +1628,21 @@ public sealed class BattleSession : MonoBehaviour
         {
             BeginStage();
         }
+    }
+
+    // 수집한 재화만 정산하고 저장 성공 시 로비로 전환한다.
+    internal bool ReturnToLobbyDuringBattle()
+    {
+        if (Skills == null || _isFinished)
+            return false;
+
+        if (!_isSettled)
+            _isSettled = _game.TrySettleBattle(false, _silver, _gold, out _, out _);
+        if (!_isSettled)
+            return false;
+
+        _game.StartAsyncLoad(SceneType.Lobby);
+        return true;
     }
 
     public void LeaveBattle()

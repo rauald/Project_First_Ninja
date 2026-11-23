@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public sealed class BattleSkillEffect : MonoBehaviour
+public sealed class BattleSkillEffect : MonoBehaviour, IPoolable
 {
     private enum MotionType { None = -1, Slash, Projectile, Orbit, Ground, Rise, Fall, Wave, Burst, Max }
 
@@ -48,12 +48,72 @@ public sealed class BattleSkillEffect : MonoBehaviour
         new(.94f, .46f, .23f), new(.66f, .43f, .27f), new(.43f, .86f, .79f), new(.42f, .93f, .80f)
     };
 
+    internal enum Channel { Basic, Elemental, Impact, Feedback }
+
+    // 자신을 대여한 풀에만 반환한다.
+    private ObjectPool<BattleSkillEffect> _pool;
+
+    internal static BattleSkillEffect CreatePooled(Transform root, int id, Channel channel, BattleSession battle)
+    {
+        var effect = new GameObject($"Skill {id} {channel}").AddComponent<BattleSkillEffect>();
+        effect.transform.SetParent(root, false);
+        effect._basicId = channel == Channel.Feedback ? 0 : id;
+        if (channel == Channel.Feedback)
+            effect._view = effect.gameObject.AddComponent<SpriteRenderer>();
+        else if (channel == Channel.Basic)
+            effect.EnsureStrokes(id is 1 or 4 ? 8 : 9);
+        else if (channel == Channel.Elemental && battle.GetElementalSprite(id - 7) != null)
+            effect.CreateElementalLayers(id == 8 ? 4 : id == 10 ? 1 : id == 14 ? 13 : id is 15 or 17 ? 7 : 1);
+        else if (channel == Channel.Impact && id == 13 && battle.GetElementalSprite(6) != null)
+            effect.CreateElementalLayers(7);
+        else
+        {
+            effect.EnsureStrokes(channel == Channel.Impact ? 7 : id == 10 ? 5 : 12);
+            if (channel == Channel.Elemental)
+                effect.CreateInkMesh();
+        }
+        return effect;
+    }
+
+    // 이전 타격 시간과 표시 상태는 반납 때 초기화한다.
+    public void OnRent() { }
+
+    public void OnReturn()
+    {
+        _pool = null;
+        _elapsed = 0f;
+        _life = 0f;
+        _isImpact = _isFlightControlled = false;
+        _battle = null;
+        _caster = null;
+        if (_view != null) _view.sprite = null;
+        if (_ink != null) _ink.Clear();
+        if (_strokes != null)
+            foreach (var stroke in _strokes) stroke.positionCount = 0;
+        if (_elementalLayers != null)
+            foreach (var layer in _elementalLayers) layer.sprite = null;
+    }
+
+    private static BattleSkillEffect Rent(BattleSession battle, int id, Channel channel)
+    {
+        var pool = battle.GetSkillPool(id, channel);
+        var effect = pool.Rent(Vector3.zero, Quaternion.identity);
+        if (effect == null)
+            return null;
+
+        effect._pool = pool;
+        effect._battle = battle;
+        effect.enabled = true;
+        return effect;
+    }
+
     public static float GetSweepHalfAngle(int skillId) => skillId == 4 ? 68f : 60f;
 
-    public static BattleSkillEffect PlayBasic(BattleSession battle, Transform parent, int id, Vector2 start,
+    public static BattleSkillEffect PlayBasic(BattleSession battle, int id, Vector2 start,
         Vector2 end, Vector2 direction, float characterSize, float radius, float travelTime)
     {
-        var effect = CreateStrokes(battle, parent, id, start, direction, characterSize, id is 1 or 4 ? 8 : 9);
+        var effect = CreateStrokes(battle, id, start, direction, characterSize, id is 1 or 4 ? 8 : 9);
+        if (effect == null) return null;
         effect._end = end;
         effect._radius = radius;
         effect._travelTime = travelTime;
@@ -76,18 +136,16 @@ public sealed class BattleSkillEffect : MonoBehaviour
 
     public void EndFlight()
     {
-        gameObject.SetActive(false);
-        Destroy(gameObject);
+        _pool?.Return(this);
     }
 
-    public static BattleSkillEffect PlayElemental(BattleSession battle, Transform parent, int id,
+    public static BattleSkillEffect PlayElemental(BattleSession battle, int id,
         Vector2 start, Vector2 direction, int count)
     {
         if (battle != null && battle.GetElementalSprite(id - 7) != null)
         {
-            var root = new GameObject($"Elemental skill {id}");
-            root.transform.SetParent(parent, false);
-            var spriteEffect = root.AddComponent<BattleSkillEffect>();
+            var spriteEffect = Rent(battle, id, Channel.Elemental);
+            if (spriteEffect == null) return null;
             spriteEffect._battle = battle;
             spriteEffect._basicId = id;
             spriteEffect.CreateElementalLayers(id == 8 ? 4 : id == 10 ? Mathf.Max(1, count) :
@@ -95,8 +153,9 @@ public sealed class BattleSkillEffect : MonoBehaviour
             spriteEffect.enabled = false;
             return spriteEffect;
         }
-        var effect = CreateStrokes(battle, parent, id, start, direction, 1f, id == 10 ? count * 3 + 2 : 12);
-        effect.CreateInkMesh();
+        var effect = CreateStrokes(battle, id, start, direction, 1f, id == 10 ? count * 3 + 2 : 12, Channel.Elemental);
+        if (effect == null) return null;
+        if (effect._ink == null) effect.CreateInkMesh();
         effect.enabled = false;
         return effect;
     }
@@ -147,7 +206,7 @@ public sealed class BattleSkillEffect : MonoBehaviour
                     DrawTeeth(layer + 1, blade, radius * .19f, 4, .47f, age * 24f + i, .17f, _tint, fade);
                     DrawArc(layer + 2, blade, radius * .32f, 1f, age * 8f, 4.5f, .06f, _tint, fade * .8f);
                 }
-                DrawPulse(_strokes.Length - 1, center, radius, age, .4f, fade * .45f);
+                DrawPulse(count * 3 + 1, center, radius, age, .4f, fade * .45f);
                 break;
             case 11:
                 center = GetPuddleCenter(center);
@@ -206,8 +265,10 @@ public sealed class BattleSkillEffect : MonoBehaviour
 
     private void CreateElementalLayers(int count)
     {
-        _elementalLayers = new SpriteRenderer[count];
-        for (int i = 0; i < count; i++)
+        int existing = _elementalLayers?.Length ?? 0;
+        if (count <= existing) return;
+        System.Array.Resize(ref _elementalLayers, count);
+        for (int i = existing; i < count; i++)
         {
             var layer = new GameObject("Sprite");
             layer.transform.SetParent(transform, false);
@@ -463,14 +524,13 @@ public sealed class BattleSkillEffect : MonoBehaviour
         _ink.SetColors(_pigment);
         _ink.SetTriangles(_indices,0);
     }
-    public static void PlayImpact(BattleSession battle, Transform parent, int id, Vector2 center,
+    public static void PlayImpact(BattleSession battle, int id, Vector2 center,
         Vector2 direction, float characterSize)
     {
         if (id == 13 && battle.GetElementalSprite(6) != null)
         {
-            var effectObject = new GameObject("Fruit burst");
-            effectObject.transform.SetParent(parent, false);
-            var burst = effectObject.AddComponent<BattleSkillEffect>();
+            var burst = Rent(battle, id, Channel.Impact);
+            if (burst == null) return;
             burst._battle = battle;
             burst._basicId = id;
             burst._start = center;
@@ -481,42 +541,49 @@ public sealed class BattleSkillEffect : MonoBehaviour
             burst.RenderFragments(6, center, characterSize, 0f);
             return;
         }
-        var effect = CreateStrokes(battle, parent, id, center, direction, characterSize, 7);
+        var effect = CreateStrokes(battle, id, center, direction, characterSize, 7, Channel.Impact);
+        if (effect == null) return;
         effect._isImpact = true;
         effect._life = .24f;
         effect.RenderImpact();
     }
 
-    private static BattleSkillEffect CreateStrokes(BattleSession battle, Transform parent, int id,
-        Vector2 origin, Vector2 direction, float characterSize, int count)
+    private static BattleSkillEffect CreateStrokes(BattleSession battle, int id,
+        Vector2 origin, Vector2 direction, float characterSize, int count, Channel channel = Channel.Basic)
     {
-        if (_strokeMaterial == null)
-        {
-            _strokeMaterial = new Material(Shader.Find("Sprites/Default")) { hideFlags = HideFlags.HideAndDontSave };
-        }
-        GameObject effect = new($"Basic attack {id}");
-        effect.transform.SetParent(parent, false);
-        var view = effect.AddComponent<BattleSkillEffect>();
-        view._battle = battle;
-        view._basicId = id;
+        var view = Rent(battle, id, channel);
+        if (view == null)
+            return null;
+
         view._start = origin;
         view._direction = direction;
         view._characterSize = characterSize;
         view._tint = id <= 6 ? _colors[id - 1] : _elementalColors[id - 7];
-        view._strokes = new LineRenderer[count];
-        for (int i = 0; i < count; i++)
+        view.EnsureStrokes(count);
+        return view;
+    }
+
+    // 처음 준비한 선을 재사용하고 스킬 단계가 요구하는 수량만 추가한다.
+    private void EnsureStrokes(int count)
+    {
+        int existing = _strokes?.Length ?? 0;
+        if (count <= existing) return;
+        if (_strokeMaterial == null)
+            _strokeMaterial = new Material(Shader.Find("Sprites/Default")) { hideFlags = HideFlags.HideAndDontSave };
+
+        System.Array.Resize(ref _strokes, count);
+        for (int i = existing; i < count; i++)
         {
-            GameObject layer = new("Stroke");
-            layer.transform.SetParent(effect.transform, false);
+            var layer = new GameObject("Stroke");
+            layer.transform.SetParent(transform, false);
             var stroke = layer.AddComponent<LineRenderer>();
             stroke.sharedMaterial = _strokeMaterial;
-            stroke.sortingOrder = id == 11 ? -2 : 8 + i;
+            stroke.sortingOrder = _basicId == 11 ? -2 : 8 + i;
             stroke.positionCount = 0;
             stroke.numCapVertices = 3;
             stroke.numCornerVertices = 2;
-            view._strokes[i] = stroke;
+            _strokes[i] = stroke;
         }
-        return view;
     }
 
     private void RenderElementalProjectile(Vector2 center, Vector2 direction, float radius, float age, Color bright)
@@ -636,7 +703,7 @@ public sealed class BattleSkillEffect : MonoBehaviour
         }
     }
 
-    public static void Play(BattleSession battle, Transform parent, Transform caster, int skillId, Sprite sprite,
+    public static void Play(BattleSession battle, Transform caster, int skillId, Sprite sprite,
         Vector2 target, float radius, float duration, int count)
     {
         if (sprite == null)
@@ -656,9 +723,8 @@ public sealed class BattleSkillEffect : MonoBehaviour
         }
         for (int i = 0; i < layers; i++)
         {
-            GameObject effect = new($"Skill effect {skillId}");
-            effect.transform.SetParent(parent, false);
-            var view = effect.AddComponent<BattleSkillEffect>();
+            var view = Rent(battle, skillId, Channel.Feedback);
+            if (view == null) return;
             view.Initialize(battle, caster, sprite, target, motion, _colors[element], radius, life, i, layers);
         }
     }
@@ -683,7 +749,6 @@ public sealed class BattleSkillEffect : MonoBehaviour
         _isAccent = layer > 0;
         _height = (_isAccent ? .40f : 1f) / sprite.bounds.size.y;
         _angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
-        _view = gameObject.AddComponent<SpriteRenderer>();
         _view.sprite = sprite;
         _view.sortingOrder = _isAccent ? 8 : 9;
         Render(0f);
@@ -698,7 +763,7 @@ public sealed class BattleSkillEffect : MonoBehaviour
         _elapsed += Time.deltaTime;
         if (!_isFlightControlled && _elapsed >= _life)
         {
-            Destroy(gameObject);
+            EndFlight();
             return;
         }
         if (_isImpact)

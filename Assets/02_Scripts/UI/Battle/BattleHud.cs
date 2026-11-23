@@ -56,6 +56,12 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private RectTransform _damageLayer;
     [SerializeField] private Text _damageTemplate;
 
+    // 웨이브나 표시 초가 달라질 때만 HUD 문구를 갱신한다.
+    private Text _waveLabel;
+    private Text _waveTimer;
+    private int _shownWave = -1;
+    private int _shownWaveSeconds = -1;
+    private ObjectPool<Text> _damagePool;
     private readonly List<DamageLabel> _damageLabels = new();
     private GameObject _modal;
     private Coroutine _unfoldChoices;
@@ -64,14 +70,63 @@ public sealed class BattleHud : MonoBehaviour
     private RawImage _warningBorder;
     private Texture2D _warningBorderTexture;
 
-    private sealed class DamageLabel
+    private struct DamageLabel
     {
         public Text View;
         public Vector3 Position;
-        public float Remaining = .7f;
+        public float Remaining;
     }
 
     public bool HasModal => _modal != null;
+
+    internal void SetWaveStatus(int wave, int finalWave, float delay)
+    {
+        if (_waveLabel == null)
+            CreateWaveStatus();
+
+        int seconds = Mathf.CeilToInt(Mathf.Max(0f, delay));
+        if (wave == _shownWave && seconds == _shownWaveSeconds)
+            return;
+
+        _shownWave = wave;
+        _shownWaveSeconds = seconds;
+        _waveLabel.text = wave == 0 ? "전투 준비" : $"웨이브 {wave} / {finalWave}";
+        _waveTimer.text = wave == finalWave ? "최종 웨이브" : $"다음 웨이브까지 {seconds}초";
+    }
+
+    // 기존 전투 상태 표시 아래에 같은 글꼴로 두 줄을 배치한다.
+    private void CreateWaveStatus()
+    {
+        var panel = new GameObject("Wave status", typeof(RectTransform), typeof(Image));
+        var rect = panel.GetComponent<RectTransform>();
+        rect.SetParent(transform, false);
+        rect.anchorMin = rect.anchorMax = new Vector2(.5f, 1f);
+        rect.pivot = new Vector2(.5f, 1f);
+        rect.anchoredPosition = new Vector2(0f, -108f);
+        rect.sizeDelta = new Vector2(344f, 91f);
+        var backdrop = panel.GetComponent<Image>();
+        backdrop.color = new Color(.065f, .10f, .07f, .84f);
+        backdrop.raycastTarget = false;
+
+        _waveLabel = CreateWaveLine(rect, "Current wave", 28f, 34, new Color(1f, .91f, .64f));
+        _waveTimer = CreateWaveLine(rect, "Next wave timer", 67f, 25, new Color(1f, .96f, .86f));
+    }
+
+    private Text CreateWaveLine(RectTransform parent, string name, float top, int size, Color color)
+    {
+        var line = new GameObject(name, typeof(RectTransform), typeof(Text)).GetComponent<Text>();
+        line.rectTransform.SetParent(parent, false);
+        line.rectTransform.anchorMin = line.rectTransform.anchorMax = new Vector2(.5f, 1f);
+        line.rectTransform.anchoredPosition = new Vector2(0f, -top);
+        line.rectTransform.sizeDelta = new Vector2(328f, 38f);
+        line.font = _level.font;
+        line.fontSize = size;
+        line.fontStyle = FontStyle.Bold;
+        line.alignment = TextAnchor.MiddleCenter;
+        line.color = color;
+        line.raycastTarget = false;
+        return line;
+    }
 
     public void ShowSpawnWarning(bool boss)
     {
@@ -202,6 +257,13 @@ public sealed class BattleHud : MonoBehaviour
         ShowModal(_settingsPanel);
     }
 
+    // 전투 설정 팝업에서만 중도 로비 복귀를 요청한다.
+    public void ReturnToLobbyFromSettings()
+    {
+        if (_modal == _settingsPanel && !_battle.ReturnToLobbyDuringBattle())
+            _settingsStatus.text = "획득한 재화를 저장하지 못했습니다. 다시 시도해 주세요.";
+    }
+
     public void SetVolumes(float value)
     {
         _settingsStatus.text = SoundManager.Instance.SetVolumes(_bgm.value, _sfx.value)
@@ -237,7 +299,7 @@ public sealed class BattleHud : MonoBehaviour
         _damageSetting.text = _battle.Settings.IsDamageTextEnabled ? "데미지 표시  ON" : "데미지 표시  OFF";
     }
 
-    public void ShowChoices(IReadOnlyList<BattleSkills.Choice> choices, bool canRefresh)
+    public void ShowChoices(IReadOnlyList<BattleSkills.Choice> choices, bool hasRefreshTalent, bool hasRefreshed)
     {
         if (_unfoldChoices != null)
         {
@@ -247,7 +309,10 @@ public sealed class BattleHud : MonoBehaviour
         FillLearnedIcons(_learnedActiveIcons, skills.ActiveOrder, true);
         FillLearnedIcons(_learnedPassiveIcons, skills.PassiveOrder, false);
         _refreshChoices.interactable = false;
-        _refreshChoicesLabel.text = canRefresh ? "새로고침  1/1" : "새로고침  0/1";
+        // 특성 미습득과 사용 완료 상태를 구분해서 표시한다.
+        bool canRefresh = hasRefreshTalent && !hasRefreshed;
+        _refreshChoicesLabel.text = !hasRefreshTalent ? "특성 미습득"
+            : canRefresh ? "새로고침  1/1" : "새로고침  0/1";
         for (int i = 0; i < _choiceButtons.Length; i++)
         {
             bool isAvailable = i < choices.Count;
@@ -384,17 +449,30 @@ public sealed class BattleHud : MonoBehaviour
         }
     }
 
+    // 전투 진입 시 라벨을 준비하고 재도전 때 기존 라벨을 회수한다.
+    internal void ResetDamageLabels()
+    {
+        _damagePool ??= PoolManager.Instance.CreateScenePool(_damageLayer,
+            root => Instantiate(_damageTemplate, root), 48);
+        _damagePool.ReturnAll();
+        _damageLabels.Clear();
+    }
+
     public void ShowDamage(Vector3 position, float damage, bool isPlayer)
     {
         if (!_battle.Settings.IsDamageTextEnabled)
         {
             return;
         }
-        Text label = Instantiate(_damageTemplate, _damageLayer);
+        Text label = _damagePool.Rent(Vector3.zero, Quaternion.identity);
+        if (label == null)
+            return;
+
+        label.canvasRenderer.SetAlpha(1f);
         label.text = Mathf.Max(1, Mathf.RoundToInt(damage)).ToString();
         label.color = isPlayer ? new Color(1f, .38f, .3f) : new Color(1f, .9f, .6f);
         label.gameObject.SetActive(true);
-        _damageLabels.Add(new DamageLabel { View = label, Position = position });
+        _damageLabels.Add(new DamageLabel { View = label, Position = position, Remaining = .7f });
     }
 
     private void LateUpdate()
@@ -405,7 +483,7 @@ public sealed class BattleHud : MonoBehaviour
             damage.Remaining -= Time.unscaledDeltaTime;
             if (damage.Remaining <= 0f)
             {
-                Destroy(damage.View.gameObject);
+                _damagePool.Return(damage.View);
                 _damageLabels.RemoveAt(i);
                 continue;
             }
@@ -414,6 +492,7 @@ public sealed class BattleHud : MonoBehaviour
                 null, out Vector2 point);
             damage.View.rectTransform.anchoredPosition = point;
             damage.View.canvasRenderer.SetAlpha(damage.Remaining / .7f);
+            _damageLabels[i] = damage;
         }
     }
 }
