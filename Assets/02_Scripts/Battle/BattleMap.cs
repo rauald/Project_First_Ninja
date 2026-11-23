@@ -2,7 +2,7 @@ using UnityEngine;
 
 public sealed class BattleMap : MonoBehaviour
 {
-    private const int TILE_COUNT = 20;
+    private const int TILE_COUNT = 10;
     [SerializeField, Min(.1f)] private float _tileSize = 2f;
     [SerializeField] private Sprite[] _floors;
 

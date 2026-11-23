@@ -17,6 +17,7 @@ public sealed class StageEntryPopUp : MonoBehaviour
     {
         if (GameManager.Instance.TryEnterStage(_stageId))
         {
+            SoundManager.Instance?.PlayConfirm();
             ClosePopUp();
         }
     }

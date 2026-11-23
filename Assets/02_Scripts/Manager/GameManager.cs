@@ -11,6 +11,8 @@ public sealed class GameManager : Singleton<GameManager>
     private bool _isReady;
     private bool _isLoading;
     private bool _hasSettledStage;
+    private SceneLoadingOverlay _loadingOverlay;
+    private const float MIN_LOADING_SCREEN_SECONDS = 1f;
 
     public CharacterProgression Characters { get; private set; }
     public EquipmentInventory Equipment { get; private set; }
@@ -131,6 +133,11 @@ public sealed class GameManager : Singleton<GameManager>
             _title.SetProgress(0f);
         }
 
+        float overlayStartedAt = 0f;
+        if (!fromTitle)
+            overlayStartedAt = ShowLoadingOverlay();
+
+        // 다음 프레임에서 데이터를 읽기 전에 현재 로딩 UI를 먼저 그린다.
         yield return null;
 
         if (!_isReady)
@@ -156,7 +163,7 @@ public sealed class GameManager : Singleton<GameManager>
                     _title.ShowRetry();
                 }
 
-                _isLoading = false;
+                EndSceneLoading();
                 yield break;
             }
         }
@@ -169,14 +176,11 @@ public sealed class GameManager : Singleton<GameManager>
                 _title.ShowRetry();
             }
 
-            _isLoading = false;
+            EndSceneLoading();
             yield break;
         }
 
-        if (fromTitle)
-        {
-            operation.allowSceneActivation = false;
-        }
+        operation.allowSceneActivation = false;
 
         while (operation.progress < 0.9f)
         {
@@ -191,17 +195,32 @@ public sealed class GameManager : Singleton<GameManager>
         {
             _title.SetProgress(1f);
             yield return null;
-            yield return _title.FadeTo(1f);
-            yield return new WaitForSecondsRealtime(1f);
+            overlayStartedAt = ShowLoadingOverlay();
         }
+
+        // 디스크가 빨라도 별도 화면을 최소 시간만큼 표시한 뒤 씬을 활성화한다.
+        while (Time.realtimeSinceStartup - overlayStartedAt < MIN_LOADING_SCREEN_SECONDS)
+            yield return null;
 
         operation.allowSceneActivation = true;
         yield return operation;
-        if (fromTitle)
-        {
-            yield return _title.FadeTo(0f);
-        }
+        yield return null;
+        EndSceneLoading();
+    }
 
+    // 타이틀 진행 표시와 독립적으로 사용하는 씬 공통 로딩 화면이다.
+    private float ShowLoadingOverlay()
+    {
+        if (_loadingOverlay == null)
+            _loadingOverlay = SceneLoadingOverlay.Create(transform);
+        _loadingOverlay.Show();
+        return Time.realtimeSinceStartup;
+    }
+
+    private void EndSceneLoading()
+    {
+        if (_loadingOverlay != null)
+            _loadingOverlay.gameObject.SetActive(false);
         _isLoading = false;
     }
 }

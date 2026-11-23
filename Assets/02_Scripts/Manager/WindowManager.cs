@@ -26,6 +26,10 @@ public sealed class WindowManager : MonoBehaviour
 
         WindowType previousType = (WindowType)System.Array.IndexOf(_windows, _current);
         Vector2 entryDirection = GetEntryDirection(previousType, type);
+        if (GetMenuIndex(type) >= 0 && GetMenuIndex(previousType) >= 0)
+        {
+            SoundManager.Instance?.PlayConfirm();
+        }
         if (_current != null && entryDirection != Vector2.zero)
         {
             StartCoroutine(SlideToWindow(window, entryDirection));

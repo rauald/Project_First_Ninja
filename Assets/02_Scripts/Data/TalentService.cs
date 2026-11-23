@@ -4,6 +4,32 @@ using System.Linq;
 
 public sealed class TalentService
 {
+    // AbilityData의 특성 종류 열과 일치하는 값이다.
+    public enum EffectType
+    {
+        None = -1,
+        RefreshSkill = 1,
+        NeutralDamage = 2,
+        FireDamage = 3,
+        WaterDamage = 4,
+        WoodDamage = 5,
+        EarthDamage = 6,
+        WindDamage = 7,
+        Attack = 8,
+        Defense = 9,
+        CriticalChance = 10,
+        CriticalDamage = 11,
+        MoveSpeed = 12,
+        Dodge = 13,
+        SilverGain = 14,
+        GoldGain = 15,
+        ExperienceGain = 16,
+        Health = 17,
+        PickupRange = 18,
+        SkillRange = 19,
+        Max
+    }
+
     private static readonly string[] _effects =
     {
         "", "스킬 새로고침", "무속성 스킬 피해 증가", "화속성 스킬 피해 증가", "수속성 스킬 피해 증가",
@@ -18,6 +44,8 @@ public sealed class TalentService
         public string Name { get; }
         public string Effect { get; }
         public int Value { get; }
+        // 같은 종류의 습득 효과를 합산할 때 사용하는 데이터 열이다.
+        public EffectType Type { get; }
         public IReadOnlyList<int> Prerequisites { get; }
         public int Currency { get; }
         public int Cost { get; }
@@ -27,6 +55,7 @@ public sealed class TalentService
             Id = id;
             Name = table.GetString(id, 1);
             int type = table.GetInt(id, 2);
+            Type = (EffectType)type;
             Effect = type > 0 && type < _effects.Length ? _effects[type] : Name;
             Value = table.GetInt(id, 3);
             Prerequisites = Enumerable.Range(4, 3).Select(field => table.GetInt(id, field))
@@ -66,6 +95,22 @@ public sealed class TalentService
     public Talent GetTalent(int id) => _talents[id];
 
     public bool IsLearned(int id) => _data.LearnedTalentIds.Contains(id);
+
+    // 습득 기록에서 유효한 노드만 읽어 전투용 효과 합계를 만든다.
+    public int[] GetLearnedEffectTotals()
+    {
+        int[] totals = new int[(int)EffectType.Max];
+        foreach (int id in _data.LearnedTalentIds.Distinct())
+        {
+            if (_talents.TryGetValue(id, out Talent talent)
+                && talent.Type is >= EffectType.NeutralDamage and < EffectType.Max)
+            {
+                totals[(int)talent.Type] += talent.Value;
+            }
+        }
+
+        return totals;
+    }
 
     public long GetBalance(int currency) => FindCurrency(currency)?.Amount ?? 0;
 
