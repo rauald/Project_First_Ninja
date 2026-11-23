@@ -16,10 +16,15 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
     [SerializeField] private Image _smoke;
     [SerializeField] private Image _revealedItem;
     [SerializeField] private Image _revealSpecialBadge;
+    [Tooltip("일반 결과 연출에 쓰는 닫힌 회색 두루마리입니다.")]
     [SerializeField] private Sprite _grayClosed;
+    [Tooltip("일반 결과 연출에 쓰는 펼친 회색 두루마리입니다.")]
     [SerializeField] private Sprite _grayOpen;
+    [Tooltip("특별 결과 연출에 쓰는 닫힌 금색 두루마리입니다.")]
     [SerializeField] private Sprite _goldClosed;
+    [Tooltip("특별 결과 연출에 쓰는 펼친 금색 두루마리입니다.")]
     [SerializeField] private Sprite _goldOpen;
+    [Tooltip("뽑기 연출과 결과에 표시하는 장비 아이콘입니다. 장비 ID 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _equipmentIcons;
     [SerializeField] private GameObject _results;
     [SerializeField] private Image _singleIcon;

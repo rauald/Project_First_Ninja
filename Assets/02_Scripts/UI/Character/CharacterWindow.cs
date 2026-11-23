@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public sealed class CharacterWindow : MonoBehaviour, IWindowable
 {
+    [Tooltip("캐릭터 ID별 초상화, 애니메이터 컨트롤러와 스킬 아이콘을 편집합니다.")]
     [SerializeField] private CharacterPresentation[] _characters;
     [SerializeField] private CharacterDetailView _detail;
     [SerializeField] private CharacterInventorySlot[] _slots;
@@ -38,12 +39,6 @@ public sealed class CharacterWindow : MonoBehaviour, IWindowable
     public void OpenCharacter(int id)
     {
         _characterPopUp.ShowCharacter(id);
-    }
-
-    public void OpenWindow(int type)
-    {
-        UIManager.Instance.PopUp.Close();
-        UIManager.Instance.Window.Open((WindowType)type);
     }
 
     public void OpenSettings()

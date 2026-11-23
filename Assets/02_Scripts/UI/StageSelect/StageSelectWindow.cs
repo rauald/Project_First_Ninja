@@ -9,6 +9,7 @@ public sealed class StageSelectWindow : MonoBehaviour, IWindowable
     [SerializeField] private ScrollRect _scroll;
     [SerializeField] private StageCardView _cardTemplate;
     [SerializeField] private StageEntryPopUp _entryPopUp;
+    [Tooltip("스테이지 목록 카드에 표시하는 지도 미리보기입니다. 맵 타입 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _mapPreviews;
 
     private readonly List<StageCardView> _cards = new();

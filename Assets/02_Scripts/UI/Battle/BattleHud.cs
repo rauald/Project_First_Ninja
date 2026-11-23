@@ -37,14 +37,26 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private Image[] _upperScrollHandles;
     [SerializeField] private Image[] _lowerScrollHandles;
     [SerializeField] private RectTransform[] _scrollMasks;
+    [Tooltip("레벨업 선택지 · 속성별로 펼친 두루마리 본체입니다. 마지막 항목은 패시브 선택지입니다.")]
     [SerializeField] private Sprite[] _openScrollSprites;
+    [Tooltip("레벨업 선택지 · 속성별 두루마리 손잡이입니다. 본체와 같은 순서입니다.")]
     [SerializeField] private Sprite[] _scrollHandleSprites;
     [SerializeField] private Button _refreshChoices;
     [SerializeField] private Text _refreshChoicesLabel;
+    [Tooltip("전투 선택지 및 습득 슬롯의 액티브 스킬 아이콘입니다. 스킬 ID 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _activeIcons;
+    [Tooltip("전투 선택지 및 습득 슬롯의 패시브 스킬 아이콘입니다. 스킬 ID 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _passiveIcons;
+    [Tooltip("네임드 몬스터 등장 시 화면 중앙에 점멸하는 경고 이미지입니다.")]
     [SerializeField] private Sprite _namedWarningSprite;
+    [Tooltip("보스 등장 시 화면 중앙에 점멸하는 경고 이미지입니다.")]
     [SerializeField] private Sprite _bossWarningSprite;
+    [Header("실행 중 생성되는 HUD 이미지")]
+    [Tooltip("상단 웨이브 안내판 배경입니다. 비워두면 기존 반투명 단색을 사용합니다.")]
+    [SerializeField] private Sprite _waveBackdrop;
+    [Tooltip("네임드 및 보스 등장 시 점멸하는 화면 테두리입니다. 비워두면 기존 붉은 테두리를 사용합니다.")]
+    [SerializeField] private Texture _warningBorderArt;
+
     [SerializeField] private Text[] _activeSlots;
     [SerializeField] private Text[] _passiveSlots;
     [SerializeField] private Text _resultTitle;
@@ -105,7 +117,8 @@ public sealed class BattleHud : MonoBehaviour
         rect.anchoredPosition = new Vector2(0f, -108f);
         rect.sizeDelta = new Vector2(344f, 91f);
         var backdrop = panel.GetComponent<Image>();
-        backdrop.color = new Color(.065f, .10f, .07f, .84f);
+        backdrop.sprite = _waveBackdrop;
+        backdrop.color = _waveBackdrop != null ? Color.white : new Color(.065f, .10f, .07f, .84f);
         backdrop.raycastTarget = false;
 
         _waveLabel = CreateWaveLine(rect, "Current wave", 28f, 34, new Color(1f, .91f, .64f));
@@ -160,6 +173,21 @@ public sealed class BattleHud : MonoBehaviour
         _warningBorder.rectTransform.offsetMin = Vector2.zero;
         _warningBorder.rectTransform.offsetMax = Vector2.zero;
 
+        _warningBorder.texture = _warningBorderArt != null ? _warningBorderArt : CreateWarningBorderTexture();
+
+        var message = new GameObject("Monster warning image", typeof(RectTransform), typeof(Image));
+        message.transform.SetParent(border.transform, false);
+        _warningImage = message.GetComponent<Image>();
+        _warningImage.raycastTarget = false;
+        _warningImage.preserveAspect = true;
+        _warningImage.rectTransform.anchorMin = new Vector2(.10f, .40f);
+        _warningImage.rectTransform.anchorMax = new Vector2(.90f, .60f);
+        _warningImage.rectTransform.offsetMin = Vector2.zero;
+        _warningImage.rectTransform.offsetMax = Vector2.zero;
+    }
+
+    private Texture2D CreateWarningBorderTexture()
+    {
         const int size = 96;
         _warningBorderTexture = new Texture2D(size, size, TextureFormat.RGBA32, false);
         _warningBorderTexture.wrapMode = TextureWrapMode.Clamp;
@@ -175,17 +203,7 @@ public sealed class BattleHud : MonoBehaviour
         }
         _warningBorderTexture.SetPixels32(pixels);
         _warningBorderTexture.Apply(false, true);
-        _warningBorder.texture = _warningBorderTexture;
-
-        var message = new GameObject("Monster warning image", typeof(RectTransform), typeof(Image));
-        message.transform.SetParent(border.transform, false);
-        _warningImage = message.GetComponent<Image>();
-        _warningImage.raycastTarget = false;
-        _warningImage.preserveAspect = true;
-        _warningImage.rectTransform.anchorMin = new Vector2(.10f, .40f);
-        _warningImage.rectTransform.anchorMax = new Vector2(.90f, .60f);
-        _warningImage.rectTransform.offsetMin = Vector2.zero;
-        _warningImage.rectTransform.offsetMax = Vector2.zero;
+        return _warningBorderTexture;
     }
 
     private IEnumerator FlashSpawnWarning()

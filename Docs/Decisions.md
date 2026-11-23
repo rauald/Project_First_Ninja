@@ -742,3 +742,13 @@
 - 폭발 직후 퍼지는 잎과 씨앗을 공용 Particle System에서 방출한다. Pixel 5 시뮬레이터에서 코노하의 각성기를 시전해 전장 넝쿨과 가시 표시, 연출 종료 후 전투 복귀를 확인했다.
 
 - 전투 상단에 현재 웨이브와 다음 웨이브까지 남은 초를 표시한다. 마지막에는 최종 웨이브를 표시한다. 현재 웨이브 몬스터의 생성 예약과 대기열 처리가 끝났고 해당 웨이브의 생존 몬스터가 없으면 기존 제한 시간이 남아 있어도 다음 웨이브를 시작한다.
+
+## UI 이미지 인스펙터 편집
+
+- 날짜 2026-11-23. 사용자가 Unity에서 UI에 사용할 이미지를 직접 교체할 수 있도록 한다.
+- Canvas 또는 하위 UI 오브젝트의 인스펙터에서 **UI 이미지 교체**를 펼친다. 비활성 화면과 템플릿을 포함해 오브젝트의 계층 경로와 스프라이트·텍스처를 보여 준다. 경로 검색과 선택 버튼으로 원래 컴포넌트에 접근할 수 있다.
+- 애니메이션으로 바뀌는 이미지는 대상 오브젝트나 해당 Animation Clip의 인스펙터에서 **애니메이션 이미지 프레임**을 펼쳐 교체한다. 편집 가능한 클립의 기존 키 시간은 유지한다. 같은 클립을 참조하는 모든 화면에 적용된다.
+- 타이틀 씬의 GameManager → Scene Loading Artwork에서 공용 전환 화면의 배경과 회전 이미지를 지정한다. BattleHud에서는 웨이브 안내 배경과 등장 경고 테두리를 지정한다. 빈 슬롯은 기존 기본 표시를 사용한다.
+- 실행 중 교체되는 캐릭터 초상화와 스킬·재료 아이콘, 상점 뽑기 이미지, 지도 미리보기, 전투 선택지 아이콘은 각 화면 컴포넌트의 원본 필드에서 설정한다. 툴팁에 적용 위치와 배열 인덱스 기준을 표기했다.
+- 관련 파일은 Assets/02_Scripts/UI/Editor/UIImageInspector.cs, SceneLoadingArtwork.cs, SceneLoadingOverlay.cs, Battle/BattleHud.cs, Character/CharacterWindow.cs, Character/CharacterPresentation.cs, Character/CharacterPopUp.cs, Shop/ShopDrawPresentation.cs, StageSelect/StageSelectWindow.cs, Assets/01_Scenes/00_Tilte_Scene.unity다.
+- Unity의 컴파일 설정으로 플레이 관련 C#과 에디터 C#을 컴파일했다. 씬 파일의 기존 스프라이트·텍스처 참조 728개와 타이틀 씬의 새 컴포넌트 연결을 확인했다. Unity 배치 모드가 프로젝트 시작 중 종료되어 에디터 조작과 Play Mode 화면 전환은 검증하지 못했다.

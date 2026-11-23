@@ -13,6 +13,7 @@ using Object = UnityEngine.Object;
 public static class CharacterScreenSetup
 {
     private const string SCENE_PATH = "Assets/01_Scenes/00_Tilte_Scene.unity";
+    private const string BOTTOM_BAR_PATH = "Assets/03_Prefabs/UI/BottomBar.prefab";
     private const string ICON_PATH = "Assets/04_Arts/00_Image/UI/Icon/Icon_Sheet_2.png";
     private static readonly Color INK = new(0.20f, 0.10f, 0.05f, 1f);
     private static readonly Color PANEL = new(0.92f, 0.81f, 0.61f, 1f);
@@ -27,6 +28,12 @@ public static class CharacterScreenSetup
         if (root.GetComponent<CharacterWindow>() != null)
         {
             throw new InvalidOperationException("캐릭터 화면이 이미 있습니다. 기존 계층에서 직접 수정해 주세요.");
+        }
+
+        GameObject bottomBar = AssetDatabase.LoadAssetAtPath<GameObject>(BOTTOM_BAR_PATH);
+        if (bottomBar == null)
+        {
+            throw new InvalidOperationException($"하단바 프리팹을 찾을 수 없습니다. {BOTTOM_BAR_PATH}");
         }
 
         Transform lobby = Find(scene, "Lobby_Window");
@@ -44,19 +51,8 @@ public static class CharacterScreenSetup
         settings.onClick = new Button.ButtonClickedEvent();
         UnityEventTools.AddPersistentListener(settings.onClick, window.OpenSettings);
 
-        Transform bottom = Object.Instantiate(lobby.Find("BottomBar"), root);
-        bottom.name = "BottomBar";
-        string[] buttonNames = { "ShopButton", "EquipmentButton", "DungeonButton", "CharacterButton", "TalentButton" };
-        WindowType[] destinations = { WindowType.Shop, WindowType.Equipment, WindowType.StageSelect, WindowType.Character, WindowType.Talent };
-        for (int i = 0; i < buttonNames.Length; i++)
-        {
-            Button button = FindBelow(bottom, buttonNames[i]).GetComponent<Button>();
-            button.onClick = new Button.ButtonClickedEvent();
-            UnityEventTools.AddIntPersistentListener(button.onClick, window.OpenWindow, (int)destinations[i]);
-        }
+        PrefabUtility.InstantiatePrefab(bottomBar, root);
 
-        Button back = Button("LobbyButton", root, .03f, .85f, .20f, .90f, "로비");
-        UnityEventTools.AddIntPersistentListener(back.onClick, window.OpenWindow, (int)WindowType.Lobby);
         CharacterDetailView detail = BuildDetail(root, "EquippedCharacter", .04f, .47f, .96f, .85f);
         CharacterPresentation[] presentations = BuildPresentations();
         Transform inventory = Rect("Inventory", root, .045f, .14f, .955f, .43f);
