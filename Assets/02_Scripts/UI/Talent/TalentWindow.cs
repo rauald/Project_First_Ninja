@@ -57,6 +57,7 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
 
     private void RefreshTree()
     {
+        LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
         _silver.text = CurrencyFormatter.Format(Talents.GetBalance(0));
         _gold.text = CurrencyFormatter.Format(Talents.GetBalance(1));
         foreach (TalentNodeView node in _nodes)
@@ -108,9 +109,4 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
     }
 
     public void OpenSettingsPopUp() => UIManager.Instance.PopUp.Open(PopUpType.Settings);
-    public void OpenShopWindow() => UIManager.Instance.Window.Open(WindowType.Shop);
-    public void OpenEquipmentWindow() => UIManager.Instance.Window.Open(WindowType.Equipment);
-    public void OpenStageSelectWindow() => UIManager.Instance.Window.Open(WindowType.StageSelect);
-    public void OpenCharacterWindow() => UIManager.Instance.Window.Open(WindowType.Character);
-    public void OpenTalentWindow() => UIManager.Instance.Window.Open(WindowType.Talent);
 }

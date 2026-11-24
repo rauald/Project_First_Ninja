@@ -35,12 +35,39 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
 
     public void ResetUI()
     {
+        BindCurrencyLabels(transform, ref _silver, ref _gold);
         UIManager.Instance.PopUp.Close();
         CharacterProgression characters = GameManager.Instance.Characters;
         CharacterDetailView.ApplyPresentation(_characterAnimator,
             _characterWindow.GetPresentation(characters.Data.EquippedCharacterId));
         _silver.text = CurrencyFormatter.Format(characters.GetAmount(0, 0));
         _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
+    }
+
+    internal static void BindCurrencyLabels(Transform window, ref Text silver, ref Text gold)
+    {
+        if (silver != null && gold != null)
+        {
+            return;
+        }
+
+        Transform topBar = window.Find("TopBar");
+        foreach (Text label in topBar.GetComponentsInChildren<Text>(true))
+        {
+            if (label.name == "EunjaAmount")
+            {
+                silver = label;
+            }
+            else if (label.name == "GeumjaAmount")
+            {
+                gold = label;
+            }
+        }
+    }
+
+    public void OpenStageSelect()
+    {
+        UIManager.Instance.Window.Open(WindowType.StageSelect);
     }
 
     public void OpenSettingsPopUp()

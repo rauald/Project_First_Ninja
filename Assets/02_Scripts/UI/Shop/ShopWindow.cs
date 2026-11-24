@@ -62,6 +62,7 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 
     private void RefreshShop()
     {
+        LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
         CharacterProgression characters = GameManager.Instance.Characters;
         _silver.text = CurrencyFormatter.Format(characters.GetAmount(0, 0));
         _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
@@ -79,11 +80,41 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         }
     }
 
-    private static void SetOffer(Button button, string title, long cost, string currency)
+    private void SetOffer(Button button, string title, long cost, string currency)
     {
         button.interactable = cost > 0;
         string price = cost > 0 ? $"{cost:N0} {currency}" : "가격 미설정";
-        button.GetComponentInChildren<Text>().text = $"{title}\n{price}";
+        if (button.transform.Find("Label")?.GetComponent<Text>() is Text label)
+        {
+            label.text = $"{title}\n{price}";
+            return;
+        }
+        GetPriceLabel(button).text = price;
+    }
+
+    private Text GetPriceLabel(Button button)
+    {
+        Transform existing = button.transform.Find("RuntimePrice");
+        if (existing != null)
+        {
+            return existing.GetComponent<Text>();
+        }
+
+        var priceObject = new GameObject("RuntimePrice", typeof(RectTransform), typeof(Text));
+        var rect = (RectTransform)priceObject.transform;
+        rect.SetParent(button.transform, false);
+        priceObject.layer = button.gameObject.layer;
+        rect.anchorMin = Vector2.zero;
+        rect.anchorMax = Vector2.right;
+        rect.offsetMin = new Vector2(0f, -30f);
+        rect.offsetMax = Vector2.zero;
+        var label = priceObject.GetComponent<Text>();
+        label.font = _silver.font;
+        label.fontSize = 23;
+        label.alignment = TextAnchor.MiddleCenter;
+        label.color = new Color(1f, .9f, .7f);
+        label.raycastTarget = false;
+        return label;
     }
 
     private void DrawEquipment(bool isPremium, int count)
@@ -191,6 +222,10 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         OpenModal(isPremium ? "고급 뽑기 확률" : "일반 뽑기 확률", true);
         _oddsScroll.StopMovement();
         _oddsScroll.verticalNormalizedPosition = 1f;
+    }
+    public void OpenSettings()
+    {
+        UIManager.Instance.PopUp.Open(PopUpType.Settings);
     }
 
     private void CloseModal()

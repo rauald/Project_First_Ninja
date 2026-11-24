@@ -147,7 +147,7 @@ public sealed class GameManager : Singleton<GameManager>
                 DataManager.Instance.LoadTables();
                 _save.LoadData();
                 Characters = new CharacterProgression(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
-                Equipment = new EquipmentInventory(_save.CurData, DataManager.Instance.GetTable("EquipData"), _save.SaveData);
+                Equipment = new EquipmentInventory(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
                 Shop = new ShopService(_save.CurData, DataManager.Instance.GetTable, _save.SaveData);
                 Talents = new TalentService(DataManager.Instance.GetTable("AbilityData"), _save.CurData, _save.SaveData);
                 Stages = new StageProgression(DataManager.Instance.GetTable("StageData"), _save.CurData, _save.SaveData);

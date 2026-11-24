@@ -24,10 +24,16 @@ public sealed class CharacterWindow : MonoBehaviour, IWindowable
 
     public void RefreshUI()
     {
+        LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
         CharacterProgression characters = GameManager.Instance.Characters;
         int id = characters.Data.EquippedCharacterId;
         _detail.RefreshCharacter(GetPresentation(id), slot => _characterPopUp.ShowSkill(id, slot, false));
-        for (int i = 0; i < _slots.Length; i++)
+        if (_slots == null || System.Array.Exists(_slots, slot => slot == null))
+        {
+            _slots = transform.Find("Inventory").GetComponentsInChildren<CharacterInventorySlot>(true);
+        }
+
+        for (int i = 0; i < Mathf.Min(_slots.Length, _characters.Length); i++)
         {
             _slots[i].RefreshCharacter(_characters[i], this);
         }

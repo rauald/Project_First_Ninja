@@ -16,10 +16,17 @@ public sealed class StageSelectWindow : MonoBehaviour, IWindowable
 
     public void ResetUI()
     {
+        LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
         UIManager.Instance.PopUp.Close();
         GameManager game = GameManager.Instance;
         _silver.text = CurrencyFormatter.Format(game.Characters.GetAmount(0, 0));
         _gold.text = CurrencyFormatter.Format(game.Characters.GetAmount(0, 1));
+        if (_cardTemplate == null)
+        {
+            _cardTemplate = _scroll.GetComponentInChildren<StageCardView>(true);
+        }
+        _cardTemplate.gameObject.SetActive(false);
+
         StageProgression stages = game.Stages;
         RectTransform highestAvailableCard = null;
         for (int i = 0; i < stages.StageIds.Count; i++)
@@ -77,9 +84,4 @@ public sealed class StageSelectWindow : MonoBehaviour, IWindowable
     }
 
     public void OpenSettingsPopUp() => UIManager.Instance.PopUp.Open(PopUpType.Settings);
-    public void OpenShopWindow() => UIManager.Instance.Window.Open(WindowType.Shop);
-    public void OpenEquipmentWindow() => UIManager.Instance.Window.Open(WindowType.Equipment);
-    public void OpenLobbyWindow() => UIManager.Instance.Window.Open(WindowType.Lobby);
-    public void OpenCharacterWindow() => UIManager.Instance.Window.Open(WindowType.Character);
-    public void OpenTalentWindow() => UIManager.Instance.Window.Open(WindowType.Talent);
 }

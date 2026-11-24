@@ -14,6 +14,10 @@ public static class CharacterScreenSetup
 {
     private const string SCENE_PATH = "Assets/01_Scenes/00_Tilte_Scene.unity";
     private const string BOTTOM_BAR_PATH = "Assets/03_Prefabs/UI/BottomBar.prefab";
+    private const string NEUTRAL_ELEMENT_PATH = "Assets/04_Arts/00_Image/UI/Etc/Etc_Sheet_0.png";
+    private const string ELEMENT_PATH = "Assets/04_Arts/00_Image/UI/Etc/Etc_Sheet_1.png";
+    private const string ETC_PATH = "Assets/04_Arts/00_Image/UI/Etc/Etc_Sheet_2.png";
+    private const string DIGIT_PATH = "Assets/04_Arts/00_Image/UI/Icon/Icon_Sheet_0.png";
     private const string ICON_PATH = "Assets/04_Arts/00_Image/UI/Icon/Icon_Sheet_2.png";
     private static readonly Color INK = new(0.20f, 0.10f, 0.05f, 1f);
     private static readonly Color PANEL = new(0.92f, 0.81f, 0.61f, 1f);
@@ -69,9 +73,11 @@ public static class CharacterScreenSetup
             Image portrait = Image("Portrait", slot.transform, .06f, .25f, .94f, .95f, Color.white, presentations[i].Portrait);
             portrait.preserveAspect = true;
             Text label = Label("NameLevel", slot.transform, .02f, .01f, .98f, .28f, "", 25, Color.white);
+            label.alignment = TextAnchor.UpperCenter;
+            CharacterLevelView level = BuildLevel(label.transform, .18f, 0f, .82f, .53f);
             Text locked = Label("Locked", slot.transform, .16f, .48f, .84f, .70f, "잠금", 26, Color.white);
             Text equipped = Label("Equipped", slot.transform, .02f, .78f, .98f, .99f, "장착 중", 24, new Color(1f, .85f, .3f));
-            Set(item, "_portrait", portrait, "_label", label, "_lock", locked.gameObject, "_equipped", equipped.gameObject, "_button", button);
+            Set(item, "_portrait", portrait, "_label", label, "_level", level, "_lock", locked.gameObject, "_equipped", equipped.gameObject, "_button", button);
             slots[i] = item;
         }
 
@@ -202,8 +208,26 @@ public static class CharacterScreenSetup
         Animator animator = portrait.gameObject.AddComponent<Animator>();
         animator.updateMode = AnimatorUpdateMode.UnscaledTime;
         Text title = Label("Name", root, .03f, .87f, .95f, 1f, "캐릭터", 38, INK);
-        Text rankLevel = Label("RankLevelElement", root, .43f, .73f, .99f, .87f, "N  Lv. 1", 34, INK);
-        Text stars = Label("Stars", root, .43f, .61f, .99f, .73f, "☆☆☆☆☆", 36, new Color(.95f, .65f, .08f));
+        Transform badges = Rect("RankLevelElement", root, .43f, .73f, .99f, .87f);
+        Sprite[] elements = new[]
+        {
+            SheetSprite(NEUTRAL_ELEMENT_PATH, 25), SheetSprite(ELEMENT_PATH, 46),
+            SheetSprite(ELEMENT_PATH, 47), SheetSprite(ELEMENT_PATH, 48),
+            SheetSprite(ELEMENT_PATH, 49), SheetSprite(ELEMENT_PATH, 50)
+        };
+        Image element = Badge("Element", badges, .78f, .18f, .99f, .82f, elements[0]);
+        Sprite[] ranks = Enumerable.Range(5, 4).Select(index => SheetSprite(ETC_PATH, index)).ToArray();
+        Image rank = Badge("Rank", badges, .10f, .18f, .24f, .82f, ranks[0]);
+        CharacterLevelView level = BuildLevel(badges, .30f, .18f, .70f, .82f);
+        Transform stars = Rect("Stars", root, .43f, .61f, .99f, .73f);
+        Sprite emptyStar = Icon(8);
+        Sprite filledStar = Icon(7);
+        Image[] starImages = new Image[5];
+        for (int i = 0; i < starImages.Length; i++)
+        {
+            float left = .125f + .15f * i;
+            starImages[i] = Badge($"Star_{i + 1}", stars, left, .12f, left + .15f, .88f, emptyStar);
+        }
         Text[] stats = new Text[3];
         for (int i = 0; i < stats.Length; i++)
         {
@@ -226,12 +250,42 @@ public static class CharacterScreenSetup
             Label("Label", locked.transform, .02f, .10f, .98f, .90f, "잠금", 22, Color.white);
             locks[i] = locked.gameObject;
         }
-        Set(view, "_animator", animator, "_name", title, "_rankLevel", rankLevel, "_stars", stars);
+        Set(view, "_animator", animator, "_name", title, "_element", element, "_rank", rank, "_level", level,
+            "_emptyStar", emptyStar, "_filledStar", filledStar);
+        SetArray(view, "_elementSprites", elements);
+        SetArray(view, "_rankSprites", ranks);
+        SetArray(view, "_starImages", starImages);
         SetArray(view, "_stats", stats);
         SetArray(view, "_skills", skills);
         SetArray(view, "_skillIcons", skillIcons);
         SetArray(view, "_locks", locks);
         return view;
+    }
+
+    private static CharacterLevelView BuildLevel(Transform parent, float x0, float y0, float x1, float y1)
+    {
+        Transform row = Rect("Level", parent, x0, y0, x1, y1);
+        CharacterLevelView view = row.gameObject.AddComponent<CharacterLevelView>();
+        Sprite[] digitSprites = Enumerable.Range(41, 10).Select(index => SheetSprite(DIGIT_PATH, index)).ToArray();
+        Badge("LevelPrefix", row, 0f, 0f, .34f, 1f, SheetSprite(ETC_PATH, 4));
+        Image[] digits = new Image[3];
+        for (int i = 0; i < digits.Length; i++)
+        {
+            float left = .34f + .22f * i;
+            digits[i] = Badge($"Digit_{i + 1}", row, left, 0f, left + .22f, 1f, digitSprites[i == 0 ? 1 : 0]);
+            digits[i].enabled = i == 0;
+        }
+
+        SetArray(view, "_digits", digits);
+        SetArray(view, "_digitSprites", digitSprites);
+        return view;
+    }
+
+    private static Image Badge(string name, Transform parent, float x0, float y0, float x1, float y1, Sprite sprite)
+    {
+        Image image = Image(name, parent, x0, y0, x1, y1, Color.white, sprite);
+        image.preserveAspect = true;
+        return image;
     }
 
     private static Transform BuildSettings(Transform parent)
@@ -366,7 +420,13 @@ public static class CharacterScreenSetup
 
     private static Sprite Icon(int index)
     {
-        return AssetDatabase.LoadAllAssetsAtPath(ICON_PATH).OfType<Sprite>().Single(value => value.name == $"Icon_Sheet_2_{index}");
+        return SheetSprite(ICON_PATH, index);
+    }
+
+    private static Sprite SheetSprite(string path, int index)
+    {
+        string name = System.IO.Path.GetFileNameWithoutExtension(path);
+        return AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().Single(value => value.name == $"{name}_{index}");
     }
 
     private static Transform Find(Scene scene, string name)
