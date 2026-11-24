@@ -243,9 +243,10 @@ public sealed class EquipmentInventory
         return null;
     }
 
-    private bool MatchesRequiredRankMaterial(EquipmentInstanceData candidate, RankUpCost cost)
+    private bool MatchesRequiredRankMaterial(EquipmentInstanceData candidate, EquipmentInstanceData item, RankUpCost cost)
     {
-        return GetSlot(candidate) == cost.RequiredSlot && GetRank(candidate) == cost.RequiredRank
+        return candidate.DefinitionId == item.DefinitionId
+            && GetSlot(candidate) == cost.RequiredSlot && GetRank(candidate) == cost.RequiredRank
             && Definitions.GetInt(candidate.DefinitionId, 2) == cost.RequiredBirthRank;
     }
 
@@ -264,7 +265,7 @@ public sealed class EquipmentInventory
         bool isRequired)
     {
         return candidate != null && candidate != item && !candidate.IsEquipped
-            && (isRequired ? MatchesRequiredRankMaterial(candidate, cost) : MatchesAdditionalRankMaterial(candidate, cost));
+            && (isRequired ? MatchesRequiredRankMaterial(candidate, item, cost) : MatchesAdditionalRankMaterial(candidate, cost));
     }
 
     public bool TryRankUp(EquipmentInstanceData item, IReadOnlyCollection<EquipmentInstanceData> requiredMaterials,

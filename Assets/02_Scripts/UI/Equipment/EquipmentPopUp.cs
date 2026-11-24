@@ -152,12 +152,12 @@ public sealed class EquipmentPopUp : MonoBehaviour
             return;
         }
 
-        string birthRank = _rankCost.RequiredBirthRank == 1 ? "특수" : "일반";
+        string requiredItemName = Inventory.Definitions.GetString(_selected.DefinitionId, 0);
         int rank = Inventory.GetRank(_selected);
         _growthTitle.text = $"등급업  {CharacterDetailView.GetRankName(rank)} → {CharacterDetailView.GetRankName(rank + 1)}";
         SetRankGrowthLayout(true);
         BindMaterials(_requiredMaterials, _rankCost.RequiredCount,
-            $"필수 재료 선택 · {EquipmentWindow.GetSlotName(_rankCost.RequiredSlot)} · {birthRank} · {CharacterDetailView.GetRankName(_rankCost.RequiredRank)}", true);
+            $"필수 재료 선택 · {requiredItemName} · {CharacterDetailView.GetRankName(_rankCost.RequiredRank)}", true);
         BindMaterials(_additionalMaterials, _rankCost.AdditionalCount,
             $"추가 재료 선택 · {EquipmentWindow.GetSlotName(_rankCost.AdditionalSlot)} · {CharacterDetailView.GetRankName(_rankCost.AdditionalRank)}", false);
         RefreshMaterialSelection();
