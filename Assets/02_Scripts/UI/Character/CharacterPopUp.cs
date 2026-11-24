@@ -21,9 +21,13 @@ public sealed class CharacterPopUp : MonoBehaviour
     [SerializeField] private Button _messageConfirm;
     [SerializeField] private Image[] _materialIcons;
     [SerializeField] private Text[] _materialAmounts;
+    [Tooltip("캐릭터 성장 확인 창에서 은자 비용을 표시하는 아이콘입니다.")]
     [SerializeField] private Sprite _silverIcon;
+    [Tooltip("캐릭터 성장 확인 창에서 금자 비용을 표시하는 아이콘입니다.")]
     [SerializeField] private Sprite _goldIcon;
+    [Tooltip("캐릭터 성장 확인 창의 조각 아이콘입니다. 재료 상세 타입이 배열 인덱스입니다.")]
     [SerializeField] private Sprite[] _fragmentIcons;
+    [Tooltip("캐릭터 성장 확인 창의 강화석 아이콘입니다. 재료 상세 타입이 배열 인덱스입니다.")]
     [SerializeField] private Sprite[] _stoneIcons;
 
     private int _characterId;

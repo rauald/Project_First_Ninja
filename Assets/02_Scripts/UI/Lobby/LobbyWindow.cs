@@ -35,6 +35,7 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
 
     public void ResetUI()
     {
+        BindCurrencyLabels(transform, ref _silver, ref _gold);
         UIManager.Instance.PopUp.Close();
         CharacterProgression characters = GameManager.Instance.Characters;
         CharacterDetailView.ApplyPresentation(_characterAnimator,
@@ -43,33 +44,34 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
         _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
     }
 
-    public void OpenSettingsPopUp()
+    internal static void BindCurrencyLabels(Transform window, ref Text silver, ref Text gold)
     {
-        UIManager.Instance.PopUp.Open(PopUpType.Settings);
+        if (silver != null && gold != null)
+        {
+            return;
+        }
+
+        Transform topBar = window.Find("TopBar");
+        foreach (Text label in topBar.GetComponentsInChildren<Text>(true))
+        {
+            if (label.name == "EunjaAmount")
+            {
+                silver = label;
+            }
+            else if (label.name == "GeumjaAmount")
+            {
+                gold = label;
+            }
+        }
     }
 
-    public void OpenShopWindow()
-    {
-        UIManager.Instance.Window.Open(WindowType.Shop);
-    }
-
-    public void OpenEquipmentWindow()
-    {
-        UIManager.Instance.Window.Open(WindowType.Equipment);
-    }
-
-    public void OpenStageSelectWindow()
+    public void OpenStageSelect()
     {
         UIManager.Instance.Window.Open(WindowType.StageSelect);
     }
 
-    public void OpenCharacterWindow()
+    public void OpenSettingsPopUp()
     {
-        UIManager.Instance.Window.Open(WindowType.Character);
-    }
-
-    public void OpenTalentWindow()
-    {
-        UIManager.Instance.Window.Open(WindowType.Talent);
+        UIManager.Instance.PopUp.Open(PopUpType.Settings);
     }
 }

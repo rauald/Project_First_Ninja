@@ -23,20 +23,33 @@ internal sealed class SceneLoadingOverlay : MonoBehaviour
         var backdrop = CreateRect(root.transform, "Black backdrop", Vector2.zero, Vector2.zero);
         backdrop.anchorMin = Vector2.zero;
         backdrop.anchorMax = Vector2.one;
-        backdrop.gameObject.AddComponent<Image>().color = Color.black;
+        var artwork = parent.GetComponent<SceneLoadingArtwork>();
+        var backdropImage = backdrop.gameObject.AddComponent<Image>();
+        backdropImage.sprite = artwork != null ? artwork.Backdrop : null;
+        backdropImage.color = backdropImage.sprite != null ? Color.white : Color.black;
 
         var overlay = root.AddComponent<SceneLoadingOverlay>();
         overlay._spinner = CreateRect(backdrop, "Spinner", new Vector2(0f, 33f), new Vector2(100f, 100f));
-        for (int i = 0; i < 12; i++)
+        if (artwork != null && artwork.Spinner != null)
         {
-            float angle = i * 30f;
-            var rotation = Quaternion.Euler(0f, 0f, angle);
-            var spoke = CreateRect(overlay._spinner, "Spinner spoke",
-                rotation * new Vector3(0f, 36f), new Vector2(7f, 19f));
-            spoke.localRotation = rotation;
-            var image = spoke.gameObject.AddComponent<Image>();
-            image.color = new Color(1f, 1f, 1f, Mathf.Lerp(.16f, 1f, i / 11f));
+            var image = overlay._spinner.gameObject.AddComponent<Image>();
+            image.sprite = artwork.Spinner;
+            image.preserveAspect = true;
             image.raycastTarget = false;
+        }
+        else
+        {
+            for (int i = 0; i < 12; i++)
+            {
+                float angle = i * 30f;
+                var rotation = Quaternion.Euler(0f, 0f, angle);
+                var spoke = CreateRect(overlay._spinner, "Spinner spoke",
+                    rotation * new Vector3(0f, 36f), new Vector2(7f, 19f));
+                spoke.localRotation = rotation;
+                var image = spoke.gameObject.AddComponent<Image>();
+                image.color = new Color(1f, 1f, 1f, Mathf.Lerp(.16f, 1f, i / 11f));
+                image.raycastTarget = false;
+            }
         }
 
         var label = CreateRect(backdrop, "Loading label", new Vector2(0f, -54f), new Vector2(380f, 60f))

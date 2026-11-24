@@ -6,8 +6,18 @@ public sealed class CharacterDetailView : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] private Text _name;
-    [SerializeField] private Text _rankLevel;
-    [SerializeField] private Text _stars;
+    [SerializeField] private Image _element;
+    [Tooltip("무·화·수·목·토·풍 순서로 연결합니다.")]
+    [SerializeField] private Sprite[] _elementSprites;
+    [Header("등급·레벨·성급 이미지")]
+    [SerializeField] private Image _rank;
+    [Tooltip("현재 등급 N, R, U, E 순서로 연결합니다.")]
+    [SerializeField] private Sprite[] _rankSprites;
+    [SerializeField] private CharacterLevelView _level;
+    [Tooltip("왼쪽부터 성급을 채우는 별 5칸입니다.")]
+    [SerializeField] private Image[] _starImages;
+    [SerializeField] private Sprite _emptyStar;
+    [SerializeField] private Sprite _filledStar;
     [SerializeField] private Text[] _stats;
     [SerializeField] private Button[] _skills;
     [SerializeField] private Image[] _skillIcons;
@@ -25,8 +35,15 @@ public sealed class CharacterDetailView : MonoBehaviour
         int rank = state.IsAvailable ? state.Rank : 0;
         int level = state.IsAvailable ? state.Level : 1;
         int stars = state.IsAvailable ? state.Stars : 0;
-        _rankLevel.text = $"{GetRankName(rank)}   Lv. {level}   {GetElementName(table.GetInt(id, 7))}";
-        _stars.text = new string('★', stars) + new string('☆', 5 - stars);
+        int element = table.GetInt(id, 7);
+        _element.enabled = (uint)element < (uint)_elementSprites.Length;
+        _element.sprite = _element.enabled ? _elementSprites[element] : null;
+        _rank.sprite = (uint)rank < (uint)_rankSprites.Length ? _rankSprites[rank] : null;
+        _level.SetLevel(level);
+        for (int i = 0; i < _starImages.Length; i++)
+        {
+            _starImages[i].sprite = i < stars ? _filledStar : _emptyStar;
+        }
         int[] stats = characters.GetStats(id);
         string[] names = { "공격력", "방어력", "체력" };
         for (int i = 0; i < _stats.Length; i++)
@@ -81,8 +98,4 @@ public sealed class CharacterDetailView : MonoBehaviour
         return rank switch { 0 => "N", 1 => "R", 2 => "U", 3 => "E", _ => "?" };
     }
 
-    public static string GetElementName(int element)
-    {
-        return element switch { 0 => "무", 1 => "화", 2 => "수", 3 => "목", 4 => "토", 5 => "풍", _ => "?" };
-    }
 }
