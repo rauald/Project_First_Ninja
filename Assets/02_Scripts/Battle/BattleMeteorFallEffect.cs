@@ -36,18 +36,18 @@ public sealed class BattleMeteorFallEffect : MonoBehaviour
     public void Initialize(Sprite scroll, Sprite smoke, Sprite meteorBody, Sprite debris, Sprite[] groundFire,
         Sprite shockwave, Sprite pixel, int order, Vector3 mapCenter, float mapHalfExtent, Vector3 impactPoint)
     {
-        _scroll = CreateSprite("Summoning scroll", scroll, order);
-        _smoke = CreateSprite("Scroll smoke", smoke, order + 2);
-        _rock = CreateSprite("Meteor core", meteorBody, order + 2);
-        _flash = CreateSprite("Impact flash", pixel, order + 3);
+        _scroll = CreateSprite("Summoning_scroll", scroll, order);
+        _smoke = CreateSprite("Scroll_smoke", smoke, order + 2);
+        _rock = CreateSprite("Meteor_core", meteorBody, order + 2);
+        _flash = CreateSprite("Impact_flash", pixel, order + 3);
 
         for (int i = 0; i < _fragments.Length; i++)
         {
-            _fragments[i] = CreateSprite("Meteor fragment", debris, order + 1);
+            _fragments[i] = CreateSprite("Meteor_fragment", debris, order + 1);
         }
         PrepareGroundFire(groundFire, mapCenter, mapHalfExtent, impactPoint);
 
-        _shockwave = CreateSprite("Meteor impact shockwave", shockwave, order + 2);
+        _shockwave = CreateSprite("Meteor_impact_shockwave", shockwave, order + 2);
     }
 
     // 현재 카메라 위치를 기준으로 기존 불꽃의 점화 시각을 다시 계산한다.
@@ -149,7 +149,7 @@ public sealed class BattleMeteorFallEffect : MonoBehaviour
             return;
         }
 
-        _groundFireRoot = new GameObject("Meteor map ground fire").transform;
+        _groundFireRoot = new GameObject("Meteor_map_ground_fire").transform;
         _groundFireRoot.SetParent(transform, false);
         _mapCenter = mapCenter;
         _groundFireRoot.position = _mapCenter;
@@ -161,7 +161,7 @@ public sealed class BattleMeteorFallEffect : MonoBehaviour
             for (int x = 0; x < GROUND_FIRE_GRID; x++)
             {
                 int index = y * GROUND_FIRE_GRID + x;
-                var view = new GameObject("Ground fire patch").AddComponent<SpriteRenderer>();
+                var view = new GameObject("Ground_fire_patch").AddComponent<SpriteRenderer>();
                 view.transform.SetParent(_groundFireRoot, false);
                 view.sprite = sprites[(x + y * 3) % sprites.Length];
                 view.sortingOrder = -10;

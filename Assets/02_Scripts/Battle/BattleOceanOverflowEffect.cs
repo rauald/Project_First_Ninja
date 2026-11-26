@@ -57,24 +57,24 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
         }
         for (int i = 0; i < _whirlpools.Length; i++)
         {
-            _whirlpools[i] = CreateView("Ocean whirlpool water", whirlpoolSprite, -19);
-            _innerWhirlpools[i] = CreateView("Ocean whirlpool foam", whirlpoolSprite, -18);
+            _whirlpools[i] = CreateView("Ocean_whirlpool_water", whirlpoolSprite, -19);
+            _innerWhirlpools[i] = CreateView("Ocean_whirlpool_foam", whirlpoolSprite, -18);
         }
 
         for (int frame = 0; frame < _dragonFrames.Length; frame++)
             _dragonFrames[frame] = ReadFrame(dragonSheet, frame);
 
-        _shadow = CreateView("Submerged dragon", _dragonFrames[SHADOW_FRAME], order + 2);
+        _shadow = CreateView("Submerged_dragon", _dragonFrames[SHADOW_FRAME], order + 2);
         if (eyeSprite == null)
         {
             _eyeTexture = CreateEyeTexture();
             _generatedEyeSprite = Sprite.Create(_eyeTexture, new Rect(0, 0, 32, 32), new Vector2(.5f, .5f), 32);
             eyeSprite = _generatedEyeSprite;
         }
-        _leftEye = CreateView("Dragon left eye flash", eyeSprite, order + 3);
-        _rightEye = CreateView("Dragon right eye flash", eyeSprite, order + 3);
-        _dragon = CreateView("Animated water dragon", _dragonFrames[0], order + 5);
-        _mouthOcclusion = CreateView("Water dragon mouth interior", pixel, order + 4);
+        _leftEye = CreateView("Dragon_left_eye_flash", eyeSprite, order + 3);
+        _rightEye = CreateView("Dragon_right_eye_flash", eyeSprite, order + 3);
+        _dragon = CreateView("Animated_water_dragon", _dragonFrames[0], order + 5);
+        _mouthOcclusion = CreateView("Water_dragon_mouth_interior", pixel, order + 4);
     }
 
     // 전투 시계에서 현재 장면을 계산해 반복 시전에도 이전 프레임이 남지 않게 한다.
@@ -133,7 +133,7 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
     // 수면 중앙, 거품 띠, 바깥 경계를 잇는 삼각형을 준비한다.
     private void PrepareWater(int order, Texture2D surfaceTexture)
     {
-        var host = new GameObject("Ocean surface");
+        var host = new GameObject("Ocean_surface");
         host.transform.SetParent(transform, false);
         _waterMesh = new Mesh { name = "Ocean flood mesh" };
         _waterMesh.MarkDynamic();

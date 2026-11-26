@@ -10,6 +10,11 @@ public sealed class WindowManager : MonoBehaviour
     private GameObject _current;
     private bool _isSliding;
 
+    internal void PrepareLobby()
+    {
+        _windows[(int)WindowType.Equipment].GetComponent<EquipmentWindow>().PrepareInventorySlots();
+    }
+
     public void Open(WindowType type)
     {
         int index = (int)type;

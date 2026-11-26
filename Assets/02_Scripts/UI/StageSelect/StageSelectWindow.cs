@@ -1,5 +1,4 @@
 using TMPro;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,12 +7,11 @@ public sealed class StageSelectWindow : MonoBehaviour, IWindowable
     [SerializeField] private TextMeshProUGUI _silver;
     [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private ScrollRect _scroll;
-    [SerializeField] private StageCardView _cardTemplate;
     [SerializeField] private StageEntryPopUp _entryPopUp;
     [Tooltip("스테이지 목록 카드에 표시하는 지도 미리보기입니다. 맵 타입 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _mapPreviews;
 
-    private readonly List<StageCardView> _cards = new();
+    private StageCardView[] _cards;
 
     public void ResetUI()
     {
@@ -22,26 +20,22 @@ public sealed class StageSelectWindow : MonoBehaviour, IWindowable
         GameManager game = GameManager.Instance;
         _silver.text = CurrencyFormatter.Format(game.Characters.GetAmount(0, 0));
         _gold.text = CurrencyFormatter.Format(game.Characters.GetAmount(0, 1));
-        if (_cardTemplate == null)
-        {
-            _cardTemplate = _scroll.GetComponentInChildren<StageCardView>(true);
-        }
-        _cardTemplate.gameObject.SetActive(false);
+        _cards ??= _scroll.content.GetComponentsInChildren<StageCardView>(true);
 
         StageProgression stages = game.Stages;
         RectTransform highestAvailableCard = null;
-        for (int i = 0; i < stages.StageIds.Count; i++)
+        for (int i = 0; i < _cards.Length; i++)
         {
-            if (i == _cards.Count)
+            StageCardView stageCard = _cards[i];
+            if (i >= stages.StageIds.Count)
             {
-                StageCardView card = Instantiate(_cardTemplate, _scroll.content);
-                _cards.Add(card);
+                stageCard.gameObject.SetActive(false);
+                continue;
             }
 
             int id = stages.StageIds[i];
             int mapIndex = stages.GetMapType(id) - 1;
             Sprite preview = mapIndex >= 0 && mapIndex < _mapPreviews.Length ? _mapPreviews[mapIndex] : null;
-            StageCardView stageCard = _cards[i];
             bool canEnter = stages.CanEnter(id);
             stageCard.Bind(id, stages.GetStageName(id), preview, canEnter, stages.HasCleared(id), OpenEntryPopUp);
             stageCard.gameObject.SetActive(true);

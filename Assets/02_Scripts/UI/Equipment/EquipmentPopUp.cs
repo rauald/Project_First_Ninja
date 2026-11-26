@@ -1,6 +1,4 @@
 using TMPro;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,7 +19,6 @@ public sealed class EquipmentPopUp : MonoBehaviour
     };
 
     [SerializeField] private EquipmentWindow _window;
-    [SerializeField] private RectTransform _panel;
     [SerializeField] private TextMeshProUGUI _nameLine;
     [SerializeField] private TextMeshProUGUI _slotLine;
     [SerializeField] private TextMeshProUGUI _rankLine;
@@ -42,42 +39,7 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
     private EquipmentInstanceData _selected;
     private float[] _rankStatAlphas;
-    [SerializeField] private RectTransform _growthPanel;
-    [SerializeField] private TextMeshProUGUI _growthTitle;
-    [SerializeField] private GrowthMaterialRow[] _levelMaterials;
-    [SerializeField] private TextMeshProUGUI _growthStatus;
-    [SerializeField] private Button _confirmGrowth;
-    [SerializeField] private Button _cancelGrowth;
-    [SerializeField] private Button _materialRowTemplate;
-    [SerializeField] private MaterialList _requiredMaterials;
-    [SerializeField] private MaterialList _additionalMaterials;
-
-    private Vector2 _growthOffsetMin;
-    private Vector2 _growthOffsetMax;
-    private EquipmentInventory.RankUpCost _rankCost;
-
-    [Serializable]
-    private sealed class MaterialList
-    {
-        public TextMeshProUGUI Heading;
-        public TextMeshProUGUI Selection;
-        public GrowthMaterialRow Cost;
-        public ScrollRect Scroll;
-        [NonSerialized] public int RequiredCount;
-        [NonSerialized] public EquipmentInstanceData[] Candidates = Array.Empty<EquipmentInstanceData>();
-        public readonly HashSet<EquipmentInstanceData> Selected = new();
-        public readonly List<(Button Button, TextMeshProUGUI Label, Image Icon)> Rows = new();
-    }
-
     private EquipmentInventory Inventory => GameManager.Instance.Equipment;
-
-    private void Awake()
-    {
-        _growthOffsetMin = _growthPanel.offsetMin;
-        _growthOffsetMax = _growthPanel.offsetMax;
-        _confirmGrowth.onClick.AddListener(ConfirmGrowth);
-        _cancelGrowth.onClick.AddListener(() => _growthPanel.gameObject.SetActive(false));
-    }
 
     public void ShowEquipment(EquipmentInstanceData item)
     {
@@ -106,7 +68,6 @@ public sealed class EquipmentPopUp : MonoBehaviour
         {
             label.text = item.IsEquipped ? "해제" : inventory.GetEquipped(slot) == null ? "장착" : "교체";
         }
-        _growthPanel.gameObject.SetActive(false);
         _levelUpButton.interactable = inventory.GetLevelUpCost(item, out _);
         _rankUpButton.interactable = inventory.GetRankUpCost(item) != null;
         UIManager.Instance.PopUp.Open(PopUpType.Equipment);
@@ -120,153 +81,29 @@ public sealed class EquipmentPopUp : MonoBehaviour
             return;
         }
 
-        _rankCost = null;
-        _growthTitle.text = $"레벨업  Lv. {Inventory.GetLevel(_selected)} → {Inventory.GetLevel(_selected) + 1}";
-        SetRankGrowthLayout(false);
-        int visibleIndex = 0;
-        foreach (CharacterMaterialData cost in costs)
-        {
-            if (cost.Amount <= 0)
-            {
-                continue;
-            }
-
-            bool isCurrency = cost.ItemType == 0;
-            long held = GameManager.Instance.Characters.GetAmount(cost.ItemType, cost.DetailType);
-            _levelMaterials[visibleIndex++].Show(isCurrency ? _silverIcon : _equipmentStoneIcon, held, cost.Amount);
-        }
-        _confirmGrowth.interactable = true;
-        _growthStatus.text = "";
-        _growthPanel.gameObject.SetActive(true);
+        EquipmentInstanceData item = _selected;
+        int level = Inventory.GetLevel(item);
+        var materials = costs.Where(cost => cost.Amount > 0).Select(cost => (
+            cost.ItemType == 0 ? _silverIcon : _equipmentStoneIcon,
+            GameManager.Instance.Characters.GetAmount(cost.ItemType, cost.DetailType),
+            cost.Amount, cost.ItemType == 0)).ToArray();
+        UIManager.Instance.PopUp.ShowChoice($"레벨업  Lv. {level} → {level + 1}", () => ConfirmGrowth(item), materials);
     }
 
     public void ShowRankUp()
     {
-        _rankCost = Inventory.GetRankUpCost(_selected);
-        if (_rankCost == null)
+        Close();
+        _window.OpenFusionTab();
+    }
+
+    private void ConfirmGrowth(EquipmentInstanceData item)
+    {
+        if (!Inventory.TryLevelUp(item, out string message))
         {
-            _message.text = "더 이상 등급업할 수 없습니다.";
+            UIManager.Instance.PopUp.ShowNotice(message);
             return;
         }
 
-        string requiredItemName = Inventory.Definitions.GetString(_selected.DefinitionId, 0);
-        int rank = Inventory.GetRank(_selected);
-        _growthTitle.text = $"등급업  {CharacterDetailView.GetRankName(rank)} → {CharacterDetailView.GetRankName(rank + 1)}";
-        SetRankGrowthLayout(true);
-        BindMaterials(_requiredMaterials, _rankCost.RequiredCount,
-            $"필수 재료 · {requiredItemName} · {CharacterDetailView.GetRankName(_rankCost.RequiredRank)}",
-            _window.GetItemIcon(_selected.DefinitionId), true);
-        BindMaterials(_additionalMaterials, _rankCost.AdditionalCount,
-            $"추가 재료 · {EquipmentWindow.GetSlotName(_rankCost.AdditionalSlot)} · {CharacterDetailView.GetRankName(_rankCost.AdditionalRank)}",
-            _window.GetRankSprite(_rankCost.AdditionalRank), false);
-        RefreshMaterialSelection();
-        _growthPanel.gameObject.SetActive(true);
-        Canvas.ForceUpdateCanvases();
-        _requiredMaterials.Scroll.verticalNormalizedPosition = 1f;
-        _additionalMaterials.Scroll.verticalNormalizedPosition = 1f;
-    }
-
-    private void SetRankGrowthLayout(bool isRankUp)
-    {
-        var availableArea = (RectTransform)_panel.parent;
-        float extension = isRankUp ? Mathf.Clamp((availableArea.rect.height - _panel.rect.height - 48f) * .5f, 0f, 160f) : 0f;
-        _growthPanel.offsetMin = _growthOffsetMin - Vector2.up * extension;
-        _growthPanel.offsetMax = _growthOffsetMax + Vector2.up * extension;
-        foreach (GrowthMaterialRow row in _levelMaterials)
-        {
-            row.Hide();
-        }
-        _requiredMaterials.Scroll.gameObject.SetActive(isRankUp);
-        _additionalMaterials.Scroll.gameObject.SetActive(isRankUp);
-    }
-
-    private void BindMaterials(MaterialList list, int count, string requirement, Sprite icon, bool isRequired)
-    {
-        list.RequiredCount = count;
-        list.Selected.Clear();
-        list.Candidates = Inventory.GetRankUpCandidates(_selected, _rankCost, isRequired)
-            .OrderBy(item => item.DefinitionId).ThenBy(Inventory.GetLevel).ToArray();
-        list.Heading.text = requirement;
-        list.Cost.Show(icon, list.Candidates.Length, count);
-        list.Scroll.StopMovement();
-
-        RectTransform content = list.Scroll.content;
-        while (list.Rows.Count < list.Candidates.Length)
-        {
-            int index = list.Rows.Count;
-            Button button = Instantiate(_materialRowTemplate, content);
-            button.name = $"Material_{index + 1}";
-            button.onClick.AddListener(() => ToggleMaterial(list, index));
-            list.Rows.Add((button, button.GetComponentInChildren<TextMeshProUGUI>(true),
-                button.transform.Find("Material_Icon").GetComponent<Image>()));
-        }
-
-        for (int index = 0; index < list.Rows.Count; index++)
-        {
-            var row = list.Rows[index];
-            bool isAvailable = index < list.Candidates.Length;
-            row.Button.gameObject.SetActive(isAvailable);
-            if (isAvailable)
-            {
-                EquipmentInstanceData item = list.Candidates[index];
-                string name = Inventory.Definitions.GetString(item.DefinitionId, 0);
-                string type = Inventory.Definitions.GetInt(item.DefinitionId, 2) == 1 ? "특수" : "일반";
-                row.Label.text = $"{name}  ·  Lv. {Inventory.GetLevel(item)}  ·  {type}";
-                _window.ApplyItemImage(row.Icon, item);
-            }
-        }
-    }
-
-    private void ToggleMaterial(MaterialList list, int index)
-    {
-        EquipmentInstanceData item = list.Candidates[index];
-        MaterialList other = list == _requiredMaterials ? _additionalMaterials : _requiredMaterials;
-        if (!list.Selected.Remove(item) && list.Selected.Count < list.RequiredCount && !other.Selected.Contains(item))
-        {
-            list.Selected.Add(item);
-        }
-
-        RefreshMaterialSelection();
-    }
-
-    private void RefreshMaterialSelection()
-    {
-        RefreshMaterialList(_requiredMaterials, _additionalMaterials);
-        RefreshMaterialList(_additionalMaterials, _requiredMaterials);
-        _growthStatus.text = _requiredMaterials.Candidates.Length < _requiredMaterials.RequiredCount
-            || _additionalMaterials.Candidates.Length < _additionalMaterials.RequiredCount
-            ? "선택할 수 있는 미장착 재료 장비가 부족합니다."
-            : "확인하면 선택한 장비가 소모됩니다.";
-        _confirmGrowth.interactable = _requiredMaterials.Selected.Count == _requiredMaterials.RequiredCount
-            && _additionalMaterials.Selected.Count == _additionalMaterials.RequiredCount;
-    }
-
-    private static void RefreshMaterialList(MaterialList list, MaterialList other)
-    {
-        list.Selection.text = $"선택 {list.Selected.Count} / {list.RequiredCount}";
-        for (int index = 0; index < list.Candidates.Length; index++)
-        {
-            Button button = list.Rows[index].Button;
-            EquipmentInstanceData item = list.Candidates[index];
-            bool selected = list.Selected.Contains(item);
-            button.interactable = selected || (list.Selected.Count < list.RequiredCount && !other.Selected.Contains(item));
-            ((Image)button.targetGraphic).color = selected ? new Color(.54f, .35f, .14f) : new Color(.29f, .20f, .13f);
-        }
-    }
-
-    private void ConfirmGrowth()
-    {
-        string message;
-        bool succeeded = _rankCost == null
-            ? Inventory.TryLevelUp(_selected, out message)
-            : Inventory.TryRankUp(_selected, _requiredMaterials.Selected, _additionalMaterials.Selected, out message);
-        if (!succeeded)
-        {
-            _growthStatus.text = message;
-            return;
-        }
-
-        EquipmentInstanceData item = _selected;
         _window.ResetUI();
         ShowEquipment(item);
         _message.text = message;

@@ -11,7 +11,12 @@ public sealed class PoolManager : Singleton<PoolManager>
     {
         if (!_pools.TryGetValue(prefab, out object pool))
         {
-            pool = new ObjectPool<T>(root => UnityEngine.Object.Instantiate(prefab, root), transform);
+            pool = new ObjectPool<T>(root =>
+            {
+                T instance = UnityEngine.Object.Instantiate(prefab, root);
+                instance.name = prefab.name;
+                return instance;
+            }, transform);
             _pools.Add(prefab, pool);
         }
         return (ObjectPool<T>)pool;

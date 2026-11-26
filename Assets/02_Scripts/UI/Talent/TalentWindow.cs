@@ -10,8 +10,10 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
 
     [SerializeField] private TalentPanViewport _viewport;
     [SerializeField] private TalentNodeView[] _nodes;
-    [Tooltip("특성 ID 1은 Element 0입니다.")]
+    [Tooltip("AbilityData의 특성 종류 순서입니다. 스킬 새로고침(1)은 Element 0입니다.")]
     [SerializeField] private Sprite[] _talentIcons = System.Array.Empty<Sprite>();
+    [Tooltip("습득한 특성 노드 뒤에 표시하는 공용 오라 이미지입니다.")]
+    [SerializeField] private Sprite _learnedAuraSprite;
     [SerializeField] private Color _unlearnedColor = new(0.72f, 0.72f, 0.72f, 1f);
     [SerializeField] private TextMeshProUGUI _silver;
     [SerializeField] private TextMeshProUGUI _gold;
@@ -34,11 +36,6 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         _nodesById = _nodes.ToDictionary(node => node.Id);
         foreach (TalentNodeView node in _nodes)
         {
-            int iconIndex = node.Id - 1;
-            if ((uint)iconIndex < (uint)_talentIcons.Length)
-            {
-                node.SetIcon(_talentIcons[iconIndex]);
-            }
             node.Button.onClick.AddListener(() => OpenDetails(node));
         }
 
@@ -52,7 +49,9 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         CloseDetails();
         foreach (TalentNodeView node in _nodes)
         {
-            IReadOnlyList<int> prerequisites = Talents.GetTalent(node.Id).Prerequisites;
+            TalentService.Talent talent = Talents.GetTalent(node.Id);
+            node.SetIcon(GetTalentIcon(talent.Type));
+            IReadOnlyList<int> prerequisites = talent.Prerequisites;
             for (int index = 0; index < prerequisites.Count; index++)
             {
                 node.PlaceLink(index, _nodesById[prerequisites[index]].Position);
@@ -63,6 +62,12 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         RefreshTree();
     }
 
+    private Sprite GetTalentIcon(TalentService.EffectType type)
+    {
+        int index = (int)type - 1;
+        return (uint)index < (uint)_talentIcons.Length ? _talentIcons[index] : null;
+    }
+
     private void RefreshTree()
     {
         LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
@@ -70,7 +75,7 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         _gold.text = CurrencyFormatter.Format(Talents.GetBalance(1));
         foreach (TalentNodeView node in _nodes)
         {
-            node.SetLearned(Talents.IsLearned(node.Id), _unlearnedColor);
+            node.SetLearned(Talents.IsLearned(node.Id), _unlearnedColor, _learnedAuraSprite);
         }
     }
 

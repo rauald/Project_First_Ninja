@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -205,8 +206,71 @@ public sealed class GameManager : Singleton<GameManager>
 
         operation.allowSceneActivation = true;
         yield return operation;
+        if (index == (int)SceneType.Lobby)
+        {
+            UIManager.Instance.Window.PrepareLobby();
+        }
+        if (index == (int)SceneType.Game)
+        {
+            BattleSession battle = FindBattleSession(SceneManager.GetActiveScene());
+            if (battle == null)
+            {
+                Debug.LogError("전투 씬에 BattleSession이 연결되지 않았습니다.", this);
+                EndSceneLoading();
+                StartAsyncLoad(SceneType.Lobby);
+                yield break;
+            }
+
+            var work = new Stack<IEnumerator>();
+            work.Push(battle.PrepareForEntry(this));
+            while (work.Count > 0)
+            {
+                IEnumerator step = work.Peek();
+                bool hasNext;
+                try
+                {
+                    hasNext = step.MoveNext();
+                }
+                catch (Exception exception)
+                {
+                    Debug.LogException(exception, battle);
+                    EndSceneLoading();
+                    StartAsyncLoad(SceneType.Lobby);
+                    yield break;
+                }
+
+                if (!hasNext)
+                {
+                    work.Pop();
+                }
+                else if (step.Current is IEnumerator nested)
+                {
+                    work.Push(nested);
+                }
+                else
+                {
+                    yield return step.Current;
+                }
+            }
+
+            EndSceneLoading();
+            battle.StartPreparedBattle();
+            yield break;
+        }
         yield return null;
         EndSceneLoading();
+    }
+
+    private static BattleSession FindBattleSession(Scene scene)
+    {
+        foreach (GameObject root in scene.GetRootGameObjects())
+        {
+            if (root.TryGetComponent(out BattleSession battle))
+            {
+                return battle;
+            }
+        }
+        return null;
     }
 
     // 타이틀 진행 표시와 독립적으로 사용하는 씬 공통 로딩 화면이다.

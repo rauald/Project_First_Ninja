@@ -42,8 +42,8 @@ public sealed class BattleAwakeningParticleEffect : MonoBehaviour
     // 기 조각과 섬광용 파티클 시스템을 준비한다.
     public void ConfigureEnergy(Sprite pixel, Material material, int order)
     {
-        _energy = AddLayer("Energy Qi", pixel, material, order, 1500);
-        _flash = AddLayer("Energy flash", pixel, material, order - 1, 1);
+        _energy = AddLayer("Energy_Qi", pixel, material, order, 1500);
+        _flash = AddLayer("Energy_flash", pixel, material, order - 1, 1);
     }
 
     // 유성낙화에 쓰는 기존 스프라이트와 맵 전체 불길의 점화 위치를 준비한다.
@@ -52,14 +52,14 @@ public sealed class BattleAwakeningParticleEffect : MonoBehaviour
     {
         _scroll = AddLayer("Scroll", scroll, material, order, 1);
         _smoke = AddLayer("Smoke", smoke, material, order + 2, 1);
-        _meteor = AddLayer("Single meteor", meteorBody, material, order + 2, 1);
+        _meteor = AddLayer("Single_meteor", meteorBody, material, order + 2, 1);
         _debris = AddLayer("Debris", debris, material, order + 1, 9);
         _shockwave = AddLayer("Shockwave", shockwave, material, order + 2, 1);
-        _flash = AddLayer("Meteor flash", pixel, material, order + 3, 1);
+        _flash = AddLayer("Meteor_flash", pixel, material, order + 3, 1);
         _groundFire = new Layer[groundFire.Length];
         for (int i = 0; i < groundFire.Length; i++)
         {
-            _groundFire[i] = AddLayer($"Ground fire {i}", groundFire[i], material, -10,
+            _groundFire[i] = AddLayer($"Ground_fire_{i}", groundFire[i], material, -10,
                 (MAP_GRID * MAP_GRID + groundFire.Length - 1) / groundFire.Length + MAP_GRID);
         }
 

@@ -9,8 +9,9 @@ public sealed class EquipmentSlotView : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _label;
     [SerializeField] private GameObject _equippedBadge;
     [SerializeField] private GameObject _specialBadge;
+    [SerializeField] private TextMeshProUGUI _selectionLabel;
 
-    internal void Render(Sprite icon, Sprite rank, string label, bool isEquipped, bool isSpecial)
+    internal void Render(Sprite icon, Sprite rank, string label, bool isEquipped, bool isSpecial, string selection)
     {
         SetSprite(_icon, icon);
         SetSprite(_rank, rank);
@@ -25,6 +26,11 @@ public sealed class EquipmentSlotView : MonoBehaviour
         if (_specialBadge != null)
         {
             _specialBadge.SetActive(isSpecial);
+        }
+        if (_selectionLabel != null)
+        {
+            _selectionLabel.text = selection;
+            _selectionLabel.transform.parent.gameObject.SetActive(selection.Length > 0);
         }
     }
 

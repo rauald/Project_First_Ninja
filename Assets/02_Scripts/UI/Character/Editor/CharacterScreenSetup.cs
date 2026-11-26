@@ -107,47 +107,15 @@ public static class CharacterScreenSetup
         Button skillClose = Button("Close", skill.transform, .78f, .86f, .97f, .97f, "닫기");
         UnityEventTools.AddPersistentListener(skillClose.onClick, popup.CloseSkill);
 
-        Transform confirmOverlay = Overlay("ConfirmationOverlay", modal);
-        Image confirmPanel = Image("Confirmation", confirmOverlay, .10f, .28f, .90f, .72f, DARK);
-        TextMeshProUGUI confirmText = Label("Message", confirmPanel.transform, .06f, .55f, .94f, .86f, "", 30, Color.white);
-        Button confirm = Button("Confirm", confirmPanel.transform, .07f, .06f, .47f, .22f, "확인");
-        Button cancel = Button("Cancel", confirmPanel.transform, .53f, .06f, .93f, .22f, "취소");
-        Button messageConfirm = Button("MessageConfirm", confirmPanel.transform, .30f, .06f, .70f, .22f, "확인");
-        foreach (Button button in new[] { confirm, cancel, messageConfirm })
-        {
-            button.image.color = new Color(.25f, .29f, .34f);
-        }
-        UnityEventTools.AddPersistentListener(confirm.onClick, popup.ConfirmGrowth);
-        UnityEventTools.AddPersistentListener(cancel.onClick, popup.CancelGrowth);
-        UnityEventTools.AddPersistentListener(messageConfirm.onClick, popup.ConfirmGrowth);
-
-        string[] slotNames = { "Center", "Left", "Right" };
-        float[] slotCenters = { .50f, .27f, .73f };
-        Image[] materialIcons = new Image[3];
-        TextMeshProUGUI[] materialAmounts = new TextMeshProUGUI[3];
-        for (int i = 0; i < slotNames.Length; i++)
-        {
-            float x = slotCenters[i];
-            materialIcons[i] = Image("MaterialIcon" + slotNames[i], confirmPanel.transform,
-                x - .176f, .397f, x - .102f, .473f, Color.white);
-            materialIcons[i].preserveAspect = true;
-            materialAmounts[i] = Label("MaterialAmount" + slotNames[i], confirmPanel.transform,
-                x - .101f, .393f, x + .188f, .477f, "", 30, Color.white);
-        }
-
         Set(popup, "_window", window, "_infoPanel", info.gameObject, "_detail", infoDetail, "_equip", equip,
             "_skillPanel", skillOverlay.gameObject, "_skillTitle", skillTitle, "_skillDescription", skillDescription,
-            "_skillIcon", skillIcon, "_confirmPanel", confirmOverlay.gameObject, "_confirmText", confirmText,
-            "_confirm", confirm, "_cancel", cancel, "_messageConfirm", messageConfirm,
+            "_skillIcon", skillIcon,
             "_silverIcon", FindBelow(top, "EunjaIcon").GetComponent<Image>().sprite,
             "_goldIcon", FindBelow(top, "GeumjaIcon").GetComponent<Image>().sprite);
-        SetArray(popup, "_materialIcons", materialIcons);
-        SetArray(popup, "_materialAmounts", materialAmounts);
         SetArray(popup, "_fragmentIcons", Enumerable.Range(34, 6).Select(Icon).ToArray());
         SetArray(popup, "_stoneIcons", Enumerable.Range(40, 6).Select(Icon).ToArray());
         SetArray(popup, "_growthButtons", growth);
         skillOverlay.gameObject.SetActive(false);
-        confirmOverlay.gameObject.SetActive(false);
         modal.gameObject.SetActive(false);
 
         Transform settingsModal = BuildSettings(popUps);

@@ -20,6 +20,10 @@ public sealed class EquipmentWindow : MonoBehaviour, IWindowable
     [SerializeField] private TextMeshProUGUI _empty;
     [SerializeField] private ScrollRect _inventoryScroll;
     [SerializeField] private EquipmentPopUp _equipmentPopUp;
+    [SerializeField] private EquipmentFusionView _fusion;
+    [SerializeField] private GameObject _equipmentOverview;
+    [SerializeField] private Button _equipmentTab;
+    [SerializeField] private Button _fusionTab;
 
     private readonly List<Button> _inventoryButtons = new();
     [SerializeField] private Button[] _filterButtons;
@@ -27,6 +31,9 @@ public sealed class EquipmentWindow : MonoBehaviour, IWindowable
 
     private void Awake()
     {
+        _fusion.Initialize(this);
+        _equipmentTab.onClick.AddListener(() => SetFusionTab(false));
+        _fusionTab.onClick.AddListener(OpenFusionTab);
         for (int index = 0; index < _filterButtons.Length; index++)
         {
             EquipmentSlotType slot = (EquipmentSlotType)(index - 1);
@@ -49,24 +56,55 @@ public sealed class EquipmentWindow : MonoBehaviour, IWindowable
             _characterWindow.GetPresentation(characters.Data.EquippedCharacterId));
         _silver.text = CurrencyFormatter.Format(characters.GetAmount(0, 0));
         _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
+        SetFusionTab(false);
+    }
+
+    internal void OpenFusionTab() => SetFusionTab(true);
+
+    private void SetFusionTab(bool showFusion)
+    {
+        _fusion.gameObject.SetActive(showFusion);
+        _equipmentOverview.SetActive(!showFusion);
+        _fusion.ResetSelection();
+        _equipmentTab.interactable = showFusion;
+        _fusionTab.interactable = !showFusion;
         RefreshEquipment();
         ScrollInventoryToTop();
+    }
+
+    internal void PrepareInventorySlots()
+    {
+        if (_inventoryButtons.Count == 0)
+        {
+            foreach (Transform child in _inventoryScroll.content)
+            {
+                if (child.TryGetComponent(out Button slot))
+                {
+                    _inventoryButtons.Add(slot);
+                }
+            }
+        }
+
+        int count = GameManager.Instance.Equipment.Items.Count;
+        while (_inventoryButtons.Count < count)
+        {
+            Button slot = Instantiate(_inventoryTemplate, _inventoryScroll.content);
+            slot.name = $"Inventory_Slot_{_inventoryButtons.Count + 1:00}";
+            slot.gameObject.SetActive(false);
+            _inventoryButtons.Add(slot);
+        }
     }
 
     public void RefreshEquipment()
     {
         EquipmentInventory inventory = GameManager.Instance.Equipment;
-        if (_inventoryTemplate == null)
-        {
-            _inventoryTemplate = _inventoryScroll.content.Find("InventorySlotTemplate").GetComponent<Button>();
-        }
-        _inventoryTemplate.gameObject.SetActive(false);
+        PrepareInventorySlots();
         for (int i = 0; i < _equipped.Length; i++)
         {
             EquipmentSlotType slot = (EquipmentSlotType)i;
             EquipmentInstanceData item = inventory.GetEquipped(slot);
             Button button = _equipped[i];
-            Bind(button, item, GetSlotName(slot), false, inventory);
+            Bind(button, item, GetSlotName(slot), false, inventory, false);
         }
 
         int index = 0;
@@ -85,14 +123,8 @@ public sealed class EquipmentWindow : MonoBehaviour, IWindowable
         {
             EquipmentInstanceData item = entry.Item;
 
-            if (index == _inventoryButtons.Count)
-            {
-                Button slotButton = Instantiate(_inventoryTemplate, _inventoryScroll.content);
-                _inventoryButtons.Add(slotButton);
-            }
-
             Button button = _inventoryButtons[index++];
-            Bind(button, item, GetItemName(inventory, item), entry.IsSpecial, inventory);
+            Bind(button, item, GetItemName(inventory, item), entry.IsSpecial, inventory, true);
             button.gameObject.SetActive(true);
         }
 
@@ -134,16 +166,25 @@ public sealed class EquipmentWindow : MonoBehaviour, IWindowable
     internal Sprite GetItemIcon(int definitionId) => _equipmentArt.GetIcon(definitionId);
 
     private void Bind(Button button, EquipmentInstanceData item, string label, bool isSpecial,
-        EquipmentInventory inventory)
+        EquipmentInventory inventory, bool isInventorySlot)
     {
         Sprite icon = item != null ? GetItemIcon(item.DefinitionId) : null;
         Sprite rank = item != null ? GetRankSprite(inventory.GetRank(item)) : null;
-        button.GetComponent<EquipmentSlotView>().Render(icon, rank, label, item != null && item.IsEquipped, isSpecial);
-        button.interactable = item != null;
+        bool isFusion = _fusion.gameObject.activeSelf;
+        string selection = isFusion && isInventorySlot ? _fusion.GetSlotLabel(item) : "";
+        button.GetComponent<EquipmentSlotView>().Render(icon, rank, label, item != null && item.IsEquipped, isSpecial, selection);
+        button.interactable = item != null && (!isFusion || isInventorySlot);
         button.onClick.RemoveAllListeners();
-        if (item != null)
+        if (button.interactable)
         {
-            button.onClick.AddListener(() => _equipmentPopUp.ShowEquipment(item));
+            if (isFusion)
+            {
+                button.onClick.AddListener(() => _fusion.Select(item));
+            }
+            else
+            {
+                button.onClick.AddListener(() => _equipmentPopUp.ShowEquipment(item));
+            }
         }
     }
 

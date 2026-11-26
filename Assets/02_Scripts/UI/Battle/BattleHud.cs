@@ -402,15 +402,8 @@ public sealed class BattleHud : MonoBehaviour
         }
     }
 
-    private void Awake()
+    internal void PrepareDamageLabels()
     {
-        // 로딩 화면 아래에서 전투 씬이 활성화될 때 최초 라벨을 준비한다.
-        GameManager game = GameManager.Instance;
-        if (game == null || game.ActiveStageId == 0)
-        {
-            return;
-        }
-
         for (int index = 0; index < INITIAL_DAMAGE_LABEL_COUNT; index++)
         {
             AddDamageLabelToPool();

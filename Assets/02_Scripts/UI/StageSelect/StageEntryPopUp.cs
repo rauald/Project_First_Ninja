@@ -1,27 +1,18 @@
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public sealed class StageEntryPopUp : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _message;
-    private int _stageId;
-
     public void Show(int stageId, string stageName)
     {
-        _stageId = stageId;
-        _message.text = $"{stageId}. {stageName}\n입장하시겠습니까?";
-        UIManager.Instance.PopUp.Open(PopUpType.StageEntry);
-    }
-
-    public void ConfirmEntry()
-    {
-        if (GameManager.Instance.TryEnterStage(_stageId))
+        UIManager.Instance.PopUp.ShowChoice($"{stageId}. {stageName}\n입장하시겠습니까?", () =>
         {
-            SoundManager.Instance?.PlayConfirm();
-            ClosePopUp();
-        }
-    }
+            if (GameManager.Instance.TryEnterStage(stageId))
+            {
+                SoundManager.Instance?.PlayConfirm();
+                return;
+            }
 
-    public void ClosePopUp() => UIManager.Instance.PopUp.Close();
+            UIManager.Instance.PopUp.ShowNotice("입장할 수 없습니다.");
+        });
+    }
 }

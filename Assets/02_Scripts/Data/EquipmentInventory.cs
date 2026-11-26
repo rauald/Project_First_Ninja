@@ -265,7 +265,8 @@ public sealed class EquipmentInventory
         bool isRequired)
     {
         return candidate != null && candidate != item && !candidate.IsEquipped
-            && (isRequired ? MatchesRequiredRankMaterial(candidate, item, cost) : MatchesAdditionalRankMaterial(candidate, cost));
+            && (isRequired ? MatchesRequiredRankMaterial(candidate, item, cost)
+                : MatchesAdditionalRankMaterial(candidate, cost));
     }
 
     public bool TryRankUp(EquipmentInstanceData item, IReadOnlyCollection<EquipmentInstanceData> requiredMaterials,
@@ -289,20 +290,119 @@ public sealed class EquipmentInventory
             return false;
         }
 
-        var previousItems = new List<EquipmentInstanceData>(_items);
-        int previousRank = item.Rank;
-        item.Rank = GetRank(item) + 1;
-        _items.RemoveAll(chosen.Contains);
-        if (_save())
+        if (ApplyRankUps(new[] { new RankUpPlan(item, GetRank(item), chosen.ToArray()) }))
         {
             message = "등급업했습니다.";
             return true;
         }
 
-        item.Rank = previousRank;
+        message = "저장하지 못했습니다. 다시 시도해 주세요.";
+        return false;
+    }
+
+    public sealed class RankUpPlan
+    {
+        public EquipmentInstanceData Target { get; }
+        public int SourceRank { get; }
+        public int ResultRank => GetNextRank(SourceRank);
+        public IReadOnlyList<EquipmentInstanceData> Materials { get; }
+
+        internal RankUpPlan(EquipmentInstanceData target, int sourceRank, EquipmentInstanceData[] materials)
+        {
+            Target = target;
+            SourceRank = sourceRank;
+            Materials = Array.AsReadOnly(materials);
+        }
+    }
+
+    private static int GetNextRank(int rank) => rank + 1;
+
+    public int GetRankUpResult(EquipmentInstanceData item) => GetNextRank(GetRank(item));
+
+    public IReadOnlyList<RankUpPlan> PlanBatchRankUp()
+    {
+        var plans = new List<RankUpPlan>();
+        var reserved = new HashSet<EquipmentInstanceData>();
+        var eligible = _items.Where(item => item != null && !item.IsEquipped
+                && GetSlot(item) != EquipmentSlotType.None && GetRank(item) is 0 or 1)
+            .OrderByDescending(GetRank)
+            .ThenByDescending(GetLevel)
+            .ThenBy(item => item.DefinitionId)
+            .ToArray();
+        var materialOrder = eligible.Reverse().ToArray();
+        foreach (EquipmentInstanceData target in eligible)
+        {
+            if (reserved.Contains(target))
+            {
+                continue;
+            }
+
+            RankUpCost cost = GetRankUpCost(target);
+            if (cost == null)
+            {
+                continue;
+            }
+
+            var required = materialOrder.Where(item => !reserved.Contains(item)
+                && IsRankUpMaterial(item, target, cost, true)).Take(cost.RequiredCount).ToArray();
+            if (required.Length != cost.RequiredCount)
+            {
+                continue;
+            }
+
+            var additional = materialOrder.Where(item => !reserved.Contains(item) && !required.Contains(item)
+                && Definitions.GetInt(item.DefinitionId, 2) != 1
+                && IsRankUpMaterial(item, target, cost, false)).Take(cost.AdditionalCount).ToArray();
+            if (additional.Length != cost.AdditionalCount)
+            {
+                continue;
+            }
+
+            var materials = required.Concat(additional).ToArray();
+            plans.Add(new RankUpPlan(target, GetRank(target), materials));
+            reserved.Add(target);
+            reserved.UnionWith(materials);
+        }
+
+        return plans.AsReadOnly();
+    }
+
+    public bool TryBatchRankUp(IReadOnlyList<RankUpPlan> preview)
+    {
+        IReadOnlyList<RankUpPlan> current = PlanBatchRankUp();
+        if (preview.Count == 0 || preview.Count != current.Count
+            || !preview.Zip(current, (left, right) => left.Target == right.Target
+                && left.SourceRank == right.SourceRank && left.Materials.SequenceEqual(right.Materials)).All(match => match))
+        {
+            return false;
+        }
+
+        return ApplyRankUps(current);
+    }
+
+    private bool ApplyRankUps(IReadOnlyList<RankUpPlan> plans)
+    {
+        var previousItems = new List<EquipmentInstanceData>(_items);
+        int[] previousRanks = plans.Select(plan => plan.Target.Rank).ToArray();
+        var consumed = new HashSet<EquipmentInstanceData>(plans.SelectMany(plan => plan.Materials));
+        foreach (RankUpPlan plan in plans)
+        {
+            plan.Target.Rank = plan.ResultRank;
+        }
+
+        _items.RemoveAll(consumed.Contains);
+        if (_save())
+        {
+            return true;
+        }
+
+        for (int index = 0; index < plans.Count; index++)
+        {
+            plans[index].Target.Rank = previousRanks[index];
+        }
+
         _items.Clear();
         _items.AddRange(previousItems);
-        message = "저장하지 못했습니다. 다시 시도해 주세요.";
         return false;
     }
 
