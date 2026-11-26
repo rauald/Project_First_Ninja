@@ -1,3 +1,4 @@
+using TMPro;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -9,16 +10,20 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
 
     [SerializeField] private TalentPanViewport _viewport;
     [SerializeField] private TalentNodeView[] _nodes;
+    [Tooltip("AbilityData의 특성 종류 순서입니다. 스킬 새로고침(1)은 Element 0입니다.")]
+    [SerializeField] private Sprite[] _talentIcons = System.Array.Empty<Sprite>();
+    [Tooltip("습득한 특성 노드 뒤에 표시하는 공용 오라 이미지입니다.")]
+    [SerializeField] private Sprite _learnedAuraSprite;
     [SerializeField] private Color _unlearnedColor = new(0.72f, 0.72f, 0.72f, 1f);
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private GameObject _details;
     [SerializeField] private Image _detailIcon;
-    [SerializeField] private Text _detailName;
-    [SerializeField] private Text _detailEffect;
-    [SerializeField] private Text _detailRequirements;
-    [SerializeField] private Text _detailCost;
-    [SerializeField] private Text _detailStatus;
+    [SerializeField] private TextMeshProUGUI _detailName;
+    [SerializeField] private TextMeshProUGUI _detailEffect;
+    [SerializeField] private TextMeshProUGUI _detailRequirements;
+    [SerializeField] private TextMeshProUGUI _detailCost;
+    [SerializeField] private TextMeshProUGUI _detailStatus;
     [SerializeField] private Button _learn;
     [SerializeField] private Button _close;
 
@@ -44,7 +49,9 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         CloseDetails();
         foreach (TalentNodeView node in _nodes)
         {
-            IReadOnlyList<int> prerequisites = Talents.GetTalent(node.Id).Prerequisites;
+            TalentService.Talent talent = Talents.GetTalent(node.Id);
+            node.SetIcon(GetTalentIcon(talent.Type));
+            IReadOnlyList<int> prerequisites = talent.Prerequisites;
             for (int index = 0; index < prerequisites.Count; index++)
             {
                 node.PlaceLink(index, _nodesById[prerequisites[index]].Position);
@@ -55,6 +62,12 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         RefreshTree();
     }
 
+    private Sprite GetTalentIcon(TalentService.EffectType type)
+    {
+        int index = (int)type - 1;
+        return (uint)index < (uint)_talentIcons.Length ? _talentIcons[index] : null;
+    }
+
     private void RefreshTree()
     {
         LobbyWindow.BindCurrencyLabels(transform, ref _silver, ref _gold);
@@ -62,7 +75,7 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         _gold.text = CurrencyFormatter.Format(Talents.GetBalance(1));
         foreach (TalentNodeView node in _nodes)
         {
-            node.SetLearned(Talents.IsLearned(node.Id), _unlearnedColor);
+            node.SetLearned(Talents.IsLearned(node.Id), _unlearnedColor, _learnedAuraSprite);
         }
     }
 

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,8 @@ public sealed class CharacterWindow : MonoBehaviour, IWindowable
     [SerializeField] private CharacterDetailView _detail;
     [SerializeField] private CharacterInventorySlot[] _slots;
     [SerializeField] private CharacterPopUp _characterPopUp;
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
 
     public CharacterPresentation GetPresentation(int id)
     {
@@ -33,9 +34,14 @@ public sealed class CharacterWindow : MonoBehaviour, IWindowable
             _slots = transform.Find("Inventory").GetComponentsInChildren<CharacterInventorySlot>(true);
         }
 
-        for (int i = 0; i < Mathf.Min(_slots.Length, _characters.Length); i++)
+        for (int i = 0; i < _slots.Length; i++)
         {
-            _slots[i].RefreshCharacter(_characters[i], this);
+            bool hasData = i < _characters.Length;
+            _slots[i].gameObject.SetActive(hasData);
+            if (hasData)
+            {
+                _slots[i].RefreshCharacter(_characters[i], this);
+            }
         }
 
         _silver.text = CurrencyFormatter.Format(characters.GetAmount(0, 0));

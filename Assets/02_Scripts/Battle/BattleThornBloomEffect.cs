@@ -28,11 +28,11 @@ internal sealed class BattleThornBloomEffect : MonoBehaviour
         _mapCenter = map.transform.position;
         _half = map.HalfExtent;
         _material = new Material(Shader.Find("Sprites/Default")) { mainTexture = Texture2D.whiteTexture };
-        _ground = new Geometry(transform, "Creeping thorn vines", _material, -15);
-        _canopy = new Geometry(transform, "Thorn columns and fruit", _material, order);
+        _ground = new Geometry(transform, "Creeping_thorn_vines", _material, -15);
+        _canopy = new Geometry(transform, "Thorn_columns_and_fruit", _material, order);
 
         // 작은 잎과 씨앗은 한 시스템이 월드 좌표에서 한꺼번에 방출한다.
-        var emitter = new GameObject("Fruit splinters");
+        var emitter = new GameObject("Fruit_splinters");
         emitter.SetActive(false);
         emitter.transform.SetParent(transform, false);
         _splinters = emitter.AddComponent<ParticleSystem>();

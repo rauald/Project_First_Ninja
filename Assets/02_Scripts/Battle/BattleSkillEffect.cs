@@ -55,7 +55,7 @@ public sealed class BattleSkillEffect : MonoBehaviour, IPoolable
 
     internal static BattleSkillEffect CreatePooled(Transform root, int id, Channel channel, BattleSession battle)
     {
-        var effect = new GameObject($"Skill {id} {channel}").AddComponent<BattleSkillEffect>();
+        var effect = new GameObject($"Skill_{id}_{channel}").AddComponent<BattleSkillEffect>();
         effect.transform.SetParent(root, false);
         effect._basicId = channel == Channel.Feedback ? 0 : id;
         if (channel == Channel.Feedback)

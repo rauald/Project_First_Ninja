@@ -1,3 +1,4 @@
+using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,14 +9,14 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private BattleSession _battle;
     [SerializeField] private BattleInput _input;
     [SerializeField] private Camera _camera;
-    [SerializeField] private Text _level;
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _level;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private Image _experience;
     [SerializeField] private RectTransform _healthBar;
     [SerializeField] private Image _health;
     [SerializeField] private Button _awakening;
-    [SerializeField] private Text _awakeningLabel;
+    [SerializeField] private TextMeshProUGUI _awakeningLabel;
     [SerializeField] private GameObject _settingsPanel;
     [SerializeField] private GameObject _choicesPanel;
     [SerializeField] private GameObject _skillsPanel;
@@ -23,15 +24,15 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private GameObject _unavailablePanel;
     [SerializeField] private Slider _bgm;
     [SerializeField] private Slider _sfx;
-    [SerializeField] private Text _bgmValue;
-    [SerializeField] private Text _sfxValue;
-    [SerializeField] private Text _settingsStatus;
-    [SerializeField] private Text _damageSetting;
+    [SerializeField] private TextMeshProUGUI _bgmValue;
+    [SerializeField] private TextMeshProUGUI _sfxValue;
+    [SerializeField] private TextMeshProUGUI _settingsStatus;
+    [SerializeField] private TextMeshProUGUI _damageSetting;
     [SerializeField] private Image[] _learnedActiveIcons;
     [SerializeField] private Image[] _learnedPassiveIcons;
     [SerializeField] private Button[] _choiceButtons;
-    [SerializeField] private Text[] _choiceNames;
-    [SerializeField] private Text[] _choiceLabels;
+    [SerializeField] private TextMeshProUGUI[] _choiceNames;
+    [SerializeField] private TextMeshProUGUI[] _choiceLabels;
     [SerializeField] private Image[] _choiceIcons;
     [SerializeField] private Image[] _openScrolls;
     [SerializeField] private Image[] _upperScrollHandles;
@@ -42,7 +43,7 @@ public sealed class BattleHud : MonoBehaviour
     [Tooltip("레벨업 선택지 · 속성별 두루마리 손잡이입니다. 본체와 같은 순서입니다.")]
     [SerializeField] private Sprite[] _scrollHandleSprites;
     [SerializeField] private Button _refreshChoices;
-    [SerializeField] private Text _refreshChoicesLabel;
+    [SerializeField] private TextMeshProUGUI _refreshChoicesLabel;
     [Tooltip("전투 선택지 및 습득 슬롯의 액티브 스킬 아이콘입니다. 스킬 ID 1은 Element 0입니다.")]
     [SerializeField] private Sprite[] _activeIcons;
     [Tooltip("전투 선택지 및 습득 슬롯의 패시브 스킬 아이콘입니다. 스킬 ID 1은 Element 0입니다.")]
@@ -51,40 +52,37 @@ public sealed class BattleHud : MonoBehaviour
     [SerializeField] private Sprite _namedWarningSprite;
     [Tooltip("보스 등장 시 화면 중앙에 점멸하는 경고 이미지입니다.")]
     [SerializeField] private Sprite _bossWarningSprite;
-    [Header("실행 중 생성되는 HUD 이미지")]
-    [Tooltip("상단 웨이브 안내판 배경입니다. 비워두면 기존 반투명 단색을 사용합니다.")]
-    [SerializeField] private Sprite _waveBackdrop;
-    [Tooltip("네임드 및 보스 등장 시 점멸하는 화면 테두리입니다. 비워두면 기존 붉은 테두리를 사용합니다.")]
-    [SerializeField] private Texture _warningBorderArt;
-
-    [SerializeField] private Text[] _activeSlots;
-    [SerializeField] private Text[] _passiveSlots;
-    [SerializeField] private Text _resultTitle;
-    [SerializeField] private Text _resultDetails;
+    [SerializeField] private TextMeshProUGUI[] _activeSlots;
+    [SerializeField] private TextMeshProUGUI[] _passiveSlots;
+    [SerializeField] private TextMeshProUGUI _resultTitle;
+    [SerializeField] private TextMeshProUGUI _resultDetails;
     [SerializeField] private Button _lobby;
     [SerializeField] private Button _retry;
     [SerializeField] private Button _next;
     [SerializeField] private Button _retrySave;
     [SerializeField] private RectTransform _damageLayer;
-    [SerializeField] private Text _damageTemplate;
+    [SerializeField] private TextMeshProUGUI _damageTemplate;
+
+    [SerializeField] private TextMeshProUGUI _waveLabel;
+    [SerializeField] private TextMeshProUGUI _waveTimer;
+    [SerializeField] private Image _warningImage;
+    [SerializeField] private RawImage _warningBorder;
 
     // 웨이브나 표시 초가 달라질 때만 HUD 문구를 갱신한다.
-    private Text _waveLabel;
-    private Text _waveTimer;
     private int _shownWave = -1;
     private int _shownWaveSeconds = -1;
-    private ObjectPool<Text> _damagePool;
+    private const int INITIAL_DAMAGE_LABEL_COUNT = 48;
+    private readonly Stack<TextMeshProUGUI> _availableDamageLabels = new(INITIAL_DAMAGE_LABEL_COUNT);
+    private int _createdDamageLabels;
     private readonly List<DamageLabel> _damageLabels = new();
     private GameObject _modal;
     private Coroutine _unfoldChoices;
     private Coroutine _spawnWarning;
-    private Image _warningImage;
-    private RawImage _warningBorder;
     private Texture2D _warningBorderTexture;
 
     private struct DamageLabel
     {
-        public Text View;
+        public TextMeshProUGUI View;
         public Vector3 Position;
         public float Remaining;
     }
@@ -93,9 +91,6 @@ public sealed class BattleHud : MonoBehaviour
 
     internal void SetWaveStatus(int wave, int finalWave, float delay)
     {
-        if (_waveLabel == null)
-            CreateWaveStatus();
-
         int seconds = Mathf.CeilToInt(Mathf.Max(0f, delay));
         if (wave == _shownWave && seconds == _shownWaveSeconds)
             return;
@@ -106,41 +101,6 @@ public sealed class BattleHud : MonoBehaviour
         _waveTimer.text = wave == finalWave ? "최종 웨이브" : $"다음 웨이브까지 {seconds}초";
     }
 
-    // 기존 전투 상태 표시 아래에 같은 글꼴로 두 줄을 배치한다.
-    private void CreateWaveStatus()
-    {
-        var panel = new GameObject("Wave status", typeof(RectTransform), typeof(Image));
-        var rect = panel.GetComponent<RectTransform>();
-        rect.SetParent(transform, false);
-        rect.anchorMin = rect.anchorMax = new Vector2(.5f, 1f);
-        rect.pivot = new Vector2(.5f, 1f);
-        rect.anchoredPosition = new Vector2(0f, -108f);
-        rect.sizeDelta = new Vector2(344f, 91f);
-        var backdrop = panel.GetComponent<Image>();
-        backdrop.sprite = _waveBackdrop;
-        backdrop.color = _waveBackdrop != null ? Color.white : new Color(.065f, .10f, .07f, .84f);
-        backdrop.raycastTarget = false;
-
-        _waveLabel = CreateWaveLine(rect, "Current wave", 28f, 34, new Color(1f, .91f, .64f));
-        _waveTimer = CreateWaveLine(rect, "Next wave timer", 67f, 25, new Color(1f, .96f, .86f));
-    }
-
-    private Text CreateWaveLine(RectTransform parent, string name, float top, int size, Color color)
-    {
-        var line = new GameObject(name, typeof(RectTransform), typeof(Text)).GetComponent<Text>();
-        line.rectTransform.SetParent(parent, false);
-        line.rectTransform.anchorMin = line.rectTransform.anchorMax = new Vector2(.5f, 1f);
-        line.rectTransform.anchoredPosition = new Vector2(0f, -top);
-        line.rectTransform.sizeDelta = new Vector2(328f, 38f);
-        line.font = _level.font;
-        line.fontSize = size;
-        line.fontStyle = FontStyle.Bold;
-        line.alignment = TextAnchor.MiddleCenter;
-        line.color = color;
-        line.raycastTarget = false;
-        return line;
-    }
-
     public void ShowSpawnWarning(bool boss)
     {
         Sprite sprite = boss ? _bossWarningSprite : _namedWarningSprite;
@@ -148,9 +108,9 @@ public sealed class BattleHud : MonoBehaviour
         {
             return;
         }
-        if (_warningImage == null)
+        if (_warningBorder.texture == null)
         {
-            CreateSpawnWarning();
+            _warningBorder.texture = CreateWarningBorderTexture();
         }
         if (_spawnWarning != null)
         {
@@ -159,31 +119,6 @@ public sealed class BattleHud : MonoBehaviour
 
         _warningImage.sprite = sprite;
         _spawnWarning = StartCoroutine(FlashSpawnWarning());
-    }
-
-    private void CreateSpawnWarning()
-    {
-        Canvas canvas = _level.GetComponentInParent<Canvas>().rootCanvas;
-        var border = new GameObject("Monster warning border", typeof(RectTransform), typeof(RawImage));
-        border.transform.SetParent(canvas.transform, false);
-        _warningBorder = border.GetComponent<RawImage>();
-        _warningBorder.raycastTarget = false;
-        _warningBorder.rectTransform.anchorMax = Vector2.one;
-        _warningBorder.rectTransform.anchorMin = Vector2.zero;
-        _warningBorder.rectTransform.offsetMin = Vector2.zero;
-        _warningBorder.rectTransform.offsetMax = Vector2.zero;
-
-        _warningBorder.texture = _warningBorderArt != null ? _warningBorderArt : CreateWarningBorderTexture();
-
-        var message = new GameObject("Monster warning image", typeof(RectTransform), typeof(Image));
-        message.transform.SetParent(border.transform, false);
-        _warningImage = message.GetComponent<Image>();
-        _warningImage.raycastTarget = false;
-        _warningImage.preserveAspect = true;
-        _warningImage.rectTransform.anchorMin = new Vector2(.10f, .40f);
-        _warningImage.rectTransform.anchorMax = new Vector2(.90f, .60f);
-        _warningImage.rectTransform.offsetMin = Vector2.zero;
-        _warningImage.rectTransform.offsetMax = Vector2.zero;
     }
 
     private Texture2D CreateWarningBorderTexture()
@@ -404,12 +339,12 @@ public sealed class BattleHud : MonoBehaviour
         ShowModal(_skillsPanel);
     }
 
-    private void PopulateSkills(Text[] slots, IReadOnlyDictionary<int, int> skills, bool isActive)
+    private void PopulateSkills(TextMeshProUGUI[] slots, IReadOnlyDictionary<int, int> skills, bool isActive)
     {
         int index = 0;
         foreach (var skill in skills)
         {
-            Text label = slots[index++];
+            TextMeshProUGUI label = slots[index++];
             label.transform.parent.gameObject.SetActive(true);
             label.transform.parent.GetComponent<Image>().sprite = GetSkillIcon(skill.Key, isActive);
             label.text = $"{_battle.Skills.GetName(skill.Key, isActive)}\nLv.{skill.Value}";
@@ -467,12 +402,21 @@ public sealed class BattleHud : MonoBehaviour
         }
     }
 
-    // 전투 진입 시 라벨을 준비하고 재도전 때 기존 라벨을 회수한다.
+    internal void PrepareDamageLabels()
+    {
+        for (int index = 0; index < INITIAL_DAMAGE_LABEL_COUNT; index++)
+        {
+            AddDamageLabelToPool();
+        }
+    }
+
+    // 재도전 때 사용 중인 라벨을 회수한다.
     internal void ResetDamageLabels()
     {
-        _damagePool ??= PoolManager.Instance.CreateScenePool(_damageLayer,
-            root => Instantiate(_damageTemplate, root), 48);
-        _damagePool.ReturnAll();
+        foreach (DamageLabel damage in _damageLabels)
+        {
+            ReturnDamageLabel(damage.View);
+        }
         _damageLabels.Clear();
     }
 
@@ -482,13 +426,16 @@ public sealed class BattleHud : MonoBehaviour
         {
             return;
         }
-        Text label = _damagePool.Rent(Vector3.zero, Quaternion.identity);
-        if (label == null)
-            return;
+        if (_availableDamageLabels.Count == 0)
+        {
+            AddDamageLabelToPool();
+        }
 
+        TextMeshProUGUI label = _availableDamageLabels.Pop();
         label.canvasRenderer.SetAlpha(1f);
         label.text = Mathf.Max(1, Mathf.RoundToInt(damage)).ToString();
         label.color = isPlayer ? new Color(1f, .38f, .3f) : new Color(1f, .9f, .6f);
+        PositionDamageLabel(label, position + Vector3.up * .25f);
         label.gameObject.SetActive(true);
         _damageLabels.Add(new DamageLabel { View = label, Position = position, Remaining = .7f });
     }
@@ -501,16 +448,35 @@ public sealed class BattleHud : MonoBehaviour
             damage.Remaining -= Time.unscaledDeltaTime;
             if (damage.Remaining <= 0f)
             {
-                _damagePool.Return(damage.View);
+                ReturnDamageLabel(damage.View);
                 _damageLabels.RemoveAt(i);
                 continue;
             }
             Vector3 world = damage.Position + Vector3.up * (.95f - damage.Remaining);
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(_damageLayer, _camera.WorldToScreenPoint(world),
-                null, out Vector2 point);
-            damage.View.rectTransform.anchoredPosition = point;
+            PositionDamageLabel(damage.View, world);
             damage.View.canvasRenderer.SetAlpha(damage.Remaining / .7f);
             _damageLabels[i] = damage;
         }
+    }
+
+    private void PositionDamageLabel(TextMeshProUGUI label, Vector3 world)
+    {
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(_damageLayer, _camera.WorldToScreenPoint(world),
+            null, out Vector2 point);
+        label.rectTransform.anchoredPosition = point;
+    }
+
+    private void ReturnDamageLabel(TextMeshProUGUI label)
+    {
+        label.gameObject.SetActive(false);
+        _availableDamageLabels.Push(label);
+    }
+
+    private void AddDamageLabelToPool()
+    {
+        TextMeshProUGUI label = Instantiate(_damageTemplate, _damageLayer);
+        label.name = $"Damage_Label_{++_createdDamageLabels:00}";
+        label.gameObject.SetActive(false);
+        _availableDamageLabels.Push(label);
     }
 }

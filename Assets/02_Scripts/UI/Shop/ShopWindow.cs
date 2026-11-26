@@ -1,5 +1,6 @@
-using System;
+using TMPro;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,23 +8,22 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 {
     private static readonly int[] EXCHANGE_COUNTS = { 1, 10, 100 };
 
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private Button[] _drawButtons;
     [SerializeField] private Button[] _oddsButtons;
     [SerializeField] private Button[] _exchangeButtons;
     [SerializeField] private GameObject _modal;
-    [SerializeField] private Text _modalTitle;
-    [SerializeField] private Text _modalBody;
+    [SerializeField] private TextMeshProUGUI _modalTitle;
     [SerializeField] private ScrollRect _oddsScroll;
     [SerializeField] private RectTransform[] _oddsHeadings;
-    [SerializeField] private RectTransform _oddsRowTemplate;
-    [SerializeField] private Button _confirm;
     [SerializeField] private Button _close;
     [SerializeField] private ShopDrawPresentation _drawPresentation;
+    [SerializeField] private EquipmentIconCatalog _equipmentArt;
+    [Tooltip("이미지로 제목을 표시하는 버튼의 가격을 뽑기, 교환 순서로 연결합니다.")]
+    [SerializeField] private TextMeshProUGUI[] _offerPrices;
 
-    private readonly List<(RectTransform Row, Image Icon, Text Name, Text Probability)> _oddsRows = new();
-    private Action _confirmAction;
+    private readonly List<(RectTransform Row, Image Icon, TextMeshProUGUI Name, TextMeshProUGUI Probability)> _oddsRows = new();
     private ShopService Shop => GameManager.Instance.Shop;
 
     private void Awake()
@@ -32,7 +32,7 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         {
             bool isPremium = i < 2;
             int count = i % 2 == 0 ? 1 : 10;
-            _drawButtons[i].onClick.AddListener(() => DrawEquipment(isPremium, count));
+            _drawButtons[i].onClick.AddListener(() => RequestDraw(isPremium, count));
         }
 
         _oddsButtons[0].onClick.AddListener(() => ShowOdds(true));
@@ -43,9 +43,8 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
             _exchangeButtons[i].onClick.AddListener(() => ConfirmExchange(count));
         }
 
-        _confirm.onClick.AddListener(ConfirmTransaction);
         _close.onClick.AddListener(CloseModal);
-        _drawPresentation.SetRetryAction(DrawEquipment);
+        _drawPresentation.SetRetryAction(RequestDraw);
     }
 
     private void OnDisable()
@@ -70,51 +69,36 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         {
             bool isPremium = i < 2;
             int count = i % 2 == 0 ? 1 : 10;
-            SetOffer(_drawButtons[i], $"{count}회 뽑기", Shop.GetDrawCost(isPremium, count), isPremium ? "금자" : "은자");
+            SetOffer(_drawButtons[i], _offerPrices[i], Shop.GetDrawCost(isPremium, count),
+                isPremium ? "금자" : "은자");
         }
 
         for (int i = 0; i < _exchangeButtons.Length; i++)
         {
             int count = EXCHANGE_COUNTS[i];
-            SetOffer(_exchangeButtons[i], $"{count}개 교환", Shop.GetExchangeCost(count), "은자");
+            SetOffer(_exchangeButtons[i], _offerPrices[_drawButtons.Length + i],
+                Shop.GetExchangeCost(count), "은자");
         }
     }
 
-    private void SetOffer(Button button, string title, long cost, string currency)
+    private static void SetOffer(Button button, TextMeshProUGUI priceLabel, long cost, string currency)
     {
         button.interactable = cost > 0;
-        string price = cost > 0 ? $"{cost:N0} {currency}" : "가격 미설정";
-        if (button.transform.Find("Label")?.GetComponent<Text>() is Text label)
-        {
-            label.text = $"{title}\n{price}";
-            return;
-        }
-        GetPriceLabel(button).text = price;
+        priceLabel.text = cost > 0 ? $"{cost:N0} {currency}" : "가격 미설정";
     }
 
-    private Text GetPriceLabel(Button button)
+    private void RequestDraw(bool isPremium, int count)
     {
-        Transform existing = button.transform.Find("RuntimePrice");
-        if (existing != null)
+        if (_drawPresentation.IsPlaying)
         {
-            return existing.GetComponent<Text>();
+            return;
         }
 
-        var priceObject = new GameObject("RuntimePrice", typeof(RectTransform), typeof(Text));
-        var rect = (RectTransform)priceObject.transform;
-        rect.SetParent(button.transform, false);
-        priceObject.layer = button.gameObject.layer;
-        rect.anchorMin = Vector2.zero;
-        rect.anchorMax = Vector2.right;
-        rect.offsetMin = new Vector2(0f, -30f);
-        rect.offsetMax = Vector2.zero;
-        var label = priceObject.GetComponent<Text>();
-        label.font = _silver.font;
-        label.fontSize = 23;
-        label.alignment = TextAnchor.MiddleCenter;
-        label.color = new Color(1f, .9f, .7f);
-        label.raycastTarget = false;
-        return label;
+        string currency = isPremium ? "금자" : "은자";
+        string mode = isPremium ? "고급 뽑기" : "일반 뽑기";
+        UIManager.Instance.PopUp.ShowChoice(
+            $"{mode} {count}회\n{Shop.GetDrawCost(isPremium, count):N0} {currency}를 사용하시겠습니까?",
+            () => DrawEquipment(isPremium, count));
     }
 
     private void DrawEquipment(bool isPremium, int count)
@@ -126,15 +110,7 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 
         if (!Shop.TryDraw(isPremium, count, out int[] results, out string message))
         {
-            if (_drawPresentation.gameObject.activeSelf)
-            {
-                _drawPresentation.ShowError(message);
-            }
-            else
-            {
-                ShowModal(isPremium ? "고급 뽑기" : "일반 뽑기", message);
-            }
-
+            UIManager.Instance.PopUp.ShowNotice(message);
             return;
         }
 
@@ -145,43 +121,33 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 
     private void ConfirmExchange(int count)
     {
-        ShowModal("금자 교환", $"{Shop.GetExchangeCost(count):N0} 은자를 금자 {count}개로 교환할까요?");
-        _confirmAction = () =>
-        {
-            Shop.TryExchange(count, out string message);
-            RefreshShop();
-            ShowModal("금자 교환", message);
-        };
-        _confirm.gameObject.SetActive(true);
-    }
-
-    private void ConfirmTransaction()
-    {
-        Action action = _confirmAction;
-        _confirmAction = null;
-        action?.Invoke();
-    }
-
-    private void ShowModal(string title, string message)
-    {
-        OpenModal(title, false);
-        _modalBody.text = message;
-    }
-
-    private void OpenModal(string title, bool showOdds)
-    {
-        _confirmAction = null;
-        _confirm.gameObject.SetActive(false);
-        _modalTitle.text = title;
-        _modalBody.gameObject.SetActive(!showOdds);
-        _oddsScroll.gameObject.SetActive(showOdds);
-        _modal.SetActive(true);
+        UIManager.Instance.PopUp.ShowChoice($"{Shop.GetExchangeCost(count):N0} 은자를 금자 {count}개로 교환할까요?",
+            () =>
+            {
+                Shop.TryExchange(count, out string message);
+                RefreshShop();
+                UIManager.Instance.PopUp.ShowNotice(message);
+            });
     }
 
     private void ShowOdds(bool isPremium)
     {
-        var odds = Shop.GetOdds(isPremium);
+        if (_oddsRows.Count == 0)
+        {
+            foreach (RectTransform row in _oddsScroll.content)
+            {
+                Transform probability = row.Find("Probability");
+                if (probability != null)
+                {
+                    _oddsRows.Add((row, row.Find("Icon").GetComponent<Image>(),
+                        row.Find("Name").GetComponent<TextMeshProUGUI>(), probability.GetComponent<TextMeshProUGUI>()));
+                }
+            }
+        }
+
+        var odds = Shop.GetOdds(isPremium).ToDictionary(entry => entry.Id, entry => entry.Probability);
         CsvTable equipment = GameManager.Instance.Equipment.Definitions;
+        int[] ids = equipment.GetIds().OrderBy(id => id).ToArray();
         int index = 0;
         float top = 0f;
         for (int group = 0; group < _oddsHeadings.Length; group++)
@@ -189,26 +155,19 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
             RectTransform heading = _oddsHeadings[group];
             heading.anchoredPosition = Vector2.down * top;
             top += heading.sizeDelta.y;
-            foreach (var (id, probability) in odds)
+            foreach (int id in ids)
             {
                 if (equipment.GetInt(id, 2) != group)
                 {
                     continue;
                 }
 
-                if (index == _oddsRows.Count)
-                {
-                    RectTransform newRow = Instantiate(_oddsRowTemplate, _oddsScroll.content);
-                    _oddsRows.Add((newRow, newRow.Find("Icon").GetComponent<Image>(),
-                        newRow.Find("Name").GetComponent<Text>(), newRow.Find("Probability").GetComponent<Text>()));
-                }
-
                 var (row, icon, name, chance) = _oddsRows[index++];
                 row.anchoredPosition = Vector2.down * top;
                 top += row.sizeDelta.y;
-                icon.sprite = _drawPresentation.GetEquipmentIcon(id);
+                icon.sprite = _equipmentArt.GetIcon(id);
                 name.text = equipment.GetString(id, 0);
-                chance.text = $"{probability:0.###%}";
+                chance.text = $"{odds.GetValueOrDefault(id):0.###%}";
                 row.gameObject.SetActive(true);
             }
         }
@@ -219,7 +178,9 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         }
 
         _oddsScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, top);
-        OpenModal(isPremium ? "고급 뽑기 확률" : "일반 뽑기 확률", true);
+        _modalTitle.text = isPremium ? "고급 뽑기 확률" : "일반 뽑기 확률";
+        _oddsScroll.gameObject.SetActive(true);
+        _modal.SetActive(true);
         _oddsScroll.StopMovement();
         _oddsScroll.verticalNormalizedPosition = 1f;
     }
@@ -230,7 +191,6 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 
     private void CloseModal()
     {
-        _confirmAction = null;
         _modal.SetActive(false);
     }
 }

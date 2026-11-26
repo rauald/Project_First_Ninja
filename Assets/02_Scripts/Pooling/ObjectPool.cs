@@ -2,10 +2,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 한 종류의 오브젝트를 최대 200개까지 보유하고 대여 상태를 관리한다.
+// 재사용 가능한 오브젝트와 대여 상태를 관리한다.
 public sealed class ObjectPool<T> where T : Component
 {
-    public const int MAX_INSTANCES = 200;
     private readonly Func<Transform, T> _create;
     private readonly Transform _root;
     private readonly Stack<T> _available = new();
@@ -23,14 +22,13 @@ public sealed class ObjectPool<T> where T : Component
     // 전투 시작 전에 목표 수량까지 생성해 비활성화한다.
     public void Prewarm(int count)
     {
-        int target = Mathf.Clamp(count, 0, MAX_INSTANCES);
-        while (_available.Count + _rented.Count < target)
+        while (_available.Count + _rented.Count < count)
         {
             _available.Push(Create());
         }
     }
 
-    // 재사용 가능한 인스턴스를 우선 사용하고 풀별 상한에서 대여 실패를 알린다.
+    // 재사용 가능한 인스턴스가 모두 사용 중일 때만 추가한다.
     public T Rent(Vector3 position, Quaternion rotation)
     {
         T item = null;
@@ -40,14 +38,6 @@ public sealed class ObjectPool<T> where T : Component
         }
         if (item == null)
         {
-            if (_rented.Count >= MAX_INSTANCES)
-            {
-                _rented.RemoveWhere(rented => rented == null);
-                if (_rented.Count >= MAX_INSTANCES)
-                {
-                    return null;
-                }
-            }
             item = Create();
         }
 

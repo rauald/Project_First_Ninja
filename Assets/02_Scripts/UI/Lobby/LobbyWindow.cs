@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,8 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
 
     [SerializeField] private Animator _characterAnimator;
     [SerializeField] private CharacterWindow _characterWindow;
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
 
     private float _attackTimer;
 
@@ -44,7 +45,7 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
         _gold.text = CurrencyFormatter.Format(characters.GetAmount(0, 1));
     }
 
-    internal static void BindCurrencyLabels(Transform window, ref Text silver, ref Text gold)
+    internal static void BindCurrencyLabels(Transform window, ref TextMeshProUGUI silver, ref TextMeshProUGUI gold)
     {
         if (silver != null && gold != null)
         {
@@ -52,7 +53,7 @@ public sealed class LobbyWindow : MonoBehaviour, IWindowable
         }
 
         Transform topBar = window.Find("TopBar");
-        foreach (Text label in topBar.GetComponentsInChildren<Text>(true))
+        foreach (TextMeshProUGUI label in topBar.GetComponentsInChildren<TextMeshProUGUI>(true))
         {
             if (label.name == "EunjaAmount")
             {

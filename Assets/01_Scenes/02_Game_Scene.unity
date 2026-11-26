@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 453174116}
   - component: {fileID: 453174115}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Main_Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -593,48 +593,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &800000036
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800000034}
-  m_CullTransparentMesh: 1
---- !u!114 &800000037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800000034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: ''
-  m_EditorClassIdentifier: ''
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 46
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 46
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "0"
 --- !u!114 &800000040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,9 +660,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -713,20 +671,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Lv.1"
+  m_text: "Lv.1"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000055
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -896,9 +866,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -907,20 +877,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 34
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "0"
+  m_text: "0"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 34
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1014,9 +996,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1025,20 +1007,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 34
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "0"
+  m_text: "0"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 34
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1177,9 +1171,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1188,20 +1182,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 45
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "▲"
+  m_text: "▲"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 45
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1219,9 +1225,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1230,20 +1236,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 45
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "▼"
+  m_text: "▼"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 45
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000106
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1261,9 +1279,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1272,20 +1290,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 45
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "◀"
+  m_text: "◀"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 45
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1303,9 +1333,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1314,20 +1344,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 45
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "▶"
+  m_text: "▶"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 45
+  m_fontSizeBase: 45
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 45
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000114
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1481,9 +1523,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000121}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1492,20 +1534,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "각성기"
+  m_text: "각성기"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000127
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1606,9 +1660,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1617,20 +1671,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "현재 스킬"
+  m_text: "현재 스킬"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000138
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1724,9 +1790,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -1735,20 +1801,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 59
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "환경 설정"
+  m_text: "환경 설정"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 59
+  m_fontSizeBase: 59
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 59
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000150
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1766,9 +1844,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1777,20 +1855,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 37
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 37
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "BGM  100"
+  m_text: "BGM  100"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 37
+  m_fontSizeBase: 37
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 37
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1808,9 +1898,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -1819,20 +1909,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 37
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 37
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "SFX  100"
+  m_text: "SFX  100"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 37
+  m_fontSizeBase: 37
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 37
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2182,9 +2284,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2193,20 +2295,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "데미지 표시"
+  m_text: "데미지 표시"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2307,9 +2421,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2318,20 +2432,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 32
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "OFF"
+  m_text: "OFF"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 32
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2432,9 +2558,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2443,20 +2569,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 32
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "ON"
+  m_text: "ON"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 32
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000214
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2474,9 +2612,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2485,20 +2623,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 31
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 31
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 31
+  m_fontSizeBase: 31
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 31
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2599,9 +2749,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2610,20 +2760,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "계속하기"
+  m_text: "계속하기"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2717,9 +2879,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -2728,20 +2890,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 59
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "현재 스킬"
+  m_text: "현재 스킬"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 59
+  m_fontSizeBase: 59
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 59
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000305
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2759,9 +2933,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -2770,20 +2944,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "액티브"
+  m_text: "액티브"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2839,9 +3025,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000311}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2850,20 +3036,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2919,9 +3117,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -2930,20 +3128,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2999,9 +3209,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3010,20 +3220,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000333
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3079,9 +3301,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3090,20 +3312,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3159,9 +3393,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3170,20 +3404,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3239,9 +3485,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3250,20 +3496,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000359
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3281,9 +3539,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -3292,20 +3550,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "패시브"
+  m_text: "패시브"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3361,9 +3631,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3372,20 +3642,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000371
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3441,9 +3723,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3452,20 +3734,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3521,9 +3815,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3532,20 +3826,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3601,9 +3907,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000389}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3612,20 +3918,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3681,9 +3999,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3692,20 +4010,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 23
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 23
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000403
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3806,9 +4136,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3817,20 +4147,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "닫기"
+  m_text: "닫기"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000412
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3924,9 +4266,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -3935,20 +4277,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 59
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "승리"
+  m_text: "승리"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 59
+  m_fontSizeBase: 59
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 59
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000424
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3966,9 +4320,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -3977,20 +4331,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 47
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 47
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 47
+  m_fontSizeBase: 47
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 47
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4091,9 +4457,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -4102,20 +4468,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "메인으로"
+  m_text: "메인으로"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000437
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4216,9 +4594,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -4227,20 +4605,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "재도전"
+  m_text: "재도전"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4341,9 +4731,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000449}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -4352,20 +4742,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "다음으로"
+  m_text: "다음으로"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4466,9 +4868,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -4477,20 +4879,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "저장 재시도"
+  m_text: "저장 재시도"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4584,9 +4998,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -4595,20 +5009,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 59
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "스테이지 선택"
+  m_text: "스테이지 선택"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 59
+  m_fontSizeBase: 59
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 59
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &800000476
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4626,9 +5052,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800000474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -4637,20 +5063,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "로비에서 스테이지를 선택해 입장하세요."
+  m_text: "로비에서 스테이지를 선택해 입장하세요."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &800000002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4801,7 +5239,11 @@ MonoBehaviour:
   _next: {fileID: 800000448}
   _retrySave: {fileID: 800000457}
   _damageLayer: {fileID: 800000033}
-  _damageTemplate: {fileID: 800000037}
+  _damageTemplate: {fileID: 800000037, guid: 4d5d7a44e6aa40d6e2e3cca84d58c490, type: 3}
+  _waveLabel: {fileID: 810000013}
+  _waveTimer: {fileID: 810000023}
+  _warningImage: {fileID: 810000043}
+  _warningBorder: {fileID: 810000033}
 --- !u!1 &800000004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,7 +5290,7 @@ GameObject:
   - component: {fileID: 800000007}
   - component: {fileID: 800000012}
   m_Layer: 0
-  m_Name: Map 20x20
+  m_Name: Map_20x20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4967,6 +5409,7 @@ RectTransform:
   - {fileID: 800000021}
   - {fileID: 800000039}
   - {fileID: 800000226}
+  - {fileID: 810000031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5149,51 +5592,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 800000035}
+  m_Children: []
   m_Father: {fileID: 800000021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &800000034
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 800000035}
-  - component: {fileID: 800000036}
-  - component: {fileID: 800000037}
-  m_Layer: 5
-  m_Name: DamageTemplate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &800000035
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800000034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 800000033}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 140, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &800000038
 GameObject:
@@ -5269,6 +5674,7 @@ RectTransform:
   - {fileID: 800000093}
   - {fileID: 800000117}
   - {fileID: 800000126}
+  - {fileID: 810000001}
   m_Father: {fileID: 800000039}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7110,9 +7516,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -7121,20 +7527,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 59
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "스킬 선택"
+  m_text: "스킬 선택"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 59
+  m_fontSizeBase: 59
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 59
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7152,9 +7570,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -7163,20 +7581,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "액티브"
+  m_text: "액티브"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7650,9 +8080,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.98, g: 0.79, b: 0.37, a: 1}
   m_RaycastTarget: 0
@@ -7661,20 +8091,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "패시브"
+  m_text: "패시브"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4284402170
+  m_fontColor: {r: 0.98, g: 0.79, b: 0.37, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000074
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8245,9 +8687,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -8256,20 +8698,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 34
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 34
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000134
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8498,9 +8952,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -8509,20 +8963,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 34
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 34
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8751,9 +9217,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -8762,20 +9228,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 34
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 34
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &850000182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8914,9 +9392,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850000189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -8925,20 +9403,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "새로고침  1/1"
+  m_text: "새로고침  1/1"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &800000225
 GameObject:
   m_ObjectHideFlags: 0
@@ -10959,7 +11449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800000302}
   m_Layer: 5
-  m_Name: 액티브
+  m_Name: Active_Skills
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11488,7 +11978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800000356}
   m_Layer: 5
-  m_Name: 패시브
+  m_Name: Passive_Skills
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12972,9 +13462,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850001020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -12983,20 +13473,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &850001024
 GameObject:
   m_ObjectHideFlags: 0
@@ -13051,9 +13553,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850001024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -13062,20 +13564,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &850001028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13130,9 +13644,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 850001028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.17, g: 0.1, b: 0.05, a: 1}
   m_RaycastTarget: 0
@@ -13141,20 +13655,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 39
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 39
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: ""
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279048747
+  m_fontColor: {r: 0.17, g: 0.1, b: 0.05, a: 1}
+  m_fontSize: 39
+  m_fontSizeBase: 39
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 39
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &850001040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13465,9 +13991,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 800019005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: ''
-  m_EditorClassIdentifier: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_RaycastTarget: 0
@@ -13476,20 +14002,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 16
-    m_MaxSize: 38
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "메인으로"
+  m_text: "메인으로"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 38
+  m_fontSizeBase: 38
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &800019000
 GameObject:
   m_ObjectHideFlags: 0
@@ -13566,3 +14104,410 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -12, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &810000000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810000001}
+  - component: {fileID: 810000002}
+  - component: {fileID: 810000003}
+  m_Layer: 5
+  m_Name: Wave_Status
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &810000001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 810000011}
+  - {fileID: 810000021}
+  m_Father: {fileID: 800000042}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -108}
+  m_SizeDelta: {x: 344, y: 91}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &810000002
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000000}
+  m_CullTransparentMesh: 1
+--- !u!114 &810000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.065, g: 0.10, b: 0.07, a: 0.84}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &810000010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810000011}
+  - component: {fileID: 810000012}
+  - component: {fileID: 810000013}
+  m_Layer: 5
+  m_Name: Current_Wave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &810000011
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 810000001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -28}
+  m_SizeDelta: {x: 328, y: 38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &810000012
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000010}
+  m_CullTransparentMesh: 1
+--- !u!114 &810000013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.91, b: 0.64, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4288932095
+  m_fontColor: {r: 1, g: 0.91, b: 0.64, a: 1}
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &810000020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810000021}
+  - component: {fileID: 810000022}
+  - component: {fileID: 810000023}
+  m_Layer: 5
+  m_Name: Next_Wave_Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &810000021
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 810000001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -67}
+  m_SizeDelta: {x: 328, y: 38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &810000022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000020}
+  m_CullTransparentMesh: 1
+--- !u!114 &810000023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_sharedMaterial: {fileID: -4335678957815921575, guid: 95a3052561a4195409b74b7ff856995b, type: 2}
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292605439
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
+  m_fontSize: 25
+  m_fontSizeBase: 25
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 16
+  m_fontSizeMax: 38
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_lineSpacing: 0
+  m_TextWrappingMode: 1
+  m_overflowMode: 3
+  m_isRichText: 1
+  m_parseCtrlCharacters: 0
+  m_ActiveFontFeatures: []
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &810000030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810000031}
+  - component: {fileID: 810000032}
+  - component: {fileID: 810000033}
+  m_Layer: 5
+  m_Name: Monster_Warning_Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &810000031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 810000041}
+  m_Father: {fileID: 800000016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &810000032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000030}
+  m_CullTransparentMesh: 1
+--- !u!114 &810000033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!1 &810000040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 810000041}
+  - component: {fileID: 810000042}
+  - component: {fileID: 810000043}
+  m_Layer: 5
+  m_Name: Monster_Warning_Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &810000041
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 810000031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.1, y: 0.4}
+  m_AnchorMax: {x: 0.9, y: 0.6}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &810000042
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000040}
+  m_CullTransparentMesh: 1
+--- !u!114 &810000043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810000040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

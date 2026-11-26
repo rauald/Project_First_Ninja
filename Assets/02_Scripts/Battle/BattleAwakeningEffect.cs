@@ -66,7 +66,7 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
     public static BattleAwakeningEffect Create(Transform parent, Camera camera, RuntimeAnimatorController cutsceneController, SpriteRenderer playerView,
         Sprite particle, Material material, int skillId, bool useParticleSystem = false)
     {
-        var effect = new GameObject("Awakening presentation").AddComponent<BattleAwakeningEffect>();
+        var effect = new GameObject("Awakening_presentation").AddComponent<BattleAwakeningEffect>();
         effect.transform.SetParent(parent, false);
         effect._camera = camera;
         effect._caster = playerView.transform;
@@ -77,8 +77,8 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
         Texture2D white = Texture2D.whiteTexture;
         effect._pixel = Sprite.Create(white, new Rect(0, 0, white.width, white.height),
             new Vector2(.5f, .5f), white.width);
-        effect._shade = effect.CreateView("Awakening shade", effect._pixel, SHADE_SORT_ORDER);
-        effect._portrait = effect.CreateView("Awakening portrait", playerView.sprite, CUTSCENE_SORT_ORDER);
+        effect._shade = effect.CreateView("Awakening_shade", effect._pixel, SHADE_SORT_ORDER);
+        effect._portrait = effect.CreateView("Awakening_portrait", playerView.sprite, CUTSCENE_SORT_ORDER);
         if (cutsceneController != null)
         {
             effect._cutsceneAnimator = effect._portrait.gameObject.AddComponent<Animator>();
@@ -88,7 +88,7 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
         }
         if (useParticleSystem && material != null && skillId is 19 or 20)
         {
-            var variant = new GameObject("Awakening Particle System");
+            var variant = new GameObject("Awakening_Particle_System");
             variant.transform.SetParent(effect.transform, false);
             effect._particleVariant = variant.AddComponent<BattleAwakeningParticleEffect>();
             effect._particleTemplate = material;
@@ -99,7 +99,7 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
         }
         else if (skillId == 19)
         {
-            var energy = new GameObject("Kage energy burst");
+            var energy = new GameObject("Kage_energy_burst");
             energy.transform.SetParent(effect.transform, false);
             effect._energyBurst = energy.AddComponent<BattleEnergyBurstEffect>();
             effect._energyBurst.Initialize(PARTICLE_SORT_ORDER);
@@ -149,7 +149,7 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
         }
 
 
-        var meteor = new GameObject("Kunoichi meteor fall");
+        var meteor = new GameObject("Kunoichi_meteor_fall");
         meteor.transform.SetParent(transform, false);
         _meteorFall = meteor.AddComponent<BattleMeteorFallEffect>();
         _meteorFall.Initialize(scroll, smoke, meteorBody, debris, groundFire, shockwave, _pixel,
@@ -158,19 +158,21 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
 
 
     // 풀을 생성할 때 창해범람의 물과 수룡 렌더러를 준비한다.
-    internal void ConfigureOcean(Texture2D dragonSheet, BattleMap map)
+    internal void ConfigureOcean(Texture2D dragonSheet, BattleMap map, Texture2D surfaceTexture,
+        Sprite whirlpoolSprite, Sprite eyeSprite)
     {
-        var ocean = new GameObject("Ocean overflow");
+        var ocean = new GameObject("Ocean_overflow");
         ocean.transform.SetParent(transform, false);
         _oceanOverflow = ocean.AddComponent<BattleOceanOverflowEffect>();
-        _oceanOverflow.Initialize(dragonSheet, _pixel, map, PARTICLE_SORT_ORDER);
+        _oceanOverflow.Initialize(dragonSheet, _pixel, map, PARTICLE_SORT_ORDER, surfaceTexture, whirlpoolSprite,
+            eyeSprite);
         ocean.SetActive(false);
     }
 
     // 넝쿨과 가시 두 메시를 각성기 풀에서 한 번 준비한다.
     internal void ConfigureThornBloom(BattleMap map)
     {
-        var thorn = new GameObject("Thorn bloom");
+        var thorn = new GameObject("Thorn_bloom");
         thorn.transform.SetParent(transform, false);
         _thornBloom = thorn.AddComponent<BattleThornBloomEffect>();
         _thornBloom.Initialize(map, PARTICLE_SORT_ORDER);
@@ -190,7 +192,7 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
     // 원본 스프라이트의 아틀라스 좌표를 사용하도록 파티클을 설정한다.
     private void CreateParticles(Sprite sprite, Material material)
     {
-        var emitter = new GameObject("Awakening particles");
+        var emitter = new GameObject("Awakening_particles");
         emitter.SetActive(false);
         emitter.transform.SetParent(transform, false);
         _particles = emitter.AddComponent<ParticleSystem>();

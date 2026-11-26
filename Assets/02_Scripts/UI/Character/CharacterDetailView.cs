@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,7 +6,7 @@ using UnityEngine.UI;
 public sealed class CharacterDetailView : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
-    [SerializeField] private Text _name;
+    [SerializeField] private TextMeshProUGUI _name;
     [SerializeField] private Image _element;
     [Tooltip("무·화·수·목·토·풍 순서로 연결합니다.")]
     [SerializeField] private Sprite[] _elementSprites;
@@ -18,7 +19,7 @@ public sealed class CharacterDetailView : MonoBehaviour
     [SerializeField] private Image[] _starImages;
     [SerializeField] private Sprite _emptyStar;
     [SerializeField] private Sprite _filledStar;
-    [SerializeField] private Text[] _stats;
+    [SerializeField] private TextMeshProUGUI[] _stats;
     [SerializeField] private Button[] _skills;
     [SerializeField] private Image[] _skillIcons;
     [SerializeField] private GameObject[] _locks;

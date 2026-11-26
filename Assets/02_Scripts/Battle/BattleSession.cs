@@ -43,6 +43,12 @@ public sealed class BattleSession : MonoBehaviour
     [SerializeField] private Sprite _meteorShockwave;
     // 창해범람의 부상·회전·돌진을 4×4 순서로 담은 스프라이트 시트다.
     [SerializeField] private Texture2D _oceanDragonSheet;
+    [Tooltip("수면을 타일링하는 텍스처입니다. 반복이 필요한 이미지는 Wrap Mode를 Repeat로 설정합니다.")]
+    [SerializeField] private Texture2D _oceanSurfaceTexture;
+    [Tooltip("소용돌이 중심이 맞도록 스프라이트의 피벗을 가운데로 설정합니다.")]
+    [SerializeField] private Sprite _oceanWhirlpoolSprite;
+    [Tooltip("수룡의 눈빛 중심이 맞도록 스프라이트의 피벗을 가운데로 설정합니다.")]
+    [SerializeField] private Sprite _oceanDragonEyeSprite;
 
     // 진기폭발과 유성낙화의 비교용 Particle System 연출을 선택한다.
     [SerializeField] private bool _useParticleSystemAwakenings;
@@ -130,8 +136,7 @@ public sealed class BattleSession : MonoBehaviour
 #endif
 
     // 역할별 풀과 아직 슬롯을 받지 못한 일반 몬스터를 보관한다.
-    private readonly ObjectPool<SpriteRenderer>[] _actorPools = new ObjectPool<SpriteRenderer>[4];
-    private readonly ObjectPool<SpriteRenderer>[] _dropPools = new ObjectPool<SpriteRenderer>[3];
+    private BattlePoolSetup _poolSetup;
     private readonly Queue<(int Field, int Row, int Wave)> _pendingEnemies = new();
 
     private sealed class Enemy
@@ -232,20 +237,25 @@ public sealed class BattleSession : MonoBehaviour
     private readonly Dictionary<(int, bool), ObjectPool<BattleAwakeningEffect>> _awakeningPools = new();
     private readonly Dictionary<(int, BattleSkillEffect.Channel), ObjectPool<BattleSkillEffect>> _skillPools = new();
 
-    private void PrepareEffectPools()
+    private System.Collections.IEnumerator PrepareEffectPools()
     {
         for (int id = 1; id <= 6; id++)
         {
             GetSkillPool(id, BattleSkillEffect.Channel.Basic);
             GetSkillPool(id, BattleSkillEffect.Channel.Impact);
+            yield return null;
         }
         for (int id = 7; id <= 18; id++)
+        {
             GetSkillPool(id, BattleSkillEffect.Channel.Elemental);
+            yield return null;
+        }
         GetSkillPool(13, BattleSkillEffect.Channel.Impact);
         for (int id = 19; id <= 24; id++)
         {
             GetSkillPool(id, BattleSkillEffect.Channel.Feedback);
             GetAwakeningPool(id, false);
+            yield return null;
         }
         GetAwakeningPool(19, true);
         GetAwakeningPool(20, true);
@@ -285,7 +295,8 @@ public sealed class BattleSession : MonoBehaviour
         if (id == 20)
             effect.ConfigureMeteor(_meteorScroll, _meteorSmoke, _meteorBody, _meteorDebris, _meteorGroundFire, _meteorShockwave, _map);
         if (id == 21 && _oceanDragonSheet != null)
-            effect.ConfigureOcean(_oceanDragonSheet, _map);
+            effect.ConfigureOcean(_oceanDragonSheet, _map, _oceanSurfaceTexture, _oceanWhirlpoolSprite,
+                _oceanDragonEyeSprite);
         if (id == 22)
             effect.ConfigureThornBloom(_map);
         return effect;
@@ -315,31 +326,37 @@ public sealed class BattleSession : MonoBehaviour
 
     private void Start()
     {
-        _game = GameManager.Instance;
-        DataManager data = DataManager.Instance;
-        if (_game == null || _game.ActiveStageId == 0 || data == null)
+        if (GameManager.Instance == null || GameManager.Instance.ActiveStageId == 0)
         {
             _map.SetTerrain(1);
             SetPlayerSprite(_characters[0]);
             FollowPlayer();
             _hud.ShowUnavailable();
-            return;
         }
+    }
 
+    internal System.Collections.IEnumerator PrepareForEntry(GameManager game)
+    {
+        _game = game;
+        DataManager data = DataManager.Instance;
         _stageData = data.GetTable("StageData");
         _monsterData = data.GetTable("MonsterData");
         _battleLevelData = data.GetTable("BattleLevelData");
         _defaultData = data.GetTable("DefaultData");
-        PreparePools();
-        BeginStage();
+        _poolSetup = new BattlePoolSetup(_actors);
+        yield return _poolSetup.Prepare(CHEST_COUNT);
+        yield return PrepareEffectPools();
+        _hud.PrepareDamageLabels();
+        yield return null;
     }
+
+    internal void StartPreparedBattle() => BeginStage();
 
     private void BeginStage()
     {
         // 지연 반환을 취소한 뒤 재도전에 사용할 객체를 모두 회수한다.
         StopAllCoroutines();
-        foreach (var pool in _actorPools) pool.ReturnAll();
-        foreach (var pool in _dropPools) pool.ReturnAll();
+        _poolSetup.ReturnAll();
         foreach (var pool in _skillPools.Values) pool.ReturnAll();
         foreach (var pool in _awakeningPools.Values) pool.ReturnAll();
         _pendingEnemies.Clear();
@@ -405,7 +422,7 @@ public sealed class BattleSession : MonoBehaviour
         {
             Vector2 position = Random.insideUnitCircle * (_map.HalfExtent - 1f);
             position = position.normalized * Mathf.Max(2f, position.magnitude);
-            var pool = _actorPools[3];
+            var pool = _poolSetup.Chests;
             var chest = RentActor(pool, "Chest", _chestSprite, position, .7f, 1);
             if (chest != null)
                 _enemies.Add(new Enemy { View = chest, Pool = pool, Health = 12f, IsChest = true });
@@ -590,12 +607,9 @@ public sealed class BattleSession : MonoBehaviour
         return true;
     }
 
-    // 풀 상한에 도달하면 호출자가 해당 적을 다음 갱신까지 대기시킨다.
     private bool SpawnEnemy(int field, int experienceRow, int wave)
     {
-        var pool = _actorPools[field < 5 ? 0 : field - 4];
-        if (pool.AvailableCount == 0 && pool.RentedCount >= ObjectPool<SpriteRenderer>.MAX_INSTANCES)
-            return false;
+        var pool = _poolSetup.Monsters;
         int id = _stageData.GetInt(_stageId, field);
         float edge = Mathf.Max(0f, _map.HalfExtent - 1f);
         float alongEdge = Random.Range(-edge, edge);
@@ -607,7 +621,7 @@ public sealed class BattleSession : MonoBehaviour
             _ => new Vector2(alongEdge, edge)
         };
         Sprite sprite = _monsters[id - 1];
-        SpriteRenderer view = RentActor(pool, _monsterData.GetString(id, 0), sprite, spawn, .72f + (field - 2) * .13f, 2);
+        SpriteRenderer view = RentActor(pool, $"Monster_{id:00}", sprite, spawn, .72f + (field - 2) * .13f, 2);
         if (view == null)
             return false;
 
@@ -1288,7 +1302,7 @@ public sealed class BattleSession : MonoBehaviour
         {
             Type = type, Amount = amount,
             Position = position, Sprite = sprite,
-            View = RentActor(_dropPools[type], "Pickup", sprite, position, .25f, 1),
+            View = RentActor(_poolSetup.GetPickupPool(type, amount), "Pickup", sprite, position, .25f, 1),
             CanCollectAt = Time.time + (type == 0 ? .2f : 0f)
         });
         _enemies.Remove(enemy);
@@ -1302,18 +1316,7 @@ public sealed class BattleSession : MonoBehaviour
         }
     }
 
-    private Sprite GetExperienceSprite(int amount)
-    {
-        int index = amount switch
-        {
-            2 => 1,
-            3 => 2,
-            5 => 3,
-            200 => 4,
-            _ => 0
-        };
-        return _experienceSprites[index];
-    }
+    private Sprite GetExperienceSprite(int amount) => _experienceSprites[BattlePoolSetup.GetExperienceIndex(amount)];
 
     private void PlayEnemyDeath(Enemy enemy)
     {
@@ -1337,7 +1340,7 @@ public sealed class BattleSession : MonoBehaviour
             Vector2 position = drop.Position;
             // 표시 슬롯이 꽉 차도 보상은 위치를 유지하며 정상적으로 수집된다.
             if (drop.View == null)
-                drop.View = RentActor(_dropPools[drop.Type], "Pickup", drop.Sprite, position, .25f, 1);
+                drop.View = RentActor(_poolSetup.GetPickupPool(drop.Type, drop.Amount), "Pickup", drop.Sprite, position, .25f, 1);
             float pickupRadius = 1.75f * (1f + _characterPassives[16] + (TalentValue(TalentEffectType.PickupRange) + EquipmentValue(GearEffect.PickupRange)) / 1000f);
             drop.IsAttracted |= (position - player).sqrMagnitude < pickupRadius * pickupRadius;
             if (!drop.IsAttracted || Time.time < drop.CanCollectAt)
@@ -1354,7 +1357,7 @@ public sealed class BattleSession : MonoBehaviour
 
             _drops.RemoveAt(i);
             if (drop.View != null)
-                _dropPools[drop.Type].Return(drop.View);
+                _poolSetup.GetPickupPool(drop.Type, drop.Amount).Return(drop.View);
             switch (drop.Type)
             {
                 case 0:
@@ -1402,30 +1405,6 @@ public sealed class BattleSession : MonoBehaviour
     }
 
     // 씬을 처음 열 때 종류별 초기 수량을 준비한다.
-    private void PreparePools()
-    {
-        for (int i = 0; i < _actorPools.Length; i++)
-        {
-            bool animated = i < 3;
-            _actorPools[i] = PoolManager.Instance.CreateScenePool(_actors,
-                root => CreateActorView(root, animated), i switch { 0 => 200, 3 => CHEST_COUNT, _ => 1 });
-        }
-
-        for (int i = 0; i < _dropPools.Length; i++)
-            _dropPools[i] = PoolManager.Instance.CreateScenePool(_actors, root => CreateActorView(root, false), 10);
-
-        PrepareEffectPools();
-    }
-
-    private static SpriteRenderer CreateActorView(Transform root, bool animated)
-    {
-        var actor = new GameObject("Pooled battle actor");
-        actor.transform.SetParent(root, false);
-        if (animated)
-            actor.AddComponent<Animator>();
-        return actor.AddComponent<SpriteRenderer>();
-    }
-
     // 위치와 표시 속성을 초기화해 이전 대여 상태가 남지 않게 한다.
     private static SpriteRenderer RentActor(ObjectPool<SpriteRenderer> pool, string actorName, Sprite sprite,
         Vector2 position, float height, int sortingOrder)

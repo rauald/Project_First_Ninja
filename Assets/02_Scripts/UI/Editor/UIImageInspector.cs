@@ -29,12 +29,19 @@ internal static class UIImageInspector
         if (editor.target is AnimationClip clip)
         {
             DrawClipFrames(clip, AnimationUtility.GetObjectReferenceCurveBindings(clip)
-                .Where(IsUIImageBinding).ToArray());
+                .Where(IsImageBinding).ToArray());
             return;
         }
 
-        if (editor.target is not GameObject root
-            || root.transform is not RectTransform)
+        if (editor.target is not GameObject root)
+        {
+            return;
+        }
+
+        var imageComponents = root.GetComponentsInChildren<Component>(true)
+            .Where(component => component is Image or RawImage or SpriteRenderer)
+            .ToArray();
+        if (imageComponents.Length == 0)
         {
             return;
         }
@@ -46,7 +53,7 @@ internal static class UIImageInspector
             _page = 0;
         }
 
-        _isOpen = EditorGUILayout.Foldout(_isOpen, "UI 이미지 교체", true);
+        _isOpen = EditorGUILayout.Foldout(_isOpen, "이미지 교체", true);
         if (!_isOpen)
         {
             return;
@@ -59,15 +66,14 @@ internal static class UIImageInspector
             _page = 0;
         }
 
-        var images = root.GetComponentsInChildren<Graphic>(true)
-            .Where(graphic => graphic is Image or RawImage)
-            .Select(graphic => (Graphic: graphic, Path: GetPath(root, graphic)))
+        var images = imageComponents
+            .Select(component => (Component: component, Path: GetPath(root, component)))
             .Where(entry => entry.Path.IndexOf(_search, System.StringComparison.OrdinalIgnoreCase) >= 0)
             .ToArray();
 
         if (images.Length == 0)
         {
-            EditorGUILayout.HelpBox("표시할 Image 또는 Raw Image가 없습니다.", MessageType.Info);
+            EditorGUILayout.HelpBox("검색 조건에 맞는 이미지가 없습니다.", MessageType.Info);
             return;
         }
 
@@ -95,49 +101,49 @@ internal static class UIImageInspector
 
         foreach (var entry in images.Skip(_page * PAGE_SIZE).Take(PAGE_SIZE))
         {
-            Graphic graphic = entry.Graphic;
+            Component component = entry.Component;
             using (new EditorGUILayout.HorizontalScope())
             {
                 EditorGUILayout.LabelField(new GUIContent(entry.Path, entry.Path), EditorStyles.boldLabel);
-                if (graphic.gameObject != root && GUILayout.Button("선택", GUILayout.Width(44)))
+                if (component.gameObject != root && GUILayout.Button("선택", GUILayout.Width(44)))
                 {
-                    Selection.activeGameObject = graphic.gameObject;
+                    Selection.activeGameObject = component.gameObject;
                 }
             }
 
-            using var serialized = new SerializedObject(graphic);
-            bool isSprite = graphic is Image;
+            using var serialized = new SerializedObject(component);
+            bool isSprite = component is not RawImage;
             EditorGUILayout.PropertyField(serialized.FindProperty(isSprite ? "m_Sprite" : "m_Texture"),
                 new GUIContent(isSprite ? "스프라이트" : "텍스처"));
             serialized.ApplyModifiedProperties();
 
-            if (graphic.gameObject == root)
+            if (component.gameObject == root)
             {
-                DrawAnimatedSpriteSources(graphic);
+                DrawAnimatedSpriteSources(component);
             }
         }
     }
 
-    private static string GetPath(GameObject root, Graphic graphic)
+    private static string GetPath(GameObject root, Component component)
     {
-        if (graphic.gameObject == root)
+        if (component.gameObject == root)
         {
             return root.name;
         }
 
-        return root.name + "/" + AnimationUtility.CalculateTransformPath(graphic.transform, root.transform);
+        return root.name + "/" + AnimationUtility.CalculateTransformPath(component.transform, root.transform);
     }
 
-    private static void DrawAnimatedSpriteSources(Graphic graphic)
+    private static void DrawAnimatedSpriteSources(Component component)
     {
-        foreach (Animator animator in graphic.GetComponentsInParent<Animator>(true))
+        foreach (Animator animator in component.GetComponentsInParent<Animator>(true))
         {
             if (animator.runtimeAnimatorController == null)
             {
                 continue;
             }
 
-            string path = AnimationUtility.CalculateTransformPath(graphic.transform, animator.transform);
+            string path = AnimationUtility.CalculateTransformPath(component.transform, animator.transform);
             foreach (AnimationClip clip in animator.runtimeAnimatorController.animationClips.Distinct())
             {
                 if (clip == null)
@@ -146,14 +152,16 @@ internal static class UIImageInspector
                 }
 
                 DrawClipFrames(clip, AnimationUtility.GetObjectReferenceCurveBindings(clip)
-                    .Where(binding => binding.path == path && IsUIImageBinding(binding)).ToArray());
+                    .Where(binding => binding.path == path && binding.type == component.GetType()
+                        && IsImageBinding(binding)).ToArray());
             }
         }
     }
 
-    private static bool IsUIImageBinding(EditorCurveBinding binding)
+    private static bool IsImageBinding(EditorCurveBinding binding)
     {
-        return (binding.type == typeof(Image) && binding.propertyName == "m_Sprite")
+        return ((binding.type == typeof(Image) || binding.type == typeof(SpriteRenderer))
+                && binding.propertyName == "m_Sprite")
             || (binding.type == typeof(RawImage) && binding.propertyName == "m_Texture");
     }
 
@@ -203,7 +211,7 @@ internal static class UIImageInspector
 
         EditorGUILayout.LabelField(string.IsNullOrEmpty(binding.path) ? "애니메이터 오브젝트" : binding.path,
             EditorStyles.boldLabel);
-        var assetType = binding.type == typeof(Image) ? typeof(Sprite) : typeof(Texture);
+        var assetType = binding.type == typeof(RawImage) ? typeof(Texture) : typeof(Sprite);
 
         EditorGUI.BeginChangeCheck();
         for (int index = 0; index < frames.Length; index++)

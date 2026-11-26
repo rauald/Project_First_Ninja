@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public sealed class CharacterInventorySlot : MonoBehaviour
 {
     [SerializeField] private Image _portrait;
-    [SerializeField] private Text _label;
+    [SerializeField] private TextMeshProUGUI _label;
     [SerializeField] private CharacterLevelView _level;
     [SerializeField] private GameObject _lock;
     [SerializeField] private GameObject _equipped;

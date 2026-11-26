@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,8 +6,8 @@ using UnityEngine.UI;
 public sealed class StageCardView : MonoBehaviour
 {
     [SerializeField] private Button _button;
-    [SerializeField] private Text _number;
-    [SerializeField] private Text _stageName;
+    [SerializeField] private TextMeshProUGUI _number;
+    [SerializeField] private TextMeshProUGUI _stageName;
     [SerializeField] private Image _mapPreview;
     [SerializeField] private GameObject _clearBadge;
     [SerializeField] private GameObject _lockedOverlay;

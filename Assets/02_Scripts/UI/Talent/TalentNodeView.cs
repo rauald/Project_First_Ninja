@@ -5,6 +5,7 @@ public sealed class TalentNodeView : MonoBehaviour
 {
     [SerializeField] private int _id;
     [SerializeField] private Image _icon;
+    [SerializeField] private Image _learnedAura;
     [SerializeField] private Button _button;
     [SerializeField] private RectTransform[] _links;
 
@@ -13,9 +14,26 @@ public sealed class TalentNodeView : MonoBehaviour
     public Button Button => _button;
     public Vector2 Position => ((RectTransform)transform).anchoredPosition;
 
-    public void SetLearned(bool isLearned, Color unlearnedColor)
+    internal void SetIcon(Sprite icon)
+    {
+        _icon.sprite = icon;
+    }
+
+    public void SetLearned(bool isLearned, Color unlearnedColor, Sprite auraSprite)
     {
         _icon.color = isLearned ? Color.white : unlearnedColor;
+        if (_learnedAura == null)
+        {
+            return;
+        }
+
+        bool showAura = isLearned && auraSprite != null;
+        if (showAura)
+        {
+            _learnedAura.sprite = auraSprite;
+            _learnedAura.rectTransform.anchoredPosition = Position;
+        }
+        _learnedAura.gameObject.SetActive(showAura);
     }
 
     public void PlaceLink(int index, Vector2 start)

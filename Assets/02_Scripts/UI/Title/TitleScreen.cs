@@ -1,3 +1,4 @@
+using TMPro;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,12 +6,12 @@ using UnityEngine.InputSystem;
 
 public sealed class TitleScreen : MonoBehaviour, IWindowable
 {
-    [SerializeField] private Text _status;
+    [SerializeField] private TextMeshProUGUI _status;
     [SerializeField] private GameObject _desktopPrompt;
     [SerializeField] private GameObject _mobilePrompt;
     [SerializeField] private GameObject _loadingBar;
     [SerializeField] private Image _fill;
-    [SerializeField] private Text _percentage;
+    [SerializeField] private TextMeshProUGUI _percentage;
     [SerializeField] private CanvasGroup _fade;
     [SerializeField] private Animator _fadeAnimator;
     [SerializeField] private Animator _introAnimator;

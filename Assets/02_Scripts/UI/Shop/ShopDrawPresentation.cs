@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -24,8 +25,7 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
     [SerializeField] private Sprite _goldClosed;
     [Tooltip("특별 결과 연출에 쓰는 펼친 금색 두루마리입니다.")]
     [SerializeField] private Sprite _goldOpen;
-    [Tooltip("뽑기 연출과 결과에 표시하는 장비 아이콘입니다. 장비 ID 1은 Element 0입니다.")]
-    [SerializeField] private Sprite[] _equipmentIcons;
+    [SerializeField] private EquipmentIconCatalog _equipmentArt;
     [SerializeField] private GameObject _results;
     [SerializeField] private Image _singleIcon;
     [SerializeField] private Image _singleSpecialBadge;
@@ -33,7 +33,7 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
     [SerializeField] private Image[] _gridSpecialBadges;
     [SerializeField] private Button _return;
     [SerializeField] private Button _retry;
-    [SerializeField] private Text _error;
+    [SerializeField] private TextMeshProUGUI _error;
 
     private int[] _equipmentIds;
     private CsvTable _definitions;
@@ -44,11 +44,6 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
     private bool _isSpecial;
 
     public bool IsPlaying { get; private set; }
-
-    public Sprite GetEquipmentIcon(int id)
-    {
-        return _equipmentIcons[id - 1];
-    }
 
     private void Awake()
     {
@@ -128,7 +123,7 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
             _itemIndex = index;
             int id = _equipmentIds[index];
             _isSpecial = _definitions.GetInt(id, 2) == 1;
-            _revealedItem.sprite = GetEquipmentIcon(id);
+            _revealedItem.sprite = _equipmentArt.GetIcon(id);
             _revealSpecialBadge.gameObject.SetActive(_isSpecial);
         }
 
@@ -175,7 +170,7 @@ public sealed class ShopDrawPresentation : MonoBehaviour, IPointerDownHandler
 
     private void SetResultIcon(Image icon, Image specialBadge, int id)
     {
-        icon.sprite = GetEquipmentIcon(id);
+        icon.sprite = _equipmentArt.GetIcon(id);
         bool isSpecial = _definitions.GetInt(id, 2) == 1;
         specialBadge.gameObject.SetActive(isSpecial);
         icon.transform.parent.GetComponent<Image>().color = isSpecial
