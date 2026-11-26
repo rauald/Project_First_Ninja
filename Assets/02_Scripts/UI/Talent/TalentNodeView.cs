@@ -13,6 +13,11 @@ public sealed class TalentNodeView : MonoBehaviour
     public Button Button => _button;
     public Vector2 Position => ((RectTransform)transform).anchoredPosition;
 
+    internal void SetIcon(Sprite icon)
+    {
+        _icon.sprite = icon;
+    }
+
     public void SetLearned(bool isLearned, Color unlearnedColor)
     {
         _icon.color = isLearned ? Color.white : unlearnedColor;

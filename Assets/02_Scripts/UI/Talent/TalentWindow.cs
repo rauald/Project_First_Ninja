@@ -1,3 +1,4 @@
+using TMPro;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -9,16 +10,18 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
 
     [SerializeField] private TalentPanViewport _viewport;
     [SerializeField] private TalentNodeView[] _nodes;
+    [Tooltip("특성 ID 1은 Element 0입니다.")]
+    [SerializeField] private Sprite[] _talentIcons = System.Array.Empty<Sprite>();
     [SerializeField] private Color _unlearnedColor = new(0.72f, 0.72f, 0.72f, 1f);
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private GameObject _details;
     [SerializeField] private Image _detailIcon;
-    [SerializeField] private Text _detailName;
-    [SerializeField] private Text _detailEffect;
-    [SerializeField] private Text _detailRequirements;
-    [SerializeField] private Text _detailCost;
-    [SerializeField] private Text _detailStatus;
+    [SerializeField] private TextMeshProUGUI _detailName;
+    [SerializeField] private TextMeshProUGUI _detailEffect;
+    [SerializeField] private TextMeshProUGUI _detailRequirements;
+    [SerializeField] private TextMeshProUGUI _detailCost;
+    [SerializeField] private TextMeshProUGUI _detailStatus;
     [SerializeField] private Button _learn;
     [SerializeField] private Button _close;
 
@@ -31,6 +34,11 @@ public sealed class TalentWindow : MonoBehaviour, IWindowable
         _nodesById = _nodes.ToDictionary(node => node.Id);
         foreach (TalentNodeView node in _nodes)
         {
+            int iconIndex = node.Id - 1;
+            if ((uint)iconIndex < (uint)_talentIcons.Length)
+            {
+                node.SetIcon(_talentIcons[iconIndex]);
+            }
             node.Button.onClick.AddListener(() => OpenDetails(node));
         }
 

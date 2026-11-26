@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +7,6 @@ using UnityEngine.UI;
 
 public sealed class EquipmentPopUp : MonoBehaviour
 {
-    private const float MATERIAL_ROW_HEIGHT = 62f;
-    private const float MATERIAL_ROW_SPACING = 6f;
     private static readonly string[] RANK_LABELS = { "노말", "레어", "유니크", "에픽" };
     private static readonly string[] STAT_NAMES =
     {
@@ -23,46 +22,62 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
     [SerializeField] private EquipmentWindow _window;
     [SerializeField] private RectTransform _panel;
-    [SerializeField] private Text _nameLine;
-    [SerializeField] private Text _slotLine;
-    [SerializeField] private Text _rankLine;
-    [SerializeField] private Text _levelLine;
-    [SerializeField] private Text _firstStatLine;
-    [SerializeField] private Text _secondStatLine;
+    [SerializeField] private TextMeshProUGUI _nameLine;
+    [SerializeField] private TextMeshProUGUI _slotLine;
+    [SerializeField] private TextMeshProUGUI _rankLine;
+    [SerializeField] private TextMeshProUGUI _levelLine;
+    [SerializeField] private TextMeshProUGUI _firstStatLine;
+    [SerializeField] private TextMeshProUGUI _secondStatLine;
     [Tooltip("노말, 레어, 유니크, 에픽 순서로 연결합니다.")]
-    [SerializeField] private Text[] _rankStatLines;
+    [SerializeField] private TextMeshProUGUI[] _rankStatLines;
     [SerializeField] private GameObject _specialBadge;
-    [SerializeField] private Text _message;
+    [SerializeField] private TextMeshProUGUI _message;
     [SerializeField] private Button _equip;
     [SerializeField] private Button _levelUpButton;
     [SerializeField] private Button _rankUpButton;
+    [SerializeField] private Image _rankImage;
+    [SerializeField] private Image _itemImage;
+    [SerializeField] private Sprite _silverIcon;
+    [SerializeField] private Sprite _equipmentStoneIcon;
 
     private EquipmentInstanceData _selected;
-    private Image _rankImage;
-    private Image _itemImage;
     private float[] _rankStatAlphas;
-    private GameObject _growthPanel;
-    private Text _growthTitle;
-    private Text _growthCost;
-    private Text _growthStatus;
-    private Button _confirmGrowth;
-    private MaterialList _requiredMaterials;
-    private MaterialList _additionalMaterials;
+    [SerializeField] private RectTransform _growthPanel;
+    [SerializeField] private TextMeshProUGUI _growthTitle;
+    [SerializeField] private GrowthMaterialRow[] _levelMaterials;
+    [SerializeField] private TextMeshProUGUI _growthStatus;
+    [SerializeField] private Button _confirmGrowth;
+    [SerializeField] private Button _cancelGrowth;
+    [SerializeField] private Button _materialRowTemplate;
+    [SerializeField] private MaterialList _requiredMaterials;
+    [SerializeField] private MaterialList _additionalMaterials;
+
+    private Vector2 _growthOffsetMin;
+    private Vector2 _growthOffsetMax;
     private EquipmentInventory.RankUpCost _rankCost;
 
+    [Serializable]
     private sealed class MaterialList
     {
-        public GameObject Root;
-        public Text Heading;
+        public TextMeshProUGUI Heading;
+        public TextMeshProUGUI Selection;
+        public GrowthMaterialRow Cost;
         public ScrollRect Scroll;
-        public string Requirement;
-        public int RequiredCount;
-        public EquipmentInstanceData[] Candidates = Array.Empty<EquipmentInstanceData>();
+        [NonSerialized] public int RequiredCount;
+        [NonSerialized] public EquipmentInstanceData[] Candidates = Array.Empty<EquipmentInstanceData>();
         public readonly HashSet<EquipmentInstanceData> Selected = new();
-        public readonly List<(Button Button, Text Label)> Rows = new();
+        public readonly List<(Button Button, TextMeshProUGUI Label, Image Icon)> Rows = new();
     }
 
     private EquipmentInventory Inventory => GameManager.Instance.Equipment;
+
+    private void Awake()
+    {
+        _growthOffsetMin = _growthPanel.offsetMin;
+        _growthOffsetMax = _growthPanel.offsetMax;
+        _confirmGrowth.onClick.AddListener(ConfirmGrowth);
+        _cancelGrowth.onClick.AddListener(() => _growthPanel.gameObject.SetActive(false));
+    }
 
     public void ShowEquipment(EquipmentInstanceData item)
     {
@@ -87,38 +102,14 @@ public sealed class EquipmentPopUp : MonoBehaviour
         _specialBadge.SetActive(isSpecial);
 
         _message.text = "";
-        _equip.interactable = !item.IsEquipped;
-        if (_equip.GetComponentInChildren<Text>(true) is Text label)
+        if (_equip.GetComponentInChildren<TextMeshProUGUI>(true) is TextMeshProUGUI label)
         {
-            label.text = item.IsEquipped ? "장착 중" : inventory.GetEquipped(slot) == null ? "장착" : "교체";
+            label.text = item.IsEquipped ? "해제" : inventory.GetEquipped(slot) == null ? "장착" : "교체";
         }
-        EnsureGrowthControls();
-        _growthPanel.SetActive(false);
+        _growthPanel.gameObject.SetActive(false);
         _levelUpButton.interactable = inventory.GetLevelUpCost(item, out _);
         _rankUpButton.interactable = inventory.GetRankUpCost(item) != null;
         UIManager.Instance.PopUp.Open(PopUpType.Equipment);
-    }
-
-    private void EnsureGrowthControls()
-    {
-        if (_growthPanel != null)
-        {
-            return;
-        }
-
-        Transform panel = _panel;
-        var growth = CreateRect(panel, "EquipmentGrowth", Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
-        _growthPanel = growth.gameObject;
-        growth.gameObject.AddComponent<Image>().color = new Color(.17f, .12f, .08f);
-        _growthTitle = CreateText(growth, "Title", 44, .05f, .86f, .95f, .98f);
-        _growthCost = CreateText(growth, "Cost", 28, .07f, .69f, .93f, .86f);
-        _growthStatus = CreateText(growth, "Status", 27, .07f, .11f, .93f, .18f);
-        _requiredMaterials = CreateMaterialList(growth, "RequiredMaterials", .51f, .84f);
-        _additionalMaterials = CreateMaterialList(growth, "AdditionalMaterials", .18f, .51f);
-        _confirmGrowth = CreateButton(growth, "Confirm", "확인", new Vector2(.52f, .03f),
-            new Vector2(.91f, .11f), Vector2.zero, Vector2.zero, ConfirmGrowth);
-        CreateButton(growth, "Cancel", "취소", new Vector2(.09f, .03f),
-            new Vector2(.48f, .11f), Vector2.zero, Vector2.zero, () => _growthPanel.SetActive(false));
     }
 
     public void ShowLevelUp()
@@ -131,16 +122,22 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
         _rankCost = null;
         _growthTitle.text = $"레벨업  Lv. {Inventory.GetLevel(_selected)} → {Inventory.GetLevel(_selected) + 1}";
-        _growthCost.text = string.Join("\n", costs.Where(cost => cost.Amount > 0).Select(cost =>
+        SetRankGrowthLayout(false);
+        int visibleIndex = 0;
+        foreach (CharacterMaterialData cost in costs)
         {
-            string material = cost.ItemType == 0 && cost.DetailType == 0 ? "은자" : "장비 강화석";
+            if (cost.Amount <= 0)
+            {
+                continue;
+            }
+
+            bool isCurrency = cost.ItemType == 0;
             long held = GameManager.Instance.Characters.GetAmount(cost.ItemType, cost.DetailType);
-            return $"{material}  {cost.Amount:N0} 필요 / {held:N0} 보유";
-        }));
+            _levelMaterials[visibleIndex++].Show(isCurrency ? _silverIcon : _equipmentStoneIcon, held, cost.Amount);
+        }
         _confirmGrowth.interactable = true;
         _growthStatus.text = "";
-        SetRankGrowthLayout(false);
-        _growthPanel.SetActive(true);
+        _growthPanel.gameObject.SetActive(true);
     }
 
     public void ShowRankUp()
@@ -157,11 +154,13 @@ public sealed class EquipmentPopUp : MonoBehaviour
         _growthTitle.text = $"등급업  {CharacterDetailView.GetRankName(rank)} → {CharacterDetailView.GetRankName(rank + 1)}";
         SetRankGrowthLayout(true);
         BindMaterials(_requiredMaterials, _rankCost.RequiredCount,
-            $"필수 재료 선택 · {requiredItemName} · {CharacterDetailView.GetRankName(_rankCost.RequiredRank)}", true);
+            $"필수 재료 · {requiredItemName} · {CharacterDetailView.GetRankName(_rankCost.RequiredRank)}",
+            _window.GetItemIcon(_selected.DefinitionId), true);
         BindMaterials(_additionalMaterials, _rankCost.AdditionalCount,
-            $"추가 재료 선택 · {EquipmentWindow.GetSlotName(_rankCost.AdditionalSlot)} · {CharacterDetailView.GetRankName(_rankCost.AdditionalRank)}", false);
+            $"추가 재료 · {EquipmentWindow.GetSlotName(_rankCost.AdditionalSlot)} · {CharacterDetailView.GetRankName(_rankCost.AdditionalRank)}",
+            _window.GetRankSprite(_rankCost.AdditionalRank), false);
         RefreshMaterialSelection();
-        _growthPanel.SetActive(true);
+        _growthPanel.gameObject.SetActive(true);
         Canvas.ForceUpdateCanvases();
         _requiredMaterials.Scroll.verticalNormalizedPosition = 1f;
         _additionalMaterials.Scroll.verticalNormalizedPosition = 1f;
@@ -169,57 +168,37 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
     private void SetRankGrowthLayout(bool isRankUp)
     {
-        var growth = (RectTransform)_growthPanel.transform;
         var availableArea = (RectTransform)_panel.parent;
         float extension = isRankUp ? Mathf.Clamp((availableArea.rect.height - _panel.rect.height - 48f) * .5f, 0f, 160f) : 0f;
-        growth.offsetMin = new Vector2(0f, -extension);
-        growth.offsetMax = new Vector2(0f, extension);
-        _growthCost.gameObject.SetActive(!isRankUp);
-        _requiredMaterials.Root.SetActive(isRankUp);
-        _additionalMaterials.Root.SetActive(isRankUp);
+        _growthPanel.offsetMin = _growthOffsetMin - Vector2.up * extension;
+        _growthPanel.offsetMax = _growthOffsetMax + Vector2.up * extension;
+        foreach (GrowthMaterialRow row in _levelMaterials)
+        {
+            row.Hide();
+        }
+        _requiredMaterials.Scroll.gameObject.SetActive(isRankUp);
+        _additionalMaterials.Scroll.gameObject.SetActive(isRankUp);
     }
 
-    private MaterialList CreateMaterialList(RectTransform parent, string name, float bottom, float top)
-    {
-        RectTransform group = CreateRect(parent, name, new Vector2(.07f, bottom), new Vector2(.93f, top),
-            Vector2.zero, Vector2.zero);
-        Text heading = CreateText(group, "Heading", 25, 0f, .77f, 1f, 1f);
-        RectTransform viewport = CreateRect(group, "Viewport", Vector2.zero, new Vector2(1f, .77f),
-            new Vector2(0f, 8f), Vector2.zero);
-        viewport.gameObject.AddComponent<Image>().color = new Color(.12f, .09f, .07f);
-        viewport.gameObject.AddComponent<RectMask2D>();
-        RectTransform content = CreateRect(viewport, "Content", new Vector2(0f, 1f), Vector2.one,
-            Vector2.zero, Vector2.zero);
-        content.pivot = new Vector2(.5f, 1f);
-        var scroll = group.gameObject.AddComponent<ScrollRect>();
-        scroll.viewport = viewport;
-        scroll.content = content;
-        scroll.horizontal = false;
-        scroll.movementType = ScrollRect.MovementType.Clamped;
-        scroll.scrollSensitivity = 58f;
-
-        return new MaterialList { Root = group.gameObject, Heading = heading, Scroll = scroll };
-    }
-
-    private void BindMaterials(MaterialList list, int count, string requirement, bool isRequired)
+    private void BindMaterials(MaterialList list, int count, string requirement, Sprite icon, bool isRequired)
     {
         list.RequiredCount = count;
-        list.Requirement = requirement;
         list.Selected.Clear();
         list.Candidates = Inventory.GetRankUpCandidates(_selected, _rankCost, isRequired)
             .OrderBy(item => item.DefinitionId).ThenBy(Inventory.GetLevel).ToArray();
+        list.Heading.text = requirement;
+        list.Cost.Show(icon, list.Candidates.Length, count);
         list.Scroll.StopMovement();
 
         RectTransform content = list.Scroll.content;
-        content.sizeDelta = new Vector2(0f, list.Candidates.Length * (MATERIAL_ROW_HEIGHT + MATERIAL_ROW_SPACING));
         while (list.Rows.Count < list.Candidates.Length)
         {
             int index = list.Rows.Count;
-            float top = -index * (MATERIAL_ROW_HEIGHT + MATERIAL_ROW_SPACING);
-            Button button = CreateButton(content, $"Material_{index + 1}", "", new Vector2(0f, 1f), Vector2.one,
-                new Vector2(4f, top - MATERIAL_ROW_HEIGHT), new Vector2(-4f, top),
-                () => ToggleMaterial(list, index));
-            list.Rows.Add((button, button.GetComponentInChildren<Text>(true)));
+            Button button = Instantiate(_materialRowTemplate, content);
+            button.name = $"Material_{index + 1}";
+            button.onClick.AddListener(() => ToggleMaterial(list, index));
+            list.Rows.Add((button, button.GetComponentInChildren<TextMeshProUGUI>(true),
+                button.transform.Find("Material_Icon").GetComponent<Image>()));
         }
 
         for (int index = 0; index < list.Rows.Count; index++)
@@ -233,6 +212,7 @@ public sealed class EquipmentPopUp : MonoBehaviour
                 string name = Inventory.Definitions.GetString(item.DefinitionId, 0);
                 string type = Inventory.Definitions.GetInt(item.DefinitionId, 2) == 1 ? "특수" : "일반";
                 row.Label.text = $"{name}  ·  Lv. {Inventory.GetLevel(item)}  ·  {type}";
+                _window.ApplyItemImage(row.Icon, item);
             }
         }
     }
@@ -253,7 +233,8 @@ public sealed class EquipmentPopUp : MonoBehaviour
     {
         RefreshMaterialList(_requiredMaterials, _additionalMaterials);
         RefreshMaterialList(_additionalMaterials, _requiredMaterials);
-        _growthStatus.text = _requiredMaterials.Candidates.Length == 0 || _additionalMaterials.Candidates.Length == 0
+        _growthStatus.text = _requiredMaterials.Candidates.Length < _requiredMaterials.RequiredCount
+            || _additionalMaterials.Candidates.Length < _additionalMaterials.RequiredCount
             ? "선택할 수 있는 미장착 재료 장비가 부족합니다."
             : "확인하면 선택한 장비가 소모됩니다.";
         _confirmGrowth.interactable = _requiredMaterials.Selected.Count == _requiredMaterials.RequiredCount
@@ -262,7 +243,7 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
     private static void RefreshMaterialList(MaterialList list, MaterialList other)
     {
-        list.Heading.text = $"{list.Requirement}\n선택 {list.Selected.Count} / {list.RequiredCount}";
+        list.Selection.text = $"선택 {list.Selected.Count} / {list.RequiredCount}";
         for (int index = 0; index < list.Candidates.Length; index++)
         {
             Button button = list.Rows[index].Button;
@@ -291,63 +272,10 @@ public sealed class EquipmentPopUp : MonoBehaviour
         _message.text = message;
     }
 
-    private Button CreateButton(Transform parent, string name, string title, Vector2 min, Vector2 max,
-        Vector2 offsetMin, Vector2 offsetMax, UnityEngine.Events.UnityAction onClick)
-    {
-        RectTransform rect = CreateRect(parent, name, min, max, offsetMin, offsetMax);
-        var image = rect.gameObject.AddComponent<Image>();
-        image.color = new Color(.29f, .20f, .13f);
-        var button = rect.gameObject.AddComponent<Button>();
-        button.targetGraphic = image;
-        button.onClick.AddListener(onClick);
-        CreateText(rect, "Label", 28, .02f, 0f, .98f, 1f).text = title;
-        return button;
-    }
-
-    private Text CreateText(Transform parent, string name, int size, float x0, float y0, float x1, float y1)
-    {
-        RectTransform rect = CreateRect(parent, name, new Vector2(x0, y0), new Vector2(x1, y1), Vector2.zero, Vector2.zero);
-        var text = rect.gameObject.AddComponent<Text>();
-        text.font = _nameLine.font;
-        text.fontSize = size;
-        text.color = Color.white;
-        text.alignment = TextAnchor.MiddleCenter;
-        text.raycastTarget = false;
-        return text;
-    }
-
-    private static RectTransform CreateRect(Transform parent, string name, Vector2 min, Vector2 max,
-        Vector2 offsetMin, Vector2 offsetMax)
-    {
-        var obj = new GameObject(name, typeof(RectTransform));
-        obj.layer = parent.gameObject.layer;
-        var rect = (RectTransform)obj.transform;
-        rect.SetParent(parent, false);
-        rect.anchorMin = min;
-        rect.anchorMax = max;
-        rect.offsetMin = offsetMin;
-        rect.offsetMax = offsetMax;
-        return rect;
-    }
-
     private void RefreshEquipmentImages(EquipmentInstanceData item, int rank)
     {
-        if (_rankImage == null)
-        {
-            Transform rankDisplay = _panel.Find("Rank");
-            _rankImage = rankDisplay?.GetComponent<Image>();
-            _itemImage = rankDisplay?.Find("Equip")?.GetComponent<Image>();
-        }
-
-        if (_rankImage != null)
-        {
-            _window.ApplyRankImage(_rankImage, rank);
-        }
-
-        if (_itemImage != null)
-        {
-            _window.ApplyItemImage(_itemImage, item);
-        }
+        _window.ApplyRankImage(_rankImage, rank);
+        _window.ApplyItemImage(_itemImage, item);
     }
 
     private void RefreshRankStats(CsvTable definitions, int id, int rank)
@@ -355,7 +283,7 @@ public sealed class EquipmentPopUp : MonoBehaviour
         _rankStatAlphas ??= _rankStatLines.Select(line => line.color.a).ToArray();
         for (int index = 0; index < _rankStatLines.Length; index++)
         {
-            Text line = _rankStatLines[index];
+            TextMeshProUGUI line = _rankStatLines[index];
             string stat = FormatStat(definitions, id, 9 + index * 2);
             line.text = $"{RANK_LABELS[index]}  {(stat.Length > 0 ? stat : "없음")}";
             Color color = line.color;
@@ -379,9 +307,16 @@ public sealed class EquipmentPopUp : MonoBehaviour
 
     public void EquipSelected()
     {
-        if (!GameManager.Instance.Equipment.TryEquip(_selected))
+        if (_selected == null)
         {
-            _message.text = "장착 상태를 저장할 수 없습니다.";
+            return;
+        }
+
+        bool isUnequipping = _selected.IsEquipped;
+        bool isSaved = isUnequipping ? Inventory.TryUnequip(_selected) : Inventory.TryEquip(_selected);
+        if (!isSaved)
+        {
+            _message.text = isUnequipping ? "해제 상태를 저장할 수 없습니다." : "장착 상태를 저장할 수 없습니다.";
             return;
         }
 

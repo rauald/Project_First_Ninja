@@ -1,3 +1,4 @@
+using TMPro;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,22 +8,25 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
 {
     private static readonly int[] EXCHANGE_COUNTS = { 1, 10, 100 };
 
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private Button[] _drawButtons;
     [SerializeField] private Button[] _oddsButtons;
     [SerializeField] private Button[] _exchangeButtons;
     [SerializeField] private GameObject _modal;
-    [SerializeField] private Text _modalTitle;
-    [SerializeField] private Text _modalBody;
+    [SerializeField] private TextMeshProUGUI _modalTitle;
+    [SerializeField] private TextMeshProUGUI _modalBody;
     [SerializeField] private ScrollRect _oddsScroll;
     [SerializeField] private RectTransform[] _oddsHeadings;
     [SerializeField] private RectTransform _oddsRowTemplate;
     [SerializeField] private Button _confirm;
     [SerializeField] private Button _close;
     [SerializeField] private ShopDrawPresentation _drawPresentation;
+    [SerializeField] private EquipmentIconCatalog _equipmentArt;
+    [Tooltip("이미지로 제목을 표시하는 버튼의 가격을 뽑기, 교환 순서로 연결합니다.")]
+    [SerializeField] private TextMeshProUGUI[] _offerPrices;
 
-    private readonly List<(RectTransform Row, Image Icon, Text Name, Text Probability)> _oddsRows = new();
+    private readonly List<(RectTransform Row, Image Icon, TextMeshProUGUI Name, TextMeshProUGUI Probability)> _oddsRows = new();
     private Action _confirmAction;
     private ShopService Shop => GameManager.Instance.Shop;
 
@@ -70,51 +74,22 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
         {
             bool isPremium = i < 2;
             int count = i % 2 == 0 ? 1 : 10;
-            SetOffer(_drawButtons[i], $"{count}회 뽑기", Shop.GetDrawCost(isPremium, count), isPremium ? "금자" : "은자");
+            SetOffer(_drawButtons[i], _offerPrices[i], Shop.GetDrawCost(isPremium, count),
+                isPremium ? "금자" : "은자");
         }
 
         for (int i = 0; i < _exchangeButtons.Length; i++)
         {
             int count = EXCHANGE_COUNTS[i];
-            SetOffer(_exchangeButtons[i], $"{count}개 교환", Shop.GetExchangeCost(count), "은자");
+            SetOffer(_exchangeButtons[i], _offerPrices[_drawButtons.Length + i],
+                Shop.GetExchangeCost(count), "은자");
         }
     }
 
-    private void SetOffer(Button button, string title, long cost, string currency)
+    private static void SetOffer(Button button, TextMeshProUGUI priceLabel, long cost, string currency)
     {
         button.interactable = cost > 0;
-        string price = cost > 0 ? $"{cost:N0} {currency}" : "가격 미설정";
-        if (button.transform.Find("Label")?.GetComponent<Text>() is Text label)
-        {
-            label.text = $"{title}\n{price}";
-            return;
-        }
-        GetPriceLabel(button).text = price;
-    }
-
-    private Text GetPriceLabel(Button button)
-    {
-        Transform existing = button.transform.Find("RuntimePrice");
-        if (existing != null)
-        {
-            return existing.GetComponent<Text>();
-        }
-
-        var priceObject = new GameObject("RuntimePrice", typeof(RectTransform), typeof(Text));
-        var rect = (RectTransform)priceObject.transform;
-        rect.SetParent(button.transform, false);
-        priceObject.layer = button.gameObject.layer;
-        rect.anchorMin = Vector2.zero;
-        rect.anchorMax = Vector2.right;
-        rect.offsetMin = new Vector2(0f, -30f);
-        rect.offsetMax = Vector2.zero;
-        var label = priceObject.GetComponent<Text>();
-        label.font = _silver.font;
-        label.fontSize = 23;
-        label.alignment = TextAnchor.MiddleCenter;
-        label.color = new Color(1f, .9f, .7f);
-        label.raycastTarget = false;
-        return label;
+        priceLabel.text = cost > 0 ? $"{cost:N0} {currency}" : "가격 미설정";
     }
 
     private void DrawEquipment(bool isPremium, int count)
@@ -200,13 +175,13 @@ public sealed class ShopWindow : MonoBehaviour, IWindowable
                 {
                     RectTransform newRow = Instantiate(_oddsRowTemplate, _oddsScroll.content);
                     _oddsRows.Add((newRow, newRow.Find("Icon").GetComponent<Image>(),
-                        newRow.Find("Name").GetComponent<Text>(), newRow.Find("Probability").GetComponent<Text>()));
+                        newRow.Find("Name").GetComponent<TextMeshProUGUI>(), newRow.Find("Probability").GetComponent<TextMeshProUGUI>()));
                 }
 
                 var (row, icon, name, chance) = _oddsRows[index++];
                 row.anchoredPosition = Vector2.down * top;
                 top += row.sizeDelta.y;
-                icon.sprite = _drawPresentation.GetEquipmentIcon(id);
+                icon.sprite = _equipmentArt.GetIcon(id);
                 name.text = equipment.GetString(id, 0);
                 chance.text = $"{probability:0.###%}";
                 row.gameObject.SetActive(true);

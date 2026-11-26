@@ -43,6 +43,12 @@ public sealed class BattleSession : MonoBehaviour
     [SerializeField] private Sprite _meteorShockwave;
     // 창해범람의 부상·회전·돌진을 4×4 순서로 담은 스프라이트 시트다.
     [SerializeField] private Texture2D _oceanDragonSheet;
+    [Tooltip("수면을 타일링하는 텍스처입니다. 반복이 필요한 이미지는 Wrap Mode를 Repeat로 설정합니다.")]
+    [SerializeField] private Texture2D _oceanSurfaceTexture;
+    [Tooltip("소용돌이 중심이 맞도록 스프라이트의 피벗을 가운데로 설정합니다.")]
+    [SerializeField] private Sprite _oceanWhirlpoolSprite;
+    [Tooltip("수룡의 눈빛 중심이 맞도록 스프라이트의 피벗을 가운데로 설정합니다.")]
+    [SerializeField] private Sprite _oceanDragonEyeSprite;
 
     // 진기폭발과 유성낙화의 비교용 Particle System 연출을 선택한다.
     [SerializeField] private bool _useParticleSystemAwakenings;
@@ -285,7 +291,8 @@ public sealed class BattleSession : MonoBehaviour
         if (id == 20)
             effect.ConfigureMeteor(_meteorScroll, _meteorSmoke, _meteorBody, _meteorDebris, _meteorGroundFire, _meteorShockwave, _map);
         if (id == 21 && _oceanDragonSheet != null)
-            effect.ConfigureOcean(_oceanDragonSheet, _map);
+            effect.ConfigureOcean(_oceanDragonSheet, _map, _oceanSurfaceTexture, _oceanWhirlpoolSprite,
+                _oceanDragonEyeSprite);
         if (id == 22)
             effect.ConfigureThornBloom(_map);
         return effect;

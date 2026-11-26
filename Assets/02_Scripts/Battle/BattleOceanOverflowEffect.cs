@@ -26,7 +26,8 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
     private Material _waterMaterial;
     private Texture2D _waterTexture;
     private Texture2D _whirlpoolTexture;
-    private Sprite _whirlpoolSprite;
+    private Sprite _generatedWhirlpoolSprite;
+    private Sprite _generatedEyeSprite;
     private SpriteRenderer _shadow;
     private SpriteRenderer _leftEye;
     private SpriteRenderer _rightEye;
@@ -40,26 +41,36 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
     private float _mapHalfExtent;
 
     // 물 레이어와 소용돌이, 수룡의 세 장면을 풀 생성 시 준비한다.
-    public void Initialize(Texture2D dragonSheet, Sprite pixel, BattleMap map, int order)
+    public void Initialize(Texture2D dragonSheet, Sprite pixel, BattleMap map, int order, Texture2D surfaceTexture,
+        Sprite whirlpoolSprite, Sprite eyeSprite)
     {
         _mapCenter = map.transform.position;
         _mapHalfExtent = map.HalfExtent;
-        PrepareWater(-20);
+        PrepareWater(-20, surfaceTexture);
 
-        _whirlpoolTexture = CreateWhirlpoolTexture();
-        _whirlpoolSprite = Sprite.Create(_whirlpoolTexture, new Rect(0, 0, 128, 128), new Vector2(.5f, .5f), 128);
+        if (whirlpoolSprite == null)
+        {
+            _whirlpoolTexture = CreateWhirlpoolTexture();
+            _generatedWhirlpoolSprite = Sprite.Create(_whirlpoolTexture, new Rect(0, 0, 128, 128),
+                new Vector2(.5f, .5f), 128);
+            whirlpoolSprite = _generatedWhirlpoolSprite;
+        }
         for (int i = 0; i < _whirlpools.Length; i++)
         {
-            _whirlpools[i] = CreateView("Ocean whirlpool water", _whirlpoolSprite, -19);
-            _innerWhirlpools[i] = CreateView("Ocean whirlpool foam", _whirlpoolSprite, -18);
+            _whirlpools[i] = CreateView("Ocean whirlpool water", whirlpoolSprite, -19);
+            _innerWhirlpools[i] = CreateView("Ocean whirlpool foam", whirlpoolSprite, -18);
         }
 
         for (int frame = 0; frame < _dragonFrames.Length; frame++)
             _dragonFrames[frame] = ReadFrame(dragonSheet, frame);
 
         _shadow = CreateView("Submerged dragon", _dragonFrames[SHADOW_FRAME], order + 2);
-        _eyeTexture = CreateEyeTexture();
-        var eyeSprite = Sprite.Create(_eyeTexture, new Rect(0, 0, 32, 32), new Vector2(.5f, .5f), 32);
+        if (eyeSprite == null)
+        {
+            _eyeTexture = CreateEyeTexture();
+            _generatedEyeSprite = Sprite.Create(_eyeTexture, new Rect(0, 0, 32, 32), new Vector2(.5f, .5f), 32);
+            eyeSprite = _generatedEyeSprite;
+        }
         _leftEye = CreateView("Dragon left eye flash", eyeSprite, order + 3);
         _rightEye = CreateView("Dragon right eye flash", eyeSprite, order + 3);
         _dragon = CreateView("Animated water dragon", _dragonFrames[0], order + 5);
@@ -120,7 +131,7 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
     }
 
     // 수면 중앙, 거품 띠, 바깥 경계를 잇는 삼각형을 준비한다.
-    private void PrepareWater(int order)
+    private void PrepareWater(int order, Texture2D surfaceTexture)
     {
         var host = new GameObject("Ocean surface");
         host.transform.SetParent(transform, false);
@@ -145,8 +156,12 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
         }
         _waterMesh.triangles = indices;
 
-        _waterTexture = CreateWaterTexture();
-        _waterMaterial = new Material(Shader.Find("Sprites/Default")) { mainTexture = _waterTexture };
+        if (surfaceTexture == null)
+        {
+            _waterTexture = CreateWaterTexture();
+            surfaceTexture = _waterTexture;
+        }
+        _waterMaterial = new Material(Shader.Find("Sprites/Default")) { mainTexture = surfaceTexture };
         host.AddComponent<MeshFilter>().sharedMesh = _waterMesh;
         var renderer = host.AddComponent<MeshRenderer>();
         renderer.sharedMaterial = _waterMaterial;
@@ -320,10 +335,10 @@ internal sealed class BattleOceanOverflowEffect : MonoBehaviour
     // 시전마다 그대로 재사용하고 전투 씬이 닫힐 때 런타임 리소스를 해제한다.
     private void OnDestroy()
     {
-        if (_leftEye != null) Destroy(_leftEye.sprite);
+        Destroy(_generatedEyeSprite);
         Destroy(_eyeTexture);
         foreach (Sprite frame in _dragonFrames) Destroy(frame);
-        Destroy(_whirlpoolSprite);
+        Destroy(_generatedWhirlpoolSprite);
         Destroy(_whirlpoolTexture);
         Destroy(_waterTexture);
         Destroy(_waterMaterial);

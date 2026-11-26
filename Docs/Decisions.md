@@ -825,3 +825,54 @@
 
 - 장비 상세의 LevelUp과 RankUp 버튼을 UIManager 프리팹의 EquipmentInfoPanel 아래에 배치하고 기존 성장 기능을 On Click으로 연결했다. 실행 중에는 성장 확인 팝업 내부 컨트롤만 생성한다.
 - 런타임 C# 컴파일과 두 프리팹 버튼의 참조 및 On Click 연결을 확인했다. Play Mode 클릭은 미검증이다.
+
+## UI 리팩토링 1단계 — 인스펙터 편집과 해상도
+
+- 날짜 2026-11-25.
+- 로딩 오버레이, 전투 웨이브·경고 UI, 장비 필터·장착 배지·성장 확인창, 상점 가격을 씬과 프리팹에 배치했다. 코드에는 표시 상태 갱신과 목록 템플릿 복제·바인딩을 둔다.
+- 1080×1920 기준 Canvas와 SafeAreaLayout을 사용한다. 로딩 배경은 화면 전체를 채우고 스피너와 문구는 안전 영역 안에 둔다. 장비 등급업 창은 인스펙터 배치를 기준으로 여유 공간만큼 확장한다.
+- UIImageInspector가 Image, RawImage, SpriteRenderer와 대응 애니메이션 프레임을 표시한다. 전투 경고 RawImage의 Texture와 BattleSession의 창해범람 수면·소용돌이·수룡 눈빛 참조를 지정하면 해당 이미지를 사용한다. 각 필드가 비어 있으면 기존 연출을 생성한다. 이펙트가 종료될 때는 코드로 생성한 리소스만 해제한다.
+- 관련 파일은 Assets/01_Scenes/00_Tilte_Scene.unity와 02_Game_Scene.unity, Assets/03_Prefabs/Manager/UIManager.prefab, Assets/03_Prefabs/UI/InventorySlotTemplate.prefab, GameManager.cs, SceneLoadingOverlay.cs, BattleHud.cs, BattleSession.cs, BattleAwakeningEffect.cs, BattleOceanOverflowEffect.cs, UIImageInspector.cs, EquipmentWindow.cs, EquipmentPopUp.cs, ShopWindow.cs다.
+- 검증은 Unity 6000.3.9f1 Roslyn 런타임·에디터 컴파일, 씬·프리팹의 추가 파일 ID 및 부모·자식·컴포넌트 참조 점검, 1080×1920·504×896·1280×720·1080×2340·1080×2400 안전 영역 계산 점검을 수행했다.
+- Unity 배치 실행은 프로젝트 경로를 확인한 직후 종료 코드 1로 종료됐다. Play Mode에서 타이틀→로비→전투, 장비 필터와 성장 팝업, 상점 가격, 경고·창해범람 기본 및 교체 이미지와 Windows·Android 배치를 확인해야 한다.
+
+### 웨이브 표시, 장비 해제 및 모바일 폰트 원본
+
+- 날짜 2026-11-25.
+- 전투 웨이브 제목은 30, 타이머는 기존 25를 사용한다.
+- 장비 상세의 기존 버튼이 상태에 따라 장착·교체·해제를 표시한다. EquipmentInventory.TryUnequip은 보유 중인 장착 장비만 해제하고, 저장이 실패하면 장착 플래그를 복구한다. 성공하면 슬롯과 목록을 갱신한다.
+- Assets/04_Arts/03_Fonts/First_Ninja_Mobile.ttf는 프로젝트 문구에서 수집한 한글 음절 439자와 영문·숫자·기호를 포함하는 자체 제작 원본이다. 모바일 UI용으로 획을 단순화했다. Unity TMP 아틀라스 생성 및 전체 UI 연결은 별도 검증이 필요하다.
+
+### 피해 숫자 로딩 중 풀 준비
+
+- 02_Game_Scene.unity의 표시 레이어에 생성할 피해 숫자는 Assets/03_Prefabs/UI/DamageTemplate.prefab에 배치하며 BattleHud에서 프리팹을 참조한다.
+- 로비에서 스테이지를 선택하면 로딩 오버레이를 유지한 상태에서 전투 씬이 활성화된다. BattleHud.Awake에서 템플릿을 48개 복제해 초기 풀을 준비한다.
+- 풀이 비었을 때만 한 개를 더 생성한다. 표시 종료와 재도전 때 사용 중인 라벨을 같은 풀로 반환한다.
+
+### TextMeshPro와 이순신체 적용
+
+- 날짜 2026-11-25.
+- 프로젝트 씬·프리팹 8개의 텍스트 188개와 프리팹 인스턴스 참조 12개를 TextMeshProUGUI로 전환했다. 기존 컴포넌트 파일 ID와 연결, 문구, 크기, 정렬, 색상 및 굵게 표시를 유지했다.
+- YiSunsin_Regular SDF를 해당 UI와 TMP 기본 폰트로 연결했다. 웨이브 제목의 30 및 타이머의 25 설정도 유지했다.
+- 씬과 프리팹, 런타임 문구와 CSV를 검토해 정적 아틀라스에 빠진 문자 32자를 확인했다. 원본 TTF가 모두 지원하며 YiSunsin_Mobile_Characters.txt에 추가했다.
+- 런타임 및 에디터 C# 컴파일을 통과했다. Unity 배치 시작이 종료 코드 1로 중단돼 아틀라스 갱신 저장과 실제 Play Mode 검증이 필요하다.
+
+### 게임 UI 기본 폰트 변경
+
+- 날짜 2026-11-25.
+- 게임 UI의 TMP 텍스트 187개와 TMP 기본 설정을 Ansungtangmyun-Bold SDF 및 해당 기본 머티리얼로 연결했다. 기존 크기, 정렬, 스타일은 유지했다.
+- 정적 아틀라스의 문자 582자를 현재 씬, 프리팹, C# 문구 및 CSV 문자와 대조했으며 누락 문자가 없음을 확인했다. 화면 배치와 글자 잘림은 Play Mode에서 확인해야 한다.
+
+### 2단계 장비·특성 이미지와 성장 재료 UI
+
+- 날짜 2026-11-25.
+- EquipmentIcons 에셋의 장비 아이콘 74개를 장비 창과 상점 연출 및 확률 목록이 공유한다. EquipmentSlotView가 장착 슬롯 8개와 인벤토리 템플릿의 아이콘, 등급, 배지를 갱신한다. TalentWindow에 기존 특성 이미지 151개를 ID 순서대로 연결했다.
+- GrowthMaterialRow로 캐릭터 및 장비 성장 재료의 이미지와 소지량/필요량을 표시한다. 장비 등급업은 필수·추가 후보 수량과 실제 선택 수를 따로 표시하며 각 후보의 장비 아이콘을 보여준다.
+- 장비 강화석은 사용자가 지정한 철광석 스프라이트 Icon_Sheet_2_46에 연결했다. 은자 아이콘, 장비 아이콘과 등급 아이콘은 기존 에셋을 사용한다.
+- 런타임·에디터 컴파일과 아이콘 배열 수량, 슬롯 참조 및 재료 표시 참조를 정적으로 확인했다. 장비 강화석 스프라이트의 파일 ID와 연결을 확인했다. 실제 팝업 표시를 포함한 Play Mode 검증은 남아 있다.
+
+### 타이틀에서 로비로 넘어갈 때 로딩 화면 복구
+
+- 날짜 2026-11-25.
+- 타이틀 씬의 GameManager에 씬 전환용 로딩 오버레이와 참조를 다시 배치했다. 로딩 문구는 프로젝트 기본 Ansungtangmyun-Bold SDF를 사용하는 TMP로 표시한다.
+- GameManager는 로딩 오버레이 참조가 비어 있을 때 경고를 기록하고 씬을 활성화한다. 최소 표시 시간은 로딩 오버레이가 열린 경우에만 적용한다.

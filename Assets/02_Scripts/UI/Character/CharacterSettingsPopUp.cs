@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,10 +6,10 @@ public sealed class CharacterSettingsPopUp : MonoBehaviour
 {
     [SerializeField] private Slider _bgm;
     [SerializeField] private Slider _sfx;
-    [SerializeField] private Text _bgmValue;
-    [SerializeField] private Text _sfxValue;
-    [SerializeField] private Text _damageValue;
-    [SerializeField] private Text _status;
+    [SerializeField] private TextMeshProUGUI _bgmValue;
+    [SerializeField] private TextMeshProUGUI _sfxValue;
+    [SerializeField] private TextMeshProUGUI _damageValue;
+    [SerializeField] private TextMeshProUGUI _status;
 
     private void OnEnable()
     {

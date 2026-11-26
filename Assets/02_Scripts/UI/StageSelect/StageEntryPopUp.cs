@@ -1,9 +1,10 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public sealed class StageEntryPopUp : MonoBehaviour
 {
-    [SerializeField] private Text _message;
+    [SerializeField] private TextMeshProUGUI _message;
     private int _stageId;
 
     public void Show(int stageId, string stageName)

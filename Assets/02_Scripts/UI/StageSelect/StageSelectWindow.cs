@@ -1,11 +1,12 @@
+using TMPro;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public sealed class StageSelectWindow : MonoBehaviour, IWindowable
 {
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
     [SerializeField] private ScrollRect _scroll;
     [SerializeField] private StageCardView _cardTemplate;
     [SerializeField] private StageEntryPopUp _entryPopUp;

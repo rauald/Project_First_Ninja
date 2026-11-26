@@ -158,12 +158,14 @@ public sealed class BattleAwakeningEffect : MonoBehaviour
 
 
     // 풀을 생성할 때 창해범람의 물과 수룡 렌더러를 준비한다.
-    internal void ConfigureOcean(Texture2D dragonSheet, BattleMap map)
+    internal void ConfigureOcean(Texture2D dragonSheet, BattleMap map, Texture2D surfaceTexture,
+        Sprite whirlpoolSprite, Sprite eyeSprite)
     {
         var ocean = new GameObject("Ocean overflow");
         ocean.transform.SetParent(transform, false);
         _oceanOverflow = ocean.AddComponent<BattleOceanOverflowEffect>();
-        _oceanOverflow.Initialize(dragonSheet, _pixel, map, PARTICLE_SORT_ORDER);
+        _oceanOverflow.Initialize(dragonSheet, _pixel, map, PARTICLE_SORT_ORDER, surfaceTexture, whirlpoolSprite,
+            eyeSprite);
         ocean.SetActive(false);
     }
 

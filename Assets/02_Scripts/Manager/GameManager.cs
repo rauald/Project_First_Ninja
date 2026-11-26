@@ -11,7 +11,7 @@ public sealed class GameManager : Singleton<GameManager>
     private bool _isReady;
     private bool _isLoading;
     private bool _hasSettledStage;
-    private SceneLoadingOverlay _loadingOverlay;
+    [SerializeField] private SceneLoadingOverlay _loadingOverlay;
     private const float MIN_LOADING_SCREEN_SECONDS = 1f;
 
     public CharacterProgression Characters { get; private set; }
@@ -133,7 +133,7 @@ public sealed class GameManager : Singleton<GameManager>
             _title.SetProgress(0f);
         }
 
-        float overlayStartedAt = 0f;
+        float? overlayStartedAt = null;
         if (!fromTitle)
             overlayStartedAt = ShowLoadingOverlay();
 
@@ -199,7 +199,8 @@ public sealed class GameManager : Singleton<GameManager>
         }
 
         // 디스크가 빨라도 별도 화면을 최소 시간만큼 표시한 뒤 씬을 활성화한다.
-        while (Time.realtimeSinceStartup - overlayStartedAt < MIN_LOADING_SCREEN_SECONDS)
+        while (overlayStartedAt.HasValue
+            && Time.realtimeSinceStartup - overlayStartedAt.Value < MIN_LOADING_SCREEN_SECONDS)
             yield return null;
 
         operation.allowSceneActivation = true;
@@ -209,11 +210,15 @@ public sealed class GameManager : Singleton<GameManager>
     }
 
     // 타이틀 진행 표시와 독립적으로 사용하는 씬 공통 로딩 화면이다.
-    private float ShowLoadingOverlay()
+    private float? ShowLoadingOverlay()
     {
         if (_loadingOverlay == null)
-            _loadingOverlay = SceneLoadingOverlay.Create(transform);
-        _loadingOverlay.Show();
+        {
+            Debug.LogWarning("로딩 화면이 연결되지 않아 씬 전환을 바로 진행합니다.", this);
+            return null;
+        }
+
+        _loadingOverlay.Show(GetComponent<SceneLoadingArtwork>());
         return Time.realtimeSinceStartup;
     }
 

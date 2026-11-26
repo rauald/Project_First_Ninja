@@ -1,3 +1,4 @@
+using TMPro;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,17 +11,17 @@ public sealed class CharacterPopUp : MonoBehaviour
     [SerializeField] private Button _equip;
     [SerializeField] private Button[] _growthButtons;
     [SerializeField] private GameObject _skillPanel;
-    [SerializeField] private Text _skillTitle;
-    [SerializeField] private Text _skillDescription;
+    [SerializeField] private TextMeshProUGUI _skillTitle;
+    [SerializeField] private TextMeshProUGUI _skillDescription;
     [SerializeField] private Image _skillIcon;
     [SerializeField] private GameObject _confirmPanel;
-    [SerializeField] private Text _confirmText;
+    [SerializeField] private TextMeshProUGUI _confirmText;
     [SerializeField] private Button _confirm;
     [SerializeField] private Button _cancel;
 
     [SerializeField] private Button _messageConfirm;
     [SerializeField] private Image[] _materialIcons;
-    [SerializeField] private Text[] _materialAmounts;
+    [SerializeField] private TextMeshProUGUI[] _materialAmounts;
     [Tooltip("캐릭터 성장 확인 창에서 은자 비용을 표시하는 아이콘입니다.")]
     [SerializeField] private Sprite _silverIcon;
     [Tooltip("캐릭터 성장 확인 창에서 금자 비용을 표시하는 아이콘입니다.")]
@@ -53,7 +54,7 @@ public sealed class CharacterPopUp : MonoBehaviour
         _detail.RefreshCharacter(_window.GetPresentation(_characterId), slot => ShowSkill(_characterId, slot, true));
         CharacterProgressData state = characters.GetCharacter(_characterId);
         _equip.interactable = state.IsAvailable && characters.Data.EquippedCharacterId != _characterId;
-        _equip.GetComponentInChildren<Text>().text = characters.Data.EquippedCharacterId == _characterId ? "장착 중" : "장착";
+        _equip.GetComponentInChildren<TextMeshProUGUI>().text = characters.Data.EquippedCharacterId == _characterId ? "장착 중" : "장착";
         for (int i = 0; i < _growthButtons.Length; i++)
         {
             _growthButtons[i].interactable = characters.GetGrowthCost(_characterId, (CharacterGrowthType)i, out _, out _);
@@ -91,20 +92,14 @@ public sealed class CharacterPopUp : MonoBehaviour
             int slot = cost.Count == 1 ? 0 : i + 1;
             CharacterMaterialData item = cost[i];
             long owned = characters.GetAmount(item.ItemType, item.DetailType);
-            Image icon = _materialIcons[slot];
-            Text amount = _materialAmounts[slot];
-            icon.sprite = item.ItemType switch
+            Sprite sprite = item.ItemType switch
             {
                 0 => item.DetailType == 0 ? _silverIcon : _goldIcon,
                 1 => _fragmentIcons[item.DetailType],
                 _ => _stoneIcons[item.DetailType]
             };
-            amount.text = item.ItemType == 0
-                ? $"{CurrencyFormatter.Format(owned)} / {CurrencyFormatter.Format(item.Amount)}"
-                : $"{owned:N0} / {item.Amount:N0}";
-            amount.color = owned >= item.Amount ? Color.white : new Color(1f, .3f, .3f);
-            icon.gameObject.SetActive(true);
-            amount.gameObject.SetActive(true);
+            new GrowthMaterialRow(_materialIcons[slot], _materialAmounts[slot])
+                .Show(sprite, owned, item.Amount, item.ItemType == 0);
         }
 
         _confirmPanel.SetActive(true);
@@ -147,8 +142,7 @@ public sealed class CharacterPopUp : MonoBehaviour
         _messageConfirm.gameObject.SetActive(!isConfirming);
         for (int i = 0; i < _materialIcons.Length; i++)
         {
-            _materialIcons[i].gameObject.SetActive(false);
-            _materialAmounts[i].gameObject.SetActive(false);
+            new GrowthMaterialRow(_materialIcons[i], _materialAmounts[i]).Hide();
         }
     }
 

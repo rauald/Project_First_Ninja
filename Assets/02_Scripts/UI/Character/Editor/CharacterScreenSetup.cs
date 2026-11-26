@@ -1,4 +1,5 @@
 #if UNITY_EDITOR
+using TMPro;
 using System;
 using System.Linq;
 using UnityEditor;
@@ -49,8 +50,8 @@ public static class CharacterScreenSetup
 
         Transform top = Object.Instantiate(lobby.Find("TopBar"), root);
         top.name = "TopBar";
-        Text gold = ReplaceAmount(top, "GeumjaAmount");
-        Text silver = ReplaceAmount(top, "EunjaAmount");
+        TextMeshProUGUI gold = ReplaceAmount(top, "GeumjaAmount");
+        TextMeshProUGUI silver = ReplaceAmount(top, "EunjaAmount");
         Button settings = FindBelow(top, "SettingsButton").GetComponent<Button>();
         settings.onClick = new Button.ButtonClickedEvent();
         UnityEventTools.AddPersistentListener(settings.onClick, window.OpenSettings);
@@ -72,11 +73,11 @@ public static class CharacterScreenSetup
             CharacterInventorySlot item = slot.gameObject.AddComponent<CharacterInventorySlot>();
             Image portrait = Image("Portrait", slot.transform, .06f, .25f, .94f, .95f, Color.white, presentations[i].Portrait);
             portrait.preserveAspect = true;
-            Text label = Label("NameLevel", slot.transform, .02f, .01f, .98f, .28f, "", 25, Color.white);
-            label.alignment = TextAnchor.UpperCenter;
+            TextMeshProUGUI label = Label("NameLevel", slot.transform, .02f, .01f, .98f, .28f, "", 25, Color.white);
+            label.alignment = TextAlignmentOptions.Top;
             CharacterLevelView level = BuildLevel(label.transform, .18f, 0f, .82f, .53f);
-            Text locked = Label("Locked", slot.transform, .16f, .48f, .84f, .70f, "잠금", 26, Color.white);
-            Text equipped = Label("Equipped", slot.transform, .02f, .78f, .98f, .99f, "장착 중", 24, new Color(1f, .85f, .3f));
+            TextMeshProUGUI locked = Label("Locked", slot.transform, .16f, .48f, .84f, .70f, "잠금", 26, Color.white);
+            TextMeshProUGUI equipped = Label("Equipped", slot.transform, .02f, .78f, .98f, .99f, "장착 중", 24, new Color(1f, .85f, .3f));
             Set(item, "_portrait", portrait, "_label", label, "_level", level, "_lock", locked.gameObject, "_equipped", equipped.gameObject, "_button", button);
             slots[i] = item;
         }
@@ -99,16 +100,16 @@ public static class CharacterScreenSetup
 
         Transform skillOverlay = Overlay("SkillOverlay", modal);
         Image skill = Image("SkillPanel", skillOverlay, .10f, .24f, .90f, .76f, PANEL);
-        Text skillTitle = Label("Title", skill.transform, .05f, .84f, .80f, .96f, "스킬", 38, INK);
+        TextMeshProUGUI skillTitle = Label("Title", skill.transform, .05f, .84f, .80f, .96f, "스킬", 38, INK);
         Image skillIcon = Image("Icon", skill.transform, .37f, .61f, .63f, .83f, Color.white);
         skillIcon.preserveAspect = true;
-        Text skillDescription = Label("Description", skill.transform, .07f, .11f, .93f, .58f, "", 30, INK);
+        TextMeshProUGUI skillDescription = Label("Description", skill.transform, .07f, .11f, .93f, .58f, "", 30, INK);
         Button skillClose = Button("Close", skill.transform, .78f, .86f, .97f, .97f, "닫기");
         UnityEventTools.AddPersistentListener(skillClose.onClick, popup.CloseSkill);
 
         Transform confirmOverlay = Overlay("ConfirmationOverlay", modal);
         Image confirmPanel = Image("Confirmation", confirmOverlay, .10f, .28f, .90f, .72f, DARK);
-        Text confirmText = Label("Message", confirmPanel.transform, .06f, .55f, .94f, .86f, "", 30, Color.white);
+        TextMeshProUGUI confirmText = Label("Message", confirmPanel.transform, .06f, .55f, .94f, .86f, "", 30, Color.white);
         Button confirm = Button("Confirm", confirmPanel.transform, .07f, .06f, .47f, .22f, "확인");
         Button cancel = Button("Cancel", confirmPanel.transform, .53f, .06f, .93f, .22f, "취소");
         Button messageConfirm = Button("MessageConfirm", confirmPanel.transform, .30f, .06f, .70f, .22f, "확인");
@@ -123,7 +124,7 @@ public static class CharacterScreenSetup
         string[] slotNames = { "Center", "Left", "Right" };
         float[] slotCenters = { .50f, .27f, .73f };
         Image[] materialIcons = new Image[3];
-        Text[] materialAmounts = new Text[3];
+        TextMeshProUGUI[] materialAmounts = new TextMeshProUGUI[3];
         for (int i = 0; i < slotNames.Length; i++)
         {
             float x = slotCenters[i];
@@ -162,8 +163,8 @@ public static class CharacterScreenSetup
         SetArray(window, "_slots", slots);
         SetPresentations(window, presentations);
         LobbyWindow lobbyWindow = lobby.GetComponent<LobbyWindow>();
-        Text lobbySilver = ReplaceAmount(lobby.Find("TopBar"), "EunjaAmount");
-        Text lobbyGold = ReplaceAmount(lobby.Find("TopBar"), "GeumjaAmount");
+        TextMeshProUGUI lobbySilver = ReplaceAmount(lobby.Find("TopBar"), "EunjaAmount");
+        TextMeshProUGUI lobbyGold = ReplaceAmount(lobby.Find("TopBar"), "GeumjaAmount");
         Set(lobbyWindow, "_characterWindow", window, "_silver", lobbySilver, "_gold", lobbyGold);
 
         EditorSceneManager.MarkSceneDirty(scene);
@@ -207,7 +208,7 @@ public static class CharacterScreenSetup
         portrait.preserveAspect = true;
         Animator animator = portrait.gameObject.AddComponent<Animator>();
         animator.updateMode = AnimatorUpdateMode.UnscaledTime;
-        Text title = Label("Name", root, .03f, .87f, .95f, 1f, "캐릭터", 38, INK);
+        TextMeshProUGUI title = Label("Name", root, .03f, .87f, .95f, 1f, "캐릭터", 38, INK);
         Transform badges = Rect("RankLevelElement", root, .43f, .73f, .99f, .87f);
         Sprite[] elements = new[]
         {
@@ -228,7 +229,7 @@ public static class CharacterScreenSetup
             float left = .125f + .15f * i;
             starImages[i] = Badge($"Star_{i + 1}", stars, left, .12f, left + .15f, .88f, emptyStar);
         }
-        Text[] stats = new Text[3];
+        TextMeshProUGUI[] stats = new TextMeshProUGUI[3];
         for (int i = 0; i < stats.Length; i++)
         {
             float bottom = .49f - .12f * i;
@@ -296,18 +297,18 @@ public static class CharacterScreenSetup
         Label("Title", panel.transform, .1f, .86f, .8f, .98f, "환경 설정", 38, INK);
         Button close = Button("Close", panel.transform, .79f, .87f, .98f, .98f, "닫기");
         UnityEventTools.AddPersistentListener(close.onClick, settings.Close);
-        Text bgmValue = Label("BgmValue", panel.transform, .08f, .72f, .92f, .82f, "BGM", 32, INK);
-        Text sfxValue = Label("SfxValue", panel.transform, .08f, .46f, .92f, .56f, "SFX", 32, INK);
+        TextMeshProUGUI bgmValue = Label("BgmValue", panel.transform, .08f, .72f, .92f, .82f, "BGM", 32, INK);
+        TextMeshProUGUI sfxValue = Label("SfxValue", panel.transform, .08f, .46f, .92f, .56f, "SFX", 32, INK);
         Slider bgm = BuildSlider(panel.transform, "Bgm", .60f, .70f);
         Slider sfx = BuildSlider(panel.transform, "Sfx", .34f, .44f);
         UnityEventTools.AddPersistentListener(bgm.onValueChanged, settings.SetVolume);
         UnityEventTools.AddPersistentListener(sfx.onValueChanged, settings.SetVolume);
-        Text damage = Label("DamageValue", panel.transform, .08f, .22f, .92f, .32f, "데미지 폰트", 30, INK);
+        TextMeshProUGUI damage = Label("DamageValue", panel.transform, .08f, .22f, .92f, .32f, "데미지 폰트", 30, INK);
         Button off = Button("DamageOff", panel.transform, .08f, .11f, .47f, .21f, "OFF");
         Button on = Button("DamageOn", panel.transform, .53f, .11f, .92f, .21f, "ON");
         UnityEventTools.AddIntPersistentListener(off.onClick, settings.SetDamageText, 0);
         UnityEventTools.AddIntPersistentListener(on.onClick, settings.SetDamageText, 1);
-        Text status = Label("Status", panel.transform, .04f, .01f, .96f, .10f, "", 25, INK);
+        TextMeshProUGUI status = Label("Status", panel.transform, .04f, .01f, .96f, .10f, "", 25, INK);
         Set(settings, "_bgm", bgm, "_sfx", sfx, "_bgmValue", bgmValue, "_sfxValue", sfxValue, "_damageValue", damage, "_status", status);
         modal.gameObject.SetActive(false);
         return modal;
@@ -332,11 +333,15 @@ public static class CharacterScreenSetup
         return slider;
     }
 
-    private static Text ReplaceAmount(Transform top, string name)
+    private static TextMeshProUGUI ReplaceAmount(Transform top, string name)
     {
         Transform original = FindBelow(top, name);
-        Object.DestroyImmediate(original.GetComponent<Image>());
-        Text text = original.gameObject.AddComponent<Text>();
+        TextMeshProUGUI text = original.GetComponent<TextMeshProUGUI>();
+        if (text == null)
+        {
+            Object.DestroyImmediate(original.GetComponent<Image>());
+            text = original.gameObject.AddComponent<TextMeshProUGUI>();
+        }
         ConfigureText(text, 34, INK);
         RectTransform rect = (RectTransform)original;
         SetBounds(rect, .38f, .15f, .96f, .85f);
@@ -384,23 +389,23 @@ public static class CharacterScreenSetup
         return image;
     }
 
-    private static Text Label(string name, Transform parent, float x0, float y0, float x1, float y1, string value, int size, Color color)
+    private static TextMeshProUGUI Label(string name, Transform parent, float x0, float y0, float x1, float y1, string value, int size, Color color)
     {
-        Text text = Rect(name, parent, x0, y0, x1, y1).gameObject.AddComponent<Text>();
+        TextMeshProUGUI text = Rect(name, parent, x0, y0, x1, y1).gameObject.AddComponent<TextMeshProUGUI>();
         ConfigureText(text, size, color);
         text.text = value;
         return text;
     }
 
-    private static void ConfigureText(Text text, int size, Color color)
+    private static void ConfigureText(TextMeshProUGUI text, int size, Color color)
     {
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.font = TMP_Settings.defaultFontAsset;
         text.fontSize = size;
         text.color = color;
-        text.alignment = TextAnchor.MiddleCenter;
+        text.alignment = TextAlignmentOptions.Center;
         text.raycastTarget = false;
-        text.horizontalOverflow = HorizontalWrapMode.Wrap;
-        text.verticalOverflow = VerticalWrapMode.Truncate;
+        text.textWrappingMode = TextWrappingModes.Normal;
+        text.overflowMode = TextOverflowModes.Truncate;
     }
 
     private static Button Button(string name, Transform parent, float x0, float y0, float x1, float y1, string text)

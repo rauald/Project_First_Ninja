@@ -339,4 +339,21 @@ public sealed class EquipmentInventory
 
         return false;
     }
+
+    public bool TryUnequip(EquipmentInstanceData item)
+    {
+        if (item == null || !item.IsEquipped || !_items.Contains(item))
+        {
+            return false;
+        }
+
+        item.IsEquipped = false;
+        if (_save())
+        {
+            return true;
+        }
+
+        item.IsEquipped = true;
+        return false;
+    }
 }

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,8 @@ public sealed class CharacterWindow : MonoBehaviour, IWindowable
     [SerializeField] private CharacterDetailView _detail;
     [SerializeField] private CharacterInventorySlot[] _slots;
     [SerializeField] private CharacterPopUp _characterPopUp;
-    [SerializeField] private Text _silver;
-    [SerializeField] private Text _gold;
+    [SerializeField] private TextMeshProUGUI _silver;
+    [SerializeField] private TextMeshProUGUI _gold;
 
     public CharacterPresentation GetPresentation(int id)
     {
